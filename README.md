@@ -1,5 +1,7 @@
 # Icarus Mods by AgentKush
 
+📥 **[modinfo.json](modinfo.json)** - Add this repo to JimK72's Mod Manager
+
 A collection of mods for [Icarus](https://store.steampowered.com/app/1149460/ICARUS/) using [JimK72's Mod Manager](https://github.com/Jimk72/Icarus_Mods) (EXMODZ format).
 
 ## Available Mods
