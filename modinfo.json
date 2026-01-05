@@ -1,0 +1,64 @@
+{
+  "mods": [
+    {
+      "name": "Agent's Items",
+      "author": "AgentKush",
+      "version": "4.9",
+      "compatibility": "w213",
+      "description": "Complete workshop expansion with 1,500+ items! Adds a new 'Agents Items' tab with all tools, weapons, armor, resources, vestiges, and more. Tiered pricing with Credits.",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Items/Agents_Items.EXMODZ"
+      },
+      "imageURL": "",
+      "readmeURL": "https://raw.githubusercontent.com/AgentKush/Icarus-mods/main/Agents_Items/README.md"
+    },
+    {
+      "name": "Agent's BioLab",
+      "author": "AgentKush",
+      "version": "1.7",
+      "compatibility": "w213",
+      "description": "Adds all 10 Bio Lab Legendary weapons to the Workshop! Includes Frontier Revolver, Kinetic Rifle, Tactical Bow, Mining Armature, Biotech Maul, Heavy Flamethrower, Anti-materiel Rifle, Javelin Launcher, Slug Launcher, and Ice Mammoth Sledgehammer. All purchasable for 1,000 Exotics each.",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_BioLab/Agents_BioLab.EXMODZ"
+      },
+      "imageURL": "",
+      "readmeURL": "https://raw.githubusercontent.com/AgentKush/Icarus-mods/main/Agents_BioLab/README.md"
+    },
+    {
+      "name": "FastProcessing All 10x",
+      "author": "AgentKush",
+      "version": "2.0",
+      "compatibility": "w213",
+      "description": "Makes ALL crafting and processing 10x faster! Covers 1,057 recipes including cooking, smelting, crafting attachments, and more. No more waiting!",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_10x/FastProcessing_All_10x.EXMODZ"
+      },
+      "imageURL": "",
+      "readmeURL": "https://raw.githubusercontent.com/AgentKush/Icarus-mods/main/FastProcessing_All_10x/README.md"
+    },
+    {
+      "name": "Indestructible Tools & Weapons",
+      "author": "AgentKush",
+      "version": "1.2",
+      "compatibility": "w213",
+      "description": "Makes all tools, weapons, armor, buildings, doors, and crafting stations virtually indestructible. Sets durability to the game's maximum cap of 12,700,000.",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Indestructible_Tools_Weapons/Indestructible_Tools_Weapons.EXMODZ"
+      },
+      "imageURL": "",
+      "readmeURL": "https://raw.githubusercontent.com/AgentKush/Icarus-mods/main/Indestructible_Tools_Weapons/README.md"
+    },
+    {
+      "name": "No Food Spoilage",
+      "author": "AgentKush",
+      "version": "1.0",
+      "compatibility": "w213",
+      "description": "Prevents all food items from spoiling in your inventory. Meat, fish, vegetables, and all other perishables will last forever!",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/No_Food_Spoilage/No_Food_Spoilage.EXMODZ"
+      },
+      "imageURL": "",
+      "readmeURL": "https://raw.githubusercontent.com/AgentKush/Icarus-mods/main/No_Food_Spoilage/README.md"
+    }
+  ]
+}

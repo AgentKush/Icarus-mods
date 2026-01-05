@@ -68,7 +68,7 @@ These mods are designed to work together. If using multiple mods, merge them all
 
 ## Credits
 
-- **Author:** AgentKush
+- **Author:** [AgentKush](https://github.com/AgentKush)
 - **Mod Manager:** [JimK72](https://github.com/Jimk72/Icarus_Mods)
 - **Icarus Modding Community:** [Linkarus Discord](https://discord.com/invite/linkarus-icarus-modding-936621749733302292)
 

@@ -1,6 +1,3 @@
-# Compiled mods
-*.EXMODZ
-
 # Mod Manager temp files
 *.pak
 *.bak
@@ -15,3 +12,7 @@ desktop.ini
 # IDE
 .vscode/
 .idea/
+
+# Build folders
+Extracted Mods/
+copy_mods.bat
