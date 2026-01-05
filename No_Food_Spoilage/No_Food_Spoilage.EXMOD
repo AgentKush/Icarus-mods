@@ -1,0 +1,156 @@
+{
+    "name": "No Food Spoilage",
+    "author": "AgentKush",
+    "version": "1.0",
+    "description": "Prevents all food items from spoiling. Meat, fish, vegetables, and all other perishables will last forever.",
+    "fileName": "No_Food_Spoilage",
+    "imageURL": "",
+    "readmeURL": "",
+    "Level2": "True",
+    "Rows": [
+        {
+            "CurrentFile": "Traits-D_Decayable.json",
+            "File_Items": [
+                {
+                    "Name": "Decay_Raw_Meat",
+                    "DecayTime": 300,
+                    "SpoilTime": 0,
+                    "SpoiledItem": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemTemplate"
+                    }
+                },
+                {
+                    "Name": "Decay_CookedMeat_Generic",
+                    "DecayTime": 300,
+                    "SpoilTime": 0,
+                    "SpoiledItem": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemTemplate"
+                    }
+                },
+                {
+                    "Name": "Decay_Food_Generic",
+                    "DecayTime": 300,
+                    "SpoilTime": 0
+                },
+                {
+                    "Name": "Decay_Food_OneDay",
+                    "DecayTime": 300,
+                    "SpoilTime": 0
+                },
+                {
+                    "Name": "Decay_Food_ThreeDay",
+                    "DecayTime": 300,
+                    "SpoilTime": 0
+                },
+                {
+                    "Name": "Decay_Ice",
+                    "DecayTime": 300,
+                    "SpoilTime": 0
+                },
+                {
+                    "Name": "Decay_Coconut_Young",
+                    "DecayTime": 600,
+                    "SpoilTime": 0,
+                    "SpoiledItem": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemTemplate"
+                    }
+                },
+                {
+                    "Name": "Decay_Coconut_Mid",
+                    "DecayTime": 600,
+                    "SpoilTime": 0,
+                    "SpoiledItem": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemTemplate"
+                    }
+                },
+                {
+                    "Name": "Decay_Coconut_Mature",
+                    "DecayTime": 600,
+                    "SpoilTime": 0,
+                    "SpoiledItem": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemTemplate"
+                    }
+                },
+                {
+                    "Name": "Decay_Bait",
+                    "DecayTime": 600,
+                    "SpoilTime": 0
+                },
+                {
+                    "Name": "Decay_Fruit_Vegetable",
+                    "DecayTime": 300,
+                    "SpoilTime": 0,
+                    "SpoiledItem": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemTemplate"
+                    }
+                },
+                {
+                    "Name": "Decay_Dried_Meat",
+                    "DecayTime": 300,
+                    "SpoilTime": 0,
+                    "SpoiledItem": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemTemplate"
+                    }
+                },
+                {
+                    "Name": "Decay_Dried_Vegetable",
+                    "DecayTime": 300,
+                    "SpoilTime": 0,
+                    "SpoiledItem": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemTemplate"
+                    }
+                },
+                {
+                    "Name": "Decay_Smoked_Meat",
+                    "DecayTime": 300,
+                    "SpoilTime": 0,
+                    "SpoiledItem": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemTemplate"
+                    }
+                },
+                {
+                    "Name": "Decay_Raw_Chicken",
+                    "DecayTime": 300,
+                    "SpoilTime": 0,
+                    "SpoiledItem": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemTemplate"
+                    }
+                },
+                {
+                    "Name": "Decay_Frozen_Food",
+                    "DecayTime": 200,
+                    "SpoilTime": 0
+                },
+                {
+                    "Name": "Decay_Milk",
+                    "DecayTime": 300,
+                    "SpoilTime": 0,
+                    "bEmptyContainer": true
+                },
+                {
+                    "Name": "Decay_Cream",
+                    "DecayTime": 300,
+                    "SpoilTime": 0
+                },
+                {
+                    "Name": "Decay_Dried_Fish",
+                    "DecayTime": 300,
+                    "SpoilTime": 0
+                }
+            ]
+        },
+        {
+            "CurrentFile": "EndOfMod"
+        }
+    ]
+}

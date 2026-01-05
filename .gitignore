@@ -1,2 +1,17 @@
-README.md
-*.md
+# Compiled mods
+*.EXMODZ
+
+# Mod Manager temp files
+*.pak
+*.bak
+TempDownload/
+tempMod/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/

@@ -1,105 +1,84 @@
-# AgentKush's Icarus Mods
+# Icarus Mods by AgentKush
 
-A collection of quality-of-life and gameplay mods for **Icarus** by AgentKush.
+A collection of mods for [Icarus](https://store.steampowered.com/app/1149460/ICARUS/) using [JimK72's Mod Manager](https://github.com/Jimk72/Icarus_Mods) (EXMODZ format).
 
-## 📦 Mods Included
+## Available Mods
 
-| Mod | Version | Description |
-|-----|---------|-------------|
-| [Agents BioLab](./Agents_BioLab) | v1.7 | All 10 Bio Lab legendary weapons in the Workshop |
-| [Agents Items](./Agents_Items) | v4.9 | Complete workshop expansion with hundreds of items |
-| [Fast Processing 10x](./FastProcessing_All_10x) | v2.0 | 10x faster crafting, smelting, and processing |
-| [Indestructible Tools & Weapons](./Indestructible_Tools_Weapons) | v1.2 | All tools, weapons, armor never break |
-| [No Food Spoilage](./No_Food_Spoilage) | v1.0 | Food never spoils in inventory |
+| Mod | Description | Version |
+|-----|-------------|---------|
+| [Agent's Items](./Agents_Items) | Complete Workshop with 1,500+ items, tiered pricing | v4.9 |
+| [Agent's BioLab](./Agents_BioLab) | All 10 Bio Lab Legendary weapons in the Workshop | v1.7 |
+| [FastProcessing All 10x](./FastProcessing_All_10x) | 10x faster crafting/smelting (1,057 recipes) | v2.0 |
+| [Indestructible Tools & Weapons](./Indestructible_Tools_Weapons) | Everything has max durability (12.7M) | v1.2 |
+| [No Food Spoilage](./No_Food_Spoilage) | Food never spoils in your inventory | v1.0 |
 
-## 🔧 Requirements
+## Installation
 
-All mods require:
-- **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus-Mod-Manager)**
-- **Icarus** game (Steam)
+### Requirements
+- [Icarus](https://store.steampowered.com/app/1149460/ICARUS/) (Steam)
+- [JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Mods)
 
-## 📥 Installation
-
-### Using Mod Manager (Recommended)
-1. Download the `.EXMODZ` file for the mod(s) you want
-2. Open JimK72's Icarus Mod Manager
-3. Click "Import" and select the `.EXMODZ` file
-4. Enable the mod in the list
+### Steps
+1. Download the `.EXMOD` file(s) you want
+2. Place them in your Mod Manager's `Extracted_Mods` folder
+   - Default: `Icarus_Mod_Manager_X_X_X/Extracted_Mods/`
+3. Open JimK72's Mod Manager
+4. Enable the mod(s) you want
 5. Click "Merge" then "Install"
 6. Launch Icarus!
 
-### Manual Installation
-1. Extract the `.EXMODZ` file (it's a ZIP archive)
-2. Copy the `Extracted Mods` folder contents to your Mod Manager's `Extracted_Mods` directory
-3. Follow steps 4-6 above
+## Mod Details
 
-## 🎮 Mod Details
+### Agent's Items
+Massive Workshop expansion with 1,500+ items. Adds a new "Agents Items" tab with:
+- All tools, weapons, armor, and resources
+- Vestiges and rare collectibles
+- Tiered pricing (Credits)
 
 ### Agent's BioLab
-Unlocks all Bio Lab Legendary weapons in the Workshop:
-- Frontier Revolver, Kinetic Rifle, Tactical Crossbow
+Workshop tab with all 10 Bio Lab Legendary weapons:
+- Frontier Revolver, Kinetic Rifle, Tactical Bow
 - Mining Armature, Biotech Maul, Heavy Flamethrower
-- Tactical Bow, Anti-materiel Rifle, Slug Launcher, Ice Mammoth Sledgehammer
+- Anti-materiel Rifle, Javelin Launcher, Slug Launcher
+- Ice Mammoth Sledgehammer
 
-**Cost:** 1000 Exotics each
+All purchasable for 1,000 Exotics each.
 
-### Agents Items
-Complete workshop expansion with tier-based pricing:
-- All resources, materials, and components
-- All armor sets (organized)
-- All Vestiges
-- No duplicates
-
-### Fast Processing 10x
-1,057+ recipes modified for 10x faster crafting:
-- Smelting (ingots)
-- Cooking (meat, food)
-- Crafting (weapons, armor, tools)
-- Processing (materials)
+### FastProcessing All 10x
+Makes everything process 10x faster:
+- Smelting, cooking, crafting
+- 1,057 recipes modified
+- No more waiting!
 
 ### Indestructible Tools & Weapons
-Sets all durability to 12,700,000 (game maximum):
-- All tools (axes, pickaxes, knives, etc.)
-- All weapons (melee and ranged)
-- All armor sets
-- All buildings and deployables
+Sets max durability (12,700,000) for:
+- All tools and weapons
+- All armor and shields
+- All buildings, doors, and crafting stations
 
 ### No Food Spoilage
-Prevents food from spoiling:
-- Raw and cooked meat
-- Fish, vegetables, fruits
-- Dairy products
-- All other perishables
+Stops food from spoiling:
+- All meat, fish, vegetables
+- All cooked and dried foods
+- Ice, milk, cream, etc.
 
-## 🤝 Compatibility
+## Compatibility
 
-These mods are designed to work together! They modify different game files:
+These mods are designed to work together. If using multiple mods, merge them all at once using the Mod Manager.
 
-| Mod | Files Modified |
-|-----|----------------|
-| Agents BioLab | D_WorkshopItems, D_TalentArchetypes, D_Talents, D_TalentTrees |
-| Agents Items | D_WorkshopItems, D_TalentArchetypes, D_Talents, D_TalentTrees |
-| Fast Processing | D_ProcessorRecipes |
-| Indestructible | D_Durable |
-| No Food Spoilage | D_Decayable |
+## Credits
 
-## 📝 Changelog
+- **Author:** AgentKush
+- **Mod Manager:** [JimK72](https://github.com/Jimk72/Icarus_Mods)
+- **Icarus Modding Community:** [Linkarus Discord](https://discord.com/invite/linkarus-icarus-modding-936621749733302292)
 
-See individual mod folders for detailed changelogs.
+## License
 
-## 📄 License
+Free to use and modify. Credit appreciated!
 
-All mods are free to use, modify, and distribute. Credit appreciated!
+## Support
 
-## 🙏 Credits
-
-- **AgentKush** - Mod author
-- **JimK72** - Icarus Mod Manager
-- **Linkarus Discord** - Modding community and resources
-- **RocketWerkz** - Icarus game
-
-## 🐛 Issues & Feedback
-
-If you encounter any issues or have suggestions, open an issue on this repository.
-
-Enjoy your enhanced Icarus experience! 🚀
+If you encounter issues:
+1. Ensure you're using the latest version of JimK72's Mod Manager
+2. Re-extract and re-merge the mods
+3. Check the [Linkarus Discord](https://discord.com/invite/linkarus-icarus-modding-936621749733302292) for help

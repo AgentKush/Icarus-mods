@@ -1,0 +1,44 @@
+{
+    "name": "Indestructible Tools & Weapons",
+    "author": "AgentKush",
+    "version": "1.2",
+    "description": "All tools, weapons, armor, buildings, doors, and crafting stations will never break. Sets durability to max cap (12,700,000).",
+    "fileName": "Indestructible_Tools_Weapons",
+    "imageURL": "",
+    "readmeURL": "",
+    "Level2": "True",
+    "Rows": [
+        {
+            "CurrentFile": "Traits-D_Durable.json",
+            "File_Items": [
+                {"Name": "Stone_Axe", "Max_Durability": 12700000, "ItemsForRepair": [{"Item": {"RowName": "Stone", "DataTableName": "D_ItemsStatic"}, "Amount": 1}]},
+                {"Name": "Metal_Axe", "Max_Durability": 12700000, "ItemsForRepair": [{"Item": {"RowName": "Refined_Metal", "DataTableName": "D_ItemsStatic"}, "Amount": 1}]},
+                {"Name": "Steel_Axe", "Max_Durability": 12700000, "ItemsForRepair": [{"Item": {"RowName": "Steel_Ingot", "DataTableName": "D_ItemsStatic"}, "Amount": 1}]},
+                {"Name": "Titanium_Axe", "Max_Durability": 12700000, "ItemsForRepair": [{"Item": {"RowName": "Titanium_Ingot", "DataTableName": "D_ItemsStatic"}, "Amount": 1}]},
+                {"Name": "Platinum_Axe", "Max_Durability": 12700000, "ItemsForRepair": [{"Item": {"RowName": "Platinum_Ingot", "DataTableName": "D_ItemsStatic"}, "Amount": 1}]},
+                {"Name": "Meta_Axe", "Max_Durability": 12700000, "ItemsForRepair": [{"Item": {"RowName": "Meta_Repair_Item", "DataTableName": "D_ItemsStatic"}, "Amount": 1}], "NoRecipe_RequiredRecipeSet": [{"RowName": "Repair_Bench", "DataTableName": "D_RecipeSets"}]},
+                {"Name": "Slug_Axe", "Max_Durability": 12700000, "ItemsForRepair": [{"Item": {"RowName": "Titanium_Ingot", "DataTableName": "D_ItemsStatic"}, "Amount": 1}]},
+                {"Name": "Stone_Pickaxe", "Max_Durability": 12700000, "ItemsForRepair": [{"Item": {"RowName": "Stone", "DataTableName": "D_ItemsStatic"}, "Amount": 1}]},
+                {"Name": "Metal_Pickaxe", "Max_Durability": 12700000, "ItemsForRepair": [{"Item": {"RowName": "Refined_Metal", "DataTableName": "D_ItemsStatic"}, "Amount": 1}]},
+                {"Name": "Steel_Pickaxe", "Max_Durability": 12700000, "ItemsForRepair": [{"Item": {"RowName": "Steel_Ingot", "DataTableName": "D_ItemsStatic"}, "Amount": 1}]},
+                {"Name": "Titanium_Pickaxe", "Max_Durability": 12700000, "ItemsForRepair": [{"Item": {"RowName": "Titanium_Ingot", "DataTableName": "D_ItemsStatic"}, "Amount": 1}]},
+                {"Name": "Platinum_Pickaxe", "Max_Durability": 12700000, "ItemsForRepair": [{"Item": {"RowName": "Platinum_Ingot", "DataTableName": "D_ItemsStatic"}, "Amount": 1}]},
+                {"Name": "Meta_Pickaxe", "Max_Durability": 12700000, "ItemsForRepair": [{"Item": {"RowName": "Meta_Repair_Item", "DataTableName": "D_ItemsStatic"}, "Amount": 1}], "NoRecipe_RequiredRecipeSet": [{"RowName": "Repair_Bench", "DataTableName": "D_RecipeSets"}]},
+                {"Name": "Scyther_Pickaxe", "Max_Durability": 12700000, "ItemsForRepair": [{"Item": {"RowName": "Scyther_Appendage", "DataTableName": "D_ItemsStatic"}, "Amount": 1}]},
+                {"Name": "Deployable", "Max_Durability": 12700000, "Destroyed_At_Zero": true},
+                {"Name": "Deployable_100", "Max_Durability": 12700000, "Destroyed_At_Zero": true},
+                {"Name": "Deployable_250", "Max_Durability": 12700000, "Destroyed_At_Zero": true},
+                {"Name": "Deployable_500", "Max_Durability": 12700000, "Destroyed_At_Zero": true},
+                {"Name": "Deployable_750", "Max_Durability": 12700000, "Destroyed_At_Zero": true},
+                {"Name": "Deployable_1000", "Max_Durability": 12700000, "Destroyed_At_Zero": true},
+                {"Name": "Deployable_1250", "Max_Durability": 12700000, "Destroyed_At_Zero": true},
+                {"Name": "Deployable_1500", "Max_Durability": 12700000, "Destroyed_At_Zero": true},
+                {"Name": "Deployable_2000", "Max_Durability": 12700000, "Destroyed_At_Zero": true},
+                {"Name": "Deployable_2500", "Max_Durability": 12700000, "Destroyed_At_Zero": true},
+                {"Name": "Deployable_5000", "Max_Durability": 12700000, "Destroyed_At_Zero": true},
+                {"Name": "Deployable_10000", "Max_Durability": 12700000, "Destroyed_At_Zero": true}
+            ]
+        },
+        {"CurrentFile": "EndOfMod"}
+    ]
+}
