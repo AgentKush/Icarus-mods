@@ -25,7 +25,7 @@
 
 | Mod | Description | Version |
 |:---:|:------------|:-------:|
-| 🎯 **[Individual Item Kits](./Agents_Individual_Item_Kits)** | 1,501 single-item kits - get exactly what you need! | `v1.0` ⭐ NEW |
+| 🎯 **[Individual Item Kits](./Agents_Individual_Item_Kits)** | 1,396 single-item kits with fair pricing | `v2.0` |
 | 🔬 **[Agent's BioLab](./Agents_BioLab)** | All 10 Bio Lab Legendary weapons | `v1.7` |
 | ⚡ **[FastProcessing 10x](./FastProcessing_All_10x)** | 10x faster crafting & smelting | `v2.0` |
 | 🛡️ **[Indestructible Tools](./Indestructible_Tools_Weapons)** | Max durability for everything | `v1.3` |
@@ -33,50 +33,72 @@
 
 ---
 
-## 🎯 Individual Item Kits `v1.0` ⭐ NEW!
+## 🎯 Individual Item Kits `v2.0`
 
-> **1,501 single-item kits - buy exactly what you need!**
+> **1,396 craftable & raw item kits - fairly priced by complexity!**
 
-Every item has its own dedicated kit! No more getting 91 items when you just need some Iron Ore. Each kit contains exactly **one specific item**, giving you complete control over your loadout.
+Every obtainable item has its own dedicated kit! Each kit contains exactly **one specific item**, giving you complete control over your loadout. Only includes items you can actually craft or gather in Open World.
 
-### Why Individual Kits?
-- ✅ **Precision** - Buy only what you need
-- ✅ **Survives Dropship** - All kits survive landing (Kit system)
-- ✅ **Low Cost** - 10 credits research, 5 credits per kit
-- ✅ **Every Item** - All 1,501 workshop items available
+### What's New in v2.0
+- ✅ **Craftable & Raw Items Only** - Removed unobtainable items (mission items, etc.)
+- ✅ **Fair Pricing** - Items priced based on rarity and crafting complexity
+- ✅ **Organized Categories** - 73 detailed subcategories with visual spacing
+- ✅ **Searchable** - Use workshop search to find any item quickly
 
-### Item Categories:
+### Pricing Tiers
 
-| Category | Kits | Category | Kits |
-|:---------|-----:|:---------|-----:|
-| 🪨 Raw Resources | 91 | 🧪 Processed Materials | 50 |
-| 🌱 Seeds & Farming | 33 | 🪓 Stone/Bone Tools | 19 |
-| ⚒️ Metal Tools | 80 | 🏹 Ranged Weapons | 41 |
-| 🔫 Firearms & Ammo | 45 | 🥋 Basic Armor | 30 |
-| 🛡️ Advanced Armor | 41 | 🐻 Creature Armor | 53 |
-| 🥩 Raw Food | 18 | 🍳 Cooked Food | 93 |
-| 💊 Medicine | 24 | ⚙️ Attachments | 81 |
-| 🛡️ Shields & Defense | 24 | 📦 Containers | 32 |
-| 🔨 Benches | 44 | ⚡ Machines & Power | 53 |
-| 💡 Lighting | 55 | 🪵 Building (Wood) | 53 |
-| 🧱 Building (Stone) | 53 | 🔩 Building (Metal) | 43 |
-| 🪑 Rustic Furniture | 37 | 🛋️ Modern Furniture | 48 |
-| 🖼️ Decorations | 51 | 🏆 Trophies & Heads | 192 |
-| 🐾 Animals & Pets | 69 | 🎣 Fishing | 28 |
-| 🔧 Utility Tools | 16 | 🪤 Traps | 4 |
+| Tier | Research | Replication | Examples |
+|:-----|:--------:|:-----------:|:---------|
+| 🪨 Basic Raw | 5 | 2 | Wood, Stone, Clay, Fiber, Berries |
+| ⛏️ Common Ores | 10 | 5 | Iron Ore, Copper Ore, Coal, Oxite |
+| 🥇 Uncommon Raw | 15-20 | 8-10 | Gold Ore, Leather, Cooked Food |
+| 💎 Rare Raw | 35 | 18 | Platinum Ore, Titanium Ore, Steel Ingot |
+| ✨ Exotic | 50 | 25 | Pyritic Crust, Charite, Carbon Fiber |
+| 🪓 Tier 1 Tools | 20 | 10 | Stone Pickaxe, Wood Bow |
+| ⚒️ Tier 2 Tools | 40 | 20 | Iron Pickaxe, Recurve Bow |
+| 🔨 Tier 3 Tools | 75 | 40 | Steel Pickaxe, Crossbow |
+| ⚙️ Tier 4 Tools | 125 | 65 | Platinum/Titanium Tools |
+| 🔫 Pistols | 150 | 75 | All Pistols |
+| 🎯 Rifles | 200 | 100 | Hunting Rifle, Bolt Action |
+| 💥 Automatic | 300 | 150 | Assault Rifle, Submachine Gun |
+| 👕 Light Armor | 20-30 | 10-15 | Cloth, Leather |
+| 🛡️ Heavy Armor | 100-150 | 50-75 | Steel, Composite, Carbonweave |
+| 🏭 Basic Stations | 25-40 | 12-20 | Campfire, Stone Furnace |
+| ⚡ Advanced Stations | 100-175 | 50-90 | Electric Furnace, Fabricator |
 
-### How to Use:
-1. Research kits at the Workshop (in **"Agents Individual Items"** tab)
-2. Purchase the specific item kit you need
-3. Load kits into your dropship loadout
-4. Land on the planet - **kits survive!** 
-5. Consume the kit from your inventory
-6. The item is added to your inventory!
+### Categories
 
-### Examples:
-- Need just an Iron Pickaxe? Buy the **"Iron Pickaxe Kit"**
-- Want a specific gun? Buy the **"Hunting Rifle Kit"**
-- Need building materials? Buy individual **"Wood Floor Kit"**, **"Wood Wall Kit"**, etc.
+| Category | Subcategories |
+|:---------|:--------------|
+| **01 Resources** | Ores, Minerals, Organic, Earth, Gases, Creature Drops |
+| **02 Refined** | Ingots, Construction, Textiles, Compounds, Components |
+| **03 Food** | Meat & Fish, Produce, Prepared Meals, Dairy, Seeds, Drinks |
+| **04 Medicine** | Medical Supplies, Stat Buffs |
+| **05 Tools** | Pickaxes, Axes, Blades, Hammers, Farming, Detection, Lights |
+| **06 Weapons** | Melee, Bows, Pistols, Shotguns, Rifles, Automatic |
+| **07 Ammo** | All Ammunition Types |
+| **08 Armor** | Light, Primitive, Medium, Heavy, Environmental, Creature |
+| **09 Shields** | All Shield Types |
+| **10 Backpacks** | All Backpack Types |
+| **11 Attachments** | Helmet, Armor, Tool, Weapon Attachments |
+| **12 Modules** | Creature Modules |
+| **13 Workstations** | Crafting, Cooking, Power, Storage, Heating, Beds, Water, Farming |
+| **14 Building** | Structure, Doors/Windows, Exterior, Utilities, Defense |
+| **15 Lighting** | All Light Sources |
+| **16 Furniture** | Seating & Tables |
+| **17 Decorations** | Trophies, Wall Decor, Rugs, Decorative Items |
+| **18 Animals** | Mounts, Trapping, Beekeeping |
+| **19 Explosives** | Grenades, Mines, Explosives |
+| **20 Fuel** | Biofuel & Fuel Cans |
+| **21 Workshop** | Workshop-exclusive Items |
+
+### How to Use
+1. Open the Workshop → **"Agents Individual Items"** tab
+2. Browse categories (organized with gaps between sections)
+3. Use the **search bar** to find specific items
+4. Research & purchase kits (priced fairly by complexity)
+5. Load kits into your dropship - **kits survive landing!**
+6. Consume the kit to receive your item
 
 ---
 
@@ -115,7 +137,7 @@ Sets durability to maximum for all equipment:
 - 🔧 All tools (axes, pickaxes, knives, etc.) - 12,700,000 durability
 - ⚔️ All weapons (bows, guns, melee) - 12,700,000 durability
 - 🛡️ All armor & shields - 12,700,000 durability
-- ⚡ Lightning Rods - 9,000,000 durability
+- ⚡ Lightning Rods - 2,000,000 durability (prevents overflow with Durable trait)
 - 🏠 All buildings & deployables
 
 ---
@@ -166,10 +188,18 @@ Prevents spoilage for all food types:
 
 ## 📋 Changelog
 
+### v2.0 - Individual Item Kits (Major Update)
+- **Filtered to craftable & raw items only** - Removed mission items and unobtainable items
+- **Fair pricing system** - Items now priced by rarity and crafting complexity (5-300 credits)
+- **73 detailed subcategories** - Organized with visual gaps for easy browsing
+- **1,396 total kits** - Down from 1,501 (removed non-obtainable items)
+- **Proper item names** - Display names match in-game item names for searchability
+
+### v1.3 - Indestructible Tools & Weapons
+- Fixed Lightning Rod durability overflow (reduced base to 2,000,000)
+
 ### v1.1 - No Food Spoilage
 - Added Volatile Substance to prevent it becoming inert
 
 ### v1.0 - Individual Item Kits
-- Complete rewrite of item kits system
-- 1,501 individual single-item kits (previously 30 category bundles)
-- Each item now has its own dedicated kit
+- Initial release with 1,501 single-item kits
