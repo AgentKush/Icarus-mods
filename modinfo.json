@@ -1,28 +1,16 @@
 {
   "mods": [
     {
-      "name": "Agent's Items KITS",
+      "name": "Individual Item Kits",
       "author": "AgentKush",
-      "version": "5.0",
+      "version": "1.0",
       "compatibility": "w213",
-      "description": "30 consumable kit packs that SURVIVE dropship landing! Buy kits at workshop, land on planet, consume to receive all items. Includes: Raw Resources, Processed Materials, Tools, Weapons, Armor, Food, Medicine, Building Pieces, Furniture, and more!",
+      "description": "1,501 single-item kits! Each item has its own kit - buy exactly what you need. All kits survive dropship landing. 10 credits to research, 5 credits per kit.",
       "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Items_Kits/Agents_Items_Kits.EXMODZ"
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Individual_Item_Kits/Agents_Individual_Item_Kits.EXMODZ"
       },
       "imageURL": "",
-      "readmeURL": "https://raw.githubusercontent.com/AgentKush/Icarus-mods/main/Agents_Items_Kits/README.md"
-    },
-    {
-      "name": "Agent's Items (Legacy)",
-      "author": "AgentKush",
-      "version": "4.9",
-      "compatibility": "w213",
-      "description": "Direct workshop items (1,500+). Note: Items may not survive dropship - use KITS version instead, or buy from Orbital Exchange Interface on-planet.",
-      "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Items/Agents_Items.EXMODZ"
-      },
-      "imageURL": "",
-      "readmeURL": "https://raw.githubusercontent.com/AgentKush/Icarus-mods/main/Agents_Items/README.md"
+      "readmeURL": "https://raw.githubusercontent.com/AgentKush/Icarus-mods/main/Agents_Individual_Item_Kits/README.md"
     },
     {
       "name": "Agent's BioLab",
@@ -63,9 +51,9 @@
     {
       "name": "No Food Spoilage",
       "author": "AgentKush",
-      "version": "1.0",
+      "version": "1.1",
       "compatibility": "w213",
-      "description": "Prevents all food items from spoiling in your inventory. Meat, fish, vegetables, and all other perishables will last forever!",
+      "description": "Prevents all food items and volatile substances from spoiling in your inventory. Meat, fish, vegetables, and volatile substances will last forever!",
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/No_Food_Spoilage/No_Food_Spoilage.EXMODZ"
       },

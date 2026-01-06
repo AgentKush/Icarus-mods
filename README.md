@@ -25,28 +25,30 @@
 
 | Mod | Description | Version |
 |:---:|:------------|:-------:|
-| 🎒 **[Agent's Items KITS](./Agents_Items_Kits)** | 30 Kit packs - survives dropship! | `v5.0` |
-| 🛒 **[Agent's Items](./Agents_Items)** | Direct Workshop items (use on-planet) | `v4.9` |
+| 🎯 **[Individual Item Kits](./Agents_Individual_Item_Kits)** | 1,501 single-item kits - get exactly what you need! | `v1.0` ⭐ NEW |
 | 🔬 **[Agent's BioLab](./Agents_BioLab)** | All 10 Bio Lab Legendary weapons | `v1.7` |
 | ⚡ **[FastProcessing 10x](./FastProcessing_All_10x)** | 10x faster crafting & smelting | `v2.0` |
 | 🛡️ **[Indestructible Tools](./Indestructible_Tools_Weapons)** | Max durability for everything | `v1.3` |
-| 🍖 **[No Food Spoilage](./No_Food_Spoilage)** | Food never spoils | `v1.0` |
+| 🍖 **[No Food Spoilage](./No_Food_Spoilage)** | Food & volatile substances never spoil | `v1.1` |
 
 ---
 
-## 🎒 Agent's Items KITS `v5.0` ⭐ NEW!
+## 🎯 Individual Item Kits `v1.0` ⭐ NEW!
 
-> **30 consumable kits that SURVIVE the dropship landing!**
+> **1,501 single-item kits - buy exactly what you need!**
 
-This version organizes all 1,500+ items into **30 category-based kits**. Buy a kit, land on the planet, consume it, and receive all items in that category!
+Every item has its own dedicated kit! No more getting 91 items when you just need some Iron Ore. Each kit contains exactly **one specific item**, giving you complete control over your loadout.
 
-### Why Kits?
-The original Agent's Items mod added items directly to the Workshop, but those items would disappear during dropship landing (they lacked the `Item.Meta` tag that vanilla Workshop items have). **The Kit system fixes this!**
+### Why Individual Kits?
+- ✅ **Precision** - Buy only what you need
+- ✅ **Survives Dropship** - All kits survive landing (Kit system)
+- ✅ **Low Cost** - 10 credits research, 5 credits per kit
+- ✅ **Every Item** - All 1,501 workshop items available
 
-### Available Kits:
+### Item Categories:
 
-| Category | Items | Category | Items |
-|:---------|:-----:|:---------|:-----:|
+| Category | Kits | Category | Kits |
+|:---------|-----:|:---------|-----:|
 | 🪨 Raw Resources | 91 | 🧪 Processed Materials | 50 |
 | 🌱 Seeds & Farming | 33 | 🪓 Stone/Bone Tools | 19 |
 | ⚒️ Metal Tools | 80 | 🏹 Ranged Weapons | 41 |
@@ -64,26 +66,17 @@ The original Agent's Items mod added items directly to the Workshop, but those i
 | 🔧 Utility Tools | 16 | 🪤 Traps | 4 |
 
 ### How to Use:
-1. Research & purchase kits at the Workshop (in "Agents Items" tab)
-2. Load kits into your dropship loadout
-3. Land on the planet - **kits survive!** 
-4. Use/consume the kit from your inventory
-5. All items from that kit are added to your inventory!
+1. Research kits at the Workshop (in **"Agents Individual Items"** tab)
+2. Purchase the specific item kit you need
+3. Load kits into your dropship loadout
+4. Land on the planet - **kits survive!** 
+5. Consume the kit from your inventory
+6. The item is added to your inventory!
 
----
-
-## 🛒 Agent's Items `v4.9` (Legacy)
-
-> **1,500+ items directly in Workshop**
-
-⚠️ **Note:** Items from this version may not survive dropship landing. Use **Agent's Items KITS** (v5.0) instead for dropship-compatible items, or use the Orbital Exchange Interface on-planet.
-
-Adds a new **"Agents Items"** tab in the Workshop containing:
-- 🔧 All tools & equipment
-- ⚔️ All weapons & armor  
-- 📦 All resources & materials
-- 💎 Vestiges & rare collectibles
-- 💰 Tiered pricing with Credits (10-200 based on tier)
+### Examples:
+- Need just an Iron Pickaxe? Buy the **"Iron Pickaxe Kit"**
+- Want a specific gun? Buy the **"Hunting Rifle Kit"**
+- Need building materials? Buy individual **"Wood Floor Kit"**, **"Wood Wall Kit"**, etc.
 
 ---
 
@@ -127,7 +120,7 @@ Sets durability to maximum for all equipment:
 
 ---
 
-## 🍖 No Food Spoilage `v1.0`
+## 🍖 No Food Spoilage `v1.1`
 
 > **Keep your food forever!**
 
@@ -137,6 +130,7 @@ Prevents spoilage for all food types:
 - 🥬 Fruits & vegetables
 - 🧀 Dairy products
 - 🧊 Ice & frozen items
+- 🧪 Volatile Substances (no more inert goo!)
 
 ---
 
@@ -167,3 +161,15 @@ Prevents spoilage for all food types:
 - All mods are designed to work together
 - Use JimK72's Mod Manager to merge multiple mods
 - Always backup your game data before installing mods
+
+---
+
+## 📋 Changelog
+
+### v1.1 - No Food Spoilage
+- Added Volatile Substance to prevent it becoming inert
+
+### v1.0 - Individual Item Kits
+- Complete rewrite of item kits system
+- 1,501 individual single-item kits (previously 30 category bundles)
+- Each item now has its own dedicated kit
