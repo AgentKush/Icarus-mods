@@ -4,6 +4,10 @@
 TempDownload/
 tempMod/
 
+# Local scripts (don't upload)
+create_exmodz.ps1
+UPDATE_AND_PUSH.bat
+
 # OS files
 .DS_Store
 Thumbs.db
