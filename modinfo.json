@@ -1,11 +1,23 @@
 {
   "mods": [
     {
-      "name": "Agent's Items",
+      "name": "Agent's Items KITS",
+      "author": "AgentKush",
+      "version": "5.0",
+      "compatibility": "w213",
+      "description": "30 consumable kit packs that SURVIVE dropship landing! Buy kits at workshop, land on planet, consume to receive all items. Includes: Raw Resources, Processed Materials, Tools, Weapons, Armor, Food, Medicine, Building Pieces, Furniture, and more!",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Items_Kits/Agents_Items_Kits.EXMODZ"
+      },
+      "imageURL": "",
+      "readmeURL": "https://raw.githubusercontent.com/AgentKush/Icarus-mods/main/Agents_Items_Kits/README.md"
+    },
+    {
+      "name": "Agent's Items (Legacy)",
       "author": "AgentKush",
       "version": "4.9",
       "compatibility": "w213",
-      "description": "Complete workshop expansion with 1,500+ items! Adds a new 'Agents Items' tab with all tools, weapons, armor, resources, vestiges, and more. Tiered pricing with Credits.",
+      "description": "Direct workshop items (1,500+). Note: Items may not survive dropship - use KITS version instead, or buy from Orbital Exchange Interface on-planet.",
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Items/Agents_Items.EXMODZ"
       },
@@ -39,9 +51,9 @@
     {
       "name": "Indestructible Tools & Weapons",
       "author": "AgentKush",
-      "version": "1.2",
+      "version": "1.3",
       "compatibility": "w213",
-      "description": "Makes all tools, weapons, armor, buildings, doors, and crafting stations virtually indestructible. Sets durability to the game's maximum cap of 12,700,000.",
+      "description": "Makes all tools, weapons, armor, buildings, doors, and crafting stations virtually indestructible. Sets durability to the game's maximum cap (12,700,000 for most items, 9,000,000 for lightning rods).",
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Indestructible_Tools_Weapons/Indestructible_Tools_Weapons.EXMODZ"
       },
