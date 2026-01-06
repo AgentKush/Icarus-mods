@@ -7,19 +7,19 @@
             "compatibility": "All",
             "description": "1,501 single-item kits! Each item has its own kit - buy exactly what you need. All kits survive dropship landing. 10 credits to research, 5 credits per kit.",
             "imageURL": "",
-            "readmeURL": "https://raw.githubusercontent.com/AgentKush/Icarus-mods/main/Agents_Individual_Item_Kits/README.md",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Individual_Item_Kits/README.md",
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Individual_Item_Kits/Agents_Individual_Item_Kits.EXMODZ"
             }
         },
         {
-            "name": "Agent's BioLab",
+            "name": "Agents BioLab",
             "author": "AgentKush",
             "version": "1.7",
             "compatibility": "All",
             "description": "Adds all 10 Bio Lab Legendary weapons to the Workshop! Includes Frontier Revolver, Kinetic Rifle, Tactical Bow, Mining Armature, Biotech Maul, Heavy Flamethrower, Anti-materiel Rifle, Javelin Launcher, Slug Launcher, and Ice Mammoth Sledgehammer. All purchasable for 1,000 Exotics each.",
             "imageURL": "",
-            "readmeURL": "https://raw.githubusercontent.com/AgentKush/Icarus-mods/main/Agents_BioLab/README.md",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_BioLab/README.md",
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_BioLab/Agents_BioLab.EXMODZ"
             }
@@ -31,7 +31,7 @@
             "compatibility": "All",
             "description": "Makes ALL crafting and processing 10x faster! Covers 1,057 recipes including cooking, smelting, crafting attachments, and more. No more waiting!",
             "imageURL": "",
-            "readmeURL": "https://raw.githubusercontent.com/AgentKush/Icarus-mods/main/FastProcessing_All_10x/README.md",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_10x/README.md",
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_10x/FastProcessing_All_10x.EXMODZ"
             }
@@ -41,9 +41,9 @@
             "author": "AgentKush",
             "version": "1.3",
             "compatibility": "All",
-            "description": "Makes all tools, weapons, armor, buildings, doors, and crafting stations virtually indestructible. Sets durability to the game's maximum cap (12,700,000 for most items, 9,000,000 for lightning rods).",
+            "description": "Makes all tools, weapons, armor, buildings, doors, and crafting stations virtually indestructible. Sets durability to the games maximum cap (12,700,000 for most items, 9,000,000 for lightning rods).",
             "imageURL": "",
-            "readmeURL": "https://raw.githubusercontent.com/AgentKush/Icarus-mods/main/Indestructible_Tools_Weapons/README.md",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Indestructible_Tools_Weapons/README.md",
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Indestructible_Tools_Weapons/Indestructible_Tools_Weapons.EXMODZ"
             }
@@ -55,7 +55,7 @@
             "compatibility": "All",
             "description": "Prevents all food items and volatile substances from spoiling in your inventory. Meat, fish, vegetables, and volatile substances will last forever!",
             "imageURL": "",
-            "readmeURL": "https://raw.githubusercontent.com/AgentKush/Icarus-mods/main/No_Food_Spoilage/README.md",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/No_Food_Spoilage/README.md",
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/No_Food_Spoilage/No_Food_Spoilage.EXMODZ"
             }
