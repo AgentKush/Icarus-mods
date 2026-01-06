@@ -1,7 +1,7 @@
 {
     "name": "Indestructible Tools & Weapons",
     "author": "AgentKush",
-    "version": "1.2",
+    "version": "1.3",
     "description": "All tools, weapons, armor, buildings, doors, and crafting stations will never break. Sets durability to max cap (12,700,000).",
     "fileName": "Indestructible_Tools_Weapons",
     "imageURL": "",
@@ -200,8 +200,8 @@
                 {"Name": "Deployable_5000", "Max_Durability": 12700000, "Destroyed_At_Zero": true},
                 {"Name": "Deployable_10000", "Max_Durability": 12700000, "Destroyed_At_Zero": true},
                 {"Name": "Meta_Item_Printed_Deployable", "Max_Durability": 12700000, "Destroyed_At_Zero": true, "ItemsForRepair": [{"Item": {"RowName": "Meta_Repair_Item", "DataTableName": "D_ItemsStatic"}, "Amount": 1}], "NoRecipe_RequiredRecipeSet": [{"RowName": "Repair_Bench", "DataTableName": "D_RecipeSets"}]},
-                {"Name": "LightningRod_Basic", "Max_Durability": 12700000, "Destroyed_At_Zero": true},
-                {"Name": "LightningRod_Platinum", "Max_Durability": 12700000, "Destroyed_At_Zero": true}
+                {"Name": "LightningRod_Basic", "Max_Durability": 2000000, "Destroyed_At_Zero": true},
+                {"Name": "LightningRod_Platinum", "Max_Durability": 2000000, "Destroyed_At_Zero": true}
             ]
         },
         {"CurrentFile": "EndOfMod"}
