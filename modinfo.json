@@ -3,9 +3,9 @@
         {
             "name": "Individual Item Kits",
             "author": "AgentKush",
-            "version": "1.0",
+            "version": "2.0",
             "compatibility": "All",
-            "description": "1501 single-item kits! Each item has its own kit - buy exactly what you need. All kits survive dropship landing. 10 credits to research, 5 credits per kit.",
+            "description": "1396 individual item kits - craftable and raw items only! Fairly priced by complexity (5-300 credits). Organized into 73 categories with visual spacing. Search for any item!",
             "fileName": "Agents_Individual_Item_Kits",
             "imageURL": "",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Individual_Item_Kits/README.md",
