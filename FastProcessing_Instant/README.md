@@ -1,38 +1,26 @@
-# FastProcessing Instant
+# FastProcessing_Instant
 
 **Author:** AgentKush  
-**Version:** 2.0  
-**Compatibility:** Icarus Week 213+
+**Version:** 3.0
 
 ## Description
-
-Instant processing - all recipes complete in 1 millijoule (essentially instant). This mod modifies 1057 recipes across all crafting and processing stations including:
-
-- Cooking stations (campfires, fireplaces, stoves)
-- Furnaces and smelters
-- Crafting benches
-- Chemistry benches
-- Fabricators
-- And more!
+All crafting and processing is INSTANT! Contains 1723 recipes including cooking, smelting, crafting, Fabricator, Material Processor, and more. All recipes set to 0 milliseconds.
 
 ## Installation
-
 1. Download the `.EXMODZ` file
-2. Place it in your Icarus Mod Manager's `ZippedExmodFiles` folder
-3. Launch the Mod Manager and enable the mod
-4. Start Icarus and enjoy Instant faster processing!
+2. Place it in your Icarus mods folder or use JimK72's Mod Manager
+3. Enable the mod and launch the game
+
+## Changelog
+- **v3.0** - Added 666 missing recipes (1057 → 1723). Now covers ALL crafting stations.
+- **v2.0** - Initial release with 1057 recipes
 
 ## Compatibility
+- Works with Icarus base game and all DLCs
+- May conflict with other mods that modify processing times
 
-- Compatible with multiplayer (all players need the mod)
-- Works with other mods that don't modify D_ProcessorRecipes.json
-- Choose only ONE FastProcessing variant (5x, 10x, 15x, 25x, or Instant)
-
-## Notes
-
-- This mod affects ALL processor recipes in the game
-- Processing time is reduced by modifying RequiredMillijoules values
-- Lower values = faster processing
-
----
-*Created by AgentKush*
+## Related Mods
+- FastProcessing_All_5x - 5x speed
+- FastProcessing_All_10x - 10x speed
+- FastProcessing_All_15x - 15x speed
+- FastProcessing_All_25x - 25x speed

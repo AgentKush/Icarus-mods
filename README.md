@@ -27,7 +27,11 @@
 |:---:|:------------|:-------:|
 | 🎯 **[Individual Item Kits](./Agents_Individual_Item_Kits)** | 1,396 single-item kits with fair pricing | `v2.0` |
 | 🔬 **[Agent's BioLab](./Agents_BioLab)** | All 10 Bio Lab Legendary weapons | `v1.7` |
-| ⚡ **[FastProcessing 10x](./FastProcessing_All_10x)** | 10x faster crafting & smelting | `v2.0` |
+| ⚡ **[FastProcessing 5x](./FastProcessing_All_5x)** | 5x faster crafting & processing | `v3.0` |
+| ⚡ **[FastProcessing 10x](./FastProcessing_All_10x)** | 10x faster crafting & processing | `v3.0` |
+| ⚡ **[FastProcessing 15x](./FastProcessing_All_15x)** | 15x faster crafting & processing | `v3.0` |
+| ⚡ **[FastProcessing 25x](./FastProcessing_All_25x)** | 25x faster crafting & processing | `v3.0` |
+| ⚡ **[FastProcessing Instant](./FastProcessing_Instant)** | Instant crafting & processing | `v3.0` |
 | 🛡️ **[Indestructible Tools](./Indestructible_Tools_Weapons)** | Max durability for everything | `v1.3` |
 | 🍖 **[No Food Spoilage](./No_Food_Spoilage)** | Food & volatile substances never spoil | `v1.1` |
 
@@ -117,15 +121,38 @@ Purchase these legendary weapons for **1,000 Exotics** each:
 
 ---
 
-## ⚡ FastProcessing All 10x `v2.0`
+## ⚡ FastProcessing Mods `v3.0`
 
-> **No more waiting around!**
+> **No more waiting around! Choose your speed!**
 
-Makes **1,057 recipes** process 10x faster:
-- 🔥 Smelting (Titanium: 100,000 → 10,000 mj)
-- 🍳 Cooking (Cooked Meat: 7,500 → 750 mj)
-- 🔨 Crafting (All benches)
-- ⚗️ Processing (Chemistry, Fabricator, etc.)
+⚠️ **Important:** Only use ONE FastProcessing mod at a time! Using multiple speed mods together will cause conflicts.
+
+All FastProcessing mods now cover **1,723 recipes** - every crafting station in the game including Fabricator, Material Processor, all cooking stations, smelters, and more.
+
+| Mod | Speed | Description |
+|:----|:-----:|:------------|
+| **FastProcessing 5x** | 5x | Balanced speed boost |
+| **FastProcessing 10x** | 10x | Recommended for most players |
+| **FastProcessing 15x** | 15x | Fast gameplay |
+| **FastProcessing 25x** | 25x | Very fast gameplay |
+| **FastProcessing Instant** | ∞ | Zero wait time (0 millijoules) |
+
+### What's Covered
+- 🔥 **Smelting** - All furnaces (Stone, Concrete, Electric)
+- 🍳 **Cooking** - Campfire, Kitchen Bench, Crop Plot processing
+- 🔨 **Crafting** - All workbenches (Anvil, Machining, Fabricator)
+- ⚗️ **Processing** - Chemistry Bench, Material Processor, Biofuel
+- 🏭 **Fabricator** - Electronics, Advanced Components
+- 🧪 **Material Processor** - Refined materials
+
+### Example Speed Comparison
+
+| Recipe | Default | 5x | 10x | 15x | 25x | Instant |
+|:-------|--------:|---:|----:|----:|----:|--------:|
+| Titanium Ingot | 100,000 | 20,000 | 10,000 | 6,666 | 4,000 | 0 |
+| Cooked Meat | 7,500 | 1,500 | 750 | 500 | 300 | 0 |
+| Electronics | 12,500 | 2,500 | 1,250 | 833 | 500 | 0 |
+| Steel Ingot | 15,000 | 3,000 | 1,500 | 1,000 | 600 | 0 |
 
 ---
 
@@ -187,6 +214,13 @@ Prevents spoilage for all food types:
 ---
 
 ## 📋 Changelog
+
+### v3.0 - FastProcessing (Major Update)
+- **Added 666 missing recipes** - Now covers ALL 1,723 recipes (up from 1,057)
+- **Full Fabricator support** - All Electronics and advanced components
+- **Full Material Processor support** - All refined materials
+- **New speed variants** - Added 5x, 15x, 25x, and Instant options
+- **Instant mode** - Uses 0 millijoules for true instant crafting
 
 ### v2.0 - Individual Item Kits (Major Update)
 - **Filtered to craftable & raw items only** - Removed mission items and unobtainable items

@@ -27,16 +27,68 @@
             }
         },
         {
+            "name": "FastProcessing All 5x",
+            "author": "AgentKush",
+            "version": "3.0",
+            "compatibility": "All",
+            "description": "Makes ALL crafting and processing 5x faster! Covers 1723 recipes including cooking, smelting, Fabricator, Material Processor, and more.",
+            "fileName": "FastProcessing_All_5x",
+            "imageURL": "",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_5x/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_5x/FastProcessing_All_5x.EXMODZ"
+            }
+        },
+        {
             "name": "FastProcessing All 10x",
             "author": "AgentKush",
-            "version": "2.0",
+            "version": "3.0",
             "compatibility": "All",
-            "description": "Makes ALL crafting and processing 10x faster! Covers 1057 recipes including cooking, smelting, crafting attachments, and more. No more waiting!",
+            "description": "Makes ALL crafting and processing 10x faster! Covers 1723 recipes including cooking, smelting, Fabricator, Material Processor, and more.",
             "fileName": "FastProcessing_All_10x",
             "imageURL": "",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_10x/README.md",
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_10x/FastProcessing_All_10x.EXMODZ"
+            }
+        },
+        {
+            "name": "FastProcessing All 15x",
+            "author": "AgentKush",
+            "version": "3.0",
+            "compatibility": "All",
+            "description": "Makes ALL crafting and processing 15x faster! Covers 1723 recipes including cooking, smelting, Fabricator, Material Processor, and more.",
+            "fileName": "FastProcessing_All_15x",
+            "imageURL": "",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_15x/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_15x/FastProcessing_All_15x.EXMODZ"
+            }
+        },
+        {
+            "name": "FastProcessing All 25x",
+            "author": "AgentKush",
+            "version": "3.0",
+            "compatibility": "All",
+            "description": "Makes ALL crafting and processing 25x faster! Covers 1723 recipes including cooking, smelting, Fabricator, Material Processor, and more.",
+            "fileName": "FastProcessing_All_25x",
+            "imageURL": "",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_25x/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_25x/FastProcessing_All_25x.EXMODZ"
+            }
+        },
+        {
+            "name": "FastProcessing Instant",
+            "author": "AgentKush",
+            "version": "3.0",
+            "compatibility": "All",
+            "description": "Makes ALL crafting and processing INSTANT! Covers 1723 recipes including cooking, smelting, Fabricator, Material Processor, and more. Zero wait time!",
+            "fileName": "FastProcessing_Instant",
+            "imageURL": "",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_Instant/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_Instant/FastProcessing_Instant.EXMODZ"
             }
         },
         {

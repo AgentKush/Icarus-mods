@@ -1,62 +1,26 @@
-# FastProcessing All 10x
+# FastProcessing_All_10x
 
-**Version:** 2.0  
 **Author:** AgentKush  
-**Compatible with:** JimK72's Icarus Mod Manager (EXMODZ format)
+**Version:** 3.0
 
 ## Description
-
-Makes ALL crafting and processing **10x faster**! Covers 1,057 recipes including cooking, smelting, crafting attachments, and more.
-
-## What This Mod Does
-
-Reduces `RequiredMillijoules` for all processor recipes by 90%, making everything complete 10x faster.
-
-## Speed Examples
-
-| Recipe | Original Time | New Time | Speed |
-|--------|--------------|----------|-------|
-| Cooked Meat | 7,500 mj | 750 mj | 10x |
-| Steel Ingot | 15,000 mj | 1,500 mj | 10x |
-| Titanium Ingot | 100,000 mj | 10,000 mj | 10x |
-| Refined Metal | 12,500 mj | 1,250 mj | 10x |
-| Rope | 1,500 mj | 150 mj | 10x |
-| Stone Arrow | 250 mj | 100 mj* | 10x |
-| Charcoal | 10,000 mj | 1,000 mj | 10x |
-| Dried Meat | 15,000 mj | 1,500 mj | 10x |
-
-*Minimum value of 100mj to prevent instant completion
-
-## Recipe Categories Modified
-
-| Category | Count |
-|----------|-------|
-| General Crafting | 624 |
-| Weapons | 87 |
-| Attachments | 70 |
-| Building | 56 |
-| Resources | 56 |
-| Cooking | 55 |
-| Armor | 27 |
-| Ammo | 26 |
-| Medicine | 25 |
-| Smelting | 13 |
-| Seeds | 10 |
-| Tools | 9 |
-| **Total** | **1,057** |
+All crafting and processing 10x faster! Contains 1723 recipes including cooking, smelting, crafting, Fabricator, Material Processor, and more.
 
 ## Installation
-
-1. Download `FastProcessing_All_10x.EXMOD` (or `.EXMODZ` if zipped)
-2. Place in your Mod Manager's `Extracted_Mods` folder
-3. Use JimK72's Mod Manager to merge and install
-4. Launch Icarus - everything processes 10x faster!
+1. Download the `.EXMODZ` file
+2. Place it in your Icarus mods folder or use JimK72's Mod Manager
+3. Enable the mod and launch the game
 
 ## Changelog
+- **v3.0** - Added 666 missing recipes (1057 → 1723). Now covers ALL crafting stations.
+- **v2.0** - Initial release with 1057 recipes
 
-- **v2.0** - Complete rewrite with 1,057 recipes, fixed duplicate entries
-- **v1.0** - Initial release
+## Compatibility
+- Works with Icarus base game and all DLCs
+- May conflict with other mods that modify processing times
 
-## License
-
-Free to use and modify. Credit appreciated!
+## Related Mods
+- FastProcessing_All_5x - 5x speed
+- FastProcessing_All_15x - 15x speed  
+- FastProcessing_All_25x - 25x speed
+- FastProcessing_Instant - Instant crafting
