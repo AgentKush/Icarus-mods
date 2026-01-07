@@ -1,0 +1,4247 @@
+{
+    "name": "FastProcessing_All_5x",
+    "author": "AgentKush",
+    "fileName": "FastProcessing_All_5x",
+    "version": "2.0",
+    "description": "All crafting and processing 5x faster! Contains 1057 recipes including cooking, smelting, crafting, and more.",
+    "week": "",
+    "Level2": "True",
+    "Rows": [
+        {
+            "CurrentFile": "Crafting-D_ProcessorRecipes.json",
+            "File_Items": [
+                {
+                    "Name": "Attachment_ADS_Upgrade_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Additional_Projectiles",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Ammo_Highlight_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Bone_Yield_2",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Attachment_Boss_Tracker",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Carrying_Bonus_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Cave_Resistance_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Copper_Yield_2",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Attachment_Extended_Mag",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Fall_Resistance_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Gold_Yield_2",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Attachment_Leather_Yield_2",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Attachment_Melee_Attack_Speed_2",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Attachment_Melee_Bleed_Attacks",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Attachment_Melee_Damage_2",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Attachment_Melee_Electroshock_Attacks",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Attachment_Melee_Poison_Attacks",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Attachment_Movement_Bonus_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Platnium_Yield_2",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Attachment_Poison_Water_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Prime_Meat_Chance_2",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Attachment_Quick_Healing",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Ranged_Weapon_Damage_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Ranged_Weapon_Decreased_Spread_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Ranged_Weapon_Economic_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Ranged_Weapon_Increased_Spread",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Ranged_Weapon_Lightweight_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Ranged_Weapon_Rapid_Fire",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Ranged_Weapon_Speed_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Ranged_Weapon_Stealth_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Ranged_Weapon_Wear_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Ranged_Weapons_Animal_Highlight",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Ranged_Weapons_Sniper_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Reaping_Yield_2",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Attachment_Regen_Resistance_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Repair_Time_2",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Attachment_Stealth_Movement_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Storm_Resistance_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Titanium_Yeild_2",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Attachment_Tool_Use_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Lava_Hunter_Attachment",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Black_Wolf_Legs",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Brownbear_Feet_Armor",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Cured_Leather_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Cured_Leather_3",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Cured_Leather_4",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Hard_Leather_Feet_Armor",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Hunter_Feet_Armor",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Platinum_Wave",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Platinum_Wave_Silk",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Platinum_Weave_Wool",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Polarbear_Feet_Armor",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Rug_Bear",
+                    "RequiredMillijoules": 600
+                },
+                {
+                    "Name": "Rug_Buffalo",
+                    "RequiredMillijoules": 600
+                },
+                {
+                    "Name": "Rug_Jaguar",
+                    "RequiredMillijoules": 600
+                },
+                {
+                    "Name": "Rug_PolarBear",
+                    "RequiredMillijoules": 600
+                },
+                {
+                    "Name": "Rug_SnowLeopard",
+                    "RequiredMillijoules": 600
+                },
+                {
+                    "Name": "Rug_Weave_Thin",
+                    "RequiredMillijoules": 600
+                },
+                {
+                    "Name": "SilkWeave_Curtain_Window",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Stasis_Bag",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Kiwifruit_Sorbet",
+                    "RequiredMillijoules": 3500
+                },
+                {
+                    "Name": "Attachment_ADS_Upgrade_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Ammo_Highlight_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Bone_Yield_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Carrying_Bonus_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Cave_Resistance_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Copper_Yield_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Fall_Resistance_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Gold_Yield_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Leather_Yield_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Melee_Attack_Speed_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Melee_Damage_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Movement_Bonus_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Platnium_Yield_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Poison_Water_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Prime_Meat_Chance_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Ranged_Weapon_Damage_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Ranged_Weapon_Decreased_Spread_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Ranged_Weapon_Economic_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Ranged_Weapon_Lightweight_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Ranged_Weapon_Speed_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Ranged_Weapon_Stealth_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Ranged_Weapon_Wear_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Ranged_Weapons_Sniper_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Reaping_Yield_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Regen_Resistance_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Repair_Time_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Stealth_Movement_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Stomach_Capacity",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Storm_Resistance_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Titanium_Yeild_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Attachment_Tool_Use_1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Sickle_Attachment_Harvest_Seeds",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Animal_Feed_Bean",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Animal_Feed_Mushroom",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Cat_Bowl_Food",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Cat_Bowl_Water",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Chicken_Coop",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Chicken_Coop_Red",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Creature_Bait_Boar",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Creature_Bait_Hyena",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Creature_Bait_Wolf",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Dog_Bowl_Food",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Dog_Bowl_Water",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Dog_D_Accessory",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Food_Trough_Glass",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Hitching_Rope",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Plough_Platinum",
+                    "RequiredMillijoules": 8000
+                },
+                {
+                    "Name": "Plough_Steel",
+                    "RequiredMillijoules": 8000
+                },
+                {
+                    "Name": "Plough_Titanium",
+                    "RequiredMillijoules": 8000
+                },
+                {
+                    "Name": "Saddle_Arctic_Survival",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Saddle_Basic_Desert",
+                    "RequiredMillijoules": 8000
+                },
+                {
+                    "Name": "Saddle_Mammoth_Standard",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Saddle_Racing",
+                    "RequiredMillijoules": 8000
+                },
+                {
+                    "Name": "Saddle_Standard_Bag",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Saddle_Wood_Cart",
+                    "RequiredMillijoules": 8000
+                },
+                {
+                    "Name": "Saddle_Wood_Cart_Harvest",
+                    "RequiredMillijoules": 8000
+                },
+                {
+                    "Name": "Saddle_Wood_Cart_Plough",
+                    "RequiredMillijoules": 8000
+                },
+                {
+                    "Name": "Saddle_Wood_Cart_Water",
+                    "RequiredMillijoules": 8000
+                },
+                {
+                    "Name": "Seed_Harvester",
+                    "RequiredMillijoules": 8000
+                },
+                {
+                    "Name": "Caveworm_Arrow",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Caveworm_Bow",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Caveworm_Knife",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Caveworm_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Caveworm_Throwing_Knife",
+                    "RequiredMillijoules": 350
+                },
+                {
+                    "Name": "Caveworm_Throwing_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Copper_Bolt",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Crossbow",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Flint_Arrow",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "IceMammoth_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Longbow",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Metal_Bolt",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Metal_Sledgehammer",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Metal_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Metal_Throwing_Knife",
+                    "RequiredMillijoules": 250
+                },
+                {
+                    "Name": "Metal_Throwing_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Mining_Cart",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Obsidian_Arrow",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Obsidian_Bolt",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Obsidian_Sickle",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Obsidian_Sledgehammer",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Obsidian_Throwing_Knife",
+                    "RequiredMillijoules": 250
+                },
+                {
+                    "Name": "Scorpion_Crossbow",
+                    "RequiredMillijoules": 600
+                },
+                {
+                    "Name": "Shield_IceMammoth",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Shield_Wooden",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Steel_Arrow",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Steel_Bolt",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Steel_Hammer",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Steel_Knife",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Steel_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Steel_Throwing_Knife",
+                    "RequiredMillijoules": 250
+                },
+                {
+                    "Name": "Steel_Throwing_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Taxidermy_Knife",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Watering_Can",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Aluminium_Arrow",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Black_Wolf_Arrow",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Black_Wolf_Knife",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Black_Wolf_Shield",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carbon_Arrow",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Carbon_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Carbon_Throwing_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Cold_Steel_Arrow",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Cold_Steel_Bolt",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Cold_Steel_Knife",
+                    "RequiredMillijoules": 250
+                },
+                {
+                    "Name": "Cold_Steel_Sickle",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Cold_Steel_Sledgehammer",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Cold_Steel_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Cold_Steel_Throwing_Knife",
+                    "RequiredMillijoules": 250
+                },
+                {
+                    "Name": "Cold_Steel_Throwing_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Drill_Arrow",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "IceMammoth_Throwing_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Platinum_Bolt",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Platinum_Crossbow",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Platinum_Shovel",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Platinum_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Platinum_Throwing_Knife",
+                    "RequiredMillijoules": 250
+                },
+                {
+                    "Name": "Platinum_Throwing_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Recurve_Bow",
+                    "RequiredMillijoules": 1600
+                },
+                {
+                    "Name": "Sandworm_Arrow",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Sandworm_Bow",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Sandworm_Knife",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Sandworm_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Sandworm_Throwing_Knife",
+                    "RequiredMillijoules": 350
+                },
+                {
+                    "Name": "Sandworm_Throwing_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Composite_Arrow",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Composite_Throwing_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Compound_Bow",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Iron_Wood_Arrow",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Iron_Wood_Bolt",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Iron_Wood_Knife",
+                    "RequiredMillijoules": 250
+                },
+                {
+                    "Name": "Iron_Wood_Sickle",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Iron_Wood_Sledgehammer",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Iron_Wood_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Iron_Wood_Throwing_Knife",
+                    "RequiredMillijoules": 250
+                },
+                {
+                    "Name": "Iron_Wood_Throwing_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Machete",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Shield_Composites",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Titanium_Arrow",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Titanium_Axe",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Titanium_Bolt",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Titanium_Crossbow",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Titanium_Knife",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Titanium_Shovel",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Titanium_Sickle",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Titanium_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Titanium_Throwing_Knife",
+                    "RequiredMillijoules": 250
+                },
+                {
+                    "Name": "Titanium_Throwing_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Arctic_Pelt_Wool",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Basic_Backpack",
+                    "RequiredMillijoules": 10000
+                },
+                {
+                    "Name": "Caveworm_Feet_Armor",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Fur_Curtain_Door",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Fur_Feet_Armor",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Heavy_Obsidian_Feet_Armor",
+                    "RequiredMillijoules": 800
+                },
+                {
+                    "Name": "Homestead_Spawn_Blocker_Scarecrow",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Medicine_Bag",
+                    "RequiredMillijoules": 10000
+                },
+                {
+                    "Name": "Pouch_Generic",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Pouch_Generic_Blue",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Pouch_Generic_Green",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Pouch_Generic_Red",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Rope_Armor_Bench",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Rope_Armor_Bench_Wool",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Rug_Conifer_Wolf",
+                    "RequiredMillijoules": 600
+                },
+                {
+                    "Name": "Rug_Cougar",
+                    "RequiredMillijoules": 600
+                },
+                {
+                    "Name": "Rug_Deer",
+                    "RequiredMillijoules": 600
+                },
+                {
+                    "Name": "Rug_Desert_Wolf",
+                    "RequiredMillijoules": 600
+                },
+                {
+                    "Name": "Rug_Snow_Wolf",
+                    "RequiredMillijoules": 600
+                },
+                {
+                    "Name": "Rug_Weave_Thick",
+                    "RequiredMillijoules": 600
+                },
+                {
+                    "Name": "Seed_Pouch_T2",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "SpawnBlocker_T2",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Butcher_Bacon",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Butcher_Fish",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Butcher_Fish_Freshwater",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Butcher_Fish_Saltwater",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Butcher_Meat_Gamey",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Butcher_Meat_Soft",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Butcher_Meat_Steak",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Butcher_Meat_Stringy",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Butcher_Meat_Tbone",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Butcher_Meat_White",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Raw_Meat_Steak",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Raw_Meat_Tbone",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Charcoal",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Cocoa_Drink",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Coffee_Drink",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Coffee_With_Cream",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Cooked_Bacon",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Cooked_Fatty_TBone",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Cooked_Fish",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Cooked_Gamey_Meat",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Cooked_Giant_Steak",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Cooked_Meat",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Cooked_Soft_Meat",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Cooked_Stringy_Meat",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Cooked_White_Meat",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Frozen_Wood",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "GreenTea_Drink",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Honey_Tea",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Ice",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "WildTea_Drink",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Bullseye_Target",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Carved_Bed",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carved_Bookshelf",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carved_Candles",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carved_Candles_1",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carved_Chair_Dining",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carved_Chair_Living",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carved_Chair_Living_2Seater",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carved_Chair_Living_3Seater",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carved_Coffee_Table",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carved_Desk_Lamp",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carved_Display_Cabinet",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carved_Dresser",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carved_Narrow_Wardrobe",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carved_Nightstand",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carved_Sitting_Bench",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carved_Stool",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carved_Table_10",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carved_Table_6",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carved_Table_Round",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carved_Wall_Shelf",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carved_Wardrobe",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Homestead_Butter_Churn",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Homestead_Picnic_Table",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Homestead_Quilted_Bed",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Homestead_Rocking_Chair_Double",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Homestead_Rocking_Chair_Single",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Homestead_Soft_Sofa_Double",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Homestead_Soft_Sofa_Single",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Homestead_Swing_Chair",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Interior_Wood_Beam",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Interior_Wood_Cupboard",
+                    "RequiredMillijoules": 1200
+                },
+                {
+                    "Name": "Interior_Wood_Cupboard_Small",
+                    "RequiredMillijoules": 1200
+                },
+                {
+                    "Name": "Interior_Wood_Ladder",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Interior_Wood_Railing_Gate",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Refined_Wood",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Reinforced_Door",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Reinforced_Ladder",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Reinforced_Railing",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Reinforced_Railing_Gate",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Reinforced_TrapDoor",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Reinforced_Window",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Stick",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Wood_Chair",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Wooden_Armor_Stand",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Concrete_Beam",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Concrete_Floor",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Concrete_Frame",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Concrete_Half_Pitch",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Concrete_Halfpiece",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Concrete_Mix",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Concrete_Railing_Gate_Ingot",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Concrete_Ramp",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Concrete_TrapDoor",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Concrete_Wall",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Concrete_Wall_Angled",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Bandage_Basic",
+                    "RequiredMillijoules": 20000
+                },
+                {
+                    "Name": "Bandage_Cooling",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Bandage_Cooling_Silk",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Bandage_Cooling_Wool",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Basic_Oxite_Dissolver",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Blood_Thinner_Paste",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Bone_Arrow",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Bone_Knife",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Bone_Sickle",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Bone_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Bone_Throwing_Knife",
+                    "RequiredMillijoules": 350
+                },
+                {
+                    "Name": "Bone_Throwing_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Butcher_Fish_Player",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Campfire",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Clean_Water",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Cloth_Feet_Armor",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Crafting_Bench",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Dirt_Corner",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Dirt_Frame",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Dirt_Ramp",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Drying_Rack",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Energy_Bar",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "FireWhacker",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Fire_Arrow",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Firepit",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Health_Remedy",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Honey_Bar",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "IceWater_Drink",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Ice_Advanced_Beam_Set",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Ice_Curved_Set",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Ice_Diagonal_Curved_Wall_Angles",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Ice_Diagonal_Set",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Ice_Half_Pitch",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Ice_Halfpiece",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Ice_Roof_CurvedAngles",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Ice_Wall_Curved",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Kiwi_Nest",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Poison_Arrow",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Purify_Water",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Raw_Wood_Sign_Trunk_B",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "ResourceStack_Stone",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "ResourceStack_Wood",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Seed_Extractor",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Seed_Pouch",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Stick_Talent",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Stone_Arrow",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Stone_Cairn",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Stone_Knife",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Stone_Throwing_Knife",
+                    "RequiredMillijoules": 250
+                },
+                {
+                    "Name": "Suture_Kit",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Suture_Kit_Wool",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Talent_Leather_Rope",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Thatch_Ladder",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Thatch_Railing",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Thatch_Railing_Gate",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Wood_Bow",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Wood_Crate_Medium",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Wood_Crate_Small",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Wood_Flare",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Wood_Rag_Torch",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Wood_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Wood_Throwing_Spear",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Mission_LiquidDeployment",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Refined_Iron_Wood",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "ResearchEquipment_Centrifuge",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "ResearchEquipment_Flasks",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "ResearchEquipment_LabDesk",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "ResearchEquipment_Microscope",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "ResearchEquipment_TestTubes",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Speed_Fertilizer",
+                    "RequiredMillijoules": 400
+                },
+                {
+                    "Name": "Synthetic_Enzymes",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Synthetic_Enzymes_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Synthetic_Enzymes_3",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Vitamins",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Yield_Fertilizer",
+                    "RequiredMillijoules": 400
+                },
+                {
+                    "Name": "Biofuel8",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Biofuel_9",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Seed_Biofuel",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Carbon_Fiber",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Clay_Brick",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Cold_Steel_Ingot",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Glass",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Glass2",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Platinum_Ingot",
+                    "RequiredMillijoules": 20000
+                },
+                {
+                    "Name": "Refined_Gold",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Scoria_Brick",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Steel_Ingot",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Titanium_Ingot",
+                    "RequiredMillijoules": 20000
+                },
+                {
+                    "Name": "Bait",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Fruit_Snack_Pack",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Poisoned_Bait",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Animal_Bench",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Anvil_Bench",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Armor_Bench",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Beehive",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Brazier",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carpentry_Bench",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Composter_Wood",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Cooking_Station",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Crude_Ammo",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Exotic_Delivery_Interface",
+                    "RequiredMillijoules": 250
+                },
+                {
+                    "Name": "Farming_CropPlot",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Fireplace",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Fur_From_Wool",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Herbalism_Bench",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Homestead_PlanterBox_SML",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "IceBox",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Leather_Curtain_Window",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "LightningRod_Basic",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Machining_Bench",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "MakeshiftRadio",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Masonry_Bench",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Mission_Communicator_T2",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Mortar_And_Pestle",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Oxite_Dissolver",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Oxygen_Bladder",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Packed_Fuel_Brick",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Pistol_Handgun",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Rain_Reservoir",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Rope",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Rope_Silk",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Salting_Station",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Skinning_Bench",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Stone_Furnace",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Trophy_Bench",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Wall_Torch",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Wood_Burner",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Wood_Cupboard",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Wood_Cupboard_Small",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Cured_Leather",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Dried_Avocado",
+                    "RequiredMillijoules": 3500
+                },
+                {
+                    "Name": "Dried_Fatty_Tbone",
+                    "RequiredMillijoules": 3500
+                },
+                {
+                    "Name": "Dried_Freshwater_Fillet",
+                    "RequiredMillijoules": 3500
+                },
+                {
+                    "Name": "Dried_Gamey_Meat",
+                    "RequiredMillijoules": 3500
+                },
+                {
+                    "Name": "Dried_Giant_Steak",
+                    "RequiredMillijoules": 3500
+                },
+                {
+                    "Name": "Dried_Kiwifruit",
+                    "RequiredMillijoules": 3500
+                },
+                {
+                    "Name": "Dried_Meat_Generic",
+                    "RequiredMillijoules": 3500
+                },
+                {
+                    "Name": "Dried_Rhubarb",
+                    "RequiredMillijoules": 3500
+                },
+                {
+                    "Name": "Dried_Saltwater_Fillet",
+                    "RequiredMillijoules": 3500
+                },
+                {
+                    "Name": "Dried_Soft_Meat",
+                    "RequiredMillijoules": 3500
+                },
+                {
+                    "Name": "Dried_Stringy_Meat",
+                    "RequiredMillijoules": 3500
+                },
+                {
+                    "Name": "Dried_Tomato",
+                    "RequiredMillijoules": 3500
+                },
+                {
+                    "Name": "Dried_White_Meat",
+                    "RequiredMillijoules": 3500
+                },
+                {
+                    "Name": "Arctic_Armor_Arms",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Arctic_Armor_Chest",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Arctic_Armor_Feet",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Arctic_Armor_Head",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Arctic_Armor_Legs",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Composite_Feet_Armor",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Obsidian_Arms_Armor",
+                    "RequiredMillijoules": 800
+                },
+                {
+                    "Name": "Obsidian_Chest_Armor",
+                    "RequiredMillijoules": 800
+                },
+                {
+                    "Name": "Obsidian_Feet_Armor",
+                    "RequiredMillijoules": 800
+                },
+                {
+                    "Name": "Obsidian_Head_Armor",
+                    "RequiredMillijoules": 800
+                },
+                {
+                    "Name": "Obsidian_Legs_Armor",
+                    "RequiredMillijoules": 800
+                },
+                {
+                    "Name": "Sand_Armor_Arms",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Sand_Armor_Backpack",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Sand_Armor_Chest",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Sand_Armor_Feet",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Sand_Armor_Head",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Sand_Armor_Legs",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Aluminum",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Composites",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Carrot_Cake",
+                    "RequiredMillijoules": 10000
+                },
+                {
+                    "Name": "Cheese_Pizza",
+                    "RequiredMillijoules": 8000
+                },
+                {
+                    "Name": "Choc_Chip_Cookie",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Chocolate_Cake",
+                    "RequiredMillijoules": 10000
+                },
+                {
+                    "Name": "Coconut_Cake",
+                    "RequiredMillijoules": 10000
+                },
+                {
+                    "Name": "Coconut_Cookie",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Pavlova",
+                    "RequiredMillijoules": 10000
+                },
+                {
+                    "Name": "Acific_Glands",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Alpha_Wolf_Biomass_1",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Alpha_Wolf_Biomass_2",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Ape_Biomass_1",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Ape_Biomass_2",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Frozen_Mammoth_Biomass_1",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Frozen_Mammoth_Biomass_2",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Giant_Scorpion_Biomass_1",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Giant_Scorpion_Biomass_2",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Infected_Bark",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Lava_Hunter_Biomass_1",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Lava_Hunter_Biomass_2",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Process_Condensed_Exotic",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Process_Red_Exotic",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Pyritic_Crust_Bauxite",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Pyritic_Crust_Clay",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Pyritic_Crust_Coal",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Pyritic_Crust_Copper",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Pyritic_Crust_Gold",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Pyritic_Crust_Iron",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Pyritic_Crust_Obsidian",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Pyritic_Crust_Oxite",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Pyritic_Crust_Platinum",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Pyritic_Crust_Purple_Exotic",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Pyritic_Crust_Red_Exotic",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Pyritic_Crust_Salt",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Pyritic_Crust_Scoria",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Pyritic_Crust_Silicon",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Pyritic_Crust_Stone",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Pyritic_Crust_Sulfur",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Pyritic_Crust_Titanium",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Rock_Golem_Armor_Fragment_Coal",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Rock_Golem_Armor_Fragment_Copper",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Rock_Golem_Armor_Fragment_Exotics",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Rock_Golem_Armor_Fragment_Gold",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Rock_Golem_Armor_Fragment_Iron",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Rock_Golem_Armor_Fragment_Oxite",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Rock_Golem_Biomass_1",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Rock_Golem_Biomass_2",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Sandworm_Biomass_1",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Sandworm_Biomass_2",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Slug_Biomass_1",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Slug_Biomass_2",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Advanced_Alteration_Bench",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Advanced_Aquarium",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Advanced_Butchery_Bench",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Advanced_Kitchen_Bench",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Advanced_Kitchen_Corner",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Advanced_Kitchen_Sink",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Advanced_Kitchen_Storage",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Anvil_Bench_T4",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Assault_Rifle_Legacy",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Assault_Rifle_T4",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Basic_Wall_Light",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Battery_Latern",
+                    "RequiredMillijoules": 1100
+                },
+                {
+                    "Name": "Battery_T3_Shelf",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Battery_T4_Shelf",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Beehive_Expansion2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Beehive_Extractor",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Biofuel_Generator",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Carpentry_Bench_T4",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "CaveSpotLight_Floor",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Charging_Station",
+                    "RequiredMillijoules": 20000
+                },
+                {
+                    "Name": "Chemistry_Bench",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Composite_Sign_Small",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Composter_Electric",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Cooler_Large",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Deep_Freeze",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Deep_Ore_Scanner",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Dropship_Grenade_T4",
+                    "RequiredMillijoules": 900
+                },
+                {
+                    "Name": "Electric_Armor_Bench",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Electric_Dehumidifier",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Electric_Fireplace",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Electric_Fireplace_Cap",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Electric_Fireplace_Ext",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Electric_Furnace",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Electric_Oxite_Dissolver",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Electric_Stove",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Enzyme_Propagation_Unit",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Exotic_Harvester",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Exotic_Processor",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Exposed_Wall_Light_Foggy",
+                    "RequiredMillijoules": 10000
+                },
+                {
+                    "Name": "Flashlight",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Flat_Solar_Panel",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Flow_Meter",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Great_Hunts_Boss_Upgrade",
+                    "RequiredMillijoules": 40000
+                },
+                {
+                    "Name": "Hunting_Rifle",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Hydro_Crop_Plot",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Icebox_Backpack",
+                    "RequiredMillijoules": 1600
+                },
+                {
+                    "Name": "Landmine",
+                    "RequiredMillijoules": 900
+                },
+                {
+                    "Name": "Large_Advanced_Aquarium",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Layered_Plating",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "LightningRod_Platinum",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Masonry_Bench_T4",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Mission_AerosolEmitter",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Mission_Alternator",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Mission_Communicator_T4",
+                    "RequiredMillijoules": 40000
+                },
+                {
+                    "Name": "Mission_Incubator",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Mission_Neurotoxic_Aerosol",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Mission_Radiator",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Mission_Radio",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Mission_Scales",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Mission_Vesper_Cage",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Organic_Analyzer",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Pistol_T4",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Portable_Biofuel_Generator",
+                    "RequiredMillijoules": 1600
+                },
+                {
+                    "Name": "Portable_Tank_Biofuel",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Portable_Tank_Water",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Shotgun_T4",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Single_Ceiling_Light",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Solar_Panel",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "SpawnBlocker_T4",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Submachine_Gun",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Thumper",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Thumper_Mini",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Titanium_Plate",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Turret_Pistol",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Water_Borer",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Water_Pump",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Waterwheel",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Wind_Turbine",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Scorpion_FishingRod",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Concrete_Window",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Glass_Beam_Tempered",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Glass_Door_Reinforced",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Glass_Floor_Tempered",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Glass_Half_Pitch_Tempered",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Glass_Halfpiece_Tempered",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Glass_Ramp_Tempered",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Glass_Roof_Corner_Tempered",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Glass_Wall_Angled_Tempered",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Glass_Wall_Tempered",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Glass_Window_Reinforced",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "AntiPoison_Tonic",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Antibiotic_Tonic",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Antibiotic_Tonic_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Antiparasitic_Tonic",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Antiparasitic_Tonic_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Blood_Thinning_Tonic",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Health_Enhancement_Tonic",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Seed_Fertilizer",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Seed_Fertilizer_2",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Stamina_Enhancement_Tonic",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Strength_Enhancement_Tonic",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Sustenence_Enhancement_Tonic",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Bacon_Sandwich",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Cheese",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Fruit_Smoothie",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Glass_Jar_Honey",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Homestead_Cheese",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Homestead_Hanging_Meat",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Kiwifruit_Jam",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Pastry_Butter",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Strawberries_And_Cream",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Caramel_Fruit_Tart",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Cheese_Roll",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Crispy_Bacon",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Crispy_Bacon_Butter",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Fried_Chicken",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Honey_Pastry",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Roast_Chicken",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Salted_Caramel_Pastry",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Advanced_Armor_Bench",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Alteration_Bench",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Ammo_EDS",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Anvil_Bench_T3",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "AssaultRifle_Armor_Piercing_Round",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "AssaultRifle_Round",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "AssaultRifle_Round_Cold_Steel",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "AssaultRifle_Round_Explosive",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "AssaultRifle_Round_Incendiary",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "AssaultRifle_Round_Iron_Wood",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "AssaultRifle_Round_Obsidian",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Beehive_Breeder",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Beehive_Expansion1",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Biofuel_Water_Pump",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "BoltAction_Rifle",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Bulk_AssaultRifle_Round",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Bulk_Pistol_Round",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Bulk_Rifle_Round",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Bulk_Shotgun_Shell_Buckshot",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Butchery_Bench",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Cave_Scanner",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Cement_Mixer",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Clay_Brick_Railing",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Composter",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Concrete_Door",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Concrete_Furnace",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Concrete_Roof_Corner",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Copper_Wire",
+                    "RequiredMillijoules": 3500
+                },
+                {
+                    "Name": "Fabricator",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Farmers_Shotgun",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Fire_Extinguisher",
+                    "RequiredMillijoules": 400
+                },
+                {
+                    "Name": "Flamethrower",
+                    "RequiredMillijoules": 10000
+                },
+                {
+                    "Name": "Gas_Fireplace",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Gas_Fireplace_Cap",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Gas_Fireplace_Ext",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Glassworking_Bench",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Gold_Wire",
+                    "RequiredMillijoules": 3500
+                },
+                {
+                    "Name": "Homestead_Coffee_Grinder",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Homestead_Sewing_Machine",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Homestead_Water_Tank",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Ice_Borer",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Iron_Crop_Plot",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Iron_Roof_Corner_Ingot",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Iron_Sign_Small",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Jerry_Can_Water",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Kitchen_Bench",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Kitchen_Corner",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Kitchen_Storage",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Kitchen_Stove",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Masonry_Bench_T3",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Medical_Device",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Medicine_Bench",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Metal_Crate_Medium",
+                    "RequiredMillijoules": 1200
+                },
+                {
+                    "Name": "Metal_Crate_Small",
+                    "RequiredMillijoules": 1200
+                },
+                {
+                    "Name": "Metal_Cupboard",
+                    "RequiredMillijoules": 1600
+                },
+                {
+                    "Name": "Metal_Cupboard_Small",
+                    "RequiredMillijoules": 1600
+                },
+                {
+                    "Name": "Mission_Communicator_T3",
+                    "RequiredMillijoules": 20000
+                },
+                {
+                    "Name": "Mission_MonitoringPylon",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Mission_Navigation",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Mission_Sonic_Device",
+                    "RequiredMillijoules": 20000
+                },
+                {
+                    "Name": "Mission_Thruster",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Pistol_Armor_Piercing_Round",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Pistol_Explosive_Round",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Pistol_Incendiary_Round",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Pistol_Round",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Pistol_Round_Cold_Steel",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Pistol_Round_Iron_Wood",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Pistol_Round_Obsidian",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Pistol_T3",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Platinum_Sheath",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Portable_Beacon",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Rain_Reservoir_T3",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Recovery_Beacon_Tracker",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Repair_Bench",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Rifle_Armor_Piercing_Round",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Rifle_Round",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Rifle_Round_Cold_Steel",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Rifle_Round_Explosive",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Rifle_Round_Incendiary",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Rifle_Round_Iron_Wood",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Rifle_Round_Obsidian",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Shotgun",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Shotgun_Casing",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Shotgun_Shell_Armor_Piercing",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Shotgun_Shell_Buckshot",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Shotgun_Shell_Cold_Steel",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Shotgun_Shell_Explosive",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Shotgun_Shell_Ironwood",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Shotgun_Shell_Obsidian",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "SpawnBlocker_T3",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "SplineTool_Water",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Steel_Rebar",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "SurveyTransmitter_NoSnap",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "T3_Cleaning_Device",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "T3_Smoker",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "TriangulationBeacon",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Water_Barrel",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Water_Sprinkler",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Windmill",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Buffalo_Statue_Stone",
+                    "RequiredMillijoules": 15000
+                },
+                {
+                    "Name": "Caveworm_Statue_Stone",
+                    "RequiredMillijoules": 20000
+                },
+                {
+                    "Name": "Deer_Statue_Stone",
+                    "RequiredMillijoules": 15000
+                },
+                {
+                    "Name": "Elephant_Statue_Stone",
+                    "RequiredMillijoules": 15000
+                },
+                {
+                    "Name": "Homestead_Silo",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Komodo_Statue_Stone",
+                    "RequiredMillijoules": 10000
+                },
+                {
+                    "Name": "Piranha_Statue_Stone",
+                    "RequiredMillijoules": 10000
+                },
+                {
+                    "Name": "Rabbit_Statue_Stone",
+                    "RequiredMillijoules": 10000
+                },
+                {
+                    "Name": "Sandworm_Halfpiece",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Scoria_Advanced_Beam_Set",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Scoria_Beam",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Scoria_Curved_Set",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Scoria_Diagonal_Curved_Wall_Angles",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Scoria_Diagonal_Set",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Scoria_Floor",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Scoria_Frame",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Scoria_Half_Pitch",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Scoria_Halfpiece",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Scoria_Ramp",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Scoria_Roof_Corner",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Scoria_Roof_CurvedAngles",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Scoria_Wall",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Scoria_Wall_Angled",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Scoria_Wall_Curved",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Stone_Advanced_Beams_Set",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Stone_Beam",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Stone_Curved_Set",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Stone_Diagonal_Curved_Wall_Angles",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Stone_Diagonal_Set",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Stone_Floor",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Stone_Frame",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Stone_Half_Pitch",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Stone_Halfpiece",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Stone_Ramp",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Stone_Roof_Corner",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Stone_Roof_CurvedAngles",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Stone_Sign_Small",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Stone_Wall",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Stone_Wall_Angled",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Stone_Wall_Curved",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Brick_Sign_Small",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Stone_Brick",
+                    "RequiredMillijoules": 400
+                },
+                {
+                    "Name": "Stone_Brick_Fireplace",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Stone_Brick_Fireplace_Cap",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Stone_Brick_Fireplace_Ext",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Stone_Brick_Roof_Corner",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Composite_Paste",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Composite_Paste_Plat",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Antibiotic_Pill",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Antiparasitic_Pill",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Antipoison_Pill",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Blood_Thinning_Pill",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Dressing_Kit",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Enzyme_Elixir",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Enzyme_Virus",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Health_Elixir",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Purification_Pill",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Arrow_Damage",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Fishing_Rod_Health",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Ore_Meta",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Wood_Building_Wind_Resistance",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Fill_Oxygen_Container_Metal",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Beeswax",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Bone_Tusks",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Butter",
+                    "RequiredMillijoules": 6000
+                },
+                {
+                    "Name": "Carbon_Paste",
+                    "RequiredMillijoules": 250
+                },
+                {
+                    "Name": "Cream",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Crushed_Bone",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Epoxy",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Epoxy_2",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Flour",
+                    "RequiredMillijoules": 250
+                },
+                {
+                    "Name": "Flour_Corn",
+                    "RequiredMillijoules": 250
+                },
+                {
+                    "Name": "Flour_Potato",
+                    "RequiredMillijoules": 250
+                },
+                {
+                    "Name": "Gunpowder",
+                    "RequiredMillijoules": 400
+                },
+                {
+                    "Name": "Gunpowder_Salt",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Gunpowder_talent",
+                    "RequiredMillijoules": 400
+                },
+                {
+                    "Name": "Honey",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Mission_Homogenized_Sample",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Organic_Resin",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Paints_6",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Poison_Paste",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Seed_Oil",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Seed_Oil_Avocado",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Seed_Oil_Soy",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Steel_Bloom3",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Steel_Bloom4",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Sugar",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Sugar_Honey",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Sugar_Kumara",
+                    "RequiredMillijoules": 4000
+                },
+                {
+                    "Name": "Tree_Sap",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Tree_Sap_Wood",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Fill_Oxygen_Container",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Food_Fish_Chunk_Stew",
+                    "RequiredMillijoules": 3500
+                },
+                {
+                    "Name": "Strawberry_Candy",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Watermelon_Lollypop",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Brutalist_Bed",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Brutalist_Bench_Sitting",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Brutalist_Bookshelf",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Brutalist_Cabinet",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Brutalist_Candle",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Brutalist_Candle_1",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Brutalist_CoffeeTable",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Brutalist_Dining_Chair",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Brutalist_Dining_Table_10",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Brutalist_Dining_Table_6",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Brutalist_Dining_Table_Round",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Brutalist_Dresser",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Brutalist_Lamp",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Brutalist_Lamp_Square",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Brutalist_Living_Chair",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Brutalist_Living_Couch_2",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Brutalist_Living_Couch_3",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Brutalist_Nightstand",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Brutalist_Shelf_Wall",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Brutalist_Stool",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Brutalist_Wardrobe",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Buffalo_Statue_Wood",
+                    "RequiredMillijoules": 10000
+                },
+                {
+                    "Name": "Gold_Bed",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Bookshelf",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Candle",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Candle_1",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Chandelier",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Dining_Chair",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Dresser",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Fireplace",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Fireplace_Cap",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Fireplace_Ext",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Living_Chair",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Living_Chair2",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Living_Chair3",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Nightstand",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Partition",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Rug",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Safe",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Shelf_Wall",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Sitting_Bench",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Standing_Lamp",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Table_10Seater",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Table_6Seater",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Table_Round",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Vase",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Vault",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Wall_Light",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Wall_Sign",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Gold_Wardrobe",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Homestead_Barbed_Wire_Fence",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Homestead_BirdFeeder",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Homestead_Farm_Railing_Gate",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Homestead_Lamp_Ground",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Homestead_Lamp_Wall",
+                    "RequiredMillijoules": 1600
+                },
+                {
+                    "Name": "Metal_Bed",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Metal_Bookshelf",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Metal_Candles",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Metal_Candles_1",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Metal_Chair_Dining",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Metal_Chair_Living",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Metal_Chair_Living_2Seater",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Metal_Chair_Living_Sitting",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Metal_Coffeetable",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Metal_Display_Cabinet",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Metal_Dresser",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Metal_Lamp",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Metal_Nightstand",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Metal_Stool",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Metal_Table10",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Metal_Table6",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Metal_Table_Round",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Metal_Wall_Shelf",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Metal_Wardrobe",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "National_Flag_Australia",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_Belgium",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_Brazil",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_Canada",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_China",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_Czech",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_Denmark",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_EuropeanUnion",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_Finland",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_France",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_Germany",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_Hungry",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_Italy",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_Japan",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_Netherlands",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_NewZealand",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_Norway",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_Romania",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_Russia",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_SouthAfrica",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_SouthKorea",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_Spain",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_Sweden",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_Switzerland",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_Taiwan",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_Turkey",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_Ukraine",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_UnitedKingdom",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "National_Flag_UnitedStates",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Rabbit_Statue_Wood",
+                    "RequiredMillijoules": 10000
+                },
+                {
+                    "Name": "Raw_Wood_Lamp",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Avocado_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Banana_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Bean_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Berry_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Bramble_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Carrot_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Cocoa_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Coconut_Seeds_Mid",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Coconut_Seeds_Old",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Coconut_Seeds_Young",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Coffee_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Corn_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Fiber_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "GreenTea_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Kiwi_Fruit_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Kumara_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Lily_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Mushroom_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Potato_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Pumpkin_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Reed_Flower_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Rhubarb_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Squash_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Strawberry_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Sugar_Cane",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Tomato_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Watermelon_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Wheat_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "WildTea_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Yeast_Seeds",
+                    "RequiredMillijoules": 3000
+                },
+                {
+                    "Name": "Carcass_Desert_Wolf",
+                    "RequiredMillijoules": 750
+                },
+                {
+                    "Name": "Carcass_Pronghorn",
+                    "RequiredMillijoules": 200
+                },
+                {
+                    "Name": "Carcass_Rabbit_Variant_Snow",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Carcass_Scorpion",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Carcass_Snow_Rabbit",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Carcass_Wooly_Zebra",
+                    "RequiredMillijoules": 600
+                },
+                {
+                    "Name": "Refined_Copper",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Refined_Metal",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Shaped_Obsidian",
+                    "RequiredMillijoules": 2500
+                },
+                {
+                    "Name": "Smoked_Bacon",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Smoked_Fatty_Tbone",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Smoked_Freshwater_Fillet",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Smoked_Gamey_Meat",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Smoked_Giant_Steak",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Smoked_Meat_Generic",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Smoked_Saltwater_Fillet",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Smoked_Soft_Meat",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Smoked_Stringy_Meat",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Smoked_White_Meat",
+                    "RequiredMillijoules": 5000
+                },
+                {
+                    "Name": "Arctic_Rabbit_Trophy",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Ashen_Drake_Trophy",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Bear_Trophy",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Blueback_Trophy",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Buffalo_Trophy",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Calf_Trophy",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Cat_Trophy_A1",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Cat_Trophy_A2",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Cat_Trophy_A3",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Caveworm_Trophy",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Chicken_Trophy",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Chicken_Trophy_A2",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Chicken_Trophy_A3",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Dac_Trophy",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Deer_Trophy",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "DesertWolf_Trophy",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Desert_Deer_Trophy",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Desert_Mammoth_Trophy",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Desert_Striker_Trophy",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Dog_Trophy_A1",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Dog_Trophy_A2",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Dog_Trophy_B1",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Dog_Trophy_B2",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Dog_Trophy_C1",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Dog_Trophy_D1_1",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Dog_Trophy_D1_2",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Dog_Trophy_D2_1",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Dog_Trophy_D2_2",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Dreadwing_Trophy",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Elephant_Trophy",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Equix_Trophy",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Horse_Trophy_A1",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Horse_Trophy_A2",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Horse_Trophy_A3",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "IceMammoth_Trophy_Chandelier",
+                    "RequiredMillijoules": 1500
+                },
+                {
+                    "Name": "Juvenile_Ape_Trophy",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Kea_Trophy",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Kiwi_Trophy",
+                    "RequiredMillijoules": 3500
+                },
+                {
+                    "Name": "Landshark_Trophy",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Mammoth_Trophy",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Moa_Trophy",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Needler_Trophy",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "PolarBear_Trophy",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Pronghorn_Trophy",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Pygmy_Lopp_Trophy",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Rabbit_Trophy",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Roat_Trophy",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Rock_Golem_Trophy_Lamp",
+                    "RequiredMillijoules": 30000
+                },
+                {
+                    "Name": "Scorpion_Boss_Trophy",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Scorpion_Trophy",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Sheep_Trophy",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "SnowWolf_Trophy",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Snow_Mammoth_Trophy",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Snow_Stalker_Trophy",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Snow_Viscid_Trophy",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Stonejaw_Trophy",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Teenage_Caveworm_Trophy",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Terrenus_Trophy",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Tusker_Trophy",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Ubis_Trophy",
+                    "RequiredMillijoules": 300
+                },
+                {
+                    "Name": "Viscid_Trophy",
+                    "RequiredMillijoules": 2000
+                },
+                {
+                    "Name": "Spear_Health",
+                    "RequiredMillijoules": 1000
+                },
+                {
+                    "Name": "Wood_Building_Burn_Chance",
+                    "RequiredMillijoules": 1000
+                }
+            ]
+        },
+        {
+            "CurrentFile": "EndOfMod"
+        }
+    ]
+}
