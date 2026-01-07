@@ -7,7 +7,7 @@
             "compatibility": "All",
             "description": "1396 individual item kits - craftable and raw items only! Fairly priced by complexity (5-300 credits). Organized into 73 categories with visual spacing. Search for any item!",
             "fileName": "Agents_Individual_Item_Kits",
-            "imageURL": "",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/individual_items.png",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Individual_Item_Kits/README.md",
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Individual_Item_Kits/Agents_Individual_Item_Kits.EXMODZ"
@@ -20,7 +20,7 @@
             "compatibility": "All",
             "description": "Adds all 10 Bio Lab Legendary weapons to the Workshop! Includes Frontier Revolver, Kinetic Rifle, Tactical Bow, Mining Armature, Biotech Maul, Heavy Flamethrower, Anti-materiel Rifle, Javelin Launcher, Slug Launcher, and Ice Mammoth Sledgehammer. All purchasable for 1000 Exotics each.",
             "fileName": "Agents_BioLab",
-            "imageURL": "",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/biolab.png",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_BioLab/README.md",
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_BioLab/Agents_BioLab.EXMODZ"
@@ -31,9 +31,9 @@
             "author": "AgentKush",
             "version": "3.0",
             "compatibility": "All",
-            "description": "Makes ALL crafting and processing 5x faster! Covers 1723 recipes including cooking, smelting, Fabricator, Material Processor, and more.",
+            "description": "Makes ALL crafting and processing 5x faster! Covers 1723 recipes including cooking, smelting, Fabricator, Material Processor, and more. Only use ONE FastProcessing mod at a time!",
             "fileName": "FastProcessing_All_5x",
-            "imageURL": "",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/fast_5x.png",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_5x/README.md",
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_5x/FastProcessing_All_5x.EXMODZ"
@@ -44,9 +44,9 @@
             "author": "AgentKush",
             "version": "3.0",
             "compatibility": "All",
-            "description": "Makes ALL crafting and processing 10x faster! Covers 1723 recipes including cooking, smelting, Fabricator, Material Processor, and more.",
+            "description": "Makes ALL crafting and processing 10x faster! Covers 1723 recipes including cooking, smelting, Fabricator, Material Processor, and more. Only use ONE FastProcessing mod at a time!",
             "fileName": "FastProcessing_All_10x",
-            "imageURL": "",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/fast_10x.png",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_10x/README.md",
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_10x/FastProcessing_All_10x.EXMODZ"
@@ -57,9 +57,9 @@
             "author": "AgentKush",
             "version": "3.0",
             "compatibility": "All",
-            "description": "Makes ALL crafting and processing 15x faster! Covers 1723 recipes including cooking, smelting, Fabricator, Material Processor, and more.",
+            "description": "Makes ALL crafting and processing 15x faster! Covers 1723 recipes including cooking, smelting, Fabricator, Material Processor, and more. Only use ONE FastProcessing mod at a time!",
             "fileName": "FastProcessing_All_15x",
-            "imageURL": "",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/fast_15x.png",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_15x/README.md",
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_15x/FastProcessing_All_15x.EXMODZ"
@@ -70,9 +70,9 @@
             "author": "AgentKush",
             "version": "3.0",
             "compatibility": "All",
-            "description": "Makes ALL crafting and processing 25x faster! Covers 1723 recipes including cooking, smelting, Fabricator, Material Processor, and more.",
+            "description": "Makes ALL crafting and processing 25x faster! Covers 1723 recipes including cooking, smelting, Fabricator, Material Processor, and more. Only use ONE FastProcessing mod at a time!",
             "fileName": "FastProcessing_All_25x",
-            "imageURL": "",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/fast_25x.png",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_25x/README.md",
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_25x/FastProcessing_All_25x.EXMODZ"
@@ -83,9 +83,9 @@
             "author": "AgentKush",
             "version": "3.0",
             "compatibility": "All",
-            "description": "Makes ALL crafting and processing INSTANT! Covers 1723 recipes including cooking, smelting, Fabricator, Material Processor, and more. Zero wait time!",
+            "description": "Makes ALL crafting and processing INSTANT! Covers 1723 recipes including cooking, smelting, Fabricator, Material Processor, and more. Zero wait time! Only use ONE FastProcessing mod at a time!",
             "fileName": "FastProcessing_Instant",
-            "imageURL": "",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/fast_instant.png",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_Instant/README.md",
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_Instant/FastProcessing_Instant.EXMODZ"
@@ -98,7 +98,7 @@
             "compatibility": "All",
             "description": "Makes all tools, weapons, armor, buildings, doors, and crafting stations virtually indestructible. Sets durability to the games maximum cap.",
             "fileName": "Indestructible_Tools_Weapons",
-            "imageURL": "",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/indestructible.png",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Indestructible_Tools_Weapons/README.md",
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Indestructible_Tools_Weapons/Indestructible_Tools_Weapons.EXMODZ"
@@ -111,7 +111,7 @@
             "compatibility": "All",
             "description": "Prevents all food items and volatile substances from spoiling in your inventory. Meat, fish, vegetables, and volatile substances will last forever!",
             "fileName": "No_Food_Spoilage",
-            "imageURL": "",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/no_spoil.png",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/No_Food_Spoilage/README.md",
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/No_Food_Spoilage/No_Food_Spoilage.EXMODZ"
