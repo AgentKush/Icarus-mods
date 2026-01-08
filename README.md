@@ -35,7 +35,7 @@
 | 🛡️ **[Indestructible Tools](./Indestructible_Tools_Weapons)** | Max durability for everything | `v1.3` |
 | 🍖 **[No Food Spoilage](./No_Food_Spoilage)** | Food & volatile substances never spoil | `v1.1` |
 | 🩹 **[Affliction Adjuster](./Modular_Affliction_Adjuster)** | 110 afflictions reduced by ~50% | `v2.0` |
-| 💪 **[Buff Enhancer](./Modular_Buff_Enhancer)** | 83 buffs boosted by ~50% | `v1.0` |
+| 💪 **[Buff Enhancer](./Modular_Buff_Enhancer)** | 239 buffs boosted by ~50% | `v1.1` |
 
 ---
 
@@ -221,11 +221,11 @@ Comprehensively adjusts all negative status effects - diseases, wounds, temperat
 
 ---
 
-## 💪 Modular Buff Enhancer `v1.0`
+## 💪 Modular Buff Enhancer `v1.1`
 
 > **Boost all positive effects by ~50%!**
 
-Enhances 83 buff modifiers including tonics, drinks, bed healing, comfort bonuses, biolab inhalers, aura effects, and more. Everything positive is now 50% stronger!
+Enhances 239 buff modifiers including tonics, drinks, bed healing, comfort bonuses, biolab inhalers, aura effects, and **156 food buffs**. Everything positive is now 50% stronger!
 
 ### Categories Covered
 
@@ -241,6 +241,7 @@ Enhances 83 buff modifiers including tonics, drinks, bed healing, comfort bonuse
 | 🔬 Biolab Inhalers | 12 | All 12 inhalers boosted |
 | ✨ Aura Effects | 10 | Stronger area effects |
 | 📦 Spoil Reduction | 3 | Better food preservation |
+| 🍖 **Food Buffs** | **156** | **All foods +50% stronger (NEW!)** |
 
 ### Example Changes
 
@@ -306,6 +307,11 @@ Perfect for a more relaxed survival experience!
 - Tonics, drinks, bed healing, comfort, biolab inhalers, auras
 - ~50% stronger positive effects across the board
 - Pairs perfectly with Affliction Adjuster!
+
+### v1.1 - Modular Buff Enhancer (UPDATE)
+- **Added 156 food buffs** - All food items now +50% stronger
+- Total modifications: 239 (up from 83)
+- Covers cooked meats, vegetables, fish, prepared meals, desserts, snacks
 
 ### v3.0 - FastProcessing (Major Update)
 - **Added 666 missing recipes** - Now covers ALL 1,723 recipes (up from 1,057)

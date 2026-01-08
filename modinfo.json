@@ -133,9 +133,9 @@
         {
             "name": "Modular Buff Enhancer",
             "author": "AgentKush",
-            "version": "1.0",
+            "version": "1.1",
             "compatibility": "All",
-            "description": "Comprehensive buff enhancement - 83 modifications boosting tonics, drinks, bed healing, comfort bonuses, biolab inhalers, aura effects, and more by ~50%. Stronger positive effects across the board.",
+            "description": "Comprehensive buff enhancement - 239 modifications boosting tonics, drinks, bed healing, comfort bonuses, biolab inhalers, aura effects, and 156 food buffs by ~50%. Stronger positive effects across the board.",
             "fileName": "ModularBuffEnhancer",
             "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/buff_enhancer.png",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Modular_Buff_Enhancer/README.md",

@@ -2,627 +2,253 @@
   "name": "ModularBuffEnhancer",
   "author": "AgentKush",
   "fileName": "ModularBuffEnhancer",
-  "version": "1.0",
-  "description": "Comprehensive buff enhancement - boosts 85+ positive effects by ~50%. Stronger tonics, better food buffs, enhanced bed healing, improved comfort bonuses, and more powerful biolab inhalers.",
+  "version": "1.1",
+  "description": "Comprehensive buff enhancement - 83 core buffs plus 156 food buffs, all boosted by ~50%. Stronger tonics, better food effects, enhanced bed healing, improved comfort bonuses, and more powerful biolab inhalers.",
   "week": "",
   "Level2": "True",
   "Rows": [
     {
       "CurrentFile": "Modifiers-D_ModifierStates.json",
       "File_Items": [
-        {
-          "Name": "Health_Regen",
-          "GrantedStats": {
-            "(Value=\"BaseHealthRegen_+%\")": 150
-          }
-        },
-        {
-          "Name": "Health_Buff",
-          "GrantedStats": {
-            "(Value=\"BaseMaximumHealth_+%\")": 15
-          }
-        },
-        {
-          "Name": "Stamina_Regen",
-          "GrantedStats": {
-            "(Value=\"BaseStaminaRegen_+%\")": 150
-          }
-        },
-        {
-          "Name": "Stamina_Buff",
-          "GrantedStats": {
-            "(Value=\"BaseMaximumStamina_+%\")": 15
-          }
-        },
-        {
-          "Name": "Stamina_Consumption",
-          "GrantedStats": {
-            "(Value=\"BaseStaminaActionCost_+%\")": -8
-          }
-        },
-        {
-          "Name": "Food_Consumption",
-          "GrantedStats": {
-            "(Value=\"BaseFoodConsumption_+%\")": -8
-          }
-        },
-        {
-          "Name": "Water_Consumption",
-          "GrantedStats": {
-            "(Value=\"BaseWaterConsumption_+%\")": -8
-          }
-        },
-        {
-          "Name": "Oxygen_Buff",
-          "GrantedStats": {
-            "(Value=\"BaseMaximumOxygen_+%\")": 15
-          }
-        },
-        {
-          "Name": "Oxygen_Consumption",
-          "GrantedStats": {
-            "(Value=\"BaseOxygenConsumption_+%\")": -8
-          }
-        },
-        {
-          "Name": "Temperature_Boost",
-          "GrantedStats": {
-            "(Value=\"BaseDeltaTemperatureResistance_%\")": 360
-          }
-        },
-        {
-          "Name": "Melee_Boost",
-          "GrantedStats": {
-            "(Value=\"BaseMeleeDamage_+%\")": 300
-          }
-        },
-        {
-          "Name": "Movement_Boost",
-          "GrantedStats": {
-            "(Value=\"BaseMovementSpeed_+%\")": 300
-          }
-        },
-        {
-          "Name": "Crafting_Boost",
-          "GrantedStats": {
-            "(Value=\"BaseCraftingSpeed_+%\")": -40
-          }
-        },
-        {
-          "Name": "Carry_Boost",
-          "GrantedStats": {
-            "(Value=\"BaseWeightCapacity_+%\")": 75
-          }
-        },
-        {
-          "Name": "XP_Boost",
-          "GrantedStats": {
-            "(Value=\"BaseExperience_+%\")": 150
-          }
-        },
-        {
-          "Name": "FallDamage_Negate",
-          "GrantedStats": {
-            "(Value=\"BaseFallDamageResistance_%\")": 100
-          }
-        },
-        {
-          "Name": "Weight_Reduction",
-          "GrantedStats": {
-            "(Value=\"BaseWeightCapacity_+%\")": 40
-          }
-        },
-        {
-          "Name": "Health_Regen_Bed_Bedroll",
-          "GrantedStats": {
-            "(Value=\"BaseHealthRegen_+%\")": 1500
-          }
-        },
-        {
-          "Name": "Health_Regen_Bed_SleepingBag",
-          "GrantedStats": {
-            "(Value=\"BaseHealthRegen_+%\")": 7500
-          }
-        },
-        {
-          "Name": "Health_Regen_Bed_CaliforniaKing",
-          "GrantedStats": {
-            "(Value=\"BaseHealthRegen_+%\")": 15000
-          }
-        },
-        {
-          "Name": "Well_Rested",
-          "GrantedStats": {
-            "(Value=\"BaseMaximumHealth_+%\")": 15,
-            "(Value=\"BaseHealthRegen_+%\")": 15,
-            "(Value=\"BaseMaximumStamina_+%\")": 8,
-            "(Value=\"BaseStaminaRegen_+%\")": 8,
-            "(Value=\"BaseFoodConsumption_+%\")": -8,
-            "(Value=\"BaseWaterConsumption_+%\")": -8
-          }
-        },
-        {
-          "Name": "Warm_Comfort",
-          "GrantedStats": {
-            "(Value=\"BaseHealthRegen_+%\")": 75,
-            "(Value=\"BaseStaminaRegen_+%\")": 75,
-            "(Value=\"BaseExperience_+%\")": 15,
-            "(Value=\"BaseHeatResistance_%\")": 22
-          }
-        },
-        {
-          "Name": "Cool_Comfort",
-          "GrantedStats": {
-            "(Value=\"BaseHealthRegen_+%\")": 75,
-            "(Value=\"BaseStaminaRegen_+%\")": 75,
-            "(Value=\"BaseExperience_+%\")": 15,
-            "(Value=\"BaseColdResistance_%\")": 22
-          }
-        },
-        {
-          "Name": "Fresh_Air",
-          "GrantedStats": {
-            "(Value=\"BaseHealthRegen_+%\")": 30,
-            "(Value=\"BaseExposureResistance_+%\")": 8
-          }
-        },
-        {
-          "Name": "Health_Enhancement_Tonic",
-          "GrantedStats": {
-            "(Value=\"BaseMaximumHealth_+%\")": 45,
-            "(Value=\"BaseHealthRegen_+%\")": 450
-          }
-        },
-        {
-          "Name": "Stamina_Enhancement_Tonic",
-          "GrantedStats": {
-            "(Value=\"BaseMaximumStamina_+%\")": 45,
-            "(Value=\"BaseStaminaRegen_+%\")": 300
-          }
-        },
-        {
-          "Name": "Sustenence_Enhancement_Tonic",
-          "GrantedStats": {
-            "(Value=\"BaseFoodConsumption_+%\")": -45,
-            "(Value=\"BaseWaterConsumption_+%\")": -45,
-            "(Value=\"BaseOxygenConsumption_+%\")": -45,
-            "(Value=\"BaseFoodModifierDuration_+%\")": 45
-          }
-        },
-        {
-          "Name": "Strength_Enhancement_Tonic",
-          "GrantedStats": {
-            "(Value=\"BaseMeleeDamage_+%\")": 45,
-            "(Value=\"BaseKnifeProjectileSpeed_+%\")": 45,
-            "(Value=\"BaseSpearProjectileSpeed_+%\")": 45,
-            "(Value=\"BasePhysicalDamageResistance_+%\")": 22
-          }
-        },
-        {
-          "Name": "Ape_Tonic",
-          "GrantedStats": {
-            "(Value=\"BaseAttackSpeed_+%\")": 38,
-            "(Value=\"BaseMovementSpeed_+%\")": 38,
-            "(Value=\"BaseStaminaRegen_+%\")": 1500,
-            "(Value=\"BaseFellingRewards_+%\")": -50,
-            "(Value=\"BaseMiningRewards_+%\")": -50
-          }
-        },
-        {
-          "Name": "Thermos_IceWater",
-          "GrantedStats": {
-            "(Value=\"BaseInternalTemperatureModification_+\")": -2250
-          }
-        },
-        {
-          "Name": "Thermos_GreenTea_Modifier",
-          "GrantedStats": {
-            "(Value=\"BaseHealthRegen_+%\")": 38,
-            "(Value=\"BaseInternalTemperatureModification_+\")": 1500
-          }
-        },
-        {
-          "Name": "Thermos_WildTea_Modifier",
-          "GrantedStats": {
-            "(Value=\"BaseWaterConsumption_+%\")": -38,
-            "(Value=\"BaseInternalTemperatureModification_+\")": 1500
-          }
-        },
-        {
-          "Name": "Thermos_Cocoa_Modifier",
-          "GrantedStats": {
-            "(Value=\"BaseFoodConsumption_+%\")": -38,
-            "(Value=\"BaseInternalTemperatureModification_+\")": 1500
-          }
-        },
-        {
-          "Name": "Thermos_Coffee_Modifier",
-          "GrantedStats": {
-            "(Value=\"BaseInternalTemperatureModification_+\")": 1500,
-            "(Value=\"BaseMaximumStamina_+%\")": 15,
-            "(Value=\"BaseStaminaRegen_+%\")": 15
-          }
-        },
-        {
-          "Name": "Thermos_Coffee_With_Cream",
-          "GrantedStats": {
-            "(Value=\"BaseInternalTemperatureModification_+\")": 1500,
-            "(Value=\"BaseMaximumStamina_+%\")": 38,
-            "(Value=\"BaseStaminaRegen_+%\")": 38
-          }
-        },
-        {
-          "Name": "Thermos_HoneyTea",
-          "GrantedStats": {
-            "(Value=\"BaseInternalTemperatureModification_+\")": 1500,
-            "(Value=\"BaseParasiticModifierDuration_+%\")": -38,
-            "(Value=\"BaseBacterialModifierDuration_+%\")": -38,
-            "(Value=\"BaseFoodModifierDuration_+%\")": 30
-          }
-        },
-        {
-          "Name": "Drink_Cooling",
-          "GrantedStats": {
-            "(Value=\"BaseCooldownDegreePerMinute_+\")": 15,
-            "(Value=\"BaseInternalTemperatureModification_+\")": -750
-          }
-        },
-        {
-          "Name": "Drink_Heated",
-          "GrantedStats": {
-            "(Value=\"BaseWarmupDegreePerMinute_+\")": 15,
-            "(Value=\"BaseInternalTemperatureModification_+\")": 750
-          }
-        },
-        {
-          "Name": "Drink_Energised",
-          "GrantedStats": {
-            "(Value=\"BaseStaminaRegen_+%\")": 150,
-            "(Value=\"BaseStaminaActionCost_+%\")": -38
-          }
-        },
-        {
-          "Name": "Beer",
-          "GrantedStats": {
-            "(Value=\"BaseStaminaRegen_+%\")": 150,
-            "(Value=\"BaseMaximumStamina_+\")": 188,
-            "(Value=\"BaseFoodStomachSlots_+\")": 1
-          }
-        },
-        {
-          "Name": "Wine",
-          "GrantedStats": {
-            "(Value=\"BaseStaminaRegen_+%\")": 150,
-            "(Value=\"BaseMaximumStamina_+\")": 188,
-            "(Value=\"BaseFoodStomachSlots_+\")": 1
-          }
-        },
-        {
-          "Name": "Honey_Mead",
-          "GrantedStats": {
-            "(Value=\"BaseFoodStomachSlots_+\")": 1,
-            "(Value=\"BaseMaximumStamina_+\")": 188,
-            "(Value=\"BaseStaminaRegen_+%\")": 150,
-            "(Value=\"BaseFoodModifierDuration_+%\")": 45
-          }
-        },
-        {
-          "Name": "Vodka",
-          "GrantedStats": {
-            "(Value=\"BaseFoodStomachSlots_+\")": 1,
-            "(Value=\"BaseExplosiveDamage_+%\")": 8,
-            "(Value=\"BaseProjectileDamageResistance_+%\")": 15,
-            "(Value=\"BaseWaterConsumption_+%\")": 10,
-            "(Value=\"BaseColdResistance_%\")": 8,
-            "(Value=\"BaseHeatResistance_%\")": 8
-          }
-        },
-        {
-          "Name": "Tequila",
-          "GrantedStats": {
-            "(Value=\"BaseFoodStomachSlots_+\")": 1,
-            "(Value=\"BaseExplosiveDamage_+%\")": 8,
-            "(Value=\"BaseMeleeDamageResistance_%\")": 15,
-            "(Value=\"BaseWaterConsumption_+%\")": 10,
-            "(Value=\"BaseColdResistance_%\")": 8,
-            "(Value=\"BaseHeatResistance_%\")": 8
-          }
-        },
-        {
-          "Name": "Truffle_Vodka",
-          "GrantedStats": {
-            "(Value=\"BaseFoodStomachSlots_+\")": 1,
-            "(Value=\"BaseExplosiveDamage_+%\")": 8,
-            "(Value=\"BaseProjectileDamageResistance_+%\")": 15,
-            "(Value=\"BaseWaterConsumption_+%\")": 10,
-            "(Value=\"BaseColdResistance_%\")": 8,
-            "(Value=\"BaseHeatResistance_%\")": 8,
-            "(Value=\"BaseAnimalThreatModifier_+%\")": -8,
-            "(Value=\"GrantedAuraTamingSpeed_?\")": 1
-          }
-        },
-        {
-          "Name": "PricklyPear_Margarita",
-          "GrantedStats": {
-            "(Value=\"BaseFoodStomachSlots_+\")": 1,
-            "(Value=\"BaseExplosiveDamage_+%\")": 8,
-            "(Value=\"BaseMeleeDamageResistance_%\")": 15,
-            "(Value=\"BaseWaterConsumption_+%\")": 10,
-            "(Value=\"BaseColdResistance_%\")": 8,
-            "(Value=\"BaseHeatResistance_%\")": 8,
-            "(Value=\"BaseChanceToReturnDamage_%\")": 15,
-            "(Value=\"BaseDamageReturned_%\")": 38
-          }
-        },
-        {
-          "Name": "TempBoostFromAlcohol",
-          "GrantedStats": {
-            "(Value=\"BaseWarmupDegreePerMinute_+\")": 75
-          }
-        },
-        {
-          "Name": "Antibiotic_Paste",
-          "GrantedStats": {
-            "(Value=\"BaseBacterialModifierDuration_+%\")": -75,
-            "(Value=\"BaseHealthRegen_+%\")": 22
-          }
-        },
-        {
-          "Name": "Antparasitic_Paste",
-          "GrantedStats": {
-            "(Value=\"BaseParasiticModifierDuration_+%\")": -75,
-            "(Value=\"BaseHealthRegen_+%\")": 22
-          }
-        },
-        {
-          "Name": "Antipoison_Paste",
-          "GrantedStats": {
-            "(Value=\"BasePoisonModifierDuration_+%\")": -75,
-            "(Value=\"BaseHealthRegen_+%\")": 22
-          }
-        },
-        {
-          "Name": "Blood_Thinning_Paste",
-          "GrantedStats": {
-            "(Value=\"BasePhysicalTraumaModifierDuration_+%\")": -75,
-            "(Value=\"BaseHealthRegen_+%\")": 22
-          }
-        },
-        {
-          "Name": "Healing_Modifier_Duration",
-          "GrantedStats": {
-            "(Value=\"BaseBacterialModifierDuration_+%\")": -45,
-            "(Value=\"BaseParasiticModifierDuration_+%\")": -45,
-            "(Value=\"BasePoisonModifierDuration_+%\")": -45,
-            "(Value=\"BasePhysicalTraumaModifierDuration_+%\")": -45
-          }
-        },
-        {
-          "Name": "Meta_Biolab_Inhaler_AlphaWolf",
-          "GrantedStats": {
-            "(Value=\"BaseHealthRegen_+%\")": 150,
-            "(Value=\"BaseWoundResistance_%\")": 45,
-            "(Value=\"BaseDeepWoundResistance_%\")": 75
-          }
-        },
-        {
-          "Name": "Meta_Biolab_Inhaler_Sandworm",
-          "GrantedStats": {
-            "(Value=\"BaseHeatResistance_%\")": 30,
-            "(Value=\"BaseHyperthermiaResistance_%\")": 75,
-            "(Value=\"BaseFireDamageResistance_%\")": 45
-          }
-        },
-        {
-          "Name": "Meta_Biolab_Inhaler_IceMammoth",
-          "GrantedStats": {
-            "(Value=\"BaseColdResistance_%\")": 30,
-            "(Value=\"BaseHypothermiaResistance_%\")": 75,
-            "(Value=\"BaseFrostDamageResistance_%\")": 45
-          }
-        },
-        {
-          "Name": "Meta_Biolab_Inhaler_Scorpion",
-          "GrantedStats": {
-            "(Value=\"BaseMaximumHealth_+%\")": 15,
-            "(Value=\"BaseDamageReturned_%\")": 60,
-            "(Value=\"BaseChanceToReturnDamage_%\")": 100,
-            "(Value=\"BaseShieldBlock_+%\")": 8
-          }
-        },
-        {
-          "Name": "Meta_Biolab_Inhaler_LavaHunter",
-          "GrantedStats": {
-            "(Value=\"BaseFireDamageResistanceWhileInLava_%\")": 95,
-            "(Value=\"BaseVolcanicHealthRegen_+%\")": 75,
-            "(Value=\"BaseVolcanicExposureResistance_+%\")": 15,
-            "(Value=\"BaseWaterConsumption_+%\")": -30
-          }
-        },
-        {
-          "Name": "Meta_Biolab_Inhaler_RockGolem",
-          "GrantedStats": {
-            "(Value=\"BasePneumoniaResistance_%\")": 75,
-            "(Value=\"BaseCaveStaminaRegen_+%\")": 45,
-            "(Value=\"BaseCaveHealthRegen_+%\")": 75,
-            "(Value=\"BaseVoxelChanceToHarvestSecondaryResource_%\")": 22
-          }
-        },
-        {
-          "Name": "Meta_Biolab_Inhaler_Hammerhead",
-          "GrantedStats": {
-            "(Value=\"BasePyriticCrustPerMinedResource_%\")": 22,
-            "(Value=\"BaseMiningRewards_+%\")": 15,
-            "(Value=\"BaseMiningRadius_+\")": 8
-          }
-        },
-        {
-          "Name": "Meta_Biolab_Inhaler_SwampApe",
-          "GrantedStats": {
-            "(Value=\"BaseInfectedBarkPerWoodChopped_%\")": 22,
-            "(Value=\"BaseFellingDamage_+%\")": 30,
-            "(Value=\"BaseCollisionDamageResistance_+%\")": 45
-          }
-        },
-        {
-          "Name": "Meta_Biolab_Inhaler_Scyther",
-          "GrantedStats": {
-            "(Value=\"BaseKnifeProjectileDamage_+%\")": 75,
-            "(Value=\"BaseSpearProjectileDamage_+%\")": 22,
-            "(Value=\"BaseKnifeProjectileSpeed_+%\")": 45,
-            "(Value=\"BaseSpearProjectileSpeed_+%\")": 22,
-            "(Value=\"BaseChargeSpeed_+%\")": 45
-          }
-        },
-        {
-          "Name": "Meta_Biolab_Inhaler_Thornet",
-          "GrantedStats": {
-            "(Value=\"BaseAcidicGlandsPerSkinnedResource_%\")": 22,
-            "(Value=\"BaseBoneHarvestedFromAnimals_+%\")": 30,
-            "(Value=\"BasePoisonDamage_+\")": 45
-          }
-        },
-        {
-          "Name": "Meta_Biolab_Inhaler_PlantBoss",
-          "GrantedStats": {
-            "(Value=\"BaseAttackSpeed_+%\")": 15,
-            "(Value=\"BaseMeleeDamage_+%\")": 45,
-            "(Value=\"BaseMeleeDamageResistance_+%\")": 15
-          }
-        },
-        {
-          "Name": "Meta_Biolab_Inhaler_GiantCat",
-          "GrantedStats": {
-            "(Value=\"BaseProjectileDamage_+%\")": 45,
-            "(Value=\"BaseProjectileAccuracy_+%\")": 75,
-            "(Value=\"BaseChanceToNotConsumeAmmo_%\")": 22
-          }
-        },
-        {
-          "Name": "AuraEffect_HealthRegen",
-          "GrantedStats": {
-            "(Value=\"BaseHealthRegen_+%\")": 150
-          }
-        },
-        {
-          "Name": "AuraEffect_MovementSpeed",
-          "GrantedStats": {
-            "(Value=\"BaseMovementSpeed_+%\")": 15
-          }
-        },
-        {
-          "Name": "AuraEffect_ReducedOxygenConsumption",
-          "GrantedStats": {
-            "(Value=\"BaseOxygenConsumption_+%\")": -15
-          }
-        },
-        {
-          "Name": "AuraEffect_AdditionalPhysicalDamageMitigation",
-          "GrantedStats": {
-            "(Value=\"BasePhysicalDamageResistance_%\")": 8
-          }
-        },
-        {
-          "Name": "AuraEffect_HyperthermiaResistance",
-          "GrantedStats": {
-            "(Value=\"BaseHeatResistance_%\")": 22,
-            "(Value=\"BaseHyperthermiaResistance_%\")": 22
-          }
-        },
-        {
-          "Name": "AuraEffect_HypothermiaResistance",
-          "GrantedStats": {
-            "(Value=\"BaseColdResistance_%\")": 22,
-            "(Value=\"BaseHypothermiaResistance_%\")": 22
-          }
-        },
-        {
-          "Name": "AuraEffect_PoisonResistance",
-          "GrantedStats": {
-            "(Value=\"BasePoisonDamageResistance_%\")": 30,
-            "(Value=\"BasePoisonModifierDuration_+%\")": -30
-          }
-        },
-        {
-          "Name": "AuraEffect_Camouflage",
-          "GrantedStats": {
-            "(Value=\"BaseAnimalThreatModifier_+%\")": -45
-          }
-        },
-        {
-          "Name": "AuraEffect_InteractionSpeed",
-          "GrantedStats": {
-            "(Value=\"BaseActionHoldTime_+%\")": -50
-          }
-        },
-        {
-          "Name": "AuraEffect_Warming",
-          "GrantedStats": {
-            "(Value=\"BaseExternalTemperatureModification_+\")": 1500
-          }
-        },
-        {
-          "Name": "Stamina_Speed_Buff",
-          "GrantedStats": {
-            "(Value=\"BaseStaminaRegen_+%\")": 75,
-            "(Value=\"BaseMovementSpeed_+%\")": 52
-          }
-        },
-        {
-          "Name": "RevivePlayerHealthRegen",
-          "GrantedStats": {
-            "(Value=\"BaseHealthRegen_+%\")": 150
-          }
-        },
-        {
-          "Name": "OxygenRecovery_Buff",
-          "GrantedStats": {
-            "(Value=\"BaseOxygenRecovery_+\")": 450,
-            "(Value=\"BaseOxygenConsumption_+%\")": -90,
-            "(Value=\"BaseOxygenConsumptionPerHour_+\")": -90
-          }
-        },
-        {
-          "Name": "Adrenaline",
-          "GrantedStats": {
-            "(Value=\"BaseMovementSpeed_+%\")": 5,
-            "(Value=\"BaseStaminaRegen_+%\")": 38
-          }
-        },
-        {
-          "Name": "Endurance",
-          "GrantedStats": {
-            "(Value=\"BaseHealthRegen_+%\")": 75,
-            "(Value=\"BaseHealthRegenPerMinute_+\")": 9
-          }
-        },
-        {
-          "Name": "Test_CampfireWarmth",
-          "GrantedStats": {
-            "(Value=\"BaseWarmupDegreePerMinute_+\")": 60,
-            "(Value=\"BaseColdResistance_%\")": 27,
-            "(Value=\"BaseHeatResistance_%\")": -10
-          }
-        },
-        {
-          "Name": "IceBox_Spoil_Rate",
-          "GrantedStats": {
-            "(Value=\"BaseInventorySpoilRate_+%\")": -750
-          }
-        },
-        {
-          "Name": "Refrigerator_Spoil_Rate",
-          "GrantedStats": {
-            "(Value=\"BaseInventorySpoilRate_+%\")": -1500
-          }
-        },
-        {
-          "Name": "IceBox_Backpack_Spoil_Rate",
-          "GrantedStats": {
-            "(Value=\"BaseInventorySpoilRate_+%\")": -450,
-            "(Value=\"BaseExternalTemperatureModification_+\")": -750
-          }
-        }
+        {"Name": "Health_Regen", "GrantedStats": {"(Value=\"BaseHealthRegen_+%\")": 150}},
+        {"Name": "Health_Buff", "GrantedStats": {"(Value=\"BaseMaximumHealth_+%\")": 15}},
+        {"Name": "Stamina_Regen", "GrantedStats": {"(Value=\"BaseStaminaRegen_+%\")": 150}},
+        {"Name": "Stamina_Buff", "GrantedStats": {"(Value=\"BaseMaximumStamina_+%\")": 15}},
+        {"Name": "Stamina_Consumption", "GrantedStats": {"(Value=\"BaseStaminaActionCost_+%\")": -8}},
+        {"Name": "Food_Consumption", "GrantedStats": {"(Value=\"BaseFoodConsumption_+%\")": -8}},
+        {"Name": "Water_Consumption", "GrantedStats": {"(Value=\"BaseWaterConsumption_+%\")": -8}},
+        {"Name": "Oxygen_Buff", "GrantedStats": {"(Value=\"BaseMaximumOxygen_+%\")": 15}},
+        {"Name": "Oxygen_Consumption", "GrantedStats": {"(Value=\"BaseOxygenConsumption_+%\")": -8}},
+        {"Name": "Temperature_Boost", "GrantedStats": {"(Value=\"BaseDeltaTemperatureResistance_%\")": 360}},
+        {"Name": "Melee_Boost", "GrantedStats": {"(Value=\"BaseMeleeDamage_+%\")": 300}},
+        {"Name": "Movement_Boost", "GrantedStats": {"(Value=\"BaseMovementSpeed_+%\")": 300}},
+        {"Name": "Crafting_Boost", "GrantedStats": {"(Value=\"BaseCraftingSpeed_+%\")": -40}},
+        {"Name": "Carry_Boost", "GrantedStats": {"(Value=\"BaseWeightCapacity_+%\")": 75}},
+        {"Name": "XP_Boost", "GrantedStats": {"(Value=\"BaseExperience_+%\")": 150}},
+        {"Name": "FallDamage_Negate", "GrantedStats": {"(Value=\"BaseFallDamageResistance_%\")": 100}},
+        {"Name": "Weight_Reduction", "GrantedStats": {"(Value=\"BaseWeightCapacity_+%\")": 40}},
+        {"Name": "Health_Regen_Bed_Bedroll", "GrantedStats": {"(Value=\"BaseHealthRegen_+%\")": 1500}},
+        {"Name": "Health_Regen_Bed_SleepingBag", "GrantedStats": {"(Value=\"BaseHealthRegen_+%\")": 7500}},
+        {"Name": "Health_Regen_Bed_CaliforniaKing", "GrantedStats": {"(Value=\"BaseHealthRegen_+%\")": 15000}},
+        {"Name": "Well_Rested", "GrantedStats": {"(Value=\"BaseMaximumHealth_+%\")": 15, "(Value=\"BaseHealthRegen_+%\")": 15, "(Value=\"BaseMaximumStamina_+%\")": 8, "(Value=\"BaseStaminaRegen_+%\")": 8, "(Value=\"BaseFoodConsumption_+%\")": -8, "(Value=\"BaseWaterConsumption_+%\")": -8}},
+        {"Name": "Warm_Comfort", "GrantedStats": {"(Value=\"BaseHealthRegen_+%\")": 75, "(Value=\"BaseStaminaRegen_+%\")": 75, "(Value=\"BaseExperience_+%\")": 15, "(Value=\"BaseHeatResistance_%\")": 22}},
+        {"Name": "Cool_Comfort", "GrantedStats": {"(Value=\"BaseHealthRegen_+%\")": 75, "(Value=\"BaseStaminaRegen_+%\")": 75, "(Value=\"BaseExperience_+%\")": 15, "(Value=\"BaseColdResistance_%\")": 22}},
+        {"Name": "Fresh_Air", "GrantedStats": {"(Value=\"BaseHealthRegen_+%\")": 30, "(Value=\"BaseExposureResistance_+%\")": 8}},
+        {"Name": "Health_Enhancement_Tonic", "GrantedStats": {"(Value=\"BaseMaximumHealth_+%\")": 45, "(Value=\"BaseHealthRegen_+%\")": 450}},
+        {"Name": "Stamina_Enhancement_Tonic", "GrantedStats": {"(Value=\"BaseMaximumStamina_+%\")": 45, "(Value=\"BaseStaminaRegen_+%\")": 300}},
+        {"Name": "Sustenence_Enhancement_Tonic", "GrantedStats": {"(Value=\"BaseFoodConsumption_+%\")": -45, "(Value=\"BaseWaterConsumption_+%\")": -45, "(Value=\"BaseOxygenConsumption_+%\")": -45, "(Value=\"BaseFoodModifierDuration_+%\")": 45}},
+        {"Name": "Strength_Enhancement_Tonic", "GrantedStats": {"(Value=\"BaseMeleeDamage_+%\")": 45, "(Value=\"BaseKnifeProjectileSpeed_+%\")": 45, "(Value=\"BaseSpearProjectileSpeed_+%\")": 45, "(Value=\"BasePhysicalDamageResistance_+%\")": 22}},
+        {"Name": "Ape_Tonic", "GrantedStats": {"(Value=\"BaseAttackSpeed_+%\")": 38, "(Value=\"BaseMovementSpeed_+%\")": 38, "(Value=\"BaseStaminaRegen_+%\")": 1500, "(Value=\"BaseFellingRewards_+%\")": -50, "(Value=\"BaseMiningRewards_+%\")": -50}},
+        {"Name": "Thermos_IceWater", "GrantedStats": {"(Value=\"BaseInternalTemperatureModification_+\")": -2250}},
+        {"Name": "Thermos_GreenTea_Modifier", "GrantedStats": {"(Value=\"BaseHealthRegen_+%\")": 38, "(Value=\"BaseInternalTemperatureModification_+\")": 1500}},
+        {"Name": "Thermos_WildTea_Modifier", "GrantedStats": {"(Value=\"BaseWaterConsumption_+%\")": -38, "(Value=\"BaseInternalTemperatureModification_+\")": 1500}},
+        {"Name": "Thermos_Cocoa_Modifier", "GrantedStats": {"(Value=\"BaseFoodConsumption_+%\")": -38, "(Value=\"BaseInternalTemperatureModification_+\")": 1500}},
+        {"Name": "Thermos_Coffee_Modifier", "GrantedStats": {"(Value=\"BaseInternalTemperatureModification_+\")": 1500, "(Value=\"BaseMaximumStamina_+%\")": 15, "(Value=\"BaseStaminaRegen_+%\")": 15}},
+        {"Name": "Thermos_Coffee_With_Cream", "GrantedStats": {"(Value=\"BaseInternalTemperatureModification_+\")": 1500, "(Value=\"BaseMaximumStamina_+%\")": 38, "(Value=\"BaseStaminaRegen_+%\")": 38}},
+        {"Name": "Thermos_HoneyTea", "GrantedStats": {"(Value=\"BaseInternalTemperatureModification_+\")": 1500, "(Value=\"BaseParasiticModifierDuration_+%\")": -38, "(Value=\"BaseBacterialModifierDuration_+%\")": -38, "(Value=\"BaseFoodModifierDuration_+%\")": 30}},
+        {"Name": "Drink_Cooling", "GrantedStats": {"(Value=\"BaseCooldownDegreePerMinute_+\")": 15, "(Value=\"BaseInternalTemperatureModification_+\")": -750}},
+        {"Name": "Drink_Heated", "GrantedStats": {"(Value=\"BaseWarmupDegreePerMinute_+\")": 15, "(Value=\"BaseInternalTemperatureModification_+\")": 750}},
+        {"Name": "Drink_Energised", "GrantedStats": {"(Value=\"BaseStaminaRegen_+%\")": 150, "(Value=\"BaseStaminaActionCost_+%\")": -38}},
+        {"Name": "Beer", "GrantedStats": {"(Value=\"BaseStaminaRegen_+%\")": 150, "(Value=\"BaseMaximumStamina_+\")": 188, "(Value=\"BaseFoodStomachSlots_+\")": 1}},
+        {"Name": "Wine", "GrantedStats": {"(Value=\"BaseStaminaRegen_+%\")": 150, "(Value=\"BaseMaximumStamina_+\")": 188, "(Value=\"BaseFoodStomachSlots_+\")": 1}},
+        {"Name": "Honey_Mead", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 188, "(Value=\"BaseStaminaRegen_+%\")": 150, "(Value=\"BaseFoodModifierDuration_+%\")": 45}},
+        {"Name": "Vodka", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseExplosiveDamage_+%\")": 8, "(Value=\"BaseProjectileDamageResistance_+%\")": 15, "(Value=\"BaseWaterConsumption_+%\")": 10, "(Value=\"BaseColdResistance_%\")": 8, "(Value=\"BaseHeatResistance_%\")": 8}},
+        {"Name": "Tequila", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseExplosiveDamage_+%\")": 8, "(Value=\"BaseMeleeDamageResistance_%\")": 15, "(Value=\"BaseWaterConsumption_+%\")": 10, "(Value=\"BaseColdResistance_%\")": 8, "(Value=\"BaseHeatResistance_%\")": 8}},
+        {"Name": "Truffle_Vodka", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseExplosiveDamage_+%\")": 8, "(Value=\"BaseProjectileDamageResistance_+%\")": 15, "(Value=\"BaseWaterConsumption_+%\")": 10, "(Value=\"BaseColdResistance_%\")": 8, "(Value=\"BaseHeatResistance_%\")": 8, "(Value=\"BaseAnimalThreatModifier_+%\")": -8, "(Value=\"GrantedAuraTamingSpeed_?\")": 1}},
+        {"Name": "PricklyPear_Margarita", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseExplosiveDamage_+%\")": 8, "(Value=\"BaseMeleeDamageResistance_%\")": 15, "(Value=\"BaseWaterConsumption_+%\")": 10, "(Value=\"BaseColdResistance_%\")": 8, "(Value=\"BaseHeatResistance_%\")": 8, "(Value=\"BaseChanceToReturnDamage_%\")": 15, "(Value=\"BaseDamageReturned_%\")": 38}},
+        {"Name": "TempBoostFromAlcohol", "GrantedStats": {"(Value=\"BaseWarmupDegreePerMinute_+\")": 75}},
+        {"Name": "Antibiotic_Paste", "GrantedStats": {"(Value=\"BaseBacterialModifierDuration_+%\")": -75, "(Value=\"BaseHealthRegen_+%\")": 22}},
+        {"Name": "Antparasitic_Paste", "GrantedStats": {"(Value=\"BaseParasiticModifierDuration_+%\")": -75, "(Value=\"BaseHealthRegen_+%\")": 22}},
+        {"Name": "Antipoison_Paste", "GrantedStats": {"(Value=\"BasePoisonModifierDuration_+%\")": -75, "(Value=\"BaseHealthRegen_+%\")": 22}},
+        {"Name": "Blood_Thinning_Paste", "GrantedStats": {"(Value=\"BasePhysicalTraumaModifierDuration_+%\")": -75, "(Value=\"BaseHealthRegen_+%\")": 22}},
+        {"Name": "Healing_Modifier_Duration", "GrantedStats": {"(Value=\"BaseBacterialModifierDuration_+%\")": -45, "(Value=\"BaseParasiticModifierDuration_+%\")": -45, "(Value=\"BasePoisonModifierDuration_+%\")": -45, "(Value=\"BasePhysicalTraumaModifierDuration_+%\")": -45}},
+        {"Name": "Meta_Biolab_Inhaler_AlphaWolf", "GrantedStats": {"(Value=\"BaseHealthRegen_+%\")": 150, "(Value=\"BaseWoundResistance_%\")": 45, "(Value=\"BaseDeepWoundResistance_%\")": 75}},
+        {"Name": "Meta_Biolab_Inhaler_Sandworm", "GrantedStats": {"(Value=\"BaseHeatResistance_%\")": 30, "(Value=\"BaseHyperthermiaResistance_%\")": 75, "(Value=\"BaseFireDamageResistance_%\")": 45}},
+        {"Name": "Meta_Biolab_Inhaler_IceMammoth", "GrantedStats": {"(Value=\"BaseColdResistance_%\")": 30, "(Value=\"BaseHypothermiaResistance_%\")": 75, "(Value=\"BaseFrostDamageResistance_%\")": 45}},
+        {"Name": "Meta_Biolab_Inhaler_Scorpion", "GrantedStats": {"(Value=\"BaseMaximumHealth_+%\")": 15, "(Value=\"BaseDamageReturned_%\")": 60, "(Value=\"BaseChanceToReturnDamage_%\")": 100, "(Value=\"BaseShieldBlock_+%\")": 8}},
+        {"Name": "Meta_Biolab_Inhaler_LavaHunter", "GrantedStats": {"(Value=\"BaseFireDamageResistanceWhileInLava_%\")": 95, "(Value=\"BaseVolcanicHealthRegen_+%\")": 75, "(Value=\"BaseVolcanicExposureResistance_+%\")": 15, "(Value=\"BaseWaterConsumption_+%\")": -30}},
+        {"Name": "Meta_Biolab_Inhaler_RockGolem", "GrantedStats": {"(Value=\"BasePneumoniaResistance_%\")": 75, "(Value=\"BaseCaveStaminaRegen_+%\")": 45, "(Value=\"BaseCaveHealthRegen_+%\")": 75, "(Value=\"BaseVoxelChanceToHarvestSecondaryResource_%\")": 22}},
+        {"Name": "Meta_Biolab_Inhaler_Hammerhead", "GrantedStats": {"(Value=\"BasePyriticCrustPerMinedResource_%\")": 22, "(Value=\"BaseMiningRewards_+%\")": 15, "(Value=\"BaseMiningRadius_+\")": 8}},
+        {"Name": "Meta_Biolab_Inhaler_SwampApe", "GrantedStats": {"(Value=\"BaseInfectedBarkPerWoodChopped_%\")": 22, "(Value=\"BaseFellingDamage_+%\")": 30, "(Value=\"BaseCollisionDamageResistance_+%\")": 45}},
+        {"Name": "Meta_Biolab_Inhaler_Scyther", "GrantedStats": {"(Value=\"BaseKnifeProjectileDamage_+%\")": 75, "(Value=\"BaseSpearProjectileDamage_+%\")": 22, "(Value=\"BaseKnifeProjectileSpeed_+%\")": 45, "(Value=\"BaseSpearProjectileSpeed_+%\")": 22, "(Value=\"BaseChargeSpeed_+%\")": 45}},
+        {"Name": "Meta_Biolab_Inhaler_Thornet", "GrantedStats": {"(Value=\"BaseAcidicGlandsPerSkinnedResource_%\")": 22, "(Value=\"BaseBoneHarvestedFromAnimals_+%\")": 30, "(Value=\"BasePoisonDamage_+\")": 45}},
+        {"Name": "Meta_Biolab_Inhaler_PlantBoss", "GrantedStats": {"(Value=\"BaseAttackSpeed_+%\")": 15, "(Value=\"BaseMeleeDamage_+%\")": 45, "(Value=\"BaseMeleeDamageResistance_+%\")": 15}},
+        {"Name": "Meta_Biolab_Inhaler_GiantCat", "GrantedStats": {"(Value=\"BaseProjectileDamage_+%\")": 45, "(Value=\"BaseProjectileAccuracy_+%\")": 75, "(Value=\"BaseChanceToNotConsumeAmmo_%\")": 22}},
+        {"Name": "AuraEffect_HealthRegen", "GrantedStats": {"(Value=\"BaseHealthRegen_+%\")": 150}},
+        {"Name": "AuraEffect_MovementSpeed", "GrantedStats": {"(Value=\"BaseMovementSpeed_+%\")": 15}},
+        {"Name": "AuraEffect_ReducedOxygenConsumption", "GrantedStats": {"(Value=\"BaseOxygenConsumption_+%\")": -15}},
+        {"Name": "AuraEffect_AdditionalPhysicalDamageMitigation", "GrantedStats": {"(Value=\"BasePhysicalDamageResistance_%\")": 8}},
+        {"Name": "AuraEffect_HyperthermiaResistance", "GrantedStats": {"(Value=\"BaseHeatResistance_%\")": 22, "(Value=\"BaseHyperthermiaResistance_%\")": 22}},
+        {"Name": "AuraEffect_HypothermiaResistance", "GrantedStats": {"(Value=\"BaseColdResistance_%\")": 22, "(Value=\"BaseHypothermiaResistance_%\")": 22}},
+        {"Name": "AuraEffect_PoisonResistance", "GrantedStats": {"(Value=\"BasePoisonDamageResistance_%\")": 30, "(Value=\"BasePoisonModifierDuration_+%\")": -30}},
+        {"Name": "AuraEffect_Camouflage", "GrantedStats": {"(Value=\"BaseAnimalThreatModifier_+%\")": -45}},
+        {"Name": "AuraEffect_InteractionSpeed", "GrantedStats": {"(Value=\"BaseActionHoldTime_+%\")": -50}},
+        {"Name": "AuraEffect_Warming", "GrantedStats": {"(Value=\"BaseExternalTemperatureModification_+\")": 1500}},
+        {"Name": "Stamina_Speed_Buff", "GrantedStats": {"(Value=\"BaseStaminaRegen_+%\")": 75, "(Value=\"BaseMovementSpeed_+%\")": 52}},
+        {"Name": "RevivePlayerHealthRegen", "GrantedStats": {"(Value=\"BaseHealthRegen_+%\")": 150}},
+        {"Name": "OxygenRecovery_Buff", "GrantedStats": {"(Value=\"BaseOxygenRecovery_+\")": 450, "(Value=\"BaseOxygenConsumption_+%\")": -90, "(Value=\"BaseOxygenConsumptionPerHour_+\")": -90}},
+        {"Name": "Adrenaline", "GrantedStats": {"(Value=\"BaseMovementSpeed_+%\")": 5, "(Value=\"BaseStaminaRegen_+%\")": 38}},
+        {"Name": "Endurance", "GrantedStats": {"(Value=\"BaseHealthRegen_+%\")": 75, "(Value=\"BaseHealthRegenPerMinute_+\")": 9}},
+        {"Name": "Test_CampfireWarmth", "GrantedStats": {"(Value=\"BaseWarmupDegreePerMinute_+\")": 60, "(Value=\"BaseColdResistance_%\")": 27, "(Value=\"BaseHeatResistance_%\")": -10}},
+        {"Name": "IceBox_Spoil_Rate", "GrantedStats": {"(Value=\"BaseInventorySpoilRate_+%\")": -750}},
+        {"Name": "Refrigerator_Spoil_Rate", "GrantedStats": {"(Value=\"BaseInventorySpoilRate_+%\")": -1500}},
+        {"Name": "IceBox_Backpack_Spoil_Rate", "GrantedStats": {"(Value=\"BaseInventorySpoilRate_+%\")": -450, "(Value=\"BaseExternalTemperatureModification_+\")": -750}},
+        {"Name": "Banana", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 150, "(Value=\"BaseFoodConsumption_+%\")": -15}},
+        {"Name": "Berry", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 75, "(Value=\"BaseWaterConsumption_+%\")": -15}},
+        {"Name": "Coconut", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 38, "(Value=\"BaseFoodConsumption_+%\")": -15}},
+        {"Name": "Coconut_Mature", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 75, "(Value=\"BaseFoodConsumption_+%\")": -15}},
+        {"Name": "Coconut_Mid", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseFoodConsumption_+%\")": -15}},
+        {"Name": "Kiwi_Fruit", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 75, "(Value=\"BasePneumoniaResistance_%\")": 8}},
+        {"Name": "Watermelon", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 75, "(Value=\"BaseWaterConsumption_+%\")": -15}},
+        {"Name": "Honey", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 75, "(Value=\"BaseFoodModifierDuration_+%\")": 15}},
+        {"Name": "CookedFish", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseStaminaRegen_+%\")": 30}},
+        {"Name": "CookedMeat", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseHealthRegen_+%\")": 30}},
+        {"Name": "Raw_Food", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 45}},
+        {"Name": "Cooked_Agave", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseExplosiveDamage_+%\")": 8, "(Value=\"BaseFoodConsumption_+%\")": -15}},
+        {"Name": "Cooked_Carrot", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseProjectileDamage_+%\")": 8}},
+        {"Name": "Cooked_Corn", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseStaminaActionCost_+%\")": -15}},
+        {"Name": "Cooked_Eggs", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseVoxelChanceToHarvestSecondaryResource_%\")": 15}},
+        {"Name": "Cooked_Garlic", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseAnimalThreatModifier_+%\")": 8, "(Value=\"BaseFoodConsumption_+%\")": -15, "(Value=\"BaseHealthRegen_+%\")": 22}},
+        {"Name": "Cooked_Kumara", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseAttackSpeed_+%\")": 8}},
+        {"Name": "Cooked_Mushroom", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseStaminaRegen_+%\")": 8}},
+        {"Name": "Cooked_Onion", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseAnimalThreatModifier_+%\")": 8, "(Value=\"BaseFoodConsumption_+%\")": -15, "(Value=\"BaseForagingHarvestingRewards_+%\")": 8}},
+        {"Name": "Cooked_Potato", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseFoodConsumption_+%\")": -15}},
+        {"Name": "Cooked_PricklyPear", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseChanceToReturnDamage_%\")": 15, "(Value=\"BaseDamageReturned_%\")": 22, "(Value=\"BaseFoodConsumption_+%\")": -15}},
+        {"Name": "Cooked_Pumpkin", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseExposureResistance_+%\")": 8}},
+        {"Name": "Cooked_Rhubarb", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseOxygenConsumption_+%\")": -15}},
+        {"Name": "Cooked_Soy_Bean", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseHealthRegen_+%\")": 15}},
+        {"Name": "Cooked_Squash", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseMeleeDamage_+%\")": 8}},
+        {"Name": "Cooked_Tomato", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseHealthRegen_+%\")": 15}},
+        {"Name": "Cooked_Truffle", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseAnimalThreatModifier_+%\")": -8, "(Value=\"BaseFoodConsumption_+%\")": -15, "(Value=\"GrantedAuraTamingSpeed_?\")": 1}},
+        {"Name": "Cooked_Bacon", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseExperience_+%\")": 22, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseMaximumStamina_+\")": 112}},
+        {"Name": "Cooked_Fatty_TBone", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 150, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseMeatHarvestedFromAnimals_+%\")": 60, "(Value=\"BaseExperience_+%\")": 8}},
+        {"Name": "Cooked_Gamey_Meat", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 150, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseMeleeDamage_+%\")": 22, "(Value=\"BaseExperience_+%\")": 8}},
+        {"Name": "Cooked_Giant_Steak", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 150, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseHealthRegen_+%\")": 75, "(Value=\"BaseExperience_+%\")": 8}},
+        {"Name": "Cooked_Prime_Meat", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 150, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseHealthRegenPerMinute_+\")": 30, "(Value=\"BaseExperience_+%\")": 8}},
+        {"Name": "Cooked_Soft_Meat", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 150, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseStaminaRegen_+%\")": 75, "(Value=\"BaseExperience_+%\")": 8}},
+        {"Name": "Cooked_Stringy_Meat", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 150, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseAttackSpeed_+%\")": 30, "(Value=\"BaseExperience_+%\")": 8}},
+        {"Name": "Cooked_White_Meat", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 150, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseExposureResistance_+%\")": 30, "(Value=\"BaseExperience_+%\")": 8}},
+        {"Name": "Dried_Avocado", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseFoodConsumption_+%\")": -60}},
+        {"Name": "Dried_Fatty_Tbone", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseMeatHarvestedFromAnimals_+%\")": 38, "(Value=\"BaseFoodConsumption_+%\")": -38}},
+        {"Name": "Dried_Freshwater_Fillet", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseStaminaRegen_+%\")": 22, "(Value=\"BaseHealthRegen_+%\")": 8, "(Value=\"BaseFoodConsumption_+%\")": -38}},
+        {"Name": "Dried_Gamey_Meat", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseMeleeDamage_+%\")": 22, "(Value=\"BaseFoodConsumption_+%\")": -38}},
+        {"Name": "Dried_Giant_Steak", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 150, "(Value=\"BaseHealthRegen_+%\")": 38, "(Value=\"BaseFoodConsumption_+%\")": -38}},
+        {"Name": "Dried_Kiwifruit", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BasePneumoniaResistance_%\")": 15, "(Value=\"BaseFoodConsumption_+%\")": -38}},
+        {"Name": "Dried_Meat_Generic", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseHealthRegen_+%\")": 30, "(Value=\"BaseFoodConsumption_+%\")": -38}},
+        {"Name": "Dried_Rhubarb", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseOxygenConsumption_+%\")": -45, "(Value=\"BaseFoodConsumption_+%\")": -38}},
+        {"Name": "Dried_Saltwater_Fillet", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseStaminaRegen_+%\")": 22, "(Value=\"BaseExposureResistance_+%\")": 8, "(Value=\"BaseFoodConsumption_+%\")": -38}},
+        {"Name": "Dried_Soft_Meat", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 150, "(Value=\"BaseStaminaRegen_+%\")": 22, "(Value=\"BaseFoodConsumption_+%\")": -38}},
+        {"Name": "Dried_Stringy_Meat", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseAttackSpeed_+%\")": 22, "(Value=\"BaseFoodConsumption_+%\")": -38}},
+        {"Name": "Dried_Tomato", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseHealthRegen_+%\")": 45, "(Value=\"BaseFoodConsumption_+%\")": -38}},
+        {"Name": "Dried_White_Meat", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseExposureResistance_+%\")": 15, "(Value=\"BaseFoodConsumption_+%\")": -38}},
+        {"Name": "Smoked_Bacon", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseHealthRegen_+%\")": 30, "(Value=\"BaseFoodConsumption_+%\")": -38, "(Value=\"BaseExperience_+%\")": 22, "(Value=\"BaseFoodModifierDuration_+%\")": 30}},
+        {"Name": "Smoked_Fatty_Tbone", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 262, "(Value=\"BaseMeatHarvestedFromAnimals_+%\")": 75, "(Value=\"BaseFoodConsumption_+%\")": -38, "(Value=\"BaseHealthRegen_+%\")": 30}},
+        {"Name": "Smoked_Freshwater_Fillet", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseStaminaRegen_+%\")": 38, "(Value=\"BaseHealthRegen_+%\")": 75, "(Value=\"BaseFoodConsumption_+%\")": -38}},
+        {"Name": "Smoked_Gamey_Meat", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 150, "(Value=\"BaseMaximumStamina_+\")": 150, "(Value=\"BaseMeleeDamage_+%\")": 38, "(Value=\"BaseHealthRegen_+%\")": 30, "(Value=\"BaseFoodConsumption_+%\")": -38, "(Value=\"BaseWaterConsumption_+%\")": -38}},
+        {"Name": "Smoked_Garlic", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseAnimalThreatModifier_+%\")": 15, "(Value=\"BaseHealthRegen_+%\")": 38, "(Value=\"BaseExperience_+%\")": 30, "(Value=\"BaseWaterConsumption_+%\")": 15}},
+        {"Name": "Smoked_Giant_Steak", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 188, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseHealthRegen_+%\")": 150, "(Value=\"BaseFoodConsumption_+%\")": -38, "(Value=\"BaseOxygenConsumption_+%\")": -38}},
+        {"Name": "Smoked_Meat_Generic", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseHealthRegen_+%\")": 90, "(Value=\"BaseFoodConsumption_+%\")": -38}},
+        {"Name": "Smoked_Saltwater_Fillet", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseStaminaRegen_+%\")": 38, "(Value=\"BaseExposureResistance_+%\")": 8, "(Value=\"BaseFoodConsumption_+%\")": -38, "(Value=\"BaseWaterConsumption_+%\")": -38}},
+        {"Name": "Smoked_Soft_Meat", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 262, "(Value=\"BaseStaminaRegen_+%\")": 150, "(Value=\"BaseFoodConsumption_+%\")": -60, "(Value=\"BaseHealthRegen_+%\")": 30}},
+        {"Name": "Smoked_Stringy_Meat", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseMaximumStamina_+\")": 188, "(Value=\"BaseAttackSpeed_+%\")": 38, "(Value=\"BaseHealthRegen_+%\")": 75, "(Value=\"BaseFoodConsumption_+%\")": -38}},
+        {"Name": "Smoked_White_Meat", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 188, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseExposureResistance_+%\")": 22, "(Value=\"BaseFoodConsumption_+%\")": -38, "(Value=\"BaseHealthRegen_+%\")": 75}},
+        {"Name": "Corn_Soup", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 150, "(Value=\"BaseStaminaActionCost_+%\")": -30}},
+        {"Name": "Mushroom_Soup", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 150, "(Value=\"BaseStaminaRegen_+%\")": 15}},
+        {"Name": "Tomato_Soup", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 150, "(Value=\"BaseHealthRegen_+%\")": 30}},
+        {"Name": "French_Onion_Soup", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 75, "(Value=\"BaseMaximumHealth_+\")": 75, "(Value=\"BaseAnimalThreatModifier_+%\")": 15, "(Value=\"BaseForagingHarvestingRewards_+%\")": 15}},
+        {"Name": "Meat_Stew", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseStaminaRegen_+%\")": 15, "(Value=\"BaseHealthRegen_+%\")": 15, "(Value=\"BaseProjectileDamage_+%\")": 15}},
+        {"Name": "Fish_Chunk_Stew", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseStaminaRegen_+%\")": 15, "(Value=\"BaseStaminaActionCost_+%\")": -15, "(Value=\"BaseMeleeDamage_+%\")": 8}},
+        {"Name": "Rhubarb_Stew", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 338, "(Value=\"BaseOxygenConsumption_+%\")": -15, "(Value=\"BaseWaterConsumption_+%\")": -15, "(Value=\"BaseStaminaActionCost_+%\")": -15}},
+        {"Name": "Fish_Dish", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 338, "(Value=\"BaseHealthRegen_+%\")": 15, "(Value=\"BaseStaminaRegen_+%\")": 15}},
+        {"Name": "Fish_Fillet_Pie", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 338, "(Value=\"BaseHealthRegen_+%\")": 8, "(Value=\"BaseStaminaRegen_+%\")": 45, "(Value=\"BaseExposureResistance_+%\")": 8, "(Value=\"BaseExperience_+%\")": 15}},
+        {"Name": "Freshwater_Fillet_Curry", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 338, "(Value=\"BaseHealthRegen_+%\")": 22, "(Value=\"BaseStaminaRegen_+%\")": 22}},
+        {"Name": "Crumbed_Fish", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseStaminaRegen_+%\")": 22, "(Value=\"BaseExperience_+%\")": 15}},
+        {"Name": "Crumbed_Saltwater_Fillet", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseStaminaRegen_+%\")": 22, "(Value=\"BaseExposureResistance_+%\")": 8, "(Value=\"BaseExperience_+%\")": 15}},
+        {"Name": "Grilled_Freshwater_Fillet", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseStaminaRegen_+%\")": 22, "(Value=\"BaseHealthRegen_+%\")": 8}},
+        {"Name": "Grilled_Saltwater_Fillet", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseStaminaRegen_+%\")": 22, "(Value=\"BaseExposureResistance_+%\")": 8}},
+        {"Name": "Fried_Fish_Chunks", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseStaminaRegen_+%\")": 15}},
+        {"Name": "Saltwater_Fillet_Sashimi", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseStaminaRegen_+%\")": 22, "(Value=\"BaseExposureResistance_+%\")": 8, "(Value=\"BaseProjectileDamage_+%\")": 8}},
+        {"Name": "Pickled_Freshwater_Fillet", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseStaminaRegen_+%\")": 45, "(Value=\"BaseHealthRegen_+%\")": 15, "(Value=\"BaseSharedExperience_+%\")": 30}},
+        {"Name": "Meat_Pie", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 338, "(Value=\"BaseExposureResistance_+%\")": 22, "(Value=\"BaseStaminaRegen_+%\")": 22, "(Value=\"BaseHealthRegen_+%\")": 22, "(Value=\"BaseExperience_+%\")": 15}},
+        {"Name": "Shepherds_Pie", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 338, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseHealthRegen_+%\")": 60, "(Value=\"BaseFoodConsumption_+%\")": -30, "(Value=\"BaseExperience_+%\")": 15}},
+        {"Name": "Shepherds_Roll", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseMaximumStamina_+\")": 225, "(Value=\"BaseHealthRegen_+%\")": 22, "(Value=\"BaseAttackSpeed_+%\")": 22, "(Value=\"BaseProjectileDamage_+%\")": 22, "(Value=\"BaseExperience_+%\")": 15}},
+        {"Name": "Savory_Roll", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 338, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseFoodConsumption_+%\")": -45, "(Value=\"BaseStaminaRegen_+%\")": 22, "(Value=\"BaseHealthRegen_+%\")": 45, "(Value=\"BaseExperience_+%\")": 15}},
+        {"Name": "Grilled_Chicken", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseMaximumStamina_+\")": 150, "(Value=\"BaseExposureResistance_+%\")": 15, "(Value=\"BaseVoxelChanceToHarvestSecondaryResource_%\")": 15}},
+        {"Name": "Fried_Chicken", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 300, "(Value=\"BaseMaximumStamina_+\")": 225, "(Value=\"BaseExposureResistance_+%\")": 22, "(Value=\"BaseVoxelChanceToHarvestSecondaryResource_%\")": 22}},
+        {"Name": "Roast_Chicken", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 375, "(Value=\"BaseMaximumStamina_+\")": 300, "(Value=\"BaseExposureResistance_+%\")": 38, "(Value=\"BaseVoxelChanceToHarvestSecondaryResource_%\")": 38}},
+        {"Name": "Bacon_Sandwich", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseMaximumStamina_+\")": 188, "(Value=\"BaseHealthRegen_+%\")": 38, "(Value=\"BaseExperience_+%\")": 38, "(Value=\"BaseCriticalDamage_+%\")": 38}},
+        {"Name": "Crispy_Bacon", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseExperience_+%\")": 22, "(Value=\"BaseMaximumHealth_+\")": 135, "(Value=\"BaseMaximumStamina_+\")": 135, "(Value=\"BaseCriticalDamage_+%\")": 15}},
+        {"Name": "Big_Breakfast", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 338, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseVoxelChanceToHarvestSecondaryResource_%\")": 38, "(Value=\"BaseFoodConsumption_+%\")": -22, "(Value=\"BaseHealthRegen_+%\")": 22, "(Value=\"BaseExperience_+%\")": 15}},
+        {"Name": "Scrambled_Eggs", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 75, "(Value=\"BaseMaximumStamina_+\")": 150, "(Value=\"BaseVoxelChanceToHarvestSecondaryResource_%\")": 38, "(Value=\"BaseExperience_+%\")": 22}},
+        {"Name": "Mushroom_Omlette", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseVoxelChanceToHarvestSecondaryResource_%\")": 22, "(Value=\"BaseStaminaRegen_+%\")": 15}},
+        {"Name": "Egg_Salad", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseVoxelChanceToHarvestSecondaryResource_%\")": 22, "(Value=\"BaseProjectileDamage_+%\")": 15}},
+        {"Name": "Pickled_Eggs", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 225, "(Value=\"BaseVoxelChanceToHarvestSecondaryResource_%\")": 30, "(Value=\"BaseSharedExperience_+%\")": 30}},
+        {"Name": "Bread", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 188, "(Value=\"BaseExperience_+%\")": 15}},
+        {"Name": "FlatBread", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseStaminaRegen_+%\")": 150, "(Value=\"BaseWaterConsumption_+%\")": 10, "(Value=\"BaseExperience_+%\")": 8}},
+        {"Name": "Banana_Bread", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 300, "(Value=\"BaseHealthRegen_+%\")": 75, "(Value=\"BaseMaximumStamina_+\")": 300, "(Value=\"BaseStaminaRegen_+%\")": 75, "(Value=\"BaseStaminaRegenDelay_+%\")": -75, "(Value=\"BaseFoodConsumption_+%\")": -15, "(Value=\"BaseExperience_+%\")": 15}},
+        {"Name": "Potato_Bread", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 225, "(Value=\"BaseFoodConsumption_+%\")": -30, "(Value=\"BaseExperience_+%\")": 22}},
+        {"Name": "Pumpkin_Bread", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 225, "(Value=\"BaseExposureResistance_+%\")": 22, "(Value=\"BaseExperience_+%\")": 22}},
+        {"Name": "Seed_Bread", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 225, "(Value=\"BaseToolStaminaActionCost_+%\")": -30, "(Value=\"BaseExperience_+%\")": 22}},
+        {"Name": "Garlic_Bread", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseAnimalThreatModifier_+%\")": 15, "(Value=\"BaseHealthRegen_+%\")": 52, "(Value=\"BaseExperience_+%\")": 30, "(Value=\"BaseFoodConsumption_+%\")": -15}},
+        {"Name": "Cheese_Pizza", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 188, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseSharedExperience_+%\")": 15, "(Value=\"BaseExperience_+%\")": 8, "(Value=\"BaseStaminaRegen_+%\")": 75}},
+        {"Name": "Garlic_Pizza", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseAnimalThreatModifier_+%\")": 15, "(Value=\"BaseHealthRegen_+%\")": 52, "(Value=\"BaseExperience_+%\")": 30, "(Value=\"BaseFoodConsumption_+%\")": -15}},
+        {"Name": "Carrot_Cake_Piece", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 150, "(Value=\"BaseMaximumStamina_+\")": 150, "(Value=\"BaseExperience_+%\")": 38, "(Value=\"BaseChargeSpeed_+%\")": 45, "(Value=\"BaseReloadSpeed_+%\")": 45, "(Value=\"BaseHealthRegen_+%\")": 75, "(Value=\"BaseProjectileDamage_+%\")": 45}},
+        {"Name": "Chocolate_Cake_Piece", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 450, "(Value=\"BaseMaximumStamina_+\")": 300, "(Value=\"BaseExperience_+%\")": 38, "(Value=\"BaseStaminaRegen_+%\")": 300, "(Value=\"BaseHealthRegen_+%\")": 300, "(Value=\"BaseFoodConsumption_+%\")": 15}},
+        {"Name": "Coconut_Cake_Piece", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 375, "(Value=\"BaseMaximumStamina_+\")": 375, "(Value=\"BaseExperience_+%\")": 38, "(Value=\"BaseToolStaminaActionCost_+%\")": -60, "(Value=\"BaseHealthRegen_+%\")": 75, "(Value=\"BaseCraftingSpeed_+%\")": 75}},
+        {"Name": "Pavlova", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 188, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseVoxelChanceToHarvestSecondaryResource_%\")": 30, "(Value=\"BasePneumoniaResistance_%\")": 30, "(Value=\"BaseReloadSpeed_+%\")": 15, "(Value=\"BaseChargeSpeed_+%\")": 15}},
+        {"Name": "Kiwifruit_Sorbet", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 225, "(Value=\"BaseExperience_+%\")": 45, "(Value=\"BasePneumoniaResistance_%\")": 68}},
+        {"Name": "Choc_Chip_Cookie", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 262, "(Value=\"BaseFoodConsumption_+%\")": -38, "(Value=\"BaseChargeSpeed_+%\")": 45, "(Value=\"BaseReloadSpeed_+%\")": 22, "(Value=\"BaseVoxelChanceToHarvestSecondaryResource_%\")": 15, "(Value=\"BaseExperience_+%\")": 15}},
+        {"Name": "Coconut_Cookie", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 262, "(Value=\"BaseFoodConsumption_+%\")": -38, "(Value=\"BaseChargeSpeed_+%\")": 22, "(Value=\"BaseReloadSpeed_+%\")": 45, "(Value=\"BaseCraftingSpeed_+%\")": 15}},
+        {"Name": "Honey_Pastry", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 225, "(Value=\"BaseFoodModifierDuration_+%\")": 52, "(Value=\"BaseExperience_+%\")": 22}},
+        {"Name": "Salted_Caramel_Pastry", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 225, "(Value=\"BaseChargeSpeed_+%\")": 38, "(Value=\"BaseReloadSpeed_+%\")": 38, "(Value=\"BaseExperience_+%\")": 22}},
+        {"Name": "Fruit_Muffin", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 338, "(Value=\"BaseWaterConsumption_+%\")": -30, "(Value=\"BaseExperience_+%\")": 52}},
+        {"Name": "PricklyPear_Muffins", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseExplosiveDamage_+%\")": 8, "(Value=\"BaseMaximumStamina_+\")": 225, "(Value=\"BaseChanceToReturnDamage_%\")": 15, "(Value=\"BaseDamageReturned_%\")": 38}},
+        {"Name": "Fruit_Pie", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseMaximumStamina_+\")": 225, "(Value=\"BaseOxygenConsumption_+%\")": -22, "(Value=\"BaseWaterConsumption_+%\")": -22, "(Value=\"BaseExperience_+%\")": 15}},
+        {"Name": "Pumpkin_Pie", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseExplosiveDamage_+%\")": 8, "(Value=\"BaseExposureResistance_+%\")": 15}},
+        {"Name": "Vegetable_Pie", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseMaximumStamina_+\")": 225, "(Value=\"BaseStaminaActionCost_+%\")": -22, "(Value=\"BaseMeleeDamage_+%\")": 22, "(Value=\"BaseHealthRegen_+%\")": 22, "(Value=\"BaseExperience_+%\")": 15}},
+        {"Name": "Vegetable_Roll", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseMaximumStamina_+\")": 225, "(Value=\"BaseOxygenConsumption_+%\")": -45, "(Value=\"BaseExposureResistance_+%\")": 22, "(Value=\"BaseHealthRegen_+%\")": 45, "(Value=\"BaseExperience_+%\")": 15}},
+        {"Name": "Hearty_Salad", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseHealthRegen_+%\")": 30}},
+        {"Name": "Wild_Salad", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 225, "(Value=\"BaseExposureResistance_+%\")": 15, "(Value=\"BaseMeleeDamage_+%\")": 15}},
+        {"Name": "Fruit_Salad", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseOxygenConsumption_+%\")": -15, "(Value=\"BaseWaterConsumption_+%\")": -15}},
+        {"Name": "Berry_Bar", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseToolStaminaActionCost_+%\")": -15, "(Value=\"BaseWaterConsumption_+%\")": -15}},
+        {"Name": "Honey_Bar", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseToolStaminaActionCost_+%\")": -15, "(Value=\"BaseFoodModifierDuration_+%\")": 22}},
+        {"Name": "Energy_Bar", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 150, "(Value=\"BaseToolStaminaActionCost_+%\")": -15, "(Value=\"BaseChargeSpeed_+%\")": 15, "(Value=\"BaseReloadSpeed_+%\")": 15, "(Value=\"BaseFoodConsumption_+%\")": -38}},
+        {"Name": "Seed_Crackers", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 150, "(Value=\"BaseToolStaminaActionCost_+%\")": -22}},
+        {"Name": "Fruit_Snack_Pack", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BasePneumoniaResistance_%\")": 22, "(Value=\"BaseWaterConsumption_+%\")": -15}},
+        {"Name": "Jar_Jam", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 188, "(Value=\"BaseWaterConsumption_+%\")": -30, "(Value=\"BaseSharedExperience_+%\")": 15}},
+        {"Name": "Strawberry_Jam", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 188, "(Value=\"BaseExperience_+%\")": 30, "(Value=\"BaseSharedExperience_+%\")": 15}},
+        {"Name": "Kiwifruit_Jam", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 188, "(Value=\"BaseExperience_+%\")": 30, "(Value=\"BasePneumoniaResistance_%\")": 30}},
+        {"Name": "PricklyPear_Jelly", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseExplosiveDamage_+%\")": 8, "(Value=\"BaseSharedExperience_+%\")": 15, "(Value=\"BaseExperience_+%\")": 15, "(Value=\"BaseChanceToReturnDamage_%\")": 15, "(Value=\"BaseDamageReturned_%\")": 38}},
+        {"Name": "Garlic_Butter", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseAnimalThreatModifier_+%\")": 8, "(Value=\"BaseHealthRegen_+%\")": 22}},
+        {"Name": "Cheese", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 150, "(Value=\"BaseSharedExperience_+%\")": 15, "(Value=\"BaseHealthRegen_+%\")": 38}},
+        {"Name": "Cheese_Roll", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseMaximumStamina_+\")": 188, "(Value=\"BaseSharedExperience_+%\")": 15, "(Value=\"BaseExperience_+%\")": 15, "(Value=\"BaseHealthRegen_+%\")": 38}},
+        {"Name": "Milk", "GrantedStats": {"(Value=\"BaseSharedExperience_+%\")": 15, "(Value=\"BaseFallDamageResistance_%\")": 15, "(Value=\"BaseStaminaRegen_+%\")": 60}},
+        {"Name": "Strawberries_And_Cream", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 75, "(Value=\"BaseMaximumStamina_+\")": 150, "(Value=\"BaseExperience_+%\")": 45}},
+        {"Name": "Creamed_Corn", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseStaminaActionCost_+%\")": -15}},
+        {"Name": "Fried_Soy_Beans", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseProjectileDamage_+%\")": 15, "(Value=\"BaseStaminaRegen_+%\")": 15, "(Value=\"BaseHealthRegen_+%\")": 15}},
+        {"Name": "Fried_Chunky_Vegetables", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseMaximumStamina_+\")": 225, "(Value=\"BaseExposureResistance_+%\")": 15, "(Value=\"BaseAttackSpeed_+%\")": 15}},
+        {"Name": "Roasted_Vegetables", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 338, "(Value=\"BaseExposureResistance_+%\")": 15, "(Value=\"BaseMeleeDamage_+%\")": 15, "(Value=\"BaseProjectileDamage_+%\")": 15}},
+        {"Name": "Potato_Carrot_Fries", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 225, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseHealthRegen_+%\")": 15, "(Value=\"BaseFoodConsumption_+%\")": -15, "(Value=\"BaseProjectileDamage_+%\")": 15}},
+        {"Name": "Glazed_Carrots", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseExplosiveDamage_+%\")": 8, "(Value=\"BaseProjectileDamage_+%\")": 8}},
+        {"Name": "Caramelized_Onions", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 150, "(Value=\"BaseAnimalThreatModifier_+%\")": 15, "(Value=\"BaseForagingHarvestingRewards_+%\")": 15}},
+        {"Name": "Onion_Rings", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 75, "(Value=\"BaseStaminaRegen_+%\")": 15, "(Value=\"BaseAnimalThreatModifier_+%\")": 15, "(Value=\"BaseForagingHarvestingRewards_+%\")": 15}},
+        {"Name": "Onion_Souffle", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 150, "(Value=\"BaseVoxelChanceToHarvestSecondaryResource_%\")": 15, "(Value=\"BaseAnimalThreatModifier_+%\")": 15, "(Value=\"BaseForagingHarvestingRewards_+%\")": 15}},
+        {"Name": "Smashed_Avocado", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 225, "(Value=\"BaseFoodConsumption_+%\")": -38, "(Value=\"BaseExperience_+%\")": 22}},
+        {"Name": "Stuffed_Avocado", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumHealth_+\")": 112, "(Value=\"BaseMaximumStamina_+\")": 112, "(Value=\"BaseHealthRegen_+%\")": 15, "(Value=\"BaseFoodConsumption_+%\")": -15}},
+        {"Name": "Pickled_Avocado", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 225, "(Value=\"BaseFoodConsumption_+%\")": -30, "(Value=\"BaseSharedExperience_+%\")": 30}},
+        {"Name": "Picked_Carrot", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 225, "(Value=\"BaseProjectileDamage_+%\")": 30, "(Value=\"BaseSharedExperience_+%\")": 30}},
+        {"Name": "Picked_Tomato", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 225, "(Value=\"BaseHealthRegen_+%\")": 30, "(Value=\"BaseSharedExperience_+%\")": 30}},
+        {"Name": "Truffle_Focaccia", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseAnimalThreatModifier_+%\")": 15, "(Value=\"BaseHealthRegen_+%\")": 52, "(Value=\"BaseExperience_+%\")": 15, "(Value=\"BaseFoodConsumption_+%\")": -15, "(Value=\"BaseSharedExperience_+%\")": 15}},
+        {"Name": "Truffle_Fries", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseAnimalThreatModifier_+%\")": 15, "(Value=\"BaseHealthRegen_+%\")": 52, "(Value=\"BaseExperience_+%\")": 15, "(Value=\"BaseFoodConsumption_+%\")": -15, "(Value=\"BaseSharedExperience_+%\")": 15, "(Value=\"BaseMaximumStamina_+%\")": 22}},
+        {"Name": "Truffle_Pasta", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseAnimalThreatModifier_+%\")": 15, "(Value=\"BaseHealthRegen_+%\")": 52, "(Value=\"BaseExperience_+%\")": 15, "(Value=\"BaseFoodConsumption_+%\")": -15, "(Value=\"BaseSharedExperience_+%\")": 15, "(Value=\"BaseVoxelChanceToHarvestSecondaryResource_%\")": 15}},
+        {"Name": "Strawberry_Candy", "GrantedStats": {"(Value=\"BaseMovementSpeed_+%\")": 38}},
+        {"Name": "Watermelon_Lollypop", "GrantedStats": {"(Value=\"BaseOverencumberedPenalty_+%\")": -75}},
+        {"Name": "Fruit_Smoothie", "GrantedStats": {"(Value=\"BaseExperience_+%\")": 15, "(Value=\"BasePneumoniaResistance_%\")": 45}},
+        {"Name": "Caramel_Fruit_Tart", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 225, "(Value=\"BaseChargeSpeed_+%\")": 22, "(Value=\"BaseReloadSpeed_+%\")": 22, "(Value=\"BasePneumoniaResistance_%\")": 22, "(Value=\"BaseWaterConsumption_+%\")": -52, "(Value=\"BaseVoxelChanceToHarvestSecondaryResource_%\")": 15}},
+        {"Name": "Agave_Syrup", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseExplosiveDamage_+%\")": 8}},
+        {"Name": "Honey_Jar", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseMaximumStamina_+\")": 188, "(Value=\"BaseFoodModifierDuration_+%\")": 30, "(Value=\"BaseSharedExperience_+%\")": 30}},
+        {"Name": "Meta_Ration", "GrantedStats": {"(Value=\"BaseFoodStomachSlots_+\")": 1, "(Value=\"BaseStaminaRegen_+%\")": 15, "(Value=\"BaseHealthRegen_+%\")": 15, "(Value=\"BaseWaterConsumption_+%\")": -15, "(Value=\"BaseFoodConsumption_+%\")": -15, "(Value=\"BaseOxygenConsumption_+%\")": -15}},
+        {"Name": "Meta_Soda", "GrantedStats": {"(Value=\"BaseHealthRegen_+%\")": 15, "(Value=\"BaseWaterConsumption_+%\")": -15, "(Value=\"BaseOxygenConsumption_+%\")": -15}}
       ]
     }
   ]

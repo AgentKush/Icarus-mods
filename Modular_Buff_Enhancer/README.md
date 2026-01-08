@@ -1,165 +1,109 @@
 # Modular Buff Enhancer
 
+**Version:** 1.1  
 **Author:** AgentKush  
-**Version:** 1.0  
-**Compatible with:** Icarus (JimK72's Mod Manager)
+**Compatibility:** All game modes
 
 ## Overview
 
-Comprehensive buff enhancement mod covering **83 positive effects**. Boosts all beneficial modifiers by ~50% - stronger tonics, better food buffs, enhanced bed healing, improved comfort bonuses, and more powerful biolab inhalers.
+Comprehensive buff enhancement mod with **239 modifications** that boost positive effects by approximately 50%. Covers tonics, drinks, bed healing, comfort bonuses, biolab inhalers, aura effects, and 156 food buffs.
 
-## Summary by Category
+## Summary
 
-| Category | Count | Key Changes |
-|----------|-------|-------------|
-| 💪 Core Stats | 17 | +50% stronger base buffs |
-| 🛏️ Bed Healing | 3 | +50% faster regen |
-| 😌 Comfort | 4 | +50% stronger bonuses |
-| 🧪 Tonics | 5 | +50% all effects |
-| ☕ Thermos Drinks | 7 | +50% temperature & bonuses |
-| 🥤 Drinks | 3 | +50% effects |
-| 🍺 Alcohol | 7 | +50% positive effects |
-| 💊 Medical Pastes | 5 | +50% duration reduction |
-| 🔬 Biolab Inhalers | 12 | +50% all bonuses |
-| ✨ Aura Effects | 10 | +50% stronger |
-| 📦 Spoil Reduction | 3 | +50% better preservation |
-| ⚡ Misc Buffs | 7 | +50% various |
+| Category | Count | Effect |
+|----------|-------|--------|
+| Core Stat Buffs | 17 | +50% to health/stamina regen, consumption reduction, damage bonuses |
+| Bed Healing | 3 | Massively boosted regen while sleeping |
+| Comfort & Rest | 4 | Enhanced Well Rested, Warm/Cool Comfort, Fresh Air |
+| Enhancement Tonics | 5 | Stronger Health, Stamina, Sustenance, Strength, Ape tonics |
+| Thermos Drinks | 7 | Better temperature effects and stat bonuses |
+| Alcoholic Drinks | 8 | Improved Beer, Wine, Mead, Vodka, Tequila, Margarita |
+| Healing Pastes | 5 | Faster affliction recovery with health regen |
+| Biolab Inhalers | 12 | ~50% stronger creature-based buffs |
+| Aura Effects | 10 | Enhanced deployable aura bonuses |
+| Utility Buffs | 12 | Improved Adrenaline, Endurance, Campfire, Storage |
+| Food Buffs | 156 | Enhanced effects across all food categories |
 
-## Detailed Changes
+## Food Buff Categories (156 items)
 
-### 💪 Core Stat Buffs
+| Category | Items | Key Enhancements |
+|----------|-------|------------------|
+| Basic Fruits & Vegetables | 8 | Banana, Berry, Coconut variants, Kiwi, Watermelon, Honey |
+| Cooked Vegetables | 16 | All cooked veggies with enhanced stats |
+| Cooked Meats | 8 | Bacon, T-Bone, Gamey, Giant Steak, Prime, Soft, Stringy, White |
+| Dried Foods | 13 | -38% to -60% food consumption |
+| Smoked Foods | 11 | Enhanced preservation + stat bonuses |
+| Soups & Stews | 7 | Corn, Mushroom, Tomato, French Onion, Meat, Fish, Rhubarb |
+| Fish Dishes | 10 | Curry, Sashimi, Crumbed, Grilled, Fried, Pickled |
+| Meat & Chicken | 7 | Pies, Rolls, Grilled/Fried/Roast Chicken |
+| Breakfast Items | 7 | Bacon Sandwich, Big Breakfast, Scrambled Eggs, Omelette |
+| Breads | 7 | Banana, Potato, Pumpkin, Seed, Garlic, FlatBread |
+| Pizzas | 2 | Cheese, Garlic |
+| Cakes & Desserts | 9 | Chocolate, Carrot, Coconut Cake, Pavlova, Sorbet |
+| Cookies & Pastries | 4 | Choc Chip, Coconut, Honey, Salted Caramel |
+| Muffins & Pies | 6 | Fruit, PricklyPear, Vegetable, Pumpkin |
+| Salads | 3 | Hearty, Wild, Fruit |
+| Bars & Snacks | 5 | Berry, Honey, Energy, Seed Crackers, Fruit Snack Pack |
+| Jams & Dairy | 10 | Various jams, Cheese, Milk, Cream |
+| Vegetables & Fried | 11 | Roasted, Fries, Onion Rings, Glazed Carrots |
+| Truffle & Special | 18 | Focaccia, Fries, Pasta, Vodka, Candies, Smoothies, Meta items |
 
-| Buff | Original | Enhanced |
+## Example Enhancements
+
+| Food | Original | Enhanced |
 |------|----------|----------|
-| **Health Regen** | +100% | **+150%** |
-| **Health Buff** | +10% max | **+15% max** |
-| **Stamina Regen** | +100% | **+150%** |
-| **Stamina Buff** | +10% max | **+15% max** |
-| **Melee Boost** | +200% | **+300%** |
-| **Movement Boost** | +200% | **+300%** |
-| **Crafting Boost** | -25% time | **-40% time** |
-| **Carry Boost** | +50% | **+75%** |
-| **XP Boost** | +100% | **+150%** |
-| **Temperature Boost** | 240 resist | **360 resist** |
+| Chocolate Cake | +200% health/stamina regen | +300% health/stamina regen |
+| Roast Chicken | +25% exposure resist | +38% exposure resist |
+| Bacon Sandwich | +25% health regen, XP, crit | +38% health regen, XP, crit |
+| Smoked Giant Steak | +100% health regen | +150% health regen |
+| Strawberry Candy | +25% movement speed | +38% movement speed |
+| Dried Foods | -25% food consumption | -38% food consumption |
 
-### 🛏️ Bed Healing
+## Core Buff Details
 
-| Bed Type | Original | Enhanced |
-|----------|----------|----------|
-| **Bedroll** | +1000% health regen | **+1500%** |
-| **Sleeping Bag** | +5000% health regen | **+7500%** |
-| **California King** | +10000% health regen | **+15000%** |
+### Stat Buffs
+- Health/Stamina Regen: +150% (up from +100%)
+- Max Health/Stamina: +15% (up from +10%)
+- Consumption Reduction: -8% (up from -5%)
+- Temperature Resistance: +360% (up from +240%)
+- Melee/Movement Boost: +300% (up from +200%)
+- XP Boost: +150% (up from +100%)
 
-### 😌 Comfort & Rest
+### Bed Healing
+- Bedroll: +1,500% health regen
+- Sleeping Bag: +7,500% health regen
+- California King: +15,000% health regen
 
-| Effect | Original | Enhanced |
-|--------|----------|----------|
-| **Well Rested** | +10% health, +5% stamina | **+15% health, +8% stamina** |
-| **Warm Comfort** | +50% regen, +10% XP | **+75% regen, +15% XP** |
-| **Cool Comfort** | +50% regen, +10% XP | **+75% regen, +15% XP** |
-| **Fresh Air** | +20% health regen | **+30% health regen** |
-
-### 🧪 Enhancement Tonics
-
-| Tonic | Original | Enhanced |
-|-------|----------|----------|
-| **Health Tonic** | +30% max, +300% regen | **+45% max, +450% regen** |
-| **Stamina Tonic** | +30% max, +200% regen | **+45% max, +300% regen** |
-| **Sustenance Tonic** | -30% consumption | **-45% consumption** |
-| **Strength Tonic** | +30% melee, +15% resist | **+45% melee, +22% resist** |
-| **Ape Tonic** | +25% attack/move speed | **+38% attack/move speed** |
-
-### ☕ Thermos Drinks
-
-| Drink | Key Enhancement |
-|-------|-----------------|
-| **Ice Water** | -1500 → **-2250** temp |
-| **Green Tea** | +25% → **+38%** health regen |
-| **Wild Tea** | -25% → **-38%** water consumption |
-| **Cocoa** | -25% → **-38%** food consumption |
-| **Coffee** | +10% → **+15%** stamina |
-| **Coffee w/ Cream** | +25% → **+38%** stamina |
-| **Honey Tea** | -25% → **-38%** disease duration |
-
-### 🍺 Alcohol
-
-| Drink | Original | Enhanced |
-|-------|----------|----------|
-| **Beer/Wine** | +100% stamina regen | **+150%** |
-| **Honey Mead** | +100% regen, +30% food duration | **+150% regen, +45% duration** |
-| **Vodka** | +10% projectile resist | **+15%** |
-| **Tequila** | +10% melee resist | **+15%** |
-| **Prickly Pear Margarita** | +25% damage return | **+38%** |
-
-### 💊 Medical Pastes
-
-| Paste | Disease Duration | Health Regen |
-|-------|------------------|--------------|
-| **Antibiotic** | -50% → **-75%** | +15% → **+22%** |
-| **Antiparasitic** | -50% → **-75%** | +15% → **+22%** |
-| **Antipoison** | -50% → **-75%** | +15% → **+22%** |
-| **Blood Thinning** | -50% → **-75%** | +15% → **+22%** |
-
-### 🔬 Biolab Inhalers
-
-| Inhaler | Key Enhancements |
-|---------|------------------|
-| **Alpha Wolf** | +100% → **+150%** health regen, +30% → **+45%** wound resist |
-| **Sandworm** | +50% → **+75%** hyperthermia resist |
-| **Ice Mammoth** | +50% → **+75%** hypothermia resist |
-| **Scorpion** | +40% → **+60%** damage returned |
-| **Lava Hunter** | +50% → **+75%** volcanic health regen |
-| **Rock Golem** | +50% → **+75%** cave health regen |
-| **Hammerhead** | +15% → **+22%** pyritic crust |
-| **Swamp Ape** | +20% → **+30%** felling damage |
-| **Scyther** | +50% → **+75%** knife projectile damage |
-| **Thornet** | +20% → **+30%** bone harvest |
-| **Plant Boss** | +30% → **+45%** melee damage |
-| **Giant Cat** | +30% → **+45%** projectile damage |
-
-### ✨ Aura Effects
-
-| Aura | Original | Enhanced |
-|------|----------|----------|
-| **Health Regen** | +100% | **+150%** |
-| **Movement Speed** | +10% | **+15%** |
-| **Oxygen Reduction** | -10% | **-15%** |
-| **Warming** | +1000 temp | **+1500 temp** |
-| **Camouflage** | -30% threat | **-45% threat** |
-| **Interaction Speed** | -33% time | **-50% time** |
-
-### 📦 Spoil Rate Reduction
-
-| Container | Original | Enhanced |
-|-----------|----------|----------|
-| **Ice Box** | -500% spoil | **-750%** |
-| **Refrigerator** | -1000% spoil | **-1500%** |
-| **Ice Box Backpack** | -300% spoil | **-450%** |
+### Biolab Inhalers
+All 12 creature inhalers enhanced ~50%:
+- Alpha Wolf, Sandworm, Ice Mammoth, Scorpion
+- Lava Hunter, Rock Golem, Hammerhead, Swamp Ape
+- Scyther, Thornet, Plant Boss, Giant Cat
 
 ## Installation
 
-1. Copy `ModularBuffEnhancer.EXMODZ` to your Mod Manager folder
-2. Enable via JimK72's Icarus Mod Manager
-3. Launch game
+1. Install [JimK72's Mod Manager](https://github.com/JimK72/Icarus-Mod-Manager)
+2. Download `ModularBuffEnhancer.EXMODZ`
+3. Place in Mod Manager's mods folder
+4. Enable in Mod Manager and launch game
 
 ## Compatibility
 
-- ✅ Works alongside Modular Affliction Adjuster
-- ✅ Works with most other mods
-- ✅ Safe to add/remove mid-game
-- ⚠️ May conflict with other buff-modifying mods
+- Works with all game modes and missions
+- Compatible with other mods (no conflicts with Affliction Adjuster)
+- Modular design allows easy customization
 
-## Customization
+## Pro Tip
 
-The mod is organized into 12 clearly labeled sections. To customize:
-
-1. Extract the EXMODZ (it's a ZIP file)
-2. Edit `ModularBuffEnhancer.EXMOD` in any text editor
-3. Adjust values or remove entries as desired
-4. Repackage as EXMODZ
+Pair with **Modular Affliction Adjuster** for the complete experience - reduced penalties from afflictions AND stronger positive buffs!
 
 ## Changelog
 
+### v1.1
+- Added 156 food buff enhancements
+- Covers all food categories from fruits to truffle dishes
+- ~50% boost to all food effects
+
 ### v1.0
-- Initial release with 83 buff enhancements
-- Covers tonics, drinks, food, beds, comfort, inhalers, auras
+- Initial release with 83 core buff modifications
+- Enhanced tonics, drinks, bed healing, comfort, biolab inhalers, and auras
