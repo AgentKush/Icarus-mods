@@ -1,8 +1,8 @@
 {
     "name": "No Food Spoilage",
     "author": "AgentKush",
-    "version": "1.1",
-    "description": "Prevents all food items and volatile substances from spoiling. Meat, fish, vegetables, and volatile substances will last forever.",
+    "version": "1.2",
+    "description": "Prevents all food items and volatile substances from spoiling. Includes composter recipes to manually create Spoiled Meat from raw meats.",
     "fileName": "No_Food_Spoilage",
     "imageURL": "",
     "readmeURL": "",
@@ -31,6 +31,59 @@
                 {"Name": "Decay_Cream", "DecayTime": 300, "SpoilTime": 0},
                 {"Name": "Decay_Dried_Fish", "DecayTime": 300, "SpoilTime": 0},
                 {"Name": "Decay_Volatile_Substance", "DecayTime": 300, "SpoilTime": 0, "SpoiledItem": {"RowName": "None", "DataTableName": "D_ItemTemplate"}}
+            ]
+        },
+        {
+            "CurrentFile": "Crafting-D_ProcessorRecipes.json",
+            "File_Items": [
+                {
+                    "Name": "Spoil_Raw_Meat",
+                    "RecipeSets": [{"RowName": "Composter", "DataTableName": "D_RecipeSets"}],
+                    "Inputs": [{"Element": {"RowName": "Raw_Meat", "DataTableName": "D_ItemsStatic"}, "Count": 1}],
+                    "Outputs": [{"Element": {"RowName": "Spoiled_Meat", "DataTableName": "D_ItemTemplate"}, "Count": 1}]
+                },
+                {
+                    "Name": "Spoil_Raw_Fish",
+                    "RecipeSets": [{"RowName": "Composter", "DataTableName": "D_RecipeSets"}],
+                    "Inputs": [{"Element": {"RowName": "Raw_Fish", "DataTableName": "D_ItemsStatic"}, "Count": 1}],
+                    "Outputs": [{"Element": {"RowName": "Spoiled_Meat", "DataTableName": "D_ItemTemplate"}, "Count": 1}]
+                },
+                {
+                    "Name": "Spoil_Raw_Chicken",
+                    "RecipeSets": [{"RowName": "Composter", "DataTableName": "D_RecipeSets"}],
+                    "Inputs": [{"Element": {"RowName": "Raw_Chicken", "DataTableName": "D_ItemsStatic"}, "Count": 1}],
+                    "Outputs": [{"Element": {"RowName": "Spoiled_Meat", "DataTableName": "D_ItemTemplate"}, "Count": 1}]
+                },
+                {
+                    "Name": "Spoil_Raw_Bacon",
+                    "RecipeSets": [{"RowName": "Composter", "DataTableName": "D_RecipeSets"}],
+                    "Inputs": [{"Element": {"RowName": "Raw_Bacon", "DataTableName": "D_ItemsStatic"}, "Count": 1}],
+                    "Outputs": [{"Element": {"RowName": "Spoiled_Meat", "DataTableName": "D_ItemTemplate"}, "Count": 1}]
+                },
+                {
+                    "Name": "Spoil_Gamey_Meat",
+                    "RecipeSets": [{"RowName": "Composter", "DataTableName": "D_RecipeSets"}],
+                    "Inputs": [{"Element": {"RowName": "Gamey_Meat", "DataTableName": "D_ItemsStatic"}, "Count": 1}],
+                    "Outputs": [{"Element": {"RowName": "Spoiled_Meat", "DataTableName": "D_ItemTemplate"}, "Count": 1}]
+                },
+                {
+                    "Name": "Spoil_Soft_Meat",
+                    "RecipeSets": [{"RowName": "Composter", "DataTableName": "D_RecipeSets"}],
+                    "Inputs": [{"Element": {"RowName": "Soft_Meat", "DataTableName": "D_ItemsStatic"}, "Count": 1}],
+                    "Outputs": [{"Element": {"RowName": "Spoiled_Meat", "DataTableName": "D_ItemTemplate"}, "Count": 1}]
+                },
+                {
+                    "Name": "Spoil_Stringy_Meat",
+                    "RecipeSets": [{"RowName": "Composter", "DataTableName": "D_RecipeSets"}],
+                    "Inputs": [{"Element": {"RowName": "Stringy_Meat", "DataTableName": "D_ItemsStatic"}, "Count": 1}],
+                    "Outputs": [{"Element": {"RowName": "Spoiled_Meat", "DataTableName": "D_ItemTemplate"}, "Count": 1}]
+                },
+                {
+                    "Name": "Spoil_White_Meat",
+                    "RecipeSets": [{"RowName": "Composter", "DataTableName": "D_RecipeSets"}],
+                    "Inputs": [{"Element": {"RowName": "White_Meat", "DataTableName": "D_ItemsStatic"}, "Count": 1}],
+                    "Outputs": [{"Element": {"RowName": "Spoiled_Meat", "DataTableName": "D_ItemTemplate"}, "Count": 1}]
+                }
             ]
         },
         {"CurrentFile": "EndOfMod"}

@@ -1,53 +1,58 @@
 # No Food Spoilage
 
-**Version:** 1.1  
+![No Food Spoilage](../images/no_spoil.png)
+
+**Version:** 1.2  
 **Author:** AgentKush  
 **Compatible with:** JimK72's Icarus Mod Manager (EXMODZ format)
 
 ## Description
 
-Prevents all food items and volatile substances from spoiling in your inventory! No more worrying about meat going bad, vegetables rotting, or volatile substances turning inert. Everything lasts forever.
+Prevents all food items and volatile substances from spoiling in Icarus.
 
-## What This Mod Does
+## Features
 
-- Sets `SpoilTime` to 0 for all food decay types
-- Food items will **not** turn into spoiled versions
-- Volatile substances will **not** become inert
-- Items still decay/disappear when dropped in the world (DecayTime unchanged)
-- Only affects inventory spoilage, not world decay
+- **No Spoilage**: Meat, fish, vegetables, milk, cream, and volatile substances last forever
+- **Composter Recipes**: Manually convert raw meats into Spoiled Meat for fertilizer production
 
-## Items Affected
+## Composter Recipes Added
 
-| Item Type | Status |
-|-----------|--------|
-| Raw Meat & Chicken | ✅ No Spoil |
-| Cooked Meat | ✅ No Spoil |
-| Dried & Smoked Meat | ✅ No Spoil |
-| Dried Fish | ✅ No Spoil |
-| Fruits & Vegetables | ✅ No Spoil |
-| Dried Vegetables | ✅ No Spoil |
-| Coconuts (Young, Mid, Mature) | ✅ No Spoil |
-| Ice | ✅ No Spoil |
-| Milk & Cream | ✅ No Spoil |
-| Bait | ✅ No Spoil |
-| Frozen Food | ✅ No Spoil |
-| Generic Food Items | ✅ No Spoil |
-| **Volatile Substance** | ✅ No Spoil |
+Since food no longer spoils naturally, you need a way to produce Spoiled Meat for the composter. These recipes let you intentionally spoil raw meats when needed:
+
+| Input | Output |
+|-------|--------|
+| Raw Meat | Spoiled Meat |
+| Raw Fish | Spoiled Meat |
+| Raw Chicken | Spoiled Meat |
+| Raw Bacon | Spoiled Meat |
+| Gamey Meat | Spoiled Meat |
+| Soft Meat | Spoiled Meat |
+| Stringy Meat | Spoiled Meat |
+| White Meat | Spoiled Meat |
+
+## What's Protected
+
+- Raw and cooked meat
+- Fish (raw and cooked)
+- Vegetables and fruits
+- Milk and cream
+- Coconuts (all stages)
+- Dried and smoked meats
+- Frozen foods
+- Volatile substances
+- Bait
 
 ## Installation
 
 1. Download `No_Food_Spoilage.EXMOD` (or `.EXMODZ` if zipped)
 2. Place in your Mod Manager's `Extracted_Mods` folder
 3. Use JimK72's Mod Manager to merge and install
-4. Launch Icarus - food and volatile substances no longer spoil!
-
-## Technical Details
-
-This mod modifies `D_Decayable` traits. Setting `SpoilTime: 0` prevents the spoilage timer from ever completing, while preserving `DecayTime` so items still despawn naturally when dropped in the world.
+4. Launch Icarus - your food will never spoil!
 
 ## Changelog
 
-- **v1.1** - Added Volatile Substance (no longer becomes inert)
+- **v1.2** - Added composter recipes for creating Spoiled Meat from raw meats
+- **v1.1** - Added coverage for additional food types
 - **v1.0** - Initial release
 
 ## License

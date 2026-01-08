@@ -33,7 +33,7 @@
 | ⚡ **[FastProcessing 25x](./FastProcessing_All_25x)** | 25x faster crafting & processing | `v3.0` |
 | ⚡ **[FastProcessing Instant](./FastProcessing_Instant)** | Instant crafting & processing | `v3.0` |
 | 🛡️ **[Indestructible Tools](./Indestructible_Tools_Weapons)** | Max durability for everything | `v1.3` |
-| 🍖 **[No Food Spoilage](./No_Food_Spoilage)** | Food & volatile substances never spoil | `v1.1` |
+| 🍖 **[No Food Spoilage](./No_Food_Spoilage)** | Food never spoils + composter recipes for Spoiled Meat | `v1.2` |
 | 🩹 **[Affliction Adjuster](./Modular_Affliction_Adjuster)** | 110 afflictions reduced by ~50% | `v2.0` |
 | 💪 **[Buff Enhancer](./Modular_Buff_Enhancer)** | 239 buffs boosted by ~50% | `v1.1` |
 
@@ -171,9 +171,9 @@ Sets durability to maximum for all equipment:
 
 ---
 
-## 🍖 No Food Spoilage `v1.1`
+## 🍖 No Food Spoilage `v1.2`
 
-> **Keep your food forever!**
+> **Keep your food forever + make Spoiled Meat when needed!**
 
 Prevents spoilage for all food types:
 - 🥩 Raw & cooked meat
@@ -182,6 +182,21 @@ Prevents spoilage for all food types:
 - 🧀 Dairy products
 - 🧊 Ice & frozen items
 - 🧪 Volatile Substances (no more inert goo!)
+
+### 🆕 Composter Recipes (v1.2)
+
+Since food no longer spoils naturally, these composter recipes let you create Spoiled Meat for fertilizer:
+
+| Input | Output |
+|:------|:-------|
+| Raw Meat | Spoiled Meat |
+| Raw Fish | Spoiled Meat |
+| Raw Chicken | Spoiled Meat |
+| Raw Bacon | Spoiled Meat |
+| Gamey Meat | Spoiled Meat |
+| Soft Meat | Spoiled Meat |
+| Stringy Meat | Spoiled Meat |
+| White Meat | Spoiled Meat |
 
 ---
 
@@ -329,6 +344,10 @@ Perfect for a more relaxed survival experience!
 
 ### v1.3 - Indestructible Tools & Weapons
 - Fixed Lightning Rod durability overflow (reduced base to 2,000,000)
+
+### v1.2 - No Food Spoilage (UPDATE)
+- **Added 8 composter recipes** for converting raw meats to Spoiled Meat
+- Now you can make fertilizer even when food doesn't spoil!
 
 ### v1.1 - No Food Spoilage
 - Added Volatile Substance to prevent it becoming inert
