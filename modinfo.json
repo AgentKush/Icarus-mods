@@ -155,6 +155,19 @@
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Hidden_Building_Pieces/Hidden_Building_Pieces.EXMODZ"
             }
+        },
+        {
+            "name": "Workshop Recyclers",
+            "author": "AgentKush",
+            "version": "2.0",
+            "compatibility": "All",
+            "description": "Adds Biofuel Recycler and Organic Residue Recycler - two new machines for recycling 299 workshop items into currency AND 1,376 crafted items back into materials. 1,677 total recipes!",
+            "fileName": "Workshop_Recyclers",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/workshop_recyclers.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/Workshop_Recyclers.EXMODZ"
+            }
         }
     ]
 }

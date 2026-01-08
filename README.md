@@ -37,6 +37,7 @@
 | 🩹 **[Affliction Adjuster](./Modular_Affliction_Adjuster)** | 110 afflictions reduced by ~50% | `v2.0` |
 | 💪 **[Buff Enhancer](./Modular_Buff_Enhancer)** | 239 buffs boosted by ~50% | `v1.1` |
 | 🏗️ **[Hidden Building Pieces](./Hidden_Building_Pieces)** | 18 diagonal/curved building sets | `v1.0.7` |
+| ♻️ **[Workshop Recyclers](./Workshop_Recyclers)** | Recycle items for currency & materials | `v2.0` |
 
 ---
 
@@ -307,6 +308,81 @@ These building pieces exist in the game files but aren't normally available. Thi
 
 ---
 
+## ♻️ Workshop Recyclers `v2.0`
+
+> **Two new machines with 1,677 recycling recipes!**
+
+Adds the **Biofuel Recycler** and **Organic Residue Recycler** - dedicated machines for recycling both workshop items (for currency) AND crafted items (for materials).
+
+### New Machines
+
+| Machine | Model Based On | Crafted At |
+|:--------|:---------------|:-----------|
+| **Biofuel Recycler** | Biofuel Bio-Cleaner | Fabricator |
+| **Organic Residue Recycler** | Organic Residue Cleanser | Fabricator |
+
+### Two Types of Recycling
+
+#### 1. Workshop Item Recycling → Currency
+Put workshop items in the recycler to get **Ren / Exotics / Red Exotics** back!
+
+- **299 workshop items** can be recycled
+- Returns **100% of the replication cost**
+- Use an **Orbital Exchange Interface** to send currency to orbit
+
+#### 2. Crafted Item Deconstruction → Materials
+Put any crafted item in the recycler to get the **original crafting materials** back!
+
+- **1,376 crafted items** can be deconstructed
+- Returns **100% of the materials** used to craft them
+- Works with tools, weapons, armor, buildings, deployables, food, and more!
+
+### Stats
+
+| Stat | Value |
+|:-----|:------|
+| **Workshop Item Recipes** | 299 |
+| **Crafted Item Recipes** | 1,376 |
+| **Total Recipes** | 1,677 |
+
+### How It Works
+
+```
+[Workshop Pickaxe] → Recycler → [50 Ren] → Orbital Exchange → Account
+[Iron Pickaxe] → Recycler → [4 Iron Ingot, 8 Wood, 4 Leather]
+[Steel Axe] → Recycler → [8 Steel Ingot, 4 Epoxy, 12 Wood]
+```
+
+### Crafting Requirements
+
+#### Biofuel Recycler
+| Material | Amount |
+|:---------|:------:|
+| Steel Ingot | 25 |
+| Glass | 10 |
+| Epoxy | 12 |
+| Electronics | 15 |
+| Copper Wire | 40 |
+
+#### Organic Residue Recycler
+| Material | Amount |
+|:---------|:------:|
+| Composites | 15 |
+| Electronics | 5 |
+| Titanium Ingot | 10 |
+| Shaped Obsidian | 5 |
+| Platinum Sheath | 30 |
+
+### What Can Be Recycled?
+
+**Workshop Items (Currency Refund):** Envirosuits, Armor, Pickaxes, Axes, Bows, Rifles, Radar, Extractors, and 290+ more!
+
+**Crafted Items (Material Refund):** Tools, Weapons, Armor, Building pieces, Deployables, Food, Furniture, and 1,300+ more!
+
+**NOT Recyclable:** Mission items, Raw materials, Processed materials, Currency items
+
+---
+
 ## 📝 Installation
 
 ### Using JimK72's Mod Manager (Recommended)
@@ -338,6 +414,14 @@ These building pieces exist in the game files but aren't normally available. Thi
 ---
 
 ## 📋 Changelog
+
+### v2.0 - Workshop Recyclers (NEW)
+- **Two new recycling machines** - Biofuel Recycler and Organic Residue Recycler
+- **299 workshop item recipes** - Recycle for Ren, Exotics, and Red Exotics
+- **1,376 crafted item recipes** - Deconstruct for original materials
+- **1,677 total recipes** - Biggest mod yet!
+- Craft recyclers at Fabricator, unlock in Tier 4 tech tree
+- Uses same models as Biofuel Bio-Cleaner and Organic Residue Cleanser
 
 ### v1.0.7 - Hidden Building Pieces
 - Fixed EXMODZ folder structure for proper Mod Manager import
