@@ -1,0 +1,1189 @@
+{
+  "name": "ModularAfflictionAdjuster",
+  "author": "AgentKush",
+  "fileName": "ModularAfflictionAdjuster",
+  "version": "2.0",
+  "description": "Comprehensive affliction adjustment - reduces stat penalties by ~50%, extends escalation times by ~50%, and reduces damage over time by ~50%. Covers all 80+ player afflictions including diseases, wounds, temperature, poisons, weather exposure, and exotic debuffs.",
+  "week": "",
+  "Level2": "True",
+  "Rows": [
+    {
+      "CurrentFile": "Modifiers-D_ModifierStates.json",
+      "File_Items": [
+        {
+          "Name": "Pneumonia",
+          "GrantedStats": {
+            "(Value=\"BaseHealthRegen_+%\")": -25,
+            "(Value=\"BaseMaximumStamina_+%\")": -25,
+            "(Value=\"BaseExperience_+%\")": -5
+          }
+        },
+        {
+          "Name": "Food_Poisoning",
+          "GrantedStats": {
+            "(Value=\"BaseMaximumHealth_+%\")": -25,
+            "(Value=\"BaseMaximumStamina_+%\")": -25,
+            "(Value=\"BaseMovementSpeed_+%\")": -12
+          }
+        },
+        {
+          "Name": "Dysentery",
+          "GrantedStats": {
+            "(Value=\"BaseFoodRecovery_+%\")": -25,
+            "(Value=\"BaseFoodModifierDuration_+%\")": -12
+          }
+        },
+        {
+          "Name": "Dysentery_Lava",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 4,
+              "Deviation": 0.5
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseFoodConsumption_+%\")": 25,
+            "(Value=\"BaseStaminaConsumed_+%\")": 25,
+            "(Value=\"BaseMovementSpeed_+%\")": -8
+          }
+        },
+        {
+          "Name": "Wound",
+          "EscalationTime": 300,
+          "GrantedStats": {
+            "(Value=\"BaseHealthRegen_+%\")": -50,
+            "(Value=\"IsWounded_?\")": 1
+          }
+        },
+        {
+          "Name": "DeepWound",
+          "EscalationTime": 300,
+          "GrantedStats": {
+            "(Value=\"BaseMaximumHealth_+%\")": -12,
+            "(Value=\"BaseMaximumStamina_+%\")": -12,
+            "(Value=\"BaseHealthRegen_+%\")": -70
+          }
+        },
+        {
+          "Name": "Infected_Wound",
+          "GrantedStats": {
+            "(Value=\"BaseMaximumHealth_+%\")": -25,
+            "(Value=\"BaseMaximumStamina_+%\")": -12,
+            "(Value=\"BaseHealthRegen_+%\")": -50,
+            "(Value=\"BaseExperience_+%\")": -2
+          }
+        },
+        {
+          "Name": "Festering_Wound",
+          "GrantedStats": {
+            "(Value=\"BaseMaximumHealth_+%\")": -12,
+            "(Value=\"BaseMaximumStamina_+%\")": -12,
+            "(Value=\"BaseWaterConsumption_+%\")": 5,
+            "(Value=\"BaseHealthRegen_+%\")": -70,
+            "(Value=\"BaseExperience_+%\")": -2
+          }
+        },
+        {
+          "Name": "Concussion",
+          "GrantedStats": {
+            "(Value=\"BaseCraftingSpeed_+%\")": -12,
+            "(Value=\"BaseMovementSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Contusion",
+          "GrantedStats": {
+            "(Value=\"BaseExperience_+%\")": -12,
+            "(Value=\"BaseMovementSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Enfeebled",
+          "GrantedStats": {
+            "(Value=\"BaseMeleeDamage_+%\")": -12,
+            "(Value=\"BaseWeightCapacity_+%\")": -10
+          }
+        },
+        {
+          "Name": "Blunt_Trauma",
+          "GrantedStats": {
+            "(Value=\"BaseMeleeDamage_+%\")": -12
+          }
+        },
+        {
+          "Name": "Damage_Sprained_Ankle",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -12,
+            "(Value=\"BaseWeightCapacity_+%\")": -10
+          }
+        },
+        {
+          "Name": "Damage_Broken_Leg",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseStaminaRegen_+%\")": -12,
+            "(Value=\"BaseFoodConsumption_+%\")": 12,
+            "(Value=\"BaseWeightCapacity_+%\")": -12
+          }
+        },
+        {
+          "Name": "Damage_Broken_Leg_Minor",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -5,
+            "(Value=\"BaseStaminaRegen_+%\")": -12,
+            "(Value=\"BaseFoodConsumption_+%\")": 12,
+            "(Value=\"BaseWeightCapacity_+%\")": -5
+          }
+        },
+        {
+          "Name": "Underground",
+          "EscalationTime": 300,
+          "GrantedStats": {
+            "(Value=\"BaseHealthRegen_+%\")": -25,
+            "(Value=\"BaseWaterConsumption_+%\")": -12,
+            "(Value=\"BaseMaximumStamina_+%\")": -16
+          }
+        },
+        {
+          "Name": "Frostnip",
+          "EscalationTime": 450,
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -8,
+            "(Value=\"BaseStaminaRegen_+%\")": -5
+          }
+        },
+        {
+          "Name": "Frostbite",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -12,
+            "(Value=\"BaseStaminaRegen_+%\")": -15,
+            "(Value=\"BaseWaterConsumption_+%\")": 5,
+            "(Value=\"BaseExperience_+%\")": -5
+          }
+        },
+        {
+          "Name": "Affliction_Cold",
+          "EscalationTime": 900,
+          "GrantedStats": {
+            "(Value=\"BaseMaximumStamina_+%\")": -12,
+            "(Value=\"BaseStaminaRegen_+%\")": -12,
+            "(Value=\"BaseFoodConsumption_+%\")": 10,
+            "(Value=\"BaseWaterConsumption_+%\")": -10
+          }
+        },
+        {
+          "Name": "Affliction_Hypothermia",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 0.5,
+              "Deviation": 0
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMaximumStamina_+%\")": -25,
+            "(Value=\"BaseStaminaRegen_+%\")": -25,
+            "(Value=\"BaseFoodConsumption_+%\")": 15,
+            "(Value=\"BaseWaterConsumption_+%\")": -10,
+            "(Value=\"BaseMovementSpeed_+%\")": -5
+          }
+        },
+        {
+          "Name": "Heatstroke",
+          "EscalationTime": 450,
+          "GrantedStats": {
+            "(Value=\"BaseWeightCapacity_+%\")": -8,
+            "(Value=\"BaseHealthRegen_+%\")": -5,
+            "(Value=\"BaseMeleeDamage_+%\")": -5
+          }
+        },
+        {
+          "Name": "Heat_Exhaustion",
+          "GrantedStats": {
+            "(Value=\"BaseWeightCapacity_+%\")": -12,
+            "(Value=\"BaseHealthRegen_+%\")": -15,
+            "(Value=\"BaseWaterConsumption_+%\")": 12,
+            "(Value=\"BaseMeleeDamage_+%\")": -12,
+            "(Value=\"BaseExperience_+%\")": -5
+          }
+        },
+        {
+          "Name": "Affliction_Overheating",
+          "EscalationTime": 900,
+          "GrantedStats": {
+            "(Value=\"BaseWaterConsumption_+%\")": 25,
+            "(Value=\"BaseStaminaActionCost_+%\")": 5
+          }
+        },
+        {
+          "Name": "Affliction_Heat_Overload",
+          "ModifierVariables": {
+            "DamagePercentage": {
+              "BaseValue": 0.3,
+              "Deviation": 0
+            },
+            "Damage": {
+              "BaseValue": 0.5,
+              "Deviation": 0
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseWaterConsumption_+%\")": 50,
+            "(Value=\"BaseStaminaActionCost_+%\")": 12
+          }
+        },
+        {
+          "Name": "Affliction_Thirsty",
+          "GrantedStats": {
+            "(Value=\"BaseThirstLevel_+\")": 1,
+            "(Value=\"BaseStaminaRegen_+%\")": -12
+          }
+        },
+        {
+          "Name": "Affliction_Dehydrated",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 1,
+              "Deviation": 0
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseThirstLevel_+\")": 2,
+            "(Value=\"BaseStaminaRegenFromEmptyDelay_+\")": 3,
+            "(Value=\"BaseStaminaRegenDelay_+\")": 1,
+            "(Value=\"BaseStaminaRegen_+%\")": -25
+          }
+        },
+        {
+          "Name": "Affliction_Hungry",
+          "EscalationTime": 600
+        },
+        {
+          "Name": "Affliction_Famished",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 1,
+              "Deviation": 0
+            }
+          }
+        },
+        {
+          "Name": "Affliction_Disoriented",
+          "GrantedStats": {
+            "(Value=\"BaseExperience_+%\")": -5
+          }
+        },
+        {
+          "Name": "Affliction_Suffocation",
+          "ModifierVariables": {
+            "DamagePercentage": {
+              "BaseValue": 1,
+              "Deviation": 0
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMaximumStamina_+%\")": -25,
+            "(Value=\"BaseExperience_+%\")": -10
+          }
+        },
+        {
+          "Name": "Drowning",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 8,
+              "Deviation": 1.5
+            }
+          }
+        },
+        {
+          "Name": "DamageOverTime_Physical",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 1,
+              "Deviation": 0.5
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+\")": -10
+          }
+        },
+        {
+          "Name": "DamageOverTime_Burning",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 5,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseWaterConsumption_+%\")": 50
+          }
+        },
+        {
+          "Name": "DamageOverTime_Bleeding",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 2.5,
+              "Deviation": 1
+            }
+          }
+        },
+        {
+          "Name": "DamageOverTime_Radiation",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 4,
+              "Deviation": 0.5
+            }
+          }
+        },
+        {
+          "Name": "Burn",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 20,
+              "Deviation": 2.5
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseHealthRegen_+%\")": -25,
+            "(Value=\"BaseMaximumHealth_+%\")": -12
+          }
+        },
+        {
+          "Name": "Poison",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 0.5,
+              "Deviation": 0.5
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+\")": -5
+          }
+        },
+        {
+          "Name": "Poison_DOT",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 2.5,
+              "Deviation": 0.5
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -2
+          }
+        },
+        {
+          "Name": "Spore_Poison",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 1,
+              "Deviation": 0
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -5
+          }
+        },
+        {
+          "Name": "Cave_Worm_Poison",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 2,
+              "Deviation": 0.5
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -8
+          }
+        },
+        {
+          "Name": "Sandworm_Poison",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 2.5,
+              "Deviation": 0.5
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -12
+          }
+        },
+        {
+          "Name": "Teenage_Worm_Poison_Forest",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 2.5,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -3,
+            "(Value=\"BaseCriticalDamage_+%\")": -2
+          }
+        },
+        {
+          "Name": "Teenage_Worm_Poison_Desert",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 1.5,
+              "Deviation": 0.5
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -1,
+            "(Value=\"BaseStaminaActionCost_+%\")": 5,
+            "(Value=\"BaseExternalTemperatureModification_+\")": 50
+          }
+        },
+        {
+          "Name": "Teenage_Worm_Poison_Arctic",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 4,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -10,
+            "(Value=\"BaseExternalTemperatureModification_+\")": -100,
+            "(Value=\"BaseProjectileDamageResistance_+%\")": -5
+          }
+        },
+        {
+          "Name": "Poison_Sting",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 5,
+              "Deviation": 1.5
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -2
+          }
+        },
+        {
+          "Name": "Poison_Sting_Stackable",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 2,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -1
+          }
+        },
+        {
+          "Name": "Bee_Swarm",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 1,
+              "Deviation": 0.5
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -2,
+            "(Value=\"BaseAttackSpeed_+%\")": -2
+          }
+        },
+        {
+          "Name": "Komodo_Bite",
+          "GrantedStats": {
+            "(Value=\"BaseFoodModifierDuration_+%\")": -50,
+            "(Value=\"BasePoisonModifierDuration_+%\")": 50
+          }
+        },
+        {
+          "Name": "GasFlyer_Poison",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -30,
+            "(Value=\"BaseStaminaActionCost_+%\")": 125,
+            "(Value=\"BaseStaminaRegen_+%\")": -50,
+            "(Value=\"BaseMeleeDamageResistance_+%\")": -12
+          }
+        },
+        {
+          "Name": "LavaSlug_Burn",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -40
+          }
+        },
+        {
+          "Name": "Radiation_Sickness",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 25,
+              "Deviation": 2.5
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMaximumHealth_+%\")": -10,
+            "(Value=\"BaseMaximumStamina_+%\")": -10
+          }
+        },
+        {
+          "Name": "Miasma",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 20,
+              "Deviation": 2.5
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BasePhysicalDamageResistance_%\")": -12
+          }
+        },
+        {
+          "Name": "SulfurPool",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 2.5,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseCooldownDegreePerMinute_+\")": -5,
+            "(Value=\"BaseInternalTemperatureModification_+\")": 250
+          }
+        },
+        {
+          "Name": "SpikedBrambles",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 2,
+              "Deviation": 0.5
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseSprintSpeed_+%\")": -20
+          }
+        },
+        {
+          "Name": "SwampWater",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -10,
+            "(Value=\"BaseSprintSpeed_+%\")": -5
+          }
+        },
+        {
+          "Name": "LightStorm_LightExposure",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "LightStorm_MediumExposure",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -15,
+            "(Value=\"BaseExperience_+%\")": -5
+          }
+        },
+        {
+          "Name": "LightStorm_HeavyExposure",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 0.5,
+              "Deviation": 0
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -20,
+            "(Value=\"BaseExperience_+%\")": -12
+          }
+        },
+        {
+          "Name": "MediumStorm_LightExposure",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "MediumStorm_MediumExposure",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -20,
+            "(Value=\"BaseExperience_+%\")": -5
+          }
+        },
+        {
+          "Name": "MediumStorm_HeavyExposure",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 1.5,
+              "Deviation": 0
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -30,
+            "(Value=\"BaseExperience_+%\")": -12
+          }
+        },
+        {
+          "Name": "HeavyStorm_LightExposure",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -15
+          }
+        },
+        {
+          "Name": "HeavyStorm_MediumExposure",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 2,
+              "Deviation": 0
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseExperience_+%\")": -5
+          }
+        },
+        {
+          "Name": "HeavyStorm_HeavyExposure",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 4.5,
+              "Deviation": 0
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -35,
+            "(Value=\"BaseExperience_+%\")": -12
+          }
+        },
+        {
+          "Name": "Desert_LightStorm_LightExposure",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -10,
+            "(Value=\"BaseHeatResistance_%\")": -5
+          }
+        },
+        {
+          "Name": "Desert_LightStorm_MediumExposure",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -20,
+            "(Value=\"BaseHeatResistance_%\")": -10
+          }
+        },
+        {
+          "Name": "Desert_LightStorm_HeavyExposure",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -30,
+            "(Value=\"BaseHeatResistance_%\")": -15
+          }
+        },
+        {
+          "Name": "Desert_MediumStorm_LightExposure",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -10,
+            "(Value=\"BaseHeatResistance_%\")": -5
+          }
+        },
+        {
+          "Name": "Desert_MediumStorm_MediumExposure",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -20,
+            "(Value=\"BaseHeatResistance_%\")": -10
+          }
+        },
+        {
+          "Name": "Desert_MediumStorm_HeavyExposure",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 1.5,
+              "Deviation": 0
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -30,
+            "(Value=\"BaseHeatResistance_%\")": -15
+          }
+        },
+        {
+          "Name": "Exposure_Arctic_Hail",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 14.5,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseFoodConsumption_+%\")": 50,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Arctic_Wind",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 11.5,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseFoodConsumption_+%\")": 50,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Arctic_Snow",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 10,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseFoodConsumption_+%\")": 50,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Arctic_WhiteOut",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 10,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseFoodConsumption_+%\")": 50,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Conifer_Hail",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 14.5,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseOxygenConsumption_+%\")": 50,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Conifer_Wind",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 11.5,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseOxygenConsumption_+%\")": 50,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Conifer_Rain",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 10,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseOxygenConsumption_+%\")": 50,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Conifer_Fog",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 10,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseOxygenConsumption_+%\")": 50,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Desert_Sand",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 14.5,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseWaterConsumption_+%\")": 50,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Desert_Wind",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 11.5,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseWaterConsumption_+%\")": 50,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Desert_Heatwave",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 10,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseWaterConsumption_+%\")": 50,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Swamp_AcidRain",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 13,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseOxygenConsumption_+%\")": 50,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Swamp_AcidFog",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 14.5,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseOxygenConsumption_+%\")": 50,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Swamp_Rain",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 10,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseOxygenConsumption_+%\")": 50,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Swamp_Wind",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 11.5,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseOxygenConsumption_+%\")": 50,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Swamp_ToxicGas",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 13,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseOxygenConsumption_+%\")": 50,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Volcanic_Ash",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 10,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Volcanic_AcidRain",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 13,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Volcanic_SulfurReaction",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 13,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Volcanic_Embers",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 13,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Volcanic_Heatwave",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 10,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Volcanic_VolcWinter",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 10,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "Exposure_Volcanic_ColdFront",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 10,
+              "Deviation": 1
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 50,
+            "(Value=\"BaseMovementSpeed_+%\")": -25,
+            "(Value=\"BaseSprintSpeed_+%\")": -10
+          }
+        },
+        {
+          "Name": "ExoticDebuff",
+          "EscalationTime": 450,
+          "GrantedStats": {
+            "(Value=\"BaseFoodConsumption_+%\")": 10,
+            "(Value=\"BaseOxygenConsumption_+%\")": 10,
+            "(Value=\"BaseWaterConsumption_+%\")": 10
+          }
+        },
+        {
+          "Name": "ExoticDebuff_T1_Food",
+          "EscalationTime": 270,
+          "GrantedStats": {
+            "(Value=\"BaseFoodConsumption_+%\")": 25
+          }
+        },
+        {
+          "Name": "ExoticDebuff_T1_Water",
+          "EscalationTime": 270,
+          "GrantedStats": {
+            "(Value=\"BaseWaterConsumption_+%\")": 25
+          }
+        },
+        {
+          "Name": "ExoticDebuff_T1_Oxygen",
+          "EscalationTime": 270,
+          "GrantedStats": {
+            "(Value=\"BaseOxygenConsumption_+%\")": 25
+          }
+        },
+        {
+          "Name": "ExoticDebuff_T2_Poison",
+          "EscalationTime": 90,
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 2.5,
+              "Deviation": 0.5
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -2
+          }
+        },
+        {
+          "Name": "ExoticDebuff_T2_Wound",
+          "EscalationTime": 90,
+          "GrantedStats": {
+            "(Value=\"BaseHealthRegen_+%\")": -50
+          }
+        },
+        {
+          "Name": "ExoticDebuff_T2_Bloodthinner",
+          "EscalationTime": 90,
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": 25,
+            "(Value=\"BaseMeleeDamageResistance_+%\")": -12
+          }
+        },
+        {
+          "Name": "ExoticDebuff_T2_Antibiotic",
+          "EscalationTime": 90,
+          "GrantedStats": {
+            "(Value=\"BaseHealthRegen_+%\")": -25,
+            "(Value=\"BaseMaximumStamina_+%\")": -8
+          }
+        },
+        {
+          "Name": "ExoticDebuff_T2_Antiparasitic",
+          "EscalationTime": 90,
+          "GrantedStats": {
+            "(Value=\"BaseSprintSpeed_+%\")": -5,
+            "(Value=\"BaseAttackSpeed_+%\")": -5
+          }
+        },
+        {
+          "Name": "ExoticDebuff_T3_DeepWound",
+          "GrantedStats": {
+            "(Value=\"BaseMaximumHealth_+%\")": -12,
+            "(Value=\"BaseHealthRegen_+%\")": -70
+          }
+        },
+        {
+          "Name": "ExoticDebuff_T3_Hypothermia",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": -12,
+            "(Value=\"BaseFoodConsumption_+%\")": 25
+          }
+        },
+        {
+          "Name": "ExoticDebuff_T3_Hyperthermia",
+          "GrantedStats": {
+            "(Value=\"BaseWeightCapacity_+%\")": -8,
+            "(Value=\"BaseWaterConsumption_+%\")": 25
+          }
+        },
+        {
+          "Name": "ExoticDebuff_T4_RapidBleed",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 17.5,
+              "Deviation": 2.5
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseHealthRegen_+%\")": -25
+          }
+        },
+        {
+          "Name": "ExoticDebuff_T4_RapidBurn",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 17.5,
+              "Deviation": 2.5
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseInternalTemperatureModification_+\")": 500
+          }
+        },
+        {
+          "Name": "ExoticDebuff_T4_RapidFreeze",
+          "ModifierVariables": {
+            "Damage": {
+              "BaseValue": 17.5,
+              "Deviation": 2.5
+            }
+          },
+          "GrantedStats": {
+            "(Value=\"BaseInternalTemperatureModification_+\")": -500
+          }
+        },
+        {
+          "Name": "Dirty_Water_Swamp",
+          "GrantedStats": {
+            "(Value=\"BaseWaterConsumption_+%\")": 12,
+            "(Value=\"BaseFoodConsumption_+%\")": 12
+          }
+        },
+        {
+          "Name": "Dirty_Water_Lava",
+          "GrantedStats": {
+            "(Value=\"BaseWaterConsumption_+%\")": 50,
+            "(Value=\"BaseFoodConsumption_+%\")": 25
+          }
+        }
+      ]
+    }
+  ]
+}
