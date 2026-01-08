@@ -142,6 +142,19 @@
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Modular_Buff_Enhancer/ModularBuffEnhancer.EXMODZ"
             }
+        },
+        {
+            "name": "Hidden Building Pieces",
+            "author": "AgentKush",
+            "version": "1.0.6",
+            "compatibility": "All",
+            "description": "Unlocks 18 hidden diagonal and curved building piece sets for Concrete, Glass, and Clay Brick. Craft at Masonry Bench, Cement Mixer, Electric Masonry Bench, or Glassworking Bench.",
+            "fileName": "Hidden_Building_Pieces",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/hidden_building.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hidden_Building_Pieces/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Hidden_Building_Pieces/Hidden_Building_Pieces.EXMODZ"
+            }
         }
     ]
 }

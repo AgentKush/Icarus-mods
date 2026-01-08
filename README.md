@@ -36,6 +36,7 @@
 | 🍖 **[No Food Spoilage](./No_Food_Spoilage)** | Food never spoils + composter recipes for Spoiled Meat | `v1.2` |
 | 🩹 **[Affliction Adjuster](./Modular_Affliction_Adjuster)** | 110 afflictions reduced by ~50% | `v2.0` |
 | 💪 **[Buff Enhancer](./Modular_Buff_Enhancer)** | 239 buffs boosted by ~50% | `v1.1` |
+| 🏗️ **[Hidden Building Pieces](./Hidden_Building_Pieces)** | 18 diagonal/curved building sets | `v1.0.6` |
 
 ---
 
@@ -279,6 +280,33 @@ Perfect for a more relaxed survival experience!
 
 ---
 
+## 🏗️ Hidden Building Pieces `v1.0.6`
+
+> **Unlock 18 hidden diagonal and curved building piece sets!**
+
+These building pieces exist in the game files but aren't normally available. This mod makes them craftable:
+
+### Materials & Workstations
+
+| Material | Workstation |
+|:---------|:------------|
+| Concrete | Masonry Bench, Cement Mixer, Electric Masonry Bench |
+| Glass | Glassworking Bench |
+| Clay Brick | Masonry Bench, Electric Masonry Bench |
+
+### Building Sets (6 per material)
+
+| Set | Description |
+|:----|:------------|
+| Diagonal Set | Cross-tile diagonal pieces |
+| Diagonal Curved Set | Cross-tile curved pieces |
+| Wall/Roof Curved | Curved walls for under curved roofs |
+| Curved Wall Angles | Cross-tile curved walls in various angles |
+| Roof Curved Angles | Curved roof pieces |
+| Advanced Beam Set | Advanced beams for diagonal/curved pieces |
+
+---
+
 ## 📝 Installation
 
 ### Using JimK72's Mod Manager (Recommended)
@@ -310,6 +338,11 @@ Perfect for a more relaxed survival experience!
 ---
 
 ## 📋 Changelog
+
+### v1.0.6 - Hidden Building Pieces (NEW)
+- **18 hidden building piece sets** unlocked for Concrete, Glass, and Clay Brick
+- Diagonal sets, curved sets, wall angles, roof angles, and advanced beams
+- Craft at Masonry Bench, Cement Mixer, Electric Masonry Bench, or Glassworking Bench
 
 ### v2.0 - Modular Affliction Adjuster (NEW)
 - **110 affliction modifications** covering all negative status effects
