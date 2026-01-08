@@ -1,7 +1,7 @@
 {
     "name": "Workshop Recyclers",
     "author": "AgentKush",
-    "version": "2.0",
+    "version": "2.1",
     "description": "Adds Biofuel Recycler and Organic Residue Recycler - dedicated machines for recycling 299 workshop items AND 1376 crafted items back into materials.",
     "fileName": "Workshop_Recyclers",
     "Level2": "True",
@@ -223,39 +223,53 @@
             "File_Items": [
                 {
                     "Name": "Biofuel_Recycler",
-                    "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Biofuel_Recycler-DisplayName\", \"Biofuel Recycler\")",
-                    "DisplayDescription": "NSLOCTEXT(\"D_Talents\", \"Biofuel_Recycler-DisplayDescription\", \"Unlocks the Biofuel Recycler for recycling items.\")",
-                    "BlueprintIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_T3_Cleaning_Device.T_ITEM_T3_Cleaning_Device",
-                    "TalentTree": {
-                        "RowName": "Tier4_Tech"
+                    "ExtraData": {
+                        "RowName": "Item_Biofuel_Recycler",
+                        "DataTableName": "D_Itemable"
                     },
-                    "RequiredTalentPoints": 1,
+                    "TalentTree": {
+                        "RowName": "Blueprint_T4_Fabricator"
+                    },
                     "Position": {
-                        "X": 4800,
-                        "Y": 600
+                        "X": 5100,
+                        "Y": 450
                     },
                     "Size": {
-                        "X": 250,
-                        "Y": 250
-                    }
+                        "X": 184,
+                        "Y": 184
+                    },
+                    "RequiredTalents": [
+                        {
+                            "RowName": "Electirc_Utility_Reroute",
+                            "DataTableName": "D_Talents"
+                        }
+                    ],
+                    "bDefaultUnlocked": false
                 },
                 {
                     "Name": "Organic_Recycler",
-                    "DisplayName": "NSLOCTEXT(\"D_Talents\", \"Organic_Recycler-DisplayName\", \"Organic Residue Recycler\")",
-                    "DisplayDescription": "NSLOCTEXT(\"D_Talents\", \"Organic_Recycler-DisplayDescription\", \"Unlocks the Organic Residue Recycler for recycling items.\")",
-                    "BlueprintIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Composter.ITEM_Composter",
-                    "TalentTree": {
-                        "RowName": "Tier4_Tech"
+                    "ExtraData": {
+                        "RowName": "Item_Organic_Recycler",
+                        "DataTableName": "D_Itemable"
                     },
-                    "RequiredTalentPoints": 1,
+                    "TalentTree": {
+                        "RowName": "Blueprint_T4_Fabricator"
+                    },
                     "Position": {
-                        "X": 4800,
-                        "Y": 900
+                        "X": 5100,
+                        "Y": 650
                     },
                     "Size": {
-                        "X": 250,
-                        "Y": 250
-                    }
+                        "X": 184,
+                        "Y": 184
+                    },
+                    "RequiredTalents": [
+                        {
+                            "RowName": "Electirc_Utility_Reroute",
+                            "DataTableName": "D_Talents"
+                        }
+                    ],
+                    "bDefaultUnlocked": false
                 }
             ]
         },

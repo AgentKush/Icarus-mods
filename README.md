@@ -37,7 +37,7 @@
 | 🩹 **[Affliction Adjuster](./Modular_Affliction_Adjuster)** | 110 afflictions reduced by ~50% | `v2.0` |
 | 💪 **[Buff Enhancer](./Modular_Buff_Enhancer)** | 239 buffs boosted by ~50% | `v1.1` |
 | 🏗️ **[Hidden Building Pieces](./Hidden_Building_Pieces)** | 18 diagonal/curved building sets | `v1.0.7` |
-| ♻️ **[Workshop Recyclers](./Workshop_Recyclers)** | Recycle items for currency & materials | `v2.0` |
+| ♻️ **[Workshop Recyclers](./Workshop_Recyclers)** | Recycle items for currency & materials | `v2.1` |
 
 ---
 
@@ -308,7 +308,7 @@ These building pieces exist in the game files but aren't normally available. Thi
 
 ---
 
-## ♻️ Workshop Recyclers `v2.0`
+## ♻️ Workshop Recyclers `v2.1`
 
 > **Two new machines with 1,677 recycling recipes!**
 
@@ -414,6 +414,13 @@ Put any crafted item in the recycler to get the **original crafting materials** 
 ---
 
 ## 📋 Changelog
+
+### v2.1 - Workshop Recyclers (FIX)
+- **Fixed talent tree structure** - Recyclers now properly appear in Blueprint_T4_Fabricator tech tree
+- **Fixed ExtraData references** - Talents now correctly reference D_Itemable
+- **Added RequiredTalents** - Requires Electirc_Utility_Reroute to unlock
+- **Fixed positioning** - Talents placed near Exotic_Processor at X:5100
+- Recyclers will now show in Fabricator after unlocking in tech tree
 
 ### v2.0 - Workshop Recyclers (NEW)
 - **Two new recycling machines** - Biofuel Recycler and Organic Residue Recycler

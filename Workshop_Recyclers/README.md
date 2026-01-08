@@ -1,4 +1,4 @@
-# ♻️ Workshop Recyclers `v2.0`
+# ♻️ Workshop Recyclers `v2.1`
 
 > **Two dedicated recycling machines with 1,677 recycling recipes!**
 
@@ -114,6 +114,8 @@ Put any crafted item in the recycler to get the **original crafting materials** 
 ### Using JimK72's Mod Manager
 1. Import `Workshop_Recyclers.EXMODZ`
 2. Merge and install
+3. **Unlock in Tech Tree**: Blueprint T4 Fabricator tab, requires "Electric Utility" prerequisite
+4. Craft recyclers at Fabricator
 
 ---
 
@@ -141,4 +143,4 @@ Put any crafted item in the recycler to get the **original crafting materials** 
 
 ---
 
-**Author:** AgentKush | **Version:** 2.0 | **Total Recipes:** 1,677
+**Author:** AgentKush | **Version:** 2.1 | **Total Recipes:** 1,677
