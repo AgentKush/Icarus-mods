@@ -116,6 +116,32 @@
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/No_Food_Spoilage/No_Food_Spoilage.EXMODZ"
             }
+        },
+        {
+            "name": "Modular Affliction Adjuster",
+            "author": "AgentKush",
+            "version": "2.0",
+            "compatibility": "All",
+            "description": "Comprehensive affliction adjustment - 110 modifications covering diseases, wounds, temperature, poisons, weather exposure, cave sickness, and exotic debuffs. Reduces penalties by ~50%, extends escalation times, and halves damage-over-time.",
+            "fileName": "ModularAfflictionAdjuster",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/affliction.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Modular_Affliction_Adjuster/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Modular_Affliction_Adjuster/ModularAfflictionAdjuster.EXMODZ"
+            }
+        },
+        {
+            "name": "Modular Buff Enhancer",
+            "author": "AgentKush",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Comprehensive buff enhancement - 83 modifications boosting tonics, drinks, bed healing, comfort bonuses, biolab inhalers, aura effects, and more by ~50%. Stronger positive effects across the board.",
+            "fileName": "ModularBuffEnhancer",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/buff_enhancer.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Modular_Buff_Enhancer/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Modular_Buff_Enhancer/ModularBuffEnhancer.EXMODZ"
+            }
         }
     ]
 }

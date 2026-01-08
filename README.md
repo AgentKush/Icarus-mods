@@ -34,6 +34,8 @@
 | ⚡ **[FastProcessing Instant](./FastProcessing_Instant)** | Instant crafting & processing | `v3.0` |
 | 🛡️ **[Indestructible Tools](./Indestructible_Tools_Weapons)** | Max durability for everything | `v1.3` |
 | 🍖 **[No Food Spoilage](./No_Food_Spoilage)** | Food & volatile substances never spoil | `v1.1` |
+| 🩹 **[Affliction Adjuster](./Modular_Affliction_Adjuster)** | 110 afflictions reduced by ~50% | `v2.0` |
+| 💪 **[Buff Enhancer](./Modular_Buff_Enhancer)** | 83 buffs boosted by ~50% | `v1.0` |
 
 ---
 
@@ -183,6 +185,84 @@ Prevents spoilage for all food types:
 
 ---
 
+## 🩹 Modular Affliction Adjuster `v2.0`
+
+> **Make survival more forgiving! 110 afflictions reduced by ~50%**
+
+Comprehensively adjusts all negative status effects - diseases, wounds, temperature effects, poisons, weather exposure, cave sickness, and exotic debuffs. Penalties are halved, escalation times extended, and damage-over-time reduced.
+
+### Categories Covered
+
+| Category | Count | Key Changes |
+|:---------|:-----:|:------------|
+| 🤒 Diseases | 4 | 50% reduced penalties |
+| 🩹 Wounds | 6 | Escalation 2min → 5min |
+| 🦴 Physical Injuries | 7 | Concussion, Broken Leg, etc. |
+| 🕳️ Cave Sickness | 1 | Escalation 2min → 5min |
+| 🌡️ Temperature | 10 | Escalation 10min → 15min |
+| 🍖 Survival | 7 | 50% reduced damage |
+| ☠️ Poison/DOT | 20 | 50% reduced damage |
+| 🐍 Creature Attacks | 11 | All worm types, Scorpion, etc. |
+| ☢️ Radiation | 2 | 50% reduced damage |
+| 🌿 Environmental | 11 | Miasma, Sulfur, Brambles |
+| ⛈️ Storms | 15 | All intensities |
+| 🏔️ Biome Weather | 23 | Arctic, Desert, Swamp, Volcanic |
+| 💎 Exotic Debuffs | 15 | T1-T4 exotic mission hazards |
+
+### Example Changes
+
+| Affliction | Original | Adjusted |
+|:-----------|:---------|:---------|
+| Pneumonia | -50% health regen | -25% health regen |
+| Wound → Deep Wound | 2 min escalation | 5 min escalation |
+| Cave Sickness | -50% health regen, 2min escalation | -25% health regen, 5min |
+| Hypothermia | 1 dmg/tick | 0.5 dmg/tick |
+| Heavy Storm Exposure | -70% move speed | -35% move speed |
+
+---
+
+## 💪 Modular Buff Enhancer `v1.0`
+
+> **Boost all positive effects by ~50%!**
+
+Enhances 83 buff modifiers including tonics, drinks, bed healing, comfort bonuses, biolab inhalers, aura effects, and more. Everything positive is now 50% stronger!
+
+### Categories Covered
+
+| Category | Count | Key Changes |
+|:---------|:-----:|:------------|
+| 💪 Core Stats | 17 | +50% stronger base buffs |
+| 🛏️ Bed Healing | 3 | +50% faster regen |
+| 😌 Comfort | 4 | Well Rested, Warm/Cool Comfort |
+| 🧪 Tonics | 5 | All enhancement tonics +50% |
+| ☕ Thermos Drinks | 7 | Better temperature & bonuses |
+| 🍺 Alcohol | 7 | +50% positive effects |
+| 💊 Medical Pastes | 5 | -75% disease duration (was -50%) |
+| 🔬 Biolab Inhalers | 12 | All 12 inhalers boosted |
+| ✨ Aura Effects | 10 | Stronger area effects |
+| 📦 Spoil Reduction | 3 | Better food preservation |
+
+### Example Changes
+
+| Buff | Original | Enhanced |
+|:-----|:---------|:---------|
+| Health Tonic | +30% max health, +300% regen | +45% max health, +450% regen |
+| California King Bed | +10000% health regen | +15000% health regen |
+| Well Rested | +10% health, +5% stamina | +15% health, +8% stamina |
+| Warm Comfort | +50% regen, +10% XP | +75% regen, +15% XP |
+| Alpha Wolf Inhaler | +100% health regen | +150% health regen |
+| Refrigerator | -1000% spoil rate | -1500% spoil rate |
+
+### 💡 Pro Tip: Pair with Affliction Adjuster!
+
+Using both mods together gives you:
+- **Weaker debuffs** (afflictions hurt less)
+- **Stronger buffs** (bonuses are more powerful)
+
+Perfect for a more relaxed survival experience!
+
+---
+
 ## 📝 Installation
 
 ### Using JimK72's Mod Manager (Recommended)
@@ -214,6 +294,18 @@ Prevents spoilage for all food types:
 ---
 
 ## 📋 Changelog
+
+### v2.0 - Modular Affliction Adjuster (NEW)
+- **110 affliction modifications** covering all negative status effects
+- Diseases, wounds, temperature, poisons, weather exposure, cave sickness
+- All exotic debuffs (T1-T4) included
+- ~50% reduced penalties, extended escalation times, halved damage
+
+### v1.0 - Modular Buff Enhancer (NEW)
+- **83 buff enhancements** for all positive effects
+- Tonics, drinks, bed healing, comfort, biolab inhalers, auras
+- ~50% stronger positive effects across the board
+- Pairs perfectly with Affliction Adjuster!
 
 ### v3.0 - FastProcessing (Major Update)
 - **Added 666 missing recipes** - Now covers ALL 1,723 recipes (up from 1,057)
