@@ -1,4 +1,4 @@
-# ♻️ Workshop Recyclers `v2.1`
+# ♻️ Workshop Recyclers `v2.3`
 
 > **Two dedicated recycling machines with 1,677 recycling recipes!**
 
@@ -9,10 +9,10 @@ for recycling both workshop items (for currency) AND crafted items (for material
 
 ## 🔧 New Machines
 
-| Machine | Model Based On | Crafted At |
-|:--------|:---------------|:-----------|
-| **Biofuel Recycler** | Biofuel Bio-Cleaner | Fabricator |
-| **Organic Residue Recycler** | Organic Residue Cleanser | Fabricator |
+| Machine | Model Based On | Crafted At | Tech Tree |
+|:--------|:---------------|:-----------|:----------|
+| **Biofuel Recycler** | Biofuel Bio-Cleaner | Machining Bench / Fabricator | T3 Machine |
+| **Organic Residue Recycler** | Organic Residue Cleanser | Fabricator | T4 Fabricator |
 
 ---
 
@@ -114,8 +114,10 @@ Put any crafted item in the recycler to get the **original crafting materials** 
 ### Using JimK72's Mod Manager
 1. Import `Workshop_Recyclers.EXMODZ`
 2. Merge and install
-3. **Unlock in Tech Tree**: Blueprint T4 Fabricator tab, requires "Electric Utility" prerequisite
-4. Craft recyclers at Fabricator
+3. **Unlock in Tech Tree**:
+   - Biofuel Recycler: Blueprint T3 Machine tab (requires Bio-Cleaner)
+   - Organic Recycler: Blueprint T4 Fabricator tab (requires Refrigerator)
+4. Craft recyclers at Machining Bench (Biofuel) or Fabricator (both)
 
 ---
 
@@ -143,4 +145,4 @@ Put any crafted item in the recycler to get the **original crafting materials** 
 
 ---
 
-**Author:** AgentKush | **Version:** 2.1 | **Total Recipes:** 1,677
+**Author:** AgentKush | **Version:** 2.3 | **Total Recipes:** 1,677

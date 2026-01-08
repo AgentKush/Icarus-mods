@@ -1,7 +1,7 @@
 {
     "name": "Workshop Recyclers",
     "author": "AgentKush",
-    "version": "2.1",
+    "version": "2.3",
     "description": "Adds Biofuel Recycler and Organic Residue Recycler - dedicated machines for recycling 299 workshop items AND 1376 crafted items back into materials.",
     "fileName": "Workshop_Recyclers",
     "Level2": "True",
@@ -228,11 +228,11 @@
                         "DataTableName": "D_Itemable"
                     },
                     "TalentTree": {
-                        "RowName": "Blueprint_T4_Fabricator"
+                        "RowName": "Blueprint_T3_Machine"
                     },
                     "Position": {
-                        "X": 5100,
-                        "Y": 450
+                        "X": 5650,
+                        "Y": 500
                     },
                     "Size": {
                         "X": 184,
@@ -240,7 +240,7 @@
                     },
                     "RequiredTalents": [
                         {
-                            "RowName": "Electirc_Utility_Reroute",
+                            "RowName": "T3_Cleaning_Device",
                             "DataTableName": "D_Talents"
                         }
                     ],
@@ -256,8 +256,8 @@
                         "RowName": "Blueprint_T4_Fabricator"
                     },
                     "Position": {
-                        "X": 5100,
-                        "Y": 650
+                        "X": 17700,
+                        "Y": 450
                     },
                     "Size": {
                         "X": 184,
@@ -265,7 +265,7 @@
                     },
                     "RequiredTalents": [
                         {
-                            "RowName": "Electirc_Utility_Reroute",
+                            "RowName": "Refrigerator",
                             "DataTableName": "D_Talents"
                         }
                     ],
@@ -283,6 +283,10 @@
                     },
                     "RequiredMillijoules": 5000,
                     "RecipeSets": [
+                        {
+                            "RowName": "Machining_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
                         {
                             "RowName": "Fabricator",
                             "DataTableName": "D_RecipeSets"

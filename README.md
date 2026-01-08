@@ -37,7 +37,7 @@
 | 🩹 **[Affliction Adjuster](./Modular_Affliction_Adjuster)** | 110 afflictions reduced by ~50% | `v2.0` |
 | 💪 **[Buff Enhancer](./Modular_Buff_Enhancer)** | 239 buffs boosted by ~50% | `v1.1` |
 | 🏗️ **[Hidden Building Pieces](./Hidden_Building_Pieces)** | 18 diagonal/curved building sets | `v1.0.7` |
-| ♻️ **[Workshop Recyclers](./Workshop_Recyclers)** | Recycle items for currency & materials | `v2.1` |
+| ♻️ **[Workshop Recyclers](./Workshop_Recyclers)** | Recycle items for currency & materials | `v2.3` |
 
 ---
 
@@ -308,7 +308,7 @@ These building pieces exist in the game files but aren't normally available. Thi
 
 ---
 
-## ♻️ Workshop Recyclers `v2.1`
+## ♻️ Workshop Recyclers `v2.3`
 
 > **Two new machines with 1,677 recycling recipes!**
 
@@ -414,6 +414,18 @@ Put any crafted item in the recycler to get the **original crafting materials** 
 ---
 
 ## 📋 Changelog
+
+### v2.3 - Workshop Recyclers (UPDATE)
+- **Biofuel Recycler now in T3 tech tree** - Blueprint_T3_Machine (next to Bio-Cleaner)
+- **Biofuel Recycler craftable at Machining Bench** - No longer requires Fabricator!
+- Requires T3_Cleaning_Device (Bio-Cleaner) to unlock
+- Organic Recycler remains in T4 Fabricator tree
+
+### v2.2 - Workshop Recyclers (FIX)
+- **Fixed tech tree overlap** - Moved recyclers to end of Blueprint_T4_Fabricator tree
+- **New positions**: X:17700 (after Refrigerator at X:17400)
+- **New prerequisite**: Requires Refrigerator to unlock
+- No more overlapping with existing tech tree items!
 
 ### v2.1 - Workshop Recyclers (FIX)
 - **Fixed talent tree structure** - Recyclers now properly appear in Blueprint_T4_Fabricator tech tree
