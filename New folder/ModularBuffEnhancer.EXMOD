@@ -1,0 +1,629 @@
+{
+  "name": "ModularBuffEnhancer",
+  "author": "AgentKush",
+  "fileName": "ModularBuffEnhancer",
+  "version": "1.0",
+  "description": "Comprehensive buff enhancement - boosts 85+ positive effects by ~50%. Stronger tonics, better food buffs, enhanced bed healing, improved comfort bonuses, and more powerful biolab inhalers.",
+  "week": "",
+  "Level2": "True",
+  "Rows": [
+    {
+      "CurrentFile": "Modifiers-D_ModifierStates.json",
+      "File_Items": [
+        {
+          "Name": "Health_Regen",
+          "GrantedStats": {
+            "(Value=\"BaseHealthRegen_+%\")": 150
+          }
+        },
+        {
+          "Name": "Health_Buff",
+          "GrantedStats": {
+            "(Value=\"BaseMaximumHealth_+%\")": 15
+          }
+        },
+        {
+          "Name": "Stamina_Regen",
+          "GrantedStats": {
+            "(Value=\"BaseStaminaRegen_+%\")": 150
+          }
+        },
+        {
+          "Name": "Stamina_Buff",
+          "GrantedStats": {
+            "(Value=\"BaseMaximumStamina_+%\")": 15
+          }
+        },
+        {
+          "Name": "Stamina_Consumption",
+          "GrantedStats": {
+            "(Value=\"BaseStaminaActionCost_+%\")": -8
+          }
+        },
+        {
+          "Name": "Food_Consumption",
+          "GrantedStats": {
+            "(Value=\"BaseFoodConsumption_+%\")": -8
+          }
+        },
+        {
+          "Name": "Water_Consumption",
+          "GrantedStats": {
+            "(Value=\"BaseWaterConsumption_+%\")": -8
+          }
+        },
+        {
+          "Name": "Oxygen_Buff",
+          "GrantedStats": {
+            "(Value=\"BaseMaximumOxygen_+%\")": 15
+          }
+        },
+        {
+          "Name": "Oxygen_Consumption",
+          "GrantedStats": {
+            "(Value=\"BaseOxygenConsumption_+%\")": -8
+          }
+        },
+        {
+          "Name": "Temperature_Boost",
+          "GrantedStats": {
+            "(Value=\"BaseDeltaTemperatureResistance_%\")": 360
+          }
+        },
+        {
+          "Name": "Melee_Boost",
+          "GrantedStats": {
+            "(Value=\"BaseMeleeDamage_+%\")": 300
+          }
+        },
+        {
+          "Name": "Movement_Boost",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": 300
+          }
+        },
+        {
+          "Name": "Crafting_Boost",
+          "GrantedStats": {
+            "(Value=\"BaseCraftingSpeed_+%\")": -40
+          }
+        },
+        {
+          "Name": "Carry_Boost",
+          "GrantedStats": {
+            "(Value=\"BaseWeightCapacity_+%\")": 75
+          }
+        },
+        {
+          "Name": "XP_Boost",
+          "GrantedStats": {
+            "(Value=\"BaseExperience_+%\")": 150
+          }
+        },
+        {
+          "Name": "FallDamage_Negate",
+          "GrantedStats": {
+            "(Value=\"BaseFallDamageResistance_%\")": 100
+          }
+        },
+        {
+          "Name": "Weight_Reduction",
+          "GrantedStats": {
+            "(Value=\"BaseWeightCapacity_+%\")": 40
+          }
+        },
+        {
+          "Name": "Health_Regen_Bed_Bedroll",
+          "GrantedStats": {
+            "(Value=\"BaseHealthRegen_+%\")": 1500
+          }
+        },
+        {
+          "Name": "Health_Regen_Bed_SleepingBag",
+          "GrantedStats": {
+            "(Value=\"BaseHealthRegen_+%\")": 7500
+          }
+        },
+        {
+          "Name": "Health_Regen_Bed_CaliforniaKing",
+          "GrantedStats": {
+            "(Value=\"BaseHealthRegen_+%\")": 15000
+          }
+        },
+        {
+          "Name": "Well_Rested",
+          "GrantedStats": {
+            "(Value=\"BaseMaximumHealth_+%\")": 15,
+            "(Value=\"BaseHealthRegen_+%\")": 15,
+            "(Value=\"BaseMaximumStamina_+%\")": 8,
+            "(Value=\"BaseStaminaRegen_+%\")": 8,
+            "(Value=\"BaseFoodConsumption_+%\")": -8,
+            "(Value=\"BaseWaterConsumption_+%\")": -8
+          }
+        },
+        {
+          "Name": "Warm_Comfort",
+          "GrantedStats": {
+            "(Value=\"BaseHealthRegen_+%\")": 75,
+            "(Value=\"BaseStaminaRegen_+%\")": 75,
+            "(Value=\"BaseExperience_+%\")": 15,
+            "(Value=\"BaseHeatResistance_%\")": 22
+          }
+        },
+        {
+          "Name": "Cool_Comfort",
+          "GrantedStats": {
+            "(Value=\"BaseHealthRegen_+%\")": 75,
+            "(Value=\"BaseStaminaRegen_+%\")": 75,
+            "(Value=\"BaseExperience_+%\")": 15,
+            "(Value=\"BaseColdResistance_%\")": 22
+          }
+        },
+        {
+          "Name": "Fresh_Air",
+          "GrantedStats": {
+            "(Value=\"BaseHealthRegen_+%\")": 30,
+            "(Value=\"BaseExposureResistance_+%\")": 8
+          }
+        },
+        {
+          "Name": "Health_Enhancement_Tonic",
+          "GrantedStats": {
+            "(Value=\"BaseMaximumHealth_+%\")": 45,
+            "(Value=\"BaseHealthRegen_+%\")": 450
+          }
+        },
+        {
+          "Name": "Stamina_Enhancement_Tonic",
+          "GrantedStats": {
+            "(Value=\"BaseMaximumStamina_+%\")": 45,
+            "(Value=\"BaseStaminaRegen_+%\")": 300
+          }
+        },
+        {
+          "Name": "Sustenence_Enhancement_Tonic",
+          "GrantedStats": {
+            "(Value=\"BaseFoodConsumption_+%\")": -45,
+            "(Value=\"BaseWaterConsumption_+%\")": -45,
+            "(Value=\"BaseOxygenConsumption_+%\")": -45,
+            "(Value=\"BaseFoodModifierDuration_+%\")": 45
+          }
+        },
+        {
+          "Name": "Strength_Enhancement_Tonic",
+          "GrantedStats": {
+            "(Value=\"BaseMeleeDamage_+%\")": 45,
+            "(Value=\"BaseKnifeProjectileSpeed_+%\")": 45,
+            "(Value=\"BaseSpearProjectileSpeed_+%\")": 45,
+            "(Value=\"BasePhysicalDamageResistance_+%\")": 22
+          }
+        },
+        {
+          "Name": "Ape_Tonic",
+          "GrantedStats": {
+            "(Value=\"BaseAttackSpeed_+%\")": 38,
+            "(Value=\"BaseMovementSpeed_+%\")": 38,
+            "(Value=\"BaseStaminaRegen_+%\")": 1500,
+            "(Value=\"BaseFellingRewards_+%\")": -50,
+            "(Value=\"BaseMiningRewards_+%\")": -50
+          }
+        },
+        {
+          "Name": "Thermos_IceWater",
+          "GrantedStats": {
+            "(Value=\"BaseInternalTemperatureModification_+\")": -2250
+          }
+        },
+        {
+          "Name": "Thermos_GreenTea_Modifier",
+          "GrantedStats": {
+            "(Value=\"BaseHealthRegen_+%\")": 38,
+            "(Value=\"BaseInternalTemperatureModification_+\")": 1500
+          }
+        },
+        {
+          "Name": "Thermos_WildTea_Modifier",
+          "GrantedStats": {
+            "(Value=\"BaseWaterConsumption_+%\")": -38,
+            "(Value=\"BaseInternalTemperatureModification_+\")": 1500
+          }
+        },
+        {
+          "Name": "Thermos_Cocoa_Modifier",
+          "GrantedStats": {
+            "(Value=\"BaseFoodConsumption_+%\")": -38,
+            "(Value=\"BaseInternalTemperatureModification_+\")": 1500
+          }
+        },
+        {
+          "Name": "Thermos_Coffee_Modifier",
+          "GrantedStats": {
+            "(Value=\"BaseInternalTemperatureModification_+\")": 1500,
+            "(Value=\"BaseMaximumStamina_+%\")": 15,
+            "(Value=\"BaseStaminaRegen_+%\")": 15
+          }
+        },
+        {
+          "Name": "Thermos_Coffee_With_Cream",
+          "GrantedStats": {
+            "(Value=\"BaseInternalTemperatureModification_+\")": 1500,
+            "(Value=\"BaseMaximumStamina_+%\")": 38,
+            "(Value=\"BaseStaminaRegen_+%\")": 38
+          }
+        },
+        {
+          "Name": "Thermos_HoneyTea",
+          "GrantedStats": {
+            "(Value=\"BaseInternalTemperatureModification_+\")": 1500,
+            "(Value=\"BaseParasiticModifierDuration_+%\")": -38,
+            "(Value=\"BaseBacterialModifierDuration_+%\")": -38,
+            "(Value=\"BaseFoodModifierDuration_+%\")": 30
+          }
+        },
+        {
+          "Name": "Drink_Cooling",
+          "GrantedStats": {
+            "(Value=\"BaseCooldownDegreePerMinute_+\")": 15,
+            "(Value=\"BaseInternalTemperatureModification_+\")": -750
+          }
+        },
+        {
+          "Name": "Drink_Heated",
+          "GrantedStats": {
+            "(Value=\"BaseWarmupDegreePerMinute_+\")": 15,
+            "(Value=\"BaseInternalTemperatureModification_+\")": 750
+          }
+        },
+        {
+          "Name": "Drink_Energised",
+          "GrantedStats": {
+            "(Value=\"BaseStaminaRegen_+%\")": 150,
+            "(Value=\"BaseStaminaActionCost_+%\")": -38
+          }
+        },
+        {
+          "Name": "Beer",
+          "GrantedStats": {
+            "(Value=\"BaseStaminaRegen_+%\")": 150,
+            "(Value=\"BaseMaximumStamina_+\")": 188,
+            "(Value=\"BaseFoodStomachSlots_+\")": 1
+          }
+        },
+        {
+          "Name": "Wine",
+          "GrantedStats": {
+            "(Value=\"BaseStaminaRegen_+%\")": 150,
+            "(Value=\"BaseMaximumStamina_+\")": 188,
+            "(Value=\"BaseFoodStomachSlots_+\")": 1
+          }
+        },
+        {
+          "Name": "Honey_Mead",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseMaximumStamina_+\")": 188,
+            "(Value=\"BaseStaminaRegen_+%\")": 150,
+            "(Value=\"BaseFoodModifierDuration_+%\")": 45
+          }
+        },
+        {
+          "Name": "Vodka",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseExplosiveDamage_+%\")": 8,
+            "(Value=\"BaseProjectileDamageResistance_+%\")": 15,
+            "(Value=\"BaseWaterConsumption_+%\")": 10,
+            "(Value=\"BaseColdResistance_%\")": 8,
+            "(Value=\"BaseHeatResistance_%\")": 8
+          }
+        },
+        {
+          "Name": "Tequila",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseExplosiveDamage_+%\")": 8,
+            "(Value=\"BaseMeleeDamageResistance_%\")": 15,
+            "(Value=\"BaseWaterConsumption_+%\")": 10,
+            "(Value=\"BaseColdResistance_%\")": 8,
+            "(Value=\"BaseHeatResistance_%\")": 8
+          }
+        },
+        {
+          "Name": "Truffle_Vodka",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseExplosiveDamage_+%\")": 8,
+            "(Value=\"BaseProjectileDamageResistance_+%\")": 15,
+            "(Value=\"BaseWaterConsumption_+%\")": 10,
+            "(Value=\"BaseColdResistance_%\")": 8,
+            "(Value=\"BaseHeatResistance_%\")": 8,
+            "(Value=\"BaseAnimalThreatModifier_+%\")": -8,
+            "(Value=\"GrantedAuraTamingSpeed_?\")": 1
+          }
+        },
+        {
+          "Name": "PricklyPear_Margarita",
+          "GrantedStats": {
+            "(Value=\"BaseFoodStomachSlots_+\")": 1,
+            "(Value=\"BaseExplosiveDamage_+%\")": 8,
+            "(Value=\"BaseMeleeDamageResistance_%\")": 15,
+            "(Value=\"BaseWaterConsumption_+%\")": 10,
+            "(Value=\"BaseColdResistance_%\")": 8,
+            "(Value=\"BaseHeatResistance_%\")": 8,
+            "(Value=\"BaseChanceToReturnDamage_%\")": 15,
+            "(Value=\"BaseDamageReturned_%\")": 38
+          }
+        },
+        {
+          "Name": "TempBoostFromAlcohol",
+          "GrantedStats": {
+            "(Value=\"BaseWarmupDegreePerMinute_+\")": 75
+          }
+        },
+        {
+          "Name": "Antibiotic_Paste",
+          "GrantedStats": {
+            "(Value=\"BaseBacterialModifierDuration_+%\")": -75,
+            "(Value=\"BaseHealthRegen_+%\")": 22
+          }
+        },
+        {
+          "Name": "Antparasitic_Paste",
+          "GrantedStats": {
+            "(Value=\"BaseParasiticModifierDuration_+%\")": -75,
+            "(Value=\"BaseHealthRegen_+%\")": 22
+          }
+        },
+        {
+          "Name": "Antipoison_Paste",
+          "GrantedStats": {
+            "(Value=\"BasePoisonModifierDuration_+%\")": -75,
+            "(Value=\"BaseHealthRegen_+%\")": 22
+          }
+        },
+        {
+          "Name": "Blood_Thinning_Paste",
+          "GrantedStats": {
+            "(Value=\"BasePhysicalTraumaModifierDuration_+%\")": -75,
+            "(Value=\"BaseHealthRegen_+%\")": 22
+          }
+        },
+        {
+          "Name": "Healing_Modifier_Duration",
+          "GrantedStats": {
+            "(Value=\"BaseBacterialModifierDuration_+%\")": -45,
+            "(Value=\"BaseParasiticModifierDuration_+%\")": -45,
+            "(Value=\"BasePoisonModifierDuration_+%\")": -45,
+            "(Value=\"BasePhysicalTraumaModifierDuration_+%\")": -45
+          }
+        },
+        {
+          "Name": "Meta_Biolab_Inhaler_AlphaWolf",
+          "GrantedStats": {
+            "(Value=\"BaseHealthRegen_+%\")": 150,
+            "(Value=\"BaseWoundResistance_%\")": 45,
+            "(Value=\"BaseDeepWoundResistance_%\")": 75
+          }
+        },
+        {
+          "Name": "Meta_Biolab_Inhaler_Sandworm",
+          "GrantedStats": {
+            "(Value=\"BaseHeatResistance_%\")": 30,
+            "(Value=\"BaseHyperthermiaResistance_%\")": 75,
+            "(Value=\"BaseFireDamageResistance_%\")": 45
+          }
+        },
+        {
+          "Name": "Meta_Biolab_Inhaler_IceMammoth",
+          "GrantedStats": {
+            "(Value=\"BaseColdResistance_%\")": 30,
+            "(Value=\"BaseHypothermiaResistance_%\")": 75,
+            "(Value=\"BaseFrostDamageResistance_%\")": 45
+          }
+        },
+        {
+          "Name": "Meta_Biolab_Inhaler_Scorpion",
+          "GrantedStats": {
+            "(Value=\"BaseMaximumHealth_+%\")": 15,
+            "(Value=\"BaseDamageReturned_%\")": 60,
+            "(Value=\"BaseChanceToReturnDamage_%\")": 100,
+            "(Value=\"BaseShieldBlock_+%\")": 8
+          }
+        },
+        {
+          "Name": "Meta_Biolab_Inhaler_LavaHunter",
+          "GrantedStats": {
+            "(Value=\"BaseFireDamageResistanceWhileInLava_%\")": 95,
+            "(Value=\"BaseVolcanicHealthRegen_+%\")": 75,
+            "(Value=\"BaseVolcanicExposureResistance_+%\")": 15,
+            "(Value=\"BaseWaterConsumption_+%\")": -30
+          }
+        },
+        {
+          "Name": "Meta_Biolab_Inhaler_RockGolem",
+          "GrantedStats": {
+            "(Value=\"BasePneumoniaResistance_%\")": 75,
+            "(Value=\"BaseCaveStaminaRegen_+%\")": 45,
+            "(Value=\"BaseCaveHealthRegen_+%\")": 75,
+            "(Value=\"BaseVoxelChanceToHarvestSecondaryResource_%\")": 22
+          }
+        },
+        {
+          "Name": "Meta_Biolab_Inhaler_Hammerhead",
+          "GrantedStats": {
+            "(Value=\"BasePyriticCrustPerMinedResource_%\")": 22,
+            "(Value=\"BaseMiningRewards_+%\")": 15,
+            "(Value=\"BaseMiningRadius_+\")": 8
+          }
+        },
+        {
+          "Name": "Meta_Biolab_Inhaler_SwampApe",
+          "GrantedStats": {
+            "(Value=\"BaseInfectedBarkPerWoodChopped_%\")": 22,
+            "(Value=\"BaseFellingDamage_+%\")": 30,
+            "(Value=\"BaseCollisionDamageResistance_+%\")": 45
+          }
+        },
+        {
+          "Name": "Meta_Biolab_Inhaler_Scyther",
+          "GrantedStats": {
+            "(Value=\"BaseKnifeProjectileDamage_+%\")": 75,
+            "(Value=\"BaseSpearProjectileDamage_+%\")": 22,
+            "(Value=\"BaseKnifeProjectileSpeed_+%\")": 45,
+            "(Value=\"BaseSpearProjectileSpeed_+%\")": 22,
+            "(Value=\"BaseChargeSpeed_+%\")": 45
+          }
+        },
+        {
+          "Name": "Meta_Biolab_Inhaler_Thornet",
+          "GrantedStats": {
+            "(Value=\"BaseAcidicGlandsPerSkinnedResource_%\")": 22,
+            "(Value=\"BaseBoneHarvestedFromAnimals_+%\")": 30,
+            "(Value=\"BasePoisonDamage_+\")": 45
+          }
+        },
+        {
+          "Name": "Meta_Biolab_Inhaler_PlantBoss",
+          "GrantedStats": {
+            "(Value=\"BaseAttackSpeed_+%\")": 15,
+            "(Value=\"BaseMeleeDamage_+%\")": 45,
+            "(Value=\"BaseMeleeDamageResistance_+%\")": 15
+          }
+        },
+        {
+          "Name": "Meta_Biolab_Inhaler_GiantCat",
+          "GrantedStats": {
+            "(Value=\"BaseProjectileDamage_+%\")": 45,
+            "(Value=\"BaseProjectileAccuracy_+%\")": 75,
+            "(Value=\"BaseChanceToNotConsumeAmmo_%\")": 22
+          }
+        },
+        {
+          "Name": "AuraEffect_HealthRegen",
+          "GrantedStats": {
+            "(Value=\"BaseHealthRegen_+%\")": 150
+          }
+        },
+        {
+          "Name": "AuraEffect_MovementSpeed",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": 15
+          }
+        },
+        {
+          "Name": "AuraEffect_ReducedOxygenConsumption",
+          "GrantedStats": {
+            "(Value=\"BaseOxygenConsumption_+%\")": -15
+          }
+        },
+        {
+          "Name": "AuraEffect_AdditionalPhysicalDamageMitigation",
+          "GrantedStats": {
+            "(Value=\"BasePhysicalDamageResistance_%\")": 8
+          }
+        },
+        {
+          "Name": "AuraEffect_HyperthermiaResistance",
+          "GrantedStats": {
+            "(Value=\"BaseHeatResistance_%\")": 22,
+            "(Value=\"BaseHyperthermiaResistance_%\")": 22
+          }
+        },
+        {
+          "Name": "AuraEffect_HypothermiaResistance",
+          "GrantedStats": {
+            "(Value=\"BaseColdResistance_%\")": 22,
+            "(Value=\"BaseHypothermiaResistance_%\")": 22
+          }
+        },
+        {
+          "Name": "AuraEffect_PoisonResistance",
+          "GrantedStats": {
+            "(Value=\"BasePoisonDamageResistance_%\")": 30,
+            "(Value=\"BasePoisonModifierDuration_+%\")": -30
+          }
+        },
+        {
+          "Name": "AuraEffect_Camouflage",
+          "GrantedStats": {
+            "(Value=\"BaseAnimalThreatModifier_+%\")": -45
+          }
+        },
+        {
+          "Name": "AuraEffect_InteractionSpeed",
+          "GrantedStats": {
+            "(Value=\"BaseActionHoldTime_+%\")": -50
+          }
+        },
+        {
+          "Name": "AuraEffect_Warming",
+          "GrantedStats": {
+            "(Value=\"BaseExternalTemperatureModification_+\")": 1500
+          }
+        },
+        {
+          "Name": "Stamina_Speed_Buff",
+          "GrantedStats": {
+            "(Value=\"BaseStaminaRegen_+%\")": 75,
+            "(Value=\"BaseMovementSpeed_+%\")": 52
+          }
+        },
+        {
+          "Name": "RevivePlayerHealthRegen",
+          "GrantedStats": {
+            "(Value=\"BaseHealthRegen_+%\")": 150
+          }
+        },
+        {
+          "Name": "OxygenRecovery_Buff",
+          "GrantedStats": {
+            "(Value=\"BaseOxygenRecovery_+\")": 450,
+            "(Value=\"BaseOxygenConsumption_+%\")": -90,
+            "(Value=\"BaseOxygenConsumptionPerHour_+\")": -90
+          }
+        },
+        {
+          "Name": "Adrenaline",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": 5,
+            "(Value=\"BaseStaminaRegen_+%\")": 38
+          }
+        },
+        {
+          "Name": "Endurance",
+          "GrantedStats": {
+            "(Value=\"BaseHealthRegen_+%\")": 75,
+            "(Value=\"BaseHealthRegenPerMinute_+\")": 9
+          }
+        },
+        {
+          "Name": "Test_CampfireWarmth",
+          "GrantedStats": {
+            "(Value=\"BaseWarmupDegreePerMinute_+\")": 60,
+            "(Value=\"BaseColdResistance_%\")": 27,
+            "(Value=\"BaseHeatResistance_%\")": -10
+          }
+        },
+        {
+          "Name": "IceBox_Spoil_Rate",
+          "GrantedStats": {
+            "(Value=\"BaseInventorySpoilRate_+%\")": -750
+          }
+        },
+        {
+          "Name": "Refrigerator_Spoil_Rate",
+          "GrantedStats": {
+            "(Value=\"BaseInventorySpoilRate_+%\")": -1500
+          }
+        },
+        {
+          "Name": "IceBox_Backpack_Spoil_Rate",
+          "GrantedStats": {
+            "(Value=\"BaseInventorySpoilRate_+%\")": -450,
+            "(Value=\"BaseExternalTemperatureModification_+\")": -750
+          }
+        }
+      ]
+    }
+  ]
+}
