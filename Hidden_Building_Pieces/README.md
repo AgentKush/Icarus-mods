@@ -1,4 +1,8 @@
-# 🏗️ Hidden Building Pieces `v1.0.6`
+# 🏗️ Hidden Building Pieces `v1.0.7`
+
+<p align="center">
+  <img src="../images/hidden_building.png" alt="Hidden Building Pieces" width="128">
+</p>
 
 > **Unlock 18 hidden diagonal and curved building piece sets for Concrete, Glass, and Clay Brick!**
 
@@ -72,6 +76,10 @@ These building pieces exist in the game files but aren't normally available thro
 ---
 
 ## 📋 Changelog
+
+### v1.0.7
+- Fixed EXMODZ folder structure for proper Mod Manager import
+- EXMODZ now correctly extracts to `Hidden_Building_Pieces/Hidden_Building_Pieces.EXMOD`
 
 ### v1.0.6
 - Fixed all item names to exactly match game file references

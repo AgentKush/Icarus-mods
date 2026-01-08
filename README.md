@@ -36,7 +36,7 @@
 | 🍖 **[No Food Spoilage](./No_Food_Spoilage)** | Food never spoils + composter recipes for Spoiled Meat | `v1.2` |
 | 🩹 **[Affliction Adjuster](./Modular_Affliction_Adjuster)** | 110 afflictions reduced by ~50% | `v2.0` |
 | 💪 **[Buff Enhancer](./Modular_Buff_Enhancer)** | 239 buffs boosted by ~50% | `v1.1` |
-| 🏗️ **[Hidden Building Pieces](./Hidden_Building_Pieces)** | 18 diagonal/curved building sets | `v1.0.6` |
+| 🏗️ **[Hidden Building Pieces](./Hidden_Building_Pieces)** | 18 diagonal/curved building sets | `v1.0.7` |
 
 ---
 
@@ -280,7 +280,7 @@ Perfect for a more relaxed survival experience!
 
 ---
 
-## 🏗️ Hidden Building Pieces `v1.0.6`
+## 🏗️ Hidden Building Pieces `v1.0.7`
 
 > **Unlock 18 hidden diagonal and curved building piece sets!**
 
@@ -339,7 +339,10 @@ These building pieces exist in the game files but aren't normally available. Thi
 
 ## 📋 Changelog
 
-### v1.0.6 - Hidden Building Pieces (NEW)
+### v1.0.7 - Hidden Building Pieces
+- Fixed EXMODZ folder structure for proper Mod Manager import
+
+### v1.0.6 - Hidden Building Pieces
 - **18 hidden building piece sets** unlocked for Concrete, Glass, and Clay Brick
 - Diagonal sets, curved sets, wall angles, roof angles, and advanced beams
 - Craft at Masonry Bench, Cement Mixer, Electric Masonry Bench, or Glassworking Bench

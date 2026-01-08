@@ -1,7 +1,7 @@
 {
     "name": "Hidden Building Pieces",
     "author": "AgentKush",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Unlocks hidden diagonal and curved building pieces for Concrete, Glass, and Clay Brick. Craft at Masonry Bench, Cement Mixer, Electric Masonry Bench, or Glassworking Bench.",
     "fileName": "Hidden_Building_Pieces",
     "Level2": "True",
@@ -64,315 +64,999 @@
             "File_Items": [
                 {
                     "Name": "Concrete_Diagonal_Set",
-                    "Meshable": {"RowName": "Mesh_Concrete_Kit"},
-                    "Itemable": {"RowName": "Item_Concrete_Diagonal_Set"},
-                    "Interactable": {"RowName": "Item"},
-                    "Hitable": {"RowName": "Building"},
-                    "Focusable": {"RowName": "Focusable_1H"},
-                    "Highlightable": {"RowName": "Generic"},
-                    "Actionable": {"RowName": "Building"},
-                    "Buildable": {"RowName": "Concrete_Diagonal_Set"},
-                    "Usable": {"RowName": "Place"},
-                    "Durable": {"RowName": "Deployable_5000"},
-                    "Decayable": {"RowName": "Decay_General"},
-                    "Audio": {"RowName": "Default"},
-                    "Manual_Tags": {"GameplayTags": [{"TagName": "Audio.Shelter"}, {"TagName": "Building.Concrete"}]}
+                    "Meshable": {
+                        "RowName": "Mesh_Concrete_Kit"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Concrete_Diagonal_Set"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Hitable": {
+                        "RowName": "Building"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Building"
+                    },
+                    "Buildable": {
+                        "RowName": "Concrete_Diagonal_Set"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_5000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Audio.Shelter"
+                            },
+                            {
+                                "TagName": "Building.Concrete"
+                            }
+                        ]
+                    }
                 },
                 {
                     "Name": "Concrete_Diagonal_Curved_Set",
-                    "Meshable": {"RowName": "Mesh_Concrete_Kit"},
-                    "Itemable": {"RowName": "Item_Concrete_Curved_Set"},
-                    "Interactable": {"RowName": "Item"},
-                    "Hitable": {"RowName": "Building"},
-                    "Focusable": {"RowName": "Focusable_1H"},
-                    "Highlightable": {"RowName": "Generic"},
-                    "Actionable": {"RowName": "Building"},
-                    "Buildable": {"RowName": "Concrete_Diagonal_Curved_Set"},
-                    "Usable": {"RowName": "Place"},
-                    "Durable": {"RowName": "Deployable_5000"},
-                    "Decayable": {"RowName": "Decay_General"},
-                    "Audio": {"RowName": "Default"},
-                    "Manual_Tags": {"GameplayTags": [{"TagName": "Audio.Shelter"}, {"TagName": "Building.Concrete"}]}
+                    "Meshable": {
+                        "RowName": "Mesh_Concrete_Kit"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Concrete_Curved_Set"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Hitable": {
+                        "RowName": "Building"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Building"
+                    },
+                    "Buildable": {
+                        "RowName": "Concrete_Diagonal_Curved_Set"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_5000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Audio.Shelter"
+                            },
+                            {
+                                "TagName": "Building.Concrete"
+                            }
+                        ]
+                    }
                 },
                 {
                     "Name": "Concrete_Wall_Curved",
-                    "Meshable": {"RowName": "Mesh_Concrete_Kit"},
-                    "Itemable": {"RowName": "Item_Concrete_Curved_Wall"},
-                    "Interactable": {"RowName": "Item"},
-                    "Hitable": {"RowName": "Building"},
-                    "Focusable": {"RowName": "Focusable_1H"},
-                    "Highlightable": {"RowName": "Generic"},
-                    "Actionable": {"RowName": "Building"},
-                    "Buildable": {"RowName": "Concrete_Wall_Curved"},
-                    "Usable": {"RowName": "Place"},
-                    "Durable": {"RowName": "Deployable_5000"},
-                    "Decayable": {"RowName": "Decay_General"},
-                    "Audio": {"RowName": "Default"},
-                    "Manual_Tags": {"GameplayTags": [{"TagName": "Audio.Shelter"}, {"TagName": "Building.Concrete"}]}
+                    "Meshable": {
+                        "RowName": "Mesh_Concrete_Kit"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Concrete_Curved_Wall"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Hitable": {
+                        "RowName": "Building"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Building"
+                    },
+                    "Buildable": {
+                        "RowName": "Concrete_Wall_Curved"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_5000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Audio.Shelter"
+                            },
+                            {
+                                "TagName": "Building.Concrete"
+                            }
+                        ]
+                    }
                 },
                 {
                     "Name": "Concrete_Diagonal_Curved_Wall_Angles",
-                    "Meshable": {"RowName": "Mesh_Concrete_Kit"},
-                    "Itemable": {"RowName": "Item_Concrete_Diagonal_Curved_Wall_Angles"},
-                    "Interactable": {"RowName": "Item"},
-                    "Hitable": {"RowName": "Building"},
-                    "Focusable": {"RowName": "Focusable_1H"},
-                    "Highlightable": {"RowName": "Generic"},
-                    "Actionable": {"RowName": "Building"},
-                    "Buildable": {"RowName": "Concrete_Diagonal_Curved_Wall_Angles"},
-                    "Usable": {"RowName": "Place"},
-                    "Durable": {"RowName": "Deployable_5000"},
-                    "Decayable": {"RowName": "Decay_General"},
-                    "Audio": {"RowName": "Default"},
-                    "Manual_Tags": {"GameplayTags": [{"TagName": "Audio.Shelter"}, {"TagName": "Building.Concrete"}]}
+                    "Meshable": {
+                        "RowName": "Mesh_Concrete_Kit"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Concrete_Diagonal_Curved_Wall_Angles"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Hitable": {
+                        "RowName": "Building"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Building"
+                    },
+                    "Buildable": {
+                        "RowName": "Concrete_Diagonal_Curved_Wall_Angles"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_5000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Audio.Shelter"
+                            },
+                            {
+                                "TagName": "Building.Concrete"
+                            }
+                        ]
+                    }
                 },
                 {
                     "Name": "Concrete_Roof_CurvedAngles",
-                    "Meshable": {"RowName": "Mesh_Concrete_Kit"},
-                    "Itemable": {"RowName": "Item_Concrete_Roof_CurvedAngles"},
-                    "Interactable": {"RowName": "Item"},
-                    "Hitable": {"RowName": "Building"},
-                    "Focusable": {"RowName": "Focusable_1H"},
-                    "Highlightable": {"RowName": "Generic"},
-                    "Actionable": {"RowName": "Building"},
-                    "Buildable": {"RowName": "Concrete_Roof_CurvedAngles"},
-                    "Usable": {"RowName": "Place"},
-                    "Durable": {"RowName": "Deployable_5000"},
-                    "Decayable": {"RowName": "Decay_General"},
-                    "Audio": {"RowName": "Default"},
-                    "Manual_Tags": {"GameplayTags": [{"TagName": "Audio.Shelter"}, {"TagName": "Building.Concrete"}]}
+                    "Meshable": {
+                        "RowName": "Mesh_Concrete_Kit"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Concrete_Roof_CurvedAngles"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Hitable": {
+                        "RowName": "Building"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Building"
+                    },
+                    "Buildable": {
+                        "RowName": "Concrete_Roof_CurvedAngles"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_5000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Audio.Shelter"
+                            },
+                            {
+                                "TagName": "Building.Concrete"
+                            }
+                        ]
+                    }
                 },
                 {
                     "Name": "Concrete_Advanced_Beam_Set",
-                    "Meshable": {"RowName": "Mesh_Concrete_Kit"},
-                    "Itemable": {"RowName": "Item_Concrete_Advanced_Beam_Set"},
-                    "Interactable": {"RowName": "Item"},
-                    "Hitable": {"RowName": "Building"},
-                    "Focusable": {"RowName": "Focusable_1H"},
-                    "Highlightable": {"RowName": "Generic"},
-                    "Actionable": {"RowName": "Building"},
-                    "Buildable": {"RowName": "Concrete_Advanced_Beam_Set"},
-                    "Usable": {"RowName": "Place"},
-                    "Durable": {"RowName": "Deployable_5000"},
-                    "Decayable": {"RowName": "Decay_General"},
-                    "Audio": {"RowName": "Default"},
-                    "Manual_Tags": {"GameplayTags": [{"TagName": "Audio.Shelter"}, {"TagName": "Building.Concrete"}]}
+                    "Meshable": {
+                        "RowName": "Mesh_Concrete_Kit"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Concrete_Advanced_Beam_Set"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Hitable": {
+                        "RowName": "Building"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Building"
+                    },
+                    "Buildable": {
+                        "RowName": "Concrete_Advanced_Beam_Set"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_5000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Audio.Shelter"
+                            },
+                            {
+                                "TagName": "Building.Concrete"
+                            }
+                        ]
+                    }
                 },
                 {
                     "Name": "Glass_Diagonal_Set",
-                    "Meshable": {"RowName": "Mesh_Glass_Kit"},
-                    "Itemable": {"RowName": "Item_Glass_Diagonal_Set"},
-                    "Interactable": {"RowName": "Item"},
-                    "Hitable": {"RowName": "Building"},
-                    "Focusable": {"RowName": "Focusable_1H"},
-                    "Highlightable": {"RowName": "Generic"},
-                    "Actionable": {"RowName": "Building"},
-                    "Buildable": {"RowName": "Glass_Diagonal_Set"},
-                    "Usable": {"RowName": "Place"},
-                    "Durable": {"RowName": "Deployable_5000"},
-                    "Decayable": {"RowName": "Decay_General"},
-                    "Audio": {"RowName": "Default"},
-                    "Manual_Tags": {"GameplayTags": [{"TagName": "Audio.Shelter"}, {"TagName": "Building.Glass"}]}
+                    "Meshable": {
+                        "RowName": "Mesh_Glass_Kit"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Glass_Diagonal_Set"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Hitable": {
+                        "RowName": "Building"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Building"
+                    },
+                    "Buildable": {
+                        "RowName": "Glass_Diagonal_Set"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_5000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Audio.Shelter"
+                            },
+                            {
+                                "TagName": "Building.Glass"
+                            }
+                        ]
+                    }
                 },
                 {
                     "Name": "Glass_Diagonal_Curved_Set",
-                    "Meshable": {"RowName": "Mesh_Glass_Kit"},
-                    "Itemable": {"RowName": "Item_Glass_Curved_Set"},
-                    "Interactable": {"RowName": "Item"},
-                    "Hitable": {"RowName": "Building"},
-                    "Focusable": {"RowName": "Focusable_1H"},
-                    "Highlightable": {"RowName": "Generic"},
-                    "Actionable": {"RowName": "Building"},
-                    "Buildable": {"RowName": "Glass_Diagonal_Curved_Set"},
-                    "Usable": {"RowName": "Place"},
-                    "Durable": {"RowName": "Deployable_5000"},
-                    "Decayable": {"RowName": "Decay_General"},
-                    "Audio": {"RowName": "Default"},
-                    "Manual_Tags": {"GameplayTags": [{"TagName": "Audio.Shelter"}, {"TagName": "Building.Glass"}]}
+                    "Meshable": {
+                        "RowName": "Mesh_Glass_Kit"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Glass_Curved_Set"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Hitable": {
+                        "RowName": "Building"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Building"
+                    },
+                    "Buildable": {
+                        "RowName": "Glass_Diagonal_Curved_Set"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_5000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Audio.Shelter"
+                            },
+                            {
+                                "TagName": "Building.Glass"
+                            }
+                        ]
+                    }
                 },
                 {
                     "Name": "Glass_Wall_Curved",
-                    "Meshable": {"RowName": "Mesh_Glass_Kit"},
-                    "Itemable": {"RowName": "Item_Glass_Curved_Wall"},
-                    "Interactable": {"RowName": "Item"},
-                    "Hitable": {"RowName": "Building"},
-                    "Focusable": {"RowName": "Focusable_1H"},
-                    "Highlightable": {"RowName": "Generic"},
-                    "Actionable": {"RowName": "Building"},
-                    "Buildable": {"RowName": "Glass_Wall_Curved"},
-                    "Usable": {"RowName": "Place"},
-                    "Durable": {"RowName": "Deployable_5000"},
-                    "Decayable": {"RowName": "Decay_General"},
-                    "Audio": {"RowName": "Default"},
-                    "Manual_Tags": {"GameplayTags": [{"TagName": "Audio.Shelter"}, {"TagName": "Building.Glass"}]}
+                    "Meshable": {
+                        "RowName": "Mesh_Glass_Kit"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Glass_Curved_Wall"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Hitable": {
+                        "RowName": "Building"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Building"
+                    },
+                    "Buildable": {
+                        "RowName": "Glass_Wall_Curved"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_5000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Audio.Shelter"
+                            },
+                            {
+                                "TagName": "Building.Glass"
+                            }
+                        ]
+                    }
                 },
                 {
                     "Name": "Glass_Diagonal_Curved_Wall_Angles",
-                    "Meshable": {"RowName": "Mesh_Glass_Kit"},
-                    "Itemable": {"RowName": "Item_Glass_Diagonal_Curved_Wall_Angles"},
-                    "Interactable": {"RowName": "Item"},
-                    "Hitable": {"RowName": "Building"},
-                    "Focusable": {"RowName": "Focusable_1H"},
-                    "Highlightable": {"RowName": "Generic"},
-                    "Actionable": {"RowName": "Building"},
-                    "Buildable": {"RowName": "Glass_Diagonal_Curved_Wall_Angles"},
-                    "Usable": {"RowName": "Place"},
-                    "Durable": {"RowName": "Deployable_5000"},
-                    "Decayable": {"RowName": "Decay_General"},
-                    "Audio": {"RowName": "Default"},
-                    "Manual_Tags": {"GameplayTags": [{"TagName": "Audio.Shelter"}, {"TagName": "Building.Glass"}]}
+                    "Meshable": {
+                        "RowName": "Mesh_Glass_Kit"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Glass_Diagonal_Curved_Wall_Angles"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Hitable": {
+                        "RowName": "Building"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Building"
+                    },
+                    "Buildable": {
+                        "RowName": "Glass_Diagonal_Curved_Wall_Angles"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_5000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Audio.Shelter"
+                            },
+                            {
+                                "TagName": "Building.Glass"
+                            }
+                        ]
+                    }
                 },
                 {
                     "Name": "Glass_Roof_CurvedAngles",
-                    "Meshable": {"RowName": "Mesh_Glass_Kit"},
-                    "Itemable": {"RowName": "Item_Glass_Roof_CurvedAngles"},
-                    "Interactable": {"RowName": "Item"},
-                    "Hitable": {"RowName": "Building"},
-                    "Focusable": {"RowName": "Focusable_1H"},
-                    "Highlightable": {"RowName": "Generic"},
-                    "Actionable": {"RowName": "Building"},
-                    "Buildable": {"RowName": "Glass_Roof_CurvedAngles"},
-                    "Usable": {"RowName": "Place"},
-                    "Durable": {"RowName": "Deployable_5000"},
-                    "Decayable": {"RowName": "Decay_General"},
-                    "Audio": {"RowName": "Default"},
-                    "Manual_Tags": {"GameplayTags": [{"TagName": "Audio.Shelter"}, {"TagName": "Building.Glass"}]}
+                    "Meshable": {
+                        "RowName": "Mesh_Glass_Kit"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Glass_Roof_CurvedAngles"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Hitable": {
+                        "RowName": "Building"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Building"
+                    },
+                    "Buildable": {
+                        "RowName": "Glass_Roof_CurvedAngles"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_5000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Audio.Shelter"
+                            },
+                            {
+                                "TagName": "Building.Glass"
+                            }
+                        ]
+                    }
                 },
                 {
                     "Name": "Glass_Advanced_Beam_Set",
-                    "Meshable": {"RowName": "Mesh_Glass_Kit"},
-                    "Itemable": {"RowName": "Item_Glass_Advanced_Beam_Set"},
-                    "Interactable": {"RowName": "Item"},
-                    "Hitable": {"RowName": "Building"},
-                    "Focusable": {"RowName": "Focusable_1H"},
-                    "Highlightable": {"RowName": "Generic"},
-                    "Actionable": {"RowName": "Building"},
-                    "Buildable": {"RowName": "Glass_Advanced_Beam_Set"},
-                    "Usable": {"RowName": "Place"},
-                    "Durable": {"RowName": "Deployable_5000"},
-                    "Decayable": {"RowName": "Decay_General"},
-                    "Audio": {"RowName": "Default"},
-                    "Manual_Tags": {"GameplayTags": [{"TagName": "Audio.Shelter"}, {"TagName": "Building.Glass"}]}
+                    "Meshable": {
+                        "RowName": "Mesh_Glass_Kit"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Glass_Advanced_Beam_Set"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Hitable": {
+                        "RowName": "Building"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Building"
+                    },
+                    "Buildable": {
+                        "RowName": "Glass_Advanced_Beam_Set"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_5000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Audio.Shelter"
+                            },
+                            {
+                                "TagName": "Building.Glass"
+                            }
+                        ]
+                    }
                 },
                 {
                     "Name": "ClayBrick_Diagonal_Set",
-                    "Meshable": {"RowName": "Mesh_Clay_Brick_Kit"},
-                    "Itemable": {"RowName": "Item_ClayBrick_Diagonal_Set"},
-                    "Interactable": {"RowName": "Item"},
-                    "Hitable": {"RowName": "Building"},
-                    "Focusable": {"RowName": "Focusable_1H"},
-                    "Highlightable": {"RowName": "Generic"},
-                    "Actionable": {"RowName": "Building"},
-                    "Buildable": {"RowName": "ClayBrick_Diagonal_Set"},
-                    "Usable": {"RowName": "Place"},
-                    "Durable": {"RowName": "Deployable_5000"},
-                    "Decayable": {"RowName": "Decay_General"},
-                    "Audio": {"RowName": "Default"},
-                    "Manual_Tags": {"GameplayTags": [{"TagName": "Audio.Shelter"}, {"TagName": "Building.Stone"}]}
+                    "Meshable": {
+                        "RowName": "Mesh_Clay_Brick_Kit"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_ClayBrick_Diagonal_Set"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Hitable": {
+                        "RowName": "Building"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Building"
+                    },
+                    "Buildable": {
+                        "RowName": "ClayBrick_Diagonal_Set"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_5000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Audio.Shelter"
+                            },
+                            {
+                                "TagName": "Building.Stone"
+                            }
+                        ]
+                    }
                 },
                 {
                     "Name": "ClayBrick_Diagonal_Curved_Set",
-                    "Meshable": {"RowName": "Mesh_Clay_Brick_Kit"},
-                    "Itemable": {"RowName": "Item_ClayBrick_Curved_Set"},
-                    "Interactable": {"RowName": "Item"},
-                    "Hitable": {"RowName": "Building"},
-                    "Focusable": {"RowName": "Focusable_1H"},
-                    "Highlightable": {"RowName": "Generic"},
-                    "Actionable": {"RowName": "Building"},
-                    "Buildable": {"RowName": "ClayBrick_Diagonal_Curved_Set"},
-                    "Usable": {"RowName": "Place"},
-                    "Durable": {"RowName": "Deployable_5000"},
-                    "Decayable": {"RowName": "Decay_General"},
-                    "Audio": {"RowName": "Default"},
-                    "Manual_Tags": {"GameplayTags": [{"TagName": "Audio.Shelter"}, {"TagName": "Building.Stone"}]}
+                    "Meshable": {
+                        "RowName": "Mesh_Clay_Brick_Kit"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_ClayBrick_Curved_Set"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Hitable": {
+                        "RowName": "Building"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Building"
+                    },
+                    "Buildable": {
+                        "RowName": "ClayBrick_Diagonal_Curved_Set"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_5000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Audio.Shelter"
+                            },
+                            {
+                                "TagName": "Building.Stone"
+                            }
+                        ]
+                    }
                 },
                 {
                     "Name": "ClayBrick_Wall_Curved",
-                    "Meshable": {"RowName": "Mesh_Clay_Brick_Kit"},
-                    "Itemable": {"RowName": "Item_ClayBrick_Curved_Wall"},
-                    "Interactable": {"RowName": "Item"},
-                    "Hitable": {"RowName": "Building"},
-                    "Focusable": {"RowName": "Focusable_1H"},
-                    "Highlightable": {"RowName": "Generic"},
-                    "Actionable": {"RowName": "Building"},
-                    "Buildable": {"RowName": "ClayBrick_Wall_Curved"},
-                    "Usable": {"RowName": "Place"},
-                    "Durable": {"RowName": "Deployable_5000"},
-                    "Decayable": {"RowName": "Decay_General"},
-                    "Audio": {"RowName": "Default"},
-                    "Manual_Tags": {"GameplayTags": [{"TagName": "Audio.Shelter"}, {"TagName": "Building.Stone"}]}
+                    "Meshable": {
+                        "RowName": "Mesh_Clay_Brick_Kit"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_ClayBrick_Curved_Wall"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Hitable": {
+                        "RowName": "Building"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Building"
+                    },
+                    "Buildable": {
+                        "RowName": "ClayBrick_Wall_Curved"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_5000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Audio.Shelter"
+                            },
+                            {
+                                "TagName": "Building.Stone"
+                            }
+                        ]
+                    }
                 },
                 {
                     "Name": "ClayBrick_Diagonal_Curved_Wall_Angles",
-                    "Meshable": {"RowName": "Mesh_Clay_Brick_Kit"},
-                    "Itemable": {"RowName": "Item_ClayBrick_Diagonal_Curved_Wall_Angles"},
-                    "Interactable": {"RowName": "Item"},
-                    "Hitable": {"RowName": "Building"},
-                    "Focusable": {"RowName": "Focusable_1H"},
-                    "Highlightable": {"RowName": "Generic"},
-                    "Actionable": {"RowName": "Building"},
-                    "Buildable": {"RowName": "ClayBrick_Diagonal_Curved_Wall_Angles"},
-                    "Usable": {"RowName": "Place"},
-                    "Durable": {"RowName": "Deployable_5000"},
-                    "Decayable": {"RowName": "Decay_General"},
-                    "Audio": {"RowName": "Default"},
-                    "Manual_Tags": {"GameplayTags": [{"TagName": "Audio.Shelter"}, {"TagName": "Building.Stone"}]}
+                    "Meshable": {
+                        "RowName": "Mesh_Clay_Brick_Kit"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_ClayBrick_Diagonal_Curved_Wall_Angles"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Hitable": {
+                        "RowName": "Building"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Building"
+                    },
+                    "Buildable": {
+                        "RowName": "ClayBrick_Diagonal_Curved_Wall_Angles"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_5000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Audio.Shelter"
+                            },
+                            {
+                                "TagName": "Building.Stone"
+                            }
+                        ]
+                    }
                 },
                 {
                     "Name": "ClayBrick_Roof_CurvedAngles",
-                    "Meshable": {"RowName": "Mesh_Clay_Brick_Kit"},
-                    "Itemable": {"RowName": "Item_ClayBrick_Roof_CurvedAngles"},
-                    "Interactable": {"RowName": "Item"},
-                    "Hitable": {"RowName": "Building"},
-                    "Focusable": {"RowName": "Focusable_1H"},
-                    "Highlightable": {"RowName": "Generic"},
-                    "Actionable": {"RowName": "Building"},
-                    "Buildable": {"RowName": "ClayBrick_Roof_CurvedAngles"},
-                    "Usable": {"RowName": "Place"},
-                    "Durable": {"RowName": "Deployable_5000"},
-                    "Decayable": {"RowName": "Decay_General"},
-                    "Audio": {"RowName": "Default"},
-                    "Manual_Tags": {"GameplayTags": [{"TagName": "Audio.Shelter"}, {"TagName": "Building.Stone"}]}
+                    "Meshable": {
+                        "RowName": "Mesh_Clay_Brick_Kit"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_ClayBrick_Roof_CurvedAngles"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Hitable": {
+                        "RowName": "Building"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Building"
+                    },
+                    "Buildable": {
+                        "RowName": "ClayBrick_Roof_CurvedAngles"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_5000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Audio.Shelter"
+                            },
+                            {
+                                "TagName": "Building.Stone"
+                            }
+                        ]
+                    }
                 },
                 {
                     "Name": "ClayBrick_Advanced_Beam_Set",
-                    "Meshable": {"RowName": "Mesh_Clay_Brick_Kit"},
-                    "Itemable": {"RowName": "Item_ClayBrick_Advanced_Beam_Set"},
-                    "Interactable": {"RowName": "Item"},
-                    "Hitable": {"RowName": "Building"},
-                    "Focusable": {"RowName": "Focusable_1H"},
-                    "Highlightable": {"RowName": "Generic"},
-                    "Actionable": {"RowName": "Building"},
-                    "Buildable": {"RowName": "ClayBrick_Advanced_Beam_Set"},
-                    "Usable": {"RowName": "Place"},
-                    "Durable": {"RowName": "Deployable_5000"},
-                    "Decayable": {"RowName": "Decay_General"},
-                    "Audio": {"RowName": "Default"},
-                    "Manual_Tags": {"GameplayTags": [{"TagName": "Audio.Shelter"}, {"TagName": "Building.Stone"}]}
+                    "Meshable": {
+                        "RowName": "Mesh_Clay_Brick_Kit"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_ClayBrick_Advanced_Beam_Set"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Hitable": {
+                        "RowName": "Building"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Building"
+                    },
+                    "Buildable": {
+                        "RowName": "ClayBrick_Advanced_Beam_Set"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Durable": {
+                        "RowName": "Deployable_5000"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Audio.Shelter"
+                            },
+                            {
+                                "TagName": "Building.Stone"
+                            }
+                        ]
+                    }
                 }
             ]
         },
         {
             "CurrentFile": "Items-D_ItemTemplate.json",
             "File_Items": [
-                {"Name": "Concrete_Diagonal_Set", "ItemStaticData": {"RowName": "Concrete_Diagonal_Set"}},
-                {"Name": "Concrete_Diagonal_Curved_Set", "ItemStaticData": {"RowName": "Concrete_Diagonal_Curved_Set"}},
-                {"Name": "Concrete_Wall_Curved", "ItemStaticData": {"RowName": "Concrete_Wall_Curved"}},
-                {"Name": "Concrete_Diagonal_Curved_Wall_Angles", "ItemStaticData": {"RowName": "Concrete_Diagonal_Curved_Wall_Angles"}},
-                {"Name": "Concrete_Roof_CurvedAngles", "ItemStaticData": {"RowName": "Concrete_Roof_CurvedAngles"}},
-                {"Name": "Concrete_Advanced_Beam_Set", "ItemStaticData": {"RowName": "Concrete_Advanced_Beam_Set"}},
-                {"Name": "Glass_Diagonal_Set", "ItemStaticData": {"RowName": "Glass_Diagonal_Set"}},
-                {"Name": "Glass_Diagonal_Curved_Set", "ItemStaticData": {"RowName": "Glass_Diagonal_Curved_Set"}},
-                {"Name": "Glass_Wall_Curved", "ItemStaticData": {"RowName": "Glass_Wall_Curved"}},
-                {"Name": "Glass_Diagonal_Curved_Wall_Angles", "ItemStaticData": {"RowName": "Glass_Diagonal_Curved_Wall_Angles"}},
-                {"Name": "Glass_Roof_CurvedAngles", "ItemStaticData": {"RowName": "Glass_Roof_CurvedAngles"}},
-                {"Name": "Glass_Advanced_Beam_Set", "ItemStaticData": {"RowName": "Glass_Advanced_Beam_Set"}},
-                {"Name": "ClayBrick_Diagonal_Set", "ItemStaticData": {"RowName": "ClayBrick_Diagonal_Set"}},
-                {"Name": "ClayBrick_Diagonal_Curved_Set", "ItemStaticData": {"RowName": "ClayBrick_Diagonal_Curved_Set"}},
-                {"Name": "ClayBrick_Wall_Curved", "ItemStaticData": {"RowName": "ClayBrick_Wall_Curved"}},
-                {"Name": "ClayBrick_Diagonal_Curved_Wall_Angles", "ItemStaticData": {"RowName": "ClayBrick_Diagonal_Curved_Wall_Angles"}},
-                {"Name": "ClayBrick_Roof_CurvedAngles", "ItemStaticData": {"RowName": "ClayBrick_Roof_CurvedAngles"}},
-                {"Name": "ClayBrick_Advanced_Beam_Set", "ItemStaticData": {"RowName": "ClayBrick_Advanced_Beam_Set"}}
+                {
+                    "Name": "Concrete_Diagonal_Set",
+                    "ItemStaticData": {
+                        "RowName": "Concrete_Diagonal_Set"
+                    }
+                },
+                {
+                    "Name": "Concrete_Diagonal_Curved_Set",
+                    "ItemStaticData": {
+                        "RowName": "Concrete_Diagonal_Curved_Set"
+                    }
+                },
+                {
+                    "Name": "Concrete_Wall_Curved",
+                    "ItemStaticData": {
+                        "RowName": "Concrete_Wall_Curved"
+                    }
+                },
+                {
+                    "Name": "Concrete_Diagonal_Curved_Wall_Angles",
+                    "ItemStaticData": {
+                        "RowName": "Concrete_Diagonal_Curved_Wall_Angles"
+                    }
+                },
+                {
+                    "Name": "Concrete_Roof_CurvedAngles",
+                    "ItemStaticData": {
+                        "RowName": "Concrete_Roof_CurvedAngles"
+                    }
+                },
+                {
+                    "Name": "Concrete_Advanced_Beam_Set",
+                    "ItemStaticData": {
+                        "RowName": "Concrete_Advanced_Beam_Set"
+                    }
+                },
+                {
+                    "Name": "Glass_Diagonal_Set",
+                    "ItemStaticData": {
+                        "RowName": "Glass_Diagonal_Set"
+                    }
+                },
+                {
+                    "Name": "Glass_Diagonal_Curved_Set",
+                    "ItemStaticData": {
+                        "RowName": "Glass_Diagonal_Curved_Set"
+                    }
+                },
+                {
+                    "Name": "Glass_Wall_Curved",
+                    "ItemStaticData": {
+                        "RowName": "Glass_Wall_Curved"
+                    }
+                },
+                {
+                    "Name": "Glass_Diagonal_Curved_Wall_Angles",
+                    "ItemStaticData": {
+                        "RowName": "Glass_Diagonal_Curved_Wall_Angles"
+                    }
+                },
+                {
+                    "Name": "Glass_Roof_CurvedAngles",
+                    "ItemStaticData": {
+                        "RowName": "Glass_Roof_CurvedAngles"
+                    }
+                },
+                {
+                    "Name": "Glass_Advanced_Beam_Set",
+                    "ItemStaticData": {
+                        "RowName": "Glass_Advanced_Beam_Set"
+                    }
+                },
+                {
+                    "Name": "ClayBrick_Diagonal_Set",
+                    "ItemStaticData": {
+                        "RowName": "ClayBrick_Diagonal_Set"
+                    }
+                },
+                {
+                    "Name": "ClayBrick_Diagonal_Curved_Set",
+                    "ItemStaticData": {
+                        "RowName": "ClayBrick_Diagonal_Curved_Set"
+                    }
+                },
+                {
+                    "Name": "ClayBrick_Wall_Curved",
+                    "ItemStaticData": {
+                        "RowName": "ClayBrick_Wall_Curved"
+                    }
+                },
+                {
+                    "Name": "ClayBrick_Diagonal_Curved_Wall_Angles",
+                    "ItemStaticData": {
+                        "RowName": "ClayBrick_Diagonal_Curved_Wall_Angles"
+                    }
+                },
+                {
+                    "Name": "ClayBrick_Roof_CurvedAngles",
+                    "ItemStaticData": {
+                        "RowName": "ClayBrick_Roof_CurvedAngles"
+                    }
+                },
+                {
+                    "Name": "ClayBrick_Advanced_Beam_Set",
+                    "ItemStaticData": {
+                        "RowName": "ClayBrick_Advanced_Beam_Set"
+                    }
+                }
             ]
         },
         {
@@ -380,252 +1064,842 @@
             "File_Items": [
                 {
                     "Name": "Concrete_Diagonal_Set",
-                    "Requirement": {"RowName": "Masonry_Bench"},
+                    "Requirement": {
+                        "RowName": "Masonry_Bench"
+                    },
                     "RecipeSets": [
-                        {"RowName": "Masonry_Bench", "DataTableName": "D_RecipeSets"},
-                        {"RowName": "Cement_Mixer", "DataTableName": "D_RecipeSets"},
-                        {"RowName": "Masonry_Bench_T4", "DataTableName": "D_RecipeSets"}
+                        {
+                            "RowName": "Masonry_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Cement_Mixer",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Masonry_Bench_T4",
+                            "DataTableName": "D_RecipeSets"
+                        }
                     ],
                     "Inputs": [
-                        {"Element": {"RowName": "Concrete_Mix", "DataTableName": "D_ItemsStatic"}, "Count": 20},
-                        {"Element": {"RowName": "Steel_Rebar", "DataTableName": "D_ItemsStatic"}, "Count": 2}
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Mix",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Rebar",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 2
+                        }
                     ],
-                    "Outputs": [{"Element": {"RowName": "Concrete_Diagonal_Set", "DataTableName": "D_ItemTemplate"}, "Count": 1}],
-                    "Audio": {"RowName": "Default"}
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Diagonal_Set",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Default"
+                    }
                 },
                 {
                     "Name": "Concrete_Diagonal_Curved_Set",
-                    "Requirement": {"RowName": "Masonry_Bench"},
+                    "Requirement": {
+                        "RowName": "Masonry_Bench"
+                    },
                     "RecipeSets": [
-                        {"RowName": "Masonry_Bench", "DataTableName": "D_RecipeSets"},
-                        {"RowName": "Cement_Mixer", "DataTableName": "D_RecipeSets"},
-                        {"RowName": "Masonry_Bench_T4", "DataTableName": "D_RecipeSets"}
+                        {
+                            "RowName": "Masonry_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Cement_Mixer",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Masonry_Bench_T4",
+                            "DataTableName": "D_RecipeSets"
+                        }
                     ],
                     "Inputs": [
-                        {"Element": {"RowName": "Concrete_Mix", "DataTableName": "D_ItemsStatic"}, "Count": 20},
-                        {"Element": {"RowName": "Steel_Rebar", "DataTableName": "D_ItemsStatic"}, "Count": 2}
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Mix",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Rebar",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 2
+                        }
                     ],
-                    "Outputs": [{"Element": {"RowName": "Concrete_Diagonal_Curved_Set", "DataTableName": "D_ItemTemplate"}, "Count": 1}],
-                    "Audio": {"RowName": "Default"}
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Diagonal_Curved_Set",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Default"
+                    }
                 },
                 {
                     "Name": "Concrete_Wall_Curved",
-                    "Requirement": {"RowName": "Masonry_Bench"},
+                    "Requirement": {
+                        "RowName": "Masonry_Bench"
+                    },
                     "RecipeSets": [
-                        {"RowName": "Masonry_Bench", "DataTableName": "D_RecipeSets"},
-                        {"RowName": "Cement_Mixer", "DataTableName": "D_RecipeSets"},
-                        {"RowName": "Masonry_Bench_T4", "DataTableName": "D_RecipeSets"}
+                        {
+                            "RowName": "Masonry_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Cement_Mixer",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Masonry_Bench_T4",
+                            "DataTableName": "D_RecipeSets"
+                        }
                     ],
                     "Inputs": [
-                        {"Element": {"RowName": "Concrete_Mix", "DataTableName": "D_ItemsStatic"}, "Count": 20},
-                        {"Element": {"RowName": "Steel_Rebar", "DataTableName": "D_ItemsStatic"}, "Count": 2}
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Mix",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Rebar",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 2
+                        }
                     ],
-                    "Outputs": [{"Element": {"RowName": "Concrete_Wall_Curved", "DataTableName": "D_ItemTemplate"}, "Count": 1}],
-                    "Audio": {"RowName": "Default"}
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Wall_Curved",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Default"
+                    }
                 },
                 {
                     "Name": "Concrete_Diagonal_Curved_Wall_Angles",
-                    "Requirement": {"RowName": "Masonry_Bench"},
+                    "Requirement": {
+                        "RowName": "Masonry_Bench"
+                    },
                     "RecipeSets": [
-                        {"RowName": "Masonry_Bench", "DataTableName": "D_RecipeSets"},
-                        {"RowName": "Cement_Mixer", "DataTableName": "D_RecipeSets"},
-                        {"RowName": "Masonry_Bench_T4", "DataTableName": "D_RecipeSets"}
+                        {
+                            "RowName": "Masonry_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Cement_Mixer",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Masonry_Bench_T4",
+                            "DataTableName": "D_RecipeSets"
+                        }
                     ],
                     "Inputs": [
-                        {"Element": {"RowName": "Concrete_Mix", "DataTableName": "D_ItemsStatic"}, "Count": 20},
-                        {"Element": {"RowName": "Steel_Rebar", "DataTableName": "D_ItemsStatic"}, "Count": 2}
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Mix",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Rebar",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 2
+                        }
                     ],
-                    "Outputs": [{"Element": {"RowName": "Concrete_Diagonal_Curved_Wall_Angles", "DataTableName": "D_ItemTemplate"}, "Count": 1}],
-                    "Audio": {"RowName": "Default"}
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Diagonal_Curved_Wall_Angles",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Default"
+                    }
                 },
                 {
                     "Name": "Concrete_Roof_CurvedAngles",
-                    "Requirement": {"RowName": "Masonry_Bench"},
+                    "Requirement": {
+                        "RowName": "Masonry_Bench"
+                    },
                     "RecipeSets": [
-                        {"RowName": "Masonry_Bench", "DataTableName": "D_RecipeSets"},
-                        {"RowName": "Cement_Mixer", "DataTableName": "D_RecipeSets"},
-                        {"RowName": "Masonry_Bench_T4", "DataTableName": "D_RecipeSets"}
+                        {
+                            "RowName": "Masonry_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Cement_Mixer",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Masonry_Bench_T4",
+                            "DataTableName": "D_RecipeSets"
+                        }
                     ],
                     "Inputs": [
-                        {"Element": {"RowName": "Concrete_Mix", "DataTableName": "D_ItemsStatic"}, "Count": 20},
-                        {"Element": {"RowName": "Steel_Rebar", "DataTableName": "D_ItemsStatic"}, "Count": 2}
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Mix",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Rebar",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 2
+                        }
                     ],
-                    "Outputs": [{"Element": {"RowName": "Concrete_Roof_CurvedAngles", "DataTableName": "D_ItemTemplate"}, "Count": 1}],
-                    "Audio": {"RowName": "Default"}
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Roof_CurvedAngles",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Default"
+                    }
                 },
                 {
                     "Name": "Concrete_Advanced_Beam_Set",
-                    "Requirement": {"RowName": "Masonry_Bench"},
+                    "Requirement": {
+                        "RowName": "Masonry_Bench"
+                    },
                     "RecipeSets": [
-                        {"RowName": "Masonry_Bench", "DataTableName": "D_RecipeSets"},
-                        {"RowName": "Cement_Mixer", "DataTableName": "D_RecipeSets"},
-                        {"RowName": "Masonry_Bench_T4", "DataTableName": "D_RecipeSets"}
+                        {
+                            "RowName": "Masonry_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Cement_Mixer",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Masonry_Bench_T4",
+                            "DataTableName": "D_RecipeSets"
+                        }
                     ],
                     "Inputs": [
-                        {"Element": {"RowName": "Concrete_Mix", "DataTableName": "D_ItemsStatic"}, "Count": 10},
-                        {"Element": {"RowName": "Steel_Rebar", "DataTableName": "D_ItemsStatic"}, "Count": 1}
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Mix",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Rebar",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
                     ],
-                    "Outputs": [{"Element": {"RowName": "Concrete_Advanced_Beam_Set", "DataTableName": "D_ItemTemplate"}, "Count": 1}],
-                    "Audio": {"RowName": "Default"}
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Advanced_Beam_Set",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Default"
+                    }
                 },
                 {
                     "Name": "Glass_Diagonal_Set",
-                    "Requirement": {"RowName": "Glassworking_Bench"},
-                    "RecipeSets": [{"RowName": "Glassworking_Bench", "DataTableName": "D_RecipeSets"}],
-                    "Inputs": [
-                        {"Element": {"RowName": "Refined_Metal", "DataTableName": "D_ItemsStatic"}, "Count": 2},
-                        {"Element": {"RowName": "Glass", "DataTableName": "D_ItemsStatic"}, "Count": 20},
-                        {"Element": {"RowName": "Epoxy", "DataTableName": "D_ItemsStatic"}, "Count": 6}
+                    "Requirement": {
+                        "RowName": "Glassworking_Bench"
+                    },
+                    "RecipeSets": [
+                        {
+                            "RowName": "Glassworking_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        }
                     ],
-                    "Outputs": [{"Element": {"RowName": "Glass_Diagonal_Set", "DataTableName": "D_ItemTemplate"}, "Count": 1}],
-                    "Audio": {"RowName": "Default"}
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Refined_Metal",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 2
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Glass",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 6
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Glass_Diagonal_Set",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Default"
+                    }
                 },
                 {
                     "Name": "Glass_Diagonal_Curved_Set",
-                    "Requirement": {"RowName": "Glassworking_Bench"},
-                    "RecipeSets": [{"RowName": "Glassworking_Bench", "DataTableName": "D_RecipeSets"}],
-                    "Inputs": [
-                        {"Element": {"RowName": "Refined_Metal", "DataTableName": "D_ItemsStatic"}, "Count": 2},
-                        {"Element": {"RowName": "Glass", "DataTableName": "D_ItemsStatic"}, "Count": 20},
-                        {"Element": {"RowName": "Epoxy", "DataTableName": "D_ItemsStatic"}, "Count": 6}
+                    "Requirement": {
+                        "RowName": "Glassworking_Bench"
+                    },
+                    "RecipeSets": [
+                        {
+                            "RowName": "Glassworking_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        }
                     ],
-                    "Outputs": [{"Element": {"RowName": "Glass_Diagonal_Curved_Set", "DataTableName": "D_ItemTemplate"}, "Count": 1}],
-                    "Audio": {"RowName": "Default"}
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Refined_Metal",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 2
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Glass",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 6
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Glass_Diagonal_Curved_Set",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Default"
+                    }
                 },
                 {
                     "Name": "Glass_Wall_Curved",
-                    "Requirement": {"RowName": "Glassworking_Bench"},
-                    "RecipeSets": [{"RowName": "Glassworking_Bench", "DataTableName": "D_RecipeSets"}],
-                    "Inputs": [
-                        {"Element": {"RowName": "Refined_Metal", "DataTableName": "D_ItemsStatic"}, "Count": 2},
-                        {"Element": {"RowName": "Glass", "DataTableName": "D_ItemsStatic"}, "Count": 20},
-                        {"Element": {"RowName": "Epoxy", "DataTableName": "D_ItemsStatic"}, "Count": 6}
+                    "Requirement": {
+                        "RowName": "Glassworking_Bench"
+                    },
+                    "RecipeSets": [
+                        {
+                            "RowName": "Glassworking_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        }
                     ],
-                    "Outputs": [{"Element": {"RowName": "Glass_Wall_Curved", "DataTableName": "D_ItemTemplate"}, "Count": 1}],
-                    "Audio": {"RowName": "Default"}
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Refined_Metal",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 2
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Glass",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 6
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Glass_Wall_Curved",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Default"
+                    }
                 },
                 {
                     "Name": "Glass_Diagonal_Curved_Wall_Angles",
-                    "Requirement": {"RowName": "Glassworking_Bench"},
-                    "RecipeSets": [{"RowName": "Glassworking_Bench", "DataTableName": "D_RecipeSets"}],
-                    "Inputs": [
-                        {"Element": {"RowName": "Refined_Metal", "DataTableName": "D_ItemsStatic"}, "Count": 2},
-                        {"Element": {"RowName": "Glass", "DataTableName": "D_ItemsStatic"}, "Count": 20},
-                        {"Element": {"RowName": "Epoxy", "DataTableName": "D_ItemsStatic"}, "Count": 6}
+                    "Requirement": {
+                        "RowName": "Glassworking_Bench"
+                    },
+                    "RecipeSets": [
+                        {
+                            "RowName": "Glassworking_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        }
                     ],
-                    "Outputs": [{"Element": {"RowName": "Glass_Diagonal_Curved_Wall_Angles", "DataTableName": "D_ItemTemplate"}, "Count": 1}],
-                    "Audio": {"RowName": "Default"}
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Refined_Metal",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 2
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Glass",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 6
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Glass_Diagonal_Curved_Wall_Angles",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Default"
+                    }
                 },
                 {
                     "Name": "Glass_Roof_CurvedAngles",
-                    "Requirement": {"RowName": "Glassworking_Bench"},
-                    "RecipeSets": [{"RowName": "Glassworking_Bench", "DataTableName": "D_RecipeSets"}],
-                    "Inputs": [
-                        {"Element": {"RowName": "Refined_Metal", "DataTableName": "D_ItemsStatic"}, "Count": 2},
-                        {"Element": {"RowName": "Glass", "DataTableName": "D_ItemsStatic"}, "Count": 20},
-                        {"Element": {"RowName": "Epoxy", "DataTableName": "D_ItemsStatic"}, "Count": 6}
+                    "Requirement": {
+                        "RowName": "Glassworking_Bench"
+                    },
+                    "RecipeSets": [
+                        {
+                            "RowName": "Glassworking_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        }
                     ],
-                    "Outputs": [{"Element": {"RowName": "Glass_Roof_CurvedAngles", "DataTableName": "D_ItemTemplate"}, "Count": 1}],
-                    "Audio": {"RowName": "Default"}
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Refined_Metal",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 2
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Glass",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 6
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Glass_Roof_CurvedAngles",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Default"
+                    }
                 },
                 {
                     "Name": "Glass_Advanced_Beam_Set",
-                    "Requirement": {"RowName": "Glassworking_Bench"},
-                    "RecipeSets": [{"RowName": "Glassworking_Bench", "DataTableName": "D_RecipeSets"}],
-                    "Inputs": [
-                        {"Element": {"RowName": "Refined_Metal", "DataTableName": "D_ItemsStatic"}, "Count": 1},
-                        {"Element": {"RowName": "Glass", "DataTableName": "D_ItemsStatic"}, "Count": 10},
-                        {"Element": {"RowName": "Epoxy", "DataTableName": "D_ItemsStatic"}, "Count": 3}
+                    "Requirement": {
+                        "RowName": "Glassworking_Bench"
+                    },
+                    "RecipeSets": [
+                        {
+                            "RowName": "Glassworking_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        }
                     ],
-                    "Outputs": [{"Element": {"RowName": "Glass_Advanced_Beam_Set", "DataTableName": "D_ItemTemplate"}, "Count": 1}],
-                    "Audio": {"RowName": "Default"}
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Refined_Metal",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Glass",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 3
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Glass_Advanced_Beam_Set",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Default"
+                    }
                 },
                 {
                     "Name": "ClayBrick_Diagonal_Set",
-                    "Requirement": {"RowName": "Masonry_Bench"},
+                    "Requirement": {
+                        "RowName": "Masonry_Bench"
+                    },
                     "RecipeSets": [
-                        {"RowName": "Masonry_Bench", "DataTableName": "D_RecipeSets"},
-                        {"RowName": "Masonry_Bench_T4", "DataTableName": "D_RecipeSets"}
+                        {
+                            "RowName": "Masonry_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Masonry_Bench_T4",
+                            "DataTableName": "D_RecipeSets"
+                        }
                     ],
                     "Inputs": [
-                        {"Element": {"RowName": "Clay_Brick", "DataTableName": "D_ItemsStatic"}, "Count": 20},
-                        {"Element": {"RowName": "Stone", "DataTableName": "D_ItemsStatic"}, "Count": 10}
+                        {
+                            "Element": {
+                                "RowName": "Clay_Brick",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        }
                     ],
-                    "Outputs": [{"Element": {"RowName": "ClayBrick_Diagonal_Set", "DataTableName": "D_ItemTemplate"}, "Count": 1}],
-                    "Audio": {"RowName": "Default"}
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "ClayBrick_Diagonal_Set",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Default"
+                    }
                 },
                 {
                     "Name": "ClayBrick_Diagonal_Curved_Set",
-                    "Requirement": {"RowName": "Masonry_Bench"},
+                    "Requirement": {
+                        "RowName": "Masonry_Bench"
+                    },
                     "RecipeSets": [
-                        {"RowName": "Masonry_Bench", "DataTableName": "D_RecipeSets"},
-                        {"RowName": "Masonry_Bench_T4", "DataTableName": "D_RecipeSets"}
+                        {
+                            "RowName": "Masonry_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Masonry_Bench_T4",
+                            "DataTableName": "D_RecipeSets"
+                        }
                     ],
                     "Inputs": [
-                        {"Element": {"RowName": "Clay_Brick", "DataTableName": "D_ItemsStatic"}, "Count": 20},
-                        {"Element": {"RowName": "Stone", "DataTableName": "D_ItemsStatic"}, "Count": 10}
+                        {
+                            "Element": {
+                                "RowName": "Clay_Brick",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        }
                     ],
-                    "Outputs": [{"Element": {"RowName": "ClayBrick_Diagonal_Curved_Set", "DataTableName": "D_ItemTemplate"}, "Count": 1}],
-                    "Audio": {"RowName": "Default"}
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "ClayBrick_Diagonal_Curved_Set",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Default"
+                    }
                 },
                 {
                     "Name": "ClayBrick_Wall_Curved",
-                    "Requirement": {"RowName": "Masonry_Bench"},
+                    "Requirement": {
+                        "RowName": "Masonry_Bench"
+                    },
                     "RecipeSets": [
-                        {"RowName": "Masonry_Bench", "DataTableName": "D_RecipeSets"},
-                        {"RowName": "Masonry_Bench_T4", "DataTableName": "D_RecipeSets"}
+                        {
+                            "RowName": "Masonry_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Masonry_Bench_T4",
+                            "DataTableName": "D_RecipeSets"
+                        }
                     ],
                     "Inputs": [
-                        {"Element": {"RowName": "Clay_Brick", "DataTableName": "D_ItemsStatic"}, "Count": 20},
-                        {"Element": {"RowName": "Stone", "DataTableName": "D_ItemsStatic"}, "Count": 10}
+                        {
+                            "Element": {
+                                "RowName": "Clay_Brick",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        }
                     ],
-                    "Outputs": [{"Element": {"RowName": "ClayBrick_Wall_Curved", "DataTableName": "D_ItemTemplate"}, "Count": 1}],
-                    "Audio": {"RowName": "Default"}
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "ClayBrick_Wall_Curved",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Default"
+                    }
                 },
                 {
                     "Name": "ClayBrick_Diagonal_Curved_Wall_Angles",
-                    "Requirement": {"RowName": "Masonry_Bench"},
+                    "Requirement": {
+                        "RowName": "Masonry_Bench"
+                    },
                     "RecipeSets": [
-                        {"RowName": "Masonry_Bench", "DataTableName": "D_RecipeSets"},
-                        {"RowName": "Masonry_Bench_T4", "DataTableName": "D_RecipeSets"}
+                        {
+                            "RowName": "Masonry_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Masonry_Bench_T4",
+                            "DataTableName": "D_RecipeSets"
+                        }
                     ],
                     "Inputs": [
-                        {"Element": {"RowName": "Clay_Brick", "DataTableName": "D_ItemsStatic"}, "Count": 20},
-                        {"Element": {"RowName": "Stone", "DataTableName": "D_ItemsStatic"}, "Count": 10}
+                        {
+                            "Element": {
+                                "RowName": "Clay_Brick",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        }
                     ],
-                    "Outputs": [{"Element": {"RowName": "ClayBrick_Diagonal_Curved_Wall_Angles", "DataTableName": "D_ItemTemplate"}, "Count": 1}],
-                    "Audio": {"RowName": "Default"}
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "ClayBrick_Diagonal_Curved_Wall_Angles",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Default"
+                    }
                 },
                 {
                     "Name": "ClayBrick_Roof_CurvedAngles",
-                    "Requirement": {"RowName": "Masonry_Bench"},
+                    "Requirement": {
+                        "RowName": "Masonry_Bench"
+                    },
                     "RecipeSets": [
-                        {"RowName": "Masonry_Bench", "DataTableName": "D_RecipeSets"},
-                        {"RowName": "Masonry_Bench_T4", "DataTableName": "D_RecipeSets"}
+                        {
+                            "RowName": "Masonry_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Masonry_Bench_T4",
+                            "DataTableName": "D_RecipeSets"
+                        }
                     ],
                     "Inputs": [
-                        {"Element": {"RowName": "Clay_Brick", "DataTableName": "D_ItemsStatic"}, "Count": 20},
-                        {"Element": {"RowName": "Stone", "DataTableName": "D_ItemsStatic"}, "Count": 10}
+                        {
+                            "Element": {
+                                "RowName": "Clay_Brick",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 20
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        }
                     ],
-                    "Outputs": [{"Element": {"RowName": "ClayBrick_Roof_CurvedAngles", "DataTableName": "D_ItemTemplate"}, "Count": 1}],
-                    "Audio": {"RowName": "Default"}
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "ClayBrick_Roof_CurvedAngles",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Default"
+                    }
                 },
                 {
                     "Name": "ClayBrick_Advanced_Beam_Set",
-                    "Requirement": {"RowName": "Masonry_Bench"},
+                    "Requirement": {
+                        "RowName": "Masonry_Bench"
+                    },
                     "RecipeSets": [
-                        {"RowName": "Masonry_Bench", "DataTableName": "D_RecipeSets"},
-                        {"RowName": "Masonry_Bench_T4", "DataTableName": "D_RecipeSets"}
+                        {
+                            "RowName": "Masonry_Bench",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Masonry_Bench_T4",
+                            "DataTableName": "D_RecipeSets"
+                        }
                     ],
                     "Inputs": [
-                        {"Element": {"RowName": "Clay_Brick", "DataTableName": "D_ItemsStatic"}, "Count": 10},
-                        {"Element": {"RowName": "Stone", "DataTableName": "D_ItemsStatic"}, "Count": 5}
+                        {
+                            "Element": {
+                                "RowName": "Clay_Brick",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 5
+                        }
                     ],
-                    "Outputs": [{"Element": {"RowName": "ClayBrick_Advanced_Beam_Set", "DataTableName": "D_ItemTemplate"}, "Count": 1}],
-                    "Audio": {"RowName": "Default"}
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "ClayBrick_Advanced_Beam_Set",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Default"
+                    }
                 }
             ]
         },
-        {"CurrentFile": "EndOfMod"}
+        {
+            "CurrentFile": "EndOfMod"
+        }
     ]
 }
