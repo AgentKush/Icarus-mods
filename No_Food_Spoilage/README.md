@@ -1,47 +1,72 @@
 # No Food Spoilage
 
-**Author:** AgentKush  
-**Version:** 1.2
+![Version](https://img.shields.io/badge/version-1.2-blue)
+![Author](https://img.shields.io/badge/author-AgentKush-green)
+![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
-## Description
-Prevents all food items and volatile substances from spoiling in your inventory. Meat, fish, vegetables, and volatile substances will last forever! Also includes composter recipes to manually convert items if needed.
+## Overview
 
-## What's Affected
-- **Raw Meat** - All types (bear, wolf, fish, etc.)
-- **Cooked Food** - All prepared meals
-- **Vegetables** - Crops and gathered plants
-- **Fruits** - Berries and harvested fruits
-- **Fish** - All fish types
-- **Volatile Substances** - Unstable materials that normally decay
+Eliminates food decay mechanics, allowing all perishable items to remain fresh indefinitely. Includes optional composter recipes for manual conversion when desired.
 
 ## Features
-- Food stays fresh indefinitely
-- No more rushing to cook meat before it spoils
-- Stock up on supplies for long expeditions
-- **8 composter recipes** included for manual conversion
 
-## Technical Details
-- **Total modifications:** 28
-- **Files modified:**
-  - D_Decayable.json (20 items - spoilage disabled)
-  - D_ProcessorRecipes.json (8 recipes - composter options)
+### Items Preserved
+
+| Category | Examples |
+|----------|----------|
+| Raw Meat | Bear, wolf, deer, fish, exotic meats |
+| Cooked Food | All prepared meals and dishes |
+| Vegetables | Crops, gathered plants, mushrooms |
+| Fruits | Berries, harvested fruits |
+| Fish | All fish varieties |
+| Volatile Substances | Unstable materials, reactive compounds |
+
+### Composter Integration
+
+8 optional composter recipes included for manual item conversion when organic breakdown is desired.
+
+## Technical Specifications
+
+| Metric | Value |
+|--------|-------|
+| Total Modifications | 28 |
+| Decay Items Disabled | 20 |
+| Composter Recipes | 8 |
+
+### Files Modified
+- `Traits-D_Decayable.json` (20 entries)
+- `Crafting-D_ProcessorRecipes.json` (8 entries)
 
 ## Installation
-1. Download the `.EXMODZ` file
-2. Import into JimK72's Mod Manager
-3. Enable the mod and launch the game
+
+1. Download the `.EXMODZ` file from this repository
+2. Open JimK72's Icarus Mod Manager
+3. Import the mod file
+4. Enable and launch Icarus
+
+## Gameplay Notes
+
+- Freshness indicators remain visible but items do not spoil
+- Ideal for Open World mode and extended missions
+- Allows stockpiling supplies without time pressure
+- Composter recipes provide optional manual conversion
 
 ## Compatibility
-- Works with Icarus base game and all DLCs
-- **Fully compatible** with FastProcessing mods (v4.0+)
-- Compatible with all other AgentKush mods
 
-## Notes
-- Items still show freshness indicators but won't actually spoil
-- Great for Open World mode and long missions
-- Composter recipes allow manual conversion if you want to process items
+| Mod | Status |
+|-----|--------|
+| FastProcessing (v4.0+) | ✅ Full recipe support |
+| All AgentKush mods | ✅ Compatible |
+| Other D_Decayable mods | ⚠️ May conflict |
 
-## Changelog
-- **v1.2** - Added 8 composter recipes for manual conversion
-- **v1.1** - Added volatile substances
-- **v1.0** - Initial release with food items
+## Version History
+
+| Version | Changes |
+|---------|---------|
+| 1.2 | Added 8 composter recipes for manual conversion |
+| 1.1 | Added volatile substance preservation |
+| 1.0 | Initial release with food items |
+
+---
+
+*Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*

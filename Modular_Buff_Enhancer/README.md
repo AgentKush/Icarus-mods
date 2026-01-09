@@ -1,53 +1,75 @@
 # Modular Buff Enhancer
 
-**Author:** AgentKush  
-**Version:** 1.1
+![Version](https://img.shields.io/badge/version-1.1-blue)
+![Author](https://img.shields.io/badge/author-AgentKush-green)
+![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
-## Description
-Comprehensive buff enhancement mod that boosts positive effects by ~50%. Makes tonics, food buffs, bed healing, comfort bonuses, and other beneficial effects stronger and more impactful.
+## Overview
 
-## What's Enhanced
+A comprehensive enhancement of positive status effects that boosts buff effectiveness by approximately 50%. Tonics, food buffs, healing rates, and passive bonuses all receive significant improvements.
 
-### Tonics & Drinks (83 buffs)
-- Health regeneration tonics
-- Stamina recovery drinks
-- Resistance potions
-- Stat boost elixirs
+## Features
 
-### Food Buffs (156 buffs)
-- Cooked meal bonuses
-- Prepared dish effects
-- Special food combinations
-- Raw food minor buffs
+### Enhancement Categories
 
-### Other Enhancements
-- Bed healing rates increased
-- Comfort bonuses improved
-- BioLab inhaler effects boosted
-- Aura effects strengthened
+| Category | Buffs Enhanced | Count |
+|----------|----------------|-------|
+| Tonics & Drinks | Health regen, stamina recovery, resistance potions | 40+ |
+| Food Buffs | All cooked meals and prepared dishes | 156 |
+| Healing | Bed rest, bandages, medical items | 15+ |
+| Comfort | Shelter bonuses, temperature resistance | 10+ |
+| BioLab | Inhaler effects, special consumables | 10+ |
+| Auras | Passive environmental effects | 8+ |
 
-## Technical Details
-- **Total modifications:** 239 buff states
-- **Files modified:**
-  - D_ModifierStates.json (239 entries)
-- **Enhancement:** ~50% increase to positive effects
+### Enhancement Values
+
+| Modifier Type | Boost |
+|---------------|-------|
+| Stat Bonuses | +50% |
+| Duration | +25% |
+| Regeneration Rates | +50% |
+| Resistance Values | +50% |
+
+## Technical Specifications
+
+| Metric | Value |
+|--------|-------|
+| Total Modifications | 239 |
+| Core Buffs | 83 |
+| Food Buffs | 156 |
+
+### Files Modified
+- `Modifiers-D_ModifierStates.json` (239 entries)
 
 ## Installation
-1. Download the `.EXMODZ` file
-2. Import into JimK72's Mod Manager
-3. Enable the mod and launch the game
+
+1. Download the `.EXMODZ` file from this repository
+2. Open JimK72's Icarus Mod Manager
+3. Import the mod file
+4. Enable and launch Icarus
+
+## Gameplay Notes
+
+- Stacks naturally with talent bonuses
+- Makes cooking and consumable crafting more rewarding
+- Encourages diverse food preparation for maximum benefit
+- Pairs effectively with Modular Affliction Adjuster
 
 ## Compatibility
-- Works with Icarus base game and all DLCs
-- **Pairs well with** Modular Affliction Adjuster
-- Compatible with all other AgentKush mods
-- May conflict with other mods that modify D_ModifierStates.json
 
-## Notes
-- Stacks naturally with in-game talent bonuses
-- Makes cooking and crafting consumables more rewarding
-- Great for solo players or challenging missions
+| Mod | Status |
+|-----|--------|
+| Modular Affliction Adjuster | ✅ Recommended pairing |
+| All AgentKush mods | ✅ Compatible |
+| Other D_ModifierStates mods | ⚠️ May conflict |
 
-## Changelog
-- **v1.1** - Added 156 food buffs (83 → 239 total)
-- **v1.0** - Initial release with 83 core buffs
+## Version History
+
+| Version | Changes |
+|---------|---------|
+| 1.1 | Added 156 food buffs (83 → 239 total modifications) |
+| 1.0 | Initial release with 83 core buffs |
+
+---
+
+*Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*

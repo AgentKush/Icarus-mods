@@ -1,40 +1,65 @@
 # Indestructible Tools & Weapons
 
-**Author:** AgentKush  
-**Version:** 1.3
+![Version](https://img.shields.io/badge/version-1.3-blue)
+![Author](https://img.shields.io/badge/author-AgentKush-green)
+![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
-## Description
-Makes all tools, weapons, armor, buildings, doors, and crafting stations virtually indestructible. Sets durability to the game's maximum cap so your equipment will never break during normal gameplay.
+## Overview
 
-## What's Affected
-- **Tools** - Pickaxes, axes, knives, etc.
-- **Weapons** - All melee and ranged weapons
-- **Armor** - All armor pieces and suits
-- **Buildings** - Walls, floors, roofs, etc.
-- **Doors** - All door types
-- **Crafting Stations** - Benches, furnaces, processors
+Eliminates equipment degradation by setting all durability values to the game's maximum cap. Tools, weapons, armor, buildings, and crafting stations become virtually indestructible during normal gameplay.
 
-## Technical Details
-- **Total modifications:** 191 items
-- **Files modified:**
-  - D_Durable.json (191 durability entries)
-- **Method:** Sets durability values to maximum game cap
+## Features
+
+### Equipment Categories Affected
+
+| Category | Items Covered |
+|----------|---------------|
+| Tools | Pickaxes, axes, sickles, knives, repair hammers |
+| Melee Weapons | Swords, spears, knives, hammers, axes |
+| Ranged Weapons | Bows, crossbows, rifles, pistols |
+| Armor | All tiers and suit types |
+| Buildings | Walls, floors, roofs, foundations |
+| Doors & Gates | All door variants |
+| Crafting Stations | Benches, furnaces, processors, fabricators |
+
+## Technical Specifications
+
+| Metric | Value |
+|--------|-------|
+| Total Modifications | 191 |
+| Durability Setting | Maximum game cap |
+
+### Files Modified
+- `Traits-D_Durable.json` (191 entries)
 
 ## Installation
-1. Download the `.EXMODZ` file
-2. Import into JimK72's Mod Manager
-3. Enable the mod and launch the game
-4. All equipment now has maximum durability
+
+1. Download the `.EXMODZ` file from this repository
+2. Open JimK72's Icarus Mod Manager
+3. Import the mod file
+4. Enable and launch Icarus
+5. All equipment now maintains maximum durability
+
+## Gameplay Notes
+
+- Durability bars remain visible but do not deplete under normal use
+- Ideal for extended expeditions and Open World gameplay
+- Eliminates repair material requirements
+- Allows focus on exploration and building without maintenance concerns
 
 ## Compatibility
-- Works with Icarus base game and all DLCs
-- Compatible with all other AgentKush mods
-- May conflict with other mods that modify D_Durable.json
 
-## Notes
-- Items still show durability bars but won't deplete during normal use
-- Useful for long expeditions and Open World gameplay
-- Great for testing builds without worrying about repairs
+| Mod | Status |
+|-----|--------|
+| All AgentKush mods | ✅ Compatible |
+| Other D_Durable mods | ⚠️ May conflict |
 
-## Changelog
-- **v1.3** - Current stable release with 191 items covered
+## Version History
+
+| Version | Changes |
+|---------|---------|
+| 1.3 | Expanded coverage to 191 items |
+
+---
+
+*Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*

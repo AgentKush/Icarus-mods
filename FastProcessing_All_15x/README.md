@@ -1,34 +1,79 @@
-# FastProcessing_All_15x
+# FastProcessing All 15x
 
-**Author:** AgentKush  
-**Version:** 4.0
+![Version](https://img.shields.io/badge/version-4.0-blue)
+![Author](https://img.shields.io/badge/author-AgentKush-green)
+![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
+![Recipes](https://img.shields.io/badge/recipes-3,448-orange)
 
-## Description
-All crafting and processing 15x faster! Contains **3448 recipes** - full compatibility with base game + Workshop_Recyclers + Hidden_Building_Pieces.
+## Overview
 
-## What's Included
-- **1723** base game recipes (all crafting stations)
-- **1707** Workshop_Recyclers recipes (recycling machines)
-- **18** Hidden_Building_Pieces recipes (diagonal/curved building sets)
+Reduces all crafting and processing times to approximately 7% of their original duration (15x speed increase). Includes complete compatibility with all AgentKush mod recipes.
+
+## Features
+
+### Speed Modification
+- **Processing Time:** Reduced to ~7% (15x faster)
+- **All Stations:** Every crafting bench, furnace, and processor affected
+- **Full Coverage:** 3,448 recipes modified
+
+### Recipe Sources
+
+| Source | Recipe Count |
+|--------|--------------|
+| Base Game | 1,723 |
+| Workshop Recyclers | 1,707 |
+| Hidden Building Pieces | 18 |
+| **Total** | **3,448** |
+
+## Technical Specifications
+
+| Metric | Value |
+|--------|-------|
+| Total Recipes | 3,448 |
+| Speed Multiplier | 15x |
+| Processing Reduction | ~93% |
+
+### Files Modified
+- `Crafting-D_ProcessorRecipes.json` (3,448 entries)
 
 ## Installation
-1. Download the `.EXMODZ` file
-2. Import into JimK72's Mod Manager
-3. Enable the mod and launch the game
 
-## Changelog
-- **v4.0** - Added compatibility with Workshop_Recyclers and Hidden_Building_Pieces (1723 → 3448 recipes)
-- **v3.0** - Added 666 missing recipes (1057 → 1723)
-- **v2.0** - Initial release with 1057 recipes
+1. Download the `.EXMODZ` file from this repository
+2. Open JimK72's Icarus Mod Manager
+3. Import the mod file
+4. Enable and launch Icarus
+
+## Important Notes
+
+> ⚠️ **Use only ONE FastProcessing variant at a time.** Multiple speed mods will conflict.
 
 ## Compatibility
-- Works with Icarus base game and all DLCs
-- **Fully compatible** with Workshop_Recyclers mod
-- **Fully compatible** with Hidden_Building_Pieces mod
-- Only use ONE FastProcessing mod at a time!
 
-## Related Mods
-- FastProcessing_All_5x - 5x speed
-- FastProcessing_All_10x - 10x speed
-- FastProcessing_All_25x - 25x speed
-- FastProcessing_Instant - Instant crafting
+| Mod | Status |
+|-----|--------|
+| Workshop Recyclers | ✅ All 1,707 recipes included |
+| Hidden Building Pieces | ✅ All 18 recipes included |
+| All AgentKush mods | ✅ Compatible |
+| Other FastProcessing variants | ❌ Use only one |
+
+## Related Variants
+
+| Variant | Speed | Recipes |
+|---------|-------|---------|
+| [FastProcessing 5x](../FastProcessing_All_5x) | 5x faster | 3,448 |
+| [FastProcessing 10x](../FastProcessing_All_10x) | 10x faster | 3,448 |
+| FastProcessing 15x | 15x faster | 3,448 |
+| [FastProcessing 25x](../FastProcessing_All_25x) | 25x faster | 3,448 |
+| [FastProcessing Instant](../FastProcessing_Instant) | Instant | 3,448 |
+
+## Version History
+
+| Version | Changes |
+|---------|---------|
+| 4.0 | Added Workshop Recyclers + Hidden Building Pieces compatibility (1,723 → 3,448 recipes) |
+| 3.0 | Added 666 missing base game recipes (1,057 → 1,723) |
+| 2.0 | Initial release with 1,057 recipes |
+
+---
+
+*Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*

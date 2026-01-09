@@ -1,63 +1,87 @@
-# Icarus Mods by AgentKush
+# Icarus Mods Collection
 
-A collection of quality-of-life mods for the survival game **Icarus**. All mods are compatible with JimK72's Mod Manager.
+![Author](https://img.shields.io/badge/author-AgentKush-green)
+![Mods](https://img.shields.io/badge/mods-13-blue)
+![License](https://img.shields.io/badge/license-Free%20to%20Use-brightgreen)
 
-## Available Mods
+A curated collection of quality-of-life modifications for **Icarus: First Cohort**. All mods are designed for use with [JimK72's Icarus Mod Manager](https://github.com/JimK72/Icarus-Mod-Manager).
+
+---
+
+## 📦 Available Mods
 
 ### Workshop & Items
-| Mod | Version | Description |
-|-----|---------|-------------|
-| [Agent's BioLab](./Agents_BioLab) | 1.7 | Adds all 10 Bio Lab Legendary weapons to the Workshop (1000 Exotics each) |
-| [Individual Item Kits](./Agents_Individual_Item_Kits) | 2.0 | 1396 individual items in the Workshop, organized into 73 categories |
-| [Workshop Recyclers](./Workshop_Recyclers) | 2.7 | Two recycling machines with 1,707 recipes for workshop items and crafted gear |
+
+| Mod | Version | Description | Modifications |
+|-----|---------|-------------|---------------|
+| [Agent's BioLab](./Agents_BioLab) | 1.7 | All 10 Bio Lab Legendary weapons in Workshop | 22 |
+| [Individual Item Kits](./Agents_Individual_Item_Kits) | 2.0 | 1,396 individual items organized in 73 categories | 8,378 |
+| [Workshop Recyclers](./Workshop_Recyclers) | 2.7 | Two recycling machines with 1,707 recipes | 1,719 |
 
 ### Processing Speed
-| Mod | Version | Description |
-|-----|---------|-------------|
-| [FastProcessing 5x](./FastProcessing_All_5x) | 4.0 | All crafting 5x faster (3448 recipes) |
-| [FastProcessing 10x](./FastProcessing_All_10x) | 4.0 | All crafting 10x faster (3448 recipes) |
-| [FastProcessing 15x](./FastProcessing_All_15x) | 4.0 | All crafting 15x faster (3448 recipes) |
-| [FastProcessing 25x](./FastProcessing_All_25x) | 4.0 | All crafting 25x faster (3448 recipes) |
-| [FastProcessing Instant](./FastProcessing_Instant) | 4.0 | All crafting instant (3448 recipes) |
+
+| Mod | Version | Speed | Recipes |
+|-----|---------|-------|---------|
+| [FastProcessing 5x](./FastProcessing_All_5x) | 4.0 | 5x faster | 3,448 |
+| [FastProcessing 10x](./FastProcessing_All_10x) | 4.0 | 10x faster | 3,448 |
+| [FastProcessing 15x](./FastProcessing_All_15x) | 4.0 | 15x faster | 3,448 |
+| [FastProcessing 25x](./FastProcessing_All_25x) | 4.0 | 25x faster | 3,448 |
+| [FastProcessing Instant](./FastProcessing_Instant) | 4.0 | Instant | 3,448 |
+
+> ⚠️ **Note:** Use only ONE FastProcessing variant at a time.
 
 ### Quality of Life
-| Mod | Version | Description |
-|-----|---------|-------------|
-| [Indestructible Tools & Weapons](./Indestructible_Tools_Weapons) | 1.3 | 191 items with maximum durability |
-| [No Food Spoilage](./No_Food_Spoilage) | 1.2 | Food and volatile substances never spoil |
-| [Hidden Building Pieces](./Hidden_Building_Pieces) | 1.0.7 | 18 hidden diagonal/curved building sets unlocked |
+
+| Mod | Version | Description | Modifications |
+|-----|---------|-------------|---------------|
+| [Indestructible Tools & Weapons](./Indestructible_Tools_Weapons) | 1.3 | Maximum durability on all equipment | 191 |
+| [No Food Spoilage](./No_Food_Spoilage) | 1.2 | Prevents food and volatile decay | 28 |
+| [Hidden Building Pieces](./Hidden_Building_Pieces) | 1.0.7 | 18 diagonal/curved building sets | 60 |
 
 ### Character Modifiers
-| Mod | Version | Description |
-|-----|---------|-------------|
-| [Modular Affliction Adjuster](./Modular_Affliction_Adjuster) | 2.0 | 110 afflictions reduced by ~50% |
-| [Modular Buff Enhancer](./Modular_Buff_Enhancer) | 1.1 | 239 buffs boosted by ~50% |
 
-## Installation
+| Mod | Version | Description | Modifications |
+|-----|---------|-------------|---------------|
+| [Modular Affliction Adjuster](./Modular_Affliction_Adjuster) | 2.0 | Reduces affliction penalties by ~50% | 110 |
+| [Modular Buff Enhancer](./Modular_Buff_Enhancer) | 1.1 | Increases buff effectiveness by ~50% | 239 |
 
-1. Download [JimK72's Icarus Mod Manager](https://github.com/JimK72/Icarus-Mod-Manager)
-2. Download the `.EXMODZ` file for any mod you want
-3. Import the mod into the Mod Manager
+---
+
+## 🔧 Installation
+
+1. Download and install [JimK72's Icarus Mod Manager](https://github.com/JimK72/Icarus-Mod-Manager)
+2. Download the `.EXMODZ` file for your desired mod(s)
+3. Open the Mod Manager and import the mod file
 4. Enable the mod and launch Icarus
 
-## Compatibility
+---
 
-All mods are designed to work together. The FastProcessing mods (v4.0) include full compatibility with:
-- Workshop Recyclers (1707 recipes)
-- Hidden Building Pieces (18 recipes)
-- Base game (1723 recipes)
+## ✅ Compatibility Matrix
 
-**Note:** Only use ONE FastProcessing mod at a time (5x, 10x, 15x, 25x, or Instant).
+All mods are designed to work together. FastProcessing v4.0 includes full recipe coverage for:
 
-## Mod Manager Integration
+| Mod | Base Game | Workshop Recyclers | Hidden Building |
+|-----|-----------|-------------------|-----------------|
+| FastProcessing (all) | ✅ 1,723 | ✅ 1,707 | ✅ 18 |
+| Workshop Recyclers | ✅ | — | ✅ |
+| Hidden Building Pieces | ✅ | ✅ | — |
+| All other mods | ✅ | ✅ | ✅ |
 
-This repository includes a `modinfo.json` file for integration with mod managers that support external mod lists.
+---
 
-## Contact
+## 📋 Mod Manager Integration
+
+This repository includes `modinfo.json` for integration with mod managers supporting external mod lists.
+
+---
+
+## 📞 Contact
 
 - **Author:** AgentKush
-- **GitHub:** [AgentKush/Icarus-mods](https://github.com/AgentKush/Icarus-mods)
+- **Repository:** [github.com/AgentKush/Icarus-mods](https://github.com/AgentKush/Icarus-mods)
 
-## License
+---
 
-These mods are free to use and modify. Credit appreciated but not required.
+## 📄 License
+
+These mods are free to use, modify, and redistribute. Attribution appreciated but not required.
