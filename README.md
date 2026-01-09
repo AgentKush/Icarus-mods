@@ -37,7 +37,7 @@
 | 🩹 **[Affliction Adjuster](./Modular_Affliction_Adjuster)** | 110 afflictions reduced by ~50% | `v2.0` |
 | 💪 **[Buff Enhancer](./Modular_Buff_Enhancer)** | 239 buffs boosted by ~50% | `v1.1` |
 | 🏗️ **[Hidden Building Pieces](./Hidden_Building_Pieces)** | 18 diagonal/curved building sets | `v1.0.7` |
-| ♻️ **[Workshop Recyclers](./Workshop_Recyclers)** | Recycle items for currency & materials | `v2.3` |
+| ♻️ **[Workshop Recyclers](./Workshop_Recyclers)** | Recycle items for currency & materials | `v2.5` |
 
 ---
 
@@ -308,9 +308,9 @@ These building pieces exist in the game files but aren't normally available. Thi
 
 ---
 
-## ♻️ Workshop Recyclers `v2.3`
+## ♻️ Workshop Recyclers `v2.5`
 
-> **Two new machines with 1,677 recycling recipes!**
+> **Two new machines with 1,638 recycling recipes!**
 
 Adds the **Biofuel Recycler** and **Organic Residue Recycler** - dedicated machines for recycling both workshop items (for currency) AND crafted items (for materials).
 
@@ -414,6 +414,17 @@ Put any crafted item in the recycler to get the **original crafting materials** 
 ---
 
 ## 📋 Changelog
+
+### v2.5 - Workshop Recyclers (MAJOR FIX)
+- **Fixed all workshop item references** - Items now use correct D_ItemsStatic names
+- ST-700, CX-400 armor sets now recyclable
+- Inaris "Lua" Envirosuit now recyclable  
+- Larkwell Martinez Tactical Backpack now recyclable
+- All workshop items properly mapped through D_ItemTemplate -> D_ItemsStatic
+- Updated recipe count: 260 workshop + 1,376 crafted = 1,638 total
+
+### v2.4 - Workshop Recyclers (FIX)
+- **Fixed Organic Recycler icon** - Now uses correct Exotic Processor icon instead of Composter
 
 ### v2.3 - Workshop Recyclers (UPDATE)
 - **Biofuel Recycler now in T3 tech tree** - Blueprint_T3_Machine (next to Bio-Cleaner)

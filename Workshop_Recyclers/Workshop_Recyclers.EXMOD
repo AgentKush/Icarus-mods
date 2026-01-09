@@ -1,8 +1,8 @@
 {
     "name": "Workshop Recyclers",
     "author": "AgentKush",
-    "version": "2.3",
-    "description": "Adds Biofuel Recycler and Organic Residue Recycler - dedicated machines for recycling 299 workshop items AND 1376 crafted items back into materials.",
+    "version": "2.5",
+    "description": "Adds Biofuel Recycler and Organic Residue Recycler - dedicated machines for recycling 260 workshop items AND 1376 crafted items back into materials.",
     "fileName": "Workshop_Recyclers",
     "Level2": "True",
     "Rows": [
@@ -20,7 +20,7 @@
                     "Name": "Organic_Recycler",
                     "RecipeSetName": "NSLOCTEXT(\"D_RecipeSets\", \"Organic_Recycler-RecipeSetName\", \"Organic Residue Recycler\")",
                     "DisplayText": "NSLOCTEXT(\"D_RecipeSets\", \"Organic_Recycler-DisplayText\", \"Recycles items for materials and currency.\")",
-                    "RecipeSetIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Composter.ITEM_Composter",
+                    "RecipeSetIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Exotic_Processor.ITEM_Exotic_Processor",
                     "ExperienceMultiplier": 0.2
                 }
             ]
@@ -63,7 +63,7 @@
                 {
                     "Name": "Item_Organic_Recycler",
                     "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Organic_Recycler-DisplayName\", \"Organic Residue Recycler\")",
-                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Composter.ITEM_Composter",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Exotic_Processor.ITEM_Exotic_Processor",
                     "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Organic_Recycler-Description\", \"Recycles workshop items into currency and crafted items back into materials.\")",
                     "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Organic_Recycler-FlavorText\", \"Break it down, build it back up.\")",
                     "Weight": 50,
@@ -883,15 +883,6 @@
                             "Count": 50,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -966,15 +957,6 @@
                             "Count": 50,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -1010,15 +992,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -1058,15 +1031,6 @@
                             "Count": 50,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -1102,15 +1066,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -1150,15 +1105,6 @@
                             "Count": 50,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -1196,15 +1142,6 @@
                             "Count": 50,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -1240,15 +1177,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -1362,15 +1290,6 @@
                             "Count": 750,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 250,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -1482,15 +1401,6 @@
                             "Count": 750,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 250,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -1526,15 +1436,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 750,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 250,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -1648,15 +1549,6 @@
                             "Count": 750,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 250,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -1692,15 +1584,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 750,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 250,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -1849,15 +1732,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 750,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 250,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -2043,15 +1917,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 750,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 250,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -2757,15 +2622,6 @@
                             "Count": 150,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 25,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -2875,15 +2731,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 150,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 25,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -2997,15 +2844,6 @@
                             "Count": 150,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 25,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -3117,15 +2955,6 @@
                             "Count": 150,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 25,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -3163,15 +2992,6 @@
                             "Count": 250,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 100,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -3194,7 +3014,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Envirosuit_Shengong2",
+                                "RowName": "Envirosuit_Shengong_2",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -3207,15 +3027,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 100,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -3551,15 +3362,6 @@
                             "Count": 50,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -3592,15 +3394,6 @@
                         {
                             "Element": {
                                 "RowName": "Ren",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -3976,15 +3769,6 @@
                             "Count": 50,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -4020,163 +3804,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Axe_Inaris_Alpha",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Axe_Inaris_Alpha",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 400,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Knife_Inaris_Alpha",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Knife_Inaris_Alpha",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 400,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Pickaxe_Inaris_Alpha",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Pickaxe_Inaris_Alpha",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 400,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Spear_Inaris_Alpha",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Spear_Inaris_Alpha",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 400,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -4556,80 +4183,6 @@
                     }
                 },
                 {
-                    "Name": "Recycle_Axe_Larkwell",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Axe_Larkwell",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 400,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Pickaxe_Larkwell",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Pickaxe_Larkwell",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 400,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
                     "Name": "Recycle_Hammer_Larkwell",
                     "RequiredMillijoules": 1000,
                     "RecipeSets": [
@@ -4658,80 +4211,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 100,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Spear_Larkwell",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Spear_Larkwell",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 400,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Knife_Larkwell",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Knife_Larkwell",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 400,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -4830,7 +4309,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Carbon_Armor_Helmet_Alpha",
+                                "RowName": "Meta_Carbon_Head_Alpha",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -4840,15 +4319,6 @@
                         {
                             "Element": {
                                 "RowName": "Ren",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -4876,7 +4346,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Carbon_Armor_Chest_Alpha",
+                                "RowName": "Meta_Carbon_Chest_Alpha",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -4886,15 +4356,6 @@
                         {
                             "Element": {
                                 "RowName": "Ren",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -4922,7 +4383,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Carbon_Armor_Arms_Alpha",
+                                "RowName": "Meta_Carbon_Arms_Alpha",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -4932,15 +4393,6 @@
                         {
                             "Element": {
                                 "RowName": "Ren",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -4968,7 +4420,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Carbon_Armor_Legs_Alpha",
+                                "RowName": "Meta_Carbon_Legs_Alpha",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -4978,15 +4430,6 @@
                         {
                             "Element": {
                                 "RowName": "Ren",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -5014,7 +4457,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Carbon_Armor_Feet_Alpha",
+                                "RowName": "Meta_Carbon_Feet_Alpha",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -5024,15 +4467,6 @@
                         {
                             "Element": {
                                 "RowName": "Ren",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -5060,7 +4494,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Carbon_Armor_Helmet_Beta",
+                                "RowName": "Meta_Carbon_Head_Beta",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -5070,15 +4504,6 @@
                         {
                             "Element": {
                                 "RowName": "Ren",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -5106,7 +4531,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Carbon_Armor_Chest_Beta",
+                                "RowName": "Meta_Carbon_Chest_Beta",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -5116,15 +4541,6 @@
                         {
                             "Element": {
                                 "RowName": "Ren",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -5152,7 +4568,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Carbon_Armor_Arms_Beta",
+                                "RowName": "Meta_Carbon_Arms_Beta",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -5162,15 +4578,6 @@
                         {
                             "Element": {
                                 "RowName": "Ren",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -5198,7 +4605,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Carbon_Armor_Legs_Beta",
+                                "RowName": "Meta_Carbon_Legs_Beta",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -5208,15 +4615,6 @@
                         {
                             "Element": {
                                 "RowName": "Ren",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -5244,7 +4642,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Carbon_Armor_Feet_Beta",
+                                "RowName": "Meta_Carbon_Feet_Beta",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -5254,15 +4652,6 @@
                         {
                             "Element": {
                                 "RowName": "Ren",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
@@ -5290,7 +4679,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Larkwell_Backpack_Alpha",
+                                "RowName": "Meta_Backpack_Larkwell_Alpha",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -5303,15 +4692,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 100,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -5336,7 +4716,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Larkwell_Backpack_Beta",
+                                "RowName": "Meta_Backpack_Larkwell_Beta",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -5349,15 +4729,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 100,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -5382,7 +4753,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Envirosuit_Inaris",
+                                "RowName": "Envirosuit_Inaris_Alpha",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -5395,15 +4766,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 100,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -5443,15 +4805,6 @@
                             "Count": 100,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -5489,15 +4842,6 @@
                             "Count": 100,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -5533,80 +4877,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Extractor",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Extractor_Meta",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 500,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Radar",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Radar_Meta",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 400,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -5705,7 +4975,7 @@
                     "Inputs": [
                         {
                             "Element": {
-                                "RowName": "Meta_Module_World_Boss",
+                                "RowName": "Meta_Module_WorldBoss",
                                 "DataTableName": "D_ItemsStatic"
                             },
                             "Count": 1
@@ -5718,15 +4988,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 150,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -5764,15 +5025,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 750,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 250,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -5847,15 +5099,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 100,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -6117,163 +5360,6 @@
                             "Count": 250,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Axe_Shengong_Echo",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Axe_Shengong_Echo",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 150,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Pickaxe_Shengong_Echo",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Pickaxe_Shengong_Echo",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 150,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Knife_Shengong_Echo",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Knife_Shengong_Echo",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 150,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Spear_Shengong_Echo",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Spear_Shengong_Echo",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 150,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -6309,15 +5395,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -6357,52 +5434,6 @@
                             "Count": 250,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Hammer_Shengong_Echo",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Hammer_Shengong_Echo",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 150,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -6438,52 +5469,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Bow_Shengong_Echo",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Bow_Shengong_Echo",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 150,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -6634,15 +5619,6 @@
                             "Count": 200,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -6675,15 +5651,6 @@
                         {
                             "Element": {
                                 "RowName": "Ren",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 200,
@@ -6726,15 +5693,6 @@
                             "Count": 200,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -6767,15 +5725,6 @@
                         {
                             "Element": {
                                 "RowName": "Ren",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 200,
@@ -6818,15 +5767,6 @@
                             "Count": 200,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -6859,15 +5799,6 @@
                         {
                             "Element": {
                                 "RowName": "Ren",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 200,
@@ -6910,15 +5841,6 @@
                             "Count": 200,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -6951,15 +5873,6 @@
                         {
                             "Element": {
                                 "RowName": "Ren",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 200,
@@ -7002,15 +5915,6 @@
                             "Count": 200,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -7043,15 +5947,6 @@
                         {
                             "Element": {
                                 "RowName": "Ren",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 200,
@@ -7094,15 +5989,6 @@
                             "Count": 200,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -7135,15 +6021,6 @@
                         {
                             "Element": {
                                 "RowName": "Ren",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 200,
@@ -7186,15 +6063,6 @@
                             "Count": 200,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -7230,422 +6098,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Envirosuit_Larkell_Alpha",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Envirosuit_Larkwell_Alpha",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 250,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Envirosuit_Larkell_Bravo",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Envirosuit_Larkwell_Bravo",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 250,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Module_Temperature",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Module_Temperature",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Module_Caving",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Module_Caving",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Module_Extremes",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Module_Extremes",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Module_Fishing",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Module_Fishing",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Module_Wounds",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Module_Wounds",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Module_Taming",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Module_Taming",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Heated_Canteen_Larkwell",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Heated_Canteen_Larkwell",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Heated_Canteen_Inaris",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Canteen_Inaris",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Oxygen_Tank_Larkwell",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Oxygen_Tank_Larkwell",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -8536,15 +6988,6 @@
                             "Count": 100,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 75,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -8580,15 +7023,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 100,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 75,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -8628,15 +7062,6 @@
                             "Count": 100,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 75,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -8672,15 +7097,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 100,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 75,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -8720,15 +7136,6 @@
                             "Count": 100,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 75,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -8766,15 +7173,6 @@
                             "Count": 100,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 250,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -8807,15 +7205,6 @@
                         {
                             "Element": {
                                 "RowName": "Ren",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 250,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 250,
@@ -8858,15 +7247,6 @@
                             "Count": 100,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 250,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -8899,15 +7279,6 @@
                         {
                             "Element": {
                                 "RowName": "Ren",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 100,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 100,
@@ -8950,15 +7321,6 @@
                             "Count": 50,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -8994,15 +7356,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 100,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 250,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -9042,15 +7395,6 @@
                             "Count": 100,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 75,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -9086,15 +7430,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 100,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 75,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -9134,15 +7469,6 @@
                             "Count": 100,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 75,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -9180,15 +7506,6 @@
                             "Count": 100,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 75,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -9224,449 +7541,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 100,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 75,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Larkwell_Armor_White_Head",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Larkwell_Armor_White_Head",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Larkwell_Armor_White_Chest",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Larkwell_Armor_White_Chest",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Larkwell_Armor_White_Arms",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Larkwell_Armor_White_Arms",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Larkwell_Armor_White_Legs",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Larkwell_Armor_White_Legs",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Larkwell_Armor_White_Feet",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Larkwell_Armor_White_Feet",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Sickle_Inaris_00",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Sickle_Inaris_00",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 400,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Sickle_Inaris_01",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Sickle_Inaris_01",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Sickle_Inaris_02",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Sickle_Inaris_02",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Sickle_Inaris_03",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Sickle_Inaris_03",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 200,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Sickle_Shengong_01",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Sickle_Shengong_01",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 150,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Sickle_Shengong_02",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Sickle_Shengong_02",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 400,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -9741,43 +7615,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 20,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        }
-                    ],
-                    "Audio": {
-                        "RowName": "ExoticProcessor"
-                    }
-                },
-                {
-                    "Name": "Recycle_Shovel",
-                    "RequiredMillijoules": 1000,
-                    "RecipeSets": [
-                        {
-                            "RowName": "Biofuel_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        },
-                        {
-                            "RowName": "Organic_Recycler",
-                            "DataTableName": "D_RecipeSets"
-                        }
-                    ],
-                    "Inputs": [
-                        {
-                            "Element": {
-                                "RowName": "Workshop_Shovel",
-                                "DataTableName": "D_ItemsStatic"
-                            },
-                            "Count": 1
-                        }
-                    ],
-                    "Outputs": [
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 250,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -9891,15 +7728,6 @@
                             "Count": 750,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 250,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -10011,15 +7839,6 @@
                             "Count": 500,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 250,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -10055,15 +7874,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 750,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 250,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -10769,15 +8579,6 @@
                             "Count": 50,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -10813,15 +8614,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -10861,15 +8653,6 @@
                             "Count": 50,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -10905,15 +8688,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -10953,15 +8727,6 @@
                             "Count": 50,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -10997,15 +8762,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -11045,15 +8801,6 @@
                             "Count": 50,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -11089,15 +8836,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -11137,15 +8875,6 @@
                             "Count": 50,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -11181,15 +8910,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -11229,15 +8949,6 @@
                             "Count": 50,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -11273,15 +8984,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 50,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Meta_Resource",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
@@ -11506,15 +9208,6 @@
                             "Count": 100,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -11552,15 +9245,6 @@
                             "Count": 350,
                             "DynamicProperties": [],
                             "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 25,
-                            "DynamicProperties": [],
-                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -11596,15 +9280,6 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 100,
-                            "DynamicProperties": [],
-                            "Alterations": []
-                        },
-                        {
-                            "Element": {
-                                "RowName": "Exotic_Red",
-                                "DataTableName": "D_ItemTemplate"
-                            },
-                            "Count": 10,
                             "DynamicProperties": [],
                             "Alterations": []
                         }
