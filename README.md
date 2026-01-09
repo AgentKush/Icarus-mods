@@ -37,7 +37,7 @@
 | 🩹 **[Affliction Adjuster](./Modular_Affliction_Adjuster)** | 110 afflictions reduced by ~50% | `v2.0` |
 | 💪 **[Buff Enhancer](./Modular_Buff_Enhancer)** | 239 buffs boosted by ~50% | `v1.1` |
 | 🏗️ **[Hidden Building Pieces](./Hidden_Building_Pieces)** | 18 diagonal/curved building sets | `v1.0.7` |
-| ♻️ **[Workshop Recyclers](./Workshop_Recyclers)** | Recycle items for currency & materials | `v2.6` |
+| ♻️ **[Workshop Recyclers](./Workshop_Recyclers)** | Recycle items for currency & materials | `v2.7` |
 
 ---
 
@@ -308,9 +308,9 @@ These building pieces exist in the game files but aren't normally available. Thi
 
 ---
 
-## ♻️ Workshop Recyclers `v2.6`
+## ♻️ Workshop Recyclers `v2.7`
 
-> **Two new machines with 1,677 recycling recipes!**
+> **Two new machines with 1,707 recycling recipes! Now compatible with Agent's BioLab and Hidden Building Pieces!**
 
 Adds the **Biofuel Recycler** and **Organic Residue Recycler** - dedicated machines for recycling both workshop items (for currency) AND crafted items (for materials).
 
@@ -414,6 +414,18 @@ Put any crafted item in the recycler to get the **original crafting materials** 
 ---
 
 ## 📋 Changelog
+
+### v2.7 - Workshop Recyclers (COMPATIBILITY UPDATE)
+- **Added Agent's BioLab support** - All 10 Bio Lab Legendary weapons now recyclable for 1000 Exotics each:
+  - Frontier Revolver, Kinetic Rifle, Tactical Bow, Mining Armature
+  - Biotech Maul, Heavy Flamethrower, Anti-materiel Rifle
+  - Javelin Launcher, Slug Launcher, Ice Mammoth Sledgehammer
+- **Added Hidden Building Pieces support** - All 18 building piece sets now deconstructable:
+  - 6 Concrete pieces (Diagonal, Curved, Wall, Angles, Roof, Beams)
+  - 6 Glass pieces (Diagonal, Curved, Wall, Angles, Roof, Beams)
+  - 6 Clay Brick pieces (Diagonal, Curved, Wall, Angles, Roof, Beams)
+- **Added Recycler self-deconstruction** - Both recyclers can now be deconstructed for materials
+- Updated recipe count: 309 workshop + 1,396 crafted = 1,707 total (+30 new recipes)
 
 ### v2.6 - Workshop Recyclers (MAJOR FIX)
 - **Fixed currency parsing** - Now correctly identifies Exotic1 and Exotic_Red currencies

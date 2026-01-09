@@ -1,8 +1,8 @@
 {
     "name": "Workshop Recyclers",
     "author": "AgentKush",
-    "version": "2.6",
-    "description": "Adds Biofuel Recycler and Organic Residue Recycler - dedicated machines for recycling 299 workshop items AND 1376 crafted items back into materials.",
+    "version": "2.7",
+    "description": "Adds Biofuel Recycler and Organic Residue Recycler - dedicated machines for recycling 309 workshop items AND 1396 crafted items back into materials. Compatible with Agent's BioLab and Hidden Building Pieces mods!",
     "fileName": "Workshop_Recyclers",
     "Level2": "True",
     "Rows": [
@@ -89249,6 +89249,1404 @@
                                 "DataTableName": "D_ItemTemplate"
                             },
                             "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Agents_Revolver",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "LegendaryWeapon_Black_Wolf_Revolver",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1000,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Agents_Rifle",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "LegendaryWeapon_Scorpion_Rifle",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1000,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Agents_Crossbow",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "LegendaryWeapon_Sandworm_Crossbow",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1000,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Agents_Gauntlet",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "LegendaryWeapon_GolemGauntlet",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1000,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Agents_Club",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "LegendaryWeapon_ApeClub",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1000,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Agents_Flamethrower",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "LegendaryWeapon_LavaHunter_Flamethrower",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1000,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Agents_Bow",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "LegendaryWeapon_Bow",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1000,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Agents_Sniper",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "LegendaryWeapon_Sniper",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1000,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Agents_SlugLauncher",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "LegendaryWeapon_SlugLauncher",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1000,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Recycle_Agents_Sledgehammer",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "LegendaryWeapon_IceMammoth_Sledgehammer",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Meta_Resource",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1000,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_Concrete_Diagonal_Set",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Diagonal_Set",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Mix",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Rebar",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_Concrete_Diagonal_Curved_Set",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Diagonal_Curved_Set",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Mix",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Rebar",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_Concrete_Wall_Curved",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Wall_Curved",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Mix",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Rebar",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_Concrete_Diagonal_Curved_Wall_Angles",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Diagonal_Curved_Wall_Angles",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Mix",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Rebar",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_Concrete_Roof_CurvedAngles",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Roof_CurvedAngles",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Mix",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Rebar",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_Concrete_Advanced_Beam_Set",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Advanced_Beam_Set",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Concrete_Mix",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Steel_Rebar",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_Glass_Diagonal_Set",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Glass_Diagonal_Set",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Refined_Metal",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Glass",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 6,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_Glass_Diagonal_Curved_Set",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Glass_Diagonal_Curved_Set",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Refined_Metal",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Glass",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 6,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_Glass_Wall_Curved",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Glass_Wall_Curved",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Refined_Metal",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Glass",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 6,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_Glass_Diagonal_Curved_Wall_Angles",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Glass_Diagonal_Curved_Wall_Angles",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Refined_Metal",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Glass",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 6,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_Glass_Roof_CurvedAngles",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Glass_Roof_CurvedAngles",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Refined_Metal",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 2,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Glass",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 6,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_Glass_Advanced_Beam_Set",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Glass_Advanced_Beam_Set",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Refined_Metal",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Glass",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 3,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_ClayBrick_Diagonal_Set",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "ClayBrick_Diagonal_Set",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Clay_Brick",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_ClayBrick_Diagonal_Curved_Set",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "ClayBrick_Diagonal_Curved_Set",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Clay_Brick",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_ClayBrick_Wall_Curved",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "ClayBrick_Wall_Curved",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Clay_Brick",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_ClayBrick_Diagonal_Curved_Wall_Angles",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "ClayBrick_Diagonal_Curved_Wall_Angles",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Clay_Brick",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_ClayBrick_Roof_CurvedAngles",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "ClayBrick_Roof_CurvedAngles",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Clay_Brick",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 20,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_ClayBrick_Advanced_Beam_Set",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "ClayBrick_Advanced_Beam_Set",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Clay_Brick",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_Biofuel_Recycler",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Biofuel_Recycler",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Steel_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 25,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Glass",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Epoxy",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 12,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 15,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Copper_Wire",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 40,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "ExoticProcessor"
+                    }
+                },
+                {
+                    "Name": "Deconstruct_Organic_Recycler",
+                    "RequiredMillijoules": 1000,
+                    "RecipeSets": [
+                        {
+                            "RowName": "Biofuel_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        },
+                        {
+                            "RowName": "Organic_Recycler",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Organic_Recycler",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 1
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "Composites",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 15,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Electronics",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Titanium_Ingot",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Shaped_Obsidian",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 5,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Platinum_Shealth",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 30,
                             "DynamicProperties": [],
                             "Alterations": []
                         }

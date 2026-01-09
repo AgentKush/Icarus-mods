@@ -1,6 +1,8 @@
-# ♻️ Workshop Recyclers `v2.6`
+# ♻️ Workshop Recyclers `v2.7`
 
-> **Two dedicated recycling machines with 1,677 recycling recipes!**
+> **Two dedicated recycling machines with 1,707 recycling recipes!**
+> 
+> **Now compatible with Agent's BioLab and Hidden Building Pieces mods!**
 
 This mod adds the **Biofuel Recycler** and **Organic Residue Recycler** - dedicated machines 
 for recycling both workshop items (for currency) AND crafted items (for materials).
@@ -21,14 +23,14 @@ for recycling both workshop items (for currency) AND crafted items (for material
 ### 1. Workshop Item Recycling → Currency
 Put workshop items in the recycler to get **Ren / Exotics / Red Exotics** back!
 
-- **299 workshop items** can be recycled
+- **309 workshop items** can be recycled (includes Agent's BioLab weapons)
 - Returns **100% of the replication cost**
 - Use an **Orbital Exchange Interface** to send currency to orbit
 
 ### 2. Crafted Item Deconstruction → Materials  
 Put any crafted item in the recycler to get the **original crafting materials** back!
 
-- **1376 crafted items** can be deconstructed
+- **1396 crafted items** can be deconstructed (includes Hidden Building Pieces + Recyclers)
 - Returns **100% of the materials** used to craft them
 - Works with tools, weapons, armor, buildings, deployables, food, and more!
 
