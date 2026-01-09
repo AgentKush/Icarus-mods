@@ -1,60 +1,47 @@
 # No Food Spoilage
 
-![No Food Spoilage](../images/no_spoil.png)
-
-**Version:** 1.2  
 **Author:** AgentKush  
-**Compatible with:** JimK72's Icarus Mod Manager (EXMODZ format)
+**Version:** 1.2
 
 ## Description
+Prevents all food items and volatile substances from spoiling in your inventory. Meat, fish, vegetables, and volatile substances will last forever! Also includes composter recipes to manually convert items if needed.
 
-Prevents all food items and volatile substances from spoiling in Icarus.
+## What's Affected
+- **Raw Meat** - All types (bear, wolf, fish, etc.)
+- **Cooked Food** - All prepared meals
+- **Vegetables** - Crops and gathered plants
+- **Fruits** - Berries and harvested fruits
+- **Fish** - All fish types
+- **Volatile Substances** - Unstable materials that normally decay
 
 ## Features
+- Food stays fresh indefinitely
+- No more rushing to cook meat before it spoils
+- Stock up on supplies for long expeditions
+- **8 composter recipes** included for manual conversion
 
-- **No Spoilage**: Meat, fish, vegetables, milk, cream, and volatile substances last forever
-- **Composter Recipes**: Manually convert raw meats into Spoiled Meat for fertilizer production
-
-## Composter Recipes Added
-
-Since food no longer spoils naturally, you need a way to produce Spoiled Meat for the composter. These recipes let you intentionally spoil raw meats when needed:
-
-| Input | Output |
-|-------|--------|
-| Raw Meat | Spoiled Meat |
-| Raw Fish | Spoiled Meat |
-| Raw Chicken | Spoiled Meat |
-| Raw Bacon | Spoiled Meat |
-| Gamey Meat | Spoiled Meat |
-| Soft Meat | Spoiled Meat |
-| Stringy Meat | Spoiled Meat |
-| White Meat | Spoiled Meat |
-
-## What's Protected
-
-- Raw and cooked meat
-- Fish (raw and cooked)
-- Vegetables and fruits
-- Milk and cream
-- Coconuts (all stages)
-- Dried and smoked meats
-- Frozen foods
-- Volatile substances
-- Bait
+## Technical Details
+- **Total modifications:** 28
+- **Files modified:**
+  - D_Decayable.json (20 items - spoilage disabled)
+  - D_ProcessorRecipes.json (8 recipes - composter options)
 
 ## Installation
+1. Download the `.EXMODZ` file
+2. Import into JimK72's Mod Manager
+3. Enable the mod and launch the game
 
-1. Download `No_Food_Spoilage.EXMOD` (or `.EXMODZ` if zipped)
-2. Place in your Mod Manager's `Extracted_Mods` folder
-3. Use JimK72's Mod Manager to merge and install
-4. Launch Icarus - your food will never spoil!
+## Compatibility
+- Works with Icarus base game and all DLCs
+- **Fully compatible** with FastProcessing mods (v4.0+)
+- Compatible with all other AgentKush mods
+
+## Notes
+- Items still show freshness indicators but won't actually spoil
+- Great for Open World mode and long missions
+- Composter recipes allow manual conversion if you want to process items
 
 ## Changelog
-
-- **v1.2** - Added composter recipes for creating Spoiled Meat from raw meats
-- **v1.1** - Added coverage for additional food types
-- **v1.0** - Initial release
-
-## License
-
-Free to use and modify. Credit appreciated!
+- **v1.2** - Added 8 composter recipes for manual conversion
+- **v1.1** - Added volatile substances
+- **v1.0** - Initial release with food items

@@ -1,62 +1,40 @@
 # Indestructible Tools & Weapons
 
-**Version:** 1.2  
 **Author:** AgentKush  
-**Compatible with:** JimK72's Icarus Mod Manager (EXMODZ format)
+**Version:** 1.3
 
 ## Description
+Makes all tools, weapons, armor, buildings, doors, and crafting stations virtually indestructible. Sets durability to the game's maximum cap so your equipment will never break during normal gameplay.
 
-Makes all tools, weapons, armor, buildings, doors, and crafting stations virtually indestructible. Sets durability to the game's maximum cap of **12,700,000** for everything.
+## What's Affected
+- **Tools** - Pickaxes, axes, knives, etc.
+- **Weapons** - All melee and ranged weapons
+- **Armor** - All armor pieces and suits
+- **Buildings** - Walls, floors, roofs, etc.
+- **Doors** - All door types
+- **Crafting Stations** - Benches, furnaces, processors
 
-## What's Included
-
-### Tools
-- All Axes (Stone → Meta, Slug Axe)
-- All Pickaxes (Stone → Meta, Scyther)
-- All Knives (Stone → Meta, Black Wolf, Mission Lion, Hornet)
-- All Shovels, Sickles, Hammers
-- Fishing Rods, Ploughs, Seed Harvester
-- Jackhammer, Mining Laser
-- Lantern, Fire Whacker, Fire Extinguisher, Shears
-
-### Weapons
-- All Bows (Wood → Compound, Plant Boss)
-- All Crossbows (Basic → Titanium, Scorpion)
-- All Spears (Wood → Meta, Scyther)
-- All Firearms (Pistols, Rifles, Shotguns, SMG, Flamethrower)
-- All Legendary Weapons (Slug Launcher, Golem Gauntlet, Black Wolf Revolver, etc.)
-
-### Armor & Shields
-- All armor sets (Cloth → Meta, all special armors)
-- All shields (Wooden → Meta)
-- Solar Backpack
-
-### Buildings
-- All building materials (Thatch, Wood, Stone, Concrete, Glass, etc.)
-- All doors
-- All crafting stations and benches
-- Lightning Rods
-- Windmill Blades
-
-## Technical Notes
-
-- Durability cap is **12,700,000** (game maximum)
-- Values above this get clamped by the game
-- Repair materials are preserved for all items
+## Technical Details
+- **Total modifications:** 191 items
+- **Files modified:**
+  - D_Durable.json (191 durability entries)
+- **Method:** Sets durability values to maximum game cap
 
 ## Installation
+1. Download the `.EXMODZ` file
+2. Import into JimK72's Mod Manager
+3. Enable the mod and launch the game
+4. All equipment now has maximum durability
 
-1. Download `Indestructible_Tools_Weapons.EXMOD` (or `.EXMODZ` if zipped)
-2. Place in your Mod Manager's `Extracted_Mods` folder
-3. Use JimK72's Mod Manager to merge and install
-4. Launch Icarus - everything is now indestructible!
+## Compatibility
+- Works with Icarus base game and all DLCs
+- Compatible with all other AgentKush mods
+- May conflict with other mods that modify D_Durable.json
+
+## Notes
+- Items still show durability bars but won't deplete during normal use
+- Useful for long expeditions and Open World gameplay
+- Great for testing builds without worrying about repairs
 
 ## Changelog
-
-- **v1.2** - Added all deployables (doors, crafting stations, benches)
-- **v1.1** - Fixed durability cap (12.7M max), added buildings
-- **v1.0** - Initial release
-
-## License
-
-Free to use and modify. Credit appreciated!
+- **v1.3** - Current stable release with 191 items covered

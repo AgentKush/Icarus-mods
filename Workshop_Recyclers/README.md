@@ -1,139 +1,54 @@
-# ♻️ Workshop Recyclers `v2.7`
+# Workshop Recyclers
 
-> **Two dedicated recycling machines with 1,707 recycling recipes!**
-> 
-> **Now compatible with Agent's BioLab and Hidden Building Pieces mods!**
+**Author:** AgentKush  
+**Version:** 2.7
 
-This mod adds the **Biofuel Recycler** and **Organic Residue Recycler** - dedicated machines 
-for recycling both workshop items (for currency) AND crafted items (for materials).
+## Description
+Adds two new recycling machines to the game - the Biofuel Recycler and Organic Residue Recycler. Recycle 309 workshop items into currency AND 1,396 crafted items back into materials. 1,707 total recipes!
 
----
-
-## 🔧 New Machines
-
-| Machine | Model Based On | Crafted At | Tech Tree |
-|:--------|:---------------|:-----------|:----------|
-| **Biofuel Recycler** | Biofuel Bio-Cleaner | Machining Bench / Fabricator | T3 Machine |
-| **Organic Residue Recycler** | Organic Residue Cleanser | Fabricator | T4 Fabricator |
-
----
-
-## 📦 Two Types of Recycling
-
-### 1. Workshop Item Recycling → Currency
-Put workshop items in the recycler to get **Ren / Exotics / Red Exotics** back!
-
-- **309 workshop items** can be recycled (includes Agent's BioLab weapons)
-- Returns **100% of the replication cost**
-- Use an **Orbital Exchange Interface** to send currency to orbit
-
-### 2. Crafted Item Deconstruction → Materials  
-Put any crafted item in the recycler to get the **original crafting materials** back!
-
-- **1396 crafted items** can be deconstructed (includes Hidden Building Pieces + Recyclers)
-- Returns **100% of the materials** used to craft them
-- Works with tools, weapons, armor, buildings, deployables, food, and more!
-
----
-
-## 📊 Stats
-
-| Stat | Value |
-|:-----|:------|
-| **Workshop Item Recipes** | 309 |
-| **Crafted Item Recipes** | 1,396 |
-| **Total Recipes** | 1,707 |
-
----
-
-## 🎮 How It Works
-
-### Recycling Workshop Items
-```
-[Workshop Pickaxe] → Recycler → [50 Ren] → Orbital Exchange → Account
-```
-
-### Deconstructing Crafted Items
-```
-[Iron Pickaxe] → Recycler → [4 Iron Ingot, 8 Wood, 4 Leather]
-[Steel Axe] → Recycler → [8 Steel Ingot, 4 Epoxy, 12 Wood]
-```
-
----
-
-## 🛠️ Crafting Requirements
+## Machines Included
 
 ### Biofuel Recycler
-| Material | Amount |
-|:---------|:------:|
-| Steel Ingot | 25 |
-| Glass | 10 |
-| Epoxy | 12 |
-| Electronics | 15 |
-| Copper Wire | 40 |
+- Converts workshop items into Biofuel currency
+- 309 workshop item recycling recipes
+- Perfect for unwanted workshop purchases
 
 ### Organic Residue Recycler
-| Material | Amount |
-|:---------|:------:|
-| Composites | 15 |
-| Electronics | 5 |
-| Titanium Ingot | 10 |
-| Shaped Obsidian | 5 |
-| Platinum Sheath | 30 |
+- Breaks down crafted items into base materials
+- 1,396 crafted item recycling recipes
+- Recover materials from items you no longer need
 
----
+## Features
+- **1,707 total recipes** across both machines
+- Recycle workshop purchases for partial refunds
+- Break down crafted gear into raw materials
+- Clean up inventory clutter productively
 
-## ✨ What Can Be Recycled?
+## Technical Details
+- **Total modifications:** 1719
+- **Files modified:**
+  - D_RecipeSets.json (2 items)
+  - D_Processing.json (2 items)
+  - D_Itemable.json (2 items)
+  - D_ItemsStatic.json (2 items)
+  - D_ItemTemplate.json (2 items)
+  - D_Talents.json (2 items)
+  - D_ProcessorRecipes.json (1707 recipes)
 
-### Workshop Items (Currency Refund)
-- Envirosuits, Armor pieces
-- Pickaxes, Axes, Knives
-- Bows, Rifles, Pistols
-- Radar, Extractors, Drills
-- Bedrolls, Canteens, Hunting Rifles
-- And 300+ more items!
+## Installation
+1. Download the `.EXMODZ` file
+2. Import into JimK72's Mod Manager
+3. Enable the mod and launch the game
+4. Craft the recyclers at the appropriate bench
 
-### Crafted Items (Material Refund)
-- **Tools**: Pickaxes, Axes, Knives, Sickles
-- **Weapons**: Bows, Spears, Guns, Crossbows
-- **Armor**: All armor pieces and attachments
-- **Building**: Walls, Floors, Roofs, Doors
-- **Deployables**: Benches, Furnaces, Generators
-- **Food**: Cooked meals, Medicine, Tonics
-- **Furniture**: Beds, Tables, Decorations
-- And 1,380+ more items!
+## Compatibility
+- Works with Icarus base game and all DLCs
+- **Fully compatible** with FastProcessing mods (v4.0+)
+- **Compatible** with Agent's BioLab mod
+- **Compatible** with Hidden Building Pieces mod
+- Compatible with all other AgentKush mods
 
-### NOT Recyclable
-- Mission/Quest items
-- Raw materials (ore, wood, fiber)
-- Processed materials (ingots, leather)
-- Currency items (Ren, Exotics)
-
----
-
-## 📝 Installation
-
-### Using JimK72's Mod Manager
-1. Import `Workshop_Recyclers.EXMODZ`
-2. Merge and install
-3. **Unlock in Tech Tree**:
-   - Biofuel Recycler: Blueprint T3 Machine tab (requires Bio-Cleaner)
-   - Organic Recycler: Blueprint T4 Fabricator tab (requires Refrigerator)
-4. Craft recyclers at Machining Bench (Biofuel) or Fabricator (both)
-
----
-
-## 🔄 Example Deconstruction Recipes
-
-| Input Item | Output Materials |
-|:-----------|:-----------------|
-| Stone Pickaxe | 10 Fiber, 4 Stick, 6 Stone |
-| Iron Pickaxe | 4 Iron Ingot, 8 Wood, 4 Leather |
-| Steel Axe | 8 Steel Ingot, 4 Epoxy, 12 Wood |
-| Concrete Wall | 4 Concrete Mix |
-| Wood Floor | 10 Wood |
-| Campfire | 8 Stick, 4 Stone, 10 Fiber |
-
----
-
-**Author:** AgentKush | **Version:** 2.7 | **Total Recipes:** 1,707
+## Changelog
+- **v2.7** - Current stable release with 1,707 recipes
+- **v2.0** - Added crafted item recycling (1,396 recipes)
+- **v1.0** - Initial release with workshop recycling (309 recipes)
