@@ -40,9 +40,9 @@ Put any crafted item in the recycler to get the **original crafting materials** 
 
 | Stat | Value |
 |:-----|:------|
-| **Workshop Item Recipes** | 299 |
-| **Crafted Item Recipes** | 1376 |
-| **Total Recipes** | 1,677 |
+| **Workshop Item Recipes** | 309 |
+| **Crafted Item Recipes** | 1,396 |
+| **Total Recipes** | 1,707 |
 
 ---
 
@@ -91,7 +91,7 @@ Put any crafted item in the recycler to get the **original crafting materials** 
 - Bows, Rifles, Pistols
 - Radar, Extractors, Drills
 - Bedrolls, Canteens, Hunting Rifles
-- And 290+ more items!
+- And 300+ more items!
 
 ### Crafted Items (Material Refund)
 - **Tools**: Pickaxes, Axes, Knives, Sickles
@@ -101,7 +101,7 @@ Put any crafted item in the recycler to get the **original crafting materials** 
 - **Deployables**: Benches, Furnaces, Generators
 - **Food**: Cooked meals, Medicine, Tonics
 - **Furniture**: Beds, Tables, Decorations
-- And 1,300+ more items!
+- And 1,380+ more items!
 
 ### NOT Recyclable
 - Mission/Quest items
@@ -123,17 +123,6 @@ Put any crafted item in the recycler to get the **original crafting materials** 
 
 ---
 
-## ⚠️ Testing Needed
-
-- [ ] Do recyclers appear in Fabricator?
-- [ ] Do tech tree talents unlock properly?
-- [ ] Can recyclers be placed and used?
-- [ ] Do workshop recycling recipes work?
-- [ ] Do crafted item deconstruction recipes work?
-- [ ] Are all materials returned correctly?
-
----
-
 ## 🔄 Example Deconstruction Recipes
 
 | Input Item | Output Materials |
@@ -147,4 +136,4 @@ Put any crafted item in the recycler to get the **original crafting materials** 
 
 ---
 
-**Author:** AgentKush | **Version:** 2.6 | **Total Recipes:** 1,677
+**Author:** AgentKush | **Version:** 2.7 | **Total Recipes:** 1,707
