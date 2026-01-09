@@ -1,6 +1,6 @@
-# ♻️ Workshop Recyclers `v2.5`
+# ♻️ Workshop Recyclers `v2.6`
 
-> **Two dedicated recycling machines with 1,638 recycling recipes!**
+> **Two dedicated recycling machines with 1,677 recycling recipes!**
 
 This mod adds the **Biofuel Recycler** and **Organic Residue Recycler** - dedicated machines 
 for recycling both workshop items (for currency) AND crafted items (for materials).
@@ -21,7 +21,7 @@ for recycling both workshop items (for currency) AND crafted items (for material
 ### 1. Workshop Item Recycling → Currency
 Put workshop items in the recycler to get **Ren / Exotics / Red Exotics** back!
 
-- **260 workshop items** can be recycled
+- **299 workshop items** can be recycled
 - Returns **100% of the replication cost**
 - Use an **Orbital Exchange Interface** to send currency to orbit
 
@@ -38,9 +38,9 @@ Put any crafted item in the recycler to get the **original crafting materials** 
 
 | Stat | Value |
 |:-----|:------|
-| **Workshop Item Recipes** | 260 |
+| **Workshop Item Recipes** | 299 |
 | **Crafted Item Recipes** | 1376 |
-| **Total Recipes** | 1,638 |
+| **Total Recipes** | 1,677 |
 
 ---
 
@@ -145,4 +145,4 @@ Put any crafted item in the recycler to get the **original crafting materials** 
 
 ---
 
-**Author:** AgentKush | **Version:** 2.5 | **Total Recipes:** 1,638
+**Author:** AgentKush | **Version:** 2.6 | **Total Recipes:** 1,677

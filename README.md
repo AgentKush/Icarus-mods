@@ -37,7 +37,7 @@
 | 🩹 **[Affliction Adjuster](./Modular_Affliction_Adjuster)** | 110 afflictions reduced by ~50% | `v2.0` |
 | 💪 **[Buff Enhancer](./Modular_Buff_Enhancer)** | 239 buffs boosted by ~50% | `v1.1` |
 | 🏗️ **[Hidden Building Pieces](./Hidden_Building_Pieces)** | 18 diagonal/curved building sets | `v1.0.7` |
-| ♻️ **[Workshop Recyclers](./Workshop_Recyclers)** | Recycle items for currency & materials | `v2.5` |
+| ♻️ **[Workshop Recyclers](./Workshop_Recyclers)** | Recycle items for currency & materials | `v2.6` |
 
 ---
 
@@ -308,9 +308,9 @@ These building pieces exist in the game files but aren't normally available. Thi
 
 ---
 
-## ♻️ Workshop Recyclers `v2.5`
+## ♻️ Workshop Recyclers `v2.6`
 
-> **Two new machines with 1,638 recycling recipes!**
+> **Two new machines with 1,677 recycling recipes!**
 
 Adds the **Biofuel Recycler** and **Organic Residue Recycler** - dedicated machines for recycling both workshop items (for currency) AND crafted items (for materials).
 
@@ -414,6 +414,18 @@ Put any crafted item in the recycler to get the **original crafting materials** 
 ---
 
 ## 📋 Changelog
+
+### v2.6 - Workshop Recyclers (MAJOR FIX)
+- **Fixed currency parsing** - Now correctly identifies Exotic1 and Exotic_Red currencies
+- **Added 39 missing workshop items** that cost Exotics or Red Exotics:
+  - The Excavator (Workshop Shovel) - 250 Exotics
+  - Shengong CZ4 Bow - 150 Red Exotics
+  - Shengong UT5 Pickaxe - 150 Red Exotics
+  - All Shengong Echo tools (CY7 Axe, DL7 Knife, PF1 Spear, etc.)
+  - All module items (Food, Oxygen, Water, Melee, etc.)
+  - Larkwell White armor set - 50 Red Exotics each
+  - And many more!
+- Updated recipe count: 299 workshop + 1,376 crafted = 1,677 total
 
 ### v2.5 - Workshop Recyclers (MAJOR FIX)
 - **Fixed all workshop item references** - Items now use correct D_ItemsStatic names
