@@ -1,0 +1,23 @@
+{
+  "name": "Always_Show_Buildings_On_Map",
+  "author": "AgentKush",
+  "fileName": "Always_Show_Buildings_On_Map",
+  "version": "1.0",
+  "description": "Always shows player-built structures on the map and minimap without requiring any special stats or radar. Buildings will always display the home icon.",
+  "week": "",
+  "Level2": "True",
+  "Rows": [
+    {
+      "CurrentFile": "UI-D_MapIcons.json",
+      "File_Items": [
+        {
+          "Name": "Grid",
+          "RequiredPlayerStatToShow": {
+            "Value": "None"
+          },
+          "bDisplayOnCompass": true
+        }
+      ]
+    }
+  ]
+}
