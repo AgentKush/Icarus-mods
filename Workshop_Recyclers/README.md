@@ -14,17 +14,21 @@ Introduces two dedicated recycling machines that enable material recovery from b
 
 | Specification | Value |
 |---------------|-------|
+| Base Machine | Biofuel Bio-Cleaner (T3) |
 | Function | Converts Workshop items to currencies |
 | Recipes | 280 |
 | Returns | Ren, Exotic1, or Exotic_Red based on original cost |
+| Repair Materials | Same as Biofuel Bio-Cleaner |
 
 ### Organic Residue Recycler
 
 | Specification | Value |
 |---------------|-------|
+| Base Machine | Organic Residue Cleanser (T4) |
 | Function | Breaks down crafted items into base materials |
 | Recipes | 1,343 |
 | Use Case | Recover materials from obsolete equipment |
+| Repair Materials | Same as Organic Residue Cleanser |
 
 ### Combined Statistics
 
@@ -116,7 +120,7 @@ All 8 Agents of Icarus DLC legendary weapons are recyclable:
 
 | Version | Changes |
 |---------|---------|
-| 3.8 | Fixed repair functionality - Biofuel Recycler uses T3_Cleaner, Organic Recycler uses T4_Cleaner |
+| 3.8 | Fixed repair functionality - Biofuel Recycler uses same materials as Biofuel Bio-Cleaner (T3), Organic Recycler uses same materials as Organic Residue Cleanser (T4) |
 | 3.5 | Fixed Agents legendary weapons to return 125 Exotic_Red each |
 | 3.4 | Fixed dual currency returns - items costing Credits + Exotics now return both |
 | 3.3 | Fixed exotic returns - items costing Exotic1 or Exotic_Red now return correct currency |

@@ -16,7 +16,7 @@ A curated collection of quality-of-life modifications for **Icarus: First Cohort
 |-----|---------|-------------|---------------|
 | [Agent's BioLab](./Agents_BioLab) | 1.8 | All 10 Bio Lab Legendary weapons in Workshop | 22 |
 | [Individual Item Kits](./Agents_Individual_Item_Kits) | 2.0 | 1,396 individual items organized in 73 categories | 8,378 |
-| [Workshop Recyclers](./Workshop_Recyclers) | 3.5 | Two recycling machines with 1,623 recipes | 1,635 |
+| [Workshop Recyclers](./Workshop_Recyclers) | 3.8 | Two recyclers based on Biofuel Bio-Cleaner & Organic Residue Cleanser | 1,635 |
 
 ### Processing Speed
 
@@ -91,4 +91,4 @@ These mods are free to use, modify, and redistribute. Attribution appreciated bu
 
 ## 🕐 Last Updated
 
-**January 11, 2026** - Verified compatible with Icarus Week 214 (v2.3.25.146718)
+**January 12, 2026** - Verified compatible with Icarus Week 214 (v2.3.25.146718)

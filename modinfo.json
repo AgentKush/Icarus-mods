@@ -161,7 +161,7 @@
             "author": "AgentKush",
             "version": "3.8",
             "compatibility": "All",
-            "description": "Two recycling machines with 1,623 recipes. Returns proper currencies: Ren, Exotic1, and Exotic_Red based on original Workshop costs. v3.8: Fixed repair materials.",
+            "description": "Two recycling machines based on Biofuel Bio-Cleaner (T3) and Organic Residue Cleanser (T4). 1,623 recipes returning Ren, Exotic1, and Exotic_Red. v3.8: Fixed repair materials.",
             "fileName": "Workshop_Recyclers",
             "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/workshop_recyclers.png",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/README.md",
