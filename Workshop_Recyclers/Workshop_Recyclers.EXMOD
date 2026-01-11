@@ -1,7 +1,7 @@
 {
     "name": "Workshop Recyclers",
     "author": "AgentKush",
-    "version": "2.7",
+    "version": "3.8",
     "description": "Adds Biofuel Recycler and Organic Residue Recycler - dedicated machines for recycling 309 workshop items AND 1396 crafted items back into materials. Compatible with Agent's BioLab and Hidden Building Pieces mods!",
     "fileName": "Workshop_Recyclers",
     "Level2": "True",

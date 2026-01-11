@@ -6,7 +6,7 @@
 
 ## Overview
 
-Eliminates equipment degradation by setting all durability values to the game's maximum cap. Tools, weapons, armor, buildings, and crafting stations become virtually indestructible during normal gameplay.
+Eliminates equipment degradation by setting all durability values to the game's maximum cap (12,700,000). Tools, weapons, armor, buildings, and crafting stations become virtually indestructible during normal gameplay.
 
 ## Features
 
@@ -14,23 +14,24 @@ Eliminates equipment degradation by setting all durability values to the game's 
 
 | Category | Items Covered |
 |----------|---------------|
-| Tools | Pickaxes, axes, sickles, knives, repair hammers |
-| Melee Weapons | Swords, spears, knives, hammers, axes |
-| Ranged Weapons | Bows, crossbows, rifles, pistols |
-| Armor | All tiers and suit types |
-| Buildings | Walls, floors, roofs, foundations |
-| Doors & Gates | All door variants |
-| Crafting Stations | Benches, furnaces, processors, fabricators |
+| Tools | Pickaxes, axes, sickles, knives, repair hammers, shovels, fishing rods |
+| Melee Weapons | Swords, spears, knives, hammers, axes, sledgehammers |
+| Ranged Weapons | Bows, crossbows, rifles, pistols, shotguns, flamethrowers |
+| Armor | All tiers and suit types including Workshop armor |
+| Shields | All shield variants |
+| Buildings | Walls, floors, roofs, foundations across all material types |
+| Deployables | All placeable equipment and crafting stations |
+| Legendary Weapons | All Bio Lab and special legendary weapons |
 
 ## Technical Specifications
 
 | Metric | Value |
 |--------|-------|
-| Total Modifications | 191 |
-| Durability Setting | Maximum game cap |
+| Total Modifications | 168 |
+| Durability Setting | 12,700,000 (maximum game cap) |
 
 ### Files Modified
-- `Traits-D_Durable.json` (191 entries)
+- `Traits-D_Durable.json` (168 entries)
 
 ## Installation
 
@@ -46,6 +47,7 @@ Eliminates equipment degradation by setting all durability values to the game's 
 - Ideal for extended expeditions and Open World gameplay
 - Eliminates repair material requirements
 - Allows focus on exploration and building without maintenance concerns
+- Repair materials still assigned for items that require them
 
 ## Compatibility
 
@@ -58,7 +60,9 @@ Eliminates equipment degradation by setting all durability values to the game's 
 
 | Version | Changes |
 |---------|---------|
-| 1.3 | Expanded coverage to 191 items |
+| 1.3 | Expanded coverage to 168 items including legendary weapons and Workshop gear |
+| 1.2 | Added building and deployable durability |
+| 1.0 | Initial release |
 
 ---
 

@@ -22,11 +22,11 @@ A curated collection of quality-of-life modifications for **Icarus: First Cohort
 
 | Mod | Version | Speed | Recipes |
 |-----|---------|-------|---------|
-| [FastProcessing 5x](./FastProcessing_All_5x) | 4.0 | 5x faster | 3,364 |
-| [FastProcessing 10x](./FastProcessing_All_10x) | 4.0 | 10x faster | 3,364 |
-| [FastProcessing 15x](./FastProcessing_All_15x) | 4.0 | 15x faster | 3,364 |
-| [FastProcessing 25x](./FastProcessing_All_25x) | 4.0 | 25x faster | 3,364 |
-| [FastProcessing Instant](./FastProcessing_Instant) | 4.0 | Instant | 3,364 |
+| [FastProcessing 5x](./FastProcessing_All_5x) | 4.0 | 5x faster | 3,448 |
+| [FastProcessing 10x](./FastProcessing_All_10x) | 4.0 | 10x faster | 3,448 |
+| [FastProcessing 15x](./FastProcessing_All_15x) | 4.0 | 15x faster | 3,448 |
+| [FastProcessing 25x](./FastProcessing_All_25x) | 4.0 | 25x faster | 3,448 |
+| [FastProcessing Instant](./FastProcessing_Instant) | 4.0 | Instant | 3,448 |
 
 > ⚠️ **Note:** Use only ONE FastProcessing variant at a time.
 
@@ -34,7 +34,7 @@ A curated collection of quality-of-life modifications for **Icarus: First Cohort
 
 | Mod | Version | Description | Modifications |
 |-----|---------|-------------|---------------|
-| [Indestructible Tools & Weapons](./Indestructible_Tools_Weapons) | 1.3 | Maximum durability on all equipment | 191 |
+| [Indestructible Tools & Weapons](./Indestructible_Tools_Weapons) | 1.3 | Maximum durability on all equipment | 168 |
 | [No Food Spoilage](./No_Food_Spoilage) | 1.2 | Prevents food and volatile decay | 28 |
 | [Hidden Building Pieces](./Hidden_Building_Pieces) | 1.0.7 | 18 diagonal/curved building sets | 60 |
 | [Always Show Buildings](./Always_show_buildings_on_map) | 1.0 | Buildings always visible on map/minimap | 1 |
@@ -63,7 +63,7 @@ All mods are designed to work together. FastProcessing v4.0 includes full recipe
 
 | Mod | Base Game | Workshop Recyclers | Hidden Building |
 |-----|-----------|-------------------|-----------------|
-| FastProcessing (all) | ✅ 1,723 | ✅ 1,623 | ✅ 18 |
+| FastProcessing (all) | ✅ 1,807 | ✅ 1,623 | ✅ 18 |
 | Workshop Recyclers | ✅ | — | ✅ |
 | Hidden Building Pieces | ✅ | ✅ | — |
 | All other mods | ✅ | ✅ | ✅ |
@@ -91,4 +91,4 @@ These mods are free to use, modify, and redistribute. Attribution appreciated bu
 
 ## 🕐 Last Updated
 
-**January 12, 2026** - Verified compatible with Icarus Week 214 (v2.3.25.146718)
+**January 12, 2026** - Synchronized all README files and modinfo.json with EXMOD sources
