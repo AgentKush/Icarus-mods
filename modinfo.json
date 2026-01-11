@@ -27,6 +27,19 @@
             }
         },
         {
+            "name": "Culinex Food Boost Fix",
+            "author": "AgentKush",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Fixes Chef's Backpack 25% food effectiveness boost to work on all 158 cooked foods. Includes raw chicken butchery recipe.",
+            "fileName": "Culinex_Food_Boost_Fix",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/culinex_food_boost.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Culinex_Food_Boost_Fix/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Culinex_Food_Boost_Fix/Culinex_Food_Boost_Fix.EXMODZ"
+            }
+        },
+        {
             "name": "FastProcessing All 5x",
             "author": "AgentKush",
             "version": "4.0",

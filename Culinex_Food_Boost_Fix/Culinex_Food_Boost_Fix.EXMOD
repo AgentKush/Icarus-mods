@@ -1294,7 +1294,7 @@
           "Inputs": [
             {
               "Element": {
-                "RowName": "AnimalCarcass_Chicken",
+                "RowName": "Raw_Meat",
                 "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
