@@ -3,7 +3,7 @@
 ![Version](https://img.shields.io/badge/version-4.0-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
-![Recipes](https://img.shields.io/badge/recipes-3,448-orange)
+![Recipes](https://img.shields.io/badge/recipes-3,364-orange)
 
 ## Overview
 
@@ -14,27 +14,27 @@ Reduces all crafting and processing times to 20% of their original duration (5x 
 ### Speed Modification
 - **Processing Time:** Reduced to 20% (5x faster)
 - **All Stations:** Every crafting bench, furnace, and processor affected
-- **Full Coverage:** 3,448 recipes modified
+- **Full Coverage:** 3,364 recipes modified
 
 ### Recipe Sources
 
 | Source | Recipe Count |
 |--------|--------------|
 | Base Game | 1,723 |
-| Workshop Recyclers | 1,707 |
+| Workshop Recyclers | 1,623 |
 | Hidden Building Pieces | 18 |
-| **Total** | **3,448** |
+| **Total** | **3,364** |
 
 ## Technical Specifications
 
 | Metric | Value |
 |--------|-------|
-| Total Recipes | 3,448 |
+| Total Recipes | 3,364 |
 | Speed Multiplier | 5x |
 | Processing Reduction | 80% |
 
 ### Files Modified
-- `Crafting-D_ProcessorRecipes.json` (3,448 entries)
+- `Crafting-D_ProcessorRecipes.json` (3,364 entries)
 
 ## Installation
 
@@ -51,7 +51,7 @@ Reduces all crafting and processing times to 20% of their original duration (5x 
 
 | Mod | Status |
 |-----|--------|
-| Workshop Recyclers | ✅ All 1,707 recipes included |
+| Workshop Recyclers | ✅ All 1,623 recipes included |
 | Hidden Building Pieces | ✅ All 18 recipes included |
 | All AgentKush mods | ✅ Compatible |
 | Other FastProcessing variants | ❌ Use only one |
@@ -60,17 +60,17 @@ Reduces all crafting and processing times to 20% of their original duration (5x 
 
 | Variant | Speed | Recipes |
 |---------|-------|---------|
-| FastProcessing 5x | 5x faster | 3,448 |
-| [FastProcessing 10x](../FastProcessing_All_10x) | 10x faster | 3,448 |
-| [FastProcessing 15x](../FastProcessing_All_15x) | 15x faster | 3,448 |
-| [FastProcessing 25x](../FastProcessing_All_25x) | 25x faster | 3,448 |
-| [FastProcessing Instant](../FastProcessing_Instant) | Instant | 3,448 |
+| FastProcessing 5x | 5x faster | 3,364 |
+| [FastProcessing 10x](../FastProcessing_All_10x) | 10x faster | 3,364 |
+| [FastProcessing 15x](../FastProcessing_All_15x) | 15x faster | 3,364 |
+| [FastProcessing 25x](../FastProcessing_All_25x) | 25x faster | 3,364 |
+| [FastProcessing Instant](../FastProcessing_Instant) | Instant | 3,364 |
 
 ## Version History
 
 | Version | Changes |
 |---------|---------|
-| 4.0 | Added Workshop Recyclers + Hidden Building Pieces compatibility (1,723 → 3,448 recipes) |
+| 4.0 | Added Workshop Recyclers + Hidden Building Pieces compatibility (1,723 → 3,364 recipes) |
 | 3.0 | Added 666 missing base game recipes (1,057 → 1,723) |
 | 2.0 | Initial release with 1,057 recipes |
 

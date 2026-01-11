@@ -16,17 +16,17 @@ A curated collection of quality-of-life modifications for **Icarus: First Cohort
 |-----|---------|-------------|---------------|
 | [Agent's BioLab](./Agents_BioLab) | 1.8 | All 10 Bio Lab Legendary weapons in Workshop | 22 |
 | [Individual Item Kits](./Agents_Individual_Item_Kits) | 2.0 | 1,396 individual items organized in 73 categories | 8,378 |
-| [Workshop Recyclers](./Workshop_Recyclers) | 2.7 | Two recycling machines with 1,707 recipes | 1,719 |
+| [Workshop Recyclers](./Workshop_Recyclers) | 3.5 | Two recycling machines with 1,623 recipes | 1,635 |
 
 ### Processing Speed
 
 | Mod | Version | Speed | Recipes |
 |-----|---------|-------|---------|
-| [FastProcessing 5x](./FastProcessing_All_5x) | 4.0 | 5x faster | 3,448 |
-| [FastProcessing 10x](./FastProcessing_All_10x) | 4.0 | 10x faster | 3,448 |
-| [FastProcessing 15x](./FastProcessing_All_15x) | 4.0 | 15x faster | 3,448 |
-| [FastProcessing 25x](./FastProcessing_All_25x) | 4.0 | 25x faster | 3,448 |
-| [FastProcessing Instant](./FastProcessing_Instant) | 4.0 | Instant | 3,448 |
+| [FastProcessing 5x](./FastProcessing_All_5x) | 4.0 | 5x faster | 3,364 |
+| [FastProcessing 10x](./FastProcessing_All_10x) | 4.0 | 10x faster | 3,364 |
+| [FastProcessing 15x](./FastProcessing_All_15x) | 4.0 | 15x faster | 3,364 |
+| [FastProcessing 25x](./FastProcessing_All_25x) | 4.0 | 25x faster | 3,364 |
+| [FastProcessing Instant](./FastProcessing_Instant) | 4.0 | Instant | 3,364 |
 
 > ⚠️ **Note:** Use only ONE FastProcessing variant at a time.
 
@@ -63,7 +63,7 @@ All mods are designed to work together. FastProcessing v4.0 includes full recipe
 
 | Mod | Base Game | Workshop Recyclers | Hidden Building |
 |-----|-----------|-------------------|-----------------|
-| FastProcessing (all) | ✅ 1,723 | ✅ 1,707 | ✅ 18 |
+| FastProcessing (all) | ✅ 1,723 | ✅ 1,623 | ✅ 18 |
 | Workshop Recyclers | ✅ | — | ✅ |
 | Hidden Building Pieces | ✅ | ✅ | — |
 | All other mods | ✅ | ✅ | ✅ |
