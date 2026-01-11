@@ -159,9 +159,9 @@
         {
             "name": "Workshop Recyclers",
             "author": "AgentKush",
-            "version": "2.7",
+            "version": "3.5",
             "compatibility": "All",
-            "description": "Two recycling machines: Biofuel Recycler (309 Workshop items) and Organic Residue Recycler (1,396 crafted items). 1,707 total recipes.",
+            "description": "Two recycling machines with 1,623 recipes. Returns proper currencies: Ren, Exotic1 (purple), and Exotic_Red based on original Workshop costs. Includes Agents legendary weapons.",
             "fileName": "Workshop_Recyclers",
             "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/workshop_recyclers.png",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/README.md",
