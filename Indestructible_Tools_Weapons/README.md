@@ -27,11 +27,11 @@ Eliminates equipment degradation by setting all durability values to the game's 
 
 | Metric | Value |
 |--------|-------|
-| Total Modifications | 168 |
+| Total Modifications | 191 |
 | Durability Setting | 12,700,000 (maximum game cap) |
 
 ### Files Modified
-- `Traits-D_Durable.json` (168 entries)
+- `Traits-D_Durable.json` (191 entries)
 
 ## Installation
 
@@ -60,7 +60,7 @@ Eliminates equipment degradation by setting all durability values to the game's 
 
 | Version | Changes |
 |---------|---------|
-| 1.3 | Expanded coverage to 168 items including legendary weapons and Workshop gear |
+| 1.3 | Expanded coverage to 191 items including legendary weapons and Workshop gear |
 | 1.2 | Added building and deployable durability |
 | 1.0 | Initial release |
 

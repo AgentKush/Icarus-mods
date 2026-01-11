@@ -20,9 +20,9 @@ Reduces all crafting and processing times to ~6.7% of their original duration (1
 
 | Source | Recipe Count |
 |--------|--------------|
-| Base Game | 1,807 |
+| Base Game | 1,771 |
 | Workshop Recyclers | 1,623 |
-| Hidden Building Pieces | 18 |
+| Hidden Building Pieces | 54 |
 | **Total** | **3,448** |
 
 ## Technical Specifications
@@ -52,7 +52,7 @@ Reduces all crafting and processing times to ~6.7% of their original duration (1
 | Mod | Status |
 |-----|--------|
 | Workshop Recyclers | ✅ All 1,623 recipes included |
-| Hidden Building Pieces | ✅ All 18 recipes included |
+| Hidden Building Pieces | ✅ All 54 recipes included |
 | All AgentKush mods | ✅ Compatible |
 | Other FastProcessing variants | ❌ Use only one |
 
