@@ -1,0 +1,1321 @@
+{
+  "name": "Culinex_Food_Boost_Fix",
+  "author": "AgentKush",
+  "fileName": "Culinex_Food_Boost_Fix",
+  "version": "1.0",
+  "description": "Fixes Culinex (Chef's Backpack) 25% food boost to apply to all cooked foods. Also adds raw chicken to the butchery bench.",
+  "week": "",
+  "Level2": "True",
+  "Rows": [
+    {
+      "CurrentFile": "Modifiers-D_ModifierStates.json",
+      "File_Items": [
+        {
+          "Name": "Agave_Syrup",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Bacon_Sandwich",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Banana",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Banana_Bread",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Beer",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Berry",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Berry_Bar",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Big_Breakfast",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Bread",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Caramel_Fruit_Tart",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Caramelized_Onions",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Carrot_Cake_Piece",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cheese",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cheese_Pizza",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cheese_Roll",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Choc_Chip_Cookie",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Chocolate_Cake_Piece",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Coconut",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Coconut_Cake_Piece",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Coconut_Cookie",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Coconut_Mature",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Coconut_Mid",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "CookedFish",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "CookedMeat",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Agave",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Bacon",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Carrot",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Corn",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Eggs",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Fatty_TBone",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Gamey_Meat",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Garlic",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Giant_Steak",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Kumara",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Mushroom",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Onion",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Potato",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_PricklyPear",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Prime_Meat",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Pumpkin",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Rhubarb",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Soft_Meat",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Soy_Bean",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Squash",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Stringy_Meat",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Tomato",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_Truffle",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Cooked_White_Meat",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Corn_Soup",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Creamed_Corn",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Crispy_Bacon",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Crumbed_Fish",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Crumbed_Saltwater_Fillet",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Dried_Avocado",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Dried_Fatty_Tbone",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Dried_Freshwater_Fillet",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Dried_Gamey_Meat",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Dried_Giant_Steak",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Dried_Kiwifruit",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Dried_Meat_Generic",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Dried_Rhubarb",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Dried_Saltwater_Fillet",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Dried_Soft_Meat",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Dried_Stringy_Meat",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Dried_Tomato",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Dried_White_Meat",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Egg_Salad",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Energy_Bar",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Fish_Chunk_Stew",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Fish_Dish",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Fish_Fillet_Pie",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "FlatBread",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "French_Onion_Soup",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Freshwater_Fillet_Curry",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Fried_Chicken",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Fried_Chunky_Vegetables",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Fried_Fish_Chunks",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Fried_Soy_Beans",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Fruit_Muffin",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Fruit_Pie",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Fruit_Salad",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Fruit_Snack_Pack",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Garlic_Bread",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Garlic_Butter",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Garlic_Pizza",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Glazed_Carrots",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Grilled_Chicken",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Grilled_Freshwater_Fillet",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Grilled_Saltwater_Fillet",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Hearty_Salad",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Honey",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Honey_Bar",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Honey_Jar",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Honey_Mead",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Honey_Pastry",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Jar_Jam",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Kiwi_Fruit",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Kiwifruit_Jam",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Kiwifruit_Sorbet",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Meat_Pie",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Meat_Stew",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Meta_Ration",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Mixed_Berries",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Mushroom_Omlette",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Mushroom_Soup",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Onion_Rings",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Onion_Souffle",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Pavlova",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Picked_Carrot",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Picked_Tomato",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Pickled_Avocado",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Pickled_Eggs",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Pickled_Freshwater_Fillet",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Potato_Bread",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Potato_Carrot_Fries",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "PricklyPear_Jelly",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "PricklyPear_Margarita",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "PricklyPear_Muffins",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Pumpkin_Bread",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Pumpkin_Pie",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Rhubarb_Stew",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Roast_Chicken",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Roasted_Vegetables",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Salted_Caramel_Pastry",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Saltwater_Fillet_Sashimi",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Savory_Roll",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Scrambled_Eggs",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Seed_Bread",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Seed_Crackers",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Shepherds_Pie",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Shepherds_Roll",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Smashed_Avocado",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Smoked_Bacon",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Smoked_Fatty_Tbone",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Smoked_Freshwater_Fillet",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Smoked_Gamey_Meat",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Smoked_Garlic",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Smoked_Giant_Steak",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Smoked_Meat_Generic",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Smoked_Saltwater_Fillet",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Smoked_Soft_Meat",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Smoked_Stringy_Meat",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Smoked_White_Meat",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Strawberries_And_Cream",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Strawberry_Jam",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Stuffed_Avocado",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Tequila",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Tomato_Soup",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Truffle_Focaccia",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Truffle_Fries",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Truffle_Pasta",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Truffle_Vodka",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Vegetable_Pie",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Vegetable_Roll",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Vodka",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Watermelon",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Wild_Salad",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        },
+        {
+          "Name": "Wine",
+          "ModifierEffectivenessAffectors": [
+            {
+              "Value": "CookedFoodModifierEffectiveness_+%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Processors-D_ProcessorRecipes.json",
+      "File_Items": [
+        {
+          "Name": "Raw_Chicken_Butchery",
+          "RecipeSets": [
+            {
+              "RowName": "Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Advanced_Butchery_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "AnimalCarcass_Chicken",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Raw_Chicken",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 2,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "CookingStation"
+          }
+        }
+      ]
+    }
+  ]
+}
