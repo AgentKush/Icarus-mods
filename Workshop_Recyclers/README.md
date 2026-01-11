@@ -1,6 +1,6 @@
 # Workshop Recyclers
 
-![Version](https://img.shields.io/badge/version-3.5-blue)
+![Version](https://img.shields.io/badge/version-3.8-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
@@ -116,6 +116,7 @@ All 8 Agents of Icarus DLC legendary weapons are recyclable:
 
 | Version | Changes |
 |---------|---------|
+| 3.8 | Fixed repair functionality - Biofuel Recycler uses T3_Cleaner, Organic Recycler uses T4_Cleaner |
 | 3.5 | Fixed Agents legendary weapons to return 125 Exotic_Red each |
 | 3.4 | Fixed dual currency returns - items costing Credits + Exotics now return both |
 | 3.3 | Fixed exotic returns - items costing Exotic1 or Exotic_Red now return correct currency |

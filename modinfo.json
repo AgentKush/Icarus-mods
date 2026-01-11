@@ -159,9 +159,9 @@
         {
             "name": "Workshop Recyclers",
             "author": "AgentKush",
-            "version": "3.5",
+            "version": "3.8",
             "compatibility": "All",
-            "description": "Two recycling machines with 1,623 recipes. Returns proper currencies: Ren, Exotic1 (purple), and Exotic_Red based on original Workshop costs. Includes Agents legendary weapons.",
+            "description": "Two recycling machines with 1,623 recipes. Returns proper currencies: Ren, Exotic1, and Exotic_Red based on original Workshop costs. v3.8: Fixed repair materials.",
             "fileName": "Workshop_Recyclers",
             "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/workshop_recyclers.png",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/README.md",
