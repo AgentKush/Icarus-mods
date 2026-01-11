@@ -1,6 +1,6 @@
 # Agent's BioLab
 
-![Version](https://img.shields.io/badge/version-1.7-blue)
+![Version](https://img.shields.io/badge/version-1.8-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
@@ -60,8 +60,9 @@ Agent's BioLab brings all 10 legendary Bio Lab weapons to the Workshop, making t
 ## Version History
 
 | Version | Changes |
-|---------|---------|
-| 1.7 | Current stable release |
+|---------|---------|  
+| 1.8 | Fixed item references for Ape Club and Heavy Flamethrower (Week 214 compatibility) |
+| 1.7 | Previous stable release |
 
 ---
 

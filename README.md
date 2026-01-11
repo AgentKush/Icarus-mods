@@ -1,7 +1,7 @@
 # Icarus Mods Collection
 
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
-![Mods](https://img.shields.io/badge/mods-13-blue)
+![Mods](https://img.shields.io/badge/mods-14-blue)
 ![License](https://img.shields.io/badge/license-Free%20to%20Use-brightgreen)
 
 A curated collection of quality-of-life modifications for **Icarus: First Cohort**. All mods are designed for use with [JimK72's Icarus Mod Manager](https://github.com/JimK72/Icarus-Mod-Manager).
@@ -14,7 +14,7 @@ A curated collection of quality-of-life modifications for **Icarus: First Cohort
 
 | Mod | Version | Description | Modifications |
 |-----|---------|-------------|---------------|
-| [Agent's BioLab](./Agents_BioLab) | 1.7 | All 10 Bio Lab Legendary weapons in Workshop | 22 |
+| [Agent's BioLab](./Agents_BioLab) | 1.8 | All 10 Bio Lab Legendary weapons in Workshop | 22 |
 | [Individual Item Kits](./Agents_Individual_Item_Kits) | 2.0 | 1,396 individual items organized in 73 categories | 8,378 |
 | [Workshop Recyclers](./Workshop_Recyclers) | 2.7 | Two recycling machines with 1,707 recipes | 1,719 |
 
@@ -37,6 +37,7 @@ A curated collection of quality-of-life modifications for **Icarus: First Cohort
 | [Indestructible Tools & Weapons](./Indestructible_Tools_Weapons) | 1.3 | Maximum durability on all equipment | 191 |
 | [No Food Spoilage](./No_Food_Spoilage) | 1.2 | Prevents food and volatile decay | 28 |
 | [Hidden Building Pieces](./Hidden_Building_Pieces) | 1.0.7 | 18 diagonal/curved building sets | 60 |
+| [Always Show Buildings](./Always_show_buildings_on_map) | 1.0 | Buildings always visible on map/minimap | 1 |
 
 ### Character Modifiers
 
@@ -85,3 +86,9 @@ This repository includes `modinfo.json` for integration with mod managers suppor
 ## 📄 License
 
 These mods are free to use, modify, and redistribute. Attribution appreciated but not required.
+
+---
+
+## 🕐 Last Updated
+
+**January 11, 2026** - Verified compatible with Icarus Week 214 (v2.3.25.146718)

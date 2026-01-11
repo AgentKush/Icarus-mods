@@ -16,7 +16,7 @@
         {
             "name": "Agent's BioLab",
             "author": "AgentKush",
-            "version": "1.7",
+            "version": "1.8",
             "compatibility": "All",
             "description": "All 10 Bio Lab Legendary weapons available in the Workshop. Includes Frontier Revolver, Kinetic Rifle, Tactical Bow, and 7 more. 1,000 Exotics each.",
             "fileName": "Agents_BioLab",
@@ -167,6 +167,19 @@
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/README.md",
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/Workshop_Recyclers.EXMODZ"
+            }
+        },
+        {
+            "name": "Always Show Buildings On Map",
+            "author": "AgentKush",
+            "version": "1.0",
+            "compatibility": "All",
+            "description": "Always shows player-built structures on the map and minimap without requiring radar or special stats.",
+            "fileName": "Always_Show_Buildings_On_Map",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/map_buildings.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Always_show_buildings_on_map/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Always_show_buildings_on_map/Always_Show_Buildings_On_Map.EXMODZ"
             }
         }
     ]
