@@ -1,0 +1,750 @@
+{
+    "name": "Dev Tools Kit",
+    "author": "AgentKush",
+    "fileName": "Dev_Tools_Kit",
+    "version": "1.0.0",
+    "description": "Unlocks 10 hidden developer tools from the workshop including Thor Hammer (fly mode), Fireball, Inspection Tool, Transform Tool, Destroy Tool, and more. Free to research and craft!",
+    "week": "",
+    "Level2": "True",
+    "Rows": [
+        {
+            "CurrentFile": "Talents-D_TalentArchetypes.json",
+            "File_Items": [
+                {
+                    "Name": "Workshop_DevTools",
+                    "Model": {
+                        "RowName": "Workshop"
+                    },
+                    "DisplayName": "NSLOCTEXT(\"D_TalentArchetypes\", \"Workshop_DevTools-DisplayName\", \"Developer Tools\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_Host.Icon_Host"
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Talents-D_TalentTrees.json",
+            "File_Items": [
+                {
+                    "Name": "Workshop_DevTools",
+                    "BackgroundTexture": "/Game/Assets/2DArt/UI/Windows/EmptyAsset.EmptyAsset",
+                    "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_Host.Icon_Host",
+                    "Archetype": {
+                        "RowName": "Workshop_DevTools"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Itemable.json",
+            "File_Items": [
+                {
+                    "Name": "Item_Dev_Thor_Hammer",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Dev_Thor_Hammer-DisplayName\", \"Thor's Hammer\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Dev/ITEM_Dev_Thors_Hammer.ITEM_Dev_Thors_Hammer",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Dev_Thor_Hammer-Description\", \"Fly like a God, smell like a Dev. Hold to fly!\")",
+                    "Weight": 10
+                },
+                {
+                    "Name": "Item_Dev_Destroy_Tool",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Dev_Destroy_Tool-DisplayName\", \"Destroy Tool\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_Host.Icon_Host",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Dev_Destroy_Tool-Description\", \"Left click to destroy any actor.\")",
+                    "Weight": 10
+                },
+                {
+                    "Name": "Item_Dev_Unobtainable_Tool",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Dev_Unobtainable_Tool-DisplayName\", \"Unobtainable Tool\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_Host.Icon_Host",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Dev_Unobtainable_Tool-Description\", \"Left click to prevent deployable from being picked up.\")",
+                    "Weight": 10
+                },
+                {
+                    "Name": "Item_Test_Seed",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Test_Seed-DisplayName\", \"Test Seed\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/ITEM_SeedPouch_Wheat.ITEM_SeedPouch_Wheat",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Test_Seed-Description\", \"A mysterious test seed from the developers.\")",
+                    "Weight": 10,
+                    "MaxStack": 100
+                },
+                {
+                    "Name": "Item_Proxy_Dropship",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Proxy_Dropship-DisplayName\", \"Deployable Dropship\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_DropPod.ITEM_DropPod",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Proxy_Dropship-Description\", \"Place your own dropship anywhere!\")",
+                    "Weight": 50000
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Items-D_ItemsStatic.json",
+            "File_Items": [
+                {
+                    "Name": "DEV_Thor_Hammer",
+                    "Meshable": {
+                        "RowName": "Mesh_Stone_Sledgehammer"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Dev_Thor_Hammer"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_2H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Dev_Thor_Hammer"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Tool"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DEV_Destroy_Tool",
+                    "Meshable": {
+                        "RowName": "Mesh_0_Placeholder_Invisible"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Dev_Destroy_Tool"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "DEV_Destroy_Tool"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Tool"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "DEV_Unobtainable_Tool",
+                    "Meshable": {
+                        "RowName": "Mesh_0_Placeholder_Invisible"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Dev_Unobtainable_Tool"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "DEV_Unobtainable_Tool"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Tool"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "Test_Seed",
+                    "Meshable": {
+                        "RowName": "Mesh_Wheat_Seed"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Test_Seed"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Seed"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Name": "Proxy_Dropship",
+                    "Meshable": {
+                        "RowName": "Mesh_Dropship"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_Proxy_Dropship"
+                    },
+                    "Interactable": {
+                        "RowName": "Deployable"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Deployable"
+                    },
+                    "Usable": {
+                        "RowName": "Place"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Deployable"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Items-D_ItemTemplate.json",
+            "File_Items": [
+                {
+                    "Name": "Dev_Thor_Hammer",
+                    "ItemStaticData": {
+                        "RowName": "DEV_Thor_Hammer"
+                    }
+                },
+                {
+                    "Name": "Dev_Destroy_Tool",
+                    "ItemStaticData": {
+                        "RowName": "DEV_Destroy_Tool"
+                    }
+                },
+                {
+                    "Name": "Dev_Unobtainable_Tool",
+                    "ItemStaticData": {
+                        "RowName": "DEV_Unobtainable_Tool"
+                    }
+                },
+                {
+                    "Name": "Test_Seed",
+                    "ItemStaticData": {
+                        "RowName": "Test_Seed"
+                    }
+                },
+                {
+                    "Name": "Proxy_Dropship",
+                    "ItemStaticData": {
+                        "RowName": "Proxy_Dropship"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "MetaWorkshop-D_WorkshopItems.json",
+            "File_Items": [
+                {
+                    "Name": "Meta_Dev_Thor_Hammer",
+                    "Item": {
+                        "RowName": "Dev_Thor_Hammer"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 0
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 0
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Dev_Fireball",
+                    "Item": {
+                        "RowName": "Dev_Fireball"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 0
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 0
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Dev_Inspection_Tool",
+                    "Item": {
+                        "RowName": "Dev_Inspection_Tool"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 0
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 0
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Dev_Bug_Tool",
+                    "Item": {
+                        "RowName": "Dev_Bug_Tool"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 0
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 0
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Dev_Pyromancy_Flame",
+                    "Item": {
+                        "RowName": "Dev_Pyromancy_Flame"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 0
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 0
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Dev_Transform_Tool",
+                    "Item": {
+                        "RowName": "Dev_Transform_Tool"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 0
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 0
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Dev_Destroy_Tool",
+                    "Item": {
+                        "RowName": "Dev_Destroy_Tool"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 0
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 0
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Dev_Unobtainable_Tool",
+                    "Item": {
+                        "RowName": "Dev_Unobtainable_Tool"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 0
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 0
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Test_Seed",
+                    "Item": {
+                        "RowName": "Test_Seed"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 0
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 0
+                        }
+                    ]
+                },
+                {
+                    "Name": "Meta_Proxy_Dropship",
+                    "Item": {
+                        "RowName": "Proxy_Dropship"
+                    },
+                    "ResearchCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 0
+                        }
+                    ],
+                    "ReplicationCost": [
+                        {
+                            "Meta": {
+                                "RowName": "Credits",
+                                "DataTableName": "D_MetaCurrency"
+                            },
+                            "Amount": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Talents-D_Talents.json",
+            "File_Items": [
+                {
+                    "Name": "Workshop_Dev_Thor_Hammer",
+                    "ExtraData": {
+                        "RowName": "Meta_Dev_Thor_Hammer",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DevTools"
+                    },
+                    "Position": {
+                        "X": 100,
+                        "Y": 100
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    },
+                    "bDefaultUnlocked": true,
+                    "DrawMethodOverride": "YThenX"
+                },
+                {
+                    "Name": "Workshop_Dev_Fireball",
+                    "ExtraData": {
+                        "RowName": "Meta_Dev_Fireball",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DevTools"
+                    },
+                    "Position": {
+                        "X": 100,
+                        "Y": 400
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    },
+                    "bDefaultUnlocked": true,
+                    "DrawMethodOverride": "YThenX"
+                },
+                {
+                    "Name": "Workshop_Dev_Pyromancy_Flame",
+                    "ExtraData": {
+                        "RowName": "Meta_Dev_Pyromancy_Flame",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DevTools"
+                    },
+                    "Position": {
+                        "X": 100,
+                        "Y": 700
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    },
+                    "bDefaultUnlocked": true,
+                    "DrawMethodOverride": "YThenX"
+                },
+                {
+                    "Name": "Workshop_Dev_Inspection_Tool",
+                    "ExtraData": {
+                        "RowName": "Meta_Dev_Inspection_Tool",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DevTools"
+                    },
+                    "Position": {
+                        "X": 100,
+                        "Y": 1000
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    },
+                    "bDefaultUnlocked": true,
+                    "DrawMethodOverride": "YThenX"
+                },
+                {
+                    "Name": "Workshop_Dev_Transform_Tool",
+                    "ExtraData": {
+                        "RowName": "Meta_Dev_Transform_Tool",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DevTools"
+                    },
+                    "Position": {
+                        "X": 100,
+                        "Y": 1300
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    },
+                    "bDefaultUnlocked": true,
+                    "DrawMethodOverride": "YThenX"
+                },
+                {
+                    "Name": "Workshop_Dev_Destroy_Tool",
+                    "ExtraData": {
+                        "RowName": "Meta_Dev_Destroy_Tool",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DevTools"
+                    },
+                    "Position": {
+                        "X": 400,
+                        "Y": 100
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    },
+                    "bDefaultUnlocked": true,
+                    "DrawMethodOverride": "YThenX"
+                },
+                {
+                    "Name": "Workshop_Dev_Unobtainable_Tool",
+                    "ExtraData": {
+                        "RowName": "Meta_Dev_Unobtainable_Tool",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DevTools"
+                    },
+                    "Position": {
+                        "X": 400,
+                        "Y": 400
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    },
+                    "bDefaultUnlocked": true,
+                    "DrawMethodOverride": "YThenX"
+                },
+                {
+                    "Name": "Workshop_Dev_Bug_Tool",
+                    "ExtraData": {
+                        "RowName": "Meta_Dev_Bug_Tool",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DevTools"
+                    },
+                    "Position": {
+                        "X": 400,
+                        "Y": 700
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    },
+                    "bDefaultUnlocked": true,
+                    "DrawMethodOverride": "YThenX"
+                },
+                {
+                    "Name": "Workshop_Test_Seed",
+                    "ExtraData": {
+                        "RowName": "Meta_Test_Seed",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DevTools"
+                    },
+                    "Position": {
+                        "X": 400,
+                        "Y": 1000
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    },
+                    "bDefaultUnlocked": true,
+                    "DrawMethodOverride": "YThenX"
+                },
+                {
+                    "Name": "Workshop_Proxy_Dropship",
+                    "ExtraData": {
+                        "RowName": "Meta_Proxy_Dropship",
+                        "DataTableName": "D_WorkshopItems"
+                    },
+                    "TalentTree": {
+                        "RowName": "Workshop_DevTools"
+                    },
+                    "Position": {
+                        "X": 400,
+                        "Y": 1300
+                    },
+                    "Size": {
+                        "X": 250,
+                        "Y": 250
+                    },
+                    "bDefaultUnlocked": true,
+                    "DrawMethodOverride": "YThenX"
+                }
+            ]
+        }
+    ]
+}

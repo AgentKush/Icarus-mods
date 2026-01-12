@@ -40,6 +40,19 @@
             }
         },
         {
+            "name": "Dev Tools Kit",
+            "author": "AgentKush",
+            "version": "1.0.0",
+            "compatibility": "All",
+            "description": "Unlocks 10 hidden developer tools including Thor's Hammer (fly mode), Transform Tool, Destroy Tool, Inspection Tool, Fireball, Pyromancy Flame, and more. All free to craft!",
+            "fileName": "Dev_Tools_Kit",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/dev_tools.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Dev_Tools_Kit/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Dev_Tools_Kit/Dev_Tools_Kit.EXMODZ"
+            }
+        },
+        {
             "name": "FastProcessing All 5x",
             "author": "AgentKush",
             "version": "4.0",
