@@ -16,7 +16,7 @@ A curated collection of quality-of-life modifications for **Icarus: First Cohort
 |-----|---------|-------------|---------------|
 | [Agent's BioLab](./Agents_BioLab) | 1.8 | All 10 Bio Lab Legendary weapons in Workshop | 22 |
 | [Individual Item Kits](./Agents_Individual_Item_Kits) | 2.0 | 1,396 individual items organized in 73 categories | 8,378 |
-| [Workshop Recyclers](./Workshop_Recyclers) | 3.8 | Two recyclers based on Biofuel Bio-Cleaner & Organic Residue Cleanser | 1,635 |
+| [Workshop Recyclers](./Workshop_Recyclers) | 4.0 | Two recyclers returning 100% of Workshop costs | 1,639 |
 | [Dev Tools Kit](./Dev_Tools_Kit) | 1.0.0 | 10 hidden developer tools (Thor Hammer, Transform Tool, etc.) | 42 |
 
 ### Processing Speed
@@ -65,7 +65,7 @@ All mods are designed to work together. FastProcessing v4.0 includes full recipe
 
 | Mod | Base Game | Workshop Recyclers | Hidden Building |
 |-----|-----------|-------------------|-----------------|
-| FastProcessing (all) | ✅ 1,807 | ✅ 1,623 | ✅ 18 |
+| FastProcessing (all) | ✅ 1,807 | ✅ 1,625 | ✅ 18 |
 | Workshop Recyclers | ✅ | — | ✅ |
 | Hidden Building Pieces | ✅ | ✅ | — |
 | All other mods | ✅ | ✅ | ✅ |
@@ -93,4 +93,4 @@ These mods are free to use, modify, and redistribute. Attribution appreciated bu
 
 ## 🕐 Last Updated
 
-**January 12, 2026** - Added Dev Tools Kit mod (10 hidden developer tools)
+**January 14, 2026** - Workshop Recyclers v4.0: 100% currency returns, fixed all recipe outputs, hammer repair support
