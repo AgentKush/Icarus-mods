@@ -1,6 +1,6 @@
 # Hidden Building Pieces
 
-![Version](https://img.shields.io/badge/version-2.1.1-blue)
+![Version](https://img.shields.io/badge/version-2.2.0-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
@@ -8,21 +8,23 @@
 
 Unlocks 54 hidden diagonal and curved building pieces for 9 different materials. These architectural elements exist within the game files but remain inaccessible in vanilla gameplay. All pieces can be repaired and crafted at appropriate workstations.
 
+**v2.2.0 now fixes greyed-out textures** for Stone Brick and Scoria Brick diagonal/curved pieces by applying proper Scoria stone materials.
+
 ## Features
 
 ### Materials Supported
 
-| Material | Building Types |
-|----------|----------------|
-| Concrete | Diagonal and curved elements |
-| Glass | Diagonal and curved elements |
-| Clay Brick | Diagonal and curved elements |
-| Stone | Diagonal and curved elements |
-| Scoria | Diagonal and curved elements |
-| Tempered Glass | Diagonal and curved elements |
-| Scoria Brick | Diagonal and curved elements |
-| Stone Brick | Diagonal and curved elements |
-| Ice | Diagonal and curved elements (hand-craftable) |
+| Material | Building Types | Texture Status |
+|----------|----------------|----------------|
+| Concrete | Diagonal and curved elements | ✅ Native |
+| Glass | Diagonal and curved elements | ✅ Native |
+| Clay Brick | Diagonal and curved elements | ✅ Native |
+| Stone | Diagonal and curved elements | ✅ Native |
+| Scoria | Diagonal and curved elements | ✅ Native |
+| Tempered Glass | Diagonal and curved elements | ✅ Native |
+| Scoria Brick | Diagonal and curved elements | ✅ Fixed (uses Scoria textures) |
+| Stone Brick | Diagonal and curved elements | ✅ Fixed (uses Scoria textures) |
+| Ice | Diagonal and curved elements (hand-craftable) | ✅ Native |
 
 ### Building Piece Types
 
@@ -43,15 +45,17 @@ Each material includes diagonal floor/wall pieces, curved wall sections, corner 
 
 | Metric | Value |
 |--------|-------|
-| Total Modifications | 216 |
+| Total Modifications | 288 |
 | Building Pieces | 54 |
 | Materials | 9 |
+| Texture Fixes | 72 |
 
 ### Files Modified
 - `Traits-D_Itemable.json` (54 entries)
 - `Items-D_ItemsStatic.json` (54 entries)
 - `Items-D_ItemTemplate.json` (54 entries)
 - `Crafting-D_ProcessorRecipes.json` (54 entries)
+- `Building-D_BuildingSkins.json` (72 entries) - NEW in v2.2.0
 
 ## Installation
 
@@ -73,9 +77,15 @@ Each material includes diagonal floor/wall pieces, curved wall sections, corner 
 
 | Version | Changes |
 |---------|---------|
-| 2.1.1 | Fixed missing icons for Stone building pieces (Diagonal Set, Curved Set, Wall Curved, Roof CurvedAngles) |
-| 2.1.0 | Expanded to 54 pieces across 9 materials (Stone, Scoria, Tempered Glass, Scoria Brick, Stone Brick, Ice added) |
+| 2.2.0 | **Major texture fix**: Fixed greyed-out textures for Stone Brick (36 pieces) and Scoria Brick (36 pieces) diagonal/curved building pieces by overriding D_BuildingSkins with proper Scoria stone materials |
+| 2.1.2 | Fixed missing icons for Stone Brick (6 pieces), Scoria Brick (6 pieces), Scoria (4 pieces), and Ice (4 pieces) |
+| 2.1.1 | Fixed missing icons for Stone building pieces |
+| 2.1.0 | Expanded to 54 pieces across 9 materials |
 | 1.0.7 | 18 pieces for Concrete, Glass, and Clay Brick |
+
+## Technical Notes
+
+The game's original data had Stone Brick and Scoria Brick diagonal/curved pieces referencing Tempered Glass materials (developer placeholder). This mod corrects them to use Scoria stone materials, which provides a much better visual match for brick building pieces.
 
 ---
 
