@@ -1,6 +1,6 @@
 # Hidden Building Pieces
 
-![Version](https://img.shields.io/badge/version-2.1.0-blue)
+![Version](https://img.shields.io/badge/version-2.1.1-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
@@ -73,11 +73,12 @@ Each material includes diagonal floor/wall pieces, curved wall sections, corner 
 
 | Version | Changes |
 |---------|---------|
+| 2.1.1 | Fixed missing icons for Stone building pieces (Diagonal Set, Curved Set, Wall Curved, Roof CurvedAngles) |
 | 2.1.0 | Expanded to 54 pieces across 9 materials (Stone, Scoria, Tempered Glass, Scoria Brick, Stone Brick, Ice added) |
 | 1.0.7 | 18 pieces for Concrete, Glass, and Clay Brick |
 
 ---
 
-*Last Updated: January 12, 2026*
+*Last Updated: January 15, 2026*
 
 *Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*
