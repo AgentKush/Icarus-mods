@@ -65,7 +65,7 @@ All mods are designed to work together. FastProcessing v4.0 includes full recipe
 
 | Mod | Base Game | Workshop Recyclers | Hidden Building |
 |-----|-----------|-------------------|-----------------|
-| FastProcessing (all) | ✅ 1,807 | ✅ 1,625 | ✅ 18 |
+| FastProcessing (all) | ✅ 1,771 | ✅ 1,623 | ✅ 54 |
 | Workshop Recyclers | ✅ | — | ✅ |
 | Hidden Building Pieces | ✅ | ✅ | — |
 | All other mods | ✅ | ✅ | ✅ |
@@ -93,4 +93,4 @@ These mods are free to use, modify, and redistribute. Attribution appreciated bu
 
 ## 🕐 Last Updated
 
-**January 15, 2026** - Hidden Building Pieces v2.3.0: Fixed Ice pieces now appearing in crafting menu
+**January 15, 2026** - Workshop_Recyclers EXMOD synced to v4.0, Hidden Building Pieces v2.3.0 changelog expanded with full Ice fix details

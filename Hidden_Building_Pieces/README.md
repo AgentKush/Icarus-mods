@@ -56,8 +56,12 @@ Unlocks **54 hidden diagonal and curved building pieces** for 9 materials in Ica
 ## Changelog
 
 ### v2.3.0
-- **ICE FIX:** Ice diagonal/curved pieces now appear in the crafting menu
+- **ICE FIX:** Ice diagonal/curved pieces now fully craftable and placeable
+- Added missing `Mesh_Ice_Kit` entry to D_Meshable (base game had incomplete implementation)
+- Fixed recipe structures from "Processors" to "RecipeSets" format
+- Added missing D_ItemsStatic entries for all Ice building pieces
 - Changed Ice recipe requirements from non-existent "Ice_Diagonal" talent to "None"
+- Note: Base game developers created Ice building definitions but never completed the mesh entries
 
 ### v2.2.0
 - **TEXTURE FIX:** Fixed greyed-out textures for Stone Brick and Scoria Brick pieces
