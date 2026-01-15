@@ -1,94 +1,89 @@
-# Hidden Building Pieces
+# 🏗️ Hidden Building Pieces
 
-![Version](https://img.shields.io/badge/version-2.2.0-blue)
-![Author](https://img.shields.io/badge/author-AgentKush-green)
-![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
-
-## Overview
-
-Unlocks 54 hidden diagonal and curved building pieces for 9 different materials. These architectural elements exist within the game files but remain inaccessible in vanilla gameplay. All pieces can be repaired and crafted at appropriate workstations.
-
-**v2.2.0 now fixes greyed-out textures** for Stone Brick and Scoria Brick diagonal/curved pieces by applying proper Scoria stone materials.
+Unlocks **54 hidden diagonal and curved building pieces** for 9 materials in Icarus.
 
 ## Features
 
-### Materials Supported
+- **9 Materials:** Concrete, Glass, Clay Brick, Stone, Scoria, Tempered Glass, Stone Brick, Scoria Brick, Ice
+- **6 Piece Types per Material:** Diagonal Set, Curved Set, Wall Curved, Curved Wall Angles, Roof Curved Angles, Advanced Beam Set
+- **All pieces repairable** with hammers
+- **Proper textures** for Stone Brick and Scoria Brick (fixed greyed-out appearance)
+- **Ice pieces now craftable** (v2.3.0 fix)
 
-| Material | Building Types | Texture Status |
-|----------|----------------|----------------|
-| Concrete | Diagonal and curved elements | ✅ Native |
-| Glass | Diagonal and curved elements | ✅ Native |
-| Clay Brick | Diagonal and curved elements | ✅ Native |
-| Stone | Diagonal and curved elements | ✅ Native |
-| Scoria | Diagonal and curved elements | ✅ Native |
-| Tempered Glass | Diagonal and curved elements | ✅ Native |
-| Scoria Brick | Diagonal and curved elements | ✅ Fixed (uses Scoria textures) |
-| Stone Brick | Diagonal and curved elements | ✅ Fixed (uses Scoria textures) |
-| Ice | Diagonal and curved elements (hand-craftable) | ✅ Native |
+## Building Piece Types
 
-### Building Piece Types
+| Piece Type | Description |
+|------------|-------------|
+| Diagonal Set | Cross-tile diagonal pieces for angled structures |
+| Curved Set | Smooth curved building elements |
+| Wall Curved | Curved wall sections for rounded structures |
+| Curved Wall Angles | Angled curved walls in various configurations |
+| Roof Curved Angles | Curved roof pieces for domed ceilings |
+| Advanced Beam Set | Advanced diagonal beam structures |
 
-Each material includes diagonal floor/wall pieces, curved wall sections, corner transitions, and curved roofing elements designed to complement existing building sets.
+## Crafting Locations
 
-## Crafting Stations
-
-| Station | Materials Craftable |
-|---------|---------------------|
-| Masonry Bench | Clay Brick, Stone, Stone Brick sets |
-| Cement Mixer | Concrete sets |
-| Electric Masonry Bench | Advanced stone and brick sets |
-| Glassworking Bench | Glass, Tempered Glass sets |
-| Scoria Forge | Scoria, Scoria Brick sets |
-| Hand Crafting | Ice sets |
-
-## Technical Specifications
-
-| Metric | Value |
-|--------|-------|
-| Total Modifications | 288 |
-| Building Pieces | 54 |
-| Materials | 9 |
-| Texture Fixes | 72 |
-
-### Files Modified
-- `Traits-D_Itemable.json` (54 entries)
-- `Items-D_ItemsStatic.json` (54 entries)
-- `Items-D_ItemTemplate.json` (54 entries)
-- `Crafting-D_ProcessorRecipes.json` (54 entries)
-- `Building-D_BuildingSkins.json` (72 entries) - NEW in v2.2.0
+| Material | Crafting Station |
+|----------|-----------------|
+| Concrete | Cement Mixer, Masonry Bench T4 |
+| Glass | Glassworking Bench |
+| Clay Brick | Masonry Bench, Masonry Bench T3, T4 |
+| Stone | Masonry Bench, Masonry Bench T3, T4 |
+| Scoria | Masonry Bench, Masonry Bench T3, T4 |
+| Tempered Glass | Glassworking Bench |
+| Stone Brick | Masonry Bench, Masonry Bench T3, T4 |
+| Scoria Brick | Masonry Bench, Masonry Bench T3, T4 |
+| Ice | Hand-craftable (Character inventory) |
 
 ## Installation
 
-1. Download the `.EXMODZ` file from this repository
-2. Open JimK72's Icarus Mod Manager
-3. Import the mod file
-4. Enable and launch Icarus
-5. Craft new pieces at the appropriate workstation
+### Via Mod Manager (Recommended)
+1. Add this repository URL to the Mod Manager's modinfo sources
+2. Find "Hidden Building Pieces" and install
+3. Click Merge to apply
+
+### Manual Installation
+1. Download `Hidden_Building_Pieces.EXMODZ`
+2. Place in: `Icarus_Mod_Manager_2_x_x/Extracted_Mods/`
+3. Use the Mod Manager to merge and install
 
 ## Compatibility
 
-| Mod | Status |
-|-----|--------|
-| FastProcessing (v4.0+) | ✅ All 54 recipes included |
-| Workshop Recyclers | ✅ Compatible |
-| All AgentKush mods | ✅ Compatible |
+- ✅ Works with all other mods
+- ✅ Multiplayer compatible (all players need the mod)
+- ✅ Compatible with all DLCs
 
-## Version History
+## Changelog
 
-| Version | Changes |
-|---------|---------|
-| 2.2.0 | **Major texture fix**: Fixed greyed-out textures for Stone Brick (36 pieces) and Scoria Brick (36 pieces) diagonal/curved building pieces by overriding D_BuildingSkins with proper Scoria stone materials |
-| 2.1.2 | Fixed missing icons for Stone Brick (6 pieces), Scoria Brick (6 pieces), Scoria (4 pieces), and Ice (4 pieces) |
-| 2.1.1 | Fixed missing icons for Stone building pieces |
-| 2.1.0 | Expanded to 54 pieces across 9 materials |
-| 1.0.7 | 18 pieces for Concrete, Glass, and Clay Brick |
+### v2.3.0
+- **ICE FIX:** Ice diagonal/curved pieces now appear in the crafting menu
+- Changed Ice recipe requirements from non-existent "Ice_Diagonal" talent to "None"
 
-## Technical Notes
+### v2.2.0
+- **TEXTURE FIX:** Fixed greyed-out textures for Stone Brick and Scoria Brick pieces
+- Added 72 D_BuildingSkins entries using Scoria stone materials as visual fallback
 
-The game's original data had Stone Brick and Scoria Brick diagonal/curved pieces referencing Tempered Glass materials (developer placeholder). This mod corrects them to use Scoria stone materials, which provides a much better visual match for brick building pieces.
+### v2.1.1
+- Fixed icon paths for Stone, Scoria, and Ice pieces
+- Fixed missing icons for Stone Brick and Scoria Brick
 
----
+### v2.0.0
+- Expanded from 3 to 9 materials
+- Added Stone, Scoria, Tempered Glass, Stone Brick, Scoria Brick, and Ice
+- All 54 pieces now have crafting recipes
+- All pieces can be repaired
 
-*Last Updated: January 15, 2026*
+### v1.0.7
+- Fixed EXMODZ folder structure for proper Mod Manager import
 
-*Part of the [AgentKush Icarus Mods](https://github.com/AgentKush/Icarus-mods) collection*
+### v1.0.6
+- Fixed all item names to exactly match game file references
+
+### v1.0.0
+- Initial release with Concrete, Glass, and Clay Brick (18 pieces)
+
+## Links
+
+- **Author:** AgentKush
+- **Mod Manager:** [JimK72's Mod Manager](https://github.com/Jimk72/Icarus_Software)
+- **Repository:** [github.com/AgentKush/Icarus-mods](https://github.com/AgentKush/Icarus-mods)
