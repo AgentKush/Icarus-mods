@@ -18,7 +18,7 @@ Introduces two dedicated recycling machines that enable full material recovery f
 | Function | Converts Workshop items to currencies |
 | Recipes | 282 |
 | Returns | 100% of Ren, Exotics, or Red Exotics |
-| Repair Materials | Workshop Repair Kit |
+| Repair Materials | Hammer (same as base machine) |
 
 ### Organic Residue Recycler
 
@@ -28,7 +28,7 @@ Introduces two dedicated recycling machines that enable full material recovery f
 | Function | Breaks down crafted items into base materials |
 | Recipes | 1,343 |
 | Use Case | Recover materials from obsolete equipment |
-| Repair Materials | Workshop Repair Kit |
+| Repair Materials | Hammer (same as base machine) |
 
 ### Combined Statistics
 
@@ -80,7 +80,7 @@ All 8 Agents of Icarus DLC legendary weapons are recyclable:
 
 | Metric | Value |
 |--------|-------|
-| Total Modifications | 1,639 |
+| Total Modifications | 1,637 |
 | New Machines | 2 |
 | Recipe Entries | 1,625 |
 
@@ -88,7 +88,6 @@ All 8 Agents of Icarus DLC legendary weapons are recyclable:
 - `Crafting-D_RecipeSets.json` (2 entries)
 - `Traits-D_Processing.json` (2 entries)
 - `Traits-D_Itemable.json` (2 entries)
-- `Traits-D_Durable.json` (2 entries)
 - `Items-D_ItemsStatic.json` (2 entries)
 - `Items-D_ItemTemplate.json` (2 entries)
 - `Talents-D_Talents.json` (2 entries)
@@ -109,7 +108,7 @@ All 8 Agents of Icarus DLC legendary weapons are recyclable:
 - Enables inventory cleanup with zero loss
 - Strategic for managing Workshop credit and exotic economy
 - Useful for recovering materials from outdated gear
-- Both machines repairable with Workshop Repair Kit
+- Both machines repairable with any hammer (same as base machines)
 
 ## Compatibility
 
@@ -124,7 +123,7 @@ All 8 Agents of Icarus DLC legendary weapons are recyclable:
 
 | Version | Changes |
 |---------|---------|
-| 4.0 | **Major update:** All workshop items now return 100% of original costs. Added 2 missing recipes (Shengong Delta Axe, PlantBoss Inhaler). Fixed 74 currency references (Exotic1 → Meta_Resource). Fixed 28 item name typos. Added proper D_Durable entries for hammer repair with Workshop Repair Kit. |
+| 4.0 | **Major update:** All workshop items now return 100% of original costs. Added 2 missing recipes (Shengong Delta Axe, PlantBoss Inhaler). Fixed 74 currency references (Exotic1 → Meta_Resource). Fixed 28 item name typos. Fixed hammer repair by using base game Deployable_2000 durability. |
 | 3.9 | Added missing Shengong Delta Axe recipe, fixed currency return amounts |
 | 3.8 | Fixed repair functionality - uses same materials as base machines |
 | 3.5 | Fixed Agents legendary weapons to return 125 Red Exotics each |

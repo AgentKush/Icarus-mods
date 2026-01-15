@@ -16,7 +16,7 @@ A curated collection of quality-of-life modifications for **Icarus: First Cohort
 |-----|---------|-------------|---------------|
 | [Agent's BioLab](./Agents_BioLab) | 1.8 | All 10 Bio Lab Legendary weapons in Workshop | 22 |
 | [Individual Item Kits](./Agents_Individual_Item_Kits) | 2.0 | 1,396 individual items organized in 73 categories | 8,378 |
-| [Workshop Recyclers](./Workshop_Recyclers) | 4.0 | Two recyclers returning 100% of Workshop costs | 1,639 |
+| [Workshop Recyclers](./Workshop_Recyclers) | 4.0 | Two recyclers returning 100% of Workshop costs | 1,637 |
 | [Dev Tools Kit](./Dev_Tools_Kit) | 1.0.0 | 10 hidden developer tools (Thor Hammer, Transform Tool, etc.) | 42 |
 
 ### Processing Speed
