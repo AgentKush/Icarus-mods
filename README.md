@@ -37,7 +37,7 @@ A curated collection of quality-of-life modifications for **Icarus: First Cohort
 |-----|---------|-------------|---------------|
 | [Indestructible Tools & Weapons](./Indestructible_Tools_Weapons) | 1.3 | Maximum durability on all equipment | 168 |
 | [No Food Spoilage](./No_Food_Spoilage) | 1.2 | Prevents food and volatile decay | 28 |
-| [Hidden Building Pieces](./Hidden_Building_Pieces) | 2.1.0 | 54 diagonal/curved building sets for 9 materials | 60 |
+| [Hidden Building Pieces](./Hidden_Building_Pieces) | 2.3.0 | 54 diagonal/curved building sets for 9 materials | 60 |
 | [Always Show Buildings](./Always_show_buildings_on_map) | 1.0 | Buildings always visible on map/minimap | 1 |
 | [Culinex Food Boost Fix](./Culinex_Food_Boost_Fix) | 1.0 | Fixes Chef's Backpack 25% food boost | 159 |
 
@@ -93,4 +93,4 @@ These mods are free to use, modify, and redistribute. Attribution appreciated bu
 
 ## 🕐 Last Updated
 
-**January 14, 2026** - Workshop Recyclers v4.0: 100% currency returns, fixed all recipe outputs, hammer repair support
+**January 15, 2026** - Hidden Building Pieces v2.3.0: Fixed Ice pieces now appearing in crafting menu

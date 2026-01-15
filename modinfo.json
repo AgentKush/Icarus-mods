@@ -172,9 +172,9 @@
         {
             "name": "Hidden Building Pieces",
             "author": "AgentKush",
-            "version": "2.1.0",
+            "version": "2.3.0",
             "compatibility": "All",
-            "description": "Unlocks 54 hidden diagonal and curved building pieces for 9 materials: Concrete, Glass, Clay Brick, Stone, Scoria, Tempered Glass, Scoria Brick, Stone Brick, and Ice.",
+            "description": "Unlocks 54 hidden diagonal and curved building pieces for 9 materials: Concrete, Glass, Clay Brick, Stone, Scoria, Tempered Glass, Scoria Brick, Stone Brick, and Ice. All pieces now craftable including Ice.",
             "fileName": "Hidden_Building_Pieces",
             "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/hidden_building.png",
             "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hidden_Building_Pieces/README.md",
