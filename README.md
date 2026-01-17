@@ -36,7 +36,7 @@ A curated collection of quality-of-life modifications for **Icarus: First Cohort
 | Mod | Version | Description | Modifications |
 |-----|---------|-------------|---------------|
 | [Indestructible Tools & Weapons](./Indestructible_Tools_Weapons) | 1.3 | Maximum durability on all equipment | 168 |
-| [No Food Spoilage](./No_Food_Spoilage) | 1.2 | Prevents food and volatile decay | 28 |
+| [No Food Spoilage](./No_Food_Spoilage) | 1.3 | Prevents food and volatile decay | 28 |
 | [Hidden Building Pieces](./Hidden_Building_Pieces) | 2.3.0 | 54 diagonal/curved building sets for 9 materials | 60 |
 | [Always Show Buildings](./Always_show_buildings_on_map) | 1.0 | Buildings always visible on map/minimap | 1 |
 | [Culinex Food Boost Fix](./Culinex_Food_Boost_Fix) | 1.0 | Fixes Chef's Backpack 25% food boost | 159 |
@@ -97,6 +97,8 @@ These mods are free to use, modify, and redistribute. Attribution appreciated bu
 
 ---
 
-## 🕐 Last Updated
+## 🕐 Changelog
+
+**January 17, 2026** - No Food Spoilage v1.3: Fixed composter recipe to use `Fish_Chunks` instead of deprecated `Raw_Fish` for Week 213+ tag-based crafting compatibility
 
 **January 17, 2026** - Added Turret Variants v2.3 with 15 new automated turret types
