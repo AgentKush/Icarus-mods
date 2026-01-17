@@ -1,6 +1,6 @@
 # No Food Spoilage
 
-![Version](https://img.shields.io/badge/version-1.2-blue)
+![Version](https://img.shields.io/badge/version-1.3-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
@@ -63,6 +63,7 @@ Eliminates food decay mechanics, allowing all perishable items to remain fresh i
 
 | Version | Changes |
 |---------|---------|
+| 1.3 | Fixed composter recipe to use `Fish_Chunks` instead of deprecated `Raw_Fish` (Week 213+ compatibility) |
 | 1.2 | Added 8 composter recipes for manual conversion |
 | 1.1 | Added volatile substance preservation |
 | 1.0 | Initial release with food items |

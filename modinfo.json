@@ -16,7 +16,7 @@
         {
             "name": "Agent's BioLab",
             "author": "AgentKush",
-            "version": "1.8",
+            "version": "1.9",
             "compatibility": "All",
             "description": "All 10 Bio Lab Legendary weapons available in the Workshop. Includes Frontier Revolver, Kinetic Rifle, Tactical Bow, and 7 more. 1,000 Exotics each.",
             "fileName": "Agents_BioLab",
@@ -133,7 +133,7 @@
         {
             "name": "No Food Spoilage",
             "author": "AgentKush",
-            "version": "1.2",
+            "version": "1.3",
             "compatibility": "All",
             "description": "Prevents all food items and volatile substances from spoiling. Includes 8 composter recipes for optional manual conversion to Spoiled Meat.",
             "fileName": "No_Food_Spoilage",

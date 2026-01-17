@@ -1,6 +1,6 @@
 # Agent's BioLab
 
-![Version](https://img.shields.io/badge/version-1.8-blue)
+![Version](https://img.shields.io/badge/version-1.9-blue)
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
 ![Compatibility](https://img.shields.io/badge/compatibility-All%20DLCs-brightgreen)
 
@@ -18,7 +18,7 @@ Agent's BioLab brings all 10 legendary Bio Lab weapons to the Workshop, making t
 | Kinetic Rifle | Rifle | 1,000 Exotics |
 | Tactical Bow | Bow | 1,000 Exotics |
 | Mining Armature | Pickaxe | 1,000 Exotics |
-| Biotech Maul | Hammer | 1,000 Exotics |
+| Ape Club | Melee | 1,000 Exotics |
 | Heavy Flamethrower | Special | 1,000 Exotics |
 | Anti-materiel Rifle | Sniper | 1,000 Exotics |
 | Javelin Launcher | Launcher | 1,000 Exotics |
@@ -61,6 +61,7 @@ Agent's BioLab brings all 10 legendary Bio Lab weapons to the Workshop, making t
 
 | Version | Changes |
 |---------|---------|  
+| 1.9 | Fixed Ape Club item reference (`LegendaryWeapon_ApeClub`) - icon and workshop craft now working |
 | 1.8 | Fixed item references for Ape Club and Heavy Flamethrower (Week 214 compatibility) |
 | 1.7 | Previous stable release |
 
