@@ -1,10 +1,10 @@
 # Icarus Mods Collection
 
 ![Author](https://img.shields.io/badge/author-AgentKush-green)
-![Mods](https://img.shields.io/badge/mods-16-blue)
+![Mods](https://img.shields.io/badge/mods-17-blue)
 ![License](https://img.shields.io/badge/license-Free%20to%20Use-brightgreen)
 
-A curated collection of quality-of-life modifications for **Icarus: First Cohort**. All mods are designed for use with [JimK72's Icarus Mod Manager](https://github.com/JimK72/Icarus-Mod-Manager).
+A curated collection of quality-of-life modifications for **Icarus: First Cohort**. All mods are designed for use with [JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software).
 
 ---
 
@@ -48,11 +48,17 @@ A curated collection of quality-of-life modifications for **Icarus: First Cohort
 | [Modular Affliction Adjuster](./Modular_Affliction_Adjuster) | 2.0 | Reduces affliction penalties by ~50% | 110 |
 | [Modular Buff Enhancer](./Modular_Buff_Enhancer) | 1.1 | Increases buff effectiveness by ~50% | 239 |
 
+### Defense
+
+| Mod | Version | Description | Modifications |
+|-----|---------|-------------|---------------|
+| [Turret Variants](./Turret_Variants) | 2.3 | 15 new automated turret types with unique firing patterns | 135 |
+
 ---
 
 ## 🔧 Installation
 
-1. Download and install [JimK72's Icarus Mod Manager](https://github.com/JimK72/Icarus-Mod-Manager)
+1. Download and install [JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)
 2. Download the `.EXMODZ` file for your desired mod(s)
 3. Open the Mod Manager and import the mod file
 4. Enable the mod and launch Icarus
@@ -93,4 +99,4 @@ These mods are free to use, modify, and redistribute. Attribution appreciated bu
 
 ## 🕐 Last Updated
 
-**January 15, 2026** - Workshop_Recyclers EXMOD synced to v4.0, Hidden Building Pieces v2.3.0 changelog expanded with full Ice fix details
+**January 17, 2026** - Added Turret Variants v2.3 with 15 new automated turret types
