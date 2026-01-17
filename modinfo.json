@@ -207,6 +207,19 @@
             "files": {
                 "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Always_show_buildings_on_map/Always_Show_Buildings_On_Map.EXMODZ"
             }
+        },
+        {
+            "name": "Turret Variants",
+            "author": "AgentKush",
+            "version": "2.3",
+            "compatibility": "All",
+            "description": "15 new automated turret variants with unique firing patterns. Includes Crossbow, Bow, Sniper, Assault Rifle, SMG, Javelin, Flamethrower, Rock, Minigun, Rifle, Pistol, Shotblaster, Rapid Crossbow, Storm, and Heavy Sniper turrets.",
+            "fileName": "Turret_Variants",
+            "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/images/turret_variants.png",
+            "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/README.md",
+            "files": {
+                "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/Turret_Variants.EXMODZ"
+            }
         }
     ]
 }
