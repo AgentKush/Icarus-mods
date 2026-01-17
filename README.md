@@ -14,7 +14,7 @@ A curated collection of quality-of-life modifications for **Icarus: First Cohort
 
 | Mod | Version | Description | Modifications |
 |-----|---------|-------------|---------------|
-| [Agent's BioLab](./Agents_BioLab) | 1.8 | All 10 Bio Lab Legendary weapons in Workshop | 22 |
+| [Agent's BioLab](./Agents_BioLab) | 1.9 | All 10 Bio Lab Legendary weapons in Workshop | 22 |
 | [Individual Item Kits](./Agents_Individual_Item_Kits) | 2.0 | 1,396 individual items organized in 73 categories | 8,378 |
 | [Workshop Recyclers](./Workshop_Recyclers) | 4.0 | Two recyclers returning 100% of Workshop costs | 1,637 |
 | [Dev Tools Kit](./Dev_Tools_Kit) | 1.0.0 | 10 hidden developer tools (Thor Hammer, Transform Tool, etc.) | 42 |
@@ -98,6 +98,8 @@ These mods are free to use, modify, and redistribute. Attribution appreciated bu
 ---
 
 ## 🕐 Changelog
+
+**January 17, 2026** - Agent's BioLab v1.9: Fixed Ape Club item reference (`LegendaryWeapon_ApeClub`) - icon and workshop craft now working
 
 **January 17, 2026** - No Food Spoilage v1.3: Fixed composter recipe to use `Fish_Chunks` instead of deprecated `Raw_Fish` for Week 213+ tag-based crafting compatibility
 

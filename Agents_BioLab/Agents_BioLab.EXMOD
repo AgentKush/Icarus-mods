@@ -1,8 +1,8 @@
 {
     "name": "Agent's BioLab",
     "author": "AgentKush",
-    "version": "1.8",
-    "description": "Adds all Bio Lab Legendary weapons to the Workshop! Includes Frontier Revolver, Kinetic Rifle, Tactical Bow, Mining Armature, Biotech Maul, Heavy Flamethrower, Anti-materiel Rifle, Javelin Launcher, Slug Launcher, and Ice Mammoth Sledgehammer.",
+    "version": "1.9",
+    "description": "Adds all Bio Lab Legendary weapons to the Workshop! Includes Frontier Revolver, Kinetic Rifle, Tactical Bow, Mining Armature, Ape Club, Heavy Flamethrower, Anti-materiel Rifle, Javelin Launcher, Slug Launcher, and Ice Mammoth Sledgehammer.",
     "fileName": "Agents_BioLab",
     "imageURL": "",
     "readmeURL": "",
@@ -37,7 +37,7 @@
                 },
                 {
                     "Name": "Meta_Agents_Club",
-                    "Item": {"RowName": "LegendaryWeapon_Ape_Club"},
+                    "Item": {"RowName": "LegendaryWeapon_ApeClub"},
                     "ResearchCost": [{"Meta": {"RowName": "Exotic1", "DataTableName": "D_MetaCurrency"}, "Amount": 1000}],
                     "ReplicationCost": [{"Meta": {"RowName": "Exotic1", "DataTableName": "D_MetaCurrency"}, "Amount": 1000}]
                 },
