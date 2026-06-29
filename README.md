@@ -5,8 +5,8 @@
 # AgentKush's Icarus Mods
 
 [![Mods](https://img.shields.io/badge/53_Mods-Ready_to_Play-0d1117?style=for-the-badge&logo=steam&logoColor=white&labelColor=1a1e2e)]()
-[![Data Entries](https://img.shields.io/badge/43%2C000%2B-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
-[![Recipes](https://img.shields.io/badge/18%2C800%2B-Recipes-0d1117?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a1e2e)]()
+[![Data Entries](https://img.shields.io/badge/41%2C643-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
+[![Recipes](https://img.shields.io/badge/18%2C934-Recipes-0d1117?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a1e2e)]()
 [![Free](https://img.shields.io/badge/100%25-Free_to_Use-0d1117?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=1a1e2e)]()
 
 [![GitHub Release](https://img.shields.io/github/v/release/AgentKush/Icarus-mods?label=Latest%20Release&style=flat-square&color=E87B35)](https://github.com/AgentKush/Icarus-mods/releases)
@@ -18,7 +18,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 
 **[🌐 Browse All Mods on the Web](https://agentkush.github.io/Icarus-mods/)** · Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)** · All DLCs compatible
 
-<a href="Workshop_Recyclers"><img src="Workshop_Recyclers/Banner.png" width="250" alt="Workshop Recyclers"></a> <a href="Turret_Variants"><img src="Turret_Variants/Banner.png" width="250" alt="Turret Variants"></a> <a href="Hunters_Critical_Strike"><img src="Hunters_Critical_Strike/Banner.png" width="250" alt="Hunter's Critical Strike"></a>
+<a href="Workshop_Recyclers"><img src="https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/Banner.png" width="250" alt="Workshop Recyclers"></a> <a href="Turret_Variants"><img src="https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/Banner.png" width="250" alt="Turret Variants"></a> <a href="Hunters_Critical_Strike"><img src="https://github.com/AgentKush/Icarus-mods/raw/main/Hunters_Critical_Strike/Banner.png" width="250" alt="Hunter's Critical Strike"></a>
 
 ---
 
@@ -75,7 +75,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 
 | Mod | Ver | Description |
 |-----|:---:|-------------|
-| [🎯 Turret Variants](Turret_Variants) | `3.3` | 🔧 15 automated turret variants · LOS fix (no wall-shooting) · Proper ammo matching |
+| [🎯 Turret Variants](Turret_Variants) | `3.6` | 🔧 15 automated turret variants · LOS fix (no wall-shooting) · Proper ammo matching |
 | [💣 Trap and Defense Expansion](Trap_Defense_Expansion) | `1.2` | 23 defense recipes · Unlocks 4 elemental landmines (Poison/Burn/Shock/Freeze) |
 | [🪃 Ammo Crafting Overhaul](Ammo_Crafting_Overhaul) | `1.2` | 50× batch crafting for all arrow and bullet types · 8 ammo conversion recipes |
 | [🛡️ Armor Set Bonuses Enhanced](Armor_Set_Bonuses_Enhanced) | `2.0` | 3-piece partial bonuses for mix-and-match builds + boosted 5-piece bonuses across all 33 sets |
