@@ -2,7 +2,7 @@
 
 # Turret Variants
 
-[![Version](https://img.shields.io/badge/v3.3-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v3.6-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/PAK%20%2B%20EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=unrealengine&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -29,20 +29,20 @@ Each turret now accepts only thematically appropriate ammunition:
 
 | Turret | Tier | Ammo Type | Category |
 |--------|------|-----------|----------|
-| Rock Thrower | Budget | Stone | Rock_Golem_Gun |
-| Bow | Budget | Arrows (36 types) | AllArrows |
-| Crossbow | Budget | Bolts (18 types) | AllBolts |
-| Rapid Crossbow | Budget | Bolts (18 types) | AllBolts |
-| Pistol | Budget | 9mm Rounds | AllPistol |
-| SMG | Budget | 9mm Rounds | AllSubmachineGuns |
-| Assault Rifle | Mid | 5.56mm Rounds | AllAssaultRifle |
-| Storm | Mid | 5.56mm Rounds | AllAssaultRifle |
-| Rifle | Mid | 7.62mm Rounds | AllRifle |
-| Minigun | Mid | 7.62mm Rounds | AllRifle |
-| Javelin | Mid | Javelins/Spears (16 types) | AllJavelins |
-| Sniper | Late | 12.7mm Rounds | AllSnipers |
-| Heavy Sniper | Late | 12.7mm Rounds | AllSnipers |
-| Shotblaster | Mid | 12-Gauge Shells | AllShotgun |
+| Rock Thrower | Budget | Stone | TV_Rock |
+| Bow | Budget | Arrows (36 types) | TV_Arrows |
+| Crossbow | Budget | Bolts (18 types) | TV_Bolts |
+| Rapid Crossbow | Budget | Bolts (18 types) | TV_Bolts |
+| Pistol | Budget | 9mm Rounds | TV_Pistol |
+| SMG | Budget | 9mm Rounds | TV_Pistol |
+| Assault Rifle | Mid | 5.56mm Rounds | TV_AssaultRifle |
+| Storm | Mid | 5.56mm Rounds | TV_AssaultRifle |
+| Rifle | Mid | 7.62mm Rounds | TV_Rifle |
+| Minigun | Mid | 7.62mm Rounds | TV_Rifle |
+| Javelin | Mid | Javelins/Spears (16 types) | TV_Javelin |
+| Sniper | Late | 12.7mm Rounds | TV_Sniper |
+| Heavy Sniper | Late | 12.7mm Rounds | TV_Sniper |
+| Shotblaster | Mid | 12-Gauge Shells | TV_Shotgun |
 | Flamethrower | Late | Biofuel | BioFuel |
 
 ## Installation
@@ -76,6 +76,9 @@ Copy `Turret_Variants_LOS_Fix_P.pak` to:
 - **Flamethrower** — 40-shot stream, area denial. Range: 15m. Ammo: Biofuel
 
 ## Version History
+- **v3.6** — Expanded every turret's ammo list to the full current game sets, so all standard, DLC and workshop ammo variants load (added the universal `Ammo_EDS` round and the DLC `Scyther_Throwing_Spear` that were missing).
+- **v3.5** — Ammo loading fix (contributed by **asconley**): after the w237/238 update, turrets rejected their ammo at the inventory slot. Adds self-contained `TV_` ammo categories, slot tag-queries, and custom turret inventories so every turret — including the spear and stone throwers — loads its ammo again.
+- **v3.4** — Restored the turret display meshes (held/dropped models) after a bad merge had swapped them for a generic fabricator box.
 - **v3.3** — June 2026 update fix: all 15 turret variants lost their models when the update removed the per-type turret meshes. Each variant now points at its real combined turret mesh (pistol / rifle / shotgun / flamethrower, matched by weapon class).
 - **v3.1** - Crash fix: Fixed 15 recipe outputs from D_ItemsStatic to D_ItemTemplate (prevents crash when opening crafting stations).
 - **v3.0** — LOS fix PAK (turrets stop shooting through walls) + proper ammo type matching (arrows, bolts, javelins, stones, biofuel) + updated descriptions
@@ -95,6 +98,9 @@ Copy `Turret_Variants_LOS_Fix_P.pak` to:
 - D_Talents (15 entries)
 - D_ProcessorRecipes (15 entries)
 - D_Durable (1 entry)
+- D_ValidAmmoTypes (9 self-contained `TV_` ammo categories)
+- D_TagQueries (2 entries — thrown-spear + stone slot filters)
+- D_Inventory / D_InventoryInfo (3 entries — custom turret ammo slots)
 
 ## Files
 - `Turret_Variants.EXMOD` — Data table modifications
