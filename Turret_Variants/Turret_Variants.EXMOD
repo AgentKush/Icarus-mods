@@ -1,8 +1,8 @@
 {
   "name": "Turret Variants",
   "author": "AgentKush",
-  "version": "3.4",
-  "description": "v3.4: Restored the turret display meshes (held/dropped models) that a bad merge had swapped for a generic fabricator box - the real turret meshes are intact and correct. | v3.1: Fixed 1 recipe outputs from D_ItemsStatic to D_ItemTemplate (crash fix). | Adds 15 new automated turret variants with unique characteristics.",
+  "version": "3.5",
+  "description": "v3.5: Added the ammo-loading fix (contributed by asconley, PR #15) - self-contained TV_ ammo rows, slot tag-queries, and custom turret inventories so every turret (incl. spears and stone) loads its ammo after the w237/238 update. Built on the v3.4 mesh restore. | v3.4: Restored the turret display meshes (held/dropped models) that a bad merge had swapped for a generic fabricator box - the real turret meshes are intact and correct. | v3.1: Fixed 1 recipe outputs from D_ItemsStatic to D_ItemTemplate (crash fix). | Adds 15 new automated turret variants with unique characteristics.",
   "fileName": "Turret_Variants",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Turret_Variants.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/README.md",
@@ -58,7 +58,7 @@
           "FireParticle": "/Game/ASS/VFX/WEP/NS_PistolHandgunMuzzle.NS_PistolHandgunMuzzle",
           "FireSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Turrets/SFX_TURRET_FIRE_GENERIC.SFX_TURRET_FIRE_GENERIC",
           "ValidAmmoTypes": {
-            "RowName": "AllBolts"
+            "RowName": "TV_Bolts"
           }
         },
         {
@@ -86,7 +86,7 @@
           "FireParticle": "/Game/ASS/VFX/WEP/NS_PistolHandgunMuzzle.NS_PistolHandgunMuzzle",
           "FireSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Turrets/SFX_TURRET_FIRE_GENERIC.SFX_TURRET_FIRE_GENERIC",
           "ValidAmmoTypes": {
-            "RowName": "AllArrows"
+            "RowName": "TV_Arrows"
           }
         },
         {
@@ -114,7 +114,7 @@
           "FireParticle": "/Game/ASS/VFX/WEP/NS_PistolHandgunMuzzle.NS_PistolHandgunMuzzle",
           "FireSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Turrets/SFX_TURRET_FIRE_RIFLE.SFX_TURRET_FIRE_RIFLE",
           "ValidAmmoTypes": {
-            "RowName": "AllSnipers"
+            "RowName": "TV_Sniper"
           }
         },
         {
@@ -142,7 +142,7 @@
           "FireParticle": "/Game/ASS/VFX/WEP/NS_PistolHandgunMuzzle.NS_PistolHandgunMuzzle",
           "FireSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Turrets/SFX_TURRET_FIRE_RIFLE.SFX_TURRET_FIRE_RIFLE",
           "ValidAmmoTypes": {
-            "RowName": "AllAssaultRifle"
+            "RowName": "TV_AssaultRifle"
           }
         },
         {
@@ -170,7 +170,7 @@
           "FireParticle": "/Game/ASS/VFX/WEP/NS_PistolHandgunMuzzle.NS_PistolHandgunMuzzle",
           "FireSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Turrets/SFX_TURRET_FIRE_GENERIC.SFX_TURRET_FIRE_GENERIC",
           "ValidAmmoTypes": {
-            "RowName": "AllSubmachineGuns"
+            "RowName": "TV_Pistol"
           }
         },
         {
@@ -198,7 +198,7 @@
           "FireParticle": "/Game/ASS/VFX/WEP/NS_PistolHandgunMuzzle.NS_PistolHandgunMuzzle",
           "FireSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Turrets/SFX_TURRET_FIRE_GENERIC.SFX_TURRET_FIRE_GENERIC",
           "ValidAmmoTypes": {
-            "RowName": "AllJavelins"
+            "RowName": "TV_Javelin"
           }
         },
         {
@@ -254,7 +254,7 @@
           "FireParticle": "/Game/ASS/VFX/WEP/NS_PistolHandgunMuzzle.NS_PistolHandgunMuzzle",
           "FireSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Turrets/SFX_TURRET_FIRE_GENERIC.SFX_TURRET_FIRE_GENERIC",
           "ValidAmmoTypes": {
-            "RowName": "Rock_Golem_Gun"
+            "RowName": "TV_Rock"
           }
         },
         {
@@ -282,7 +282,7 @@
           "FireParticle": "/Game/ASS/VFX/WEP/NS_PistolHandgunMuzzle.NS_PistolHandgunMuzzle",
           "FireSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Turrets/SFX_TURRET_FIRE_RIFLE.SFX_TURRET_FIRE_RIFLE",
           "ValidAmmoTypes": {
-            "RowName": "AllRifle"
+            "RowName": "TV_Rifle"
           }
         },
         {
@@ -310,7 +310,7 @@
           "FireParticle": "/Game/ASS/VFX/WEP/NS_PistolHandgunMuzzle.NS_PistolHandgunMuzzle",
           "FireSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Turrets/SFX_TURRET_FIRE_RIFLE.SFX_TURRET_FIRE_RIFLE",
           "ValidAmmoTypes": {
-            "RowName": "AllRifle"
+            "RowName": "TV_Rifle"
           }
         },
         {
@@ -338,7 +338,7 @@
           "FireParticle": "/Game/ASS/VFX/WEP/NS_PistolHandgunMuzzle.NS_PistolHandgunMuzzle",
           "FireSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Turrets/SFX_TURRET_FIRE_GENERIC.SFX_TURRET_FIRE_GENERIC",
           "ValidAmmoTypes": {
-            "RowName": "AllPistol"
+            "RowName": "TV_Pistol"
           }
         },
         {
@@ -366,7 +366,7 @@
           "FireParticle": "/Game/ASS/VFX/WEP/NS_PistolHandgunMuzzle.NS_PistolHandgunMuzzle",
           "FireSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Turrets/SFX_TURRET_FIRE_SHOTGUN.SFX_TURRET_FIRE_SHOTGUN",
           "ValidAmmoTypes": {
-            "RowName": "AllShotgun"
+            "RowName": "TV_Shotgun"
           }
         },
         {
@@ -394,7 +394,7 @@
           "FireParticle": "/Game/ASS/VFX/WEP/NS_PistolHandgunMuzzle.NS_PistolHandgunMuzzle",
           "FireSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Turrets/SFX_TURRET_FIRE_GENERIC.SFX_TURRET_FIRE_GENERIC",
           "ValidAmmoTypes": {
-            "RowName": "AllBolts"
+            "RowName": "TV_Bolts"
           }
         },
         {
@@ -422,7 +422,7 @@
           "FireParticle": "/Game/ASS/VFX/WEP/NS_PistolHandgunMuzzle.NS_PistolHandgunMuzzle",
           "FireSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Turrets/SFX_TURRET_FIRE_RIFLE.SFX_TURRET_FIRE_RIFLE",
           "ValidAmmoTypes": {
-            "RowName": "AllAssaultRifle"
+            "RowName": "TV_AssaultRifle"
           }
         },
         {
@@ -450,7 +450,7 @@
           "FireParticle": "/Game/ASS/VFX/WEP/NS_PistolHandgunMuzzle.NS_PistolHandgunMuzzle",
           "FireSound": "/Game/FMOD/Events/SFX/Weapons/Guns/Turrets/SFX_TURRET_FIRE_RIFLE.SFX_TURRET_FIRE_RIFLE",
           "ValidAmmoTypes": {
-            "RowName": "AllSnipers"
+            "RowName": "TV_Sniper"
           }
         }
       ]
@@ -798,7 +798,7 @@
             "RowName": "Turret_Repairable"
           },
           "Inventory": {
-            "RowName": "Inventory_Turret_Pistol"
+            "RowName": "Inventory_Turret_TV_AnyAmmo"
           },
           "Decayable": {
             "RowName": "Decay_10_Minutes"
@@ -891,7 +891,7 @@
             "RowName": "Turret_Repairable"
           },
           "Inventory": {
-            "RowName": "Inventory_Turret_Pistol"
+            "RowName": "Inventory_Turret_TV_AnyAmmo"
           },
           "Decayable": {
             "RowName": "Decay_10_Minutes"
@@ -1263,7 +1263,7 @@
             "RowName": "Turret_Repairable"
           },
           "Inventory": {
-            "RowName": "Inventory_Turret_Rifle"
+            "RowName": "Inventory_Turret_TV_Thrown"
           },
           "Decayable": {
             "RowName": "Decay_10_Minutes"
@@ -1449,7 +1449,7 @@
             "RowName": "Turret_Repairable"
           },
           "Inventory": {
-            "RowName": "Inventory_Turret_Pistol"
+            "RowName": "Inventory_Turret_TV_Rock"
           },
           "Decayable": {
             "RowName": "Decay_10_Minutes"
@@ -1914,7 +1914,7 @@
             "RowName": "Turret_Repairable"
           },
           "Inventory": {
-            "RowName": "Inventory_Turret_Pistol"
+            "RowName": "Inventory_Turret_TV_AnyAmmo"
           },
           "Decayable": {
             "RowName": "Decay_10_Minutes"
@@ -3596,6 +3596,616 @@
               "Amount": 1
             }
           ]
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Tools-D_ValidAmmoTypes.json",
+      "File_Items": [
+        {
+          "Name": "TV_Pistol",
+          "AmmoTypes": [
+            {
+              "RowName": "Ammo_Pistol_Round",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Pistol_Round_Armor_Piercing",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Pistol_Round_Cold_Steel",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Pistol_Round_Explosive",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Pistol_Round_Incendiary",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Pistol_Round_Iron_Wood",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Pistol_Round_Lithium",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Pistol_Round_Obsidian",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Pistol_Round_Uranium",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Pistol_Round_Workshop",
+              "DataTableName": "D_ItemsStatic"
+            }
+          ]
+        },
+        {
+          "Name": "TV_AssaultRifle",
+          "AmmoTypes": [
+            {
+              "RowName": "Ammo_AssaultRifle_Round",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_AssaultRifle_Round_Armor_Piercing",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_AssaultRifle_Round_Cold_Steel",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_AssaultRifle_Round_Explosive",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_AssaultRifle_Round_Incendiary",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_AssaultRifle_Round_Iron_Wood",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_AssaultRifle_Round_Lithium",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_AssaultRifle_Round_Obsidian",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_AssaultRifle_Round_Uranium",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_AssaultRifle_Round_Workshop",
+              "DataTableName": "D_ItemsStatic"
+            }
+          ]
+        },
+        {
+          "Name": "TV_Rifle",
+          "AmmoTypes": [
+            {
+              "RowName": "Ammo_Rifle_Round",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Rifle_Round_Armor_Piercing",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Rifle_Round_Cold_Steel",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Rifle_Round_Explosive",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Rifle_Round_Incendiary",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Rifle_Round_Iron_Wood",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Rifle_Round_Lithium",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Rifle_Round_Obsidian",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Rifle_Round_Uranium",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Rifle_Round_Workshop",
+              "DataTableName": "D_ItemsStatic"
+            }
+          ]
+        },
+        {
+          "Name": "TV_Sniper",
+          "AmmoTypes": [
+            {
+              "RowName": "Ammo_Sniper_Round",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Sniper_Round_Explosive",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Sniper_Round_Illumination",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Sniper_Round_Incendiary",
+              "DataTableName": "D_ItemsStatic"
+            }
+          ]
+        },
+        {
+          "Name": "TV_Shotgun",
+          "AmmoTypes": [
+            {
+              "RowName": "Ammo_Shell_Buckshot",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Shell_ColdSteel",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Shell_Explosive",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Shell_Ironwood",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Shell_Lithium",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Shell_Obsidian",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Shell_Slug",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Shell_Uranium",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Shell_Workshop",
+              "DataTableName": "D_ItemsStatic"
+            }
+          ]
+        },
+        {
+          "Name": "TV_Bolts",
+          "AmmoTypes": [
+            {
+              "RowName": "Copper_Bolt",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Meta_Bolt_Larkwell_Standard",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Meta_Bolt_Larkwell_Whistling",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Metal_Bolt",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Platinum_Bolt",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Steel_Bolt",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Titanium_Bolt",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Tranquilizer_Bolt",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Obsidian_Bolt",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Cold_Steel_Bolt",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Iron_Wood_Bolt",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Meta_Bolt_Larkwell_Electroshock",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Meta_Bolt_Larkwell_Explosive",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Meta_Bolt_Larkwell_Piercing",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Scyther_Bolt",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Lithium_Bolt",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Uranium_Bolt",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Metal_Alloy_Bolt",
+              "DataTableName": "D_ItemsStatic"
+            }
+          ]
+        },
+        {
+          "Name": "TV_Arrows",
+          "AmmoTypes": [
+            {
+              "RowName": "Aluminium_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Black_Wolf_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Bone_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Carbon_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Caveworm_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Composite_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Fire_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Flare_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Flint_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Meta_Arrow_Inaris_Alpha",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Meta_Arrow_Inaris_Bravo",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Meta_Arrow_Inaris_Charlie",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Meta_Arrow_Inaris_Delta",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Meta_Arrow_Larkwell_Bait",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Meta_Arrow_Larkwell_Ballistic",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Meta_Arrow_Larkwell_Bleed",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Meta_Arrow_Larkwell_Standard",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Meta_Arrow_Larkwell_Tazer",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Meta_Arrow_Larkwell_Whistling",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Meta_Arrow_Printed_Alpha",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Meta_Arrow_Printed_Beta",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Meta_Arrow_Printed_Charlie",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Meta_Arrow_Shengong",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Poison_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Sandworm_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Steel_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Stone_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Titanium_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Obsidian_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Cold_Steel_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Iron_Wood_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Scyther_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Drill_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Lithium_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Uranium_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Metal_Alloy_Arrow",
+              "DataTableName": "D_ItemsStatic"
+            }
+          ]
+        },
+        {
+          "Name": "TV_Javelin",
+          "AmmoTypes": [
+            {
+              "RowName": "Bone_Throwing_Spear",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Carbon_Throwing_Spear",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Caveworm_Throwing_Spear",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Cold_Steel_Throwing_Spear",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Composite_Throwing_Spear",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "IceMammoth_Throwing_Spear",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Iron_Wood_Throwing_Spear",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Lithium_Throwing_Spear",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Metal_Throwing_Spear",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Obsidian_Throwing_Spear",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Platinum_Throwing_Spear",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Sandworm_Throwing_Spear",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Steel_Throwing_Spear",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Titanium_Throwing_Spear",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Wood_Throwing_Spear",
+              "DataTableName": "D_ItemsStatic"
+            }
+          ]
+        },
+        {
+          "Name": "TV_Rock",
+          "AmmoTypes": [
+            {
+              "RowName": "Stone",
+              "DataTableName": "D_ItemsStatic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Tags-D_TagQueries.json",
+      "File_Items": [
+        {
+          "Name": "TV_Thrown_Ammo",
+          "Query": {
+            "TagDictionary": [
+              {
+                "TagName": "Item.Weapon.Spear.Thrown"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "AutoDescription": " ANY( Item.Weapon.Spear.Thrown )"
+          }
+        },
+        {
+          "Name": "TV_Rock_Ammo",
+          "Query": {
+            "TagDictionary": [
+              {
+                "TagName": "Item.Resource.Stone"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "AutoDescription": " ANY( Item.Resource.Stone )"
+          }
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Traits-D_Inventory.json",
+      "File_Items": [
+        {
+          "Name": "Inventory_Turret_TV_AnyAmmo",
+          "Inventories": [
+            {
+              "RowName": "Inventory_Turret_TV_AnyAmmo",
+              "DataTableName": "D_InventoryInfo"
+            }
+          ]
+        },
+        {
+          "Name": "Inventory_Turret_TV_Thrown",
+          "Inventories": [
+            {
+              "RowName": "Inventory_Turret_TV_Thrown",
+              "DataTableName": "D_InventoryInfo"
+            }
+          ]
+        },
+        {
+          "Name": "Inventory_Turret_TV_Rock",
+          "Inventories": [
+            {
+              "RowName": "Inventory_Turret_TV_Rock",
+              "DataTableName": "D_InventoryInfo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Inventory-D_InventoryInfo.json",
+      "File_Items": [
+        {
+          "Name": "Inventory_Turret_TV_AnyAmmo",
+          "InventoryID": {
+            "Value": "General"
+          },
+          "SlotTemplate": {
+            "RowName": "Any_Ammo"
+          },
+          "StartingSlots": 4
+        },
+        {
+          "Name": "Inventory_Turret_TV_Thrown",
+          "InventoryID": {
+            "Value": "General"
+          },
+          "SlotTemplate": {
+            "RowName": "TV_Thrown_Ammo"
+          },
+          "StartingSlots": 4
+        },
+        {
+          "Name": "Inventory_Turret_TV_Rock",
+          "InventoryID": {
+            "Value": "General"
+          },
+          "SlotTemplate": {
+            "RowName": "TV_Rock_Ammo"
+          },
+          "StartingSlots": 4
         }
       ]
     }
