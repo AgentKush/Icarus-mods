@@ -498,9 +498,9 @@
     {
       "name": "UDA Terminal Laptop",
       "author": "AgentKush",
-      "version": "1.4",
+      "version": "2.1",
       "compatibility": "All",
-      "description": "A craftable indoor laptop. Press F to open the UDA Workshop, hold F to open the Orbital Deposit. No more walking back to the drop tube. Pure data-table mod - no PAK.",
+      "description": "Reskins the vanilla Orbital Exchange Interface into a laptop, makes it craftable for free (no tech unlock) with the original recipe (Steel Ingot 5, Electronics 5, Glass 3, Epoxy 2), and lets you place it indoors and on benches/tables. PAK + data bundled in the EXMODZ.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/UDA_Terminal_Laptop.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/UDA_Terminal_Laptop/README.md",
       "files": {

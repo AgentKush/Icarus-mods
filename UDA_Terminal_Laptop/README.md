@@ -2,12 +2,12 @@
 
 # UDA Terminal Laptop
 
-[![Version](https://img.shields.io/badge/v1.4-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v2.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
-[![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
+[![Type](https://img.shields.io/badge/EXMOD%20%2B%20PAK-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
-A craftable laptop for your base. Press to open the **Workshop**. Hold to open the **Orbital Deposit**. No more walking back to the drop tube.
+Reskins the **Orbital Exchange Interface** into a **laptop**, and lets you place it **indoors and on benches, tables, and shelves**. Same exchange — new look, anywhere you want it.
 
 Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
 
@@ -15,64 +15,64 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 
 ---
 
-## Why
+## What it does
 
-The UDA Workshop and Orbital Deposit are normally only accessible at the orbital drop tube — meaning if you've trekked across half the map and want to send a kit up or buy something, you have to hike all the way back. The laptop puts those screens on a deployable you can park anywhere in your base.
+Icarus's **Orbital Exchange Interface** (the deployable that opens the orbital exchange) ships as a bulky wooden radio that only stands on the ground. This mod:
 
-## Features
+- **Reskins it to the ICA hab laptop** (`SM_ORB_PRP_Laptop_01`) — a sleek terminal instead of the wooden board.
+- **Lets you place it indoors and on benches, tables, and shelves** — surface snapping with free rotation.
+- **Leaves the exchange function 100% vanilla** — it's the game's own interface, just wearing a laptop.
 
-- **Craftable indoor terminal** that plugs into the existing UDA workshop and orbital deposit screens
-- **Press F** → Open **Workshop** (buy items, browse blueprints)
-- **Hold F** → Open **Orbital Deposit** (send unopened kits and items back to space)
-- **Hold Y** (AltHold) → Pickup the laptop to move it
-- **Pure data-table mod** — no PAK file, no Blueprint asset. Reuses vanilla `BP_Interactable_MetaShop` and `BP_Interactable_SpaceInventory` behaviours that already ship with the game.
-- Pairs perfectly with **Resource_Repacker** (repack ore at any bench → walk to the laptop → ship it up).
+No deer trophy, no new item. It's crafted as **UDA Terminal Laptop** from a **free recipe** (no tech unlock) using the same resources as the original build.
 
-## How It Works
+## How it works
 
-Icarus's interaction system is fully data-table-driven. Every interactable item has a trait that says "on Press, run these D_Interactions Behaviours; on Hold, run these others; on AltHold, these." Vanilla already exposes the workshop and orbital screens as standalone client-only Behaviour Blueprints (`BP_Interactable_MetaShop_C` and `BP_Interactable_SpaceInventory_C`). All the mod does is wire those into a custom Interactable trait on a new craftable laptop deployable.
+Two parts, both shipped together in the EXMODZ:
 
-The laptop's visual is the existing `BP_Prop_Laptop_A` blueprint and the in-game laptop static mesh. No custom assets shipped.
+1. **The patched Blueprint** (`BP_Exotic_Delivery_Interface`) — shipped as a loose cooked asset (`.uasset`/`.uexp`) under `UDA_Terminal_Laptop/BP/Objects/.../`, the same way the Mod Manager packs every mesh mod. It repoints the deployable's static mesh from the wooden radio (`SM_DEP_ExoticDeliveryRadio_T2`) to the laptop (`SM_ORB_PRP_Laptop_01`); edited with UAssetAPI, only that one mesh import changes. The Mod Manager packs it into the merged pak on merge.
+2. **The EXMOD** — overrides the `Exotic_Delivery_Interface` DeployableSetup (laptop placement ghost + surface-friendly placement: `MaxSurfaceSnapAngle: 180`, `SupportsCustomRotation`, restacking), gives it a **free recipe** (no tech `Requirement`), and renames it to **UDA Terminal Laptop** with a laptop icon.
 
-## Crafting Recipe
+## Crafting
 
-Crafted at the **Fabricator** or **Manufacturer**.
+Crafted **for free** (no tech unlock) at the **Crafting Bench, Machining Bench, Fabricator, or Manufacturer**:
 
-| Material | Quantity |
-|----------|----------|
+| Material | Qty |
+|----------|-----|
 | Steel Ingot | 5 |
 | Electronics | 5 |
 | Glass | 3 |
 | Epoxy | 2 |
 
+Look for **UDA Terminal Laptop** in the bench's deployables list.
+
 ## Installation
 
 1. Download `UDA_Terminal_Laptop.EXMODZ`
-2. Import into **Icarus Mod Manager** (JimK72's IMM)
-3. Enable and merge mods as usual
+2. Import into **Icarus Mod Manager** (JimK72's IMM).
+3. Enable, **merge**, and launch.
 
-## Implementation Note
-
-v1.0 used `BP_Prop_Laptop_A_C` for the deployable blueprint, but that's a static-prop blueprint and doesn't accept player placement (the bug eifelyeti hit: "no preview when trying to place"). v1.1 switches to `BP_Terminal_C` — the same blueprint vanilla uses for `Collectable_Laptop`, which is the only player-placeable laptop in the base game. That fixes placement and pairs cleanly with the data-driven Interactable trait that opens the workshop.
+> The laptop mesh ships as a loose cooked asset inside the EXMODZ (under `UDA_Terminal_Laptop/BP/...`). The Mod Manager packs it into the merged pak when you **merge** — so a merge is required after import, not just enabling.
 
 ## Tips
 
-- Place it on a desk or shelf for the proper "indoor command centre" vibe.
-- Pickup is on **AltHold (Y)** specifically because Press is reserved for opening the Workshop. Don't forget — otherwise it's stuck where you put it.
-- If you also have **Resource_Repacker** installed, your full base loop becomes: mine → walk to bench → repack → walk to laptop → ship up.
+- Place it on a desk, bench, or shelf for a proper indoor command-centre look.
+- It's still the Orbital Exchange under the hood — it opens the same exchange interface, just in laptop form.
+- **Requesting a drop pod needs open sky above it** (the pod descends from orbit — same as the vanilla exchange). The laptop places and opens anywhere, but to actually *Request* goods, give it clearance overhead: outside, on a balcony, or under an open roof section.
 
 ## Changelog
 
-### v1.2
-- **Fix:** Laptop now actually deploys (the placement ghost appears) and Press=Workshop / Hold=Orbital Deposit fire. v1.1's `BP_Terminal_C` is a lore-note blueprint that overrides `Deployable_Interact`, which blocked the placement preview and the custom interactions. v1.2 uses `BP_Deer_Trophy_C` — the generic deployable the vanilla collectable laptop uses — which is player-placeable and honours the data-driven Interactable trait.
+### v2.1
+- **Now craftable for free** — recipe with no tech `Requirement` at the Crafting Bench / Machining Bench / Fabricator / Manufacturer, using Steel Ingot 5, Electronics 5, Glass 3, Epoxy 2 (the original build's resources).
+- **Renamed in-game to "UDA Terminal Laptop"** with a laptop inventory icon, so it's easy to find at the bench.
 
-### v1.1
-- **Fix**: laptop now actually places in the world. v1.0 used `BP_Prop_Laptop_A_C` which is a static prop and doesn't accept player placement (no preview ghost would appear). v1.1 uses `BP_Terminal_C` (the vanilla placeable-laptop blueprint) plus the matching mesh and snap/offset values cloned from `Collectable_Laptop`.
+### v2.0
+- **Complete rebuild.** Reskins the vanilla **Orbital Exchange Interface** (`Exotic_Delivery_Interface`) into a laptop, instead of building a from-scratch deployable.
+- **PAK now bundled in the EXMODZ.** The v1.x packages never included a pak, so importing them only installed data and never changed the model.
+- Added indoor / bench / table placement (snap angle 180, custom rotation, restacking) and a laptop placement ghost.
+- Removed all `BP_Deer_Trophy` references and the old custom item + recipe.
 
-### v1.0
-- Initial release
-- 7 data tables added: D_Itemable, D_Meshable, D_Interactable, D_DeployableSetup, D_ItemsStatic, D_ItemTemplate, D_ProcessorRecipes
-- All assets reused from vanilla — no PAK file required
+### v1.x (deprecated)
+- Earlier attempts built a new craftable laptop from scratch using a generic deployable blueprint placed in the wrong setup slot, so it never deployed (no ghost, no placement, no interaction), and no pak was shipped. Superseded by v2.0.
 
 ---
 

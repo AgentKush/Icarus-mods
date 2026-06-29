@@ -1,60 +1,41 @@
-UDA_Terminal_Laptop_P.pak
-----------------------------------------------------------------------
-Mod Version: 1.4
+UDA Terminal Laptop  -  v2.1
+============================
 
-Author: AgentKush
+Reskins the vanilla Orbital Exchange Interface into a laptop, makes it craftable
+for FREE (no tech unlock), and lets you place it indoors and on benches / tables
+/ shelves.
 
-Compatible with Icarus: All Weeks
+WHAT'S IN THIS PACKAGE
+----------------------
+1. UDA_Terminal_Laptop.EXMOD   (data: free recipe, rename, placement, laptop ghost)
+2. UDA_Terminal_Laptop_P.pak   (mesh: swaps the deployed model to a laptop)
 
-Mod Type: EXMOD
+Both are required. Import the EXMODZ through JimK72's Icarus Mod Manager and it
+installs both automatically.
 
-## Description:
-A craftable indoor laptop that opens the UDA Workshop and Orbital Deposit screens without needing to walk back to the drop tube.
+CRAFTING
+--------
+Crafted for free (no tech unlock) at the Crafting Bench, Machining Bench,
+Fabricator, or Manufacturer. Look for "UDA Terminal Laptop":
+    Steel Ingot x5, Electronics x5, Glass x3, Epoxy x2
 
-  - Press F          Open Workshop
-  - Hold F           Open Orbital Deposit (send kits back to space)
-  - Hold Y (AltHold) Pickup the laptop
+WHAT THE PAK DOES
+-----------------
+Edits ONE asset - the deployable blueprint BP_Exotic_Delivery_Interface -
+repointing its static-mesh import from:
+    /Game/ASS/DEP/SM_DEP_ExoticDeliveryRadio_T2     (wooden exchange radio)
+to:
+    /Game/ASS/ORB/SM/ICA_HabC1/SM_ORB_PRP_Laptop_01 (ICA hab laptop)
 
-Pure data-table mod - no PAK file, no Blueprint asset. Reuses the vanilla BP_Interactable_MetaShop and BP_Interactable_SpaceInventory behaviours that already ship with the game, plus the existing laptop mesh and BP_Prop_Laptop_A actor.
+Only that single mesh reference changes. The exchange behaviour, the UI, and
+every other item in the game are untouched. No deer trophy.
 
-Pairs with Resource_Repacker: mine -> repack at any bench -> walk to laptop -> ship up.
+Mounts at: ../../../Icarus/Content/BP/Objects/World/Items/Deployables/MissionCommunication/
 
-## Crafting Recipe (Fabricator / Manufacturer)
-  5 Steel Ingot
-  5 Electronics
-  3 Glass
-  2 Epoxy
+INSTALL
+-------
+Import UDA_Terminal_Laptop.EXMODZ in the Mod Manager, enable, merge, launch.
+Craft "UDA Terminal Laptop" at a bench - it looks like a laptop, opens the
+Orbital Exchange, and places on floors and furniture.
 
-Ver 1.4
-Fixed the laptop mesh (its meshable name collided with the base game machining mesh) and added the missing D_Deployable row so it places correctly after the June 2026 update.
-
-Ver 1.2
-Fix: laptop now actually deploys (placement ghost appears) and Press=Workshop / Hold=Orbital Deposit work. v1.1 used BP_Terminal_C, a lore-note BP that overrides Deployable_Interact and blocked placement. v1.2 uses BP_Deer_Trophy_C (the generic deployable the vanilla collectable laptop uses), which is placeable and honours the data-driven Interactable trait.
-
-Ver 1.1
-Fix: laptop now actually places in the world. v1.0 used BP_Prop_Laptop_A_C which is a static prop and doesn't accept player placement (no preview ghost would appear). v1.1 uses BP_Terminal_C (the vanilla placeable-laptop blueprint) plus the matching mesh and snap/offset values cloned from Collectable_Laptop.
-
-Ver 1.0
-Initial release. Adds 7 data tables (Itemable, Meshable, Interactable, DeployableSetup, ItemsStatic, ItemTemplate, ProcessorRecipes). No PAK required.
-
-## Files Modified:
-  Traits-D_Itemable             (1 entry  - display name + icon + description)
-  Traits-D_Meshable             (1 entry  - in-hand and deployable meshes)
-  Traits-D_Interactable         (1 entry  - press/hold/altHold wiring)
-  Deployables-D_DeployableSetup (1 entry  - deployment metadata + BP path)
-  Items-D_ItemsStatic           (1 entry  - the item, with all trait wiring)
-  Items-D_ItemTemplate          (1 entry  - recipe-output template)
-  Crafting-D_ProcessorRecipes   (1 entry  - Fabricator/Manufacturer recipe)
-
-## Installation:
-  1. Install JimK72's Icarus Mod Manager
-     https://github.com/jimk72/IcarusModManager
-  2. Download UDA_Terminal_Laptop.EXMODZ
-  3. Import via Mod Manager
-
-## Note:
-This relies on the vanilla BP_Prop_Laptop_A blueprint honouring the data-driven Interactable trait. Almost every other deployable in the game does. If for some reason this prop blueprint is hardcoded as decoration only and ignores the trait, the laptop will deploy but pressing F won't open the Workshop. In that case, please file an issue and we will switch to a deployable BP known to respect traits.
-
-----------------------------------------------------------------------
-Made by AgentKush
-https://github.com/AgentKush/Icarus-mods
+Built with UAssetAPI (UE4.27) + UnrealPak. Round-trip verified before packing.

@@ -1,8 +1,8 @@
 {
   "name": "UDA Terminal Laptop",
   "author": "AgentKush",
-  "version": "1.4",
-  "description": "v1.2: Placement fix. The laptop now deploys (shows a placement ghost) and the Press=Workshop / Hold=Orbital Deposit interactions fire. v1.1 used BP_Terminal_C (a lore-note BP that overrides Deployable_Interact and blocked the placement preview); v1.2 uses BP_Deer_Trophy_C, the generic deployable the vanilla collectable laptop uses, which honours the data-driven Interactable trait.\n\nv1.1: Switched the deployable BP from BP_Prop_Laptop_A (static prop) to BP_Terminal_C (the vanilla placeable-laptop BP), fixing the no-preview placement bug from v1.0.\n\nv1.0: Adds a craftable UDA Terminal Laptop. Place it in your base, press F to open the Workshop, hold F to open the Orbital Deposit. Saves the walk back to the drop tube. No PAK required - uses vanilla MetaShop and SpaceInventory interaction behaviours that already exist in the game.",
+  "version": "2.1",
+  "description": "v2.1: Reskins the Orbital Exchange Interface into a laptop, makes it craftable for FREE (no tech unlock needed) with the original recipe cost, renames it to 'UDA Terminal Laptop' with a laptop icon, and lets you place it indoors and on benches/tables. The bundled UDA_Terminal_Laptop_P.pak swaps the deployed mesh to the ICA hab laptop (SM_ORB_PRP_Laptop_01). This EXMOD: free Crafting Bench / Fabricator / Manufacturer recipe (Steel Ingot 5, Electronics 5, Glass 3, Epoxy 2), laptop placement ghost, surface-friendly placement, and the rename/icon. The exchange function is the game's own and is untouched. No deer trophy. Requires both files - both ship in this EXMODZ.",
   "fileName": "UDA_Terminal_Laptop",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/UDA_Terminal_Laptop.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/UDA_Terminal_Laptop/README.md",
@@ -10,166 +10,17 @@
   "Level2": "True",
   "Rows": [
     {
-      "CurrentFile": "Deployables-D_Deployable.json",
-      "File_Items": [
-        {
-          "Name": "UDA_Terminal_Laptop",
-          "Variants": [
-            {
-              "RowName": "UDA_Terminal_Laptop",
-              "DataTableName": "D_DeployableSetup"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "CurrentFile": "Traits-D_Itemable.json",
-      "File_Items": [
-        {
-          "Name": "Item_UDA_Terminal_Laptop",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_UDA_Terminal_Laptop-DisplayName\", \"UDA Terminal Laptop\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Laptop_A.T_ITEM_Prop_Laptop_A",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_UDA_Terminal_Laptop-Description\", \"A portable UDA terminal. Press to open the Workshop. Hold to open the Orbital Deposit. No need to walk back to the drop tube.\")",
-          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_UDA_Terminal_Laptop-FlavorText\", \"Group 15 Issue. Authorised connection to UDA orbital systems. Refurbished from a recovered ICA hab unit.\")",
-          "Weight": 5000
-        }
-      ]
-    },
-    {
-      "CurrentFile": "Traits-D_Meshable.json",
-      "File_Items": [
-        {
-          "Name": "Mesh_UDA_Terminal_Laptop",
-          "ItemMesh": "/Game/ASS/ORB/SM/ICA_HabC1/SM_ORB_PRP_Laptop_01.SM_ORB_PRP_Laptop_01",
-          "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
-          "DeployableActor": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Deer_Trophy.BP_Deer_Trophy_C"
-        }
-      ]
-    },
-    {
-      "CurrentFile": "Traits-D_Interactable.json",
-      "File_Items": [
-        {
-          "Name": "UDA_Terminal_Laptop_Interact",
-          "WorldPressInteracts": [
-            {
-              "InteractionRow": {
-                "RowName": "MetaShop",
-                "DataTableName": "D_Interactions"
-              },
-              "Tag": ""
-            },
-            {
-              "InteractionRow": {
-                "RowName": "Pickup_Item",
-                "DataTableName": "D_Interactions"
-              },
-              "Tag": ""
-            }
-          ],
-          "WorldHoldInteracts": [
-            {
-              "InteractionRow": {
-                "RowName": "SpaceInventory",
-                "DataTableName": "D_Interactions"
-              },
-              "Tag": ""
-            }
-          ],
-          "WorldAltHoldInteracts": [
-            {
-              "InteractionRow": {
-                "RowName": "Pickup_Deployable",
-                "DataTableName": "D_Interactions"
-              },
-              "Tag": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
       "CurrentFile": "Deployables-D_DeployableSetup.json",
       "File_Items": [
         {
-          "Name": "UDA_Terminal_Laptop",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Trophies/BP_Deer_Trophy.BP_Deer_Trophy_C",
+          "Name": "Exotic_Delivery_Interface",
+          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/MissionCommunication/BP_Exotic_Delivery_Interface.BP_Exotic_Delivery_Interface_C",
           "PreviewStaticMesh": "/Game/ASS/ORB/SM/ICA_HabC1/SM_ORB_PRP_Laptop_01.SM_ORB_PRP_Laptop_01",
-          "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+          "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_WOOD.SFX_BLD_WOOD",
           "MaxSurfaceSnapAngle": 180,
-          "SupportsCustomRotation": false,
+          "SupportsCustomRotation": true,
           "bCanAffectNavigation": false,
-          "MaxRestackingAmount": 2,
-          "DeployCollisionExtentOffset": {
-            "Z": 2
-          },
-          "DeployPlacementOffset": {
-            "Z": 2
-          }
-        }
-      ]
-    },
-    {
-      "CurrentFile": "Items-D_ItemsStatic.json",
-      "File_Items": [
-        {
-          "Name": "UDA_Terminal_Laptop",
-          "Meshable": {
-            "RowName": "Mesh_UDA_Terminal_Laptop"
-          },
-          "Itemable": {
-            "RowName": "Item_UDA_Terminal_Laptop"
-          },
-          "Interactable": {
-            "RowName": "UDA_Terminal_Laptop_Interact"
-          },
-          "Focusable": {
-            "RowName": "Focusable_1H"
-          },
-          "Highlightable": {
-            "RowName": "Generic"
-          },
-          "Actionable": {
-            "RowName": "Deployable"
-          },
-          "Usable": {
-            "RowName": "Place"
-          },
-          "Deployable": {
-            "RowName": "UDA_Terminal_Laptop"
-          },
-          "Durable": {
-            "RowName": "Deployable_1500"
-          },
-          "Decayable": {
-            "RowName": "Decay_General"
-          },
-          "Audio": {
-            "RowName": "Default"
-          },
-          "CraftingExperience": 50,
-          "Manual_Tags": {
-            "GameplayTags": [
-              {
-                "TagName": "Item.Tool"
-              },
-              {
-                "TagName": "FieldGuide.Equipment"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "CurrentFile": "Items-D_ItemTemplate.json",
-      "File_Items": [
-        {
-          "Name": "UDA_Terminal_Laptop",
-          "ItemStaticData": {
-            "RowName": "UDA_Terminal_Laptop"
-          }
+          "MaxRestackingAmount": 2
         }
       ]
     },
@@ -177,62 +28,37 @@
       "CurrentFile": "Crafting-D_ProcessorRecipes.json",
       "File_Items": [
         {
-          "Name": "UDA_Terminal_Laptop",
+          "Name": "Exotic_Delivery_Interface",
           "RequiredMillijoules": 25000,
           "RecipeSets": [
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Manufacturer",
-              "DataTableName": "D_RecipeSets"
-            }
+            { "RowName": "Crafting_Bench", "DataTableName": "D_RecipeSets" },
+            { "RowName": "Machining_Bench", "DataTableName": "D_RecipeSets" },
+            { "RowName": "Fabricator", "DataTableName": "D_RecipeSets" },
+            { "RowName": "Manufacturer", "DataTableName": "D_RecipeSets" }
           ],
           "Inputs": [
-            {
-              "Element": {
-                "RowName": "Steel_Ingot",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 5
-            },
-            {
-              "Element": {
-                "RowName": "Electronics",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 5
-            },
-            {
-              "Element": {
-                "RowName": "Glass",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 3
-            },
-            {
-              "Element": {
-                "RowName": "Epoxy",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 2
-            }
+            { "Element": { "RowName": "Steel_Ingot", "DataTableName": "D_ItemsStatic" }, "Count": 5 },
+            { "Element": { "RowName": "Electronics", "DataTableName": "D_ItemsStatic" }, "Count": 5 },
+            { "Element": { "RowName": "Glass", "DataTableName": "D_ItemsStatic" }, "Count": 3 },
+            { "Element": { "RowName": "Epoxy", "DataTableName": "D_ItemsStatic" }, "Count": 2 }
           ],
           "Outputs": [
-            {
-              "Element": {
-                "RowName": "UDA_Terminal_Laptop",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
+            { "Element": { "RowName": "Exotic_Delivery_Interface", "DataTableName": "D_ItemTemplate" }, "Count": 1, "DynamicProperties": [], "Alterations": [] }
           ],
-          "Audio": {
-            "RowName": "Fabricator"
-          }
+          "Audio": { "RowName": "Fabricator" }
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Traits-D_Itemable.json",
+      "File_Items": [
+        {
+          "Name": "Item_Exotic_Delivery_Interface",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Exotic_Delivery_Interface-DisplayName\", \"UDA Terminal Laptop\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Props/T_ITEM_Prop_Laptop_A.T_ITEM_Prop_Laptop_A",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Exotic_Delivery_Interface-Description\", \"A portable Orbital Exchange in laptop form. Open it to access the Orbital Exchange. Places indoors and on benches and tables.\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Exotic_Delivery_Interface-FlavorText\", \"Part of the Icarus Orbital Exchange System developed by Sinotai.\")",
+          "Weight": 10000
         }
       ]
     }
