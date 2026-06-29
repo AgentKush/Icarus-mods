@@ -1,8 +1,8 @@
 {
   "name": "Turret Variants",
   "author": "AgentKush",
-  "version": "3.5",
-  "description": "v3.5: Added the ammo-loading fix (contributed by asconley, PR #15) - self-contained TV_ ammo rows, slot tag-queries, and custom turret inventories so every turret (incl. spears and stone) loads its ammo after the w237/238 update. Built on the v3.4 mesh restore. | v3.4: Restored the turret display meshes (held/dropped models) that a bad merge had swapped for a generic fabricator box - the real turret meshes are intact and correct. | v3.1: Fixed 1 recipe outputs from D_ItemsStatic to D_ItemTemplate (crash fix). | Adds 15 new automated turret variants with unique characteristics.",
+  "version": "3.6",
+  "description": "v3.6: Expanded every turret's ammo list to the full current game set, so all standard, DLC and workshop ammo variants are accepted (was missing a few workshop/EDS/lithium rounds). | v3.5: Added the ammo-loading fix (contributed by asconley, PR #15) - self-contained TV_ ammo rows, slot tag-queries, and custom turret inventories so every turret (incl. spears and stone) loads its ammo after the w237/238 update. Built on the v3.4 mesh restore. | v3.4: Restored the turret display meshes (held/dropped models) that a bad merge had swapped for a generic fabricator box - the real turret meshes are intact and correct. | v3.1: Fixed 1 recipe outputs from D_ItemsStatic to D_ItemTemplate (crash fix). | Adds 15 new automated turret variants with unique characteristics.",
   "fileName": "Turret_Variants",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Turret_Variants.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/README.md",
@@ -3610,14 +3610,6 @@
               "DataTableName": "D_ItemsStatic"
             },
             {
-              "RowName": "Ammo_Pistol_Round_Armor_Piercing",
-              "DataTableName": "D_ItemsStatic"
-            },
-            {
-              "RowName": "Ammo_Pistol_Round_Cold_Steel",
-              "DataTableName": "D_ItemsStatic"
-            },
-            {
               "RowName": "Ammo_Pistol_Round_Explosive",
               "DataTableName": "D_ItemsStatic"
             },
@@ -3626,11 +3618,7 @@
               "DataTableName": "D_ItemsStatic"
             },
             {
-              "RowName": "Ammo_Pistol_Round_Iron_Wood",
-              "DataTableName": "D_ItemsStatic"
-            },
-            {
-              "RowName": "Ammo_Pistol_Round_Lithium",
+              "RowName": "Ammo_Pistol_Round_Armor_Piercing",
               "DataTableName": "D_ItemsStatic"
             },
             {
@@ -3638,11 +3626,27 @@
               "DataTableName": "D_ItemsStatic"
             },
             {
-              "RowName": "Ammo_Pistol_Round_Uranium",
+              "RowName": "Ammo_Pistol_Round_Cold_Steel",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Pistol_Round_Iron_Wood",
               "DataTableName": "D_ItemsStatic"
             },
             {
               "RowName": "Ammo_Pistol_Round_Workshop",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_EDS",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Pistol_Round_Uranium",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Pistol_Round_Lithium",
               "DataTableName": "D_ItemsStatic"
             }
           ]
@@ -3655,11 +3659,7 @@
               "DataTableName": "D_ItemsStatic"
             },
             {
-              "RowName": "Ammo_AssaultRifle_Round_Armor_Piercing",
-              "DataTableName": "D_ItemsStatic"
-            },
-            {
-              "RowName": "Ammo_AssaultRifle_Round_Cold_Steel",
+              "RowName": "Ammo_AssaultRifle_Round_Incendiary",
               "DataTableName": "D_ItemsStatic"
             },
             {
@@ -3667,15 +3667,7 @@
               "DataTableName": "D_ItemsStatic"
             },
             {
-              "RowName": "Ammo_AssaultRifle_Round_Incendiary",
-              "DataTableName": "D_ItemsStatic"
-            },
-            {
-              "RowName": "Ammo_AssaultRifle_Round_Iron_Wood",
-              "DataTableName": "D_ItemsStatic"
-            },
-            {
-              "RowName": "Ammo_AssaultRifle_Round_Lithium",
+              "RowName": "Ammo_AssaultRifle_Round_Armor_Piercing",
               "DataTableName": "D_ItemsStatic"
             },
             {
@@ -3683,7 +3675,23 @@
               "DataTableName": "D_ItemsStatic"
             },
             {
+              "RowName": "Ammo_AssaultRifle_Round_Iron_Wood",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_AssaultRifle_Round_Cold_Steel",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_EDS",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
               "RowName": "Ammo_AssaultRifle_Round_Uranium",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_AssaultRifle_Round_Lithium",
               "DataTableName": "D_ItemsStatic"
             },
             {
@@ -3700,11 +3708,7 @@
               "DataTableName": "D_ItemsStatic"
             },
             {
-              "RowName": "Ammo_Rifle_Round_Armor_Piercing",
-              "DataTableName": "D_ItemsStatic"
-            },
-            {
-              "RowName": "Ammo_Rifle_Round_Cold_Steel",
+              "RowName": "Ammo_Rifle_Round_Incendiary",
               "DataTableName": "D_ItemsStatic"
             },
             {
@@ -3712,15 +3716,7 @@
               "DataTableName": "D_ItemsStatic"
             },
             {
-              "RowName": "Ammo_Rifle_Round_Incendiary",
-              "DataTableName": "D_ItemsStatic"
-            },
-            {
-              "RowName": "Ammo_Rifle_Round_Iron_Wood",
-              "DataTableName": "D_ItemsStatic"
-            },
-            {
-              "RowName": "Ammo_Rifle_Round_Lithium",
+              "RowName": "Ammo_Rifle_Round_Armor_Piercing",
               "DataTableName": "D_ItemsStatic"
             },
             {
@@ -3728,11 +3724,27 @@
               "DataTableName": "D_ItemsStatic"
             },
             {
-              "RowName": "Ammo_Rifle_Round_Uranium",
+              "RowName": "Ammo_Rifle_Round_Iron_Wood",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Rifle_Round_Cold_Steel",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_EDS",
               "DataTableName": "D_ItemsStatic"
             },
             {
               "RowName": "Ammo_Rifle_Round_Workshop",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Rifle_Round_Uranium",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Rifle_Round_Lithium",
               "DataTableName": "D_ItemsStatic"
             }
           ]
@@ -3749,11 +3761,11 @@
               "DataTableName": "D_ItemsStatic"
             },
             {
-              "RowName": "Ammo_Sniper_Round_Illumination",
+              "RowName": "Ammo_Sniper_Round_Incendiary",
               "DataTableName": "D_ItemsStatic"
             },
             {
-              "RowName": "Ammo_Sniper_Round_Incendiary",
+              "RowName": "Ammo_Sniper_Round_Illumination",
               "DataTableName": "D_ItemsStatic"
             }
           ]
@@ -3766,23 +3778,7 @@
               "DataTableName": "D_ItemsStatic"
             },
             {
-              "RowName": "Ammo_Shell_ColdSteel",
-              "DataTableName": "D_ItemsStatic"
-            },
-            {
               "RowName": "Ammo_Shell_Explosive",
-              "DataTableName": "D_ItemsStatic"
-            },
-            {
-              "RowName": "Ammo_Shell_Ironwood",
-              "DataTableName": "D_ItemsStatic"
-            },
-            {
-              "RowName": "Ammo_Shell_Lithium",
-              "DataTableName": "D_ItemsStatic"
-            },
-            {
-              "RowName": "Ammo_Shell_Obsidian",
               "DataTableName": "D_ItemsStatic"
             },
             {
@@ -3790,11 +3786,31 @@
               "DataTableName": "D_ItemsStatic"
             },
             {
-              "RowName": "Ammo_Shell_Uranium",
+              "RowName": "Ammo_Shell_Ironwood",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Shell_Obsidian",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Shell_ColdSteel",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_EDS",
               "DataTableName": "D_ItemsStatic"
             },
             {
               "RowName": "Ammo_Shell_Workshop",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Shell_Lithium",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Ammo_Shell_Uranium",
               "DataTableName": "D_ItemsStatic"
             }
           ]
@@ -4033,15 +4049,11 @@
               "DataTableName": "D_ItemsStatic"
             },
             {
-              "RowName": "Carbon_Throwing_Spear",
-              "DataTableName": "D_ItemsStatic"
-            },
-            {
               "RowName": "Caveworm_Throwing_Spear",
               "DataTableName": "D_ItemsStatic"
             },
             {
-              "RowName": "Cold_Steel_Throwing_Spear",
+              "RowName": "Carbon_Throwing_Spear",
               "DataTableName": "D_ItemsStatic"
             },
             {
@@ -4054,10 +4066,6 @@
             },
             {
               "RowName": "Iron_Wood_Throwing_Spear",
-              "DataTableName": "D_ItemsStatic"
-            },
-            {
-              "RowName": "Lithium_Throwing_Spear",
               "DataTableName": "D_ItemsStatic"
             },
             {
@@ -4077,6 +4085,10 @@
               "DataTableName": "D_ItemsStatic"
             },
             {
+              "RowName": "Scyther_Throwing_Spear",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
               "RowName": "Steel_Throwing_Spear",
               "DataTableName": "D_ItemsStatic"
             },
@@ -4086,6 +4098,14 @@
             },
             {
               "RowName": "Wood_Throwing_Spear",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Cold_Steel_Throwing_Spear",
+              "DataTableName": "D_ItemsStatic"
+            },
+            {
+              "RowName": "Lithium_Throwing_Spear",
               "DataTableName": "D_ItemsStatic"
             }
           ]
