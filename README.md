@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://agentkush.github.io/Icarus-mods/"><img src="docs/og-image.png" alt="AgentKush's Icarus Mods — 53 free mods for Icarus: First Cohort" width="840"></a>
+<a href="https://agentkush.github.io/Icarus-mods/"><img src="https://github.com/AgentKush/Icarus-mods/raw/main/docs/og-image.png?v=2" alt="AgentKush's Icarus Mods — 53 free mods for Icarus: First Cohort" width="840"></a>
 
 # AgentKush's Icarus Mods
 
