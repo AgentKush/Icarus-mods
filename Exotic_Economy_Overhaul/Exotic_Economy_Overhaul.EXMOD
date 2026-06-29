@@ -1,8 +1,8 @@
 {
   "name": "Exotic Economy Overhaul",
   "author": "AgentKush",
-  "version": "2.1",
-  "description": "v2.1: Crash fix - all recipe outputs corrected from D_ItemsStatic to D_ItemTemplate. Added 14 missing buy/sell recipes (Refined Copper, Refined Metal, sell-back for all buyable materials). 66 total recipes. | Full currency exchange system. Buy and sell materials with Ren, convert between exotics and currencies, cross-convert ingots, and bulk smelt ores at the correct furnaces/benches.",
+  "version": "2.2",
+  "description": "v2.1: Crash fix - all recipe outputs corrected from D_ItemsStatic to D_ItemTemplate. Added 14 missing buy/sell recipes (Refined Copper, Refined Metal, sell-back for all buyable materials). 66 total recipes. | Full currency exchange system. Buy and sell materials with Ren, convert between exotics and currencies, cross-convert ingots, and bulk smelt ores at the correct furnaces/benches. v2.2: fixed missing recipe icons by setting ItemIconOverride on every recipe to its output item, so recipes show the output's icon instead of 'ICON MISSING'.",
   "fileName": "Exotic_Economy_Overhaul",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Exotic_Economy_Overhaul.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Exotic_Economy_Overhaul/README.md",
@@ -46,6 +46,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Steel_Ingot"
+            }
           }
         },
         {
@@ -83,6 +88,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Titanium_Ingot"
+            }
           }
         },
         {
@@ -120,6 +130,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Platinum_Ingot"
+            }
           }
         },
         {
@@ -157,6 +172,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Refined_Gold"
+            }
           }
         },
         {
@@ -194,6 +214,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Electronics"
+            }
           }
         },
         {
@@ -231,6 +256,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Carbon_Fiber"
+            }
           }
         },
         {
@@ -268,6 +298,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Composites"
+            }
           }
         },
         {
@@ -305,6 +340,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Epoxy"
+            }
           }
         },
         {
@@ -342,6 +382,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Gunpowder"
+            }
           }
         },
         {
@@ -379,6 +424,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Volatile_Substance"
+            }
           }
         },
         {
@@ -416,6 +466,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Cold_Steel_Ingot"
+            }
           }
         },
         {
@@ -453,6 +508,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Cobalt_Ingot"
+            }
           }
         },
         {
@@ -490,6 +550,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Lithium_Refined"
+            }
           }
         },
         {
@@ -527,6 +592,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ruby_Shaped"
+            }
           }
         },
         {
@@ -564,6 +634,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Shaped_Obsidian"
+            }
           }
         },
         {
@@ -601,6 +676,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Aluminium"
+            }
           }
         },
         {
@@ -638,6 +718,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Copper_Wire"
+            }
           }
         },
         {
@@ -675,6 +760,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Glass"
+            }
           }
         },
         {
@@ -712,6 +802,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Concrete_Mix"
+            }
           }
         },
         {
@@ -749,6 +844,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Refined_Copper"
+            }
           }
         },
         {
@@ -786,6 +886,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Refined_Metal"
+            }
           }
         },
         {
@@ -823,6 +928,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -860,6 +970,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -897,6 +1012,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -934,6 +1054,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -971,6 +1096,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -1008,6 +1138,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -1045,6 +1180,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -1082,6 +1222,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -1119,6 +1264,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -1156,6 +1306,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -1193,6 +1348,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -1230,6 +1390,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -1267,6 +1432,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -1304,6 +1474,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -1341,6 +1516,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -1378,6 +1558,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -1415,6 +1600,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -1452,6 +1642,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -1489,6 +1684,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -1526,6 +1726,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -1563,6 +1768,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -1596,6 +1806,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Exotic_Red"
+            }
           }
         },
         {
@@ -1629,6 +1844,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Condensed_Exotic"
+            }
           }
         },
         {
@@ -1662,6 +1882,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Exotic_Red"
+            }
           }
         },
         {
@@ -1695,6 +1920,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -1728,6 +1958,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -1761,6 +1996,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -1794,6 +2034,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ren"
+            }
           }
         },
         {
@@ -1831,6 +2076,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Steel_Ingot"
+            }
           }
         },
         {
@@ -1868,6 +2118,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Titanium_Ingot"
+            }
           }
         },
         {
@@ -1905,6 +2160,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Platinum_Ingot"
+            }
           }
         },
         {
@@ -1942,6 +2202,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Platinum_Ingot"
+            }
           }
         },
         {
@@ -1979,6 +2244,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Refined_Gold"
+            }
           }
         },
         {
@@ -2016,6 +2286,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Cobalt_Ingot"
+            }
           }
         },
         {
@@ -2053,6 +2328,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Lithium_Refined"
+            }
           }
         },
         {
@@ -2090,6 +2370,11 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Cold_Steel_Ingot"
+            }
           }
         },
         {
@@ -2131,6 +2416,11 @@
           ],
           "Audio": {
             "RowName": "Ovens"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Refined_Metal"
+            }
           }
         },
         {
@@ -2172,6 +2462,11 @@
           ],
           "Audio": {
             "RowName": "Ovens"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Refined_Copper"
+            }
           }
         },
         {
@@ -2209,6 +2504,11 @@
           ],
           "Audio": {
             "RowName": "Ovens"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Refined_Gold"
+            }
           }
         },
         {
@@ -2246,6 +2546,11 @@
           ],
           "Audio": {
             "RowName": "Ovens"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Titanium_Ingot"
+            }
           }
         },
         {
@@ -2283,6 +2588,11 @@
           ],
           "Audio": {
             "RowName": "Ovens"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Platinum_Ingot"
+            }
           }
         },
         {
@@ -2320,6 +2630,11 @@
           ],
           "Audio": {
             "RowName": "Ovens"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Aluminium"
+            }
           }
         },
         {
@@ -2357,6 +2672,11 @@
           ],
           "Audio": {
             "RowName": "Ovens"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Cobalt_Ingot"
+            }
           }
         },
         {
@@ -2390,6 +2710,11 @@
           ],
           "Audio": {
             "RowName": "Composter"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Lithium_Refined"
+            }
           }
         },
         {
@@ -2423,6 +2748,11 @@
           ],
           "Audio": {
             "RowName": "Composter"
+          },
+          "ItemIconOverride": {
+            "ItemStaticData": {
+              "RowName": "Ruby_Shaped"
+            }
           }
         }
       ]
