@@ -1,6 +1,6 @@
 Turret_Variants_P.pak
 ----------------------------------------------------------------------
-Mod Version: 3.6
+Mod Version: 3.7
 
 Author: AgentKush
 
@@ -12,6 +12,9 @@ Mod Type: EXMOD
 Adds 15 new automated turret variants with unique characteristics. v3.0: LOS fix PAK + proper ammo type matching (arrows, bolts, javelins, stones, biofuel) + tighter targeting.
 
 
+
+Ver 3.7
+Arc-projectile turret balance pass (contributed by asconley): trimmed Crossbow (55->50m), Bow (60->55m), Javelin (70->65m) and Rapid Crossbow (45->40m) ranges so the gravity-affected shots land on target, and raised the Javelin launch force so spears reach range.
 
 Ver 3.6
 Expanded every turret's ammo list to the full current game sets - all standard, DLC and workshop ammo variants now load (added the universal Ammo_EDS round + DLC Scyther spear).

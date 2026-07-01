@@ -171,9 +171,9 @@
     {
       "name": "Turret Variants",
       "author": "AgentKush",
-      "version": "3.6",
+      "version": "3.7",
       "compatibility": "All",
-      "description": "15 new automated turret variants with unique firing patterns. v3.6: restored turret models + ammo loading fix so all standard, DLC and workshop ammo loads after the w237/238 update. Includes Crossbow, Bow, Sniper, Assault Rifle, SMG, Javelin, Flamethrower, Rock, Minigun, Rifle, Pistol, Shotblaster, Rapid Crossbow, Storm, and Heavy Sniper turrets.",
+      "description": "15 new automated turret variants with unique firing patterns. v3.7: arc-turret range + launch-force balance pass (asconley, PR #16). v3.6: restored turret models + ammo loading fix so all standard, DLC and workshop ammo loads after the w237/238 update. Includes Crossbow, Bow, Sniper, Assault Rifle, SMG, Javelin, Flamethrower, Rock, Minigun, Rifle, Pistol, Shotblaster, Rapid Crossbow, Storm, and Heavy Sniper turrets.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Turret_Variants.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/README.md",
       "files": {

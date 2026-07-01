@@ -2,7 +2,7 @@
 
 # Turret Variants
 
-[![Version](https://img.shields.io/badge/v3.6-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v3.7-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/PAK%20%2B%20EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=unrealengine&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -58,9 +58,9 @@ Copy `Turret_Variants_LOS_Fix_P.pak` to:
 
 ## Budget Turrets (Steel-tier crafting)
 - **Rock Thrower** — Single shot, wide spread. Range: 40m. Ammo: Stone
-- **Bow** — Single shot, wide arc. Range: 60m. Ammo: Arrows
-- **Crossbow** — Single shot, high accuracy. Range: 55m. Ammo: Bolts
-- **Rapid Crossbow** — 3-shot bursts, fast reload. Range: 45m. Ammo: Bolts
+- **Bow** — Single shot, wide arc. Range: 55m. Ammo: Arrows
+- **Crossbow** — Single shot, high accuracy. Range: 50m. Ammo: Bolts
+- **Rapid Crossbow** — 3-shot bursts, fast reload. Range: 40m. Ammo: Bolts
 - **Pistol** — 3-round bursts, wide arc. Range: 40m. Ammo: 9mm Rounds
 - **SMG** — 8-round bursts, wide arc. Range: 35m. Ammo: 9mm Rounds
 
@@ -69,13 +69,14 @@ Copy `Turret_Variants_LOS_Fix_P.pak` to:
 - **Storm** — 12-round storms, extreme rate. Range: 40m. Ammo: 5.56mm Rounds
 - **Rifle** — 3-round bursts, high accuracy. Range: 75m. Ammo: 7.62mm Rounds
 - **Minigun** — 20-round bursts, extreme fire rate. Range: 45m. Ammo: 7.62mm Rounds
-- **Javelin** — Single shot, high damage. Range: 70m. Ammo: Javelins/Spears
+- **Javelin** — Single shot, high damage. Range: 65m. Ammo: Javelins/Spears
 - **Sniper** — Extreme range, pinpoint accuracy. Range: 100m. Ammo: 12.7mm Rounds
 - **Heavy Sniper** — Single shot, max range. Range: 150m. Ammo: 12.7mm Rounds
 - **Shotblaster** — 2-shot burst, massive spread. Range: 25m. Ammo: 12-Gauge Shells
 - **Flamethrower** — 40-shot stream, area denial. Range: 15m. Ammo: Biofuel
 
 ## Version History
+- **v3.7** — Arc-projectile turret balance pass (contributed by **asconley**): trimmed the Crossbow (55→50m), Bow (60→55m), Javelin (70→65m) and Rapid Crossbow (45→40m) ranges so the gravity-affected shots drop onto the target instead of sailing past, and boosted the Javelin's launch force so spears reach their listed range.
 - **v3.6** — Expanded every turret's ammo list to the full current game sets, so all standard, DLC and workshop ammo variants load (added the universal `Ammo_EDS` round and the DLC `Scyther_Throwing_Spear` that were missing).
 - **v3.5** — Ammo loading fix (contributed by **asconley**): after the w237/238 update, turrets rejected their ammo at the inventory slot. Adds self-contained `TV_` ammo categories, slot tag-queries, and custom turret inventories so every turret — including the spear and stone throwers — loads its ammo again.
 - **v3.4** — Restored the turret display meshes (held/dropped models) after a bad merge had swapped them for a generic fabricator box.

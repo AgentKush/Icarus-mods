@@ -1,8 +1,8 @@
 {
   "name": "Turret Variants",
   "author": "AgentKush",
-  "version": "3.6",
-  "description": "v3.6: Expanded every turret's ammo list to the full current game set, so all standard, DLC and workshop ammo variants are accepted (was missing a few workshop/EDS/lithium rounds). | v3.5: Added the ammo-loading fix (contributed by asconley, PR #15) - self-contained TV_ ammo rows, slot tag-queries, and custom turret inventories so every turret (incl. spears and stone) loads its ammo after the w237/238 update. Built on the v3.4 mesh restore. | v3.4: Restored the turret display meshes (held/dropped models) that a bad merge had swapped for a generic fabricator box - the real turret meshes are intact and correct. | v3.1: Fixed 1 recipe outputs from D_ItemsStatic to D_ItemTemplate (crash fix). | Adds 15 new automated turret variants with unique characteristics.",
+  "version": "3.7",
+  "description": "v3.7: Tuned arc-projectile turret balance (contributed by asconley, PR #16) - trimmed Crossbow (55->50m), Bow (60->55m), Javelin (70->65m) and Rapid Crossbow (45->40m) ranges so the gravity-affected shot drops onto the target instead of overshooting, and raised Javelin launch force (2200->12000) so spears actually reach that range. | v3.6: Expanded every turret's ammo list to the full current game set, so all standard, DLC and workshop ammo variants are accepted (was missing a few workshop/EDS/lithium rounds). | v3.5: Added the ammo-loading fix (contributed by asconley, PR #15) - self-contained TV_ ammo rows, slot tag-queries, and custom turret inventories so every turret (incl. spears and stone) loads its ammo after the w237/238 update. Built on the v3.4 mesh restore. | v3.4: Restored the turret display meshes (held/dropped models) that a bad merge had swapped for a generic fabricator box - the real turret meshes are intact and correct. | v3.1: Fixed 1 recipe outputs from D_ItemsStatic to D_ItemTemplate (crash fix). | Adds 15 new automated turret variants with unique characteristics.",
   "fileName": "Turret_Variants",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Turret_Variants.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/README.md",
@@ -49,7 +49,7 @@
             "Y": 0.2
           },
           "PermitBeginFireAngle": 2,
-          "MaxRange": 5500,
+          "MaxRange": 5000,
           "BurstFireRate": 0.5,
           "BurstFireShots": 1,
           "LaunchForce": 900,
@@ -77,7 +77,7 @@
             "Y": 0.3
           },
           "PermitBeginFireAngle": 2,
-          "MaxRange": 6000,
+          "MaxRange": 5500,
           "BurstFireRate": 0.4,
           "BurstFireShots": 1,
           "LaunchForce": 1000,
@@ -189,10 +189,10 @@
             "Y": 0.1
           },
           "PermitBeginFireAngle": 2,
-          "MaxRange": 7000,
+          "MaxRange": 6500,
           "BurstFireRate": 0.5,
           "BurstFireShots": 1,
-          "LaunchForce": 2200,
+          "LaunchForce": 12000,
           "CheckTargetPeriod": 1.2,
           "CoolDownPeriod": 4,
           "FireParticle": "/Game/ASS/VFX/WEP/NS_PistolHandgunMuzzle.NS_PistolHandgunMuzzle",
@@ -385,7 +385,7 @@
             "Y": 0.35
           },
           "PermitBeginFireAngle": 2,
-          "MaxRange": 4500,
+          "MaxRange": 4000,
           "BurstFireRate": 0.25,
           "BurstFireShots": 3,
           "LaunchForce": 950,
