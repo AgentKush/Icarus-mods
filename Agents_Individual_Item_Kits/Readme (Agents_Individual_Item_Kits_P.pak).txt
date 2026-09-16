@@ -1,6 +1,6 @@
 Agents_Individual_Item_Kits_P.pak
 ----------------------------------------------------------------------
-Mod Version: 5.2
+Mod Version: 5.3
 
 Author: AgentKush
 
@@ -9,7 +9,17 @@ Compatible with Icarus: All Weeks
 Mod Type: EXMOD
 
 ## Description:
-2683 individual item kits with real game icons across 20 categorized workshop groups. Every player-usable game item available as a kit - fairly priced by complexity and rarity. Armor sorted by slot (head -> chest -> arms -> legs -> feet), 5-row grid layout, verified icons.
+2702 individual item kits with real game icons across 20 categorized workshop groups. Every player-usable game item available as a kit - fairly priced by complexity and rarity. Armor sorted by slot (head -> chest -> arms -> legs -> feet), 5-row grid layout, verified icons.
+
+Ver 5.3
+Get back kits you already researched - v4.0 renamed every kit's research ID, so kits
+researched on v1.0 to v3.1 showed as locked and asked for Ren again. Close Icarus and
+run Restore_Kit_Research.bat (in the Restore_Kit_Research folder) to restore them for
+free; it backs up your profile first. Added 23 kits for items from the Sept 2026 update.
+Fixed 4 kits that gave nothing when used (Sandwyrm SMG, Scout SMG, Checkered Flag,
+Speeder Kit). Removed 2 kits for fish the game deleted and 2 duplicate kits that
+overwrote each other. Removed two properties (Icon, Category) from every workshop entry
+that the game does not read. 2,702 individual item kits across 20 workshop categories.
 
 Ver 5.2
 Fixed workshop grid clipping into top sell bar (Y offset shifted from 100 to 250). Re-sorted all 2,683 kits into 20 category groups with box-width spacing between each group for clear visual separation. Categories scroll left to right: Raw Resources, Refined Materials, Seeds, Food, Drinks & Medicine, Melee Weapons, Bows & Crossbows, Firearms, Ammunition, Explosives, Shields, Armor, Attachments, Tools, Gear, Building Pieces, Crafting Stations, Deployables, Lighting, Trophies & Decor.
@@ -32,21 +42,44 @@ Description update.
 Ver 3.0
 Added 657 new kits.
 
+## Get Back Kits You Already Researched:
+  Version 4.0 renamed every kit's research ID. If you researched kits on
+  v1.0 to v3.1, the game still has that research saved under the old IDs,
+  so those kits show as locked and ask for Ren again. The Restore_Kit_Research
+  tool renames the old IDs in your Icarus profile to the current ones, so
+  those kits are researched again at no cost. It only changes kit research.
+
+  1. Close Icarus completely.
+  2. Open the Restore_Kit_Research folder that comes with this mod, or get
+     both files from:
+     https://github.com/AgentKush/Icarus-mods/tree/main/Agents_Individual_Item_Kits/Restore_Kit_Research
+  3. Double-click Restore_Kit_Research.bat
+  4. Start Icarus. The restored kits show as researched again.
+
+  - It backs up your profile first (Profile.json.kitrestore_<date>.bak).
+  - Running it again is safe. If there is nothing to restore, it changes nothing.
+  - Preview without changing anything: Restore_Kit_Research.bat -DryRun
+  - Dedicated server / custom save location:
+    Restore_Kit_Research.bat -PlayerDataPath "<PlayerData folder>"
+  - Kits retired in earlier versions (item left the game or dev-only kit)
+    cannot come back. The tool lists any it finds in your profile.
+
 ## Files Modified:
-  Items-D_ItemsStatic          (2683 entries)
-  Traits-D_Itemable            (2683 entries)
-  Items-D_ItemTemplate         (2683 entries)
-  Traits-D_Consumable          (2683 entries)
+  Items-D_ItemsStatic          (2702 entries)
+  Traits-D_Itemable            (2702 entries)
+  Items-D_ItemTemplate         (2702 entries)
+  Traits-D_Consumable          (2702 entries)
   Talents-D_TalentArchetypes   (1 entry)
   Talents-D_TalentTrees        (1 entry)
-  Talents-D_Talents            (2683 entries)
-  MetaWorkshop-D_WorkshopItems (2683 entries)
+  Talents-D_Talents            (2702 entries)
+  MetaWorkshop-D_WorkshopItems (2702 entries)
 
 ## Installation:
   1. Install JimK72's Icarus Mod Manager
      https://github.com/jimk72/IcarusModManager
   2. Download Agents_Individual_Item_Kits.EXMODZ
   3. Import via Mod Manager
+  4. Updating from v3.1 or older? Run Restore_Kit_Research.bat (see above)
 
 ----------------------------------------------------------------------
 Made by AgentKush

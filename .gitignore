@@ -16,6 +16,8 @@ desktop.ini
 # Build artifacts
 Performance_Optimizer/PAK_Build/
 *.bat
+# ...except player-run tools that ship with a mod
+!*/Restore_Kit_Research/*.bat
 /tools/icarus_watcher
 /tools
 .claude/

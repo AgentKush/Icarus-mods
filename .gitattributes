@@ -5,6 +5,9 @@
 *.uexp binary
 *.png binary
 
+# Player-run tools ship byte-for-byte (a .bat needs its CRLF line endings for cmd)
+*/Restore_Kit_Research/* -text
+
 # Force LF line endings for text files
 *.md text eol=lf
 *.json text eol=lf

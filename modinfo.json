@@ -15,9 +15,9 @@
     {
       "name": "Agents Individual Item Kits",
       "author": "AgentKush",
-      "version": "5.2",
+      "version": "5.3",
       "compatibility": "All",
-      "description": "v5.2: Fixed workshop grid clipping into top sell bar. Re-sorted all 2,683 kits into 20 category groups with box-width spacing between each group. Categories: Raw Resources, Refined Materials, Seeds, Food, Drinks & Medicine, Melee Weapons, Bows & Crossbows, Firearms, Ammunition, Explosives, Shields, Armor, Attachments, Tools, Gear, Building Pieces, Crafting Stations, Deployables, Lighting, Trophies & Decor.",
+      "description": "2,702 individual item kits with real game icons across 20 categorized workshop tabs, fairly priced by complexity. Includes Restore_Kit_Research to get back kits you researched on older versions of the mod.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Agents_Individual_Item_Kits.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Individual_Item_Kits/README.md",
       "files": {

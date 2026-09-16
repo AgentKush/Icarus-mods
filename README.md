@@ -5,7 +5,7 @@
 # AgentKush's Icarus Mods
 
 [![Mods](https://img.shields.io/badge/53_Mods-Ready_to_Play-0d1117?style=for-the-badge&logo=steam&logoColor=white&labelColor=1a1e2e)]()
-[![Data Entries](https://img.shields.io/badge/41%2C643-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
+[![Data Entries](https://img.shields.io/badge/41%2C769-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
 [![Recipes](https://img.shields.io/badge/18%2C934-Recipes-0d1117?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a1e2e)]()
 [![Free](https://img.shields.io/badge/100%25-Free_to_Use-0d1117?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=1a1e2e)]()
 
@@ -35,7 +35,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 | Mod | Ver | Description |
 |-----|:---:|-------------|
 | [🧬 Agent's BioLab](Agents_BioLab) | `2.0` | All 11 Bio Lab Legendary weapons in the Workshop — includes Sandwyrm Chainsaw |
-| [📦 Agent's Individual Item Kits](Agents_Individual_Item_Kits) | `5.1` | 2,683 individual item kits with real game icons — 20 categorized tabs · armor sorted by slot · 5-row layout |
+| [📦 Agent's Individual Item Kits](Agents_Individual_Item_Kits) | `5.3` | 2,702 individual item kits with real game icons — 20 categorized tabs · armor sorted by slot · 5-row layout |
 | [♻️ Workshop Recyclers](Workshop_Recyclers) | `5.7` | 2 recycling machines + Incinerator · 5,340 recipes · Returns processed materials — every item in the game covered |
 | [🔧 Dev Tools Kit](Dev_Tools_Kit) | `1.1.5` | 10 hidden developer tools — Thor's Hammer (fly mode), Transform Tool, and more. All free! |
 | [👁️ Night Vision Goggles](NightVisionGoggles) | `2.1` | Unlocks hidden NV system — craft at Fabricator/Manufacturer/Machining Bench. No decay, durable, lightweight |
