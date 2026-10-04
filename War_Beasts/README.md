@@ -27,7 +27,7 @@ A fully-specced Husbandry build now produces genuinely combat-viable mounts and 
 
 ## How It Works
 
-Data mod that triples the `GrantedStats` reward values on the `Husbandry_Damage`, `Husbandry_TameHealth` and `Husbandry_MountSpeed` talents in `Talents-D_Talents.json`. No base-stat edits, so it never conflicts with other mods.
+Data mod that triples the `GrantedStats` reward values on the `Husbandry_Damage`, `Husbandry_TameHealth` and `Husbandry_MountSpeed` talents in `Talents-D_Talents.json`. No base-stat edits, so it sits alongside most mods cleanly. **One known conflict:** Taming & Tames Overhaul also rewrites `Husbandry_MountSpeed` (it sets +20%, this mod sets +10%), so whichever the Mod Manager merges last wins that one talent. The other two talents are unaffected.
 
 ## Installation
 

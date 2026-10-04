@@ -1,8 +1,8 @@
 {
   "name": "UDA Terminal Laptop",
   "author": "AgentKush",
-  "version": "2.1",
-  "description": "v2.1: Reskins the Orbital Exchange Interface into a laptop, makes it craftable for FREE (no tech unlock needed) with the original recipe cost, renames it to 'UDA Terminal Laptop' with a laptop icon, and lets you place it indoors and on benches/tables. The bundled UDA_Terminal_Laptop_P.pak swaps the deployed mesh to the ICA hab laptop (SM_ORB_PRP_Laptop_01). This EXMOD: free Crafting Bench / Fabricator / Manufacturer recipe (Steel Ingot 5, Electronics 5, Glass 3, Epoxy 2), laptop placement ghost, surface-friendly placement, and the rename/icon. The exchange function is the game's own and is untouched. No deer trophy. Requires both files - both ship in this EXMODZ.",
+  "version": "2.2",
+  "description": "v2.2: Fixed the crafting sound. The recipe override pointed Audio at a D_CraftingAudioData row named \"Fabricator\", which has never existed in that table - \"Fabricator\" is a D_RecipeSets name. Because this row overrides the vanilla Orbital Exchange Interface recipe, it silenced that craft for everyone with the mod installed. Restored to the vanilla value \"CraftingBench\". | v2.1:Reskins the Orbital Exchange Interface into a laptop, makes it craftable for FREE (no tech unlock needed) with the original recipe cost, renames it to 'UDA Terminal Laptop' with a laptop icon, and lets you place it indoors and on benches/tables. The bundled UDA_Terminal_Laptop_P.pak swaps the deployed mesh to the ICA hab laptop (SM_ORB_PRP_Laptop_01). This EXMOD: free Crafting Bench / Fabricator / Manufacturer recipe (Steel Ingot 5, Electronics 5, Glass 3, Epoxy 2), laptop placement ghost, surface-friendly placement, and the rename/icon. The exchange function is the game's own and is untouched. No deer trophy. Requires both files - both ship in this EXMODZ.",
   "fileName": "UDA_Terminal_Laptop",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/UDA_Terminal_Laptop.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/UDA_Terminal_Laptop/README.md",
@@ -29,6 +29,7 @@
       "File_Items": [
         {
           "Name": "Exotic_Delivery_Interface",
+          "Requirement": { "RowName": "None", "DataTableName": "D_Talents" },
           "RequiredMillijoules": 25000,
           "RecipeSets": [
             { "RowName": "Crafting_Bench", "DataTableName": "D_RecipeSets" },
@@ -45,7 +46,7 @@
           "Outputs": [
             { "Element": { "RowName": "Exotic_Delivery_Interface", "DataTableName": "D_ItemTemplate" }, "Count": 1, "DynamicProperties": [], "Alterations": [] }
           ],
-          "Audio": { "RowName": "Fabricator" }
+          "Audio": { "RowName": "CraftingBench" }
         }
       ]
     },

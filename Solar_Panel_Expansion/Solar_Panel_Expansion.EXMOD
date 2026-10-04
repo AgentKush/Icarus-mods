@@ -1,8 +1,8 @@
 {
   "name": "Solar Panel Expansion",
   "author": "AgentKush",
-  "version": "1.1",
-  "description": "v1.1: Added the Bunker Solar Panel as a 4th workshop kit. | Adds all solar panels and the solar backpack to a dedicated Workshop tab with fair pricing.",
+  "version": "1.2",
+  "description": "v1.2: MAJOR FIX - all 4 kits granted nothing when used. They described their payload with \"ConsumeType\" and \"Recipes\", which are not properties of D_Consumable, so the game discarded them: the kit was consumed and no panel came out, with the Ren and Uranium spent. Rewritten to the vanilla Byproducts form, so each kit now yields its real item. Also fixed the Bunker Solar Panel Kit showing the plain Solar Panel icon. | v1.1: Added the Bunker Solar Panel as a 4th workshop kit. |Adds all solar panels and the solar backpack to a dedicated Workshop tab with fair pricing.",
   "fileName": "Solar_Panel_Expansion",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Solar_Panel_Expansion.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Solar_Panel_Expansion/README.md",
@@ -310,7 +310,7 @@
         {
           "Name": "Item_Agent_Single_Bunker_SolarPanel",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Agent_Single_Bunker_SolarPanel-DisplayName\", \"Bunker Solar Panel Kit\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Solar_Panel.ITEM_Solar_Panel",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Bunker_SolarPanel.T_ITEM_Bunker_SolarPanel",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Agent_Single_Bunker_SolarPanel-Description\", \"Contains a Bunker Solar Panel. Use to unpack.\")",
           "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Agent_Single_Bunker_SolarPanel-FlavorText\", \"Harness the power of Icarus' star.\")",
           "Weight": 100
@@ -322,49 +322,49 @@
       "File_Items": [
         {
           "Name": "Agent_Single_Solar_Panel",
-          "ConsumeType": "Meta",
-          "Recipes": [
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
             {
-              "ItemReward": {
-                "RowName": "Solar_Panel",
-                "Num": 1
-              }
+              "RowName": "Solar_Panel",
+              "DataTableName": "D_ItemTemplate"
             }
           ]
         },
         {
           "Name": "Agent_Single_Flat_Solar_Panel",
-          "ConsumeType": "Meta",
-          "Recipes": [
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
             {
-              "ItemReward": {
-                "RowName": "Flat_Solar_Panel",
-                "Num": 1
-              }
+              "RowName": "Flat_Solar_Panel",
+              "DataTableName": "D_ItemTemplate"
             }
           ]
         },
         {
           "Name": "Agent_Single_Solar_Backpack",
-          "ConsumeType": "Meta",
-          "Recipes": [
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
             {
-              "ItemReward": {
-                "RowName": "Solar_Backpack",
-                "Num": 1
-              }
+              "RowName": "Solar_Backpack",
+              "DataTableName": "D_ItemTemplate"
             }
           ]
         },
         {
           "Name": "Agent_Single_Bunker_SolarPanel",
-          "ConsumeType": "Meta",
-          "Recipes": [
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
             {
-              "ItemReward": {
-                "RowName": "Bunker_SolarPanel",
-                "Num": 1
-              }
+              "RowName": "Bunker_SolarPanel",
+              "DataTableName": "D_ItemTemplate"
             }
           ]
         }

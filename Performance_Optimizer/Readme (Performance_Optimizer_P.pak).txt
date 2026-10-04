@@ -11,6 +11,11 @@ Mod Type: EXMOD
 ## Description:
 Comprehensive FPS optimization - PAK config overrides (foliage/shadow/fog/LOD reduction) plus data table changes (reduced spawns, slower hordes, extended decay, boosted fuel, weather tuning).
 
+Ver 2.2
+Current release. PAK config overrides (foliage, shadows, fog, LOD) plus 358 data-table
+changes across 7 tables: reduced creature spawns, slower horde waves, extended decay
+timers, boosted fuel burn and weather tuning. Earlier version history was not recorded.
+
 ## Files Modified:
   AI-D_AutonomousSpawns   (26 entries)
   AI-D_AISpawnZones       (161 entries)

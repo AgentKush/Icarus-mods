@@ -15,9 +15,9 @@
     {
       "name": "Agents Individual Item Kits",
       "author": "AgentKush",
-      "version": "5.3",
+      "version": "5.2",
       "compatibility": "All",
-      "description": "2,702 individual item kits with real game icons across 20 categorized workshop tabs, fairly priced by complexity. Includes Restore_Kit_Research to get back kits you researched on older versions of the mod.",
+      "description": "v5.2: Fixed workshop grid clipping into top sell bar. Re-sorted all 2,683 kits into 20 category groups with box-width spacing between each group. Categories: Raw Resources, Refined Materials, Seeds, Food, Drinks & Medicine, Melee Weapons, Bows & Crossbows, Firearms, Ammunition, Explosives, Shields, Armor, Attachments, Tools, Gear, Building Pieces, Crafting Stations, Deployables, Lighting, Trophies & Decor.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Agents_Individual_Item_Kits.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Individual_Item_Kits/README.md",
       "files": {
@@ -51,7 +51,7 @@
     {
       "name": "Night Vision Goggles",
       "author": "AgentKush",
-      "version": "2.1",
+      "version": "2.2",
       "compatibility": "All",
       "description": "Unlocks the hidden Night Vision system built into Icarus. Craft Night Vision Goggles at Fabricator, Manufacturer, or Machining Bench. Toggle with secondary action. v2.0: Added no-decay, durability (10,000 HP), reduced weight, added Machining Bench crafting.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/NightVisionGoggles.png",
@@ -184,7 +184,7 @@
     {
       "name": "Trap and Defense Expansion",
       "author": "AgentKush",
-      "version": "1.2",
+      "version": "1.3",
       "compatibility": "All",
       "description": "23 defense recipes using real game items. Unlocks 4 elemental landmines (Poison/Burn/Shock/Freeze) previously enemy-only. Cheap early-game fortifications, traps without rare drops, and batch packs.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Trap_Defense_Expansion.png",
@@ -401,7 +401,7 @@
     {
       "name": "Solar Panel Expansion",
       "author": "AgentKush",
-      "version": "1.1",
+      "version": "1.2",
       "compatibility": "All",
       "description": "Adds all solar panels and Solar Backpack to a dedicated Solar Energy Workshop tab. Includes Solar Panel Kit, Flat Solar Panel Kit, and Solar Backpack Kit with fair pricing.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Solar_Panel_Expansion.png",
@@ -486,7 +486,7 @@
     {
       "name": "Resource Repacker",
       "author": "AgentKush",
-      "version": "1.3",
+      "version": "1.4",
       "compatibility": "All",
       "description": "Repack raw resources back into UDA kits. 21 neutral-ratio recipes (incl. 3 DLC kits, properly feature-gated) at every crafting bench and handcrafting. NOTE: orbital sender currently rejects crafted kits - useful for inventory consolidation and teammate sharing.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Resource_Repacker.png",
@@ -498,7 +498,7 @@
     {
       "name": "UDA Terminal Laptop",
       "author": "AgentKush",
-      "version": "2.1",
+      "version": "2.2",
       "compatibility": "All",
       "description": "Reskins the vanilla Orbital Exchange Interface into a laptop, makes it craftable for free (no tech unlock) with the original recipe (Steel Ingot 5, Electronics 5, Glass 3, Epoxy 2), and lets you place it indoors and on benches/tables. PAK + data bundled in the EXMODZ.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/UDA_Terminal_Laptop.png",

@@ -24,7 +24,7 @@ Better secondary resources from mining in Icarus.
 
 ## Features
 
-Every mineable deposit now drops something useful as a secondary resource instead of Stone (or nothing). The "Waste Not" talent affects secondary resource drop chance.
+Most mineable deposits now drop something useful as a secondary resource instead of Stone (or nothing). Exotic, Frozen Ore, Research, Limestone and Salt deposits keep their vanilla values. The "Waste Not" talent affects secondary resource drop chance.
 
 ### Dense Metal Ores → Exotics
 | Deposit | Secondary |
@@ -72,7 +72,7 @@ Every mineable deposit now drops something useful as a secondary resource instea
 | Sulfur (Dense) | Sulfur |
 | Silica (Dense) | Silica |
 
-**Total: 26 deposit types modified**
+**Total: 26 deposit types given a new secondary resource** (of the game's 33)
 
 ---
 

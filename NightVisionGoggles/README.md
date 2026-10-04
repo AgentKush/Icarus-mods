@@ -2,7 +2,7 @@
 
 # Night Vision Goggles
 
-[![Version](https://img.shields.io/badge/v2.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v2.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -42,7 +42,12 @@ No blueprint unlock required - available immediately at the Fabricator.
 3. Enable and merge mods as usual
 
 ## Changelog
-- **v2.1** - Crash fix: Fixed 1 recipe outputs from D_ItemsStatic to D_ItemTemplate (prevents crash when opening crafting stations).
+
+### v2.2
+- **Fix**: the goggles crafted in silence. The recipe set `Audio` to a `D_CraftingAudioData` row named `Fabricator`, but that table has no such row — `Fabricator` is a **`D_RecipeSets`** name, and the two tables use different keys. Now set to `MachiningBench`, which is what the vanilla **Binoculars** recipe uses (same three benches, same Glass + Epoxy inputs).
+
+### v2.1
+- Crash fix: moved 1 recipe output from D_ItemsStatic to D_ItemTemplate (prevents crash when opening crafting stations).
 
 ### v2.0
 - Added no-decay (Decay_NoDecay) so goggles persist indefinitely

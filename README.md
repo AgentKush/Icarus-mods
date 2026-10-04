@@ -5,7 +5,7 @@
 # AgentKush's Icarus Mods
 
 [![Mods](https://img.shields.io/badge/53_Mods-Ready_to_Play-0d1117?style=for-the-badge&logo=steam&logoColor=white&labelColor=1a1e2e)]()
-[![Data Entries](https://img.shields.io/badge/41%2C769-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
+[![Data Entries](https://img.shields.io/badge/41%2C643-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
 [![Recipes](https://img.shields.io/badge/18%2C934-Recipes-0d1117?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a1e2e)]()
 [![Free](https://img.shields.io/badge/100%25-Free_to_Use-0d1117?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=1a1e2e)]()
 
@@ -36,11 +36,12 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 |-----|:---:|-------------|
 | [🧬 Agent's BioLab](Agents_BioLab) | `2.0` | All 11 Bio Lab Legendary weapons in the Workshop — includes Sandwyrm Chainsaw |
 | [📦 Agent's Individual Item Kits](Agents_Individual_Item_Kits) | `5.3` | 2,702 individual item kits with real game icons — 20 categorized tabs · armor sorted by slot · 5-row layout |
-| [♻️ Workshop Recyclers](Workshop_Recyclers) | `5.7` | 2 recycling machines + Incinerator · 5,340 recipes · Returns processed materials — every item in the game covered |
+| [♻️ Workshop Recyclers](Workshop_Recyclers) | `5.8` | 2 recycling machines + Incinerator · 5,302 recipes · Returns processed materials — every item in the game covered |
 | [🔧 Dev Tools Kit](Dev_Tools_Kit) | `1.1.5` | 10 hidden developer tools — Thor's Hammer (fly mode), Transform Tool, and more. All free! |
-| [👁️ Night Vision Goggles](NightVisionGoggles) | `2.1` | Unlocks hidden NV system — craft at Fabricator/Manufacturer/Machining Bench. No decay, durable, lightweight |
-| [☀️ Solar Panel Expansion](Solar_Panel_Expansion) | `1.1` | All solar panels and solar backpack in a dedicated Workshop tab with fair pricing |
-| [⛏️ Passive Ore Extractor Drills](Passive_Ore_Extractor_Drills) | `7.7` | 23 passive ore extractors — one per ore type · Workshop purchasable · Infinite extraction |
+| [👁️ Night Vision Goggles](NightVisionGoggles) | `2.2` | Unlocks hidden NV system — craft at Fabricator/Manufacturer/Machining Bench. No decay, durable, lightweight |
+| [☀️ Solar Panel Expansion](Solar_Panel_Expansion) | `1.2` | All solar panels and solar backpack in a dedicated Workshop tab with fair pricing |
+| [⛏️ Passive Ore Extractor Drills](Passive_Ore_Extractor_Drills) | `7.8` | 23 passive ore extractors — one per ore type · Workshop purchasable · Infinite extraction |
+| [💻 UDA Terminal Laptop](UDA_Terminal_Laptop) | `2.2` | 🔧 Reskins the Orbital Exchange Interface into a laptop · place indoors and on benches · free recipe |
 
 ## 🏗️ Building & Construction
 
@@ -56,18 +57,18 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 
 ## ⚡ Processing Speed
 
-> **Use only ONE FastProcessing variant at a time.** They all modify the same recipes.
+> **Use only ONE of these at a time — including Faster Crafting.** All six write the same field (`RequiredMillijoules`) on the same 2,211 recipes, so whichever the Mod Manager merges last simply wins.
 
 | Mod | Ver | Speed | Recipes |
 |-----|:---:|:-----:|:-------:|
-| [FastProcessing 5x](FastProcessing_All_5x) | `5.1` | 5× faster | 2,171 |
-| [FastProcessing 10x](FastProcessing_All_10x) | `5.1` | 10× faster | 2,171 |
-| [FastProcessing 15x](FastProcessing_All_15x) | `5.1` | 15× faster | 2,171 |
-| [FastProcessing 25x](FastProcessing_All_25x) | `5.1` | 25× faster | 2,171 |
-| [FastProcessing Instant](FastProcessing_Instant) | `5.1` | Instant | 2,171 |
-| [⚒️ Faster Crafting](Faster_Crafting) | `1.6` | 2× faster | 2,171 |
+| [FastProcessing 5x](FastProcessing_All_5x) | `5.2` | 5× faster | 2,211 |
+| [FastProcessing 10x](FastProcessing_All_10x) | `5.2` | 10× faster | 2,211 |
+| [FastProcessing 15x](FastProcessing_All_15x) | `5.2` | 15× faster | 2,211 |
+| [FastProcessing 25x](FastProcessing_All_25x) | `5.2` | 25× faster | 2,211 |
+| [FastProcessing Instant](FastProcessing_Instant) | `5.2` | Instant | 2,211 |
+| [⚒️ Faster Crafting](Faster_Crafting) | `1.7` | 2× faster | 2,211 |
 
-*FastProcessing = passive processors (furnaces, refineries). Faster Crafting = active workbench crafting. They stack.*
+*All six cover every recipe in the game — passive processors and workbench crafting alike. They do **not** stack; pick the speed you want.*
 
 ---
 
@@ -75,8 +76,8 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 
 | Mod | Ver | Description |
 |-----|:---:|-------------|
-| [🎯 Turret Variants](Turret_Variants) | `3.6` | 🔧 15 automated turret variants · LOS fix (no wall-shooting) · Proper ammo matching |
-| [💣 Trap and Defense Expansion](Trap_Defense_Expansion) | `1.2` | 23 defense recipes · Unlocks 4 elemental landmines (Poison/Burn/Shock/Freeze) |
+| [🎯 Turret Variants](Turret_Variants) | `3.7` | 🔧 15 automated turret variants · LOS fix (no wall-shooting) · Proper ammo matching |
+| [💣 Trap and Defense Expansion](Trap_Defense_Expansion) | `1.3` | 23 defense recipes · Unlocks 4 elemental landmines (Poison/Burn/Shock/Freeze) |
 | [🪃 Ammo Crafting Overhaul](Ammo_Crafting_Overhaul) | `1.2` | 50× batch crafting for all arrow and bullet types · 8 ammo conversion recipes |
 | [🛡️ Armor Set Bonuses Enhanced](Armor_Set_Bonuses_Enhanced) | `2.0` | 3-piece partial bonuses for mix-and-match builds + boosted 5-piece bonuses across all 33 sets |
 | [🧥 Armor Attachment Expansion](Armor_Attachment_Expansion) | `1.0` | 25 new craftable armor attachments (5 per body part) · stacks with talents · Alteration Bench |
@@ -87,9 +88,10 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 
 | Mod | Ver | Description |
 |-----|:---:|-------------|
-| [💎 Exotic Economy Overhaul](Exotic_Economy_Overhaul) | `2.1` | 66 exchange recipes — convert between Ren/Exotics/Uranium/Biomass, buy/sell all materials, bulk ore smelting |
+| [💎 Exotic Economy Overhaul](Exotic_Economy_Overhaul) | `2.2` | 66 exchange recipes — convert between Ren/Exotics/Uranium/Biomass, buy/sell all materials, bulk ore smelting |
 | [🔨 Tier Upgrade Forge](Tier_Upgrade_Forge) | `1.3` | 26 upgrade recipes — trade up through tool and weapon tiers at the Anvil Bench |
-| [⛏️ Waste Not](Waste_Not) | `2.2` | Mining yields useful secondary resources instead of Stone · 33 deposit types · *Originally by CritFail* |
+| [⛏️ Waste Not](Waste_Not) | `2.3` | Mining yields useful secondary resources instead of Stone · 26 of 33 deposit types · *Originally by CritFail* |
+| [📦 Resource Repacker](Resource_Repacker) | `1.5` | Pack raw resources back into UDA kits · 20 neutral-ratio recipes · 30 stations + handcrafting |
 
 ---
 
@@ -97,12 +99,12 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 
 | Mod | Ver | Description |
 |-----|:---:|-------------|
-| [🥩 No Food Spoilage](No_Food_Spoilage) | `2.2` | All food and volatiles never spoil · 33 decayable entries · 134 composter recipes |
+| [🥩 No Food Spoilage](No_Food_Spoilage) | `2.3` | All food and volatiles never spoil · 33 decayable entries · 122 composter recipes |
 | [⏱️ Extended Spoil Timers](Extended_Spoil_Timers) | `1.2` | Food 5× longer · Other decay 3× longer · 32 items *(not compatible with No Food Spoilage)* |
-| [🔩 Indestructible Tools & Weapons](Indestructible_Tools_Weapons) | `1.9` | 192 items set to max durability — tools, weapons, armor, buildings, crafting stations |
-| [📦 Stack Size Overhaul](Stack_Size_Overhaul) | `1.5` | 1,257 items — resources/ammo 5×, everything else 3×, cap 9,999 |
+| [🔩 Indestructible Tools & Weapons](Indestructible_Tools_Weapons) | `1.9` | 210 items set to max durability — tools, weapons, armor, buildings, crafting stations |
+| [📦 Stack Size Overhaul](Stack_Size_Overhaul) | `1.5` | 1,261 items — most 3×, resources/ammo 5×, cap 9,999 |
 | [🪶 Lightweight Hauling](Lightweight_Hauling) | `1.0` | 54 resources weigh 50% less — ores, ingots & raw materials for easier hauling |
-| [🐾 Creature Drop Enhancer](Creature_Drop_Enhancer) | `1.2` | 2× all butchery and skinning outputs across 62 recipes |
+| [🐾 Creature Drop Enhancer](Creature_Drop_Enhancer) | `1.2` | 2× all butchery and skinning outputs across 77 recipes |
 | [⛏️ Faster Harvest Tools](Faster_Harvest_Tools) | `1.0` | 2× yield from every gathering tool — mining, felling, reaping & skinning (74 tools) |
 | [🔦 Mining Laser Overclock](Mining_Laser_Overclock) | `1.0` | 🔧 No overheating — 300s runtime (was 5s) + 1s cooldown for sustained deep mining. First mining-laser blueprint mod |
 | [🐾 Taming & Tames Overhaul](Taming_Tames_Overhaul) | `1.1` | 3× taming · 2× breeding · double juvenile chance · easier upkeep · 3× tame-growth XP · all 29 tameables |
@@ -110,7 +112,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 | [🧬 Genetics & Breeding Overhaul](Genetics_Breeding_Overhaul) | `1.0` | 2× genetics talent rewards (mutation/twins/gestation/recovery) · rarer Wild · achievable Alpha bloodline |
 | [🔬 Genetic Mastery](Genetic_Mastery) | `1.0` | Elite trait lineages 4× more common — powerful genetics in far more wild & bred creatures. Stacks with Genetics & Breeding |
 | [💰 Better Mission Rewards](Better_Mission_Rewards) | `1.0` | 2× credits · 2× account XP · 2× faction reputation across all faction missions |
-| [🌾 Fish and Farming Boost](Fish_Farming_Boost) | `1.3` | 390 changes — 2× crop growth, +50% harvests, doubled fish spawns, DLC plants included |
+| [🌾 Fish and Farming Boost](Fish_Farming_Boost) | `1.3` | 403 changes — 2× crop growth, +50% harvests, doubled fish spawns, DLC plants included |
 
 ---
 
@@ -118,7 +120,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 
 | Mod | Ver | Description |
 |-----|:---:|-------------|
-| [🩹 Modular Affliction Adjuster](Modular_Affliction_Adjuster) | `2.0` | 80+ afflictions reduced ~50% penalties · +50% escalation time · -50% damage over time |
+| [🩹 Modular Affliction Adjuster](Modular_Affliction_Adjuster) | `2.0` | 110 afflictions reduced ~50% penalties · +50% escalation time · -50% damage over time |
 | [💊 Modular Buff Enhancer](Modular_Buff_Enhancer) | `1.1` | 83 core buffs + 156 food buffs all boosted ~50% — stacks with talent bonuses |
 | [🍳 Culinex Food Boost Fix](Culinex_Food_Boost_Fix) | `2.9` | Fixes Chef's Backpack 25% food boost on all 206 foods/drinks/tonics · Adds chicken butchery recipe |
 | [👁️ More Eye Colours](MoreEyeColours) | `2.0` | 60 new eye colors (69 total) — greens, ambers, purples, blues, greys, reds, and exotics |
@@ -128,8 +130,8 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 
 | Mod | Ver | Description |
 |-----|:---:|-------------|
-| [💀 Hardcore Rebalance Pack](Hardcore_Rebalance_Pack) | `2.1` | 🔧 4-tier creature scaling, 37 alpha hunters, rebalanced horde waves, deadly weather, harsher survival |
-| [🦁 Creature Difficulty Scaling](Creature_Difficulty_Scaling) | `2.3` | Full creature overhaul for level 500 cap · 161 spawn zones rescaled · 136 creatures buffed by tier |
+| [💀 Hardcore Rebalance Pack](Hardcore_Rebalance_Pack) | `2.2` | 🔧 4-tier creature scaling, 36 alpha hunters that now actually spawn, rebalanced horde waves, deadly weather, harsher survival |
+| [🦁 Creature Difficulty Scaling](Creature_Difficulty_Scaling) | `2.4` | Full creature overhaul for level 500 cap · 161 spawn zones rescaled · 136 creatures buffed by tier |
 | [📈 Performance Optimizer](Performance_Optimizer) | `2.2` | 🔧 FPS boost via PAK engine overrides (foliage/shadows/fog/LOD) + data table changes |
 | [🌀 Absolute Chaos - Core](AbsoluteChaos_Core) | `0.2.1` | Total overhaul mod — early access core module |
 
@@ -149,9 +151,10 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 
 | Rule | Mods |
 |------|------|
-| Pick **one** | FastProcessing 5× / 10× / 15× / 25× / Instant |
+| Pick **one** | FastProcessing 5× / 10× / 15× / 25× / Instant · Faster Crafting |
 | **Not compatible** | No Food Spoilage ↔ Extended Spoil Timers |
 | **Not compatible** | Hardcore Rebalance Pack ↔ Extended Spoil Timers |
+| **Overlap** | War Beasts ↔ Taming & Tames Overhaul — both set the `Husbandry_MountSpeed` talent; last merged wins |
 | **All players + server** | Extended Wire · Turret Variants · Hardcore Rebalance · Performance Optimizer |
 | Everything else | Fully compatible with each other |
 

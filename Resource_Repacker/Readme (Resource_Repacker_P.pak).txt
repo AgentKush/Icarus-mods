@@ -1,6 +1,6 @@
 Resource_Repacker_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.3
+Mod Version: 1.4
 
 Author: AgentKush
 
@@ -11,7 +11,14 @@ Mod Type: EXMOD
 ## Description:
 Adds 21 crafting recipes that repack raw resources back into UDA resource kits. Available at every player crafting bench plus handcrafting (player inventory). Recipes mirror the kit's vanilla byproduct (e.g. 100 Titanium_Ore -> 1 Titanium kit), so the mod is neutral - purely logistics, not duplication.
 
-KNOWN LIMITATION (v1.0 - v1.3): the game's orbital sender rejects crafted kits and routes them to a surplus overflow bag. Workshop-purchased kits work; crafted ones may not, due to a game-side check on item origin we can't override from data tables. Treat this mod as INVENTORY CONSOLIDATION + TEAMMATE SHARING for now. A Blueprint-side workaround is being investigated.
+Ver 1.4
+Fixed the crafting sound on all 21 recipes. They pointed Audio at a D_CraftingAudioData
+row named "Fabricator", which has never existed in that table - "Fabricator" is a
+D_RecipeSets name, and the two tables use different keys. With the reference dangling
+the game played no craft-completed sound, which reads like a failed craft even though
+the kit was produced. Now set to "Default", so each bench plays its own crafting sound.
+
+KNOWN LIMITATION (v1.0 - v1.4): the game's orbital sender rejects crafted kits and routes them to a surplus overflow bag. Workshop-purchased kits work; crafted ones may not, due to a game-side check on item origin we can't override from data tables. Treat this mod as INVENTORY CONSOLIDATION + TEAMMATE SHARING for now. A Blueprint-side workaround is being investigated.
 
 BASIC RESOURCES
   - Wood Kit       250 Wood

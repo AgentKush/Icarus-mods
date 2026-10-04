@@ -13,6 +13,10 @@ Unlocks 34 building pieces as individual items. Includes non-curved Wood diagona
 Ver 4.4
 Removed 28 pieces now official in vanilla (Corner Stairs, Stairs, curved Wood - from the Week 142 and Week 234 updates). 34 mod-exclusive pieces remain (frames + non-curved diagonals + metal grate floor). Updated all mesh references and removed a stray Mesh_Generic_Ice override.
 
+Ver 4.1
+Added the Interior Wood Floor recipe at the Fabricator and Manufacturer - the "forgotten
+floor" that only existed at the Carpentry Bench, with mismatched data table names.
+
 Ver 4.0
 MAJOR OVERHAUL: Rebuilt from scratch. Removed all items now live in vanilla (Kepler update): curved sets, diagonal sets, wall curved, roof curved angles, advanced beams, diagonal curved wall angles for ClayBrick/Concrete/Glass/TemperedGlass/Scoria/ScoriaBrick/StoneBrick/Stone/Ice/Limestone. Removed all 15 RoofPeak items (now in base game). Removed broken Ice_Floor_TrapDoor, Ice_Roof_Half_Pitch, Ice_Stairs. Split remaining items from sets into 62 individual pieces. Fixed all recipes with proper bench assignments.
 

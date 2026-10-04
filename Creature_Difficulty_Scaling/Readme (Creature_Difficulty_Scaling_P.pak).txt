@@ -1,6 +1,6 @@
 Creature_Difficulty_Scaling_P.pak
 ----------------------------------------------------------------------
-Mod Version: 2.2
+Mod Version: 2.3
 
 Author: AgentKush
 
@@ -11,6 +11,12 @@ Mod Type: EXMOD
 ## Description:
 Dynamic creature level scaling for level 500 cap. Scales all spawn zones up to level 500, buffs creature stats by tier, and adds player-level-based scaling rules. v2.2: Significant tame and mount HP/damage/resistance buffs so pets can stand up to high-level hostile creatures. Full DLC coverage (New Frontiers, Styx, Dread). Compatible with JimK72 Level Cap 500 mod.
 
+
+Ver 2.3
+Affliction system and epic creatures (DarkAngel collaboration). Adds 22 affliction
+chances - poison, concussion, frostbite, heatstroke, dysentery, wound escalation, swamp
+parasites, caveworm poison - so creatures inflict meaningful status effects, plus epic
+creatures, exotic loot, biome temperatures and autonomous spawns.
 
 Ver 2.2
 Fixes the "my wolf dies in 3 seconds" problem. Prior versions left the Tame_* and Mount_* entries almost untouched - they had a flat 40% damage resistance but zero HP boost and zero melee damage boost. As players progressed into higher-level zo.. What changed:.

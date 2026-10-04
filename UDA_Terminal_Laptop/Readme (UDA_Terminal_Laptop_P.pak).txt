@@ -1,5 +1,7 @@
-UDA Terminal Laptop  -  v2.1
+UDA Terminal Laptop  -  v2.2
 ============================
+
+Mod Version: 2.2
 
 Reskins the vanilla Orbital Exchange Interface into a laptop, makes it craftable
 for FREE (no tech unlock), and lets you place it indoors and on benches / tables
@@ -39,3 +41,22 @@ Craft "UDA Terminal Laptop" at a bench - it looks like a laptop, opens the
 Orbital Exchange, and places on floors and furniture.
 
 Built with UAssetAPI (UE4.27) + UnrealPak. Round-trip verified before packing.
+
+CHANGELOG
+---------
+Ver 2.1
+Now craftable for free - a recipe with no tech requirement at the Crafting Bench,
+Machining Bench, Fabricator and Manufacturer, using the original build's resources
+(Steel Ingot 5, Electronics 5, Glass 3, Epoxy 2). Renamed in-game to "UDA Terminal
+Laptop" with a laptop inventory icon.
+
+Ver 2.0
+Complete rebuild. Reskins the vanilla Orbital Exchange Interface into a laptop instead
+of building a new deployable from scratch. The PAK is now bundled in the EXMODZ - the
+v1.x packages never included one, so importing them only installed data and never
+changed the model. Added indoor / bench / table placement and a laptop placement ghost.
+Removed all BP_Deer_Trophy references and the old custom item and recipe.
+
+Ver 1.x (deprecated)
+Earlier attempts built a new craftable laptop from a generic deployable blueprint placed
+in the wrong setup slot, so it never deployed, and shipped no pak. Superseded by 2.0.

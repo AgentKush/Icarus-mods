@@ -1,6 +1,6 @@
 Indestructible_Tools_Weapons_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.8
+Mod Version: 1.9
 
 Author: AgentKush
 
@@ -11,6 +11,12 @@ Mod Type: EXMOD
 ## Description:
 All tools, weapons, armor, buildings, doors, and crafting stations will never break. Sets durability to max cap (12,700,000).
 
+
+Ver 1.9
+Added 9 Lithium-tier tools, the Chainsaw and the Nailgun (210 total).
+
+Ver 1.8
+Coverage pass against the current game data.
 
 Ver 1.7
 Added 7 new durable entries from latest game data (199 total).
@@ -34,7 +40,7 @@ Ver 1.0
 Initial release.
 
 ## Files Modified:
-  Traits-D_Durable (199 entries)
+  Traits-D_Durable (210 entries)
 
 ## Installation:
   1. Install JimK72's Icarus Mod Manager

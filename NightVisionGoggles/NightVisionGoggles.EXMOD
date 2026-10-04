@@ -1,8 +1,8 @@
 {
   "name": "Night Vision Goggles",
   "author": "AgentKush",
-  "version": "2.1",
-  "description": "v2.1: Fixed 0 recipe outputs from D_ItemsStatic to D_ItemTemplate (crash fix). | Adds craftable Night Vision Goggles with improved durability, no decay, lighter weight.",
+  "version": "2.2",
+  "description": "v2.2: Fixed the crafting sound. The recipe pointed Audio at a D_CraftingAudioData row named \"Fabricator\", which has never existed in that table - \"Fabricator\" is a D_RecipeSets name. The goggles crafted silently while every other recipe on the same bench played its sound. Now set to \"MachiningBench\", matching the vanilla Binoculars recipe. | v2.1: Fixed 1 recipe output from D_ItemsStatic to D_ItemTemplate (crash fix). |Adds craftable Night Vision Goggles with improved durability, no decay, lighter weight.",
   "fileName": "NightVisionGoggles",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/NightVisionGoggles.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/NightVisionGoggles/README.md",
@@ -132,7 +132,7 @@
             }
           ],
           "Audio": {
-            "RowName": "Fabricator"
+            "RowName": "MachiningBench"
           }
         }
       ]

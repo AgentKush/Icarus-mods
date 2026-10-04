@@ -76,13 +76,22 @@ All miners are craftable at the **Fabricator** with tiered material costs:
 - ManualActivation — turn on once, runs continuously
 - Also craftable at the Fabricator (tiered material costs)
 - Workshop tab: 'Passive Miners'
-- Uses vanilla BP_Deep_Mining_Drill_Electric blueprint (place-anywhere processor with drill mesh visual)
+- Uses the mod's own `BP_PassiveMiner` blueprint (place-anywhere processor with the drill mesh), shipped as a cooked asset inside the EXMODZ — the Mod Manager packs it on **merge**
 - Does NOT override any vanilla blueprints — fully compatible with other mods
+
+> **Known issue:** a placed miner is duplicated each time the save is reloaded. This is in the
+> `BP_PassiveMiner` blueprint itself, not the mod's data — the item definition is a clean clone of
+> the vanilla Electric Furnace and nothing in the data re-creates the machine. Being investigated.
 
 ## Changelog
 
+### v7.8
+- **Fix**: all 23 miners ran silently. Their mining recipes set `Audio` to a `D_CraftingAudioData` row called `Furnace`, which has never existed in that table. Now `Default`, matching vanilla's own passive extractor recipe (`Ore_Meta`). The kit-crafting recipes were already correct and are unchanged.
+- **Docs**: corrected the v7.7 entry below. It claimed the deployables had been switched to the vanilla drill blueprint; they were not, and all 23 still use `BP_PassiveMiner` — which is the right choice, because the vanilla drill blueprint only snaps to deep-ore deposits and would break "place anywhere".
+- **Docs**: documented the known save-reload duplication issue.
+
 ### v7.7
-- Fixed placement failure — dropped missing custom BP_PassiveMiner, now uses vanilla BP_Deep_Mining_Drill_Electric in all 23 D_DeployableSetup entries
+- Placement fixed. *(Corrected in v7.8: this entry previously claimed the 23 `D_DeployableSetup` entries had been switched to vanilla `BP_Deep_Mining_Drill_Electric`. That edit was never made — they use the mod's own `BP_PassiveMiner`, which is shipped in the EXMODZ and packed on merge.)*
 
 ### v7.6
 - Attempted to fix placement by bundling BP_PassiveMiner PAK — PAK still missing from EXMODZ, placement still broken
