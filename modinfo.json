@@ -41,7 +41,7 @@
       "author": "AgentKush",
       "version": "1.1.5",
       "compatibility": "All",
-      "description": "v1.1.3: Substituted visible meshes for 3 tools that previously used the invisible placeholder (Inspection Tool \u2192 Scanner mesh, Bug Tool \u2192 Beacon mesh, Transform Tool \u2192 Building Hammer mesh); added Debug_Target dev dummy (new 11th tool); fixed Thor's Hammer Focusable ref (Focusable_2H \u2192 Focusable_Sledge). Rearranged Workshop tree to a 4-row \u00d7 3-column grid so it fits within the vertical workshop bounds. \u2014 Unlocks 10 hidden developer tools including Thor's Hammer (fly mode), Transform Tool, Destroy Tool, Inspection Tool, Fireball, Pyromancy Flame, and more. v1.1.2: Fixed broken mesh and actionable references for current game data.",
+      "description": "Unlocks 11 hidden developer tools: Thor's Hammer (fly mode), Transform Tool, Destroy Tool, Inspection Tool, Bug Tool, Fireball, Pyromancy Flame, the Debug Target dummy and more, all with visible meshes. Laid out as a 4-row x 3-column workshop grid so it fits the workshop bounds.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Dev_Tools_Kit.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Dev_Tools_Kit/README.md",
       "files": {
