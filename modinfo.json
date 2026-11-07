@@ -27,9 +27,9 @@
     {
       "name": "Workshop Recyclers",
       "author": "AgentKush",
-      "version": "5.7",
+      "version": "5.8",
       "compatibility": "All",
-      "description": "Two recycling machines (Biofuel T3 + Organic T4) plus an Incinerator for instant item destruction. 5,340 recipes: 1,948 deconstruct + 335 recycle + 3,054 incinerate + 3 crafting. v5.5: Added 886 missing incinerate recipes (frozen items, ores, food, building pieces). Every item in the game now covered. Fixed icon, mesh, and tech tree.",
+      "description": "Two recycling machines (Biofuel T3 + Organic T4) plus an Incinerator for instant item destruction. 5,312 recipes: 1,943 deconstruct + 315 recycle + 3,051 incinerate + 3 crafting. Returns processed materials, and every item in the game can be incinerated.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Workshop_Recyclers.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/README.md",
       "files": {

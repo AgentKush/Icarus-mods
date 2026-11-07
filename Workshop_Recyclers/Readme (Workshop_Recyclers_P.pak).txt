@@ -1,6 +1,6 @@
 Workshop_Recyclers_P.pak
 ----------------------------------------------------------------------
-Mod Version: 5.7
+Mod Version: 5.8
 
 Author: AgentKush
 
@@ -9,8 +9,21 @@ Compatible with Icarus: All Weeks
 Mod Type: EXMOD
 
 ## Description:
-Two recycling machines (Biofuel T3 + Organic T4) plus an Incinerator for instant item destruction. 3,054 incinerate recipes + 2,285 recycle/deconstruct recipes. 100% material returns on recycling.
+Two recycling machines (Biofuel T3 + Organic T4) plus an Incinerator for instant item destruction. 3,051 incinerate recipes + 2,258 recycle/deconstruct recipes. 100% material returns on recycling.
 
+
+Ver 5.8
+Updated for the November 2026 game update. Removed 41 recipes for items the game no
+longer has (the update deleted the Electric Motor, Cobalt Ore, Cobalt Ingot and the
+explosive sniper rounds; the rest were unreleased workshop items or items with no item
+data), so the machines no longer list recipes that can never run. Fixed 25 recipes that
+gave nothing: 17 Platinum Sheath and 4 saddle outputs used the wrong item name, and 4
+deconstruct recipes tried to output animal carcasses, which cannot be made (they now
+give Wool or a Ram, Sheep or Pig head, matching the vanilla recipes). Removed
+Deconstruct Raw Meat (no single vanilla source to return), 3 duplicate recipes that
+overwrote each other, and an unused timing field from every incinerate recipe. Added
+incinerate recipes for the 17 new items. 5,312 recipes: 1,943 deconstruct, 315 recycle,
+3,051 incinerate and 3 crafting.
 
 Ver 5.7
 Fixed Incinerator and Biofuel Recycler meshes for the June 2026 update - they now use the real electric-furnace and cleaning-device models (the old meshes were removed by the update).
@@ -65,7 +78,7 @@ Major cleanup - fixed 63 broken item references, removed 136 invalid recipes.
   Items-D_ItemTemplate        (3 entries)
   Talents-D_Talents           (3 entries)
   Traits-D_Durable            (1 entries)
-  Crafting-D_ProcessorRecipes (5340 entries)
+  Crafting-D_ProcessorRecipes (5312 entries)
   Inventory-D_InventoryInfo   (1 entries)
   Traits-D_Inventory          (1 entries)
 
