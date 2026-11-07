@@ -61,6 +61,7 @@ Alternative recipes without needing rare creature drops:
 Import `Trap_Defense_Expansion.EXMODZ` via Icarus Mod Manager.
 
 ## Version History
+- **v1.3** - Fixed the crafting sound on the 12 Fabricator-tier recipes (all 4 elemental landmines and their direct crafts, Batch Landmines, Landmine Field Kit, Mammoth Trap, Lava Mine). They pointed at a sound entry that does not exist, so they crafted in silence; they now use the Machining Bench sound, like the vanilla landmines.
 - **v1.2** - Crash fix: Fixed 23 recipe outputs from D_ItemsStatic to D_ItemTemplate (prevents crash when opening crafting stations).
 
 - **v1.1** - Complete rebuild using real game items. 23 recipes including 4 previously uncraftable elemental landmines.
