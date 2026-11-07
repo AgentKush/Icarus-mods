@@ -1,6 +1,6 @@
 Hidden_Building_Pieces_P.pak
 ----------------------------------------------------------------------
-Mod Version: 4.4
+Mod Version: 4.5
 Author: AgentKush
 Compatible with Icarus: All Weeks
 Mod Type: EXMOD
@@ -9,6 +9,14 @@ Mod Type: EXMOD
 Unlocks 34 building pieces as individual items. Includes non-curved Wood diagonal pieces, frames for 11 materials, and a metal grate floor (corner stairs, stairs and curved pieces are now in the base game). All items are craftable at material-appropriate benches.
 
 ## Changelog:
+
+Ver 4.5
+Rebuilt for the November 2026 frame rework. 5 frames used blueprints the update deleted and
+now use the game's current frame blueprints. The Iron frames, Sandworm frames and Metal Grate
+quarter floor asked for items that do not exist (Iron_Ingot, Sandite) and could not be crafted;
+they now cost what the game charges for its own Iron beams, Sandworm beams and metal grate floor.
+Fixed stability rows, piece types, materials and icons the game renamed or removed, and removed
+66 leftover rows from the stairs dropped in 4.4.
 
 Ver 4.4
 Removed 28 pieces now official in vanilla (Corner Stairs, Stairs, curved Wood - from the Week 142 and Week 234 updates). 34 mod-exclusive pieces remain (frames + non-curved diagonals + metal grate floor). Updated all mesh references and removed a stray Mesh_Generic_Ice override.
@@ -35,8 +43,8 @@ Added 675 new building pieces from DLC update.
   Items-D_ItemTemplate        (34 entries)
   Crafting-D_ProcessorRecipes (35 entries)
   Traits-D_Buildable          (34 entries)
-  Building-D_BuildingPieces   (68 entries)
-  Building-D_BuildingSkins    (68 entries)
+  Building-D_BuildingPieces   (36 entries)
+  Building-D_BuildingSkins    (34 entries)
   Traits-D_Durable            (16 entries)
   Items-Types-D_BuildingTypes (21 entries)
 

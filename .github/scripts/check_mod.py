@@ -62,8 +62,10 @@ class Game:
     def __init__(self, root: Path, with_assets: bool = True):
         self.root = Path(root)
         self.tables: dict[str, dict] = {}
-        for cat in sorted(p for p in self.root.iterdir() if p.is_dir()):
-            for f in sorted(cat.glob("D_*.json")):
+        # data tables sit one or more folders deep (Items/Types/D_BuildingTypes.json);
+        # the Icarus/ tree is the asset export, not data tables
+        for cat in sorted(p for p in self.root.iterdir() if p.is_dir() and p.name != "Icarus"):
+            for f in sorted(cat.rglob("D_*.json")):
                 try:
                     d = load_json(f)
                 except Exception:

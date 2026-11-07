@@ -1,8 +1,8 @@
 {
   "name": "Hidden Building Pieces",
   "author": "AgentKush",
-  "version": "4.4",
-  "description": "Unlocks hidden building pieces: Wood diagonal/curved, frames, corner stairs, glass stairs, and more.\n\nv4.1 \u2014 Added Interior Wood Floor recipe at Fabricator/Manufacturer (the forgotten floor)\nv4.0 \u2014 Removed Ice_Floor_TrapDoor (broken). 62 hidden pieces, 101 building variations\nv3.0 \u2014 Added 15 new hidden pieces\nv2.0 \u2014 Expanded to 47 pieces + skins\nv1.0 \u2014 Initial release",
+  "version": "4.5",
+  "description": "v4.5: Rebuilt for the November 2026 frame rework. 5 frames used blueprints the update deleted (the Iron full and half frames and the Limestone, Reinforced Wood and Sandworm half frames) and now use the game's current frame blueprints. The 3 Iron frames, the 2 Sandworm frames and the Metal Grate quarter floor can now be crafted - their recipes asked for items that do not exist - and cost what the game charges for its own Iron beams, Sandworm beams and metal grate floor. Fixed the stability, piece types, materials and icons the game renamed or removed, and removed 66 leftover rows from pieces that are now in the base game.",
   "fileName": "Hidden_Building_Pieces",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hidden_Building_Pieces.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hidden_Building_Pieces/README.md",
@@ -16,7 +16,7 @@
           "Name": "Item_ClayBrick_Frame_FullFrame",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_ClayBrick_Frame_FullFrame-DisplayName\", \"Clay Brick Full Frame\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ClayBrick_Frame_FullFrame-Description\", \"Clay Brick Full Frame building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_3.T_ITEM_Dev_Pillars_Frames_3",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Pillars_ClayBrick.T_ITEM_Pillars_ClayBrick",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -24,7 +24,7 @@
           "Name": "Item_ClayBrick_Frame_HalfFrame",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_ClayBrick_Frame_HalfFrame-DisplayName\", \"Clay Brick Half Frame\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ClayBrick_Frame_HalfFrame-Description\", \"Clay Brick Half Frame building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_3.T_ITEM_Dev_Pillars_Frames_3",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Pillars_ClayBrick.T_ITEM_Pillars_ClayBrick",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -32,7 +32,7 @@
           "Name": "Item_ClayBrick_Frame_Pillar",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_ClayBrick_Frame_Pillar-DisplayName\", \"Clay Brick Frame Pillar\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ClayBrick_Frame_Pillar-Description\", \"Clay Brick Frame Pillar building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_3.T_ITEM_Dev_Pillars_Frames_3",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Pillars_ClayBrick.T_ITEM_Pillars_ClayBrick",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -40,7 +40,7 @@
           "Name": "Item_Glass_Frame_FullFrame",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Frame_FullFrame-DisplayName\", \"Glass Full Frame\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Frame_FullFrame-Description\", \"Glass Full Frame building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_10.T_ITEM_Dev_Pillars_Frames_10",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Pillars_Glass.T_ITEM_Pillars_Glass",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -48,7 +48,7 @@
           "Name": "Item_Glass_Frame_HalfFrame",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Frame_HalfFrame-DisplayName\", \"Glass Half Frame\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Frame_HalfFrame-Description\", \"Glass Half Frame building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_10.T_ITEM_Dev_Pillars_Frames_10",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Pillars_Glass.T_ITEM_Pillars_Glass",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -56,7 +56,7 @@
           "Name": "Item_Glass_Frame_Pillar",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Frame_Pillar-DisplayName\", \"Glass Frame Pillar\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Glass_Frame_Pillar-Description\", \"Glass Frame Pillar building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_10.T_ITEM_Dev_Pillars_Frames_10",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Pillars_Glass.T_ITEM_Pillars_Glass",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -64,7 +64,7 @@
           "Name": "Item_Ice_Frame_FullFrame",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Ice_Frame_FullFrame-DisplayName\", \"Ice Full Frame\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Ice_Frame_FullFrame-Description\", \"Ice Full Frame building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_9.T_ITEM_Dev_Pillars_Frames_9",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_5.T_ITEM_Dev_Pillars_Frames_5",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -72,7 +72,7 @@
           "Name": "Item_Ice_Frame_HalfFrame",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Ice_Frame_HalfFrame-DisplayName\", \"Ice Half Frame\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Ice_Frame_HalfFrame-Description\", \"Ice Half Frame building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_9.T_ITEM_Dev_Pillars_Frames_9",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_5.T_ITEM_Dev_Pillars_Frames_5",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -80,7 +80,7 @@
           "Name": "Item_Iron_Frame_FullFrame",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Iron_Frame_FullFrame-DisplayName\", \"Iron Full Frame\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Iron_Frame_FullFrame-Description\", \"Iron Full Frame building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_8.T_ITEM_Dev_Pillars_Frames_8",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Pillars_Iron.T_ITEM_Pillars_Iron",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -88,7 +88,7 @@
           "Name": "Item_Iron_Frame_HalfFrame",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Iron_Frame_HalfFrame-DisplayName\", \"Iron Half Frame\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Iron_Frame_HalfFrame-Description\", \"Iron Half Frame building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_8.T_ITEM_Dev_Pillars_Frames_8",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Pillars_Iron.T_ITEM_Pillars_Iron",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -96,7 +96,7 @@
           "Name": "Item_Iron_Frame_Pillar",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Iron_Frame_Pillar-DisplayName\", \"Iron Frame Pillar\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Iron_Frame_Pillar-Description\", \"Iron Frame Pillar building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_8.T_ITEM_Dev_Pillars_Frames_8",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Pillars_Iron.T_ITEM_Pillars_Iron",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -104,7 +104,7 @@
           "Name": "Item_Limestone_Frame_HalfFrame",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Frame_HalfFrame-DisplayName\", \"Limestone Half Frame\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Limestone_Frame_HalfFrame-Description\", \"Limestone Half Frame building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_7.T_ITEM_Dev_Pillars_Frames_7",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Limestone_Frame_1.T_ITEM_Limestone_Frame_1",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -120,7 +120,7 @@
           "Name": "Item_ReinforcedWood_Frame_FullFrame",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_ReinforcedWood_Frame_FullFrame-DisplayName\", \"Reinforced Wood Full Frame\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ReinforcedWood_Frame_FullFrame-Description\", \"Reinforced Wood Full Frame building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_2.T_ITEM_Dev_Pillars_Frames_2",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ReinforcedWood_Beam_3.T_ITEM_ReinforcedWood_Beam_3",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -128,7 +128,7 @@
           "Name": "Item_ReinforcedWood_Frame_HalfFrame",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_ReinforcedWood_Frame_HalfFrame-DisplayName\", \"Reinforced Wood Half Frame\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_ReinforcedWood_Frame_HalfFrame-Description\", \"Reinforced Wood Half Frame building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_2.T_ITEM_Dev_Pillars_Frames_2",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ReinforcedWood_Beam_3.T_ITEM_ReinforcedWood_Beam_3",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -136,7 +136,7 @@
           "Name": "Item_Sandworm_Frame_FullFrame",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_Frame_FullFrame-DisplayName\", \"Sandworm Full Frame\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_Frame_FullFrame-Description\", \"Sandworm Full Frame building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_4.T_ITEM_Dev_Pillars_Frames_4",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Sandworm_Beam_3.T_ITEM_Sandworm_Beam_3",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -144,7 +144,7 @@
           "Name": "Item_Sandworm_Frame_HalfFrame",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_Frame_HalfFrame-DisplayName\", \"Sandworm Half Frame\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Sandworm_Frame_HalfFrame-Description\", \"Sandworm Half Frame building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_4.T_ITEM_Dev_Pillars_Frames_4",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Sandworm_Beam_3.T_ITEM_Sandworm_Beam_3",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -208,7 +208,7 @@
           "Name": "Item_TemperedGlass_Frame_FullFrame",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_TemperedGlass_Frame_FullFrame-DisplayName\", \"Tempered Glass Full Frame\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_TemperedGlass_Frame_FullFrame-Description\", \"Tempered Glass Full Frame building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_11.T_ITEM_Dev_Pillars_Frames_11",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Pillars_Glass.T_ITEM_Pillars_Glass",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -216,7 +216,7 @@
           "Name": "Item_TemperedGlass_Frame_HalfFrame",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_TemperedGlass_Frame_HalfFrame-DisplayName\", \"Tempered Glass Half Frame\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_TemperedGlass_Frame_HalfFrame-Description\", \"Tempered Glass Half Frame building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_11.T_ITEM_Dev_Pillars_Frames_11",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Pillars_Glass.T_ITEM_Pillars_Glass",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -224,7 +224,7 @@
           "Name": "Item_TemperedGlass_Frame_Pillar",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_TemperedGlass_Frame_Pillar-DisplayName\", \"Tempered Glass Frame Pillar\")",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_TemperedGlass_Frame_Pillar-Description\", \"Tempered Glass Frame Pillar building piece (1 variants).\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_11.T_ITEM_Dev_Pillars_Frames_11",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Pillars_Glass.T_ITEM_Pillars_Glass",
           "Weight": 5000,
           "MaxStack": 20
         },
@@ -323,11 +323,7 @@
           "Durable": {
             "RowName": "Clay_Brick_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "ClayBrick_Frame_HalfFrame",
@@ -363,11 +359,7 @@
           "Durable": {
             "RowName": "Clay_Brick_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "ClayBrick_Frame_Pillar",
@@ -403,11 +395,7 @@
           "Durable": {
             "RowName": "Clay_Brick_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "Glass_Frame_FullFrame",
@@ -443,11 +431,7 @@
           "Durable": {
             "RowName": "Glass_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "Glass_Frame_HalfFrame",
@@ -483,11 +467,7 @@
           "Durable": {
             "RowName": "Glass_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "Glass_Frame_Pillar",
@@ -523,11 +503,7 @@
           "Durable": {
             "RowName": "Glass_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "Ice_Frame_FullFrame",
@@ -563,11 +539,7 @@
           "Durable": {
             "RowName": "Ice_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "Ice_Frame_HalfFrame",
@@ -603,11 +575,7 @@
           "Durable": {
             "RowName": "Ice_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "Iron_Frame_FullFrame",
@@ -643,11 +611,7 @@
           "Durable": {
             "RowName": "Iron_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "Iron_Frame_HalfFrame",
@@ -683,11 +647,7 @@
           "Durable": {
             "RowName": "Iron_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "Iron_Frame_Pillar",
@@ -723,11 +683,7 @@
           "Durable": {
             "RowName": "Iron_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "Limestone_Frame_HalfFrame",
@@ -763,11 +719,7 @@
           "Durable": {
             "RowName": "Limestone_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "Metal_Grate_HalfNormal_QuarterFloor",
@@ -803,11 +755,7 @@
           "Durable": {
             "RowName": "Iron_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "ReinforcedWood_Frame_FullFrame",
@@ -843,11 +791,7 @@
           "Durable": {
             "RowName": "ReinforcedWood_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "ReinforcedWood_Frame_HalfFrame",
@@ -883,11 +827,7 @@
           "Durable": {
             "RowName": "ReinforcedWood_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "Sandworm_Frame_FullFrame",
@@ -923,11 +863,7 @@
           "Durable": {
             "RowName": "Sandworm_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "Sandworm_Frame_HalfFrame",
@@ -963,11 +899,7 @@
           "Durable": {
             "RowName": "Sandworm_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "Scoria_Frame_HalfFrame",
@@ -1003,11 +935,7 @@
           "Durable": {
             "RowName": "Scoria_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "ScoriaBrick_Frame_FullFrame",
@@ -1043,11 +971,7 @@
           "Durable": {
             "RowName": "Scoria_Brick_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "ScoriaBrick_Frame_HalfFrame",
@@ -1083,11 +1007,7 @@
           "Durable": {
             "RowName": "Scoria_Brick_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "ScoriaBrick_Frame_Pillar",
@@ -1123,11 +1043,7 @@
           "Durable": {
             "RowName": "Scoria_Brick_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "StoneBrick_Frame_FullFrame",
@@ -1163,11 +1079,7 @@
           "Durable": {
             "RowName": "Stone_Brick_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "StoneBrick_Frame_HalfFrame",
@@ -1203,11 +1115,7 @@
           "Durable": {
             "RowName": "Stone_Brick_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "StoneBrick_Frame_Pillar",
@@ -1243,11 +1151,7 @@
           "Durable": {
             "RowName": "Stone_Brick_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "TemperedGlass_Frame_FullFrame",
@@ -1283,11 +1187,7 @@
           "Durable": {
             "RowName": "Tempered_Glass_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "TemperedGlass_Frame_HalfFrame",
@@ -1323,11 +1223,7 @@
           "Durable": {
             "RowName": "Tempered_Glass_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "TemperedGlass_Frame_Pillar",
@@ -1363,11 +1259,7 @@
           "Durable": {
             "RowName": "Tempered_Glass_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "Wood_Brick_Beam_DiagonalBeam",
@@ -1403,11 +1295,7 @@
           "Durable": {
             "RowName": "Wood_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "Wood_Diagonal_Beam_Diagonal",
@@ -1443,11 +1331,7 @@
           "Durable": {
             "RowName": "Wood_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "Wood_Diagonal_Beam_Horizontal",
@@ -1483,11 +1367,7 @@
           "Durable": {
             "RowName": "Wood_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "Wood_Diagonal_Floor",
@@ -1523,11 +1403,7 @@
           "Durable": {
             "RowName": "Wood_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "Wood_Diagonal_Ramp_Roof",
@@ -1563,11 +1439,7 @@
           "Durable": {
             "RowName": "Wood_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "Wood_Diagonal_Wall_Angles",
@@ -1603,11 +1475,7 @@
           "Durable": {
             "RowName": "Wood_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         },
         {
           "Name": "Wood_Diagonal_Wall_Solid",
@@ -1643,11 +1511,7 @@
           "Durable": {
             "RowName": "Wood_Building",
             "DataTableName": "D_Durable"
-          },
-          "Traits": [
-            "Item.Building",
-            "Item.Buildable"
-          ]
+          }
         }
       ]
     },
@@ -1659,340 +1523,238 @@
           "ItemStaticData": {
             "RowName": "ClayBrick_Frame_FullFrame",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_3.T_ITEM_Dev_Pillars_Frames_3",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"ClayBrick_Frame_FullFrame\", \"Clay Brick Full Frame\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"ClayBrick_Frame_FullFrame-Desc\", \"Clay Brick Full Frame building piece.\")"
+          }
         },
         {
           "Name": "ClayBrick_Frame_HalfFrame",
           "ItemStaticData": {
             "RowName": "ClayBrick_Frame_HalfFrame",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_3.T_ITEM_Dev_Pillars_Frames_3",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"ClayBrick_Frame_HalfFrame\", \"Clay Brick Half Frame\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"ClayBrick_Frame_HalfFrame-Desc\", \"Clay Brick Half Frame building piece.\")"
+          }
         },
         {
           "Name": "ClayBrick_Frame_Pillar",
           "ItemStaticData": {
             "RowName": "ClayBrick_Frame_Pillar",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_3.T_ITEM_Dev_Pillars_Frames_3",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"ClayBrick_Frame_Pillar\", \"Clay Brick Frame Pillar\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"ClayBrick_Frame_Pillar-Desc\", \"Clay Brick Frame Pillar building piece.\")"
+          }
         },
         {
           "Name": "Glass_Frame_FullFrame",
           "ItemStaticData": {
             "RowName": "Glass_Frame_FullFrame",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_10.T_ITEM_Dev_Pillars_Frames_10",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Glass_Frame_FullFrame\", \"Glass Full Frame\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Glass_Frame_FullFrame-Desc\", \"Glass Full Frame building piece.\")"
+          }
         },
         {
           "Name": "Glass_Frame_HalfFrame",
           "ItemStaticData": {
             "RowName": "Glass_Frame_HalfFrame",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_10.T_ITEM_Dev_Pillars_Frames_10",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Glass_Frame_HalfFrame\", \"Glass Half Frame\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Glass_Frame_HalfFrame-Desc\", \"Glass Half Frame building piece.\")"
+          }
         },
         {
           "Name": "Glass_Frame_Pillar",
           "ItemStaticData": {
             "RowName": "Glass_Frame_Pillar",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_10.T_ITEM_Dev_Pillars_Frames_10",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Glass_Frame_Pillar\", \"Glass Frame Pillar\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Glass_Frame_Pillar-Desc\", \"Glass Frame Pillar building piece.\")"
+          }
         },
         {
           "Name": "Ice_Frame_FullFrame",
           "ItemStaticData": {
             "RowName": "Ice_Frame_FullFrame",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_9.T_ITEM_Dev_Pillars_Frames_9",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Ice_Frame_FullFrame\", \"Ice Full Frame\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Ice_Frame_FullFrame-Desc\", \"Ice Full Frame building piece.\")"
+          }
         },
         {
           "Name": "Ice_Frame_HalfFrame",
           "ItemStaticData": {
             "RowName": "Ice_Frame_HalfFrame",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_9.T_ITEM_Dev_Pillars_Frames_9",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Ice_Frame_HalfFrame\", \"Ice Half Frame\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Ice_Frame_HalfFrame-Desc\", \"Ice Half Frame building piece.\")"
+          }
         },
         {
           "Name": "Iron_Frame_FullFrame",
           "ItemStaticData": {
             "RowName": "Iron_Frame_FullFrame",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_8.T_ITEM_Dev_Pillars_Frames_8",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Iron_Frame_FullFrame\", \"Iron Full Frame\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Iron_Frame_FullFrame-Desc\", \"Iron Full Frame building piece.\")"
+          }
         },
         {
           "Name": "Iron_Frame_HalfFrame",
           "ItemStaticData": {
             "RowName": "Iron_Frame_HalfFrame",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_8.T_ITEM_Dev_Pillars_Frames_8",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Iron_Frame_HalfFrame\", \"Iron Half Frame\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Iron_Frame_HalfFrame-Desc\", \"Iron Half Frame building piece.\")"
+          }
         },
         {
           "Name": "Iron_Frame_Pillar",
           "ItemStaticData": {
             "RowName": "Iron_Frame_Pillar",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_8.T_ITEM_Dev_Pillars_Frames_8",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Iron_Frame_Pillar\", \"Iron Frame Pillar\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Iron_Frame_Pillar-Desc\", \"Iron Frame Pillar building piece.\")"
+          }
         },
         {
           "Name": "Limestone_Frame_HalfFrame",
           "ItemStaticData": {
             "RowName": "Limestone_Frame_HalfFrame",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_7.T_ITEM_Dev_Pillars_Frames_7",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Limestone_Frame_HalfFrame\", \"Limestone Half Frame\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Limestone_Frame_HalfFrame-Desc\", \"Limestone Half Frame building piece.\")"
+          }
         },
         {
           "Name": "Metal_Grate_HalfNormal_QuarterFloor",
           "ItemStaticData": {
             "RowName": "Metal_Grate_HalfNormal_QuarterFloor",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Iron_Ramp_0.ITEM_Iron_Ramp_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Metal_Grate_HalfNormal_QuarterFloor\", \"Metal Grate Quarter Floor\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Metal_Grate_HalfNormal_QuarterFloor-Desc\", \"Metal Grate Quarter Floor building piece.\")"
+          }
         },
         {
           "Name": "ReinforcedWood_Frame_FullFrame",
           "ItemStaticData": {
             "RowName": "ReinforcedWood_Frame_FullFrame",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_2.T_ITEM_Dev_Pillars_Frames_2",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"ReinforcedWood_Frame_FullFrame\", \"Reinforced Wood Full Frame\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"ReinforcedWood_Frame_FullFrame-Desc\", \"Reinforced Wood Full Frame building piece.\")"
+          }
         },
         {
           "Name": "ReinforcedWood_Frame_HalfFrame",
           "ItemStaticData": {
             "RowName": "ReinforcedWood_Frame_HalfFrame",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_2.T_ITEM_Dev_Pillars_Frames_2",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"ReinforcedWood_Frame_HalfFrame\", \"Reinforced Wood Half Frame\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"ReinforcedWood_Frame_HalfFrame-Desc\", \"Reinforced Wood Half Frame building piece.\")"
+          }
         },
         {
           "Name": "Sandworm_Frame_FullFrame",
           "ItemStaticData": {
             "RowName": "Sandworm_Frame_FullFrame",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_4.T_ITEM_Dev_Pillars_Frames_4",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Sandworm_Frame_FullFrame\", \"Sandworm Full Frame\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Sandworm_Frame_FullFrame-Desc\", \"Sandworm Full Frame building piece.\")"
+          }
         },
         {
           "Name": "Sandworm_Frame_HalfFrame",
           "ItemStaticData": {
             "RowName": "Sandworm_Frame_HalfFrame",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_4.T_ITEM_Dev_Pillars_Frames_4",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Sandworm_Frame_HalfFrame\", \"Sandworm Half Frame\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Sandworm_Frame_HalfFrame-Desc\", \"Sandworm Half Frame building piece.\")"
+          }
         },
         {
           "Name": "Scoria_Frame_HalfFrame",
           "ItemStaticData": {
             "RowName": "Scoria_Frame_HalfFrame",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_5.T_ITEM_Dev_Pillars_Frames_5",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Scoria_Frame_HalfFrame\", \"Scoria Half Frame\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Scoria_Frame_HalfFrame-Desc\", \"Scoria Half Frame building piece.\")"
+          }
         },
         {
           "Name": "ScoriaBrick_Frame_FullFrame",
           "ItemStaticData": {
             "RowName": "ScoriaBrick_Frame_FullFrame",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_5.T_ITEM_Dev_Pillars_Frames_5",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"ScoriaBrick_Frame_FullFrame\", \"Scoria Brick Full Frame\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"ScoriaBrick_Frame_FullFrame-Desc\", \"Scoria Brick Full Frame building piece.\")"
+          }
         },
         {
           "Name": "ScoriaBrick_Frame_HalfFrame",
           "ItemStaticData": {
             "RowName": "ScoriaBrick_Frame_HalfFrame",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_5.T_ITEM_Dev_Pillars_Frames_5",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"ScoriaBrick_Frame_HalfFrame\", \"Scoria Brick Half Frame\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"ScoriaBrick_Frame_HalfFrame-Desc\", \"Scoria Brick Half Frame building piece.\")"
+          }
         },
         {
           "Name": "ScoriaBrick_Frame_Pillar",
           "ItemStaticData": {
             "RowName": "ScoriaBrick_Frame_Pillar",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_5.T_ITEM_Dev_Pillars_Frames_5",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"ScoriaBrick_Frame_Pillar\", \"Scoria Brick Frame Pillar\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"ScoriaBrick_Frame_Pillar-Desc\", \"Scoria Brick Frame Pillar building piece.\")"
+          }
         },
         {
           "Name": "StoneBrick_Frame_FullFrame",
           "ItemStaticData": {
             "RowName": "StoneBrick_Frame_FullFrame",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_6.T_ITEM_Dev_Pillars_Frames_6",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"StoneBrick_Frame_FullFrame\", \"Stone Brick Full Frame\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"StoneBrick_Frame_FullFrame-Desc\", \"Stone Brick Full Frame building piece.\")"
+          }
         },
         {
           "Name": "StoneBrick_Frame_HalfFrame",
           "ItemStaticData": {
             "RowName": "StoneBrick_Frame_HalfFrame",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_6.T_ITEM_Dev_Pillars_Frames_6",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"StoneBrick_Frame_HalfFrame\", \"Stone Brick Half Frame\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"StoneBrick_Frame_HalfFrame-Desc\", \"Stone Brick Half Frame building piece.\")"
+          }
         },
         {
           "Name": "StoneBrick_Frame_Pillar",
           "ItemStaticData": {
             "RowName": "StoneBrick_Frame_Pillar",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_6.T_ITEM_Dev_Pillars_Frames_6",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"StoneBrick_Frame_Pillar\", \"Stone Brick Frame Pillar\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"StoneBrick_Frame_Pillar-Desc\", \"Stone Brick Frame Pillar building piece.\")"
+          }
         },
         {
           "Name": "TemperedGlass_Frame_FullFrame",
           "ItemStaticData": {
             "RowName": "TemperedGlass_Frame_FullFrame",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_11.T_ITEM_Dev_Pillars_Frames_11",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"TemperedGlass_Frame_FullFrame\", \"Tempered Glass Full Frame\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"TemperedGlass_Frame_FullFrame-Desc\", \"Tempered Glass Full Frame building piece.\")"
+          }
         },
         {
           "Name": "TemperedGlass_Frame_HalfFrame",
           "ItemStaticData": {
             "RowName": "TemperedGlass_Frame_HalfFrame",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_11.T_ITEM_Dev_Pillars_Frames_11",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"TemperedGlass_Frame_HalfFrame\", \"Tempered Glass Half Frame\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"TemperedGlass_Frame_HalfFrame-Desc\", \"Tempered Glass Half Frame building piece.\")"
+          }
         },
         {
           "Name": "TemperedGlass_Frame_Pillar",
           "ItemStaticData": {
             "RowName": "TemperedGlass_Frame_Pillar",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Dev_Pillars_Frames_11.T_ITEM_Dev_Pillars_Frames_11",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"TemperedGlass_Frame_Pillar\", \"Tempered Glass Frame Pillar\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"TemperedGlass_Frame_Pillar-Desc\", \"Tempered Glass Frame Pillar building piece.\")"
+          }
         },
         {
           "Name": "Wood_Brick_Beam_DiagonalBeam",
           "ItemStaticData": {
             "RowName": "Wood_Brick_Beam_DiagonalBeam",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Brick_Beam_DiagonalBeam\", \"Wood Diagonal Beam\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Brick_Beam_DiagonalBeam-Desc\", \"Wood Diagonal Beam building piece.\")"
+          }
         },
         {
           "Name": "Wood_Diagonal_Beam_Diagonal",
           "ItemStaticData": {
             "RowName": "Wood_Diagonal_Beam_Diagonal",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Beam_Diagonal\", \"Wood Diagonal Beam Angled\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Beam_Diagonal-Desc\", \"Wood Diagonal Beam Angled building piece.\")"
+          }
         },
         {
           "Name": "Wood_Diagonal_Beam_Horizontal",
           "ItemStaticData": {
             "RowName": "Wood_Diagonal_Beam_Horizontal",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Beam_Horizontal\", \"Wood Diagonal Beam\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Beam_Horizontal-Desc\", \"Wood Diagonal Beam building piece.\")"
+          }
         },
         {
           "Name": "Wood_Diagonal_Floor",
           "ItemStaticData": {
             "RowName": "Wood_Diagonal_Floor",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Floor\", \"Wood Diagonal Floor\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Floor-Desc\", \"Wood Diagonal Floor building piece.\")"
+          }
         },
         {
           "Name": "Wood_Diagonal_Ramp_Roof",
           "ItemStaticData": {
             "RowName": "Wood_Diagonal_Ramp_Roof",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Ramp_Roof\", \"Wood Diagonal Ramp Roof\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Ramp_Roof-Desc\", \"Wood Diagonal Ramp Roof building piece.\")"
+          }
         },
         {
           "Name": "Wood_Diagonal_Wall_Angles",
           "ItemStaticData": {
             "RowName": "Wood_Diagonal_Wall_Angles",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Wall_Angles\", \"Wood Diagonal Wall Angles\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Wall_Angles-Desc\", \"Wood Diagonal Wall Angles building piece.\")"
+          }
         },
         {
           "Name": "Wood_Diagonal_Wall_Solid",
           "ItemStaticData": {
             "RowName": "Wood_Diagonal_Wall_Solid",
             "DataTableName": "D_ItemsStatic"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Floor_0.ITEM_Wood_Floor_0",
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Wall_Solid\", \"Wood Diagonal Wall\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Wood_Diagonal_Wall_Solid-Desc\", \"Wood Diagonal Wall building piece.\")"
+          }
         }
       ]
     },
@@ -2264,17 +2026,24 @@
           "Inputs": [
             {
               "Element": {
-                "RowName": "Iron_Ingot",
+                "RowName": "Bauxite",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 8
+              "Count": 2
             },
             {
               "Element": {
                 "RowName": "Wood",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 4
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Steel_Screw",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
             }
           ],
           "Outputs": [
@@ -2303,17 +2072,24 @@
           "Inputs": [
             {
               "Element": {
-                "RowName": "Iron_Ingot",
+                "RowName": "Bauxite",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 8
+              "Count": 2
             },
             {
               "Element": {
                 "RowName": "Wood",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 4
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Steel_Screw",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
             }
           ],
           "Outputs": [
@@ -2342,17 +2118,24 @@
           "Inputs": [
             {
               "Element": {
-                "RowName": "Iron_Ingot",
+                "RowName": "Bauxite",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 8
+              "Count": 2
             },
             {
               "Element": {
                 "RowName": "Wood",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 4
+              "Count": 2
+            },
+            {
+              "Element": {
+                "RowName": "Steel_Screw",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 2
             }
           ],
           "Outputs": [
@@ -2412,10 +2195,24 @@
           "Inputs": [
             {
               "Element": {
-                "RowName": "Iron_Ingot",
+                "RowName": "Aluminium",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 5
+            },
+            {
+              "Element": {
+                "RowName": "Steel_Rebar",
                 "DataTableName": "D_ItemsStatic"
               },
               "Count": 6
+            },
+            {
+              "Element": {
+                "RowName": "Steel_Screw",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 4
             }
           ],
           "Outputs": [
@@ -2518,9 +2315,24 @@
           "Inputs": [
             {
               "Element": {
-                "RowName": "Sandite"
+                "RowName": "Fiber",
+                "DataTableName": "D_ItemsStatic"
               },
-              "Count": 10
+              "Count": 4
+            },
+            {
+              "Element": {
+                "RowName": "Wood",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 6
+            },
+            {
+              "Element": {
+                "RowName": "Sandworm_Scale",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -2549,9 +2361,24 @@
           "Inputs": [
             {
               "Element": {
-                "RowName": "Sandite"
+                "RowName": "Fiber",
+                "DataTableName": "D_ItemsStatic"
               },
-              "Count": 10
+              "Count": 4
+            },
+            {
+              "Element": {
+                "RowName": "Wood",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 6
+            },
+            {
+              "Element": {
+                "RowName": "Sandworm_Scale",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -3478,7 +3305,7 @@
         {
           "Name": "Limestone_Frame_HalfFrame",
           "Stability": {
-            "RowName": "Limestone_General"
+            "RowName": "Concrete_Frame"
           },
           "Type": {
             "RowName": "Limestone"
@@ -3522,7 +3349,7 @@
         {
           "Name": "ReinforcedWood_Frame_FullFrame",
           "Stability": {
-            "RowName": "ReinforcedWood_General"
+            "RowName": "Wood_Beam_Reinforced"
           },
           "Type": {
             "RowName": "Wood"
@@ -3544,7 +3371,7 @@
         {
           "Name": "ReinforcedWood_Frame_HalfFrame",
           "Stability": {
-            "RowName": "ReinforcedWood_General"
+            "RowName": "Wood_Beam_Reinforced"
           },
           "Type": {
             "RowName": "Wood"
@@ -3566,7 +3393,7 @@
         {
           "Name": "Sandworm_Frame_FullFrame",
           "Stability": {
-            "RowName": "Sandworm_General"
+            "RowName": "Wood_Beam_Reinforced"
           },
           "Type": {
             "RowName": "Sandworm"
@@ -3588,7 +3415,7 @@
         {
           "Name": "Sandworm_Frame_HalfFrame",
           "Stability": {
-            "RowName": "Sandworm_General"
+            "RowName": "Wood_Beam_Reinforced"
           },
           "Type": {
             "RowName": "Sandworm"
@@ -3610,7 +3437,7 @@
         {
           "Name": "Scoria_Frame_HalfFrame",
           "Stability": {
-            "RowName": "Scoria_General"
+            "RowName": "Stone_Frame"
           },
           "Type": {
             "RowName": "Scoria"
@@ -3632,7 +3459,7 @@
         {
           "Name": "ScoriaBrick_Frame_FullFrame",
           "Stability": {
-            "RowName": "Scoria_Brick_General"
+            "RowName": "Clay_Brick_General"
           },
           "Type": {
             "RowName": "Scoria_Brick"
@@ -3654,7 +3481,7 @@
         {
           "Name": "ScoriaBrick_Frame_HalfFrame",
           "Stability": {
-            "RowName": "Scoria_Brick_General"
+            "RowName": "Clay_Brick_General"
           },
           "Type": {
             "RowName": "Scoria_Brick"
@@ -3676,7 +3503,7 @@
         {
           "Name": "ScoriaBrick_Frame_Pillar",
           "Stability": {
-            "RowName": "Scoria_Brick_General"
+            "RowName": "Clay_Brick_General"
           },
           "Type": {
             "RowName": "Scoria_Brick"
@@ -3698,7 +3525,7 @@
         {
           "Name": "StoneBrick_Frame_FullFrame",
           "Stability": {
-            "RowName": "Stone_Brick_General"
+            "RowName": "Clay_Brick_General"
           },
           "Type": {
             "RowName": "Stone_Brick"
@@ -3720,7 +3547,7 @@
         {
           "Name": "StoneBrick_Frame_HalfFrame",
           "Stability": {
-            "RowName": "Stone_Brick_General"
+            "RowName": "Clay_Brick_General"
           },
           "Type": {
             "RowName": "Stone_Brick"
@@ -3742,7 +3569,7 @@
         {
           "Name": "StoneBrick_Frame_Pillar",
           "Stability": {
-            "RowName": "Stone_Brick_General"
+            "RowName": "Clay_Brick_General"
           },
           "Type": {
             "RowName": "Stone_Brick"
@@ -3764,7 +3591,7 @@
         {
           "Name": "TemperedGlass_Frame_FullFrame",
           "Stability": {
-            "RowName": "Glass_General_Tempered"
+            "RowName": "Glass_Tempered"
           },
           "Type": {
             "RowName": "Glass_Tempered"
@@ -3786,7 +3613,7 @@
         {
           "Name": "TemperedGlass_Frame_HalfFrame",
           "Stability": {
-            "RowName": "Glass_General_Tempered"
+            "RowName": "Glass_Tempered"
           },
           "Type": {
             "RowName": "Glass_Tempered"
@@ -3808,7 +3635,7 @@
         {
           "Name": "TemperedGlass_Frame_Pillar",
           "Stability": {
-            "RowName": "Glass_General_Tempered"
+            "RowName": "Glass_Tempered"
           },
           "Type": {
             "RowName": "Glass_Tempered"
@@ -4027,34 +3854,6 @@
       "CurrentFile": "Building-D_BuildingPieces.json",
       "File_Items": [
         {
-          "Name": "ClayBrick_CornerStair_L",
-          "Type": {
-            "RowName": "CornerStair_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Clay_Brick_Ramp_2.ITEM_Clay_Brick_Ramp_2",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "ClayBrick_CornerStair_L"
-          }
-        },
-        {
-          "Name": "ClayBrick_CornerStair_R",
-          "Type": {
-            "RowName": "CornerStair_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Clay_Brick_Ramp_2.ITEM_Clay_Brick_Ramp_2",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "ClayBrick_CornerStair_R"
-          }
-        },
-        {
           "Name": "ClayBrick_Frame_FullFrame",
           "Type": {
             "RowName": "Frame"
@@ -4097,62 +3896,6 @@
           }
         },
         {
-          "Name": "Clay_Brick_CornerStair_L",
-          "Type": {
-            "RowName": "CornerStair_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Clay_Brick_Ramp_2.ITEM_Clay_Brick_Ramp_2",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "Clay_Brick_CornerStair_L"
-          }
-        },
-        {
-          "Name": "Clay_Brick_CornerStair_R",
-          "Type": {
-            "RowName": "CornerStair_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Clay_Brick_Ramp_2.ITEM_Clay_Brick_Ramp_2",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "Clay_Brick_CornerStair_R"
-          }
-        },
-        {
-          "Name": "Glass_CornerStair_L",
-          "Type": {
-            "RowName": "CornerStair_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Glass_Ramp_0.ITEM_Glass_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
-          "Audio": {
-            "RowName": "Glass"
-          },
-          "Skin": {
-            "RowName": "Glass_CornerStair_L"
-          }
-        },
-        {
-          "Name": "Glass_CornerStair_R",
-          "Type": {
-            "RowName": "CornerStair_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Glass_Ramp_0.ITEM_Glass_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
-          "Audio": {
-            "RowName": "Glass"
-          },
-          "Skin": {
-            "RowName": "Glass_CornerStair_R"
-          }
-        },
-        {
           "Name": "Glass_Frame_FullFrame",
           "Type": {
             "RowName": "Frame"
@@ -4181,67 +3924,11 @@
           }
         },
         {
-          "Name": "Glass_HalfStair_L",
-          "Type": {
-            "RowName": "Ramp_Stairs_Half_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Glass_Ramp_0.ITEM_Glass_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Half_Stone_L.BP_Building_Stairs_Half_Stone_L_C",
-          "Audio": {
-            "RowName": "Glass"
-          },
-          "Skin": {
-            "RowName": "Glass_HalfStair_L"
-          }
-        },
-        {
-          "Name": "Glass_HalfStair_R",
-          "Type": {
-            "RowName": "Ramp_Stairs_Half_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Glass_Ramp_0.ITEM_Glass_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Half_Stone_R.BP_Building_Stairs_Half_Stone_R_C",
-          "Audio": {
-            "RowName": "Glass"
-          },
-          "Skin": {
-            "RowName": "Glass_HalfStair_R"
-          }
-        },
-        {
-          "Name": "Ice_CornerStair_L",
-          "Type": {
-            "RowName": "CornerStair_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Ice_Ramp_0.ITEM_Ice_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "Ice_CornerStair_L"
-          }
-        },
-        {
-          "Name": "Ice_CornerStair_R",
-          "Type": {
-            "RowName": "CornerStair_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Ice_Ramp_0.ITEM_Ice_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "Ice_CornerStair_R"
-          }
-        },
-        {
           "Name": "Ice_Frame_FullFrame",
           "Type": {
             "RowName": "Frame"
           },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Ice_Beam_0.ITEM_Ice_Beam_0",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Ice_Beam_0.T_ITEM_Ice_Beam_0",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Frame_Stone.BP_Building_Frame_Stone_C",
           "Audio": {
             "RowName": "Stone"
@@ -4255,7 +3942,7 @@
           "Type": {
             "RowName": "Frame_Angle"
           },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Ice_Beam_0.ITEM_Ice_Beam_0",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Ice_Beam_0.T_ITEM_Ice_Beam_0",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Frame_Angle_Stone.BP_Building_Frame_Angle_Stone_C",
           "Audio": {
             "RowName": "Stone"
@@ -4267,10 +3954,10 @@
         {
           "Name": "Iron_Frame_FullFrame",
           "Type": {
-            "RowName": "Frame_FullFrame"
+            "RowName": "Frame"
           },
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Iron_Beam_1.ITEM_Iron_Beam_1",
-          "Blueprint": "/Game/BP/Building/Iron/BP_Building_Frame_Iron.BP_Building_Frame_Iron_C",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Frame_Stone.BP_Building_Frame_Stone_C",
           "Audio": {
             "RowName": "Iron"
           },
@@ -4281,10 +3968,10 @@
         {
           "Name": "Iron_Frame_HalfFrame",
           "Type": {
-            "RowName": "Frame_HalfFrame"
+            "RowName": "Frame_Angle"
           },
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Iron_Beam_1.ITEM_Iron_Beam_1",
-          "Blueprint": "/Game/BP/Building/Iron/BP_Building_Frame_Half_Iron.BP_Building_Frame_Half_Iron_C",
+          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Frame_Angle_Stone.BP_Building_Frame_Angle_Stone_C",
           "Audio": {
             "RowName": "Iron"
           },
@@ -4293,73 +3980,17 @@
           }
         },
         {
-          "Name": "Limestone_CornerStair_L",
-          "Type": {
-            "RowName": "CornerStair_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Limestone_Ramp_0.ITEM_Limestone_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Concrete/BP_Building_Stairs_Corner_Concrete_L.BP_Building_Stairs_Corner_Concrete_L_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "Limestone_CornerStair_L"
-          }
-        },
-        {
-          "Name": "Limestone_CornerStair_R",
-          "Type": {
-            "RowName": "CornerStair_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Limestone_Ramp_0.ITEM_Limestone_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Concrete/BP_Building_Stairs_Corner_Concrete_R.BP_Building_Stairs_Corner_Concrete_R_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "Limestone_CornerStair_R"
-          }
-        },
-        {
           "Name": "Limestone_Frame_HalfFrame",
           "Type": {
-            "RowName": "Frame_HalfFrame"
+            "RowName": "Frame_Angle"
           },
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Limestone_Frame_0.T_ITEM_Limestone_Frame_0",
-          "Blueprint": "/Game/BP/Building/Concrete/BP_Building_Frame_Half_Concrete.BP_Building_Frame_Half_Concrete_C",
+          "Blueprint": "/Game/BP/Building/Concrete/BP_Building_Frame_Angle_Concrete.BP_Building_Frame_Angle_Concrete_C",
           "Audio": {
             "RowName": "Concrete"
           },
           "Skin": {
             "RowName": "Limestone_Frame_HalfFrame"
-          }
-        },
-        {
-          "Name": "MetalGrate_CornerStair_L",
-          "Type": {
-            "RowName": "CornerStair_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Metal_Grate_Ramp_0.ITEM_Metal_Grate_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Iron/BP_Building_Stairs_Corner_Iron_L.BP_Building_Stairs_Corner_Iron_L_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "MetalGrate_CornerStair_L"
-          }
-        },
-        {
-          "Name": "MetalGrate_CornerStair_R",
-          "Type": {
-            "RowName": "CornerStair_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Metal_Grate_Ramp_0.ITEM_Metal_Grate_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Iron/BP_Building_Stairs_Corner_Iron_R.BP_Building_Stairs_Corner_Iron_R_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "MetalGrate_CornerStair_R"
           }
         },
         {
@@ -4377,37 +4008,9 @@
           }
         },
         {
-          "Name": "ReinforcedWood_CornerStair_L",
-          "Type": {
-            "RowName": "CornerStair_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_ReinforcedWood_Ramp_0.ITEM_ReinforcedWood_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "ReinforcedWood_CornerStair_L"
-          }
-        },
-        {
-          "Name": "ReinforcedWood_CornerStair_R",
-          "Type": {
-            "RowName": "CornerStair_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_ReinforcedWood_Ramp_0.ITEM_ReinforcedWood_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "ReinforcedWood_CornerStair_R"
-          }
-        },
-        {
           "Name": "ReinforcedWood_Frame_FullFrame",
           "Type": {
-            "RowName": "Frame_FullFrame"
+            "RowName": "Frame"
           },
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ReinforcedWood_Beam_0.T_ITEM_ReinforcedWood_Beam_0",
           "Blueprint": "/Game/BP/Building/Wood/BP_Building_Frame_Wood.BP_Building_Frame_Wood_C",
@@ -4421,10 +4024,10 @@
         {
           "Name": "ReinforcedWood_Frame_HalfFrame",
           "Type": {
-            "RowName": "Frame_HalfFrame"
+            "RowName": "Frame_Angle"
           },
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_ReinforcedWood_Beam_0.T_ITEM_ReinforcedWood_Beam_0",
-          "Blueprint": "/Game/BP/Building/Wood/BP_Building_Frame_Half_Wood.BP_Building_Frame_Half_Wood_C",
+          "Blueprint": "/Game/BP/Building/Wood/BP_Building_Frame_Angle_Wood.BP_Building_Frame_Angle_Wood_C",
           "Audio": {
             "RowName": "Wood"
           },
@@ -4433,37 +4036,9 @@
           }
         },
         {
-          "Name": "Sandworm_CornerStair_L",
-          "Type": {
-            "RowName": "CornerStair_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Sandworm_Ramp_0.ITEM_Sandworm_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "Sandworm_CornerStair_L"
-          }
-        },
-        {
-          "Name": "Sandworm_CornerStair_R",
-          "Type": {
-            "RowName": "CornerStair_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Sandworm_Ramp_0.ITEM_Sandworm_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "Sandworm_CornerStair_R"
-          }
-        },
-        {
           "Name": "Sandworm_Frame_FullFrame",
           "Type": {
-            "RowName": "Frame_FullFrame"
+            "RowName": "Frame"
           },
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Sandworm_Beam_0.T_ITEM_Sandworm_Beam_0",
           "Blueprint": "/Game/BP/Building/Wood/BP_Building_Frame_Wood.BP_Building_Frame_Wood_C",
@@ -4477,43 +4052,15 @@
         {
           "Name": "Sandworm_Frame_HalfFrame",
           "Type": {
-            "RowName": "Frame_HalfFrame"
+            "RowName": "Frame_Angle"
           },
           "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Sandworm_Beam_0.T_ITEM_Sandworm_Beam_0",
-          "Blueprint": "/Game/BP/Building/Wood/BP_Building_Frame_Half_Wood.BP_Building_Frame_Half_Wood_C",
+          "Blueprint": "/Game/BP/Building/Wood/BP_Building_Frame_Angle_Wood.BP_Building_Frame_Angle_Wood_C",
           "Audio": {
             "RowName": "WoodSandworm"
           },
           "Skin": {
             "RowName": "Sandworm_Frame_HalfFrame"
-          }
-        },
-        {
-          "Name": "Scoria_CornerStair_L",
-          "Type": {
-            "RowName": "CornerStair_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Scoria_Ramp_0.ITEM_Scoria_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "Scoria_CornerStair_L"
-          }
-        },
-        {
-          "Name": "Scoria_CornerStair_R",
-          "Type": {
-            "RowName": "CornerStair_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Scoria_Ramp_0.ITEM_Scoria_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "Scoria_CornerStair_R"
           }
         },
         {
@@ -4528,34 +4075,6 @@
           },
           "Skin": {
             "RowName": "Scoria_Frame_HalfFrame"
-          }
-        },
-        {
-          "Name": "ScoriaBrick_CornerStair_L",
-          "Type": {
-            "RowName": "CornerStair_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Scoria_Brick_Ramp_2.ITEM_Scoria_Brick_Ramp_2",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "ScoriaBrick_CornerStair_L"
-          }
-        },
-        {
-          "Name": "ScoriaBrick_CornerStair_R",
-          "Type": {
-            "RowName": "CornerStair_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Scoria_Brick_Ramp_2.ITEM_Scoria_Brick_Ramp_2",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "ScoriaBrick_CornerStair_R"
           }
         },
         {
@@ -4601,34 +4120,6 @@
           }
         },
         {
-          "Name": "StoneBrick_CornerStair_L",
-          "Type": {
-            "RowName": "CornerStair_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Stone_Brick_Ramp_2.ITEM_Stone_Brick_Ramp_2",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "StoneBrick_CornerStair_L"
-          }
-        },
-        {
-          "Name": "StoneBrick_CornerStair_R",
-          "Type": {
-            "RowName": "CornerStair_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Stone_Brick_Ramp_2.ITEM_Stone_Brick_Ramp_2",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "StoneBrick_CornerStair_R"
-          }
-        },
-        {
           "Name": "StoneBrick_Frame_FullFrame",
           "Type": {
             "RowName": "Frame"
@@ -4668,34 +4159,6 @@
           },
           "Skin": {
             "RowName": "StoneBrick_Frame_Pillar"
-          }
-        },
-        {
-          "Name": "TemperedGlass_CornerStair_L",
-          "Type": {
-            "RowName": "CornerStair_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_TemperedGlass_Ramp_0.T_ITEM_TemperedGlass_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
-          "Audio": {
-            "RowName": "Glass"
-          },
-          "Skin": {
-            "RowName": "TemperedGlass_CornerStair_L"
-          }
-        },
-        {
-          "Name": "TemperedGlass_CornerStair_R",
-          "Type": {
-            "RowName": "CornerStair_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_TemperedGlass_Ramp_0.T_ITEM_TemperedGlass_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
-          "Audio": {
-            "RowName": "Glass"
-          },
-          "Skin": {
-            "RowName": "TemperedGlass_CornerStair_R"
           }
         },
         {
@@ -4741,67 +4204,11 @@
           }
         },
         {
-          "Name": "TemperedGlass_HalfStair_L",
-          "Type": {
-            "RowName": "Ramp_Stairs_Half_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_TemperedGlass_Ramp_0.T_ITEM_TemperedGlass_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Half_Stone_L.BP_Building_Stairs_Half_Stone_L_C",
-          "Audio": {
-            "RowName": "Glass"
-          },
-          "Skin": {
-            "RowName": "TemperedGlass_HalfStair_L"
-          }
-        },
-        {
-          "Name": "TemperedGlass_HalfStair_R",
-          "Type": {
-            "RowName": "Ramp_Stairs_Half_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_TemperedGlass_Ramp_0.T_ITEM_TemperedGlass_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Half_Stone_R.BP_Building_Stairs_Half_Stone_R_C",
-          "Audio": {
-            "RowName": "Glass"
-          },
-          "Skin": {
-            "RowName": "TemperedGlass_HalfStair_R"
-          }
-        },
-        {
-          "Name": "Thatch_CornerStair_L",
-          "Type": {
-            "RowName": "CornerStair_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Thatch_Ramp_0.ITEM_Thatch_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "Thatch_CornerStair_L"
-          }
-        },
-        {
-          "Name": "Thatch_CornerStair_R",
-          "Type": {
-            "RowName": "CornerStair_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Thatch_Ramp_0.ITEM_Thatch_Ramp_0",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "Thatch_CornerStair_R"
-          }
-        },
-        {
           "Name": "Wood_Brick_Beam_DiagonalBeam",
           "Type": {
             "RowName": "Beam_Diagonal"
           },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Brick_Beam_2.T_ITEM_Wood_Brick_Beam_2",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Clay_Brick_Beam_2.ITEM_Clay_Brick_Beam_2",
           "Blueprint": "/Game/BP/Building/ClayBrick/BP_Building_Beam_Diagonal_Clay_Brick.BP_Building_Beam_Diagonal_Clay_Brick_C",
           "Audio": {
             "RowName": "Wood"
@@ -4811,39 +4218,11 @@
           }
         },
         {
-          "Name": "Wood_CornerStair_L",
-          "Type": {
-            "RowName": "CornerStair_L"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Ramp_2.ITEM_Wood_Ramp_2",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_L.BP_Building_Stairs_Corner_Stone_L_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "Wood_CornerStair_L"
-          }
-        },
-        {
-          "Name": "Wood_CornerStair_R",
-          "Type": {
-            "RowName": "CornerStair_R"
-          },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Ramp_2.ITEM_Wood_Ramp_2",
-          "Blueprint": "/Game/BP/Building/Stone/BP_Building_Stairs_Corner_Stone_R.BP_Building_Stairs_Corner_Stone_R_C",
-          "Audio": {
-            "RowName": "Stone"
-          },
-          "Skin": {
-            "RowName": "Wood_CornerStair_R"
-          }
-        },
-        {
           "Name": "Wood_Diagonal_Beam_Diagonal",
           "Type": {
             "RowName": "Diagonal_Beam_Diagonal"
           },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Advanced_Beam_Set_0.T_ITEM_Wood_Advanced_Beam_Set_0",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Advanced_Beam_Set_0.T_ITEM_Stone_Advanced_Beam_Set_0",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Beam_Cross_Diagnal_Stone.BP_Building_Beam_Cross_Diagnal_Stone_C",
           "Audio": {
             "RowName": "Wood"
@@ -4857,7 +4236,7 @@
           "Type": {
             "RowName": "Diagonal_Beam_Horizontal"
           },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Advanced_Beam_Set_1.T_ITEM_Wood_Advanced_Beam_Set_1",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Advanced_Beam_Set_1.T_ITEM_Stone_Advanced_Beam_Set_1",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Beam_Cross_Horizontal_Stone.BP_Building_Beam_Cross_Horizontal_Stone_C",
           "Audio": {
             "RowName": "Wood"
@@ -4871,7 +4250,7 @@
           "Type": {
             "RowName": "Diagonal_Floor"
           },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Diagonal_Set_0.T_ITEM_Wood_Diagonal_Set_0",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Diagonal_Set_0.T_ITEM_Stone_Diagonal_Set_0",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Floor_Diagonal_Stone.BP_Building_Floor_Diagonal_Stone_C",
           "Audio": {
             "RowName": "Wood"
@@ -4885,7 +4264,7 @@
           "Type": {
             "RowName": "Diagonal_Ramp"
           },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Diagonal_Set_6.T_ITEM_Wood_Diagonal_Set_6",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Diagonal_Set_6.T_ITEM_Stone_Diagonal_Set_6",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Ramp_Diagonal_Stone.BP_Building_Ramp_Diagonal_Stone_C",
           "Audio": {
             "RowName": "Wood"
@@ -4899,7 +4278,7 @@
           "Type": {
             "RowName": "Diagonal_Ramp_Invert"
           },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Diagonal_Set_7.T_ITEM_Wood_Diagonal_Set_7",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Diagonal_Set_7.T_ITEM_Stone_Diagonal_Set_7",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Ramp_Diagonal_Invert_Stone.BP_Building_Ramp_Diagonal_Invert_Stone_C",
           "Audio": {
             "RowName": "Wood"
@@ -4913,7 +4292,7 @@
           "Type": {
             "RowName": "Diagonal_Wall_Angle_L"
           },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Diagonal_Set_2.T_ITEM_Wood_Diagonal_Set_2",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Diagonal_Set_2.T_ITEM_Stone_Diagonal_Set_2",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Wall_Diagonal_Half_Angle_L_Stone.BP_Building_Wall_Diagonal_Half_Angle_L_Stone_C",
           "Audio": {
             "RowName": "Wood"
@@ -4927,7 +4306,7 @@
           "Type": {
             "RowName": "Diagonal_Wall_Angle_L_Invert"
           },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Diagonal_Set_3.T_ITEM_Wood_Diagonal_Set_3",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Diagonal_Set_3.T_ITEM_Stone_Diagonal_Set_3",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Wall_Diagonal_Half_Angle_L_Invert_Stone.BP_Building_Wall_Diagonal_Half_Angle_L_Invert_Stone_C",
           "Audio": {
             "RowName": "Wood"
@@ -4941,7 +4320,7 @@
           "Type": {
             "RowName": "Diagonal_Wall_Angle_R"
           },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Diagonal_Set_4.T_ITEM_Wood_Diagonal_Set_4",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Diagonal_Set_4.T_ITEM_Stone_Diagonal_Set_4",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Wall_Diagonal_Half_Angle_R_Stone.BP_Building_Wall_Diagonal_Half_Angle_R_Stone_C",
           "Audio": {
             "RowName": "Wood"
@@ -4955,7 +4334,7 @@
           "Type": {
             "RowName": "Diagonal_Wall_Angle_R_Invert"
           },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Diagonal_Set_5.T_ITEM_Wood_Diagonal_Set_5",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Diagonal_Set_5.T_ITEM_Stone_Diagonal_Set_5",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Wall_Diagonal_Half_Angle_R_Invert_Stone.BP_Building_Wall_Diagonal_Half_Angle_R_Invert_Stone_C",
           "Audio": {
             "RowName": "Wood"
@@ -4969,7 +4348,7 @@
           "Type": {
             "RowName": "Diagonal_Wall_Solid"
           },
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Wood_Diagonal_Set_1.T_ITEM_Wood_Diagonal_Set_1",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/T_ITEM_Stone_Diagonal_Set_1.T_ITEM_Stone_Diagonal_Set_1",
           "Blueprint": "/Game/BP/Building/Stone/BP_Building_Wall_Diagonal_Solid_Stone.BP_Building_Wall_Diagonal_Solid_Stone_C",
           "Audio": {
             "RowName": "Wood"
@@ -4984,67 +4363,21 @@
       "CurrentFile": "Building-D_BuildingSkins.json",
       "File_Items": [
         {
-          "Name": "ClayBrick_CornerStair_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_1_Scoria.M_BLD_Stairs_Brick_1_Scoria",
-            "1": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Cement_Scoria.M_BLD_Stairs_Brick_Cement_Scoria",
-            "2": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_2_Scoria.M_BLD_Stairs_Brick_2_Scoria"
-          }
-        },
-        {
-          "Name": "ClayBrick_CornerStair_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_1_Scoria.M_BLD_Stairs_Brick_1_Scoria",
-            "1": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Cement_Scoria.M_BLD_Stairs_Brick_Cement_Scoria",
-            "2": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_2_Scoria.M_BLD_Stairs_Brick_2_Scoria"
-          }
-        },
-        {
           "Name": "ClayBrick_Frame_FullFrame",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Brick/Frame_Pillar_Brick/M_BLD_Frame_Pillar_Brick_Clay_A.M_BLD_Frame_Pillar_Brick_Clay_A"
+            "0": "/Game/ASS/BLD/Brick/Frame_Pillar_Brick/M_BLD_Frame_Pillar_Brick_A.M_BLD_Frame_Pillar_Brick_A"
           }
         },
         {
           "Name": "ClayBrick_Frame_HalfFrame",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Brick/Frame_Pillar_Brick/M_BLD_Frame_Pillar_Brick_Clay_A.M_BLD_Frame_Pillar_Brick_Clay_A"
+            "0": "/Game/ASS/BLD/Brick/Frame_Pillar_Brick/M_BLD_Frame_Pillar_Brick_A.M_BLD_Frame_Pillar_Brick_A"
           }
         },
         {
           "Name": "ClayBrick_Frame_Pillar",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Brick/Frame_Pillar_Brick/M_BLD_Frame_Pillar_Brick_Clay_A.M_BLD_Frame_Pillar_Brick_Clay_A"
-          }
-        },
-        {
-          "Name": "Clay_Brick_CornerStair_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_1_Scoria.M_BLD_Stairs_Brick_1_Scoria",
-            "1": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Cement_Scoria.M_BLD_Stairs_Brick_Cement_Scoria",
-            "2": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_2_Scoria.M_BLD_Stairs_Brick_2_Scoria"
-          }
-        },
-        {
-          "Name": "Clay_Brick_CornerStair_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_1_Scoria.M_BLD_Stairs_Brick_1_Scoria",
-            "1": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Cement_Scoria.M_BLD_Stairs_Brick_Cement_Scoria",
-            "2": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_2_Scoria.M_BLD_Stairs_Brick_2_Scoria"
-          }
-        },
-        {
-          "Name": "Glass_CornerStair_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_B.M_BLD_Floor_Glass_Tempered_B",
-            "1": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_A.M_BLD_Floor_Glass_Tempered_A"
-          }
-        },
-        {
-          "Name": "Glass_CornerStair_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_B.M_BLD_Floor_Glass_Tempered_B",
-            "1": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_A.M_BLD_Floor_Glass_Tempered_A"
+            "0": "/Game/ASS/BLD/Brick/Frame_Pillar_Brick/M_BLD_Frame_Pillar_Brick_A.M_BLD_Frame_Pillar_Brick_A"
           }
         },
         {
@@ -5057,40 +4390,6 @@
           "Name": "Glass_Frame_HalfFrame",
           "BaseMeshMaterialSlotOverrides": {
             "0": "/Game/ASS/BLD/Glass/Frame_Pillar_Glass/M_BLD_Frame_Pillar_Glass_A.M_BLD_Frame_Pillar_Glass_A"
-          }
-        },
-        {
-          "Name": "Glass_Frame_Pillar",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Glass/Frame_Pillar_Glass/M_BLD_Frame_Pillar_Glass_A.M_BLD_Frame_Pillar_Glass_A"
-          }
-        },
-        {
-          "Name": "Glass_HalfStair_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_B.M_BLD_Floor_Glass_Tempered_B",
-            "1": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_A.M_BLD_Floor_Glass_Tempered_A"
-          }
-        },
-        {
-          "Name": "Glass_HalfStair_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_B.M_BLD_Floor_Glass_Tempered_B",
-            "1": "/Game/ASS/BLD/Glass/Floor_Glass/M_BLD_Floor_Glass_Tempered_A.M_BLD_Floor_Glass_Tempered_A"
-          }
-        },
-        {
-          "Name": "Ice_CornerStair_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Stairs_Stone/M_BLD_Stairs_Ice_A.M_BLD_Stairs_Ice_A",
-            "1": "/Game/ASS/BLD/Stone/Stairs_Stone/M_BLD_Stairs_Ice_B.M_BLD_Stairs_Ice_B"
-          }
-        },
-        {
-          "Name": "Ice_CornerStair_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Stairs_Stone/M_BLD_Stairs_Ice_A.M_BLD_Stairs_Ice_A",
-            "1": "/Game/ASS/BLD/Stone/Stairs_Stone/M_BLD_Stairs_Ice_B.M_BLD_Stairs_Ice_B"
           }
         },
         {
@@ -5110,155 +4409,51 @@
         {
           "Name": "Iron_Frame_FullFrame",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Iron/Frame_Pillar_Iron/M_BLD_Frame_Pillar_Iron.M_BLD_Frame_Pillar_Iron"
+            "0": "/Game/ASS/BLD/Iron/Frame_Pillar_Iron/M_BLD_Frame_Pillar_Iron_A.M_BLD_Frame_Pillar_Iron_A"
           }
         },
         {
           "Name": "Iron_Frame_HalfFrame",
-          "MaterialSet": {
-            "RowName": "MaterialSet_Iron"
-          },
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Iron/Frame_Pillar_Iron/M_BLD_Frame_Pillar_Iron.M_BLD_Frame_Pillar_Iron"
-          }
-        },
-        {
-          "Name": "Iron_Frame_Pillar",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Iron/Frame_Pillar_Iron/M_BLD_Frame_Pillar_Iron.M_BLD_Frame_Pillar_Iron"
-          }
-        },
-        {
-          "Name": "Limestone_CornerStair_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Concrete/Stairs_Concrete/M_BLD_Stairs_Limestone_Support.M_BLD_Stairs_Limestone_Support",
-            "1": "/Game/ASS/BLD/Concrete/Stairs_Concrete/M_BLD_Stairs_Limestone_Limestone.M_BLD_Stairs_Limestone_Limestone",
-            "2": "/Game/ASS/BLD/Concrete/M_BLD_Wall_Solid_Limestone_Fracture.M_BLD_Wall_Solid_Limestone_Fracture"
-          }
-        },
-        {
-          "Name": "Limestone_CornerStair_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Concrete/Stairs_Concrete/M_BLD_Stairs_Limestone_Support.M_BLD_Stairs_Limestone_Support",
-            "1": "/Game/ASS/BLD/Concrete/Stairs_Concrete/M_BLD_Stairs_Limestone_Limestone.M_BLD_Stairs_Limestone_Limestone",
-            "2": "/Game/ASS/BLD/Concrete/M_BLD_Wall_Solid_Limestone_Fracture.M_BLD_Wall_Solid_Limestone_Fracture"
+            "0": "/Game/ASS/BLD/Iron/Frame_Pillar_Iron/M_BLD_Frame_Pillar_Iron_A.M_BLD_Frame_Pillar_Iron_A"
           }
         },
         {
           "Name": "Limestone_Frame_HalfFrame",
-          "MaterialSet": {
-            "RowName": "MaterialSet_Limestone"
-          },
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Concrete/Frame_Pillar_Concrete/M_BLD_Frame_Pillar_Concrete_A.M_BLD_Frame_Pillar_Concrete_A"
-          }
-        },
-        {
-          "Name": "MetalGrate_CornerStair_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Iron/Stairs_Iron/M_BLD_Stairs_Iron_MetalGrate_A.M_BLD_Stairs_Iron_MetalGrate_A",
-            "1": "/Game/ASS/BLD/Iron/Stairs_Iron/M_BLD_Stairs_Iron_MetalGrate_B.M_BLD_Stairs_Iron_MetalGrate_B"
-          }
-        },
-        {
-          "Name": "MetalGrate_CornerStair_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Iron/Stairs_Iron/M_BLD_Stairs_Iron_MetalGrate_A.M_BLD_Stairs_Iron_MetalGrate_A",
-            "1": "/Game/ASS/BLD/Iron/Stairs_Iron/M_BLD_Stairs_Iron_MetalGrate_B.M_BLD_Stairs_Iron_MetalGrate_B"
+            "0": "/Game/ASS/BLD/Concrete/Frame_Concrete/M_BLD_Frame_Limestone_Limestone.M_BLD_Frame_Limestone_Limestone",
+            "1": "/Game/ASS/BLD/Concrete/Frame_Concrete/M_BLD_Frame_Limestone_Support.M_BLD_Frame_Limestone_Support",
+            "2": "/Game/ASS/BLD/Concrete/M_BLD_Wall_Solid_Limestone_Fracture.M_BLD_Wall_Solid_Limestone_Fracture"
           }
         },
         {
           "Name": "Metal_Grate_HalfNormal_QuarterFloor",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Iron/Floor_Iron/M_BLD_Floor_Iron_MetalGrate.M_BLD_Floor_Iron_MetalGrate"
-          }
-        },
-        {
-          "Name": "ReinforcedWood_CornerStair_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_Beeswax_A.M_BLD_Stairs_Wood_Beeswax_A",
-            "1": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_Beeswax_B.M_BLD_Stairs_Wood_Beeswax_B"
-          }
-        },
-        {
-          "Name": "ReinforcedWood_CornerStair_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_Beeswax_A.M_BLD_Stairs_Wood_Beeswax_A",
-            "1": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_Beeswax_B.M_BLD_Stairs_Wood_Beeswax_B"
+            "0": "/Game/ASS/BLD/MetalGrate/Floor_Metal_Grate/M_BLD_Floor_Metal_Grate.M_BLD_Floor_Metal_Grate"
           }
         },
         {
           "Name": "ReinforcedWood_Frame_FullFrame",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Frame_Pillar_Wood/M_BLD_Frame_Pillar_Wood.M_BLD_Frame_Pillar_Wood"
+            "0": "/Game/ASS/BLD/Wood/Frame_Pillar_Wood/M_BLD_Frame_Pillar_Wood_Beeswax_A.M_BLD_Frame_Pillar_Wood_Beeswax_A"
           }
         },
         {
           "Name": "ReinforcedWood_Frame_HalfFrame",
-          "MaterialSet": {
-            "RowName": "MaterialSet_ReinforcedWood"
-          },
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Frame_Pillar_Wood/M_BLD_Frame_Pillar_Wood.M_BLD_Frame_Pillar_Wood"
-          }
-        },
-        {
-          "Name": "Sandworm_CornerStair_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_Sandworm_A.M_BLD_Stairs_Wood_Sandworm_A",
-            "1": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_Sandworm_B.M_BLD_Stairs_Wood_Sandworm_B"
-          }
-        },
-        {
-          "Name": "Sandworm_CornerStair_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_Sandworm_A.M_BLD_Stairs_Wood_Sandworm_A",
-            "1": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_Sandworm_B.M_BLD_Stairs_Wood_Sandworm_B"
+            "0": "/Game/ASS/BLD/Wood/Frame_Pillar_Wood/M_BLD_Frame_Pillar_Wood_Beeswax_A.M_BLD_Frame_Pillar_Wood_Beeswax_A"
           }
         },
         {
           "Name": "Sandworm_Frame_FullFrame",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Frame_Pillar_Wood/M_BLD_Frame_Pillar_Wood.M_BLD_Frame_Pillar_Wood"
+            "0": "/Game/ASS/BLD/Wood/Frame_Pillar_Wood/M_BLD_Frame_Pillar_Wood_Sandworm_A.M_BLD_Frame_Pillar_Wood_Sandworm_A"
           }
         },
         {
           "Name": "Sandworm_Frame_HalfFrame",
-          "MaterialSet": {
-            "RowName": "MaterialSet_Sandworm"
-          },
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Frame_Pillar_Wood/M_BLD_Frame_Pillar_Wood.M_BLD_Frame_Pillar_Wood"
-          }
-        },
-        {
-          "Name": "Scoria_CornerStair_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Stairs_Stone/M_BLD_Stairs_Stone_Scoria_A.M_BLD_Stairs_Stone_Scoria_A",
-            "1": "/Game/ASS/BLD/Stone/Stairs_Stone/M_BLD_Stairs_Stone_Scoria_B.M_BLD_Stairs_Stone_Scoria_B"
-          }
-        },
-        {
-          "Name": "Scoria_CornerStair_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Stone/Stairs_Stone/M_BLD_Stairs_Stone_Scoria_A.M_BLD_Stairs_Stone_Scoria_A",
-            "1": "/Game/ASS/BLD/Stone/Stairs_Stone/M_BLD_Stairs_Stone_Scoria_B.M_BLD_Stairs_Stone_Scoria_B"
-          }
-        },
-        {
-          "Name": "ScoriaBrick_CornerStair_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_1_Scoria.M_BLD_Stairs_Brick_1_Scoria",
-            "1": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Cement_Scoria.M_BLD_Stairs_Brick_Cement_Scoria",
-            "2": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_2_Scoria.M_BLD_Stairs_Brick_2_Scoria"
-          }
-        },
-        {
-          "Name": "ScoriaBrick_CornerStair_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_1_Scoria.M_BLD_Stairs_Brick_1_Scoria",
-            "1": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Cement_Scoria.M_BLD_Stairs_Brick_Cement_Scoria",
-            "2": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_2_Scoria.M_BLD_Stairs_Brick_2_Scoria"
+            "0": "/Game/ASS/BLD/Wood/Frame_Pillar_Wood/M_BLD_Frame_Pillar_Wood_Sandworm_A.M_BLD_Frame_Pillar_Wood_Sandworm_A"
           }
         },
         {
@@ -5280,54 +4475,21 @@
           }
         },
         {
-          "Name": "StoneBrick_CornerStair_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Stone_1.M_BLD_Stairs_Brick_Stone_1",
-            "1": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Cement.M_BLD_Stairs_Brick_Cement",
-            "2": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Stone_2.M_BLD_Stairs_Brick_Stone_2"
-          }
-        },
-        {
-          "Name": "StoneBrick_CornerStair_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Stone_1.M_BLD_Stairs_Brick_Stone_1",
-            "1": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Cement.M_BLD_Stairs_Brick_Cement",
-            "2": "/Game/ASS/BLD/Brick/Stairs_Brick/M_BLD_Stairs_Brick_Stone_2.M_BLD_Stairs_Brick_Stone_2"
-          }
-        },
-        {
           "Name": "StoneBrick_Frame_FullFrame",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Brick/Frame_Pillar_Brick/M_BLD_Frame_Pillar_Brick_Stone_A.M_BLD_Frame_Pillar_Brick_Stone_A",
-            "1": "/Game/ASS/BLD/Brick/Frame_Pillar_Brick/M_BLD_Frame_Pillar_Brick_Stone_B.M_BLD_Frame_Pillar_Brick_Stone_B"
+            "0": "/Game/ASS/BLD/Brick/Frame_Pillar_Brick/M_BLD_Frame_Pillar_Brick_Stone_A.M_BLD_Frame_Pillar_Brick_Stone_A"
           }
         },
         {
           "Name": "StoneBrick_Frame_HalfFrame",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Brick/Frame_Pillar_Brick/M_BLD_Frame_Pillar_Brick_Stone_A.M_BLD_Frame_Pillar_Brick_Stone_A",
-            "1": "/Game/ASS/BLD/Brick/Frame_Pillar_Brick/M_BLD_Frame_Pillar_Brick_Stone_B.M_BLD_Frame_Pillar_Brick_Stone_B"
+            "0": "/Game/ASS/BLD/Brick/Frame_Pillar_Brick/M_BLD_Frame_Pillar_Brick_Stone_A.M_BLD_Frame_Pillar_Brick_Stone_A"
           }
         },
         {
           "Name": "StoneBrick_Frame_Pillar",
           "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Brick/Frame_Pillar_Brick/M_BLD_Frame_Pillar_Brick_Stone_A.M_BLD_Frame_Pillar_Brick_Stone_A",
-            "1": "/Game/ASS/BLD/Brick/Frame_Pillar_Brick/M_BLD_Frame_Pillar_Brick_Stone_B.M_BLD_Frame_Pillar_Brick_Stone_B"
-          }
-        },
-        {
-          "Name": "TemperedGlass_CornerStair_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Glass/Ramp_Half_Glass/M_BLD_Ramp_Half_Glass_Tempered_B.M_BLD_Ramp_Half_Glass_Tempered_B",
-            "1": "/Game/ASS/BLD/Glass/Ramp_Half_Glass/M_BLD_Ramp_Half_Glass_Tempered_A.M_BLD_Ramp_Half_Glass_Tempered_A"
-          }
-        },
-        {
-          "Name": "TemperedGlass_CornerStair_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Glass/Ramp_Half_Glass/M_BLD_Ramp_Half_Glass_Tempered_B.M_BLD_Ramp_Half_Glass_Tempered_B",
-            "1": "/Game/ASS/BLD/Glass/Ramp_Half_Glass/M_BLD_Ramp_Half_Glass_Tempered_A.M_BLD_Ramp_Half_Glass_Tempered_A"
+            "0": "/Game/ASS/BLD/Brick/Frame_Pillar_Brick/M_BLD_Frame_Pillar_Brick_Stone_A.M_BLD_Frame_Pillar_Brick_Stone_A"
           }
         },
         {
@@ -5345,51 +4507,9 @@
           }
         },
         {
-          "Name": "TemperedGlass_HalfStair_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Glass/Ramp_Half_Glass/M_BLD_Ramp_Half_Glass_Tempered_B.M_BLD_Ramp_Half_Glass_Tempered_B",
-            "1": "/Game/ASS/BLD/Glass/Ramp_Half_Glass/M_BLD_Ramp_Half_Glass_Tempered_A.M_BLD_Ramp_Half_Glass_Tempered_A"
-          }
-        },
-        {
-          "Name": "TemperedGlass_HalfStair_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Glass/Ramp_Half_Glass/M_BLD_Ramp_Half_Glass_Tempered_B.M_BLD_Ramp_Half_Glass_Tempered_B",
-            "1": "/Game/ASS/BLD/Glass/Ramp_Half_Glass/M_BLD_Ramp_Half_Glass_Tempered_A.M_BLD_Ramp_Half_Glass_Tempered_A"
-          }
-        },
-        {
-          "Name": "Thatch_CornerStair_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Thatch/Stairs_Thatch/M_BLD_Stairs_Thatch_A.M_BLD_Stairs_Thatch_A",
-            "1": "/Game/ASS/BLD/Thatch/Stairs_Thatch/M_BLD_Stairs_Thatch_B.M_BLD_Stairs_Thatch_B"
-          }
-        },
-        {
-          "Name": "Thatch_CornerStair_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Thatch/Stairs_Thatch/M_BLD_Stairs_Thatch_A.M_BLD_Stairs_Thatch_A",
-            "1": "/Game/ASS/BLD/Thatch/Stairs_Thatch/M_BLD_Stairs_Thatch_B.M_BLD_Stairs_Thatch_B"
-          }
-        },
-        {
           "Name": "Wood_Brick_Beam_DiagonalBeam",
           "BaseMeshMaterialSlotOverrides": {
             "0": "/Game/ASS/BLD/Wood/BeamDiagonal_Wood/M_BLD_Beams_Wood_Beeswax_A.M_BLD_Beams_Wood_Beeswax_A"
-          }
-        },
-        {
-          "Name": "Wood_CornerStair_L",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_A.M_BLD_Stairs_Wood_A",
-            "1": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_B.M_BLD_Stairs_Wood_B"
-          }
-        },
-        {
-          "Name": "Wood_CornerStair_R",
-          "BaseMeshMaterialSlotOverrides": {
-            "0": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_A.M_BLD_Stairs_Wood_A",
-            "1": "/Game/ASS/BLD/Wood/Stairs_Wood/M_BLD_Stairs_Wood_B.M_BLD_Stairs_Wood_B"
           }
         },
         {
