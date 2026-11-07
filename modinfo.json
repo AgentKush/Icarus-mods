@@ -354,7 +354,7 @@
       "author": "AgentKush",
       "version": "2.9",
       "compatibility": "All",
-      "description": "v2.9: Fixed remaining D_ItemsStatic reference in Raw_Chicken_Butchery input (crash fix for butcher bench). All recipe references now use D_ItemTemplate. | Fixes Culinex (Chef's Backpack) 25% food effectiveness boost to apply to all cooked foods.",
+      "description": "Fixes the Chef's Backpack 25% food effectiveness boost so it works on all 206 foods, drinks and tonics. Adds Raw Meat to the Chicken butchery recipe.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Culinex_Food_Boost_Fix.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Culinex_Food_Boost_Fix/README.md",
       "files": {

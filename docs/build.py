@@ -16,6 +16,15 @@ def main():
     with open("docs/categories.json") as f:
         categories = json.load(f)
 
+    # Card text: the catalog blurb from modinfo.json says what a mod does. The EXMOD
+    # description is the latest version note, so it is only the fallback.
+    blurbs = {}
+    with open("modinfo.json", encoding="utf-8") as f:
+        for entry in json.load(f).get("mods", []):
+            m = re.search(r"/main/([^/]+)/", entry.get("readmeURL", ""))
+            if m and entry.get("description"):
+                blurbs[m.group(1)] = entry["description"]
+
     # Scan all mod folders for EXMOD files
     mods = []
     new_categories = False
@@ -41,7 +50,7 @@ def main():
         file_name = data.get("fileName", folder)
 
         # Get description - first paragraph only, clean for display
-        desc = data.get("description", "")
+        desc = blurbs.get(folder) or data.get("description", "")
         desc = desc.split("\r\n\r\n\r\n")[0]
         desc = desc.replace("\r\n", " ").strip()
         if len(desc) > 200:
