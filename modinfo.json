@@ -53,7 +53,7 @@
       "author": "AgentKush",
       "version": "2.2",
       "compatibility": "All",
-      "description": "Unlocks the hidden Night Vision system built into Icarus. Craft Night Vision Goggles at Fabricator, Manufacturer, or Machining Bench. Toggle with secondary action. v2.0: Added no-decay, durability (10,000 HP), reduced weight, added Machining Bench crafting.",
+      "description": "Unlocks the hidden Night Vision system built into Icarus. Craft Night Vision Goggles at the Fabricator, Manufacturer or Machining Bench and toggle them with the secondary action. No decay, 10,000 durability, one fifth of the vanilla weight.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/NightVisionGoggles.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/NightVisionGoggles/README.md",
       "files": {

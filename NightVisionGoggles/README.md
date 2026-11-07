@@ -22,7 +22,7 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 - Toggled on/off with secondary action while equipped
 - **No decay** - goggles won't disappear over time
 - **Durable** - 10,000 durability, won't break easily
-- **Lightweight** - reduced weight from 5.0 to 1.0
+- **Lightweight** - one fifth of the vanilla weight
 - Craftable at **Fabricator**, **Manufacturer**, or **Machining Bench**
 
 ## Crafting Recipe

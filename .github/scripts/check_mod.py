@@ -203,9 +203,52 @@ def check_release(mod_dir: Path, exmod: dict, catalog: dict) -> list[str]:
     desc = exmod.get("description") or ""
     if "\n" in desc:
         issues.append("EXMOD description has line breaks (keep it to one version, one line)")
-    vers = {v for v in re.findall(r"(?:^|\s|\()[vV](?:er\.?\s*)?(\d+(?:\.\d+)+)", desc)}
+    vers = set(VERSION_RE.findall(desc))
     if len(vers) > 1:
         issues.append(f"EXMOD description mentions several versions {sorted(vers)} - the Mod Manager downloader wants one")
+    if entry is not None:
+        stale = sorted(set(VERSION_RE.findall(entry.get("description") or "")) - {ver})
+        if stale:
+            issues.append(f"modinfo.json description still mentions older version(s) {stale}")
+    issues += check_docs(mod_dir, ver)
+    return issues
+
+
+VERSION_RE = re.compile(r"(?:^|\s|\()[vV](?:er\.?\s*)?(\d+(?:\.\d+)+)")
+
+
+def check_docs(mod_dir: Path, ver: str) -> list[str]:
+    """README.md, the .txt readme and the root README all say the current version."""
+    issues = []
+    v = re.escape(str(ver))
+    md = mod_dir / "README.md"
+    if not md.exists():
+        issues.append("no README.md")
+    else:
+        t = md.read_text(encoding="utf-8", errors="replace")
+        if not re.search(rf"badge/v{v}-Version", t):
+            issues.append(f"README.md version badge is not v{ver}")
+        # accepted entry styles: "### v1.2", "## What's New in v1.2", "| 1.2 |", "- **v1.2** - ..."
+        entry_re = (rf"(^#{{2,4}}[^\n]*\bv?{v}\b)|(^\|\s*v?{v}\s*\|)|(^\s*[-*]\s*\*\*v?{v}\*\*)"
+                    rf"|(\*\*v{v}\b)")
+        if not re.search(entry_re, t, re.M):
+            issues.append(f"README.md has no changelog entry for {ver}")
+    txts = sorted(mod_dir.glob("Readme (*.txt"))
+    if not txts:
+        issues.append("no Readme (*_P.pak).txt")
+    for txt in txts:
+        t = txt.read_text(encoding="utf-8", errors="replace")
+        m = re.search(r"^Mod Version:\s*(\S+)", t, re.M)
+        if not m or m.group(1) != str(ver):
+            issues.append(f"{txt.name} says Mod Version {m.group(1) if m else '(none)'}, EXMOD says {ver}")
+        if not re.search(rf"^Ver\s+{v}\b", t, re.M):
+            issues.append(f"{txt.name} has no 'Ver {ver}' changelog entry")
+    root = (REPO / "README.md").read_text(encoding="utf-8", errors="replace")
+    m = re.search(rf"\]\({re.escape(mod_dir.name)}\)\s*\|\s*`([^`]*)`", root)
+    if not m:
+        issues.append("no row in the root README.md")
+    elif m.group(1) != str(ver):
+        issues.append(f"root README.md row says {m.group(1)}, EXMOD says {ver}")
     return issues
 
 
