@@ -159,9 +159,9 @@
     {
       "name": "Faster Crafting",
       "author": "AgentKush",
-      "version": "1.6",
+      "version": "1.7",
       "compatibility": "All",
-      "description": "Halves crafting time on 2175 recipes across all workbenches. Minimum 500 MJ for water recipes. v1.4: Version bump for latest game update.",
+      "description": "Halves crafting time on all 2,235 recipes across every workbench, recomputed from the current game values. Minimum 500 MJ for water recipes.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Faster_Crafting.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Faster_Crafting/README.md",
       "files": {
