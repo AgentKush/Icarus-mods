@@ -294,7 +294,7 @@
       "author": "AgentKush",
       "version": "1.5",
       "compatibility": "All",
-      "description": "Increases stack sizes on 1,258 items. Resources/ammo/ores 5x, everything else 3x. Max cap 9999. v1.3: Added Gruel stack size (300).",
+      "description": "Increases stack sizes on 1,258 items: resources, ammo and ores 5x, everything else 3x, capped at 9999.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Stack_Size_Overhaul.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Stack_Size_Overhaul/README.md",
       "files": {
