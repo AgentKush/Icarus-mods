@@ -99,9 +99,9 @@
     {
       "name": "Fast Processing (5x)",
       "author": "AgentKush",
-      "version": "5.1",
+      "version": "5.2",
       "compatibility": "All",
-      "description": "All crafting and processing 5x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
+      "description": "All crafting and processing 5x faster. All 2,235 recipes recomputed from the current game data. Water recipes have a 500 MJ floor to prevent fluid bugs.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_5x.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_5x/README.md",
       "files": {

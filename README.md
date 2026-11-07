@@ -61,7 +61,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 
 | Mod | Ver | Speed | Recipes |
 |-----|:---:|:-----:|:-------:|
-| [FastProcessing 5x](FastProcessing_All_5x) | `5.2` | 5× faster | 2,211 |
+| [FastProcessing 5x](FastProcessing_All_5x) | `5.2` | 5× faster | 2,235 |
 | [FastProcessing 10x](FastProcessing_All_10x) | `5.2` | 10× faster | 2,211 |
 | [FastProcessing 15x](FastProcessing_All_15x) | `5.2` | 15× faster | 2,211 |
 | [FastProcessing 25x](FastProcessing_All_25x) | `5.2` | 25× faster | 2,211 |
