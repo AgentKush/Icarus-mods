@@ -2,12 +2,12 @@
 
 # No Food Spoilage
 
-[![Version](https://img.shields.io/badge/v2.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v2.3-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
-Prevents all food spoilage. 33 decayable entries + 134 composter recipes. Items decay/despawn normally but never convert to spoiled versions
+Prevents all food spoilage. 33 decayable entries + 122 composter recipes. Items decay/despawn normally but never convert to spoiled versions
 
 Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
 
@@ -18,7 +18,7 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 ## Features
 
 - **33 decay types modified** — All decay types have SpoilTime set to 0 and SpoiledItem set to None
-- **134 composter recipes** — Manually compost raw foods via the Composter station
+- **122 composter recipes** — Manually compost raw foods via the Composter station
   - 15 raw meats (Raw_Meat, Raw_Chicken, Raw_Fish, Raw_Bacon, all meat variants)
   - 76 whole fish (Fish_01–Fish_19 with Var2/Var3/Var4 variants)
   - 3 fish products (Fish_Chunks, Freshwater/Saltwater Fish Fillet)
@@ -28,6 +28,10 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 - Volatile Substance decay also disabled
 
 ## Changelog
+
+### v2.3
+- SAFETY FIX - the mod gave the game's never-decay profile a decay timer, so the 19 things that are meant to last forever (all four saddle carts, the speeder saddle, the landing pads, the advanced exotic delivery interface, animal silage and ten mission stasis bags) could decay. They never decay again. Restored leather curing (Curing Leather turns into Advanced Leather again - that is crafting, not spoilage). Removed 12 composter recipes for items that do not exist and fixed 5 that pointed at renamed foods (Fatty T-Bone, Giant Steak, Berry, Bean, Prickly Pear). Food never spoils; the composter can still turn food into spoiled food for fertilizer.
+
 ### v2.2 (2026-06-27)
 - Restored coconut ripening (young -> mid -> mature) that the no-spoil change had broken; mature coconuts no longer rot. Fixes #10.
 - **v2.1** - Crash fix: Fixed 134 recipe outputs from D_ItemsStatic to D_ItemTemplate (prevents crash when opening crafting stations).

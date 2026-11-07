@@ -1,8 +1,8 @@
 {
   "name": "No Food Spoilage",
   "author": "AgentKush",
-  "version": "2.2",
-  "description": "v2.2: Restored coconut ripening (young -> mid -> mature) that the no-spoil change had broken; mature coconuts still never rot. | Prevents all food spoilage.",
+  "version": "2.3",
+  "description": "v2.3: SAFETY FIX - the mod gave the game's never-decay profile a decay timer, so the 19 things that are meant to last forever (all four saddle carts, the speeder saddle, the landing pads, the advanced exotic delivery interface, animal silage and ten mission stasis bags) could decay. They never decay again. Restored leather curing (Curing Leather turns into Advanced Leather again - that is crafting, not spoilage). Removed 12 composter recipes for items that do not exist and fixed 5 that pointed at renamed foods (Fatty T-Bone, Giant Steak, Berry, Bean, Prickly Pear). Food never spoils; the composter can still turn food into spoiled food for fertilizer.",
   "fileName": "No_Food_Spoilage",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/No_Food_Spoilage.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/No_Food_Spoilage/README.md",
@@ -51,9 +51,9 @@
         {
           "Name": "Decay_Advanced_Leather",
           "DecayTime": 300,
-          "SpoilTime": 0,
+          "SpoilTime": 60,
           "SpoiledItem": {
-            "RowName": "None",
+            "RowName": "Advanced_Leather",
             "DataTableName": "D_ItemTemplate"
           }
         },
@@ -237,7 +237,7 @@
         },
         {
           "Name": "Decay_NoDecay",
-          "DecayTime": 300,
+          "DecayTime": 0,
           "SpoilTime": 0,
           "SpoiledItem": {
             "RowName": "None",
@@ -421,141 +421,6 @@
           ]
         },
         {
-          "Name": "Spoil_Raw_Meat_Bacon",
-          "RecipeSets": [
-            {
-              "RowName": "Composter",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Raw_Meat_Bacon",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 1
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Spoiled_Meat",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ]
-        },
-        {
-          "Name": "Spoil_Raw_Meat_Soft",
-          "RecipeSets": [
-            {
-              "RowName": "Composter",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Raw_Meat_Soft",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 1
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Spoiled_Meat",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ]
-        },
-        {
-          "Name": "Spoil_Raw_Meat_White",
-          "RecipeSets": [
-            {
-              "RowName": "Composter",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Raw_Meat_White",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 1
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Spoiled_Meat",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ]
-        },
-        {
-          "Name": "Spoil_Raw_Meat_Stringy",
-          "RecipeSets": [
-            {
-              "RowName": "Composter",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Raw_Meat_Stringy",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 1
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Spoiled_Meat",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ]
-        },
-        {
-          "Name": "Spoil_Raw_Meat_Gamey",
-          "RecipeSets": [
-            {
-              "RowName": "Composter",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Raw_Meat_Gamey",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 1
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Spoiled_Meat",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ]
-        },
-        {
           "Name": "Spoil_Raw_Meat_Tbone",
           "RecipeSets": [
             {
@@ -566,7 +431,7 @@
           "Inputs": [
             {
               "Element": {
-                "RowName": "Raw_Meat_Tbone",
+                "RowName": "Fatty_Tbone",
                 "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
@@ -593,7 +458,7 @@
           "Inputs": [
             {
               "Element": {
-                "RowName": "Raw_Meat_Steak",
+                "RowName": "Giant_Steak",
                 "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
@@ -2284,60 +2149,6 @@
           ]
         },
         {
-          "Name": "Spoil_Fish_15_Var3",
-          "RecipeSets": [
-            {
-              "RowName": "Composter",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Fish_15_Var3",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 1
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Spoiled_Meat",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ]
-        },
-        {
-          "Name": "Spoil_Fish_15_Var4",
-          "RecipeSets": [
-            {
-              "RowName": "Composter",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Fish_15_Var4",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 1
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Spoiled_Meat",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ]
-        },
-        {
           "Name": "Spoil_Fish_16",
           "RecipeSets": [
             {
@@ -2392,60 +2203,6 @@
           ]
         },
         {
-          "Name": "Spoil_Fish_16_Var3",
-          "RecipeSets": [
-            {
-              "RowName": "Composter",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Fish_16_Var3",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 1
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Spoiled_Meat",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ]
-        },
-        {
-          "Name": "Spoil_Fish_16_Var4",
-          "RecipeSets": [
-            {
-              "RowName": "Composter",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Fish_16_Var4",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 1
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Spoiled_Meat",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ]
-        },
-        {
           "Name": "Spoil_Fish_17",
           "RecipeSets": [
             {
@@ -2484,60 +2241,6 @@
             {
               "Element": {
                 "RowName": "Fish_17_Var2",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 1
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Spoiled_Meat",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ]
-        },
-        {
-          "Name": "Spoil_Fish_17_Var3",
-          "RecipeSets": [
-            {
-              "RowName": "Composter",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Fish_17_Var3",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 1
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Spoiled_Meat",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ]
-        },
-        {
-          "Name": "Spoil_Fish_17_Var4",
-          "RecipeSets": [
-            {
-              "RowName": "Composter",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Fish_17_Var4",
                 "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
@@ -3212,7 +2915,7 @@
           "Inputs": [
             {
               "Element": {
-                "RowName": "Berries",
+                "RowName": "Berry",
                 "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
@@ -3293,7 +2996,7 @@
           "Inputs": [
             {
               "Element": {
-                "RowName": "Soybean",
+                "RowName": "Bean",
                 "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
@@ -3321,33 +3024,6 @@
             {
               "Element": {
                 "RowName": "Watermelon",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 1
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Spoiled_Plants",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1
-            }
-          ]
-        },
-        {
-          "Name": "Spoil_Yam",
-          "RecipeSets": [
-            {
-              "RowName": "Composter",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Yam",
                 "DataTableName": "D_ItemsStatic"
               },
               "Count": 1
@@ -3536,7 +3212,7 @@
           "Inputs": [
             {
               "Element": {
-                "RowName": "Prickly_Pear",
+                "RowName": "PricklyPear",
                 "DataTableName": "D_ItemsStatic"
               },
               "Count": 1

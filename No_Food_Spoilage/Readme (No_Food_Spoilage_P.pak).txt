@@ -1,6 +1,6 @@
 No_Food_Spoilage_P.pak
 ----------------------------------------------------------------------
-Mod Version: 2.2
+Mod Version: 2.3
 
 Author: AgentKush
 
@@ -12,6 +12,16 @@ Mod Type: EXMOD
 Prevents all food spoilage. Items decay/despawn but never convert to spoiled versions. Covers all 33 decayable entries. Includes composter recipes so raw meats, fish, dairy, vegetables, and fruits can still be manually composted.
 
 
+
+Ver 2.3
+SAFETY FIX - the mod gave the game's never-decay profile a decay timer, so the 19 things
+that are meant to last forever (all four saddle carts, the speeder saddle, the landing
+pads, the advanced exotic delivery interface, animal silage and ten mission stasis bags)
+could decay. They never decay again. Restored leather curing (Curing Leather turns into
+Advanced Leather again - that is crafting, not spoilage). Removed 12 composter recipes
+for items that do not exist and fixed 5 that pointed at renamed foods (Fatty T-Bone,
+Giant Steak, Berry, Bean, Prickly Pear). Food never spoils; the composter can still turn
+food into spoiled food for fertilizer.
 
 Ver 2.2
 Restored coconut ripening (young -> mid -> mature) that the no-spoil change had broken; mature coconuts no longer rot. Fixes #10.
@@ -47,7 +57,7 @@ Initial release.
 
 ## Files Modified:
   Traits-D_Decayable          (33 entries)
-  Crafting-D_ProcessorRecipes (134 entries)
+  Crafting-D_ProcessorRecipes (122 entries)
 
 ## Installation:
   1. Install JimK72's Icarus Mod Manager

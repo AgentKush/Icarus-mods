@@ -256,9 +256,9 @@
     {
       "name": "No Food Spoilage",
       "author": "AgentKush",
-      "version": "2.2",
+      "version": "2.3",
       "compatibility": "All",
-      "description": "Prevents all food spoilage. 33 decayable entries + 134 composter recipes. Items decay/despawn normally but never convert to spoiled versions. v2.0: Added 134 composter recipes for raw meats, fish, dairy, vegetables, fruits, and bait.",
+      "description": "Prevents all food spoilage. 33 decayable entries + 122 composter recipes. Items decay/despawn normally but never convert to spoiled versions; the Composter can still turn raw meats, fish, dairy, vegetables, fruits and bait into spoiled food for fertilizer.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/No_Food_Spoilage.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/No_Food_Spoilage/README.md",
       "files": {
