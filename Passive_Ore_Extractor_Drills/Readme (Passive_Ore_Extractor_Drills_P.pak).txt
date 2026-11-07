@@ -1,6 +1,6 @@
 Passive_Ore_Extractor_Drills_P.pak
 ----------------------------------------------------------------------
-Mod Version: 7.7
+Mod Version: 7.8
 
 Author: AgentKush
 
@@ -11,6 +11,14 @@ Mod Type: EXMOD
 ## Description:
 23 passive ore extractors - one per ore type. Place anywhere, connect power, load Stone. Uses drill-visual processor for passive mining.
 
+
+Ver 7.8
+Fixed the drills mining in silence - their recipes pointed at a sound entry that does
+not exist; they now use the default sound like the vanilla extractor. Removed data the
+game was ignoring (display text on the item templates - the real names are unchanged -
+and extra fields on recipe inputs). Known issue: a placed drill can duplicate when the
+save is reloaded; that is in the drill's blueprint, not the data. 23 passive ore
+extractors - one per ore type.
 
 Ver 7.7
 Fixed placement failure - dropped missing custom BP_PassiveMiner entirely. All 23 D_DeployableSetup entries now use vanilla BP_Deep_Mining_Drill_Electric. Miners can now be placed again.

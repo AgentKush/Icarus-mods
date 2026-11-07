@@ -2,8 +2,8 @@
   "name": "Passive Ore Extractor Drills",
   "author": "AgentKush",
   "fileName": "Passive_Ore_Extractor_Drills",
-  "version": "7.7",
-  "description": "23 passive ore extractors - one per ore type.",
+  "version": "7.8",
+  "description": "v7.8: Fixed the drills mining in silence - their recipes pointed at a sound entry that does not exist; they now use the default sound like the vanilla extractor. Removed data the game was ignoring (display text on the item templates - the real names are unchanged - and extra fields on recipe inputs). Known issue: a placed drill can duplicate when the save is reloaded; that is in the drill's blueprint, not the data. 23 passive ore extractors - one per ore type.",
   "week": "All",
   "Level2": "True",
   "Rows": [
@@ -4744,369 +4744,277 @@
           "Name": "Passive_Miner_Metal_Ore",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Metal_Ore"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Metal_Ore-DisplayName\", \"Passive Iron Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Metal_Ore-Description\", \"Automatically extracts Iron when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Metal_Ore",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Metal_Ore"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Metal_Ore-DisplayName\", \"Passive Iron Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Metal_Ore-Description\", \"Contains a Passive Iron Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Copper_Ore",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Copper_Ore"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Copper_Ore-DisplayName\", \"Passive Copper Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Copper_Ore-Description\", \"Automatically extracts Copper when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Copper_Ore",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Copper_Ore"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Copper_Ore-DisplayName\", \"Passive Copper Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Copper_Ore-Description\", \"Contains a Passive Copper Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Coal_Ore",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Coal_Ore"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Coal_Ore-DisplayName\", \"Passive Coal Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Coal_Ore-Description\", \"Automatically extracts Coal when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Coal_Ore",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Coal_Ore"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Coal_Ore-DisplayName\", \"Passive Coal Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Coal_Ore-Description\", \"Contains a Passive Coal Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Stone",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Stone"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Stone-DisplayName\", \"Passive Stone Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Stone-Description\", \"Automatically extracts Stone when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Stone",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Stone"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Stone-DisplayName\", \"Passive Stone Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Stone-Description\", \"Contains a Passive Stone Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Oxite",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Oxite"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Oxite-DisplayName\", \"Passive Oxite Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Oxite-Description\", \"Automatically extracts Oxite when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Oxite",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Oxite"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Oxite-DisplayName\", \"Passive Oxite Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Oxite-Description\", \"Contains a Passive Oxite Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Salt",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Salt"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Salt-DisplayName\", \"Passive Salt Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Salt-Description\", \"Automatically extracts Salt when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Salt",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Salt"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Salt-DisplayName\", \"Passive Salt Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Salt-Description\", \"Contains a Passive Salt Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Sulfur",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Sulfur"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Sulfur-DisplayName\", \"Passive Sulfur Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Sulfur-Description\", \"Automatically extracts Sulfur when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Sulfur",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Sulfur"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Sulfur-DisplayName\", \"Passive Sulfur Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Sulfur-Description\", \"Contains a Passive Sulfur Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Gold_Ore",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Gold_Ore"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Gold_Ore-DisplayName\", \"Passive Gold Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Gold_Ore-Description\", \"Automatically extracts Gold when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Gold_Ore",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Gold_Ore"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Gold_Ore-DisplayName\", \"Passive Gold Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Gold_Ore-Description\", \"Contains a Passive Gold Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Silica",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Silica"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Silica-DisplayName\", \"Passive Silicon Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Silica-Description\", \"Automatically extracts Silicon when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Silica",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Silica"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Silica-DisplayName\", \"Passive Silicon Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Silica-Description\", \"Contains a Passive Silicon Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Clay",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Clay"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Clay-DisplayName\", \"Passive Clay Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Clay-Description\", \"Automatically extracts Clay when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Clay",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Clay"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Clay-DisplayName\", \"Passive Clay Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Clay-Description\", \"Contains a Passive Clay Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Bauxite",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Bauxite"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Bauxite-DisplayName\", \"Passive Bauxite Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Bauxite-Description\", \"Automatically extracts Bauxite when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Bauxite",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Bauxite"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Bauxite-DisplayName\", \"Passive Bauxite Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Bauxite-Description\", \"Contains a Passive Bauxite Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Titanium_Ore",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Titanium_Ore"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Titanium_Ore-DisplayName\", \"Passive Titanium Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Titanium_Ore-Description\", \"Automatically extracts Titanium when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Titanium_Ore",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Titanium_Ore"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Titanium_Ore-DisplayName\", \"Passive Titanium Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Titanium_Ore-Description\", \"Contains a Passive Titanium Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Platinum_Ore",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Platinum_Ore"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Platinum_Ore-DisplayName\", \"Passive Platinum Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Platinum_Ore-Description\", \"Automatically extracts Platinum when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Platinum_Ore",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Platinum_Ore"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Platinum_Ore-DisplayName\", \"Passive Platinum Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Platinum_Ore-Description\", \"Contains a Passive Platinum Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Scoria",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Scoria"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Scoria-DisplayName\", \"Passive Scoria Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Scoria-Description\", \"Automatically extracts Scoria when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Scoria",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Scoria"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Scoria-DisplayName\", \"Passive Scoria Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Scoria-Description\", \"Contains a Passive Scoria Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Obsidian",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Obsidian"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Obsidian-DisplayName\", \"Passive Obsidian Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Obsidian-Description\", \"Automatically extracts Obsidian when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Obsidian",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Obsidian"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Obsidian-DisplayName\", \"Passive Obsidian Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Obsidian-Description\", \"Contains a Passive Obsidian Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Limestone",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Limestone"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Limestone-DisplayName\", \"Passive Limestone Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Limestone-Description\", \"Automatically extracts Limestone when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Limestone",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Limestone"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Limestone-DisplayName\", \"Passive Limestone Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Limestone-Description\", \"Contains a Passive Limestone Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Lithium_Ore",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Lithium_Ore"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Lithium_Ore-DisplayName\", \"Passive Lithium Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Lithium_Ore-Description\", \"Automatically extracts Lithium when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Lithium_Ore",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Lithium_Ore"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Lithium_Ore-DisplayName\", \"Passive Lithium Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Lithium_Ore-Description\", \"Contains a Passive Lithium Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Ruby_Ore",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Ruby_Ore"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Ruby_Ore-DisplayName\", \"Passive Ruby Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Ruby_Ore-Description\", \"Automatically extracts Ruby when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Ruby_Ore",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Ruby_Ore"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Ruby_Ore-DisplayName\", \"Passive Ruby Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Ruby_Ore-Description\", \"Contains a Passive Ruby Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Cobalt_Ore",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Cobalt_Ore"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Cobalt_Ore-DisplayName\", \"Passive Cobalt Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Cobalt_Ore-Description\", \"Automatically extracts Cobalt when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Cobalt_Ore",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Cobalt_Ore"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Cobalt_Ore-DisplayName\", \"Passive Cobalt Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Cobalt_Ore-Description\", \"Contains a Passive Cobalt Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Super_Cooled_Ice",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Super_Cooled_Ice"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Super_Cooled_Ice-DisplayName\", \"Passive Super Cooled Ice Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Super_Cooled_Ice-Description\", \"Automatically extracts Super Cooled Ice when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Super_Cooled_Ice",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Super_Cooled_Ice"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Super_Cooled_Ice-DisplayName\", \"Passive Super Cooled Ice Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Super_Cooled_Ice-Description\", \"Contains a Passive Super Cooled Ice Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Frozen_Wood",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Frozen_Wood"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Frozen_Wood-DisplayName\", \"Passive Frozen Wood Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Frozen_Wood-Description\", \"Automatically extracts Frozen Wood when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Frozen_Wood",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Frozen_Wood"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Frozen_Wood-DisplayName\", \"Passive Frozen Wood Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Frozen_Wood-Description\", \"Contains a Passive Frozen Wood Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Exotic_Red",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Exotic_Red"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Exotic_Red-DisplayName\", \"Passive Exotic Red Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Exotic_Red-Description\", \"Automatically extracts Exotic Red when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Exotic_Red",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Exotic_Red"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Exotic_Red-DisplayName\", \"Passive Exotic Red Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Exotic_Red-Description\", \"Contains a Passive Exotic Red Miner. Use to unpack.\")"
+          }
         },
         {
           "Name": "Passive_Miner_Uranium_Raw",
           "ItemStaticData": {
             "RowName": "Passive_Miner_Uranium_Raw"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Uranium_Raw-DisplayName\", \"Passive Uranium Miner\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Passive_Miner_Uranium_Raw-Description\", \"Automatically extracts Uranium when powered. Place anywhere.\")"
+          }
         },
         {
           "Name": "Kit_Passive_Miner_Uranium_Raw",
           "ItemStaticData": {
             "RowName": "Kit_Passive_Miner_Uranium_Raw"
-          },
-          "DisplayName": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Uranium_Raw-DisplayName\", \"Passive Uranium Miner Kit\")",
-          "Description": "NSLOCTEXT(\"D_ItemTemplate\", \"Kit_Passive_Miner_Uranium_Raw-Description\", \"Contains a Passive Uranium Miner. Use to unpack.\")"
+          }
         }
       ]
     },
@@ -6104,9 +6012,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6139,9 +6045,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6174,9 +6078,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6209,9 +6111,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6244,9 +6144,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6279,9 +6177,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6314,9 +6210,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6349,9 +6243,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6384,9 +6276,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6419,9 +6309,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6454,9 +6342,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6489,9 +6375,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6524,9 +6408,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6559,9 +6441,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6594,9 +6474,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6629,9 +6507,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6664,9 +6540,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6699,9 +6573,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6734,9 +6606,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6769,9 +6639,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6804,9 +6672,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6839,9 +6705,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [
@@ -6874,9 +6738,7 @@
                 "RowName": "Stone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
+              "Count": 1
             }
           ],
           "Outputs": [

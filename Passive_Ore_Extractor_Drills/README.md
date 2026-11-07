@@ -2,7 +2,7 @@
 
 # Passive Ore Extractor Drills
 
-[![Version](https://img.shields.io/badge/v7.7-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v7.8-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -87,6 +87,7 @@ All miners are craftable at the **Fabricator** with tiered material costs:
 
 ### v7.8
 - **Fix**: all 23 miners ran silently. Their mining recipes set `Audio` to a `D_CraftingAudioData` row called `Furnace`, which has never existed in that table. Now `Default`, matching vanilla's own passive extractor recipe (`Ore_Meta`). The kit-crafting recipes were already correct and are unchanged.
+- **Cleanup**: removed data the game was ignoring — `DisplayName`/`Description` on the 46 `D_ItemTemplate` rows (not part of that struct; the real names are in `D_Itemable` and unchanged) and `DynamicProperties`/`Alterations` on recipe inputs (those fields exist on outputs only). Checked against the November 2026 game data.
 - **Docs**: corrected the v7.7 entry below. It claimed the deployables had been switched to the vanilla drill blueprint; they were not, and all 23 still use `BP_PassiveMiner` — which is the right choice, because the vanilla drill blueprint only snaps to deep-ore deposits and would break "place anywhere".
 - **Docs**: documented the known save-reload duplication issue.
 
