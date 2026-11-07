@@ -1,8 +1,8 @@
 {
   "name": "Absolute Chaos - Core",
   "author": "AgentKush",
-  "version": "0.2.1",
-  "description": "Base layer of the Absolute Chaos modpack.",
+  "version": "0.2.2",
+  "description": "v0.2.2: Every workshop item is free again - the list was made against an older game, so the workshop items later updates added still charged credits; they are now zeroed too (all 343). Base layer of the Absolute Chaos modpack: a 76-key player stat block and free workshop research and replication.",
   "fileName": "AbsoluteChaos_Core",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/AbsoluteChaos_Core.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/AbsoluteChaos_Core/README.md",
@@ -8874,6 +8874,174 @@
         },
         {
           "Name": "Meta_Resource_Pack_Ren",
+          "ResearchCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 0
+            }
+          ],
+          "ReplicationCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 0
+            }
+          ]
+        },
+        {
+          "Name": "Meta_Larkwell_Frag_Grenade",
+          "ResearchCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 0
+            }
+          ],
+          "ReplicationCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 0
+            }
+          ]
+        },
+        {
+          "Name": "Meta_Hydrazine_Dehumidier",
+          "ResearchCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 0
+            }
+          ],
+          "ReplicationCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 0
+            }
+          ]
+        },
+        {
+          "Name": "Meta_Flashlight",
+          "ResearchCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 0
+            }
+          ],
+          "ReplicationCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 0
+            }
+          ]
+        },
+        {
+          "Name": "Meta_Sawblades",
+          "ResearchCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 0
+            }
+          ],
+          "ReplicationCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 0
+            }
+          ]
+        },
+        {
+          "Name": "Meta_Oxite_Dissolver_Printed",
+          "ResearchCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 0
+            }
+          ],
+          "ReplicationCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 0
+            }
+          ]
+        },
+        {
+          "Name": "Meta_Powerbank",
+          "ResearchCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 0
+            }
+          ],
+          "ReplicationCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 0
+            }
+          ]
+        },
+        {
+          "Name": "Meta_Resource_Pack_Salt",
+          "ResearchCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 0
+            }
+          ],
+          "ReplicationCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 0
+            }
+          ]
+        },
+        {
+          "Name": "Meta_Lantern",
           "ResearchCost": [
             {
               "Meta": {

@@ -2,7 +2,7 @@
 
 # Absolute Chaos - Core
 
-[![Version](https://img.shields.io/badge/v0.2.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v0.2.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -35,9 +35,9 @@ Every value below was verified against the live ProjectDaedalus export from the 
 - **Respawn delay** 1 second
 - **Map visibility** buildings, health, statuses, SOS all visible
 
-**Workshop items free** — every one of the 335 vanilla workshop items has `ResearchCost` and `ReplicationCost` set to 0 credits. Verified enumeration, not a wildcard.
+**Workshop items free** — every one of the 343 vanilla workshop items has `ResearchCost` and `ReplicationCost` set to 0 credits. Verified enumeration, not a wildcard.
 
-**Known limitation** — because the 335 workshop rows are enumerated by name, any item added in a future Icarus weekly update will still cost credits until Core is rebuilt against the new data export. This is tracked in the v0.3 roadmap.
+**Known limitation** — because the 343 workshop rows are enumerated by name, any item added in a future Icarus weekly update will still cost credits until Core is rebuilt against the new data export. This is tracked in the v0.3 roadmap.
 
 **v0.2.1 note** — the previously-scaffolded empty "Absolute Chaos" workshop tab has been removed. It will return in v0.3 once Chaos Kits are populated.
 
@@ -111,6 +111,10 @@ Known gaps deferred to v0.3:
 Import `AbsoluteChaos_Core.EXMODZ` via JimK72's Icarus Mod Manager, enable it, and also enable exactly one of the tier mods.
 
 ## Changelog
+
+
+### v0.2.2
+- Every workshop item is free again - the list was made against an older game, so the workshop items later updates added still charged credits; they are now zeroed too (all 343). Base layer of the Absolute Chaos modpack: a 76-key player stat block and free workshop research and replication.
 
 ### v0.2 (2026-04-08)
 
