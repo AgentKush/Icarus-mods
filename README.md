@@ -65,7 +65,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 | [FastProcessing 10x](FastProcessing_All_10x) | `5.2` | 10× faster | 2,235 |
 | [FastProcessing 15x](FastProcessing_All_15x) | `5.2` | 15× faster | 2,235 |
 | [FastProcessing 25x](FastProcessing_All_25x) | `5.2` | 25× faster | 2,235 |
-| [FastProcessing Instant](FastProcessing_Instant) | `5.2` | Instant | 2,211 |
+| [FastProcessing Instant](FastProcessing_Instant) | `5.2` | Instant | 2,235 |
 | [⚒️ Faster Crafting](Faster_Crafting) | `1.7` | 2× faster | 2,235 |
 
 *All six cover every recipe in the game — passive processors and workbench crafting alike. They do **not** stack; pick the speed you want.*

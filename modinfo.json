@@ -147,9 +147,9 @@
     {
       "name": "Fast Processing (Instant)",
       "author": "AgentKush",
-      "version": "5.1",
+      "version": "5.2",
       "compatibility": "All",
-      "description": "All crafting and processing instant. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs. v4.8: Version bump for latest game update.",
+      "description": "All crafting and processing instant. All 2,235 recipes recomputed from the current game data. Water recipes have a 500 MJ floor to prevent fluid bugs.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_Instant.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_Instant/README.md",
       "files": {

@@ -1,6 +1,6 @@
 FastProcessing_Instant_P.pak
 ----------------------------------------------------------------------
-Mod Version: 5.1
+Mod Version: 5.2
 
 Author: AgentKush
 
@@ -9,8 +9,14 @@ Compatible with Icarus: All Weeks
 Mod Type: EXMOD
 
 ## Description:
-All crafting and processing instant. 2171 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs.
+All crafting and processing instant. 2235 recipes rebuilt from the November 2026 game data. Water recipes have 500 MJ floor to prevent fluid bugs.
 
+
+Ver 5.2
+Every recipe is now recomputed from the November 2026 game values: 1 MJ (instant), water
+recipes keep the 500 MJ minimum, and nothing is slower than vanilla. Corrects 52 recipes
+that were off (2 of them slower than vanilla), removes the 2 recipes the game deleted
+and adds the 62 it has gained. 2,235 recipes.
 
 Ver 5.1
 Reverted the v4.9 over-correction of the Scoria roof corner recipe — the game's recipe name really is the misspelled "Scoria_Bick_Roof_Corner", so the mod now matches it and that recipe gets the speed boost again.
@@ -28,7 +34,7 @@ Ver 4.3
 Updated for latest game patch. Added new recipes from recent updates.
 
 ## Files Modified:
-  Crafting-D_ProcessorRecipes (2175 entries)
+  Crafting-D_ProcessorRecipes (2235 entries)
 
 ## Installation:
   1. Install JimK72's Icarus Mod Manager

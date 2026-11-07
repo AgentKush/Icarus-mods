@@ -1,8 +1,8 @@
 {
   "name": "Fast Processing (Instant)",
   "author": "AgentKush",
-  "version": "5.1",
-  "description": "v5.1: Fixed the Scoria brick roof corner recipe so it gets the speed boost (the game's recipe name is misspelled 'Scoria_Bick_Roof_Corner'). | All crafting and processing instant.",
+  "version": "5.2",
+  "description": "v5.2: Every recipe is now recomputed from the November 2026 game values: 1 MJ (instant), water recipes keep the 500 MJ minimum, and nothing is slower than vanilla. Corrects 52 recipes that were off (2 of them slower than vanilla), removes the 2 recipes the game deleted and adds the 62 it has gained. 2,235 recipes.",
   "fileName": "FastProcessing_Instant",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_Instant.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_Instant/README.md",
@@ -297,7 +297,7 @@
         },
         {
           "Name": "Waterskin",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Oxygen_Bladder",
@@ -921,7 +921,7 @@
         },
         {
           "Name": "Ice",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Brazier",
@@ -1701,7 +1701,7 @@
         },
         {
           "Name": "SplineTool_Water",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Solar_Panel",
@@ -1725,23 +1725,23 @@
         },
         {
           "Name": "GreenTea_Drink",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "WildTea_Drink",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Cocoa_Drink",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Coffee_Drink",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "IceWater_Drink",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Basic_Backpack",
@@ -1837,11 +1837,11 @@
         },
         {
           "Name": "Water_Pump",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Water_Sprinkler",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Drying_Rack",
@@ -2293,11 +2293,11 @@
         },
         {
           "Name": "Attachment_Poison_Water_1",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Attachment_Poison_Water_2",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Attachment_Tool_Use_1",
@@ -2537,7 +2537,7 @@
         },
         {
           "Name": "Water_Trough",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Spotlight",
@@ -2809,7 +2809,7 @@
         },
         {
           "Name": "Waterwheel",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Dropship_Grenade_T4",
@@ -3253,19 +3253,19 @@
         },
         {
           "Name": "Dried_Freshwater_Fillet",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Dried_Saltwater_Fillet",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Food_Freshwater_Fillet_Curry",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Food_Saltwater_Fillet_Sashimi",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Pickled_Freshwater_Fillet",
@@ -3273,7 +3273,7 @@
         },
         {
           "Name": "Food_Crumbed_Saltwater_Fillet",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Food_Fish_Fillet_Pie",
@@ -3345,11 +3345,11 @@
         },
         {
           "Name": "Food_Grilled_Saltwater_Fillet",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Food_Grilled_Feshwater_Fillet",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Painting_Wood",
@@ -3885,7 +3885,7 @@
         },
         {
           "Name": "Watering_Can",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Anvil_Bench_T3",
@@ -4245,19 +4245,19 @@
         },
         {
           "Name": "Water_Purifier_T1_Water",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Water_Purifier_T1_Ground",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Water_Purifier_T2",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Water_Purifier_T4",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Arctic_Scorpion_Trophy",
@@ -4593,11 +4593,11 @@
         },
         {
           "Name": "Smoked_Freshwater_Fillet",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Smoked_Saltwater_Fillet",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Dried_Meat_Generic",
@@ -4761,7 +4761,7 @@
         },
         {
           "Name": "Honey_Tea",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Stationeers_Trophy_1",
@@ -4805,7 +4805,7 @@
         },
         {
           "Name": "Saddle_Wood_Cart_Water",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Saddle_Wood_Cart_Harvest",
@@ -4933,11 +4933,11 @@
         },
         {
           "Name": "Water_Trough_Large",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Water_Trough_T4",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Food_Trough_Large",
@@ -4949,15 +4949,15 @@
         },
         {
           "Name": "Water_Trough_Stone",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Water_Trough_Metal",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Water_Trough_Fountain",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Food_Trough_Rustic",
@@ -4997,15 +4997,15 @@
         },
         {
           "Name": "Water_Barrel",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Water_Borer",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Biofuel_Water_Pump",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Animal_Bed_Burlap",
@@ -5085,11 +5085,11 @@
         },
         {
           "Name": "Purify_Water",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Clean_Water",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Purification_Pill",
@@ -5097,7 +5097,7 @@
         },
         {
           "Name": "Dog_Bowl_Water",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Dog_Bowl_Food",
@@ -5105,7 +5105,7 @@
         },
         {
           "Name": "Cat_Bowl_Water",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Cat_Bowl_Food",
@@ -5537,7 +5537,7 @@
         },
         {
           "Name": "Fruit_Smoothie",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Stone_Brick",
@@ -6005,11 +6005,11 @@
         },
         {
           "Name": "Jerry_Can_Water",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Portable_Tank_Water",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Iron_Railing_Gate_Ingot",
@@ -6221,7 +6221,7 @@
         },
         {
           "Name": "Coffee_With_Cream",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Calf_Trophy",
@@ -6293,7 +6293,7 @@
         },
         {
           "Name": "Homestead_Water_Tank",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Ammo_EDS",
@@ -6593,7 +6593,7 @@
         },
         {
           "Name": "Watermelon_Seeds",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Cocoa_Seeds",
@@ -7672,10 +7672,6 @@
           "RequiredMillijoules": 1
         },
         {
-          "Name": "Flaregun",
-          "RequiredMillijoules": 1
-        },
-        {
           "Name": "Flare_Yellow",
           "RequiredMillijoules": 1
         },
@@ -7916,10 +7912,6 @@
           "RequiredMillijoules": 1
         },
         {
-          "Name": "Blood_Thinning_Tonic_0",
-          "RequiredMillijoules": 1
-        },
-        {
           "Name": "Alloy_Armor_Head",
           "RequiredMillijoules": 1
         },
@@ -8037,11 +8029,11 @@
         },
         {
           "Name": "Butcher_Fish_Saltwater",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Butcher_Fish_Freshwater",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Cooked_Fish",
@@ -8537,11 +8529,11 @@
         },
         {
           "Name": "Fisher_Saltwater_Fish",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Fisher_Freshwater_Fish",
-          "RequiredMillijoules": 500
+          "RequiredMillijoules": 1
         },
         {
           "Name": "Food_Soda",
@@ -8709,6 +8701,254 @@
         },
         {
           "Name": "Carcass_Juvenile_Snow_Wolf",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Carcass_Conifer_Wolf_Tame",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Carcass_Boar_Tame",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Carcass_Boar_Juvenile",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "T3_Backpack",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Turret_Rifle_Precision",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "AntiRadiation_Tonic",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Carcass_Orka_Mount",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Sandwyrm_Biomass_2",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Sandwyrm_Wing",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Fertility_Serum_Boar",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Fertility_Serum_Boar_Exotic",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Butcher_Knife",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Molotov",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Carcass_Juvenile_Tundra_Monkey",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Fertility_Serum_Tundra_Monkey",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Fertility_Serum_Tundra_Monkey_Exotic",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Sawblade",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Interior_Wood_Floor_Curved",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Carcass_Komodo",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Carcass_Lava_Komodo",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Thumper_Deep",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Fertility_Serum_Ubis",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Fertility_Serum_Ubis_Exotic",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Boss_Vestiage_Wolf",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Boss_Vestiage_Sandworm",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Boss_Vestiage_Scorpion",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Boss_Vestiage_Landshark",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Boss_Vestiage_Hammerhead",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Boss_Vestiage_LavaHunter",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Boss_Vestiage_Golem",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Boss_Vestiage_Mammoth",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Boss_Vestiage_Ape",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Biomass_To_Boss_Vestiage_SandWyrm",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Carbon_Fishing_Rod",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Electric_Seed_Extractor",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "T2_Launcher",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Rudimentary_Smoke_Grenade",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Rudimentary_Impact_Grenade",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "T3_Weapon_Rack_Single",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Fertility_Serum_Tusker",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Fertility_Serum_Tusker_Exotic",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Creature_Bait_Kiwi",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Resin_Flightless_Tank_Horn",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Food_Dried_Fish_Chunks",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Food_Fish_Chowder",
+          "RequiredMillijoules": 500
+        },
+        {
+          "Name": "Food_Freshwater_Tartare",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Food_Pickled_Saltwater_Fillet",
+          "RequiredMillijoules": 500
+        },
+        {
+          "Name": "Food_Fish_And_Chips",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Food_Smoked_Fillet_Sandwich",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Food_Coconut_Fish_Curry",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Food_Trophy_Fish_Feast",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Fish_Paste",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Fish_Paste_Fish",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Seed_Oil_Fish_Chunks",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Seed_Oil_Fish",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Organic_Resin_Fish",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Fish_Paste_Lure",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Bandage_Poultice_Fish",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Concrete_Mix_Fish",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Limestone_Concrete_Mix_Fish",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Vitamins_Fish",
+          "RequiredMillijoules": 1
+        },
+        {
+          "Name": "Armor_Stand_T4",
           "RequiredMillijoules": 1
         }
       ]
