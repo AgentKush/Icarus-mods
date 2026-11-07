@@ -2,7 +2,7 @@
 
 # Creature Difficulty Scaling
 
-[![Version](https://img.shields.io/badge/v2.3-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v2.4-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -165,6 +165,10 @@ New autonomous spawn sources: Caveworm Spawners, Swamp Gas Flyers, Lava Flyers, 
 4. **Recommended:** Also install JimK72's Level Cap 500 mod for full experience
 
 ## Changelog
+
+
+### v2.4
+- Fixed the creature health-regen scaling, which never worked - 158 creature rows buffed a stat that does not exist (BaseHealthRegenPerMinute_+%), so the game ignored it; they now use the real BaseHealthRegen_+% with the same values. Fixed 4 re-themed Styx biomes having no ambient sound - they named sound sets that do not exist; they now use the ones vanilla pairs with the same atmosphere (Wetlands, Lava, BossGolemCave). Scales creature difficulty across biomes and threat levels.
 
 ### v2.3 — Affliction System & Epic Creatures (DarkAngel Collab)
 

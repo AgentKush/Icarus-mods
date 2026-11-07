@@ -1,6 +1,6 @@
 Creature_Difficulty_Scaling_P.pak
 ----------------------------------------------------------------------
-Mod Version: 2.3
+Mod Version: 2.4
 
 Author: AgentKush
 
@@ -11,6 +11,14 @@ Mod Type: EXMOD
 ## Description:
 Dynamic creature level scaling for level 500 cap. Scales all spawn zones up to level 500, buffs creature stats by tier, and adds player-level-based scaling rules. v2.2: Significant tame and mount HP/damage/resistance buffs so pets can stand up to high-level hostile creatures. Full DLC coverage (New Frontiers, Styx, Dread). Compatible with JimK72 Level Cap 500 mod.
 
+
+Ver 2.4
+Fixed the creature health-regen scaling, which never worked - 158 creature rows buffed a
+stat that does not exist (BaseHealthRegenPerMinute_+%), so the game ignored it; they now
+use the real BaseHealthRegen_+% with the same values. Fixed 4 re-themed Styx biomes
+having no ambient sound - they named sound sets that do not exist; they now use the ones
+vanilla pairs with the same atmosphere (Wetlands, Lava, BossGolemCave). Scales creature
+difficulty across biomes and threat levels.
 
 Ver 2.3
 Affliction system and epic creatures (DarkAngel collaboration). Adds 22 affliction

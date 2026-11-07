@@ -40,6 +40,8 @@ SKIP_DIRS = {"docs", "icons", "tools", "skills", "Guide's", "issue-attachments"}
 # Metadata is on every row struct but never listed in Defaults
 EXTRA_DEFAULTS = {"Metadata": {"RequiredFeatureLevel": {"RowName": "None", "DataTableName": "D_FeatureLevels"}}}
 ASSET_RE = re.compile(r"/Game/[A-Za-z0-9_\-/ ]+")
+STAT_KEY_RE = re.compile(r'^\(Value="([^"]+)"\)$')     # stat maps key their entries this way
+STAT_NAME_RE = re.compile(r"_[-+]?%?$|_\+%$")           # ...and stat names end in _+, _%, _+% (other maps reuse the key form)
 
 try:
     sys.stdout.reconfigure(errors="replace")
@@ -96,12 +98,20 @@ class Game:
         t = self.tables.get(table)
         return bool(t) and name.lower() in t["rows"]
 
-    def vanilla_refs(self, table: str) -> set[str]:
-        """Every RowName the game's own rows of this table reference - including ones that
-        dangle in vanilla (unreleased ammo in AllArrows, for example)."""
+    def vanilla_refs(self, table: str, dflt: dict) -> set[tuple[str, str]]:
+        """(field, RowName) for every reference the game's own rows of this table make -
+        including ones that dangle in vanilla (unreleased ammo in AllArrows, for example).
+        Field-specific: the same name in a different field is a different reference."""
         t = self.tables[table]
         if "vanilla_refs" not in t:
-            t["vanilla_refs"] = {m.lower() for m in re.findall(r'"RowName":\s*"([^"]+)"', json.dumps(list(t["rows"].values())))}
+            out: set[tuple[str, str]] = set()
+            for r in t["rows"].values():
+                refs: list = []
+                walk_refs(r, dflt, "", refs)
+                for path, rn, _rt in refs:
+                    if rn:
+                        out.add((norm_path(path), str(rn).lower()))
+            t["vanilla_refs"] = out
         return t["vanilla_refs"]
 
     def vanilla_props(self, table: str, dflt: dict) -> set[str]:
@@ -114,6 +124,12 @@ class Game:
                 walk_props(r, dflt, "", seen, True)
             t["vanilla_props"] = set(seen)
         return t["vanilla_props"]
+
+
+def norm_path(path: str) -> str:
+    """'TV_Bolts.AmmoTypes[7]' -> 'AmmoTypes[]' (row name and list indices dropped)"""
+    p = re.sub(r"\[\d+\]", "[]", path)
+    return p.split(".", 1)[1] if "." in p else p
 
 
 def walk_refs(val, dflt, path, out):
@@ -148,6 +164,19 @@ def walk_props(val: dict, dflt: dict, path: str, out: list, top: bool):
             for e in v:
                 if isinstance(e, dict):
                     walk_props(e, d[0], f"{path}{k}[].", out, False)
+
+
+def walk_stat_keys(val, path, out):
+    """Every stat-map key ((Value="Stat")) anywhere in a row, with where it sits."""
+    if isinstance(val, dict):
+        for k, v in val.items():
+            m = STAT_KEY_RE.match(k)
+            if m:
+                out.append((f"{path}.{k}", m.group(1)))
+            walk_stat_keys(v, f"{path}.{k}" if not m else path, out)
+    elif isinstance(val, list):
+        for i, v in enumerate(val):
+            walk_stat_keys(v, f"{path}[{i}]", out)
 
 
 def mod_folders(names: list[str]) -> list[Path]:
@@ -277,8 +306,9 @@ def check_mod(mod_dir: Path, game: Game, base: Game | None, catalog: dict) -> di
                 mod_rows[tbl].add(str(r["Name"]).lower())
     own_assets = own_asset_names(mod_dir)
 
+    stats = set(game.tables.get("D_Stats", {}).get("rows", {}))
     res = {"mod": mod_dir.name, "version": exmod.get("version"), "rows": 0, "edited": 0, "added": 0,
-           "refs": [], "refs_inherited": 0, "props": [], "assets": [], "removed": [], "dupes": [],
+           "refs": [], "refs_inherited": 0, "props": [], "assets": [], "removed": [], "dupes": [], "stats": [],
            "tables_missing": [], "release": check_release(mod_dir, exmod, catalog)}
     for cf, tbl, items in blocks:
         gt = game.tables.get(tbl)
@@ -325,13 +355,21 @@ def check_mod(mod_dir: Path, game: Game, base: Game | None, catalog: dict) -> di
                 if rt not in game.tables:
                     res["refs"].append(f"{cf}: {path} -> {rt}.{rn} (table {rt} not in the game)")
                     continue
-                if (vtext and f'"{str(rn).lower()}"' in vtext) or str(rn).lower() in game.vanilla_refs(tbl):
+                if (vtext and f'"{str(rn).lower()}"' in vtext) or \
+                        (norm_path(path), str(rn).lower()) in game.vanilla_refs(tbl, dflt):
                     res["refs_inherited"] += 1          # the game's own rows carry the same dangling ref
                     continue
                 note = ""
                 if base is not None and base.has_row(rt, rn):
                     note = "  [removed by a game update]"
                 res["refs"].append(f"{cf}: {path} -> {rt}.{rn}{note}")
+            # stat names used as stat-map keys
+            if stats:
+                sk = []
+                walk_stat_keys(r, nm, sk)
+                for where, stat in sk:
+                    if STAT_NAME_RE.search(stat) and stat.lower() not in stats:
+                        res["stats"].append(f"{cf}: {where} -> stat '{stat}' is not in D_Stats (the game ignores it)")
             # asset paths
             if game.assets:
                 for m in ASSET_RE.findall(json.dumps(r)):
@@ -344,7 +382,7 @@ def check_mod(mod_dir: Path, game: Game, base: Game | None, catalog: dict) -> di
                         continue
                     res["assets"].append(f"{cf}: {nm} -> {m}")
     res["problems"] = (len(res["refs"]) + len(res["props"]) + len(res["assets"]) + len(res["removed"])
-                       + len(res["dupes"]) + len(res["tables_missing"]) + len(res["release"]))
+                       + len(res["dupes"]) + len(res["tables_missing"]) + len(res["release"]) + len(res["stats"]))
     return res
 
 
@@ -352,7 +390,7 @@ def report(res: dict, full: bool) -> None:
     lim = None if full else 12
     print(f"\n=== {res['mod']}  v{res['version']}  ({res['rows']} rows: {res['edited']} edited, {res['added']} added)")
     for key, label in (("release", "release"), ("tables_missing", "table not in game"), ("refs", "broken ref"),
-                       ("props", "unknown property"), ("assets", "missing asset"),
+                       ("props", "unknown property"), ("stats", "unknown stat"), ("assets", "missing asset"),
                        ("removed", "row deleted from the game"), ("dupes", "case-duplicate rows")):
         items = res[key]
         if not items:
@@ -390,10 +428,10 @@ def main() -> int:
     catalog = load_json(REPO / "modinfo.json")
     results = [check_mod(d, game, base, catalog) for d in dirs]
     if a.summary:
-        print(f"{'MOD':40} {'VER':8} {'REFS':>5} {'PROPS':>6} {'ASSETS':>7} {'GONE':>5} {'DUPES':>6} RELEASE")
+        print(f"{'MOD':40} {'VER':8} {'REFS':>5} {'PROPS':>6} {'STATS':>6} {'ASSETS':>7} {'GONE':>5} {'DUPES':>6} RELEASE")
         for r in sorted(results, key=lambda r: -r["problems"]):
             rel = "; ".join(r["release"])[:90] or "ok"
-            print(f"{r['mod']:40} {str(r['version']):8} {len(r['refs']):5} {len(r['props']):6} "
+            print(f"{r['mod']:40} {str(r['version']):8} {len(r['refs']):5} {len(r['props']):6} {len(r['stats']):6} "
                   f"{len(r['assets']):7} {len(r['removed']):5} {len(r['dupes']):6} {rel}")
     else:
         for r in results:

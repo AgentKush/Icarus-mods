@@ -389,9 +389,9 @@
     {
       "name": "Creature Difficulty Scaling",
       "author": "AgentKush",
-      "version": "2.3",
+      "version": "2.4",
       "compatibility": "All",
-      "description": "Dynamic creature level scaling for level 500 cap. 161 spawn zones, 180 creatures, 5 scaling rules, full affliction system (poison, concussion, sprains, bee swarms, komodo bites), epic creatures with exotic loot, biome temperature modifiers, and autonomous spawns. v2.3: DarkAngel collab - adds 8 new data tables (73 entries) for afflictions, epic creatures, exotic loot, biome temps, prospect stats, and spawn zones.",
+      "description": "Dynamic creature level scaling for level 500 cap. 161 spawn zones, 180 creatures, 5 scaling rules, full affliction system (poison, concussion, sprains, bee swarms, komodo bites), epic creatures with exotic loot, biome temperature modifiers, and autonomous spawns. Includes the DarkAngel collab tables for afflictions, epic creatures, exotic loot, biome temps, prospect stats and spawn zones.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Creature_Difficulty_Scaling.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Difficulty_Scaling/README.md",
       "files": {
