@@ -2,12 +2,12 @@
 
 # Fast Processing (15x)
 
-[![Version](https://img.shields.io/badge/v5.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v5.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
-All crafting and processing 15x faster. 2175 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs
+All crafting and processing 15x faster. 2,235 recipes rebuilt from the November 2026 game data. Water recipes have 500 MJ floor to prevent fluid bugs
 
 Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
 
@@ -44,6 +44,10 @@ Covers all base game recipes plus compatibility with:
 4. Launch Icarus
 
 ## Changelog
+
+
+### v5.2
+- Fixed the speed maths - 896 recipes were set to instant instead of 15x faster, because recipes with no listed energy cost were read as 0 instead of the game's default 2,500. Every recipe is now recomputed from the November 2026 game values: exactly 15x faster than vanilla, never slower, and water recipes keep the 500 MJ minimum. Also corrects 511 recipes whose cost had drifted from the current vanilla value, removes the 2 recipes the game deleted and adds the 62 it has gained. 2,235 recipes.
 
 ### v5.1 (2026-06-27)
 - Reverted the v4.9 over-correction of the Scoria roof corner recipe — the game's recipe name really is the misspelled "Scoria_Bick_Roof_Corner", so the mod now matches it and that recipe gets the speed boost again.

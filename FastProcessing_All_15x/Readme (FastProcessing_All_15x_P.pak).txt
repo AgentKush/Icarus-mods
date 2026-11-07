@@ -1,6 +1,6 @@
 FastProcessing_All_15x_P.pak
 ----------------------------------------------------------------------
-Mod Version: 5.1
+Mod Version: 5.2
 
 Author: AgentKush
 
@@ -9,8 +9,16 @@ Compatible with Icarus: All Weeks
 Mod Type: EXMOD
 
 ## Description:
-All crafting and processing 15x faster. 2171 recipes rebuilt from current game data. Water recipes have 500 MJ floor to prevent fluid bugs.
+All crafting and processing 15x faster. 2235 recipes rebuilt from the November 2026 game data. Water recipes have 500 MJ floor to prevent fluid bugs.
 
+
+Ver 5.2
+Fixed the speed maths - 896 recipes were set to instant instead of 15x faster, because
+recipes with no listed energy cost were read as 0 instead of the game's default 2,500.
+Every recipe is now recomputed from the November 2026 game values: exactly 15x faster
+than vanilla, never slower, and water recipes keep the 500 MJ minimum. Also corrects 511
+recipes whose cost had drifted from the current vanilla value, removes the 2 recipes the
+game deleted and adds the 62 it has gained. 2,235 recipes.
 
 Ver 5.1
 Reverted the v4.9 over-correction of the Scoria roof corner recipe — the game's recipe name really is the misspelled "Scoria_Bick_Roof_Corner", so the mod now matches it and that recipe gets the speed boost again.
@@ -28,7 +36,7 @@ Ver 4.3
 Updated for latest game patch. Added new recipes from recent updates.
 
 ## Files Modified:
-  Crafting-D_ProcessorRecipes (2175 entries)
+  Crafting-D_ProcessorRecipes (2235 entries)
 
 ## Installation:
   1. Install JimK72's Icarus Mod Manager
