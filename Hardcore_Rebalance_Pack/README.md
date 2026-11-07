@@ -2,14 +2,14 @@
 
 # Hardcore Rebalance Pack
 
-[![Version](https://img.shields.io/badge/v2.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v2.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/PAK%20%2B%20EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=unrealengine&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
 For survivors who think Icarus is too easy
 
-**1438 changes across 17 data tables + 2 blueprint overrides**
+**1364 changes across 17 data tables + 2 blueprint overrides**
 
 Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
 
@@ -36,55 +36,39 @@ Transforms Icarus into a brutal survival experience. Every difficulty tier is re
 | Table | Entries | Description |
 |-------|---------|-------------|
 | D_AIGrowth | 114 | 4-tier creature scaling: +75-300% HP and +40-120% melee across Forest/Mid/Hard/Boss tiers |
-| D_AISpawnZones | 186 | Spawn zone configurations across all biomes |
+| D_AISpawnZones | 161 | Spawn zone configurations across all biomes, including the alpha hunters' spawns |
 | D_AutonomousSpawns | 26 | Independent creature spawn rules |
 | D_HordeWave | 21 | Horde event wave compositions |
-| D_EpicCreatures | 37 | Custom alpha hunters - boss-tier roaming predators |
-| D_ItemRewards | 37 | Exotic rewards for alpha hunter kills |
+| D_EpicCreatures | 21 | Custom alpha hunters - boss-tier roaming predators that drop exotics |
+| D_ItemRewards | 8 | Bigger boss loot (Alpha Wolf, Scorpion, Hammerhead Slug, Ice Mammoth, Rock Golem, Great Ape, Sandworm) and a richer exotic-creature drop |
 
-### 37 Alpha Hunters
+### 21 Alpha Hunters
 
-Custom boss-tier creatures that roam the world. Each has boosted HP, unique AI, and drops exotic rewards on kill.
+Boss-tier versions of ordinary creatures that roam the world. Each one spawns as a rare variant of a normal creature of its species, with its own names, boosted HP and combat stats, and drops exotics when killed - the same system the game uses for its Exotic-Infused creatures.
 
-| Hunter Name | Creature | HP Boost | Biome |
-|------------|----------|----------|-------|
-| Hunter_Wolf_Forest | Alpha Wolf | Base | Forest |
-| Hunter_Bear_Forest | Bear | Base | Forest |
-| Hunter_Lion_Forest | Jaguar Boss | Base | Forest |
-| Hunter_Jaguar_Forest | Jaguar | +220% | Forest |
-| Hunter_MangeWolf_Forest | Mange Wolf Alpha | +250% | Forest |
-| Hunter_PoisonBear_Forest | Poison Bear | +380% | Forest |
-| Hunter_EnragedLion_Forest | Enraged Lion | +350% | Forest |
-| Hunter_AlphaWolf_Boss | Alpha Wolf Boss | +280% | Forest |
-| Hunter_PolarBear_Arctic | Polar Bear Boss | Base | Arctic |
-| Hunter_Wolf_Arctic | Alpha Snow Wolf | Base | Arctic |
-| Hunter_Mammoth_Arctic | Mammoth | Base | Arctic |
-| Hunter_Mammoth_Boss | Mammoth Boss | +550% | Arctic |
-| Hunter_IceMammoth | Ice Mammoth Boss | +600% | Arctic |
-| Hunter_IceBreaker_Arctic | IceBreaker | +350% | Arctic |
-| Hunter_Moa_Arctic | Arctic Moa | +300% | Arctic |
-| Hunter_SnowSlug_Arctic | Snow Slug | +300% | Arctic |
-| Hunter_SnowStriker_Arctic | Snow Striker | +280% | Arctic |
-| Hunter_Yeti_Arctic | Yeti | +500% | Arctic |
-| Hunter_PolarBear_Roaming | Polar Bear | +380% | Arctic |
-| Hunter_Scorpion_Desert | Armored Scorpion | Base | Desert |
-| Hunter_Hyena_Desert | Alpha Desert Wolf | Base | Desert |
-| Hunter_Sandworm_Desert | Sandworm | +600% | Desert |
-| Hunter_DesertWolf_Desert | Desert Wolf | +280% | Desert |
-| Hunter_Scorpion_Enraged | Enraged Scorpion | +350% | Desert |
-| Hunter_SandwyrmQueen_Desert | Sandwyrm Queen | +700% | Desert |
-| Hunter_Rockdog_Volcanic | Rock Dog | Base | Volcanic |
-| Hunter_BatDog_Volcanic | Bat Dog | Base | Volcanic |
-| Hunter_RockGolem | Rock Golem | +700% | Volcanic |
-| Hunter_RockGolemJr | Juvenile Rock Golem | +400% | Volcanic |
-| Hunter_Crocodile_Swamp | Crocodile | Base | Swamp |
-| Hunter_Needler_Swamp | Needler | Base | Swamp |
-| Hunter_Landshark_Swamp | Landshark | +500% | Swamp |
-| Hunter_Landshark_Norex | Landshark Norex | +550% | Swamp |
-| Hunter_HammerheadSlug_Swamp | Hammerhead Slug | +450% | Swamp |
-| Hunter_GreatApe | Great Ape | +450% | Various |
-| Hunter_Abomination | Irradiated Abomination | +600% | Various |
-| Hunter_RadiationBoss | Radiation Boss | +550% | Various |
+| Hunter | In-game names | Spawns as | HP | Zones |
+|--------|---------------|-----------|----|-------|
+| Hunter_Wolf_Forest | Feral Packmaster, Bloodfang Alpha, Shadow Stalker | Wolf | +250% | 15 |
+| Hunter_Bear_Forest | Ironhide Mauler, Grizzled Titan, Forest Warden | Bear | +350% | 15 |
+| Hunter_Lion_Forest | Apex Prowler, Silent Killer | Jaguar / Cougar | +350% | 29 |
+| Hunter_PolarBear_Arctic | Frostbitten Juggernaut, Glacial Devastator, Winterborn Titan | Polar Bear | +500% | 14 |
+| Hunter_Wolf_Arctic | Blizzard Fang, Icevein Predator, Howling Wraith | Snow Leopard / Snow Wolf | +250% | 32 |
+| Hunter_Mammoth_Arctic | Tundra Colossus, Permafrost Behemoth | Woolly Mammoth | +500% | 7 |
+| Hunter_Scorpion_Desert | Venomspine Patriarch, Deathsting Overlord | Scorpion | +350% | 15 |
+| Hunter_Hyena_Desert | Sandstorm Ravager, Dune Shredder | Hyena | +250% | 14 |
+| Hunter_Rockdog_Volcanic | Magma Hound, Obsidian Ravager | Stonejaw | +250% | 29 |
+| Hunter_BatDog_Volcanic | Ashen Terror, Sulfur Fiend | Drac | +250% | 51 |
+| Hunter_Crocodile_Swamp | Bog Horror, Deathmaw Lurker | Crocodile | +250% | 11 |
+| Hunter_Needler_Swamp | Thornspine Matriarch, Quillbeast Prime | Needler | +250% | 23 |
+| Hunter_Mammoth_Boss | Tuskbreaker, Thunderhoof, Bonecrush | Woolly Mammoth | +500% | 3 |
+| Hunter_Moa_Arctic | Frost Matriarch, Blizzard Runner, Tundra Stalker | Arctic Moa | +250% | 3 |
+| Hunter_DesertWolf_Desert | Dune Howler, Sand Phantom, Mirage Hunter | Hyena | +250% | 3 |
+| Hunter_EnragedLion_Forest | Rage Fang, Blood Stalker, Fury | Cougar | +350% | 3 |
+| Hunter_Scorpion_Enraged | Venomspine, Death Sting, Barb Lord | Scorpion | +350% | 3 |
+| Hunter_SnowStriker_Arctic | Blizzard Claw, Ice Reaper, Frozen Fury | Snow Stalker | +250% | 3 |
+| Hunter_Yeti_Arctic | Mountain Terror, Abominable, Peak Predator | Frostfoot | +500% | 3 |
+| Hunter_Jaguar_Forest | Night Prowler, Jungle Phantom, Silent Killer | Jaguar | +250% | 3 |
+| Hunter_PolarBear_Roaming | Frost Maul, Tundra Fury, Iceclaw | Polar Bear | +500% | 3 |
 
 ### Weather System (NEW in v1.16, tuned in v2.0)
 | Table | Entries | Description |
@@ -109,7 +93,7 @@ Custom boss-tier creatures that roam the world. Each has boosted HP, unique AI, 
 |-------|---------|-------------|
 | D_Decayable | 33 | Accelerated food spoilage |
 | D_Combustible | 4 | Modified fire behavior |
-| D_ExperienceEvents | 166 | XP rebalance across activities |
+| D_ExperienceEvents | 162 | XP rebalance across activities |
 
 ### Difficulty Tiers
 | Table | Entries | Description |
@@ -141,6 +125,14 @@ Custom boss-tier creatures that roam the world. Each has boosted HP, unique AI, 
 For the full hardcore experience and the hardest gameplay possible, install **Creature_Difficulty_Scaling (CDS) v2.2+** alongside this mod. CDS adds level-500 spawn zone scaling, per-player-level stat scaling rules, and tame/mount survival buffs so your pets can actually hold up against HRP's tougher creatures. Running HRP + CDS together delivers the most punishing Icarus experience possible — see the v1.18 changelog for overlap details.
 
 ## Changelog
+
+### v2.2 (2026-11-07)
+**Alpha hunters rebuilt for the November 2026 game data.**
+- **9 more hunters now spawn:** Moa, Hyena, Cougar, Scorpion, Snow Stalker, Frostfoot, Jaguar and Polar Bear hunters, plus the Mammoth Boss hunter. v1.14 gave them spawn rows built from fields `D_AISpawnZones` does not have (`EpicCreature`, `SpawnBiome`, `MaxSpawnCount`, `RespawnTime`, `SpawnChance`), so they never appeared. They now spawn the way the original 12 hunters and the game's own epic creatures do: as a rare (weight 1) variant of a normal creature of their species, in up to 3 zones each, Hard tiers first.
+- **Every hunter now drops exotics on kill,** using the same two stats as the game's Exotic-Infused creatures (`ExoticRewardType_Enum` 1, `BasePurpleExoticRewardChance_%` 100).
+- **Removed 16 hunters** whose creature the game only spawns in missions, caves or boss fights, never in the wild: Sandworm, Alpha Wolf Boss, Landshark, Landshark Norex, Rock Golem, Juvenile Rock Golem, Great Ape, Ice Mammoth, IceBreaker, Hammerhead Slug, Mange Wolf, Poison Bear, Snow Slug, Sandwyrm Queen and Irradiated Abomination - plus the Radiation Boss, whose creature no longer exists in the game.
+- **Removed 29 hunter loot tables nothing could reach.** The game picks a creature's loot from its creature type, never from the hunter, so these never dropped. The 25 added in v1.14 also used an invalid `Drops` field and a non-existent `Exotic_Ore` item.
+- **Boss loot:** the Scorpion Boss loot now includes the Chitin the November update added to it (the mod was removing it); the Hammerhead Slug boss no longer lists a canteen that does not exist (`Meta_Canteen_Inaris`); the Rock Golem's shotgun shells use the current item name (`Ammo_Shell_Buckshot`).
 
 ### v2.1 (2026-06-27)
 - Removed 4 stale XP-event references (KillAI / KillSmallAnimal / KillMediumAnimal / Kill_RadiationBoss) that the game replaced with per-creature events.

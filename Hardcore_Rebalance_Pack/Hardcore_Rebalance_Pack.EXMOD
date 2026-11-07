@@ -1,8 +1,8 @@
 {
   "name": "Hardcore Rebalance Pack",
   "author": "AgentKush",
-  "version": "2.1",
-  "description": "v2.1: Removed 4 stale XP-event references (KillAI/KillSmallAnimal/KillMediumAnimal/Kill_RadiationBoss) that the game has since replaced with per-creature events. | For survivors who think Icarus is too easy. 4-tier creature scaling, 37 alpha hunters, rebalanced horde waves, deadly weather, harsher survival. 1438 changes across 17 data tables + 2 blueprint overrides.",
+  "version": "2.2",
+  "description": "v2.2: Rebuilt the alpha hunters for the November 2026 game. 9 more hunters now really spawn - their spawn rows used fields the game does not have, so they never appeared - and all 21 hunters now drop exotics on kill, through the same system as the game's Exotic-Infused creatures. Removed 16 hunters built on mission, cave or boss-fight creatures the game never spawns in the wild (the Radiation Boss no longer exists at all) and 29 hunter loot tables nothing in the game could reach. Boss loot: the Scorpion Boss keeps the Chitin the update added, and a canteen that does not exist and an old shotgun shell name are fixed.",
   "fileName": "Hardcore_Rebalance_Pack",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hardcore_Rebalance_Pack.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hardcore_Rebalance_Pack/README.md",
@@ -919,6 +919,15 @@
                 "EpicCreature": {
                   "Value": "Hunter_Lion_Forest"
                 }
+              },
+              {
+                "AISetup": {
+                  "Value": "Jaguar"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_Jaguar_Forest"
+                }
               }
             ]
           }
@@ -1043,6 +1052,15 @@
                 "EpicCreature": {
                   "Value": "Hunter_Lion_Forest"
                 }
+              },
+              {
+                "AISetup": {
+                  "Value": "Jaguar"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_Jaguar_Forest"
+                }
               }
             ]
           }
@@ -1149,6 +1167,15 @@
                 "EpicCreature": {
                   "Value": "Hunter_Lion_Forest"
                 }
+              },
+              {
+                "AISetup": {
+                  "Value": "Jaguar"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_Jaguar_Forest"
+                }
               }
             ]
           }
@@ -1234,6 +1261,15 @@
                 "SpawnWeight": 1,
                 "EpicCreature": {
                   "Value": "Hunter_Wolf_Arctic"
+                }
+              },
+              {
+                "AISetup": {
+                  "Value": "Arctic_Moa"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_Moa_Arctic"
                 }
               }
             ]
@@ -1323,6 +1359,24 @@
                 "EpicCreature": {
                   "Value": "Hunter_Mammoth_Arctic"
                 }
+              },
+              {
+                "AISetup": {
+                  "Value": "Polar_Bear"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_PolarBear_Roaming"
+                }
+              },
+              {
+                "AISetup": {
+                  "Value": "Mammoth_Arctic"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_Mammoth_Boss"
+                }
               }
             ]
           }
@@ -1347,6 +1401,15 @@
                 "SpawnWeight": 1,
                 "EpicCreature": {
                   "Value": "Hunter_PolarBear_Arctic"
+                }
+              },
+              {
+                "AISetup": {
+                  "Value": "Polar_Bear"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_PolarBear_Roaming"
                 }
               }
             ]
@@ -1461,6 +1524,24 @@
                 "EpicCreature": {
                   "Value": "Hunter_Mammoth_Arctic"
                 }
+              },
+              {
+                "AISetup": {
+                  "Value": "Arctic_Moa"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_Moa_Arctic"
+                }
+              },
+              {
+                "AISetup": {
+                  "Value": "Mammoth_Arctic"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_Mammoth_Boss"
+                }
               }
             ]
           }
@@ -1512,6 +1593,24 @@
                 "SpawnWeight": 1,
                 "EpicCreature": {
                   "Value": "Hunter_Mammoth_Arctic"
+                }
+              },
+              {
+                "AISetup": {
+                  "Value": "Polar_Bear"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_PolarBear_Roaming"
+                }
+              },
+              {
+                "AISetup": {
+                  "Value": "Mammoth_Arctic"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_Mammoth_Boss"
                 }
               }
             ]
@@ -1831,6 +1930,24 @@
                 "EpicCreature": {
                   "Value": "Hunter_Scorpion_Desert"
                 }
+              },
+              {
+                "AISetup": {
+                  "Value": "Desert_Wolf"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_DesertWolf_Desert"
+                }
+              },
+              {
+                "AISetup": {
+                  "Value": "Lion_F"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_EnragedLion_Forest"
+                }
               }
             ]
           }
@@ -1954,6 +2071,24 @@
                 "SpawnWeight": 1,
                 "EpicCreature": {
                   "Value": "Hunter_Scorpion_Desert"
+                }
+              },
+              {
+                "AISetup": {
+                  "Value": "Desert_Wolf"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_DesertWolf_Desert"
+                }
+              },
+              {
+                "AISetup": {
+                  "Value": "Scorpion"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_Scorpion_Enraged"
                 }
               }
             ]
@@ -2325,6 +2460,24 @@
                 "EpicCreature": {
                   "Value": "Hunter_Scorpion_Desert"
                 }
+              },
+              {
+                "AISetup": {
+                  "Value": "Desert_Wolf"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_DesertWolf_Desert"
+                }
+              },
+              {
+                "AISetup": {
+                  "Value": "Scorpion"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_Scorpion_Enraged"
+                }
               }
             ]
           }
@@ -2458,6 +2611,24 @@
                 "EpicCreature": {
                   "Value": "Hunter_Scorpion_Desert"
                 }
+              },
+              {
+                "AISetup": {
+                  "Value": "Lion_F"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_EnragedLion_Forest"
+                }
+              },
+              {
+                "AISetup": {
+                  "Value": "Scorpion"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_Scorpion_Enraged"
+                }
               }
             ]
           }
@@ -2536,6 +2707,15 @@
                 "SpawnWeight": 1,
                 "EpicCreature": {
                   "Value": "Hunter_Lion_Forest"
+                }
+              },
+              {
+                "AISetup": {
+                  "Value": "Lion_F"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_EnragedLion_Forest"
                 }
               }
             ]
@@ -5055,6 +5235,15 @@
                 "EpicCreature": {
                   "Value": "Hunter_Wolf_Arctic"
                 }
+              },
+              {
+                "AISetup": {
+                  "Value": "Arctic_Moa"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_Moa_Arctic"
+                }
               }
             ]
           }
@@ -5353,6 +5542,15 @@
                 "EpicCreature": {
                   "Value": "Hunter_Wolf_Arctic"
                 }
+              },
+              {
+                "AISetup": {
+                  "Value": "Snow_Striker"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_SnowStriker_Arctic"
+                }
               }
             ]
           }
@@ -5414,6 +5612,15 @@
                 "EpicCreature": {
                   "Value": "Hunter_Wolf_Arctic"
                 }
+              },
+              {
+                "AISetup": {
+                  "Value": "Snow_Striker"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_SnowStriker_Arctic"
+                }
               }
             ]
           }
@@ -5474,6 +5681,15 @@
                 "SpawnWeight": 1,
                 "EpicCreature": {
                   "Value": "Hunter_Wolf_Arctic"
+                }
+              },
+              {
+                "AISetup": {
+                  "Value": "Snow_Striker"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_SnowStriker_Arctic"
                 }
               }
             ]
@@ -11579,6 +11795,15 @@
                 "EpicCreature": {
                   "Value": "Hunter_Mammoth_Arctic"
                 }
+              },
+              {
+                "AISetup": {
+                  "Value": "Yeti"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_Yeti_Arctic"
+                }
               }
             ]
           }
@@ -11755,6 +11980,15 @@
                 "EpicCreature": {
                   "Value": "Hunter_Wolf_Arctic"
                 }
+              },
+              {
+                "AISetup": {
+                  "Value": "Yeti"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_Yeti_Arctic"
+                }
               }
             ]
           }
@@ -11894,6 +12128,15 @@
                 "SpawnWeight": 150,
                 "EpicCreature": {
                   "Value": "None"
+                }
+              },
+              {
+                "AISetup": {
+                  "Value": "Yeti"
+                },
+                "SpawnWeight": 1,
+                "EpicCreature": {
+                  "Value": "Hunter_Yeti_Arctic"
                 }
               }
             ]
@@ -13215,281 +13458,6 @@
           "MinLevel": 80,
           "MedianLevel": 90,
           "MaxLevel": 110
-        },
-        {
-          "Name": "Hunter_Mammoth_Boss_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_Mammoth_Boss",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Arctic",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_Sandworm_Desert_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_Sandworm_Desert",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Desert",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_AlphaWolf_Boss_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_AlphaWolf_Boss",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Forest",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_Landshark_Swamp_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_Landshark_Swamp",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Swamp",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_Landshark_Norex_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_Landshark_Norex",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Swamp",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_RockGolem_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_RockGolem",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Arctic",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_RockGolemJr_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_RockGolemJr",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Forest",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_GreatApe_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_GreatApe",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Forest",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_IceMammoth_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_IceMammoth",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Arctic",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_IceBreaker_Arctic_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_IceBreaker_Arctic",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Arctic",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_HammerheadSlug_Swamp_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_HammerheadSlug_Swamp",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Swamp",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_Moa_Arctic_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_Moa_Arctic",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Arctic",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_MangeWolf_Forest_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_MangeWolf_Forest",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Forest",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_DesertWolf_Desert_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_DesertWolf_Desert",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Desert",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_PoisonBear_Forest_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_PoisonBear_Forest",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Forest",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_EnragedLion_Forest_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_EnragedLion_Forest",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Forest",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_Scorpion_Enraged_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_Scorpion_Enraged",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Desert",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_SnowSlug_Arctic_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_SnowSlug_Arctic",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Arctic",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_SnowStriker_Arctic_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_SnowStriker_Arctic",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Arctic",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_Yeti_Arctic_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_Yeti_Arctic",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Arctic",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_SandwyrmQueen_Desert_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_SandwyrmQueen_Desert",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Desert",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_Abomination_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_Abomination",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Swamp",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_RadiationBoss_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_RadiationBoss",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Volcanic",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_Jaguar_Forest_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_Jaguar_Forest",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Forest",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
-        },
-        {
-          "Name": "Hunter_PolarBear_Roaming_Zone1",
-          "EpicCreature": {
-            "RowName": "Hunter_PolarBear_Roaming",
-            "DataTableName": "D_EpicCreatures"
-          },
-          "SpawnBiome": "Arctic",
-          "MaxSpawnCount": 1,
-          "RespawnTime": 1800,
-          "SpawnChance": 0.15
         }
       ]
     },
@@ -48737,7 +48705,9 @@
             "(Value=\"BaseMovementSpeed_+%\")": 15,
             "(Value=\"BaseAttacksCauseHemorrhage_%\")": 20,
             "(Value=\"BaseCreatureSize_+%\")": 25,
-            "(Value=\"BaseHealthRegen_+%\")": 15
+            "(Value=\"BaseHealthRegen_+%\")": 15,
+            "(Value=\"ExoticRewardType_Enum\")": 1,
+            "(Value=\"BasePurpleExoticRewardChance_%\")": 100
           }
         },
         {
@@ -48757,7 +48727,9 @@
             "(Value=\"BasePhysicalDamageResistance_%\")": 20,
             "(Value=\"BaseCreatureSize_+%\")": 30,
             "(Value=\"BaseHealthRegen_+%\")": 20,
-            "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 25
+            "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 25,
+            "(Value=\"ExoticRewardType_Enum\")": 1,
+            "(Value=\"BasePurpleExoticRewardChance_%\")": 100
           }
         },
         {
@@ -48775,7 +48747,9 @@
             "(Value=\"BaseMeleeDamage_+%\")": 55,
             "(Value=\"BaseMovementSpeed_+%\")": 20,
             "(Value=\"BaseAttacksCauseBleed_%\")": 30,
-            "(Value=\"BaseCreatureSize_+%\")": 20
+            "(Value=\"BaseCreatureSize_+%\")": 20,
+            "(Value=\"ExoticRewardType_Enum\")": 1,
+            "(Value=\"BasePurpleExoticRewardChance_%\")": 100
           }
         },
         {
@@ -48796,7 +48770,9 @@
             "(Value=\"BaseCreatureSize_+%\")": 35,
             "(Value=\"BaseHealthRegen_+%\")": 25,
             "(Value=\"BaseAttacksCauseFreeze_%\")": 15,
-            "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 30
+            "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 30,
+            "(Value=\"ExoticRewardType_Enum\")": 1,
+            "(Value=\"BasePurpleExoticRewardChance_%\")": 100
           }
         },
         {
@@ -48816,7 +48792,9 @@
             "(Value=\"BaseMovementSpeed_+%\")": 25,
             "(Value=\"BaseAttacksCauseFreeze_%\")": 20,
             "(Value=\"BaseAttacksCauseHemorrhage_%\")": 15,
-            "(Value=\"BaseCreatureSize_+%\")": 30
+            "(Value=\"BaseCreatureSize_+%\")": 30,
+            "(Value=\"ExoticRewardType_Enum\")": 1,
+            "(Value=\"BasePurpleExoticRewardChance_%\")": 100
           }
         },
         {
@@ -48835,7 +48813,9 @@
             "(Value=\"BasePhysicalDamageResistance_%\")": 35,
             "(Value=\"BaseCreatureSize_+%\")": 25,
             "(Value=\"BaseHealthRegen_+%\")": 30,
-            "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 40
+            "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 40,
+            "(Value=\"ExoticRewardType_Enum\")": 1,
+            "(Value=\"BasePurpleExoticRewardChance_%\")": 100
           }
         },
         {
@@ -48855,7 +48835,9 @@
             "(Value=\"BaseAttacksCausePoisonSting_%\")": 50,
             "(Value=\"BaseAttacksCauseSlow_%\")": 20,
             "(Value=\"BaseCreatureSize_+%\")": 40,
-            "(Value=\"BaseHealthRegen_+%\")": 20
+            "(Value=\"BaseHealthRegen_+%\")": 20,
+            "(Value=\"ExoticRewardType_Enum\")": 1,
+            "(Value=\"BasePurpleExoticRewardChance_%\")": 100
           }
         },
         {
@@ -48874,7 +48856,9 @@
             "(Value=\"BaseMovementSpeed_+%\")": 30,
             "(Value=\"BaseAttacksCauseHemorrhage_%\")": 25,
             "(Value=\"BaseProjectileDamageResistance_%\")": 25,
-            "(Value=\"BaseCreatureSize_+%\")": 35
+            "(Value=\"BaseCreatureSize_+%\")": 35,
+            "(Value=\"ExoticRewardType_Enum\")": 1,
+            "(Value=\"BasePurpleExoticRewardChance_%\")": 100
           }
         },
         {
@@ -48892,7 +48876,9 @@
             "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BasePhysicalDamageResistance_%\")": 25,
             "(Value=\"BaseCreatureSize_+%\")": 30,
-            "(Value=\"BaseHealthRegen_+%\")": 20
+            "(Value=\"BaseHealthRegen_+%\")": 20,
+            "(Value=\"ExoticRewardType_Enum\")": 1,
+            "(Value=\"BasePurpleExoticRewardChance_%\")": 100
           }
         },
         {
@@ -48910,7 +48896,9 @@
             "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseMovementSpeed_+%\")": 25,
             "(Value=\"BaseAttacksCauseBleed_%\")": 30,
-            "(Value=\"BaseCreatureSize_+%\")": 25
+            "(Value=\"BaseCreatureSize_+%\")": 25,
+            "(Value=\"ExoticRewardType_Enum\")": 1,
+            "(Value=\"BasePurpleExoticRewardChance_%\")": 100
           }
         },
         {
@@ -48928,7 +48916,9 @@
             "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BasePhysicalDamageResistance_%\")": 30,
             "(Value=\"BaseCreatureSize_+%\")": 35,
-            "(Value=\"BaseAttacksCauseWound_%\")": 25
+            "(Value=\"BaseAttacksCauseWound_%\")": 25,
+            "(Value=\"ExoticRewardType_Enum\")": 1,
+            "(Value=\"BasePurpleExoticRewardChance_%\")": 100
           }
         },
         {
@@ -48946,7 +48936,9 @@
             "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseProjectileDamage_+%\")": 40,
             "(Value=\"BaseCreatureSize_+%\")": 25,
-            "(Value=\"BaseAttacksCauseDeepWound_%\")": 30
+            "(Value=\"BaseAttacksCauseDeepWound_%\")": 30,
+            "(Value=\"ExoticRewardType_Enum\")": 1,
+            "(Value=\"BasePurpleExoticRewardChance_%\")": 100
           }
         },
         {
@@ -48967,219 +48959,9 @@
             "(Value=\"BasePhysicalDamageResistance_%\")": 40,
             "(Value=\"BaseCreatureSize_+%\")": 30,
             "(Value=\"BaseHealthRegen_+%\")": 35,
-            "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 45
-          }
-        },
-        {
-          "Name": "Hunter_Sandworm_Desert",
-          "CreatureNames": [
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_Sandworm_Desert-CreatureNames-0\", \"Dune Devourer\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_Sandworm_Desert-CreatureNames-1\", \"Sand Wraith\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_Sandworm_Desert-CreatureNames-2\", \"Dust Leviathan\")"
-          ],
-          "AISetup": {
-            "RowName": "SandWorm",
-            "DataTableName": "D_AISetup"
-          },
-          "AdditionalStats": {
-            "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 500,
-            "(Value=\"BaseMeleeDamage_+%\")": 80,
-            "(Value=\"BaseCreatureSize_+%\")": 20,
-            "(Value=\"BaseSandWormInitialDetectionRadius_+\")": 8000,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 30
-          }
-        },
-        {
-          "Name": "Hunter_AlphaWolf_Boss",
-          "CreatureNames": [
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_AlphaWolf_Boss-CreatureNames-0\", \"Fang Lord\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_AlphaWolf_Boss-CreatureNames-1\", \"Howling Death\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_AlphaWolf_Boss-CreatureNames-2\", \"Shadow Stalker\")"
-          ],
-          "AISetup": {
-            "RowName": "Alpha_Wolf_Boss",
-            "DataTableName": "D_AISetup"
-          },
-          "AdditionalStats": {
-            "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 250,
-            "(Value=\"BaseMeleeDamage_+%\")": 40,
-            "(Value=\"BaseMovementSpeed_+%\")": 30,
-            "(Value=\"BaseAttacksCauseHemorrhage_%\")": 35,
-            "(Value=\"BaseCreatureSize_+%\")": 30,
-            "(Value=\"BaseHealthRegen_+%\")": 20
-          }
-        },
-        {
-          "Name": "Hunter_Landshark_Swamp",
-          "CreatureNames": [
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_Landshark_Swamp-CreatureNames-0\", \"Mire Ripper\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_Landshark_Swamp-CreatureNames-1\", \"Bog Terror\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_Landshark_Swamp-CreatureNames-2\", \"Swamp King\")"
-          ],
-          "AISetup": {
-            "RowName": "LandShark",
-            "DataTableName": "D_AISetup"
-          },
-          "AdditionalStats": {
-            "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 250,
-            "(Value=\"BaseMeleeDamage_+%\")": 40,
-            "(Value=\"BaseProjectileDamageResistance_%\")": 75,
-            "(Value=\"BaseProjectileDamage_+%\")": 20,
-            "(Value=\"BaseCreatureSize_+%\")": 30,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 25,
-            "(Value=\"BaseAttacksCauseWound_%\")": 30
-          }
-        },
-        {
-          "Name": "Hunter_Landshark_Norex",
-          "CreatureNames": [
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_Landshark_Norex-CreatureNames-0\", \"Norex Dreadmaw\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_Landshark_Norex-CreatureNames-1\", \"Overgrown Terror\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_Landshark_Norex-CreatureNames-2\", \"Thornback\")"
-          ],
-          "AISetup": {
-            "RowName": "LandShark_Norex",
-            "DataTableName": "D_AISetup"
-          },
-          "AdditionalStats": {
-            "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 250,
-            "(Value=\"BaseMeleeDamage_+%\")": 40,
-            "(Value=\"BaseProjectileDamageResistance_%\")": 80,
-            "(Value=\"BaseProjectileDamage_+%\")": 25,
-            "(Value=\"BaseCreatureSize_+%\")": 35,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 30,
-            "(Value=\"BaseAttacksCauseDeepWound_%\")": 25
-          }
-        },
-        {
-          "Name": "Hunter_RockGolem",
-          "CreatureNames": [
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_RockGolem-CreatureNames-0\", \"Stonecrusher\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_RockGolem-CreatureNames-1\", \"Granite Titan\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_RockGolem-CreatureNames-2\", \"Iron Peak\")"
-          ],
-          "AISetup": {
-            "RowName": "RockGolem",
-            "DataTableName": "D_AISetup"
-          },
-          "AdditionalStats": {
-            "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 250,
-            "(Value=\"BaseMeleeDamage_+%\")": 40,
-            "(Value=\"BaseMaximumArmor_+%\")": 150,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 50,
-            "(Value=\"BaseCreatureSize_+%\")": 25,
-            "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 50
-          }
-        },
-        {
-          "Name": "Hunter_RockGolemJr",
-          "CreatureNames": [
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_RockGolemJr-CreatureNames-0\", \"Pebbleclaw\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_RockGolemJr-CreatureNames-1\", \"Scree Runner\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_RockGolemJr-CreatureNames-2\", \"Shard\")"
-          ],
-          "AISetup": {
-            "RowName": "Juvenile_Rock_Golem",
-            "DataTableName": "D_AISetup"
-          },
-          "AdditionalStats": {
-            "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 250,
-            "(Value=\"BaseMeleeDamage_+%\")": 40,
-            "(Value=\"BaseMaximumArmor_+%\")": 100,
-            "(Value=\"BaseCreatureSize_+%\")": 30,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 35,
-            "(Value=\"BaseMovementSpeed_+%\")": 15
-          }
-        },
-        {
-          "Name": "Hunter_GreatApe",
-          "CreatureNames": [
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_GreatApe-CreatureNames-0\", \"Silverback\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_GreatApe-CreatureNames-1\", \"Jungle Wrath\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_GreatApe-CreatureNames-2\", \"Primal Fury\")"
-          ],
-          "AISetup": {
-            "RowName": "Ape",
-            "DataTableName": "D_AISetup"
-          },
-          "AdditionalStats": {
-            "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 250,
-            "(Value=\"BaseMeleeDamage_+%\")": 40,
-            "(Value=\"BaseMovementSpeed_+%\")": 20,
-            "(Value=\"BaseCreatureSize_+%\")": 30,
-            "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 35,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 25
-          }
-        },
-        {
-          "Name": "Hunter_IceMammoth",
-          "CreatureNames": [
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_IceMammoth-CreatureNames-0\", \"Frosthorn\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_IceMammoth-CreatureNames-1\", \"Glacier Breaker\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_IceMammoth-CreatureNames-2\", \"Permafrost\")"
-          ],
-          "AISetup": {
-            "RowName": "Ice_Mammoth_Boss",
-            "DataTableName": "D_AISetup"
-          },
-          "AdditionalStats": {
-            "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 500,
-            "(Value=\"BaseMeleeDamage_+%\")": 80,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
-            "(Value=\"BaseCreatureSize_+%\")": 30,
-            "(Value=\"BaseAttacksCauseFreeze_%\")": 30,
-            "(Value=\"BaseHealthRegen_+%\")": 30,
-            "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 40
-          }
-        },
-        {
-          "Name": "Hunter_IceBreaker_Arctic",
-          "CreatureNames": [
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_IceBreaker_Arctic-CreatureNames-0\", \"Glacial Fury\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_IceBreaker_Arctic-CreatureNames-1\", \"Rime Claw\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_IceBreaker_Arctic-CreatureNames-2\", \"Snowblind\")"
-          ],
-          "AISetup": {
-            "RowName": "IceBreaker",
-            "DataTableName": "D_AISetup"
-          },
-          "AdditionalStats": {
-            "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 250,
-            "(Value=\"BaseMeleeDamage_+%\")": 40,
-            "(Value=\"BaseMovementSpeed_+%\")": 20,
-            "(Value=\"BaseAttacksCauseFreeze_%\")": 25,
-            "(Value=\"BaseCreatureSize_+%\")": 25,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 20
-          }
-        },
-        {
-          "Name": "Hunter_HammerheadSlug_Swamp",
-          "CreatureNames": [
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_HammerheadSlug_Swamp-CreatureNames-0\", \"Sludgehammer\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_HammerheadSlug_Swamp-CreatureNames-1\", \"Bile Titan\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_HammerheadSlug_Swamp-CreatureNames-2\", \"Ooze Lord\")"
-          ],
-          "AISetup": {
-            "RowName": "Hammerhead_Slug_Large",
-            "DataTableName": "D_AISetup"
-          },
-          "AdditionalStats": {
-            "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 250,
-            "(Value=\"BaseMeleeDamage_+%\")": 40,
-            "(Value=\"BaseCreatureSize_+%\")": 30,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 35,
-            "(Value=\"BaseAttacksCausePoisonSting_%\")": 40,
-            "(Value=\"BaseHealthRegen_+%\")": 25
+            "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 45,
+            "(Value=\"ExoticRewardType_Enum\")": 1,
+            "(Value=\"BasePurpleExoticRewardChance_%\")": 100
           }
         },
         {
@@ -49200,28 +48982,9 @@
             "(Value=\"BaseMovementSpeed_+%\")": 30,
             "(Value=\"BaseCreatureSize_+%\")": 25,
             "(Value=\"BaseAttacksCauseFreeze_%\")": 15,
-            "(Value=\"BaseAttacksCauseBleed_%\")": 20
-          }
-        },
-        {
-          "Name": "Hunter_MangeWolf_Forest",
-          "CreatureNames": [
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_MangeWolf_Forest-CreatureNames-0\", \"Plaguerunner\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_MangeWolf_Forest-CreatureNames-1\", \"Rotfang\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_MangeWolf_Forest-CreatureNames-2\", \"Blight Claw\")"
-          ],
-          "AISetup": {
-            "RowName": "Mange_Wolf_Alpha",
-            "DataTableName": "D_AISetup"
-          },
-          "AdditionalStats": {
-            "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 250,
-            "(Value=\"BaseMeleeDamage_+%\")": 40,
-            "(Value=\"BaseMovementSpeed_+%\")": 25,
-            "(Value=\"BaseAttacksCausePoisonSting_%\")": 30,
-            "(Value=\"BaseCreatureSize_+%\")": 20,
-            "(Value=\"BaseAttacksCauseHemorrhage_%\")": 20
+            "(Value=\"BaseAttacksCauseBleed_%\")": 20,
+            "(Value=\"ExoticRewardType_Enum\")": 1,
+            "(Value=\"BasePurpleExoticRewardChance_%\")": 100
           }
         },
         {
@@ -49242,28 +49005,9 @@
             "(Value=\"BaseMovementSpeed_+%\")": 30,
             "(Value=\"BaseAttacksCauseHemorrhage_%\")": 25,
             "(Value=\"BaseProjectileDamageResistance_%\")": 50,
-            "(Value=\"BaseCreatureSize_+%\")": 25
-          }
-        },
-        {
-          "Name": "Hunter_PoisonBear_Forest",
-          "CreatureNames": [
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_PoisonBear_Forest-CreatureNames-0\", \"Toxin\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_PoisonBear_Forest-CreatureNames-1\", \"Venom Maul\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_PoisonBear_Forest-CreatureNames-2\", \"Blight Bear\")"
-          ],
-          "AISetup": {
-            "RowName": "Bear_Poison_Anchored",
-            "DataTableName": "D_AISetup"
-          },
-          "AdditionalStats": {
-            "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 350,
-            "(Value=\"BaseMeleeDamage_+%\")": 55,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 25,
-            "(Value=\"BaseCreatureSize_+%\")": 30,
-            "(Value=\"BaseAttacksCausePoisonSting_%\")": 50,
-            "(Value=\"BaseHealthRegen_+%\")": 25
+            "(Value=\"BaseCreatureSize_+%\")": 25,
+            "(Value=\"ExoticRewardType_Enum\")": 1,
+            "(Value=\"BasePurpleExoticRewardChance_%\")": 100
           }
         },
         {
@@ -49284,7 +49028,9 @@
             "(Value=\"BaseMovementSpeed_+%\")": 25,
             "(Value=\"BaseAttacksCauseBleed_%\")": 40,
             "(Value=\"BaseCreatureSize_+%\")": 25,
-            "(Value=\"BaseAttacksCauseWound_%\")": 20
+            "(Value=\"BaseAttacksCauseWound_%\")": 20,
+            "(Value=\"ExoticRewardType_Enum\")": 1,
+            "(Value=\"BasePurpleExoticRewardChance_%\")": 100
           }
         },
         {
@@ -49305,28 +49051,9 @@
             "(Value=\"BaseAttacksCausePoisonSting_%\")": 60,
             "(Value=\"BaseCreatureSize_+%\")": 35,
             "(Value=\"BaseMovementSpeed_+%\")": 15,
-            "(Value=\"BaseAttacksCauseSlow_%\")": 25
-          }
-        },
-        {
-          "Name": "Hunter_SnowSlug_Arctic",
-          "CreatureNames": [
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_SnowSlug_Arctic-CreatureNames-0\", \"Frost Ooze\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_SnowSlug_Arctic-CreatureNames-1\", \"Glacial Slime\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_SnowSlug_Arctic-CreatureNames-2\", \"Ice Crawler\")"
-          ],
-          "AISetup": {
-            "RowName": "Snow_Slug",
-            "DataTableName": "D_AISetup"
-          },
-          "AdditionalStats": {
-            "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 250,
-            "(Value=\"BaseMeleeDamage_+%\")": 40,
-            "(Value=\"BaseAttacksCauseFreeze_%\")": 30,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 30,
-            "(Value=\"BaseCreatureSize_+%\")": 25,
-            "(Value=\"BaseHealthRegen_+%\")": 20
+            "(Value=\"BaseAttacksCauseSlow_%\")": 25,
+            "(Value=\"ExoticRewardType_Enum\")": 1,
+            "(Value=\"BasePurpleExoticRewardChance_%\")": 100
           }
         },
         {
@@ -49347,7 +49074,9 @@
             "(Value=\"BaseMovementSpeed_+%\")": 30,
             "(Value=\"BaseAttacksCauseFreeze_%\")": 25,
             "(Value=\"BaseCreatureSize_+%\")": 20,
-            "(Value=\"BaseAttacksCauseBleed_%\")": 20
+            "(Value=\"BaseAttacksCauseBleed_%\")": 20,
+            "(Value=\"ExoticRewardType_Enum\")": 1,
+            "(Value=\"BasePurpleExoticRewardChance_%\")": 100
           }
         },
         {
@@ -49369,69 +49098,9 @@
             "(Value=\"BaseCreatureSize_+%\")": 30,
             "(Value=\"BaseAttacksCauseFreeze_%\")": 20,
             "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 40,
-            "(Value=\"BaseHealthRegen_+%\")": 25
-          }
-        },
-        {
-          "Name": "Hunter_SandwyrmQueen_Desert",
-          "CreatureNames": [
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_SandwyrmQueen_Desert-CreatureNames-0\", \"Desert Empress\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_SandwyrmQueen_Desert-CreatureNames-1\", \"Dune Mother\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_SandwyrmQueen_Desert-CreatureNames-2\", \"Sand Sovereign\")"
-          ],
-          "AISetup": {
-            "RowName": "Sandwyrm_Queen",
-            "DataTableName": "D_AISetup"
-          },
-          "AdditionalStats": {
-            "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 500,
-            "(Value=\"BaseMeleeDamage_+%\")": 80,
-            "(Value=\"BaseCreatureSize_+%\")": 25,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 35,
-            "(Value=\"BaseHealthRegen_+%\")": 30
-          }
-        },
-        {
-          "Name": "Hunter_Abomination",
-          "CreatureNames": [
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_Abomination-CreatureNames-0\", \"The Blight\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_Abomination-CreatureNames-1\", \"Irradiated Horror\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_Abomination-CreatureNames-2\", \"Mutant\")"
-          ],
-          "AISetup": {
-            "RowName": "Irradiated_Abomination",
-            "DataTableName": "D_AISetup"
-          },
-          "AdditionalStats": {
-            "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 250,
-            "(Value=\"BaseMeleeDamage_+%\")": 40,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 40,
-            "(Value=\"BaseCreatureSize_+%\")": 35,
-            "(Value=\"BaseHealthRegen_+%\")": 40,
-            "(Value=\"BaseAttacksCausePoisonSting_%\")": 40
-          }
-        },
-        {
-          "Name": "Hunter_RadiationBoss",
-          "CreatureNames": [
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_RadiationBoss-CreatureNames-0\", \"Glow Stalker\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_RadiationBoss-CreatureNames-1\", \"Nuclear Shade\")",
-            "NSLOCTEXT(\"D_EpicCreatures\", \"Hunter_RadiationBoss-CreatureNames-2\", \"Isotope\")"
-          ],
-          "AISetup": {
-            "RowName": "Radiation_Boss",
-            "DataTableName": "D_AISetup"
-          },
-          "AdditionalStats": {
-            "(Value=\"CreatureDisplayBossMapIcon_?\")": 1,
-            "(Value=\"BaseMaximumHealth_+%\")": 250,
-            "(Value=\"BaseMeleeDamage_+%\")": 40,
-            "(Value=\"BasePhysicalDamageResistance_%\")": 35,
-            "(Value=\"BaseCreatureSize_+%\")": 30,
-            "(Value=\"BaseHealthRegen_+%\")": 35,
-            "(Value=\"BaseAttacksCausePoisonSting_%\")": 35
+            "(Value=\"BaseHealthRegen_+%\")": 25,
+            "(Value=\"ExoticRewardType_Enum\")": 1,
+            "(Value=\"BasePurpleExoticRewardChance_%\")": 100
           }
         },
         {
@@ -49451,7 +49120,9 @@
             "(Value=\"BaseMeleeDamage_+%\")": 40,
             "(Value=\"BaseMovementSpeed_+%\")": 25,
             "(Value=\"BaseAttacksCauseBleed_%\")": 35,
-            "(Value=\"BaseCreatureSize_+%\")": 20
+            "(Value=\"BaseCreatureSize_+%\")": 20,
+            "(Value=\"ExoticRewardType_Enum\")": 1,
+            "(Value=\"BasePurpleExoticRewardChance_%\")": 100
           }
         },
         {
@@ -49473,7 +49144,9 @@
             "(Value=\"BaseCreatureSize_+%\")": 30,
             "(Value=\"BaseAttacksCauseFreeze_%\")": 15,
             "(Value=\"BaseAttacksCauseBluntTrauma_%\")": 25,
-            "(Value=\"BaseHealthRegen_+%\")": 20
+            "(Value=\"BaseHealthRegen_+%\")": 20,
+            "(Value=\"ExoticRewardType_Enum\")": 1,
+            "(Value=\"BasePurpleExoticRewardChance_%\")": 100
           }
         }
       ]
@@ -49481,3458 +49154,6 @@
     {
       "CurrentFile": "Items-D_ItemRewards.json",
       "File_Items": [
-        {
-          "Name": "Alpha_Hunter_Loot_Forest",
-          "Rewards": [
-            {
-              "Item": {
-                "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 100,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 7,
-              "MaxRandomStackCount": 22,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Biomass",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 100,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 4,
-              "MaxRandomStackCount": 12,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Condensed_Enzymes",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 75,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 3,
-              "MaxRandomStackCount": 7,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Steel_Pickaxe",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 20,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Steel_Axe",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 20,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Steel_Knife",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 20,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Steel_Spear",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 20,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Platinum_Pickaxe",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 13,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Platinum_Axe",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 13,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Platinum_Knife",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 13,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Longbow",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 17,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Crossbow",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Platinum_Crossbow",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 11,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Ghillie_Chest",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Ghillie_Legs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Ghillie_Head",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Ghillie_Arms",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Ghillie_Feet",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Hunter_Chest",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 11,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Hunter_Legs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 11,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "LegendaryWeapon_Bow",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 4,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "LegendaryWeapon_ApeClub",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 4,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Pickaxe_Printed",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 8,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Axe_Printed",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 8,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Knife_Printed",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 8,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Module_Carry_Weight",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 7,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Module_Animal_Healthbar",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 6,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Survival_Backpack",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 6,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Canteen_Shengong",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 5,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Antipoison_Vaccine_Alpha",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 5,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Repair_Item_Pack",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 7,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Alpha_Hunter_Loot_Arctic",
-          "Rewards": [
-            {
-              "Item": {
-                "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 100,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 15,
-              "MaxRandomStackCount": 37,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Biomass",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 100,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 7,
-              "MaxRandomStackCount": 18,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Condensed_Enzymes",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 100,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 4,
-              "MaxRandomStackCount": 12,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Platinum_Pickaxe",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 17,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Platinum_Axe",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 17,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Platinum_Knife",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 17,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Platinum_Hammer",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Titanium_Axe",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 13,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Titanium_Pickaxe",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 13,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Titanium_Knife",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 13,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Pistol_Handgun",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Ammo_Pistol_Round",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 20,
-              "MaxRandomStackCount": 50,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Rifle_Hunting",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 11,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Ammo_Rifle_Round",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 13,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 15,
-              "MaxRandomStackCount": 30,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Rifle_BoltAction",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 9,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Compound_Bow",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 13,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Fur_Chest",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Fur_Legs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Fur_Head",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Fur_Arms",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Fur_Feet",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Polarbear_Chest_Armor",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 10,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Polarbear_Head_Armor",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 10,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Polarbear_Feet_Armor",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 10,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "LegendaryWeapon_IceMammoth_Sledgehammer",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 4,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "LegendaryWeapon_Black_Wolf_Revolver",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 4,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "LegendaryWeapon_Sniper",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 4,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Module_ColdResist",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 7,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Module_Temperature",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 6,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Module_Extremes",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 5,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Explorers_Backpack",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 5,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Heated_Canteen_Larkwell",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 5,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Oxygen_Tank_Larkwell",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 5,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Antibiotic_Vaccine_Beta",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 5,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Scanner_DeepOre",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 4,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Extractor_Meta",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 3,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Alpha_Hunter_Loot_Desert",
-          "Rewards": [
-            {
-              "Item": {
-                "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 100,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 22,
-              "MaxRandomStackCount": 52,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Biomass",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 100,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 12,
-              "MaxRandomStackCount": 22,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Condensed_Enzymes",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 100,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 7,
-              "MaxRandomStackCount": 15,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Titanium_Axe",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Titanium_Pickaxe",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Titanium_Knife",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Pistol_T3",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 13,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Pistol_T4",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 10,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Rifle_BoltAction",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 13,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Shotgun_T4",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 11,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Rifle_Assault",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 9,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Ammo_Pistol_Round",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 17,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 30,
-              "MaxRandomStackCount": 60,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Ammo_Rifle_Round",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 20,
-              "MaxRandomStackCount": 40,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Ammo_Shotgun_Shell",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 13,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 15,
-              "MaxRandomStackCount": 30,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Obsidian_Chest",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 13,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Obsidian_Legs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 13,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Obsidian_Head",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 13,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Obsidian_Arms",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 13,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Obsidian_Feet",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 13,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Scale_Chest",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 10,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Scale_Legs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 10,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Scale_Head",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 10,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "LegendaryWeapon_Scorpion_Rifle",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 5,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "LegendaryWeapon_LavaHunter_Flamethrower",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 4,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "LegendaryWeapon_GolemGauntlet",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 4,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "LegendaryWeapon_SlugLauncher",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 4,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Module_HeatResist",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 7,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Module_ExposureResist",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 6,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Module_Alpha",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 4,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Tech_Backpack",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 5,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Oxygen_Tank_Larkwell",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 5,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Antibiotic_Vaccine_Charlie",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 4,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Extractor_Meta",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 4,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Scanner_DeepOre",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 4,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Creature_Scanner",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 3,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Dropship_Grenade_Workshop",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 3,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Alpha_Hunter_Loot_Swamp",
-          "Rewards": [
-            {
-              "Item": {
-                "RowName": "Meta_Resource",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 100,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 12,
-              "MaxRandomStackCount": 30,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Biomass",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 100,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 7,
-              "MaxRandomStackCount": 15,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Condensed_Enzymes",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 100,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 6,
-              "MaxRandomStackCount": 12,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Platinum_Pickaxe",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 17,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Platinum_Axe",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 17,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Titanium_Knife",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 13,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Compound_Bow",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Platinum_Crossbow",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Pistol_Handgun",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 13,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Rifle_Hunting",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 11,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Ammo_Pistol_Round",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 20,
-              "MaxRandomStackCount": 40,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Hunter_Chest",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Hunter_Legs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Hunter_Head",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Hunter_Arms",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Hunter_Feet",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 15,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "CavewormScale_Chest",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 10,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "CavewormScale_Legs",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 10,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "LegendaryWeapon_Sandworm_Crossbow",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 4,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "LegendaryWeapon_Bow",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 4,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Module_Poison_Resistance",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 7,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Module_Consumption",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 6,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Module_Wounds",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 6,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Medic_Backpack",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 5,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Canteen_Inaris",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 5,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Antiparasitic_Vaccine_Alpha",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 6,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Antipoison_Vaccine_Beta",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 5,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Oxygen_Tank_Shengong",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 4,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Radar_Meta",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 4,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            }
-          ]
-        },
         {
           "Name": "AlphaWolfBoss_Loot",
           "Rewards": [
@@ -53536,6 +49757,32 @@
               },
               "StackMultiplicativeStat": {
                 "RowName": "None",
+                "DataTableName": "D_Stats"
+              }
+            },
+            {
+              "Item": {
+                "RowName": "Chitin",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "DropChance": 100,
+              "DropChanceAdditiveStat": {
+                "RowName": "None",
+                "DataTableName": "D_Stats"
+              },
+              "RequiredStatToDrop": {
+                "RowName": "None",
+                "DataTableName": "D_Stats"
+              },
+              "MinRandomStackCount": 4,
+              "MaxRandomStackCount": 10,
+              "bRewardsScale": true,
+              "StackAdditiveStat": {
+                "RowName": "None",
+                "DataTableName": "D_Stats"
+              },
+              "StackMultiplicativeStat": {
+                "RowName": "ChitinHarvestedFromAnimals_+%",
                 "DataTableName": "D_Stats"
               }
             },
@@ -54301,32 +50548,6 @@
             {
               "Item": {
                 "RowName": "Mining_Backpack",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "DropChance": 5,
-              "DropChanceAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "RequiredStatToDrop": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "MinRandomStackCount": 1,
-              "MaxRandomStackCount": 1,
-              "bRewardsScale": false,
-              "StackAdditiveStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              },
-              "StackMultiplicativeStat": {
-                "RowName": "None",
-                "DataTableName": "D_Stats"
-              }
-            },
-            {
-              "Item": {
-                "RowName": "Meta_Canteen_Inaris",
                 "DataTableName": "D_ItemTemplate"
               },
               "DropChance": 5,
@@ -55298,7 +51519,7 @@
             },
             {
               "Item": {
-                "RowName": "Ammo_Shotgun_Shell",
+                "RowName": "Ammo_Shell_Buckshot",
                 "DataTableName": "D_ItemTemplate"
               },
               "DropChance": 10,
@@ -56688,831 +52909,6 @@
                 "RowName": "None",
                 "DataTableName": "D_Stats"
               }
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_Mammoth_Boss",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_Sandworm_Desert",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_AlphaWolf_Boss",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_Landshark_Swamp",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_Landshark_Norex",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_RockGolem",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_RockGolemJr",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_GreatApe",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_IceMammoth",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_IceBreaker_Arctic",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_HammerheadSlug_Swamp",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_Moa_Arctic",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_MangeWolf_Forest",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_DesertWolf_Desert",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_PoisonBear_Forest",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_EnragedLion_Forest",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_Scorpion_Enraged",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_SnowSlug_Arctic",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_SnowStriker_Arctic",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_Yeti_Arctic",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_SandwyrmQueen_Desert",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_Abomination",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_RadiationBoss",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_Jaguar_Forest",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
-            }
-          ]
-        },
-        {
-          "Name": "Hunter_PolarBear_Roaming",
-          "Drops": [
-            {
-              "RowName": "Fur",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 5,
-              "MaxCount": 15
-            },
-            {
-              "RowName": "Bone",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 1.0,
-              "MinCount": 3,
-              "MaxCount": 10
-            },
-            {
-              "RowName": "Leather",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.8,
-              "MinCount": 3,
-              "MaxCount": 8
-            },
-            {
-              "RowName": "Exotic_Ore",
-              "DataTableName": "D_ItemTemplate",
-              "DropChance": 0.25,
-              "MinCount": 1,
-              "MaxCount": 3
             }
           ]
         }

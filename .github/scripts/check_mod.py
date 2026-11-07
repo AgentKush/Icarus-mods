@@ -281,7 +281,8 @@ def check_docs(mod_dir: Path, ver: str) -> list[str]:
         m = re.search(r"^Mod Version:\s*(\S+)", t, re.M)
         if not m or m.group(1) != str(ver):
             issues.append(f"{txt.name} says Mod Version {m.group(1) if m else '(none)'}, EXMOD says {ver}")
-        if not re.search(rf"^Ver\s+{v}\b", t, re.M):
+        # "Ver 2.3" headings, or the indented "  v2.1 - ..." list some mods use
+        if not re.search(rf"^Ver\s+{v}\b|^\s*v{v}\s*[-:]", t, re.M):
             issues.append(f"{txt.name} has no 'Ver {ver}' changelog entry")
     root = (REPO / "README.md").read_text(encoding="utf-8", errors="replace")
     m = re.search(rf"\]\({re.escape(mod_dir.name)}\)\s*\|\s*`([^`]*)`", root)
