@@ -244,7 +244,7 @@
     {
       "name": "Waste Not",
       "author": "CritFail (Updated by AgentKush)",
-      "version": "2.2",
+      "version": "2.3",
       "compatibility": "All",
       "description": "Mining yields useful secondary resources instead of Stone. Normal ores give bonus of the same type, dense metal ores drop Exotics. Coal gives Charcoal, Ice gives Oxite. Covers all 33 mineable deposit types.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Waste_Not.png",

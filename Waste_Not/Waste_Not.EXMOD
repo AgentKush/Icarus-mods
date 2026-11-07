@@ -1,8 +1,8 @@
 {
   "name": "Waste Not",
   "author": "CritFail (Updated by AgentKush)",
-  "version": "2.2",
-  "description": "Mining yields useful secondary resources instead of Stone.",
+  "version": "2.3",
+  "description": "v2.3: Fixed Dense Stone - it was changing the main yield to Silica, so the game's main stone deposit stopped giving stone, instead of the bonus yield; it now gives Stone with Silica as the bonus, like Normal Stone. Removed an unlisted change that made random-resource deposits give Stone. Mining yields useful secondary resources instead of Stone across 26 of the game's 33 mineable deposit types.",
   "fileName": "Waste_Not",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Waste_Not.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Waste_Not/README.md",
@@ -14,7 +14,7 @@
       "File_Items": [
         {
           "Name": "Stone_Dense",
-          "ResourceType": {
+          "SecondaryResourceType": {
             "RowName": "Silica"
           }
         },
@@ -190,12 +190,6 @@
           "Name": "Limestone_Normal",
           "ResourceType": {
             "RowName": "Limestone"
-          }
-        },
-        {
-          "Name": "Random_Normal",
-          "ResourceType": {
-            "RowName": "Stone"
           }
         },
         {
