@@ -2,12 +2,12 @@
 
 # Agents Individual Item Kits
 
-[![Version](https://img.shields.io/badge/v5.4-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v5.5-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
-2,712 individual item kits with real game icons across 20 categorized workshop tabs. Fair pricing based on complexity (5-300 credits).
+2,728 individual item kits with real game icons across 20 categorized workshop tabs. Fair pricing based on complexity (5-300 credits).
 
 Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
 
@@ -17,11 +17,11 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 
 ## Overview
 
-A comprehensive Workshop expansion featuring 2,712 individual item kits, each with its real in-game icon and organized into 20 dedicated workshop tabs. Every kit contains a single item, enabling precise inventory management and eliminating the need to craft items from scratch.
+A comprehensive Workshop expansion featuring 2,728 individual item kits, each with its real in-game icon and organized into 20 dedicated workshop tabs. Every kit contains a single item, enabling precise inventory management and eliminating the need to craft items from scratch.
 
 ## Features
 
-- **2,712 Individual Items** - Every craftable item and raw material available separately
+- **2,728 Individual Items** - Every craftable item and raw material available separately
 - **Real Game Icons** - Each kit displays its actual in-game item icon for easy identification
 - **20 Workshop Tabs** - Items sorted into logical categories (Armor, Weapons, Building, Food, etc.)
 - **Armor Sorted by Slot** - Head → Chest → Arms → Legs → Feet per set for clean mix-and-match
@@ -57,16 +57,16 @@ On a dedicated server it is the server, not your PC, that builds the items you o
 
 | Category | Items | Category | Items |
 |----------|-------|----------|-------|
-| Raw Resources | 124 | Shields | 10 |
-| Refined Materials | 69 | Armor | 201 |
+| Raw Resources | 123 | Shields | 10 |
+| Refined Materials | 71 | Armor | 201 |
 | Seeds | 51 | Attachments | 195 |
-| Food | 329 | Tools | 105 |
-| Drinks & Medicine | 117 | Gear | 28 |
-| Melee Weapons | 100 | Building Pieces | 279 |
-| Bows & Crossbows | 25 | Crafting Stations | 133 |
-| Firearms | 26 | Deployables | 315 |
-| Ammunition | 110 | Lighting | 53 |
-| Explosives | 25 | Trophies & Decor | 417 |
+| Food | 329 | Tools | 108 |
+| Drinks & Medicine | 115 | Gear | 28 |
+| Melee Weapons | 99 | Building Pieces | 279 |
+| Bows & Crossbows | 25 | Crafting Stations | 135 |
+| Firearms | 26 | Deployables | 328 |
+| Ammunition | 108 | Lighting | 53 |
+| Explosives | 25 | Trophies & Decor | 419 |
 
 ## Pricing Structure
 
@@ -81,21 +81,21 @@ On a dedicated server it is the server, not your PC, that builds the items you o
 
 | Metric | Value |
 |--------|-------|
-| Individual Items | 2,712 |
+| Individual Items | 2,728 |
 | Workshop Category Groups | 20 |
 | Icon Coverage | 100% (all icons verified against game data) |
 | Price Range | 5-300 credits |
 | Grid Layout | 5 rows × unlimited columns per category |
 
 ### Files Modified
-- `Items-D_ItemsStatic.json` (2,712 entries)
-- `Traits-D_Itemable.json` (2,712 entries)
-- `Items-D_ItemTemplate.json` (2,712 entries)
-- `Traits-D_Consumable.json` (2,712 entries)
+- `Items-D_ItemsStatic.json` (2,728 entries)
+- `Traits-D_Itemable.json` (2,728 entries)
+- `Items-D_ItemTemplate.json` (2,728 entries)
+- `Traits-D_Consumable.json` (2,728 entries)
 - `Talents-D_TalentArchetypes.json` (1 entry)
 - `Talents-D_TalentTrees.json` (1 entry)
-- `Talents-D_Talents.json` (2,712 entries)
-- `MetaWorkshop-D_WorkshopItems.json` (2,712 entries)
+- `Talents-D_Talents.json` (2,728 entries)
+- `MetaWorkshop-D_WorkshopItems.json` (2,728 entries)
 
 ## Installation
 
@@ -118,6 +118,7 @@ On a dedicated server it is the server, not your PC, that builds the items you o
 
 | Version | Changes |
 |---------|---------|
+| 5.5 | Icons, names, 22 new kits and 6 duplicates removed. Every kit icon now exists and matches its item: fixed 4 icons the game deleted, 9 leather placeholders and 19 wrong icons (seed, flag and Assault Rifle kits keep their own specific icons). Kits now use the game's real item names: branded workshop gear such as the Inaris and Shengong axes, bows and arrows no longer shows as just Axe Kit or Arrow Kit, the 11 kits called Seed Kit are named after their seed, and stack kits say how many they give (Wood x250). Added kits for the wall charging station, seed extractor, C0NT4CT device, both C0NT4CT upgrades and radio, HEAL device, biofuel pipe tool, Inaris powerbank, prototype power source, workshop repair kit, 9 workshop pets and livestock, the Sulfur Vesper trophy and orbital laser controls. Removed 6 kits that gave exactly the same item as another kit: the Beer and Wine Bottle kits (they gave a plain Glass Bottle), two extra MXC Venom Arrow kits, and second Platinum Sheath and Noxious Crust kits. 40 newer kits got the item tags every other kit already had. 2,728 individual item kits across 20 workshop categories. |
 | 5.4 | Updated for the November 2026 game update. Added 17 kits for the new items - 11 fish dishes, Poultice Bandage, Kiwi Bait, Fish Paste Lure, Sandhorn Horn, Glass Display Cabinet and the Rifle Auto-Turret. Removed 7 kits for items the game can no longer build: Electric Motor and Explosive Sniper Round (deleted by the update), plus the Slug Launcher, Building Upgrade Tool and three small signs, which have no item data in the game. Dedicated servers: the server needs this mod installed too, or kits vanish when they arrive - see the readme. 2,712 individual item kits across 20 workshop categories. |
 | 5.3 | Get back kits you already researched - v4.0 renamed every kit's research ID, so kits researched on v1.0 to v3.1 showed as locked and asked for Ren again. Close Icarus and run Restore_Kit_Research.bat (in the Restore_Kit_Research folder) to restore them for free; it backs up your profile first. Added 23 kits for items from the Sept 2026 update. Fixed 4 kits that gave nothing when used (Sandwyrm SMG, Scout SMG, Checkered Flag, Speeder Kit). Removed 2 kits for fish the game deleted and 2 duplicate kits that overwrote each other. Removed two properties (Icon, Category) from every workshop entry that the game does not read. 2,702 individual item kits across 20 workshop categories. |
 | 5.2 | Fixed workshop grid clipping — items no longer overlap the top sell bar (Y offset shifted from 100 to 250). Re-sorted all 2,683 kits into 20 category groups with box-width spacing between each group for clear visual separation. Categories scroll left to right: Raw Resources → Refined Materials → Seeds → Food → Drinks & Medicine → Melee Weapons → Bows & Crossbows → Firearms → Ammunition → Explosives → Shields → Armor → Attachments → Tools → Gear → Building Pieces → Crafting Stations → Deployables → Lighting → Trophies & Decor. |

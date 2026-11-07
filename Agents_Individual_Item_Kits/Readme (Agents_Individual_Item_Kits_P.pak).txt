@@ -1,6 +1,6 @@
 Agents_Individual_Item_Kits_P.pak
 ----------------------------------------------------------------------
-Mod Version: 5.4
+Mod Version: 5.5
 
 Author: AgentKush
 
@@ -9,7 +9,23 @@ Compatible with Icarus: All Weeks
 Mod Type: EXMOD
 
 ## Description:
-2712 individual item kits with real game icons across 20 categorized workshop groups. Every player-usable game item available as a kit - fairly priced by complexity and rarity. Armor sorted by slot (head -> chest -> arms -> legs -> feet), 5-row grid layout, verified icons.
+2728 individual item kits with real game icons across 20 categorized workshop groups. Every player-usable game item available as a kit - fairly priced by complexity and rarity. Armor sorted by slot (head -> chest -> arms -> legs -> feet), 5-row grid layout, verified icons.
+
+Ver 5.5
+Icons, names, 22 new kits and 6 duplicates removed. Every kit icon now exists and
+matches its item: fixed 4 icons the game deleted, 9 leather placeholders and 19 wrong
+icons (seed, flag and Assault Rifle kits keep their own specific icons). Kits now use
+the game's real item names: branded workshop gear such as the Inaris and Shengong axes,
+bows and arrows no longer shows as just Axe Kit or Arrow Kit, the 11 kits called Seed
+Kit are named after their seed, and stack kits say how many they give (Wood x250). Added
+kits for the wall charging station, seed extractor, C0NT4CT device, both C0NT4CT
+upgrades and radio, HEAL device, biofuel pipe tool, Inaris powerbank, prototype power
+source, workshop repair kit, 9 workshop pets and livestock, the Sulfur Vesper trophy and
+orbital laser controls. Removed 6 kits that gave exactly the same item as another kit:
+the Beer and Wine Bottle kits (they gave a plain Glass Bottle), two extra MXC Venom
+Arrow kits, and second Platinum Sheath and Noxious Crust kits. 40 newer kits got the
+item tags every other kit already had. 2,728 individual item kits across 20 workshop
+categories.
 
 Ver 5.4
 Updated for the November 2026 game update. Added 17 kits for the new items - 11 fish
@@ -86,14 +102,14 @@ Added 657 new kits.
      on every player's PC.
 
 ## Files Modified:
-  Items-D_ItemsStatic          (2712 entries)
-  Traits-D_Itemable            (2712 entries)
-  Items-D_ItemTemplate         (2712 entries)
-  Traits-D_Consumable          (2712 entries)
+  Items-D_ItemsStatic          (2728 entries)
+  Traits-D_Itemable            (2728 entries)
+  Items-D_ItemTemplate         (2728 entries)
+  Traits-D_Consumable          (2728 entries)
   Talents-D_TalentArchetypes   (1 entry)
   Talents-D_TalentTrees        (1 entry)
-  Talents-D_Talents            (2712 entries)
-  MetaWorkshop-D_WorkshopItems (2712 entries)
+  Talents-D_Talents            (2728 entries)
+  MetaWorkshop-D_WorkshopItems (2728 entries)
 
 ## Installation:
   1. Install JimK72's Icarus Mod Manager

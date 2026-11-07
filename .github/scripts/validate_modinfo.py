@@ -207,7 +207,9 @@ VERSION_PATTERNS = [
 ]
 
 NSLOCTEXT_PATTERN = re.compile(
-    r'^NSLOCTEXT\(\s*"[^"]*"\s*,\s*"[^"]*"\s*,\s*"[^"]*"\s*\)$'
+    # each argument is a C-style string; the game's own data uses escaped quotes inside
+    # them, e.g. "Shengong \"Heike\" Axe"
+    r'^NSLOCTEXT\(\s*"(?:[^"\\]|\\.)*"\s*,\s*"(?:[^"\\]|\\.)*"\s*,\s*"(?:[^"\\]|\\.)*"\s*\)$'
 )
 
 ICON_PATH_PATTERN = re.compile(r"^/Game/Assets/")
