@@ -1,6 +1,6 @@
 Agents_Individual_Item_Kits_P.pak
 ----------------------------------------------------------------------
-Mod Version: 5.3
+Mod Version: 5.4
 
 Author: AgentKush
 
@@ -9,7 +9,16 @@ Compatible with Icarus: All Weeks
 Mod Type: EXMOD
 
 ## Description:
-2702 individual item kits with real game icons across 20 categorized workshop groups. Every player-usable game item available as a kit - fairly priced by complexity and rarity. Armor sorted by slot (head -> chest -> arms -> legs -> feet), 5-row grid layout, verified icons.
+2712 individual item kits with real game icons across 20 categorized workshop groups. Every player-usable game item available as a kit - fairly priced by complexity and rarity. Armor sorted by slot (head -> chest -> arms -> legs -> feet), 5-row grid layout, verified icons.
+
+Ver 5.4
+Updated for the November 2026 game update. Added 17 kits for the new items - 11 fish
+dishes, Poultice Bandage, Kiwi Bait, Fish Paste Lure, Sandhorn Horn, Glass Display
+Cabinet and the Rifle Auto-Turret. Removed 7 kits for items the game can no longer
+build: Electric Motor and Explosive Sniper Round (deleted by the update), plus the Slug
+Launcher, Building Upgrade Tool and three small signs, which have no item data in the
+game. Dedicated servers: the server needs this mod installed too, or kits vanish when
+they arrive - see the readme. 2,712 individual item kits across 20 workshop categories.
 
 Ver 5.3
 Get back kits you already researched - v4.0 renamed every kit's research ID, so kits
@@ -64,15 +73,27 @@ Added 657 new kits.
   - Kits retired in earlier versions (item left the game or dev-only kit)
     cannot come back. The tool lists any it finds in your profile.
 
+## Dedicated Servers:
+  On a dedicated server it is the server, not your PC, that builds the items
+  you order from the Orbital Exchange or carry down from orbit. If only your
+  PC has this mod, the kits show in the Workshop but the server cannot make
+  them, so they vanish when they arrive.
+
+  1. Build your mod list in JimK72's Mod Manager as usual.
+  2. Copy IMM_Merged_Mod_P.pak and IMM_Merged_Mod.txt from your game's
+     Icarus\Content\Paks\mods folder into the same folder on the server.
+  3. Restart the server. Keep the same mods and versions on the server and
+     on every player's PC.
+
 ## Files Modified:
-  Items-D_ItemsStatic          (2702 entries)
-  Traits-D_Itemable            (2702 entries)
-  Items-D_ItemTemplate         (2702 entries)
-  Traits-D_Consumable          (2702 entries)
+  Items-D_ItemsStatic          (2712 entries)
+  Traits-D_Itemable            (2712 entries)
+  Items-D_ItemTemplate         (2712 entries)
+  Traits-D_Consumable          (2712 entries)
   Talents-D_TalentArchetypes   (1 entry)
   Talents-D_TalentTrees        (1 entry)
-  Talents-D_Talents            (2702 entries)
-  MetaWorkshop-D_WorkshopItems (2702 entries)
+  Talents-D_Talents            (2712 entries)
+  MetaWorkshop-D_WorkshopItems (2712 entries)
 
 ## Installation:
   1. Install JimK72's Icarus Mod Manager
@@ -80,6 +101,7 @@ Added 657 new kits.
   2. Download Agents_Individual_Item_Kits.EXMODZ
   3. Import via Mod Manager
   4. Updating from v3.1 or older? Run Restore_Kit_Research.bat (see above)
+  5. Dedicated server? Install the mod on the server too (see above)
 
 ----------------------------------------------------------------------
 Made by AgentKush
