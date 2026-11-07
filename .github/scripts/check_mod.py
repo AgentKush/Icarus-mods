@@ -83,8 +83,11 @@ class Game:
                 for f in fn:
                     if f.endswith(".json"):
                         self.assets.add(pre + f[:-5].lower())
+            # Fall back to the repo's older asset list only when the export has no assets.
+            # Never mix them: the list still names assets later game updates deleted, so a
+            # mix lets a dead icon path pass.
             ref = REPO / ".github" / "scripts" / "game_assets.json.gz"
-            if ref.exists():
+            if not self.assets and ref.exists():
                 for lst in json.load(gzip.open(ref)).get("assets", {}).values():
                     for a in lst:
                         self.assets.add("/game/" + a.lower())
