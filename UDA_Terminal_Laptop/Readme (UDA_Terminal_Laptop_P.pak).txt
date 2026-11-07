@@ -44,6 +44,13 @@ Built with UAssetAPI (UE4.27) + UnrealPak. Round-trip verified before packing.
 
 CHANGELOG
 ---------
+Ver 2.2
+The recipe is now really free. Mod rows merge field by field onto the vanilla row, so
+leaving the tech requirement out kept the vanilla unlock (Exotic_Delivery_Interface);
+it is now cleared. Also fixed the crafting sound: Audio pointed at a sound entry named
+"Fabricator" that does not exist, so the craft was silent; it is the vanilla
+"CraftingBench" sound again.
+
 Ver 2.1
 Now craftable for free - a recipe with no tech requirement at the Crafting Bench,
 Machining Bench, Fabricator and Manufacturer, using the original build's resources
