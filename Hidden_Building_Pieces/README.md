@@ -2,12 +2,12 @@
 
 # Hidden Building Pieces
 
-[![Version](https://img.shields.io/badge/v4.5-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v4.6-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
 
-Unlocks 34 building pieces + 1 forgotten recipe as individual craftable items
+The game's 20 unreleased building pieces as craftable items
 
 Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Software)**
 
@@ -15,52 +15,44 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 
 ---
 
-Unlocks **34 building pieces** that exist in the game files but aren't available to players, plus 1 forgotten recipe added to higher-tier stations. Every item is an individual craftable piece at the appropriate workbench. All pieces are **storm immune** and **hammer repairable**. Storm immunity is set per building material, so every building made of those 15 materials - the game's own pieces included - takes no wind damage.
+Icarus ships **20 building pieces that no item lets you build**. This mod gives each of them its own craftable item - the game's own piece, with nothing re-skinned or invented. Every item is crafted exactly like the game's matching item for that material: same cost, bench, blueprint unlock and DLC. A Wood Frame costs what a Wood Beam costs, for example, and the Clay Brick and Scoria pieces need New Frontiers.
 
-> **v4.5:** Rebuilt for the November 2026 frame rework — every piece checked against the current game data. The Iron, Sandworm and Metal Grate pieces can now be crafted, and the frames that used deleted blueprints can be placed again.
+> **v4.6:** Only the game's unreleased parts now. 28 earlier items were re-skins of parts the game does not have and have been removed, along with the extra Interior Wood Floor recipe and the edits that changed every vanilla building. Pieces built from the removed items can disappear from your saves.
 
 ---
 
 ## Features
 
-### Wood Diagonal Pieces (7 items)
+### Frames (9 pieces)
 
-Non-curved diagonal Wood pieces that vanilla still doesn't include:
+The game has frames for Wood, Thatch and Interior Wood - and stability rows made for them - but no item to build them.
 
-- Diagonal Floor, Diagonal Ramp Roof
-- Diagonal Wall Solid, Diagonal Wall Angles
-- Diagonal Beam Diagonal, Diagonal Beam Horizontal
-- Brick Beam DiagonalBeam
+| Piece | Crafted like | Cost | Bench | DLC |
+|-------|--------------|------|-------|-----|
+| Wood Frame, Half Frame, Pillar | Wood Beam | 4 Fiber, 6 Wood | Inventory / Carpentry Bench / Electric Carpentry Bench | - |
+| Thatch Frame, Half Frame, Pillar | Thatch Beam | 12 Fiber, 6 Stick | Inventory | - |
+| Interior Wood Frame, Half Frame, Pillar | Interior Wood Beam | 6 Wood Refined, 4 Copper Nail | Carpentry Bench / Electric Carpentry Bench | - |
 
-**Crafted at:** Carpentry Bench
+### Pillars (7 pieces)
 
-### Frames (26 items)
+| Piece | Crafted like | Cost | Bench | DLC |
+|-------|--------------|------|-------|-----|
+| Clay Brick Pillar | Clay Brick Beam | 25 Clay Brick, 5 Tree Sap | Advanced Masonry Bench / Electric Masonry Bench | New Frontiers |
+| Glass Pillar | Glass Beam | 4 Refined Metal, 6 Epoxy | Glassworking Bench | - |
+| Reinforced Glass Pillar | Reinforced Glass Beam | 4 Steel Ingot, 6 Epoxy | Glassworking Bench | - |
+| Aluminium Pillar | Aluminium Beam | 2 Bauxite, 2 Wood, 2 Steel Screw | Machining Bench / Fabricator / Manufacturer | - |
+| Scoria Brick Pillar | Scoria Brick Beam | 25 Scoria Brick, 5 Tree Sap | Advanced Masonry Bench / Electric Masonry Bench | New Frontiers |
+| Scoria Pillar | Scoria Frame | 12 Wood, 20 Scoria, 4 Leather, 12 Iron Nail | Masonry Bench / Advanced Masonry Bench / Electric Masonry Bench | New Frontiers |
+| Stone Brick Pillar | Stone Brick Beam | 6 Wood Refined, 15 Stone Brick, 4 Tree Sap, 6 Steel Screw | Advanced Masonry Bench / Electric Masonry Bench | - |
 
-Frame pieces for 11 materials. Each material has the frame variants that vanilla is missing:
+### Corner Stairs (4 pieces)
 
-| Material | FullFrame | HalfFrame | Pillar | Bench |
-|----------|:---------:|:---------:|:------:|-------|
-| ClayBrick | x | x | x | Masonry Bench |
-| Glass | x | x | x | Glassworking Bench |
-| Ice | x | x | | Hand Crafting |
-| Iron | x | x | x | Anvil Bench |
-| Limestone | | x | | Masonry Bench |
-| ReinforcedWood | x | x | | Carpentry Bench |
-| Sandworm | x | x | | Masonry Bench |
-| Scoria | | x | | Masonry Bench |
-| ScoriaBrick | x | x | x | Masonry Bench |
-| StoneBrick | x | x | x | Masonry Bench |
-| TemperedGlass | x | x | x | Glassworking Bench |
+| Piece | Crafted like | Cost | Bench | DLC |
+|-------|--------------|------|-------|-----|
+| Concrete Corner Stairs (Left, Right) | Concrete Ramp/Stairs | 12 Steel Rebar, 4 Concrete Mix, 4 Steel Screw | Cement Mixer / Electric Masonry Bench | - |
+| Aluminium Corner Stairs (Left, Right) | Aluminium Roof/Ramp | 4 Bauxite, 6 Wood, 4 Steel Screw | Machining Bench / Fabricator / Manufacturer | - |
 
-### Metal Grate Quarter Floor (1 item)
-
-- Metal Grate HalfNormal QuarterFloor
-
-### Interior Wood Floor — The Forgotten Floor (1 recipe)
-
-- Interior Wood Floor (`Wood_Floor_Refined`) — exists in vanilla at the Carpentry Bench only, with mismatched names across data tables making it nearly impossible to find. Now also craftable at Fabricator and Manufacturer.
-
-**Crafted at:** Fabricator / Manufacturer (same inputs: 20 Refined Wood + 4 Copper Nails)
+The Aluminium pieces are the game's "Iron" building set, which it calls Aluminium; Reinforced Glass is its tempered glass. Each Aluminium piece can also be crafted with the game's second Aluminium recipe, like the matching vanilla item.
 
 ---
 
@@ -68,24 +60,12 @@ Frame pieces for 11 materials. Each material has the frame variants that vanilla
 
 | Category | Count |
 |----------|-------|
-| Craftable Items | 34 |
-| Building Pieces | 36 |
-| Building Skins | 34 |
-| Crafting Recipes | 35 |
-| Durable Entries | 16 |
-| Building Types | 21 |
-| **Total Data Entries** | **278** |
+| Craftable Items | 20 |
+| Crafting Recipes | 23 |
+| Building Pieces (copies of the game's own, kept so pillars already built stay) | 4 |
+| **Total Data Entries** | **107** |
 
-## Crafting Locations
-
-| Material | Crafting Station |
-|----------|-----------------|
-| Wood / ReinforcedWood | Carpentry Bench |
-| ClayBrick / ScoriaBrick / StoneBrick / Limestone / Sandworm / Scoria | Masonry Bench |
-| Glass / TemperedGlass | Glassworking Bench |
-| Iron / MetalGrate | Anvil Bench |
-| Interior Wood (Forgotten Floor) | Fabricator / Manufacturer |
-| Ice | Hand Crafting |
+No vanilla row is changed.
 
 ## Installation
 
@@ -109,6 +89,16 @@ Frame pieces for 11 materials. Each material has the frame variants that vanilla
 ---
 
 ## Changelog
+
+### v4.6 (2026-11-07)
+**Only the game's unreleased building parts now.**
+- **Removed 28 re-skins.** The game has no such part: they were a Stone frame or angled frame in Clay Brick, Glass, Ice, Iron, Scoria, Scoria Brick, Stone Brick or Tempered Glass, Wood frames in Reinforced Wood and Sandworm, a Limestone half frame, Stone diagonals and a clay brick beam in wood, and an iron quarter floor in metal grate. Five of them were built on blueprints the game no longer ships.
+- **Added the other 14 unreleased parts:** Wood, Thatch and Interior Wood frames (Frame, Half Frame, Pillar), the Scoria pillar, and Concrete and Aluminium corner stairs (left and right).
+- **Every item now crafts like the game's matching item for its material** - cost, bench, blueprint unlock and DLC: the pillars and frames like that material's beam, the Scoria pillar like the Scoria frame, the corner stairs like that material's ramp/stairs. The frames and brick pillars use the game's own frame stability rows (`Wood_Frame`, `Thatch_Frame`, `Interior_Wood_Frame`, `Clay_Brick_Frame`), which it ships but does not use yet.
+- **The 6 pillars already in the mod use the game's own piece data**, so the Reinforced Glass pillar finally shows its reinforced material. Iron and Tempered Glass are now called by the game's names, Aluminium and Reinforced Glass.
+- **Removed the extra Interior Wood Floor recipe** - that floor is already in the game, at the Carpentry Bench.
+- **Removed the edits to every vanilla building.** The mod gave all buildings of 15 materials hammer-repair costs and replaced their building stats with wind immunity, which also took away their insulation and tree and melee damage resistance. Vanilla buildings now behave exactly as in vanilla.
+- **Heads-up:** pieces you built from the removed items can disappear when you load a save with this version. Pillars you already built stay.
 
 ### v4.5 (2026-11-07)
 **Rebuilt for the November 2026 frame rework** - every piece checked against the current game data.

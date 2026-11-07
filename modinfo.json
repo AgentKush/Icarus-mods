@@ -63,9 +63,9 @@
     {
       "name": "Hidden Building Pieces",
       "author": "AgentKush",
-      "version": "4.5",
+      "version": "4.6",
       "compatibility": "All",
-      "description": "34 building pieces - frames (full/half/pillar) and diagonal sets for 11+ materials. Corner stairs, stairs and curved pieces removed - now official in the base game.",
+      "description": "The game's 20 unreleased building pieces as craftable items: Wood, Thatch and Interior Wood frames, 7 pillars (Clay Brick, Glass, Reinforced Glass, Aluminium, Scoria Brick, Scoria, Stone Brick) and Concrete and Aluminium corner stairs. Each crafts like the game's matching item for its material. No vanilla row is changed.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hidden_Building_Pieces.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hidden_Building_Pieces/README.md",
       "files": {

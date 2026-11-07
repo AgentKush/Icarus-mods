@@ -1,14 +1,26 @@
 Hidden_Building_Pieces_P.pak
 ----------------------------------------------------------------------
-Mod Version: 4.5
+Mod Version: 4.6
 Author: AgentKush
 Compatible with Icarus: All Weeks
 Mod Type: EXMOD
 
 ## Description:
-Unlocks 34 building pieces as individual items. Includes non-curved Wood diagonal pieces, frames for 11 materials, and a metal grate floor (corner stairs, stairs and curved pieces are now in the base game). All items are craftable at material-appropriate benches.
+The game's 20 unreleased building pieces - pieces it has but no item lets you build - as
+craftable items: Wood, Thatch and Interior Wood frames (Frame, Half Frame, Pillar), 7 pillars
+(Clay Brick, Glass, Reinforced Glass, Aluminium, Scoria Brick, Scoria, Stone Brick) and
+Concrete and Aluminium corner stairs. Each is crafted exactly like the game's matching item for
+its material (same cost, bench, blueprint unlock and DLC). No vanilla row is changed.
 
 ## Changelog:
+
+Ver 4.6
+Now only the game's unreleased building parts. Removed 28 re-skins of parts the game does
+not have; added the other 14 unreleased parts (Wood, Thatch and Interior Wood frames, the
+Scoria pillar, Concrete and Aluminium corner stairs). Every item crafts like the game's
+matching item for its material. Removed the extra Interior Wood Floor recipe and the edits
+that changed every vanilla building (hammer repair and the wind immunity that also removed
+insulation). Pieces built from the removed items can disappear from saves.
 
 Ver 4.5
 Rebuilt for the November 2026 frame rework. 5 frames used blueprints the update deleted and
@@ -38,15 +50,12 @@ Ver 2.13.7
 Added 675 new building pieces from DLC update.
 
 ## Files Modified:
-  Traits-D_Itemable           (34 entries)
-  Items-D_ItemsStatic         (34 entries)
-  Items-D_ItemTemplate        (34 entries)
-  Crafting-D_ProcessorRecipes (35 entries)
-  Traits-D_Buildable          (34 entries)
-  Building-D_BuildingPieces   (36 entries)
-  Building-D_BuildingSkins    (34 entries)
-  Traits-D_Durable            (16 entries)
-  Items-Types-D_BuildingTypes (21 entries)
+  Traits-D_Itemable           (20 entries)
+  Items-D_ItemsStatic         (20 entries)
+  Items-D_ItemTemplate        (20 entries)
+  Crafting-D_ProcessorRecipes (23 entries)
+  Traits-D_Buildable          (20 entries)
+  Building-D_BuildingPieces   (4 entries)
 
 ## Installation:
   1. Install JimK72's Icarus Mod Manager
