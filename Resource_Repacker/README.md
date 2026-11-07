@@ -2,7 +2,7 @@
 
 # Resource Repacker
 
-[![Version](https://img.shields.io/badge/v1.4-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.5-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -23,7 +23,7 @@ Repacks raw resources back into the standard UDA kit format. Useful for **cuttin
 
 ## Features
 
-- **20 repack recipes** — one per vanilla resource kit that still has item data, including 5 DLC kits
+- **19 repack recipes** — one per vanilla resource kit that still has item data, including 6 DLC kits
 - **Available everywhere** — every crafting bench, plus handcrafting in your inventory (Character recipe set)
 - **Neutral ratios** — the recipe input matches the kit's vanilla yield (e.g. 100 Titanium_Ore → 1 Titanium kit). No duping.
 - **Vanilla stack sizes** — recipe quantities exactly match base-game kit yields, regardless of any stack-size mods you have running
@@ -38,11 +38,9 @@ Repacks raw resources back into the standard UDA kit format. Useful for **cuttin
 | Wood Kit | 250 Wood |
 | Stone Kit | 250 Stone |
 | Dirt Kit | 50 Dirt |
-| Limestone Kit | 100 Limestone |
 | Sulfur Kit | 100 Sulfur |
 | Oxite Kit | 100 Oxite |
 | Silica Kit | 100 Silica |
-| Clay Kit | 100 Clay |
 
 ### Metal Ores
 
@@ -54,14 +52,11 @@ Repacks raw resources back into the standard UDA kit format. Useful for **cuttin
 | Gold Kit | 100 Gold Ore |
 | Platinum Kit | 100 Platinum Ore |
 | Titanium Kit | 100 Titanium Ore |
-| Lithium Kit | 100 Lithium Ore |
 
 ### Advanced / Exotic
 
 | Kit | Cost |
 |-----|------|
-| Scoria Kit | 100 Scoria |
-| Obsidian Kit | 100 Obsidian |
 | Synthetic Enzymes Kit | 100 Synthetic Enzymes |
 
 ### DLC — Dangerous Horizons
@@ -80,7 +75,7 @@ Repacks raw resources back into the standard UDA kit format. Useful for **cuttin
 | Scoria Kit | 100 Scoria |
 | Obsidian Kit | 100 Obsidian |
 
-> **DLC note:** all five of these are feature-gated via `Metadata.RequiredFeatureLevel`, so on a base-game install they don't register at all — no broken-icon recipes, no failed crafts. The other 15 work for everyone. Before v1.5, only Ruby was gated; Limestone, Lithium, Clay, Scoria and Obsidian registered on base-game installs and pointed at items that build strips out.
+> **DLC note:** all six DLC kits are feature-gated via `Metadata.RequiredFeatureLevel`, so on a base-game install they don't register at all — no broken-icon recipes, no failed crafts. The other 15 work for everyone. Before v1.5, only Ruby was gated; Limestone, Lithium, Clay, Scoria and Obsidian registered on base-game installs and pointed at items that build strips out.
 >
 > **Removed in v1.5:** the Uranium Rod and Ren kits. The Sept-2026 game update deleted their `D_ItemsStatic` rows, so the kit those recipes produced has no mesh, icon or use. Vanilla's own workshop entries for them are broken the same way — nothing a mod can repair.
 
@@ -109,6 +104,10 @@ Repacks raw resources back into the standard UDA kit format. Useful for **cuttin
 3. Enable and merge mods as usual
 
 ## Changelog
+
+
+### v1.5
+- Gated the five DLC recipes that had no feature gate (Limestone and Lithium behind Dangerous Horizons; Clay, Scoria and Obsidian behind New Frontiers), so they no longer appear on installs without that DLC. Removed the Ren and Uranium Rod recipes - those kits have no item data in the game, so the recipe produced an item that cannot exist. Fixed the crafting sound on every recipe (it pointed at a sound entry that does not exist, so repacking finished in silence). 19 recipes that repack raw resources back into UDA kits at neutral ratios.
 
 ### v1.4
 - **Fix**: all 21 recipes crafted silently. They set `Audio` to a `D_CraftingAudioData` row called `Fabricator`, but that table has no such row — `Fabricator` is a **`D_RecipeSets`** name, and the two tables use different keys. With the reference dangling the game played no craft-completed sound, which reads like a failed craft even though the kit was produced. Now set to `Default`, which has a real `RecipeCraftedSound`, so repacking finishes with the generic craft-complete sound at every station and in handcrafting instead of silence. (`Default`'s `ProcessorOverrideSounds` map has only one entry, for the Carpentry Bench — genuinely per-bench audio would need a separate recipe row per bench, since `Audio` is a single row reference.)

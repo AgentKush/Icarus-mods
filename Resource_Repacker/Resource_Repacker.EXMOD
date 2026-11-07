@@ -1,8 +1,8 @@
 {
   "name": "Resource Repacker",
   "author": "AgentKush",
-  "version": "1.4",
-  "description": "v1.4: Fixed the crafting sound on all 21 repack recipes. They pointed Audio at a D_CraftingAudioData row named \"Fabricator\", which has never existed in that table - \"Fabricator\" is a D_RecipeSets name. Repacking finished silently, which read like a failed craft. Now set to \"Default\", so each bench plays its own crafting sound.\n\nv1.3: Removed the D_Itemable tooltip override that was breaking the DLC kit icons and display names (the EXMOD merge replaces full rows rather than patching fields). DLC requirement is now in the README only. Also clarifies the known orbital-return limitation in docs.\n\nv1.2: Feature-gated DLC recipes via Metadata.RequiredFeatureLevel so they don't register on non-DLC installs.\n\nv1.1: Added 3 DLC kits and exposed every recipe at all player crafting benches plus handcrafting (Character).\n\nv1.0: Adds 21 crafting recipes that repack raw resources back into UDA kits. Recipes mirror the kit's vanilla byproduct (e.g. 100 Titanium_Ore -> 1 kit) so they're neutral - purely logistics, not duplication. Useful for consolidating inventory and sharing kits with teammates on the same drop. NOTE: crafted kits may not be accepted by the orbital sender (game-side check on item origin); investigating a Blueprint workaround for a future release.",
+  "version": "1.5",
+  "description": "v1.5: Gated the five DLC recipes that had no feature gate (Limestone and Lithium behind Dangerous Horizons; Clay, Scoria and Obsidian behind New Frontiers), so they no longer appear on installs without that DLC. Removed the Ren and Uranium Rod recipes - those kits have no item data in the game, so the recipe produced an item that cannot exist. Fixed the crafting sound on every recipe (it pointed at a sound entry that does not exist, so repacking finished in silence). 19 recipes that repack raw resources back into UDA kits at neutral ratios.",
   "fileName": "Resource_Repacker",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Resource_Repacker.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Resource_Repacker/README.md",
@@ -606,6 +606,11 @@
           ],
           "Audio": {
             "RowName": "Default"
+          },
+          "Metadata": {
+            "RequiredFeatureLevel": {
+              "RowName": "DangerousHorizons"
+            }
           }
         },
         {
@@ -1202,6 +1207,11 @@
           ],
           "Audio": {
             "RowName": "Default"
+          },
+          "Metadata": {
+            "RequiredFeatureLevel": {
+              "RowName": "NewFrontiers"
+            }
           }
         },
         {
@@ -2245,6 +2255,11 @@
           ],
           "Audio": {
             "RowName": "Default"
+          },
+          "Metadata": {
+            "RequiredFeatureLevel": {
+              "RowName": "DangerousHorizons"
+            }
           }
         },
         {
@@ -2394,6 +2409,11 @@
           ],
           "Audio": {
             "RowName": "Default"
+          },
+          "Metadata": {
+            "RequiredFeatureLevel": {
+              "RowName": "NewFrontiers"
+            }
           }
         },
         {
@@ -2543,6 +2563,11 @@
           ],
           "Audio": {
             "RowName": "Default"
+          },
+          "Metadata": {
+            "RequiredFeatureLevel": {
+              "RowName": "NewFrontiers"
+            }
           }
         },
         {
@@ -2832,314 +2857,6 @@
             {
               "Element": {
                 "RowName": "Meta_Resource_Pack_Ruby",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          },
-          "Metadata": {
-            "RequiredFeatureLevel": {
-              "RowName": "DangerousHorizons"
-            }
-          }
-        },
-        {
-          "Name": "Meta_Resource_Pack_Uranium_Rod",
-          "RequiredMillijoules": 8000,
-          "RecipeSets": [
-            {
-              "RowName": "Character",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Crafting_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Anvil_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Anvil_Bench_T3",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Anvil_Bench_T4",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Armor_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Advanced_Armor_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Electric_Armor_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Carpentry_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Carpentry_Bench_T4",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Masonry_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Masonry_Bench_T3",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Masonry_Bench_T4",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Machining_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Manufacturer",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Alteration_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Advanced_Alteration_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Chemistry_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Glassworking_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Herbalism_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Medicine_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Animal_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Butchery_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Advanced_Butchery_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Kitchen_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Advanced_Kitchen_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Trophy_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Rustic_Decorations_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Fishing_Bench_Recipes",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Uranium_Rod",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 10
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Meta_Resource_Pack_Uranium_Rod",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Default"
-          },
-          "Metadata": {
-            "RequiredFeatureLevel": {
-              "RowName": "DangerousHorizons"
-            }
-          }
-        },
-        {
-          "Name": "Meta_Resource_Pack_Ren",
-          "RequiredMillijoules": 8000,
-          "RecipeSets": [
-            {
-              "RowName": "Character",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Crafting_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Anvil_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Anvil_Bench_T3",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Anvil_Bench_T4",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Armor_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Advanced_Armor_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Electric_Armor_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Carpentry_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Carpentry_Bench_T4",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Masonry_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Masonry_Bench_T3",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Masonry_Bench_T4",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Machining_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Manufacturer",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Alteration_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Advanced_Alteration_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Chemistry_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Glassworking_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Herbalism_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Medicine_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Animal_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Butchery_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Advanced_Butchery_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Kitchen_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Advanced_Kitchen_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Trophy_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Rustic_Decorations_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Fishing_Bench_Recipes",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Ren",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 100
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Meta_Resource_Pack_Ren",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,

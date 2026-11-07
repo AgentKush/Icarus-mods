@@ -486,9 +486,9 @@
     {
       "name": "Resource Repacker",
       "author": "AgentKush",
-      "version": "1.4",
+      "version": "1.5",
       "compatibility": "All",
-      "description": "Repack raw resources back into UDA kits. 21 neutral-ratio recipes (incl. 3 DLC kits, properly feature-gated) at every crafting bench and handcrafting. NOTE: orbital sender currently rejects crafted kits - useful for inventory consolidation and teammate sharing.",
+      "description": "Repack raw resources back into UDA kits. 19 neutral-ratio recipes (incl. 6 DLC kits, properly feature-gated) at every crafting bench and handcrafting. NOTE: orbital sender currently rejects crafted kits - useful for inventory consolidation and teammate sharing.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Resource_Repacker.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Resource_Repacker/README.md",
       "files": {
