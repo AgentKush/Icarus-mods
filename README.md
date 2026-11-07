@@ -88,7 +88,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 
 | Mod | Ver | Description |
 |-----|:---:|-------------|
-| [💎 Exotic Economy Overhaul](Exotic_Economy_Overhaul) | `2.2` | 66 exchange recipes — convert between Ren/Exotics/Uranium/Biomass, buy/sell all materials, bulk ore smelting |
+| [💎 Exotic Economy Overhaul](Exotic_Economy_Overhaul) | `2.3` | 61 exchange recipes — convert between Ren/Exotics/Uranium/Biomass, buy/sell all materials, bulk ore smelting |
 | [🔨 Tier Upgrade Forge](Tier_Upgrade_Forge) | `1.3` | 26 upgrade recipes — trade up through tool and weapon tiers at the Anvil Bench |
 | [⛏️ Waste Not](Waste_Not) | `2.3` | Mining yields useful secondary resources instead of Stone · 26 of 33 deposit types · *Originally by CritFail* |
 | [📦 Resource Repacker](Resource_Repacker) | `1.5` | Pack raw resources back into UDA kits · 20 neutral-ratio recipes · 30 stations + handcrafting |

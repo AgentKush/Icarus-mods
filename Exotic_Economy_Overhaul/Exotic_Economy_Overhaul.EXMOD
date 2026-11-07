@@ -1,8 +1,8 @@
 {
   "name": "Exotic Economy Overhaul",
   "author": "AgentKush",
-  "version": "2.2",
-  "description": "v2.1: Crash fix - all recipe outputs corrected from D_ItemsStatic to D_ItemTemplate. Added 14 missing buy/sell recipes (Refined Copper, Refined Metal, sell-back for all buyable materials). 66 total recipes. | Full currency exchange system. Buy and sell materials with Ren, convert between exotics and currencies, cross-convert ingots, and bulk smelt ores at the correct furnaces/benches. v2.2: fixed missing recipe icons by setting ItemIconOverride on every recipe to its output item, so recipes show the output's icon instead of 'ICON MISSING'.",
+  "version": "2.3",
+  "description": "v2.3: Removed the 5 cobalt recipes - the game no longer has cobalt (Cobalt Ore has no item data and Cobalt Ingot no longer exists), so Ren to Cobalt, Cobalt to Ren, Platinum to Cobalt, Cobalt to Lithium and Bulk Cobalt Smelt could never work. Full currency exchange system with 61 recipes: buy and sell materials with Ren, convert between exotics and currencies, cross-convert ingots and bulk smelt ores at the correct furnaces and benches.",
   "fileName": "Exotic_Economy_Overhaul",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Exotic_Economy_Overhaul.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Exotic_Economy_Overhaul/README.md",
@@ -470,48 +470,6 @@
           "ItemIconOverride": {
             "ItemStaticData": {
               "RowName": "Cold_Steel_Ingot"
-            }
-          }
-        },
-        {
-          "Name": "Ren_To_Cobalt",
-          "RequiredMillijoules": 15000,
-          "RecipeSets": [
-            {
-              "RowName": "Machining_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Ren",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 200
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Cobalt_Ingot",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 5,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "MachiningBench"
-          },
-          "ItemIconOverride": {
-            "ItemStaticData": {
-              "RowName": "Cobalt_Ingot"
             }
           }
         },
@@ -1036,48 +994,6 @@
             {
               "Element": {
                 "RowName": "Refined_Gold",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 5
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Ren",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 100,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "MachiningBench"
-          },
-          "ItemIconOverride": {
-            "ItemStaticData": {
-              "RowName": "Ren"
-            }
-          }
-        },
-        {
-          "Name": "Cobalt_To_Ren",
-          "RequiredMillijoules": 10000,
-          "RecipeSets": [
-            {
-              "RowName": "Machining_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Cobalt_Ingot",
                 "DataTableName": "D_ItemsStatic"
               },
               "Count": 5
@@ -2252,90 +2168,6 @@
           }
         },
         {
-          "Name": "Platinum_To_Cobalt",
-          "RequiredMillijoules": 25000,
-          "RecipeSets": [
-            {
-              "RowName": "Machining_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Platinum_Ingot",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 5
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Cobalt_Ingot",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 2,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "MachiningBench"
-          },
-          "ItemIconOverride": {
-            "ItemStaticData": {
-              "RowName": "Cobalt_Ingot"
-            }
-          }
-        },
-        {
-          "Name": "Cobalt_To_Lithium",
-          "RequiredMillijoules": 30000,
-          "RecipeSets": [
-            {
-              "RowName": "Machining_Bench",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Fabricator",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Cobalt_Ingot",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 3
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Lithium_Refined",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 2,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "MachiningBench"
-          },
-          "ItemIconOverride": {
-            "ItemStaticData": {
-              "RowName": "Lithium_Refined"
-            }
-          }
-        },
-        {
           "Name": "Lithium_To_Cold_Steel",
           "RequiredMillijoules": 25000,
           "RecipeSets": [
@@ -2634,48 +2466,6 @@
           "ItemIconOverride": {
             "ItemStaticData": {
               "RowName": "Aluminium"
-            }
-          }
-        },
-        {
-          "Name": "Bulk_Cobalt_Smelt",
-          "RequiredMillijoules": 200000,
-          "RecipeSets": [
-            {
-              "RowName": "Concrete_Furnace",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Electric_Furnace",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Cobalt_Ore",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 20
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Cobalt_Ingot",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 10,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "Ovens"
-          },
-          "ItemIconOverride": {
-            "ItemStaticData": {
-              "RowName": "Cobalt_Ingot"
             }
           }
         },
