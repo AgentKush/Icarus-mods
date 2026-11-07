@@ -96,6 +96,14 @@ class Game:
         t = self.tables.get(table)
         return bool(t) and name.lower() in t["rows"]
 
+    def vanilla_refs(self, table: str) -> set[str]:
+        """Every RowName the game's own rows of this table reference - including ones that
+        dangle in vanilla (unreleased ammo in AllArrows, for example)."""
+        t = self.tables[table]
+        if "vanilla_refs" not in t:
+            t["vanilla_refs"] = {m.lower() for m in re.findall(r'"RowName":\s*"([^"]+)"', json.dumps(list(t["rows"].values())))}
+        return t["vanilla_refs"]
+
     def vanilla_props(self, table: str, dflt: dict) -> set[str]:
         """Nested keys the game's own rows use but Defaults leaves out (for example
         Generated_Tags.ParentTags) - those are real properties, not mistakes."""
@@ -317,8 +325,8 @@ def check_mod(mod_dir: Path, game: Game, base: Game | None, catalog: dict) -> di
                 if rt not in game.tables:
                     res["refs"].append(f"{cf}: {path} -> {rt}.{rn} (table {rt} not in the game)")
                     continue
-                if vtext and f'"{str(rn).lower()}"' in vtext:
-                    res["refs_inherited"] += 1          # the game's own row has the same dangling ref
+                if (vtext and f'"{str(rn).lower()}"' in vtext) or str(rn).lower() in game.vanilla_refs(tbl):
+                    res["refs_inherited"] += 1          # the game's own rows carry the same dangling ref
                     continue
                 note = ""
                 if base is not None and base.has_row(rt, rn):
