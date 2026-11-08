@@ -1,6 +1,6 @@
 Agents_BioLab_P.pak
 ----------------------------------------------------------------------
-Mod Version: 2.0
+Mod Version: 2.0.1
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD
 ## Description:
 Adds all Bio Lab Legendary weapons to the Workshop! Includes Frontier Revolver, Kinetic Rifle, Tactical Bow, Mining Armature, Ape Club, Heavy Flamethrower, Anti-materiel Rifle, Javelin Launcher, Slug Launcher, and Ice Mammoth Sledgehammer.
 
+
+Ver 2.0.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 2.0
 Fixed Flamethrower case mismatch (FlameThrower -> Flamethrower), added Sandwyrm Chainsaw.

@@ -1,8 +1,8 @@
 {
   "name": "Fast Processing (Instant)",
   "author": "AgentKush",
-  "version": "5.2",
-  "description": "v5.2: Every recipe is now recomputed from the November 2026 game values: 1 MJ (instant), water recipes keep the 500 MJ minimum, and nothing is slower than vanilla. Corrects 52 recipes that were off (2 of them slower than vanilla), removes the 2 recipes the game deleted and adds the 62 it has gained. 2,235 recipes.",
+  "version": "5.2.1",
+  "description": "v5.2.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "FastProcessing_Instant",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_Instant.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_Instant/README.md",

@@ -2,7 +2,7 @@
 
 # Trap and Defense Expansion
 
-[![Version](https://img.shields.io/badge/v1.3-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.3.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -61,6 +61,7 @@ Alternative recipes without needing rare creature drops:
 Import `Trap_Defense_Expansion.EXMODZ` via Icarus Mod Manager.
 
 ## Version History
+- **v1.3.1** - New icon and banner, drawn from the mod's live data. No gameplay change.
 - **v1.3** - Fixed the crafting sound on the 12 Fabricator-tier recipes (all 4 elemental landmines and their direct crafts, Batch Landmines, Landmine Field Kit, Mammoth Trap, Lava Mine). They pointed at a sound entry that does not exist, so they crafted in silence; they now use the Machining Bench sound, like the vanilla landmines.
 - **v1.2** - Crash fix: Fixed 23 recipe outputs from D_ItemsStatic to D_ItemTemplate (prevents crash when opening crafting stations).
 

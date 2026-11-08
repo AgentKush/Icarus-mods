@@ -1,9 +1,9 @@
 {
   "name": "Hunter's Critical Strike",
   "author": "AgentKush",
-  "version": "1.0",
+  "version": "1.0.1",
   "compatibility": "All",
-  "description": "Weak-point hits deal far more critical damage - regular weak points now hit as hard as elite ones. Rewards precision aiming. First-ever crit-system mod.",
+  "description": "v1.0.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Hunters_Critical_Strike",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hunters_Critical_Strike.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hunters_Critical_Strike/README.md",

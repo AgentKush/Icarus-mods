@@ -1,6 +1,6 @@
 Modular_Affliction_Adjuster_P.pak
 ----------------------------------------------------------------------
-Mod Version: 2.0
+Mod Version: 2.0.1
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD
 ## Description:
 Comprehensive affliction adjustment - reduces stat penalties by ~50%, extends escalation times by ~50%, and reduces damage over time by ~50%. Covers all 80+ player afflictions including diseases, wounds, temperature, poisons, weather exposure, and exotic debuffs.
 
+
+Ver 2.0.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 2.0
 Comprehensive overhaul with 110 affliction modifications.

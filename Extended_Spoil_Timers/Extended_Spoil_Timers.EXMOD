@@ -1,8 +1,8 @@
 {
   "name": "Extended Spoil Timers",
   "author": "AgentKush",
-  "version": "1.2",
-  "description": "Extends decay timers on 29 items.",
+  "version": "1.2.1",
+  "description": "v1.2.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Extended_Spoil_Timers",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Extended_Spoil_Timers.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Spoil_Timers/README.md",

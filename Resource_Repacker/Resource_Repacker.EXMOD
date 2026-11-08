@@ -1,8 +1,8 @@
 {
   "name": "Resource Repacker",
   "author": "AgentKush",
-  "version": "1.5",
-  "description": "v1.5: Gated the five DLC recipes that had no feature gate (Limestone and Lithium behind Dangerous Horizons; Clay, Scoria and Obsidian behind New Frontiers), so they no longer appear on installs without that DLC. Removed the Ren and Uranium Rod recipes - those kits have no item data in the game, so the recipe produced an item that cannot exist. Fixed the crafting sound on every recipe (it pointed at a sound entry that does not exist, so repacking finished in silence). 19 recipes that repack raw resources back into UDA kits at neutral ratios.",
+  "version": "1.5.1",
+  "description": "v1.5.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Resource_Repacker",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Resource_Repacker.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Resource_Repacker/README.md",

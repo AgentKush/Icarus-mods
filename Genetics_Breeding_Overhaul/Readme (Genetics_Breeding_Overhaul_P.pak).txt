@@ -1,6 +1,6 @@
 Genetics_Breeding_Overhaul_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.0
+Mod Version: 1.0.1
 
 Author: AgentKush
 
@@ -16,6 +16,9 @@ birth chance, gestation speed, fertilization recovery, lineage mutation, and the
 bloodline appears far less often (300 -> 75) and the prestige Alpha bloodline is
 more achievable (10 -> 25). No base combat-stat changes, so it stacks with the
 taming and difficulty mods.
+
+Ver 1.0.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 1.0
 Initial release. 2x genetics talent rewards across mutation, twins, gestation,

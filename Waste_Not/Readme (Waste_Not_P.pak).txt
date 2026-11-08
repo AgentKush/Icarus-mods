@@ -1,6 +1,6 @@
 Waste_Not_P.pak
 ----------------------------------------------------------------------
-Mod Version: 2.3
+Mod Version: 2.3.1
 
 Author: CritFail (Updated by AgentKush)
 
@@ -10,6 +10,9 @@ Mod Type: EXMOD
 
 ## Description:
 Mining yields useful secondary resources instead of Stone. Normal ores give bonus of the same type, dense metal ores drop Exotics. Coal gives Charcoal, Ice gives Oxite. Covers 26 of the game's 33 mineable deposit types - Limestone, Salt, Exotic, Frozen Ore and Research deposits are left at their vanilla values.
+
+Ver 2.3.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 2.3
 Fixed Dense Stone: it set the primary yield to Silica instead of the secondary, so the

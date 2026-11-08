@@ -1,6 +1,6 @@
 Always_show_buildings_on_map_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.0
+Mod Version: 1.0.1
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD
 ## Description:
 Always shows player-built structures on the map and minimap without requiring any special stats or radar. Buildings will always display the home icon.
 
+
+Ver 1.0.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 1.0
 Initial release.

@@ -1,6 +1,6 @@
 Extended_Wire_and_Pipe_Tool_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.0
+Mod Version: 1.0.1
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD + Blueprint Overrides
 ## Description:
 Extends power cable and water/fuel pipe connection range by 10x. Power cables reach 60m, water pipes 60m, biofuel pipes 60m, crude oil pipes 100m. Also extends tool trace distance for aiming at distant connection points. PAK mod - modifies BP_ActionableBehaviour_CurvedSplinePlace Blueprint.
 
+
+Ver 1.0.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 1.0
 Initial release. 10x range extension for all cable and pipe types.

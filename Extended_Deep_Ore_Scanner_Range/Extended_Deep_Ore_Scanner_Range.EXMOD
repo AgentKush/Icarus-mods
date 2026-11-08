@@ -1,8 +1,8 @@
 {
   "name": "Extended Deep Ore Scanner Range",
   "author": "AgentKush",
-  "version": "1.0",
-  "description": "10x detection range for the Deep Ore Scanner. Find deep exotic and epic ore deposits from 3000m (3km) instead of 300m.",
+  "version": "1.0.1",
+  "description": "v1.0.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Extended_Deep_Ore_Scanner_Range",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Extended_Deep_Ore_Scanner_Range.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Deep_Ore_Scanner_Range/README.md",

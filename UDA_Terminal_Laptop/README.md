@@ -2,7 +2,7 @@
 
 # UDA Terminal Laptop
 
-[![Version](https://img.shields.io/badge/v2.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v2.2.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD%20%2B%20PAK-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -60,6 +60,9 @@ Look for **UDA Terminal Laptop** in the bench's deployables list.
 - **Requesting a drop pod needs open sky above it** (the pod descends from orbit — same as the vanilla exchange). The laptop places and opens anywhere, but to actually *Request* goods, give it clearance overhead: outside, on a balcony, or under an open roof section.
 
 ## Changelog
+
+### v2.2.1 (2026-11-08)
+- New icon and banner, drawn from the mod's live data. No gameplay change.
 
 ### v2.2
 - **Fix**: the recipe was never actually free. EXMOD rows merge **field by field** onto the vanilla row, so simply leaving `Requirement` out did not clear it — the vanilla tech gate (`Exotic_Delivery_Interface`, Tier 2 Crafting, needs the T2 Communicator) survived the merge and kept the recipe locked. It is now set explicitly to `None`, which is what actually makes it free.

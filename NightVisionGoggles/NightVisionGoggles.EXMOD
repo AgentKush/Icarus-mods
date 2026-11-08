@@ -1,8 +1,8 @@
 {
   "name": "Night Vision Goggles",
   "author": "AgentKush",
-  "version": "2.2",
-  "description": "v2.2: Fixed the crafting sound. The recipe pointed at a sound entry that does not exist, so the goggles crafted in silence; it now uses the Machining Bench sound, like the vanilla Binoculars. Adds craftable Night Vision Goggles with improved durability, no decay and lighter weight.",
+  "version": "2.2.1",
+  "description": "v2.2.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "NightVisionGoggles",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/NightVisionGoggles.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/NightVisionGoggles/README.md",

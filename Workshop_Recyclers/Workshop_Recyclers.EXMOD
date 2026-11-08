@@ -1,8 +1,8 @@
 {
   "name": "Workshop Recyclers",
   "author": "AgentKush",
-  "version": "5.8",
-  "description": "v5.8: Updated for the November 2026 game update. Removed 41 recipes for items the game no longer has (the update deleted the Electric Motor, Cobalt Ore, Cobalt Ingot and the explosive sniper rounds; the rest were unreleased workshop items or items with no item data), so the machines no longer list recipes that can never run. Fixed 25 recipes that gave nothing: 17 Platinum Sheath and 4 saddle outputs used the wrong item name, and 4 deconstruct recipes tried to output animal carcasses, which cannot be made (they now give Wool or a Ram, Sheep or Pig head, matching the vanilla recipes). Removed Deconstruct Raw Meat (no single vanilla source to return), 3 duplicate recipes that overwrote each other, and an unused timing field from every incinerate recipe. Added incinerate recipes for the 17 new items. 5,312 recipes: 1,943 deconstruct, 315 recycle, 3,051 incinerate and 3 crafting.",
+  "version": "5.8.1",
+  "description": "v5.8.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Workshop_Recyclers",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Workshop_Recyclers.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/README.md",

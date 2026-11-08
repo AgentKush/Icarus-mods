@@ -2,7 +2,7 @@
 
 # Solar Panel Expansion
 
-[![Version](https://img.shields.io/badge/v1.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.2.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -42,6 +42,9 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 Import `Solar_Panel_Expansion.EXMODZ` via Icarus Mod Manager.
 
 ## Changelog
+
+### v1.2.1 (2026-11-08)
+- New icon and banner, drawn from the mod's live data. No gameplay change.
 
 ### v1.2
 - **Major fix — the kits gave you nothing.** All four kits described their contents with `ConsumeType` and `Recipes`, but neither is a property of `D_Consumable` (the struct is only `Stats`, `Modifier`, `DescriptionText`, `Byproducts`). The game discarded both at load, so using a kit played the consume animation, destroyed the kit, and handed back no panel — with the Ren, and on the backpack the Exotic Uranium, already spent and unrefundable. All four rewritten to the vanilla `Byproducts` form, matching `Workshop_Beehive_Starter_Kit`. Each kit now yields its real item: Solar Panel, Flat Solar Panel, Solar Backpack, Bunker Solar Panel.

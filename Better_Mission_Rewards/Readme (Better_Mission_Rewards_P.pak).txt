@@ -1,6 +1,6 @@
 Better_Mission_Rewards_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.0
+Mod Version: 1.0.1
 
 Author: AgentKush
 
@@ -13,6 +13,9 @@ Doubles mission payouts so you grind fewer missions for the same progress.
 Credits, account experience, and faction reputation are all 2x across every
 faction mission. Talent unlocks (TalentsRewarded) are left untouched so nothing
 is skipped or broken.
+
+Ver 1.0.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 1.0
 Initial release. 2x credits, 2x account XP, 2x faction reputation across all

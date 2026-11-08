@@ -2,7 +2,7 @@
 
 # Night Vision Goggles
 
-[![Version](https://img.shields.io/badge/v2.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v2.2.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -42,6 +42,9 @@ No blueprint unlock required - available immediately at the Fabricator.
 3. Enable and merge mods as usual
 
 ## Changelog
+
+### v2.2.1 (2026-11-08)
+- New icon and banner, drawn from the mod's live data. No gameplay change.
 
 ### v2.2
 - **Fix**: the goggles crafted in silence. The recipe set `Audio` to a `D_CraftingAudioData` row named `Fabricator`, but that table has no such row — `Fabricator` is a **`D_RecipeSets`** name, and the two tables use different keys. Now set to `MachiningBench`, which is what the vanilla **Binoculars** recipe uses (same three benches, same Glass + Epoxy inputs).

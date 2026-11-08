@@ -2,7 +2,7 @@
 
 # Dev Tools Kit
 
-[![Version](https://img.shields.io/badge/v1.1.5-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.1.6-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -99,6 +99,7 @@ All items appear in a new **"Developer Tools"** category in the Workshop.
 
 | Version | Changes |
 |---------|---------|
+| 1.1.6 | New icon and banner, drawn from the mod's live data. No gameplay change. |
 | 1.1.5 | **June 2026 update fix.** The update’s mesh consolidation broke Debug Target and Test Seed. Repointed Debug Target to the pivot-cube mesh and Test Seed to the seed mesh. |
 | 1.1.3 | Audited against live game data. Substituted visible meshes for 3 tools that previously used the invisible placeholder mesh (Inspection Tool → Scanner DeepOre, Bug Tool → Beacon Tool, Transform Tool → Building Hammer). Added Debug Target as the 11th dev tool (dummy target for weapon testing, uses its own visible mesh). Fixed Thor's Hammer Focusable reference (Focusable_2H no longer exists in game data → now uses Focusable_Sledge). Rearranged the Developer Tools workshop tree to a 4-row × 3-column grid so it fits within the Workshop's vertical bounds (scrolls horizontally only). |
 | 1.1.2 | Updated 3 item icons to match current game data: Unobtainable Tool (→ CrateEquipment icon), Test Seed (→ Red Exotic Seed icon), Deployable Dropship (→ Icarus logo icon). |

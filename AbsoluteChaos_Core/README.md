@@ -2,7 +2,7 @@
 
 # Absolute Chaos - Core
 
-[![Version](https://img.shields.io/badge/v0.2.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v0.2.3-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -112,6 +112,9 @@ Import `AbsoluteChaos_Core.EXMODZ` via JimK72's Icarus Mod Manager, enable it, a
 
 ## Changelog
 
+
+### v0.2.3 (2026-11-08)
+- New icon and banner, drawn from the mod's live data. No gameplay change.
 
 ### v0.2.2
 - Every workshop item is free again - the list was made against an older game, so the workshop items later updates added still charged credits; they are now zeroed too (all 343). Base layer of the Absolute Chaos modpack: a 76-key player stat block and free workshop research and replication.

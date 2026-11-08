@@ -1,8 +1,8 @@
 {
   "name": "Faster Crafting",
   "author": "AgentKush",
-  "version": "1.7",
-  "description": "v1.7: Fixed the speed maths - 927 recipes were set to instant instead of 2x faster, because recipes with no listed energy cost were read as 0 instead of the game's default 2,500. Every recipe is now recomputed from the November 2026 game values: exactly 2x faster than vanilla, never slower, and water recipes keep the 500 MJ minimum. Also corrects 69 recipes whose vanilla cost the game has changed, removes the 2 recipes the game deleted and adds the 62 it has gained. 2,235 recipes.",
+  "version": "1.7.1",
+  "description": "v1.7.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Faster_Crafting",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Faster_Crafting.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Faster_Crafting/README.md",

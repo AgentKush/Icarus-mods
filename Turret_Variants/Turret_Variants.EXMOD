@@ -1,8 +1,8 @@
 {
   "name": "Turret Variants",
   "author": "AgentKush",
-  "version": "3.7",
-  "description": "v3.7: Tuned arc-projectile turret balance (contributed by asconley, PR #16) - trimmed the Crossbow (55->50m), Bow (60->55m), Javelin (70->65m) and Rapid Crossbow (45->40m) ranges so the gravity-affected shot drops onto the target instead of overshooting, and raised the Javelin launch force (2200->12000) so spears actually reach that range. 15 automated turret variants with unique firing patterns.",
+  "version": "3.7.1",
+  "description": "v3.7.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Turret_Variants",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Turret_Variants.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/README.md",

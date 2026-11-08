@@ -2,7 +2,7 @@
 
 # Taming & Tames Overhaul
 
-[![Version](https://img.shields.io/badge/v1.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.1.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -35,6 +35,7 @@ Tamed combat stats come from the Guided Growth talent and per-creature base stat
 
 ## Version History
 
+- **v1.1.1** - New icon and banner, drawn from the mod's live data. No gameplay change.
 - **v1.1** - Added faster mounts (Husbandry_MountSpeed 5%->20%) and cheaper riding (Husbandry_RidingEfficiency doubled).
 - **v1.0** - Initial release. 3x taming, 2x breeding, double juvenile chance, half taming food, 3x tame-growth XP.
 

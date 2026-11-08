@@ -1,6 +1,6 @@
 Dev_Tools_Kit_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.1.5
+Mod Version: 1.1.6
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD
 ## Description:
 Unlocks 11 hidden developer tools from the workshop including Thor Hammer (fly mode), Fireball, Inspection Tool, Transform Tool, Destroy Tool, Debug Target, and more. Free to research and craft!
 
+
+Ver 1.1.6
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 1.1.5
 Fixed Debug Target (now its real pivot-cube mesh) and Test Seed (now a seed mesh) for the June 2026 update.

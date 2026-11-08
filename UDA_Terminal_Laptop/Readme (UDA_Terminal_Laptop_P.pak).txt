@@ -1,7 +1,7 @@
 UDA Terminal Laptop  -  v2.2
 ============================
 
-Mod Version: 2.2
+Mod Version: 2.2.1
 
 Reskins the vanilla Orbital Exchange Interface into a laptop, makes it craftable
 for FREE (no tech unlock), and lets you place it indoors and on benches / tables
@@ -44,6 +44,9 @@ Built with UAssetAPI (UE4.27) + UnrealPak. Round-trip verified before packing.
 
 CHANGELOG
 ---------
+Ver 2.2.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
+
 Ver 2.2
 The recipe is now really free. Mod rows merge field by field onto the vanilla row, so
 leaving the tech requirement out kept the vanilla unlock (Exotic_Delivery_Interface);

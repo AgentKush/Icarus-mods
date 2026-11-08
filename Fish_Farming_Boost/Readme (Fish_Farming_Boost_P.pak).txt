@@ -1,6 +1,6 @@
 Fish_Farming_Boost_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.3
+Mod Version: 1.3.1
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD
 ## Description:
 Farming and fishing overhaul with 335 changes. Crops grow 2x faster, harvest yields +50%, +2 cultivations per plot, fish spawn rates doubled, fish quality +50%.
 
+
+Ver 1.3.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 1.3
 Added the 13 Elysium (ELY) fish spawn zones for full fishing coverage (70/70), boosted to match the rest of the mod (2x spawn rate, 1.5x quality).

@@ -1,6 +1,6 @@
 Culinex_Food_Boost_Fix_P.pak
 ----------------------------------------------------------------------
-Mod Version: 2.9
+Mod Version: 2.9.1
 
 Author: AgentKush
 
@@ -12,6 +12,9 @@ Mod Type: EXMOD
 Fixes Culinex (Chef's Backpack) 25% food effectiveness boost to apply to all cooked foods. Also adds raw chicken to the butchery bench.
 
 
+
+Ver 2.9.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 2.9
 Crash fix: the Raw_Chicken_Butchery recipe still pointed its Raw_Meat input at

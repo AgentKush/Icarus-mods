@@ -1,8 +1,8 @@
 {
   "name": "Modular Affliction Adjuster",
   "author": "AgentKush",
-  "version": "2.0",
-  "description": "Comprehensive affliction adjustment - reduces stat penalties by ~50%, extends escalation times by ~50%, and reduces damage over time by ~50%.",
+  "version": "2.0.1",
+  "description": "v2.0.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Modular_Affliction_Adjuster",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Modular_Affliction_Adjuster.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Modular_Affliction_Adjuster/README.md",

@@ -1,8 +1,8 @@
 {
   "name": "Creature Drop Enhancer",
   "author": "AgentKush",
-  "version": "1.2",
-  "description": "v1.2: Extended doubled butchery/skinning drops to 15 more creatures (Komodo, Orka, Storca, Slinker, juveniles, tundra fauna). | Doubles all creature butchery and skinning outputs across 62 recipes.",
+  "version": "1.2.1",
+  "description": "v1.2.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Creature_Drop_Enhancer",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Creature_Drop_Enhancer.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Drop_Enhancer/README.md",

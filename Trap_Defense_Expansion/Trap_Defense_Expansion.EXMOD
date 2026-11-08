@@ -1,8 +1,8 @@
 {
   "name": "Trap and Defense Expansion",
   "author": "AgentKush",
-  "version": "1.3",
-  "description": "v1.3: Fixed the crafting sound on the 12 Fabricator-tier recipes (the 4 elemental landmines and their direct crafts, Batch Landmines, Landmine Field Kit, Mammoth Trap and Lava Mine). They pointed at a sound entry that does not exist, so they crafted in silence; they now use the Machining Bench sound, like the vanilla landmines. Defense expansion with 23 recipes using real game items.",
+  "version": "1.3.1",
+  "description": "v1.3.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Trap_Defense_Expansion",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Trap_Defense_Expansion.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Trap_Defense_Expansion/README.md",

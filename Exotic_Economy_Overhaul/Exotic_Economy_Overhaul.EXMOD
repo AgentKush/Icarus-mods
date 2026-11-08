@@ -1,8 +1,8 @@
 {
   "name": "Exotic Economy Overhaul",
   "author": "AgentKush",
-  "version": "2.3",
-  "description": "v2.3: Removed the 5 cobalt recipes - the game no longer has cobalt (Cobalt Ore has no item data and Cobalt Ingot no longer exists), so Ren to Cobalt, Cobalt to Ren, Platinum to Cobalt, Cobalt to Lithium and Bulk Cobalt Smelt could never work. Full currency exchange system with 61 recipes: buy and sell materials with Ren, convert between exotics and currencies, cross-convert ingots and bulk smelt ores at the correct furnaces and benches.",
+  "version": "2.3.1",
+  "description": "v2.3.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Exotic_Economy_Overhaul",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Exotic_Economy_Overhaul.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Exotic_Economy_Overhaul/README.md",

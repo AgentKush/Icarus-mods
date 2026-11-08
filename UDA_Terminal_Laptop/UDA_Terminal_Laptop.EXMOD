@@ -1,8 +1,8 @@
 {
   "name": "UDA Terminal Laptop",
   "author": "AgentKush",
-  "version": "2.2",
-  "description": "v2.2: The laptop recipe is now really free - mod rows merge field by field onto the game's own, so leaving the tech requirement out kept the vanilla unlock; it is now cleared. Also fixed the crafting sound (it pointed at a sound entry that does not exist); it uses the vanilla Crafting Bench sound again. Reskins the Orbital Exchange Interface into a laptop you can craft for free and place indoors and on benches and tables. Requires both files - both ship in this EXMODZ.",
+  "version": "2.2.1",
+  "description": "v2.2.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "UDA_Terminal_Laptop",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/UDA_Terminal_Laptop.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/UDA_Terminal_Laptop/README.md",

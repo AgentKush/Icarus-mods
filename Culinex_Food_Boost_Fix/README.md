@@ -2,7 +2,7 @@
 
 # Culinex Food Boost Fix
 
-[![Version](https://img.shields.io/badge/v2.9-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v2.9.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -47,6 +47,9 @@ All 206 food items display their Chef's Backpack boosted stats and a Food Rating
 4. Enable and launch Icarus
 
 ## Changelog
+
+### v2.9.1 (2026-11-08)
+- New icon and banner, drawn from the mod's live data. No gameplay change.
 
 ### v2.9
 - **Crash fix:** Fixed remaining `D_ItemsStatic` reference in `Raw_Chicken_Butchery` recipe input. The input for `Raw_Meat` was still pointing to `D_ItemsStatic`, which caused an `EXCEPTION_ACCESS_VIOLATION` when opening the Butcher Bench. Changed to `D_ItemTemplate` (Raw_Meat exists in both tables). All recipe references now use `D_ItemTemplate` exclusively.

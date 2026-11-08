@@ -1,6 +1,6 @@
 Bestiary_Fix_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.1
+Mod Version: 1.1.1
 
 Author: AgentKush
 
@@ -10,6 +10,9 @@ Mod Type: EXMOD
 
 ## Description:
 Adds missing Kill/Skin experience events for Sulfur Worm, Sulfur Vesper, Cave Worm, and Vesper to help Bestiary tracking. Also fixes Sulfuric Spider SkinningXPEvent pointing to wrong event.
+
+Ver 1.1.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 1.1
 Removed skinning events for exploding creatures. Fixed GeothermalSpider SkinningXPEvent. Added Kill_SulfurWorm event.

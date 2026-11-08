@@ -1,8 +1,8 @@
 {
   "name": "Faster Harvest Tools",
   "author": "AgentKush",
-  "version": "1.0",
-  "description": "2x harvest yield from every gathering tool - mining, felling, reaping and skinning - plus faster tree felling.",
+  "version": "1.0.1",
+  "description": "v1.0.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Faster_Harvest_Tools",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Faster_Harvest_Tools.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Faster_Harvest_Tools/README.md",

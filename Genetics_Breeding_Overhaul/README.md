@@ -2,7 +2,7 @@
 
 # Genetics & Breeding Overhaul
 
-[![Version](https://img.shields.io/badge/v1.0-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.0.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/Homestead%20DLC-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -42,6 +42,7 @@ No base creature combat stats and no genotype value curves — so it layers clea
 
 ## Version History
 
+- **v1.0.1** - New icon and banner, drawn from the mod's live data. No gameplay change.
 - **v1.0** - Initial release. 2x genetics talent rewards (mutation / twins / gestation / recovery / lineage / wild genetics) + bloodline rarity rebalance.
 
 ---

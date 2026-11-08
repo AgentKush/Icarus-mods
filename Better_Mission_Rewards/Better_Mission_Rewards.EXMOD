@@ -1,8 +1,8 @@
 {
   "name": "Better Mission Rewards",
   "author": "AgentKush",
-  "version": "1.0",
-  "description": "v1.0: Doubles mission payouts - 2x credits, 2x account XP, and 2x faction reputation across all faction missions. Less mission grinding, same gameplay flow. Talent unlocks are untouched.",
+  "version": "1.0.1",
+  "description": "v1.0.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Better_Mission_Rewards",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Better_Mission_Rewards.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Better_Mission_Rewards/README.md",

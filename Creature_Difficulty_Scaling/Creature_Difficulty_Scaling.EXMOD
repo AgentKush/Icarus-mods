@@ -1,8 +1,8 @@
 {
   "name": "Creature Difficulty Scaling",
   "author": "AgentKush",
-  "version": "2.4",
-  "description": "v2.4: Fixed the creature health-regen scaling, which never worked - 158 creature rows buffed a stat that does not exist (BaseHealthRegenPerMinute_+%), so the game ignored it; they now use the real BaseHealthRegen_+% with the same values. Fixed 4 re-themed Styx biomes having no ambient sound - they named sound sets that do not exist; they now use the ones vanilla pairs with the same atmosphere (Wetlands, Lava, BossGolemCave). Scales creature difficulty across biomes and threat levels.",
+  "version": "2.4.1",
+  "description": "v2.4.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Creature_Difficulty_Scaling",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Creature_Difficulty_Scaling.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Creature_Difficulty_Scaling/README.md",

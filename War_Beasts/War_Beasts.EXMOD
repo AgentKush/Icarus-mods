@@ -1,9 +1,9 @@
 {
   "name": "War Beasts",
   "author": "AgentKush",
-  "version": "1.0",
+  "version": "1.0.1",
   "compatibility": "All",
-  "description": "The first taming-combat mod. Husbandry combat talents 3x stronger - turn tamed creatures into true war beasts that hit hard and survive fights.",
+  "description": "v1.0.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "War_Beasts",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/War_Beasts.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/War_Beasts/README.md",

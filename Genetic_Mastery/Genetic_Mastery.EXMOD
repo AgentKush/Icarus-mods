@@ -1,9 +1,9 @@
 {
   "name": "Genetic Mastery",
   "author": "AgentKush",
-  "version": "1.0",
+  "version": "1.0.1",
   "compatibility": "All",
-  "description": "Elite trait lineages (Brave, Hardy, Bold, Careful and more) are 4x more common - wild and bred creatures far more often carry powerful genetics. Distinct from Genetics & Breeding Overhaul (mutation talents) - they stack.",
+  "description": "v1.0.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Genetic_Mastery",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Genetic_Mastery.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Genetic_Mastery/README.md",

@@ -2,7 +2,7 @@
 
 # Agents Optimization Mod
 
-[![Version](https://img.shields.io/badge/v2.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v2.2.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/PAK%20%2B%20EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=unrealengine&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -75,6 +75,14 @@ Comprehensive performance optimization mod combining engine-level config overrid
 
 ### Weather Pool Biasing (D_WeatherPools) - 2 entries
 - T0-T2 weather boosted, T4-T6 reduced 50-85%, particle-heavy types -30%
+
+## Changelog
+
+### v2.2.1 (2026-11-08)
+- New icon and banner, drawn from the mod's live data. No gameplay change.
+
+### v2.2
+- See "What's New in v2.2" above.
 
 ## Installation
 

@@ -1,6 +1,6 @@
 FastProcessing_All_5x_P.pak
 ----------------------------------------------------------------------
-Mod Version: 5.2
+Mod Version: 5.2.1
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD
 ## Description:
 All crafting and processing 5x faster. 2235 recipes rebuilt from the November 2026 game data. Water recipes have 500 MJ floor to prevent fluid bugs.
 
+
+Ver 5.2.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 5.2
 Fixed the speed maths - 896 recipes were set to instant instead of 5x faster, because

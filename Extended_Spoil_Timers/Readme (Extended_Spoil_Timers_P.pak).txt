@@ -1,6 +1,6 @@
 Extended_Spoil_Timers_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.2
+Mod Version: 1.2.1
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD
 ## Description:
 Extends decay timers on 29 items. Food spoilage 5x longer, other decay 3x longer. Arrows and transient items unchanged.
 
+
+Ver 1.2.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 1.2
 Added Decay_NoDecay entry (DecayTime: 99999). Total decay entries: 33.

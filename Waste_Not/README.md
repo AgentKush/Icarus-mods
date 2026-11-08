@@ -2,7 +2,7 @@
 
 # Waste Not
 
-[![Version](https://img.shields.io/badge/v2.3-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v2.3.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/CritFail%20%28Updated%20by%20AgentKush%29-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -83,6 +83,9 @@ Most mineable deposits now drop something useful as a secondary resource instead
 3. Enable the mod and merge
 
 ## Changelog
+
+### v2.3.1 (2026-11-08)
+- New icon and banner, drawn from the mod's live data. No gameplay change.
 
 ### v2.3
 - **Fix**: Dense Stone set the *primary* yield (`ResourceType`) to Silica instead of the secondary. Mod rows merge field by field, so vanilla's Stone secondary survived and dense stone gave Silica first and Stone second - the opposite of this mod's purpose, and the game's main stone deposit stopped yielding stone. It now sets `SecondaryResourceType`, exactly like Normal Stone.

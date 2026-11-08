@@ -1,6 +1,6 @@
 Passive_Ore_Extractor_Drills_P.pak
 ----------------------------------------------------------------------
-Mod Version: 7.8
+Mod Version: 7.8.1
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD
 ## Description:
 23 passive ore extractors - one per ore type. Place anywhere, connect power, load Stone. Uses drill-visual processor for passive mining.
 
+
+Ver 7.8.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 7.8
 Fixed the drills mining in silence - their recipes pointed at a sound entry that does

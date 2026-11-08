@@ -1,6 +1,6 @@
 Agents_Individual_Item_Kits_P.pak
 ----------------------------------------------------------------------
-Mod Version: 5.5
+Mod Version: 5.5.1
 
 Author: AgentKush
 
@@ -10,6 +10,9 @@ Mod Type: EXMOD
 
 ## Description:
 2728 individual item kits with real game icons across 20 categorized workshop groups. Every player-usable game item available as a kit - fairly priced by complexity and rarity. Armor sorted by slot (head -> chest -> arms -> legs -> feet), 5-row grid layout, verified icons.
+
+Ver 5.5.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 5.5
 Icons, names, 22 new kits and 6 duplicates removed. Every kit icon now exists and

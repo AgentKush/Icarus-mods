@@ -2,7 +2,7 @@
 
 # Resource Repacker
 
-[![Version](https://img.shields.io/badge/v1.5-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.5.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -105,6 +105,9 @@ Repacks raw resources back into the standard UDA kit format. Useful for **cuttin
 
 ## Changelog
 
+
+### v1.5.1 (2026-11-08)
+- New icon and banner, drawn from the mod's live data. No gameplay change.
 
 ### v1.5
 - Gated the five DLC recipes that had no feature gate (Limestone and Lithium behind Dangerous Horizons; Clay, Scoria and Obsidian behind New Frontiers), so they no longer appear on installs without that DLC. Removed the Ren and Uranium Rod recipes - those kits have no item data in the game, so the recipe produced an item that cannot exist. Fixed the crafting sound on every recipe (it pointed at a sound entry that does not exist, so repacking finished in silence). 19 recipes that repack raw resources back into UDA kits at neutral ratios.

@@ -1,8 +1,8 @@
 {
   "name": "Genetics & Breeding Overhaul",
   "author": "AgentKush",
-  "version": "1.0",
-  "description": "v1.0: Supercharges the Mendel genetics system - doubles genotype/phenotype mutation, twin-birth, gestation, recovery and lineage-mutation chances from the Genetics talents, and rebalances bloodline rarity (rarer Wild, more achievable Alpha) so selective breeding is far less grindy.",
+  "version": "1.0.1",
+  "description": "v1.0.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Genetics_Breeding_Overhaul",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Genetics_Breeding_Overhaul.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Genetics_Breeding_Overhaul/README.md",

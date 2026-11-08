@@ -2,7 +2,7 @@
 
 # No Food Spoilage
 
-[![Version](https://img.shields.io/badge/v2.3-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v2.3.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -28,6 +28,9 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 - Volatile Substance decay also disabled
 
 ## Changelog
+
+### v2.3.1 (2026-11-08)
+- New icon and banner, drawn from the mod's live data. No gameplay change.
 
 ### v2.3
 - SAFETY FIX - the mod gave the game's never-decay profile a decay timer, so the 19 things that are meant to last forever (all four saddle carts, the speeder saddle, the landing pads, the advanced exotic delivery interface, animal silage and ten mission stasis bags) could decay. They never decay again. Restored leather curing (Curing Leather turns into Advanced Leather again - that is crafting, not spoilage). Removed 12 composter recipes for items that do not exist and fixed 5 that pointed at renamed foods (Fatty T-Bone, Giant Steak, Berry, Bean, Prickly Pear). Food never spoils; the composter can still turn food into spoiled food for fertilizer.

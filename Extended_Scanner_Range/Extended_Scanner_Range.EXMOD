@@ -1,8 +1,8 @@
 {
   "name": "Extended Scanner Range",
   "author": "AgentKush",
-  "version": "1.0",
-  "description": "10x detection range for the Cave Scanner and Fish Finder - locate caves and fishing spots from far further out.",
+  "version": "1.0.1",
+  "description": "v1.0.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Extended_Scanner_Range",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Extended_Scanner_Range.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Scanner_Range/README.md",

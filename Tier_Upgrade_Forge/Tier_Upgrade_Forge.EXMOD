@@ -1,8 +1,8 @@
 {
   "name": "Tier Upgrade Forge",
   "author": "AgentKush",
-  "version": "1.3",
-  "description": "v1.3: Added in-place tier upgrades for Spears (Wood->Metal->Steel->Platinum->Titanium + Obsidian/ColdSteel/IronWood), Shovels (Stone->Platinum->Titanium), Sickles (Bone->Platinum->Titanium + specialty), and Sledgehammers (Metal->Obsidian/ColdSteel/IronWood). | In-place tool/weapon tier upgrades at the Anvil.",
+  "version": "1.3.1",
+  "description": "v1.3.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Tier_Upgrade_Forge",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Tier_Upgrade_Forge.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Tier_Upgrade_Forge/README.md",

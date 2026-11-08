@@ -30,7 +30,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parents[2]
 CHUNK = "icarus-mod-image"
 RENDERER = "blueprint-1"          # bump when the renderer's look changes, so every image redraws
-ICON_FIELDS = ("renderer", "folder", "name", "category")   # what the icon shows
+ICON_FIELDS = ("renderer", "folder", "name", "version", "category")   # what the icon shows (REV x.y)
 BANNER_FIELDS = ("renderer", "folder", "name", "version", "entries", "tables", "category", "tagline", "author")
 
 

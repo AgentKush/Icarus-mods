@@ -253,6 +253,13 @@ def check_release(mod_dir: Path, exmod: dict, catalog: dict) -> list[str]:
         if stale:
             issues.append(f"modinfo.json description still mentions older version(s) {stale}")
     issues += check_docs(mod_dir, ver)
+    # icon and banner must match the mod's live data (mod_images.py redraws them);
+    # this only reads each PNG's metadata chunk, so it needs no Pillow or fonts
+    try:
+        import mod_images
+        issues += mod_images.stale(name)
+    except Exception as err:          # never let the image check break the rest of the report
+        issues.append(f"images: check failed ({err})")
     return issues
 
 

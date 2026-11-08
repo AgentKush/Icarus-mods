@@ -1,8 +1,8 @@
 {
   "name": "Extended Wire and Pipe Tool",
   "author": "AgentKush",
-  "version": "1.0",
-  "description": "Extends power cable and water/fuel pipe connection range by 10x.",
+  "version": "1.0.1",
+  "description": "v1.0.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Extended_Wire_and_Pipe_Tool",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Extended_Wire_and_Pipe_Tool.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Wire_and_Pipe_Tool/README.md",

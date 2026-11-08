@@ -1,6 +1,6 @@
 AbsoluteChaos_Core_P.pak
 ----------------------------------------------------------------------
-Mod Version: 0.2.2
+Mod Version: 0.2.3
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD
 ## Description:
 Base layer of the Absolute Chaos modpack. Overrides D_CharacterStartingStats.Base_Stats with 76 chaos stat buffs (5000kg carry, 600 move speed, fall-damage immunity, zero survival drain, +900% XP, +900% crafting speed) and zeros research/replication cost on every workshop item. Designed to stack with AgentKush's existing mods.
 
+
+Ver 0.2.3
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 0.2.2
 Every workshop item is free again - the list was made against an older game, so the

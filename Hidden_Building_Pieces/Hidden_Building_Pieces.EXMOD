@@ -1,8 +1,8 @@
 {
   "name": "Hidden Building Pieces",
   "author": "AgentKush",
-  "version": "4.6",
-  "description": "v4.6: Now only the game's unreleased building parts - the 20 pieces the game has but no item lets you build: Wood, Thatch and Interior Wood frames, 7 pillars, and Concrete and Aluminium corner stairs, each crafted like the game's matching item for its material. Removed 28 re-skins of parts the game does not have, the extra Interior Wood Floor recipe, and the edits that changed every vanilla building. Pieces built from the removed items can disappear from saves.",
+  "version": "4.6.1",
+  "description": "v4.6.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Hidden_Building_Pieces",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hidden_Building_Pieces.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hidden_Building_Pieces/README.md",

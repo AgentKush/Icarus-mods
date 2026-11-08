@@ -1,6 +1,6 @@
 Hidden_Building_Pieces_P.pak
 ----------------------------------------------------------------------
-Mod Version: 4.6
+Mod Version: 4.6.1
 Author: AgentKush
 Compatible with Icarus: All Weeks
 Mod Type: EXMOD
@@ -13,6 +13,9 @@ Concrete and Aluminium corner stairs. Each is crafted exactly like the game's ma
 its material (same cost, bench, blueprint unlock and DLC). No vanilla row is changed.
 
 ## Changelog:
+
+Ver 4.6.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 4.6
 Now only the game's unreleased building parts. Removed 28 re-skins of parts the game does

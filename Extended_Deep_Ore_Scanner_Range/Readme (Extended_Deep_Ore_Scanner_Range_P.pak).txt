@@ -1,6 +1,6 @@
 Extended_Deep_Ore_Scanner_Range_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.0
+Mod Version: 1.0.1
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD + Blueprint Overrides
 ## Description:
 10x detection range for the Deep Ore Scanner. Find deep exotic and epic ore deposits from 3000m (3km) instead of 300m. Applies to both the Deep Ore Scanner and the Advanced Deep Ore Scanner. PAK mod - modifies the MaxScanningRange value in BP_ActionableBehaviour_Scanner_DeepOre.
 
+
+Ver 1.0.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 1.0
 Initial release. 10x deep ore scanner detection range (300m -> 3000m).

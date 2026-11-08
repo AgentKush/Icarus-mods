@@ -1,6 +1,6 @@
 Trap_Defense_Expansion_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.3
+Mod Version: 1.3.1
 
 Author: AgentKush
 
@@ -12,6 +12,9 @@ Mod Type: EXMOD
 Defense expansion with 23 recipes using real game items. Unlocks 4 elemental landmines (Poison/Burn/Shock/Freeze) that were previously enemy-only. Adds cheaper fortifications, early-game traps, hedgehog defenses without rare drops, and batch crafting packs.
 
 
+
+Ver 1.3.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 1.3
 Fixed the crafting sound on the 12 Fabricator-tier recipes (all 4 elemental landmines,

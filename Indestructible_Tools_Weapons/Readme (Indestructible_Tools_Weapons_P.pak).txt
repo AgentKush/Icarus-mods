@@ -1,6 +1,6 @@
 Indestructible_Tools_Weapons_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.9
+Mod Version: 1.9.1
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD
 ## Description:
 All tools, weapons, armor, buildings, doors, and crafting stations will never break. Sets durability to max cap (12,700,000).
 
+
+Ver 1.9.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 1.9
 Added 9 Lithium-tier tools, the Chainsaw and the Nailgun (210 total).

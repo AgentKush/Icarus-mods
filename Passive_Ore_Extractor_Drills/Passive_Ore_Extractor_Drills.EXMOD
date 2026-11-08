@@ -2,8 +2,8 @@
   "name": "Passive Ore Extractor Drills",
   "author": "AgentKush",
   "fileName": "Passive_Ore_Extractor_Drills",
-  "version": "7.8",
-  "description": "v7.8: Fixed the drills mining in silence - their recipes pointed at a sound entry that does not exist; they now use the default sound like the vanilla extractor. Removed data the game was ignoring (display text on the item templates - the real names are unchanged - and extra fields on recipe inputs). Known issue: a placed drill can duplicate when the save is reloaded; that is in the drill's blueprint, not the data. 23 passive ore extractors - one per ore type.",
+  "version": "7.8.1",
+  "description": "v7.8.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "week": "All",
   "Level2": "True",
   "Rows": [

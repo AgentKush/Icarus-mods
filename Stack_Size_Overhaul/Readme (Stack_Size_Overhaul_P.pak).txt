@@ -1,6 +1,6 @@
 Stack_Size_Overhaul_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.5
+Mod Version: 1.5.1
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD
 ## Description:
 Increases stack sizes on 1232 items. Resources/ammo/ores 5x, everything else 3x. Max cap 9999. Unstackable items unchanged.
 
+
+Ver 1.5.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 1.5
 Removed a stale entry for a test item (Item_Light_Test) that no longer exists in the game.

@@ -1,6 +1,6 @@
 Armor_Attachment_Expansion_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.0
+Mod Version: 1.0.1
 
 Author: AgentKush
 
@@ -47,6 +47,9 @@ FEET
   - Scaler Grips             +30% Climbing Speed
   - Shock Pads               +30% Fall Damage Resistance
   - Homestead Soles          +3 Comfort
+
+Ver 1.0.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 1.0
 Initial release. 25 new attachments across 6 data tables.

@@ -1,8 +1,8 @@
 {
   "name": "Indestructible Tools & Weapons",
   "author": "AgentKush",
-  "version": "1.9",
-  "description": "All tools, weapons, armor, buildings, doors, and crafting stations will never break.",
+  "version": "1.9.1",
+  "description": "v1.9.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Indestructible_Tools_Weapons",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Indestructible_Tools_Weapons.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Indestructible_Tools_Weapons/README.md",

@@ -1,8 +1,8 @@
 {
   "name": "Agent's BioLab",
   "author": "AgentKush",
-  "version": "2.0",
-  "description": "Adds all Bio Lab Legendary weapons to the Workshop! Includes Frontier Revolver, Kinetic Rifle, Tactical Bow, Mining Armature, Ape Club, Heavy Flamethrower, Anti-materiel Rifle, Javelin Launcher, Sl...",
+  "version": "2.0.1",
+  "description": "v2.0.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Agents_BioLab",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Agents_BioLab.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_BioLab/README.md",

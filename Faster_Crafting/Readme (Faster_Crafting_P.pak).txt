@@ -1,6 +1,6 @@
 Faster_Crafting_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.7
+Mod Version: 1.7.1
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD
 ## Description:
 All crafting and processing 2x faster. 2235 recipes rebuilt from the November 2026 game data. Water recipes have 500 MJ floor to prevent fluid bugs.
 
+
+Ver 1.7.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 1.7
 Fixed the speed maths - 927 recipes were set to instant instead of 2x faster, because

@@ -2,7 +2,7 @@
 
 # Faster Crafting
 
-[![Version](https://img.shields.io/badge/v1.7-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.7.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -32,6 +32,9 @@ Import `Faster_Crafting.EXMODZ` via Icarus Mod Manager.
 
 ## Changelog
 
+
+### v1.7.1 (2026-11-08)
+- New icon and banner, drawn from the mod's live data. No gameplay change.
 
 ### v1.7
 - Fixed the speed maths - 927 recipes were set to instant instead of 2x faster, because recipes with no listed energy cost were read as 0 instead of the game's default 2,500. Every recipe is now recomputed from the November 2026 game values: exactly 2x faster than vanilla, never slower, and water recipes keep the 500 MJ minimum. Also corrects 69 recipes whose vanilla cost the game has changed, removes the 2 recipes the game deleted and adds the 62 it has gained. 2,235 recipes.

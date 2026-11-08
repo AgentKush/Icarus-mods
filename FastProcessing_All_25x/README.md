@@ -2,7 +2,7 @@
 
 # Fast Processing (25x)
 
-[![Version](https://img.shields.io/badge/v5.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v5.2.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -45,6 +45,9 @@ Covers all base game recipes plus compatibility with:
 
 ## Changelog
 
+
+### v5.2.1 (2026-11-08)
+- New icon and banner, drawn from the mod's live data. No gameplay change.
 
 ### v5.2
 - Fixed the speed maths - 896 recipes were set to instant instead of 25x faster, because recipes with no listed energy cost were read as 0 instead of the game's default 2,500. Every recipe is now recomputed from the November 2026 game values: exactly 25x faster than vanilla, never slower, and water recipes keep the 500 MJ minimum. Also corrects 87 recipes whose cost had drifted from the current vanilla value, removes the 2 recipes the game deleted and adds the 62 it has gained. 2,235 recipes.

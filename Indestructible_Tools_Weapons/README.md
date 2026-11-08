@@ -2,7 +2,7 @@
 
 # Indestructible Tools & Weapons
 
-[![Version](https://img.shields.io/badge/v1.9-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.9.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -71,6 +71,7 @@ Eliminates equipment degradation by setting all durability values to the game's 
 
 | Version | Changes |
 |---------|---------|
+| 1.9.1 | New icon and banner, drawn from the mod's live data. No gameplay change. |
 | 1.9 | Added 9 Lithium-tier tools, Chainsaw, and Nailgun (210 total) |
 | 1.7 | Added 7 new durable entries from latest game data (199 total) |
 | 1.6 | Added Sandwyrm_Gear row — covers Sandwyrm Backpack |

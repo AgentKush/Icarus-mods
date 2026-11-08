@@ -2,7 +2,7 @@
 
 # Stack Size Overhaul
 
-[![Version](https://img.shields.io/badge/v1.5-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.5.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -33,6 +33,7 @@ Import `Stack_Size_Overhaul.EXMODZ` via Icarus Mod Manager.
 
 ## Version History
 
+- **v1.5.1** - New icon and banner, drawn from the mod's live data. No gameplay change.
 - **v1.5** - Removed a stale test-item entry (Item_Light_Test) that no longer exists in the game.
 - **v1.4** - Added 6 new Limestone building pieces (curved walls, diagonal sets, advanced beams). Removed 2 dead refs (Item_Wood_Build_HalfNormal, Item_Wood_Build_HalfPitch). Total: 1,262
 - **v1.1** - Added 36 new DLC items: Agave, Garlic, Onion, PricklyPear foods + trophies

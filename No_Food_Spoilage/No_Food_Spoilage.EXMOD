@@ -1,8 +1,8 @@
 {
   "name": "No Food Spoilage",
   "author": "AgentKush",
-  "version": "2.3",
-  "description": "v2.3: SAFETY FIX - the mod gave the game's never-decay profile a decay timer, so the 19 things that are meant to last forever (all four saddle carts, the speeder saddle, the landing pads, the advanced exotic delivery interface, animal silage and ten mission stasis bags) could decay. They never decay again. Restored leather curing (Curing Leather turns into Advanced Leather again - that is crafting, not spoilage). Removed 12 composter recipes for items that do not exist and fixed 5 that pointed at renamed foods (Fatty T-Bone, Giant Steak, Berry, Bean, Prickly Pear). Food never spoils; the composter can still turn food into spoiled food for fertilizer.",
+  "version": "2.3.1",
+  "description": "v2.3.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "No_Food_Spoilage",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/No_Food_Spoilage.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/No_Food_Spoilage/README.md",

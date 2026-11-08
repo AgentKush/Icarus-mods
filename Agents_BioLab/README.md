@@ -2,7 +2,7 @@
 
 # Agent's BioLab
 
-[![Version](https://img.shields.io/badge/v2.0-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v2.0.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -73,6 +73,7 @@ Agent's BioLab brings all 11 legendary Bio Lab weapons to the Workshop, making t
 
 | Version | Changes |
 |---------|---------|
+| 2.0.1 | New icon and banner, drawn from the mod's live data. No gameplay change. |
 | 2.0 | Fixed Flamethrower case mismatch (`FlameThrower` → `Flamethrower`), added Sandwyrm Chainsaw |
 | 1.9 | Fixed Ape Club item reference (`LegendaryWeapon_ApeClub`) - icon and workshop craft now working |
 | 1.8 | Fixed item references for Ape Club and Heavy Flamethrower (Week 214 compatibility) |

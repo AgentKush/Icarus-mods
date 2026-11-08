@@ -1,8 +1,8 @@
 {
   "name": "Armor Attachment Expansion",
   "author": "AgentKush",
-  "version": "1.0",
-  "description": "v1.0: Adds 25 new craftable armor attachments (5 per body part: Head, Arms, Body, Legs, Feet). All use base-game stat keys so effects stack cleanly with existing talents, food buffs, and other attachments. Craft at the Alteration Bench or Advanced Alteration Bench. Pairs great with Survival_Attachments which doubles available attachment slots.",
+  "version": "1.0.1",
+  "description": "v1.0.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Armor_Attachment_Expansion",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Armor_Attachment_Expansion.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Armor_Attachment_Expansion/README.md",

@@ -1,8 +1,8 @@
 {
   "name": "Hardcore Rebalance Pack",
   "author": "AgentKush",
-  "version": "2.2",
-  "description": "v2.2: Rebuilt the alpha hunters for the November 2026 game. 9 more hunters now really spawn - their spawn rows used fields the game does not have, so they never appeared - and all 21 hunters now drop exotics on kill, through the same system as the game's Exotic-Infused creatures. Removed 16 hunters built on mission, cave or boss-fight creatures the game never spawns in the wild (the Radiation Boss no longer exists at all) and 29 hunter loot tables nothing in the game could reach. Boss loot: the Scorpion Boss keeps the Chitin the update added, and a canteen that does not exist and an old shotgun shell name are fixed.",
+  "version": "2.2.1",
+  "description": "v2.2.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Hardcore_Rebalance_Pack",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hardcore_Rebalance_Pack.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hardcore_Rebalance_Pack/README.md",

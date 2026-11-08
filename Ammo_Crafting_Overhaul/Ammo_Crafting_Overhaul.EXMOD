@@ -1,8 +1,8 @@
 {
   "name": "Ammo Crafting Overhaul",
   "author": "AgentKush",
-  "version": "1.2",
-  "description": "v1.2: Added 50x batch crafting for Sniper special ammo (Explosive, Incendiary) — previously missing. | 48 new ammo recipes.",
+  "version": "1.2.1",
+  "description": "v1.2.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Ammo_Crafting_Overhaul",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Ammo_Crafting_Overhaul.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Ammo_Crafting_Overhaul/README.md",

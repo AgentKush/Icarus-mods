@@ -1,8 +1,8 @@
 {
   "name": "Performance Optimizer",
   "author": "AgentKush",
-  "version": "2.2",
-  "description": "Comprehensive FPS optimization - PAK config overrides (foliage/shadow/fog/LOD reduction) plus data table changes (reduced spawns, slower hordes, extended decay, boosted fuel, weather tuning).",
+  "version": "2.2.1",
+  "description": "v2.2.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Performance_Optimizer",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Performance_Optimizer.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Performance_Optimizer/README.md",

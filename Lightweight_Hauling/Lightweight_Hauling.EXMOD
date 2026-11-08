@@ -1,8 +1,8 @@
 {
   "name": "Lightweight Hauling",
   "author": "AgentKush",
-  "version": "1.0",
-  "description": "All ores, ingots and raw resources weigh 50% less - haul far more per trip.",
+  "version": "1.0.1",
+  "description": "v1.0.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Lightweight_Hauling",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Lightweight_Hauling.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Lightweight_Hauling/README.md",

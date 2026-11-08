@@ -2,7 +2,7 @@
 
 # Passive Ore Extractor Drills
 
-[![Version](https://img.shields.io/badge/v7.8-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v7.8.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -84,6 +84,9 @@ All miners are craftable at the **Fabricator** with tiered material costs:
 > the vanilla Electric Furnace and nothing in the data re-creates the machine. Being investigated.
 
 ## Changelog
+
+### v7.8.1 (2026-11-08)
+- New icon and banner, drawn from the mod's live data. No gameplay change.
 
 ### v7.8
 - **Fix**: all 23 miners ran silently. Their mining recipes set `Audio` to a `D_CraftingAudioData` row called `Furnace`, which has never existed in that table. Now `Default`, matching vanilla's own passive extractor recipe (`Ore_Meta`). The kit-crafting recipes were already correct and are unchanged.

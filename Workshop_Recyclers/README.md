@@ -2,7 +2,7 @@
 
 # Workshop Recyclers
 
-[![Version](https://img.shields.io/badge/v5.8-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v5.8.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -152,6 +152,7 @@ Workshop currencies cannot be directly output by processor recipes (the game eng
 
 | Version | Changes |
 |---------|---------|
+| 5.8.1 | New icon and banner, drawn from the mod's live data. No gameplay change. |
 | 5.8 | Updated for the November 2026 game update. Removed 41 recipes for items the game no longer has (the update deleted the Electric Motor, Cobalt Ore, Cobalt Ingot and the explosive sniper rounds; the rest were unreleased workshop items or items with no item data), so the machines no longer list recipes that can never run. Fixed 25 recipes that gave nothing: 17 Platinum Sheath and 4 saddle outputs used the wrong item name, and 4 deconstruct recipes tried to output animal carcasses, which cannot be made (they now give Wool or a Ram, Sheep or Pig head, matching the vanilla recipes). Removed Deconstruct Raw Meat (no single vanilla source to return), 3 duplicate recipes that overwrote each other, and an unused timing field from every incinerate recipe. Added incinerate recipes for the 17 new items. 5,312 recipes: 1,943 deconstruct, 315 recycle, 3,051 incinerate and 3 crafting. |
 | 5.7 | **June 2026 update fix.** The Incinerator and Biofuel Recycler stopped placing after the update renamed the meshes they used. Both now point at their correct machine models (Incinerator → electric furnace, Biofuel Recycler → cleaning device). |
 | 5.5 | **Full incinerate coverage.** Added 886 missing recipes (frozen wood, frozen ore, raw ores, food, building pieces, seeds). 3,054 total incinerate recipes — every item in the game. Fixed icon (invalid asset path), mesh (non-existent reference), and tech tree overlap. |

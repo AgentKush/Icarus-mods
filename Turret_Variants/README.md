@@ -2,7 +2,7 @@
 
 # Turret Variants
 
-[![Version](https://img.shields.io/badge/v3.7-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v3.7.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/PAK%20%2B%20EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=unrealengine&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -76,6 +76,7 @@ Copy `Turret_Variants_LOS_Fix_P.pak` to:
 - **Flamethrower** — 40-shot stream, area denial. Range: 15m. Ammo: Biofuel
 
 ## Version History
+- **v3.7.1** — New icon and banner, drawn from the mod's live data. No gameplay change.
 - **v3.7** — Arc-projectile turret balance pass (contributed by **asconley**): trimmed the Crossbow (55→50m), Bow (60→55m), Javelin (70→65m) and Rapid Crossbow (45→40m) ranges so the gravity-affected shots drop onto the target instead of sailing past, and boosted the Javelin's launch force so spears reach their listed range.
 - **v3.6** — Expanded every turret's ammo list to the full current game sets, so all standard, DLC and workshop ammo variants load (added the universal `Ammo_EDS` round and the DLC `Scyther_Throwing_Spear` that were missing).
 - **v3.5** — Ammo loading fix (contributed by **asconley**): after the w237/238 update, turrets rejected their ammo at the inventory slot. Adds self-contained `TV_` ammo categories, slot tag-queries, and custom turret inventories so every turret — including the spear and stone throwers — loads its ammo again.

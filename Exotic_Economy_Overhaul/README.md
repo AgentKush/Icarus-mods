@@ -2,7 +2,7 @@
 
 # Exotic Economy Overhaul
 
-[![Version](https://img.shields.io/badge/v2.3-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v2.3.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -91,6 +91,7 @@ Import `Exotic_Economy_Overhaul.EXMODZ` via Icarus Mod Manager.
 
 ## Version History
 
+- **v2.3.1** - New icon and banner, drawn from the mod's live data. No gameplay change.
 - **v2.3** - Removed the 5 cobalt recipes (Ren to Cobalt, Cobalt to Ren, Platinum to Cobalt, Cobalt to Lithium, Bulk Cobalt Smelt). The game no longer has cobalt - Cobalt Ore has no item data in the November 2026 build and Cobalt Ingot no longer exists - so they could never work. 61 recipes.
 - **v2.2** - Fixed **ICON MISSING** on every recipe by setting `ItemIconOverride` to each recipe's output item. All 66 recipes now display the correct icon in the crafting list. (Recipes function identically to v2.1; this is a display fix.)
 - **v2.1** - Crash fix: All recipe outputs corrected from D_ItemsStatic to D_ItemTemplate (caused EXCEPTION_ACCESS_VIOLATION). Added 14 missing recipes: Refined Copper and Refined Metal buy recipes, plus sell-back recipes for all 12 materials that could previously only be bought. Every material now has both buy and sell. 66 total recipes.

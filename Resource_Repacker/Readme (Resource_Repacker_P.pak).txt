@@ -1,6 +1,6 @@
 Resource_Repacker_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.5
+Mod Version: 1.5.1
 
 Author: AgentKush
 
@@ -10,6 +10,9 @@ Mod Type: EXMOD
 
 ## Description:
 Adds 19 crafting recipes that repack raw resources back into UDA resource kits. Available at every player crafting bench plus handcrafting (player inventory). Recipes mirror the kit's vanilla byproduct (e.g. 100 Titanium_Ore -> 1 Titanium kit), so the mod is neutral - purely logistics, not duplication.
+
+Ver 1.5.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 1.5
 Gated the five DLC recipes that had no feature gate (Limestone and Lithium behind

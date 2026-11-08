@@ -2,7 +2,7 @@
 
 # Tier Upgrade Forge
 
-[![Version](https://img.shields.io/badge/v1.3-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.3.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -52,6 +52,7 @@ Import `Tier_Upgrade_Forge.EXMODZ` via Icarus Mod Manager.
 
 ## Version History
 
+- **v1.3.1** - New icon and banner, drawn from the mod's live data. No gameplay change.
 - **v1.3** - Added Spear, Shovel, Sickle, and Sledgehammer tier-upgrade paths (18 new recipes).
 - **v1.2** - Crash fix: Fixed 26 recipe outputs from D_ItemsStatic to D_ItemTemplate (prevents crash when opening crafting stations).
 

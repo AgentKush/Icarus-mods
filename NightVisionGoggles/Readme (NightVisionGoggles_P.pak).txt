@@ -1,6 +1,6 @@
 NightVisionGoggles_P.pak
 ----------------------------------------------------------------------
-Mod Version: 2.2
+Mod Version: 2.2.1
 
 Author: AgentKush
 
@@ -12,6 +12,9 @@ Mod Type: EXMOD
 Adds craftable Night Vision Goggles with improved durability, no decay, lighter weight. Craft at Fabricator, Manufacturer, or Machining Bench.
 
 
+
+Ver 2.2.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 2.2
 Fixed the crafting sound. The recipe pointed Audio at a D_CraftingAudioData row named

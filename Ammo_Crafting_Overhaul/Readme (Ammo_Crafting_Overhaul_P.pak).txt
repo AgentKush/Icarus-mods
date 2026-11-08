@@ -1,6 +1,6 @@
 Ammo_Crafting_Overhaul_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.2
+Mod Version: 1.2.1
 
 Author: AgentKush
 
@@ -12,6 +12,9 @@ Mod Type: EXMOD
 48 new ammo recipes. 50x batch crafting for all arrow and bullet types including special ammo. Plus 8 ammo conversion recipes.
 
 
+
+Ver 1.2.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 1.2
 Added 50x batch crafting for Sniper special ammo (Explosive, Incendiary), which were previously missing.

@@ -1,8 +1,8 @@
 {
   "name": "Fast Processing (15x)",
   "author": "AgentKush",
-  "version": "5.2",
-  "description": "v5.2: Fixed the speed maths - 896 recipes were set to instant instead of 15x faster, because recipes with no listed energy cost were read as 0 instead of the game's default 2,500. Every recipe is now recomputed from the November 2026 game values: exactly 15x faster than vanilla, never slower, and water recipes keep the 500 MJ minimum. Also corrects 511 recipes whose cost had drifted from the current vanilla value, removes the 2 recipes the game deleted and adds the 62 it has gained. 2,235 recipes.",
+  "version": "5.2.1",
+  "description": "v5.2.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "FastProcessing_All_15x",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/FastProcessing_All_15x.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/FastProcessing_All_15x/README.md",

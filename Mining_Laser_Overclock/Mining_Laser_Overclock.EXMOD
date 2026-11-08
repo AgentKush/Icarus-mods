@@ -1,8 +1,8 @@
 {
   "name": "Mining Laser Overclock",
   "author": "AgentKush",
-  "version": "1.0",
-  "description": "No more overheating. The mining laser runs 300 seconds of continuous use before overheating (was 5s) and cools 5x faster. Sustained, uninterrupted deep mining. First-ever mining-laser blueprint mod.",
+  "version": "1.0.1",
+  "description": "v1.0.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Mining_Laser_Overclock",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Mining_Laser_Overclock.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Mining_Laser_Overclock/README.md",

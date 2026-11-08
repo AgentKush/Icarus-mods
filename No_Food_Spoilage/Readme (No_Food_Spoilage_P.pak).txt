@@ -1,6 +1,6 @@
 No_Food_Spoilage_P.pak
 ----------------------------------------------------------------------
-Mod Version: 2.3
+Mod Version: 2.3.1
 
 Author: AgentKush
 
@@ -12,6 +12,9 @@ Mod Type: EXMOD
 Prevents all food spoilage. Items decay/despawn but never convert to spoiled versions. Covers all 33 decayable entries. Includes composter recipes so raw meats, fish, dairy, vegetables, and fruits can still be manually composted.
 
 
+
+Ver 2.3.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 2.3
 SAFETY FIX - the mod gave the game's never-decay profile a decay timer, so the 19 things

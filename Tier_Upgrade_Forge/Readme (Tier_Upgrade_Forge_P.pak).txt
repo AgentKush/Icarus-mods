@@ -1,6 +1,6 @@
 Tier_Upgrade_Forge_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.3
+Mod Version: 1.3.1
 
 Author: AgentKush
 
@@ -12,6 +12,9 @@ Mod Type: EXMOD
 26 tool/weapon upgrade recipes. Trade up through tiers at Anvil Bench: pickaxes, axes, knives, bows, crossbows + specialty paths.
 
 
+
+Ver 1.3.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 1.3
 Added in-place tier upgrades for Spears (Wood->Metal->Steel->Platinum->Titanium + Obsidian/ColdSteel/IronWood), Shovels (Stone->Platinum->Titanium), Sickles (Bone->Platinum->Titanium + specialty), and Sledgehammers (Metal->Obsidian/ColdSteel/IronWood) - 18 new recipes.

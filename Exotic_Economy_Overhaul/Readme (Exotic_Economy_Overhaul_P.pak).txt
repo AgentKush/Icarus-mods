@@ -1,6 +1,6 @@
 Exotic_Economy_Overhaul_P.pak
 ----------------------------------------------------------------------
-Mod Version: 2.3
+Mod Version: 2.3.1
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD
 ## Description:
 Full currency exchange system with 61 recipes. Buy and sell materials with Ren, convert between exotics and currencies, cross-convert ingots, and bulk smelt ores at the correct furnaces/benches. Covers all Dangerous Horizons materials.
 
+
+Ver 2.3.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 2.3
 Removed the 5 cobalt recipes (Ren to Cobalt, Cobalt to Ren, Platinum to Cobalt, Cobalt to Lithium,

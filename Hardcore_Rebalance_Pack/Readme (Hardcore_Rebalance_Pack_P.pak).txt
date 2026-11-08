@@ -1,6 +1,6 @@
 Hardcore_Rebalance_Pack_P.pak
 ----------------------------------------------------------------------
-Mod Version: 2.2
+Mod Version: 2.2.1
 
 Author: AgentKush
 
@@ -111,6 +111,7 @@ Requires JimK72's Icarus Mod Manager: https://github.com/Jimk72/Icarus_Software
   3. Import via Mod Manager
 
 ## Changelog:
+  v2.2.1 - New icon and banner, drawn from the mod's live data. No gameplay change.
   v2.2 - Alpha hunters rebuilt for the Nov 2026 game: 9 v1.14 hunters now spawn (their spawn
          rows used fields the game does not have), every hunter drops exotics on kill, 16
          hunters the game cannot spawn in the wild removed, 29 unreachable loot tables removed,

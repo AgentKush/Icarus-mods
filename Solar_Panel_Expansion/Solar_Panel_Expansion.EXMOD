@@ -1,8 +1,8 @@
 {
   "name": "Solar Panel Expansion",
   "author": "AgentKush",
-  "version": "1.2",
-  "description": "v1.2: Fixed all 4 kits giving nothing when used - they used fields the game ignores, so the kit was used up and no panel came out. They now give their real item. Also fixed the Bunker Solar Panel Kit showing the plain Solar Panel icon. Adds all solar panels and the solar backpack to a dedicated Workshop tab with fair pricing.",
+  "version": "1.2.1",
+  "description": "v1.2.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Solar_Panel_Expansion",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Solar_Panel_Expansion.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Solar_Panel_Expansion/README.md",

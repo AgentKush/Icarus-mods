@@ -1,6 +1,6 @@
 Performance_Optimizer_P.pak
 ----------------------------------------------------------------------
-Mod Version: 2.2
+Mod Version: 2.2.1
 
 Author: AgentKush
 
@@ -10,6 +10,9 @@ Mod Type: EXMOD
 
 ## Description:
 Comprehensive FPS optimization - PAK config overrides (foliage/shadow/fog/LOD reduction) plus data table changes (reduced spawns, slower hordes, extended decay, boosted fuel, weather tuning).
+
+Ver 2.2.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 2.2
 Current release. PAK config overrides (foliage, shadows, fog, LOD) plus 358 data-table

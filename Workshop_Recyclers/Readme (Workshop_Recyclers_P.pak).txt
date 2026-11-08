@@ -1,6 +1,6 @@
 Workshop_Recyclers_P.pak
 ----------------------------------------------------------------------
-Mod Version: 5.8
+Mod Version: 5.8.1
 
 Author: AgentKush
 
@@ -11,6 +11,9 @@ Mod Type: EXMOD
 ## Description:
 Two recycling machines (Biofuel T3 + Organic T4) plus an Incinerator for instant item destruction. 3,051 incinerate recipes + 2,258 recycle/deconstruct recipes. 100% material returns on recycling.
 
+
+Ver 5.8.1
+New icon and banner, drawn from the mod's live data. No gameplay change.
 
 Ver 5.8
 Updated for the November 2026 game update. Removed 41 recipes for items the game no

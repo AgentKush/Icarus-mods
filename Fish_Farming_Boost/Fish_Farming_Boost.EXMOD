@@ -1,8 +1,8 @@
 {
   "name": "Fish and Farming Boost",
   "author": "AgentKush",
-  "version": "1.3",
-  "description": "v1.3: Added the 13 Elysium (ELY) fish spawn zones for full fishing coverage (70/70 zones), boosted to match the rest of the mod (2x spawn rate, 1.5x fish quality). | Farming and fishing overhaul.",
+  "version": "1.3.1",
+  "description": "v1.3.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "fileName": "Fish_Farming_Boost",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Fish_Farming_Boost.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Fish_Farming_Boost/README.md",

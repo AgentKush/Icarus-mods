@@ -2,8 +2,8 @@
   "name": "Agents Individual Item Kits",
   "author": "AgentKush",
   "fileName": "Agents_Individual_Item_Kits",
-  "version": "5.5",
-  "description": "v5.5: Icons, names, 22 new kits and 6 duplicates removed. Every kit icon now exists and matches its item: fixed 4 icons the game deleted, 9 leather placeholders and 19 wrong icons (seed, flag and Assault Rifle kits keep their own specific icons). Kits now use the game's real item names: branded workshop gear such as the Inaris and Shengong axes, bows and arrows no longer shows as just Axe Kit or Arrow Kit, the 11 kits called Seed Kit are named after their seed, and stack kits say how many they give (Wood x250). Added kits for the wall charging station, seed extractor, C0NT4CT device, both C0NT4CT upgrades and radio, HEAL device, biofuel pipe tool, Inaris powerbank, prototype power source, workshop repair kit, 9 workshop pets and livestock, the Sulfur Vesper trophy and orbital laser controls. Removed 6 kits that gave exactly the same item as another kit: the Beer and Wine Bottle kits (they gave a plain Glass Bottle), two extra MXC Venom Arrow kits, and second Platinum Sheath and Noxious Crust kits. 40 newer kits got the item tags every other kit already had. 2,728 individual item kits across 20 workshop categories.",
+  "version": "5.5.1",
+  "description": "v5.5.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
   "week": "All",
   "Level2": "True",
   "Rows": [
