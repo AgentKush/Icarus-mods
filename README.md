@@ -40,7 +40,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 | [🔧 Dev Tools Kit](Dev_Tools_Kit) | `1.1.6` | 11 hidden developer tools — Thor's Hammer (fly mode), Transform Tool, and more. All free! |
 | [👁️ Night Vision Goggles](NightVisionGoggles) | `2.2.1` | Unlocks hidden NV system — craft at Fabricator/Manufacturer/Machining Bench. No decay, durable, lightweight |
 | [☀️ Solar Panel Expansion](Solar_Panel_Expansion) | `1.2.1` | All solar panels and solar backpack in a dedicated Workshop tab with fair pricing |
-| [⛏️ Passive Ore Extractor Drills](Passive_Ore_Extractor_Drills) | `7.8.1` | 23 passive ore extractors — one per ore type · Workshop purchasable · Infinite extraction |
+| [⛏️ Passive Ore Extractor Drills](Passive_Ore_Extractor_Drills) | `7.8.2` | 23 passive ore extractors — one per ore type · Workshop purchasable · Infinite extraction |
 | [💻 UDA Terminal Laptop](UDA_Terminal_Laptop) | `2.2.1` | 🔧 Reskins the Orbital Exchange Interface into a laptop · place indoors and on benches · free recipe |
 
 ## 🏗️ Building & Construction

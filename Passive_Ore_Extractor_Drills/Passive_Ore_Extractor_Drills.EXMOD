@@ -2,8 +2,8 @@
   "name": "Passive Ore Extractor Drills",
   "author": "AgentKush",
   "fileName": "Passive_Ore_Extractor_Drills",
-  "version": "7.8.1",
-  "description": "v7.8.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
+  "version": "7.8.2",
+  "description": "v7.8.2: Fixed the missing icon on the Cobalt Ore drill, its kit and its crafting entry - the 12 Nov 2026 game update moved the cobalt ore icon.",
   "week": "All",
   "Level2": "True",
   "Rows": [
@@ -166,7 +166,7 @@
           "Name": "Passive_Miner_Cobalt_Ore",
           "RecipeSetName": "NSLOCTEXT(\"D_RecipeSets\", \"Passive_Miner_Cobalt_Ore-RecipeSetName\", \"Passive Cobalt Miner\")",
           "DisplayText": "NSLOCTEXT(\"D_RecipeSets\", \"Passive_Miner_Cobalt_Ore-DisplayText\", \"Automatically extracts Cobalt when powered. Place anywhere.\")",
-          "RecipeSetIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/T_ITEM_Cobalt_Ore.T_ITEM_Cobalt_Ore",
+          "RecipeSetIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Cobalt_Ore.T_ITEM_Cobalt_Ore",
           "ExperienceMultiplier": 0.2
         },
         {
@@ -1165,7 +1165,7 @@
         {
           "Name": "Item_Passive_Miner_Cobalt_Ore",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Passive_Miner_Cobalt_Ore-DisplayName\", \"Passive Cobalt Miner\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/T_ITEM_Cobalt_Ore.T_ITEM_Cobalt_Ore",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Cobalt_Ore.T_ITEM_Cobalt_Ore",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Passive_Miner_Cobalt_Ore-Description\", \"Automatically extracts Cobalt when powered. Place anywhere.\")",
           "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Passive_Miner_Cobalt_Ore-FlavorText\", \"Passive Cobalt extraction.\")",
           "Weight": 10000,
@@ -1174,7 +1174,7 @@
         {
           "Name": "Item_Kit_Passive_Miner_Cobalt_Ore",
           "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_Passive_Miner_Cobalt_Ore-DisplayName\", \"Passive Cobalt Miner Kit\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Voxels/T_ITEM_Cobalt_Ore.T_ITEM_Cobalt_Ore",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Resources/T_ITEM_Cobalt_Ore.T_ITEM_Cobalt_Ore",
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_Passive_Miner_Cobalt_Ore-Description\", \"Contains a Passive Cobalt Miner. Use to unpack.\")",
           "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Kit_Passive_Miner_Cobalt_Ore-FlavorText\", \"Passive mining in a box.\")",
           "Weight": 100,

@@ -1,6 +1,6 @@
 Passive_Ore_Extractor_Drills_P.pak
 ----------------------------------------------------------------------
-Mod Version: 7.8.1
+Mod Version: 7.8.2
 
 Author: AgentKush
 
@@ -11,6 +11,10 @@ Mod Type: EXMOD
 ## Description:
 23 passive ore extractors - one per ore type. Place anywhere, connect power, load Stone. Uses drill-visual processor for passive mining.
 
+
+Ver 7.8.2
+Fixed the missing icon on the Cobalt Ore drill, its kit and its crafting entry -
+the 12 Nov 2026 game update moved the cobalt ore icon.
 
 Ver 7.8.1
 New icon and banner, drawn from the mod's live data. No gameplay change.
