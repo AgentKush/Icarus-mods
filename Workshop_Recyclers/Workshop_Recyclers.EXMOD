@@ -1,8 +1,8 @@
 {
   "name": "Workshop Recyclers",
   "author": "AgentKush",
-  "version": "5.8.1",
-  "description": "v5.8.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
+  "version": "5.9",
+  "description": "v5.9: Updated for the 19 November 2026 game update. Added deconstruct and incinerate recipes for the new Advanced Armor Stand. 5,314 recipes.",
   "fileName": "Workshop_Recyclers",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Workshop_Recyclers.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/README.md",
@@ -117356,6 +117356,70 @@
           }
         },
         {
+          "Name": "Deconstruct_Armour_Stand_T4",
+          "RequiredMillijoules": 25000,
+          "RecipeSets": [
+            {
+              "RowName": "Biofuel_Recycler",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Organic_Recycler",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Armour_Stand_T4",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Aluminium",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 120,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Electronics",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 4,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Steel_Screw",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 60,
+              "DynamicProperties": [],
+              "Alterations": []
+            },
+            {
+              "Element": {
+                "RowName": "Composites",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 8,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "ExoticProcessor"
+          }
+        },
+        {
           "Name": "Recycle_Meta_Deluxe_Envirosuit",
           "RequiredMillijoules": 1000,
           "RecipeSets": [
@@ -179048,6 +179112,26 @@
             {
               "Element": {
                 "RowName": "Turret_Rifle_Precision",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 1
+            }
+          ],
+          "Outputs": []
+        },
+        {
+          "Name": "Incinerate_Armour_Stand_T4",
+          "RequiredMillijoules": 100,
+          "RecipeSets": [
+            {
+              "RowName": "Incinerator",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Armour_Stand_T4",
                 "DataTableName": "D_ItemsStatic"
               },
               "Count": 1

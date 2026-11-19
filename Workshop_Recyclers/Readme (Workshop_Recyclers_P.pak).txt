@@ -1,6 +1,6 @@
 Workshop_Recyclers_P.pak
 ----------------------------------------------------------------------
-Mod Version: 5.8.1
+Mod Version: 5.9
 
 Author: AgentKush
 
@@ -9,8 +9,14 @@ Compatible with Icarus: All Weeks
 Mod Type: EXMOD
 
 ## Description:
-Two recycling machines (Biofuel T3 + Organic T4) plus an Incinerator for instant item destruction. 3,051 incinerate recipes + 2,258 recycle/deconstruct recipes. 100% material returns on recycling.
+Two recycling machines (Biofuel T3 + Organic T4) plus an Incinerator for instant item destruction. 3,052 incinerate recipes + 2,259 recycle/deconstruct recipes. 100% material returns on recycling.
 
+
+Ver 5.9
+Updated for the 19 November 2026 game update. Added deconstruct and incinerate recipes
+for the new Advanced Armor Stand. Deconstructing it returns what it costs to build:
+120 Aluminium, 4 Electronics, 60 Steel Screws and 8 Composites. 5,314 recipes: 1,944
+deconstruct, 315 recycle, 3,052 incinerate and 3 crafting.
 
 Ver 5.8.1
 New icon and banner, drawn from the mod's live data. No gameplay change.
@@ -81,7 +87,7 @@ Major cleanup - fixed 63 broken item references, removed 136 invalid recipes.
   Items-D_ItemTemplate        (3 entries)
   Talents-D_Talents           (3 entries)
   Traits-D_Durable            (1 entries)
-  Crafting-D_ProcessorRecipes (5312 entries)
+  Crafting-D_ProcessorRecipes (5314 entries)
   Inventory-D_InventoryInfo   (1 entries)
   Traits-D_Inventory          (1 entries)
 
