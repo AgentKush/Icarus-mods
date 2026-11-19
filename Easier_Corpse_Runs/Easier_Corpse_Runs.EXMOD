@@ -1,0 +1,27 @@
+{
+  "name": "Easier Corpse Runs",
+  "author": "AgentKush",
+  "version": "1.0",
+  "description": "v1.0: Initial release. A much stronger Death Run boost after a solo respawn: +30% movement speed, sprinting costs 50% less stamina and -50% threat while sneaking.",
+  "fileName": "Easier_Corpse_Runs",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Easier_Corpse_Runs.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Easier_Corpse_Runs/README.md",
+  "week": "All",
+  "Level2": "True",
+  "Rows": [
+    {
+      "CurrentFile": "Modifiers-D_ModifierStates.json",
+      "File_Items": [
+        {
+          "Name": "DeathRun",
+          "GrantedStats": {
+            "(Value=\"BaseMovementSpeed_+%\")": 30,
+            "(Value=\"BaseStaminaActionCost_+%\")": -20,
+            "(Value=\"BaseSprintingStaminaActionCost_+%\")": -30,
+            "(Value=\"BaseStealthThreatModifier_+%\")": -50
+          }
+        }
+      ]
+    }
+  ]
+}

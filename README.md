@@ -1,11 +1,11 @@
 <div align="center">
 
-<a href="https://agentkush.github.io/Icarus-mods/"><img src="https://github.com/AgentKush/Icarus-mods/raw/main/docs/og-image.png?v=2" alt="AgentKush's Icarus Mods — 53 free mods for Icarus: First Cohort" width="840"></a>
+<a href="https://agentkush.github.io/Icarus-mods/"><img src="https://github.com/AgentKush/Icarus-mods/raw/main/docs/og-image.png?v=2" alt="AgentKush's Icarus Mods — 54 free mods for Icarus: First Cohort" width="840"></a>
 
 # AgentKush's Icarus Mods
 
-[![Mods](https://img.shields.io/badge/53_Mods-Ready_to_Play-0d1117?style=for-the-badge&logo=steam&logoColor=white&labelColor=1a1e2e)]()
-[![Data Entries](https://img.shields.io/badge/41%2C938-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
+[![Mods](https://img.shields.io/badge/54_Mods-Ready_to_Play-0d1117?style=for-the-badge&logo=steam&logoColor=white&labelColor=1a1e2e)]()
+[![Data Entries](https://img.shields.io/badge/41%2C939-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
 [![Recipes](https://img.shields.io/badge/19%2C235-Recipes-0d1117?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a1e2e)]()
 [![Free](https://img.shields.io/badge/100%25-Free_to_Use-0d1117?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=1a1e2e)]()
 
@@ -122,6 +122,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 |-----|:---:|-------------|
 | [🩹 Modular Affliction Adjuster](Modular_Affliction_Adjuster) | `2.0.1` | 110 afflictions reduced ~50% penalties · +50% escalation time · -50% damage over time |
 | [💊 Modular Buff Enhancer](Modular_Buff_Enhancer) | `1.1.1` | 83 core buffs + 156 food buffs all boosted ~50% — stacks with talent bonuses |
+| [🏃 Easier Corpse Runs](Easier_Corpse_Runs) | `1.0` | Much stronger Death Run boost after a solo respawn — +30% speed, sprinting costs 50% less stamina, -50% threat while sneaking on the run back to your body |
 | [🍳 Culinex Food Boost Fix](Culinex_Food_Boost_Fix) | `2.9.1` | Fixes Chef's Backpack 25% food boost on all 206 foods/drinks/tonics · Adds chicken butchery recipe |
 | [👁️ More Eye Colours](MoreEyeColours) | `2.0.1` | 60 new eye colors (69 total) — greens, ambers, purples, blues, greys, reds, and exotics |
 | [🐛 Bestiary Fix](Bestiary_Fix) | `1.1.1` | Adds missing Kill/Skin experience events for Sulfur Worm, Sulfur Vesper, Cave Worm, and Vesper |
