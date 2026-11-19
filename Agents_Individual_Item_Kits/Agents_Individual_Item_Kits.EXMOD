@@ -2,8 +2,8 @@
   "name": "Agents Individual Item Kits",
   "author": "AgentKush",
   "fileName": "Agents_Individual_Item_Kits",
-  "version": "5.5.2",
-  "description": "v5.5.2: Restore_Kit_Research now also restores research for the 6 duplicate kits that were merged, and lists the 7 removed kits as retired instead of restored.",
+  "version": "5.6",
+  "description": "v5.6: Updated for the 19 November 2026 game update. Added a kit for the new Advanced Armor Stand. 2,729 individual item kits.",
   "week": "All",
   "Level2": "True",
   "Rows": [
@@ -163689,6 +163689,66 @@
             ],
             "ParentTags": []
           }
+        },
+        {
+          "Name": "Agent_Single_Armour_Stand_T4",
+          "Meshable": {
+            "RowName": "Mesh_Meta_Item_Repair"
+          },
+          "Itemable": {
+            "RowName": "Item_Agent_Single_Armour_Stand_T4"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Consumable": {
+            "RowName": "Agent_Single_Armour_Stand_T4"
+          },
+          "Usable": {
+            "RowName": "Consume"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              }
+            ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta.Consumable"
+              },
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Consumable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              }
+            ],
+            "ParentTags": []
+          }
         }
       ]
     },
@@ -185518,6 +185578,14 @@
           "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Agent_Single_Workshop_Piglet_Male-Description\", \"Kit item contains 1x Cryogenically Frozen Piglet (Male)\")",
           "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Agent_Single_Workshop_Piglet_Male-FlavorText\", \"Individual item kit\")",
           "Weight": 500
+        },
+        {
+          "Name": "Item_Agent_Single_Armour_Stand_T4",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Agent_Single_Armour_Stand_T4-DisplayName\", \"Advanced Armor Stand Kit\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Armour_Stand_T4.T_ITEM_Armour_Stand_T4",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Agent_Single_Armour_Stand_T4-Description\", \"Kit item contains 1x Advanced Armor Stand\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Agent_Single_Armour_Stand_T4-FlavorText\", \"Individual item kit\")",
+          "Weight": 500
         }
       ]
     },
@@ -201890,6 +201958,12 @@
           "Name": "Agent_Single_Workshop_Piglet_Male",
           "ItemStaticData": {
             "RowName": "Agent_Single_Workshop_Piglet_Male"
+          }
+        },
+        {
+          "Name": "Agent_Single_Armour_Stand_T4",
+          "ItemStaticData": {
+            "RowName": "Agent_Single_Armour_Stand_T4"
           }
         }
       ]
@@ -234629,6 +234703,18 @@
           "Byproducts": [
             {
               "RowName": "Workshop_Piglet_Male",
+              "DataTableName": "D_ItemTemplate"
+            }
+          ]
+        },
+        {
+          "Name": "Agent_Single_Armour_Stand_T4",
+          "Modifier": {
+            "ModifierLifetime": 0
+          },
+          "Byproducts": [
+            {
+              "RowName": "Armour_Stand_T4",
               "DataTableName": "D_ItemTemplate"
             }
           ]
@@ -283762,6 +283848,24 @@
           "Position": {
             "X": 142000,
             "Y": 850
+          },
+          "Size": {
+            "X": 250,
+            "Y": 250
+          }
+        },
+        {
+          "Name": "Talent_Agent_Single_Armour_Stand_T4",
+          "ExtraData": {
+            "RowName": "Meta_Agent_Single_Armour_Stand_T4",
+            "DataTableName": "D_WorkshopItems"
+          },
+          "TalentTree": {
+            "RowName": "Workshop_AgentKits"
+          },
+          "Position": {
+            "X": 142000,
+            "Y": 1150
           },
           "Size": {
             "X": 250,
@@ -349242,6 +349346,30 @@
                 "DataTableName": "D_MetaCurrency"
               },
               "Amount": 25
+            }
+          ]
+        },
+        {
+          "Name": "Meta_Agent_Single_Armour_Stand_T4",
+          "Item": {
+            "RowName": "Agent_Single_Armour_Stand_T4"
+          },
+          "ResearchCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 60
+            }
+          ],
+          "ReplicationCost": [
+            {
+              "Meta": {
+                "RowName": "Credits",
+                "DataTableName": "D_MetaCurrency"
+              },
+              "Amount": 30
             }
           ]
         }

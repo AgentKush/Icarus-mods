@@ -89,7 +89,7 @@ if ($Help) {
 # Embedded data
 # ---------------------------------------------------------------------------
 
-# Old talent row name -> current (v5.5.2) talent row name. One pair per line.
+# Old talent row name -> current (v5.6) talent row name. One pair per line.
 $MappingData = @'
 Agent_Single_Acidic_Glands Talent_Agent_Single_Acidic_Glands
 Agent_Single_Advanced_Alteration_Bench Talent_Agent_Single_Advanced_Alteration_Bench

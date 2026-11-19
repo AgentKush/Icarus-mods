@@ -1,6 +1,6 @@
 Agents_Individual_Item_Kits_P.pak
 ----------------------------------------------------------------------
-Mod Version: 5.5.2
+Mod Version: 5.6
 
 Author: AgentKush
 
@@ -9,7 +9,11 @@ Compatible with Icarus: All Weeks
 Mod Type: EXMOD
 
 ## Description:
-2728 individual item kits with real game icons across 20 categorized workshop groups. Every player-usable game item available as a kit - fairly priced by complexity and rarity. Armor sorted by slot (head -> chest -> arms -> legs -> feet), 5-row grid layout, verified icons.
+2729 individual item kits with real game icons across 20 categorized workshop groups. Every player-usable game item available as a kit - fairly priced by complexity and rarity. Armor sorted by slot (head -> chest -> arms -> legs -> feet), 5-row grid layout, verified icons.
+
+Ver 5.6
+Updated for the 19 November 2026 game update. Added a kit for the new Advanced Armor
+Stand, the powered T4 stand that slowly repairs stored armor. 2729 individual item kits.
 
 Ver 5.5.2
 Restore_Kit_Research now moves research for the 6 duplicate kits v5.5 merged (Beer
