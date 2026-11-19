@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>IcarusExport</AssemblyName>
+    <RootNamespace>IcarusExport</RootNamespace>
+    <Version>1.0.0</Version>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <ServerGarbageCollection>true</ServerGarbageCollection>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <SelfContained>false</SelfContained>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CUE4Parse" Version="1.2.2.202611" />
+    <!-- CUE4Parse pulls in 9.0.0, which has advisory GHSA-73j8-2gch-69rq; pin the patched release. -->
+    <PackageReference Include="Microsoft.Bcl.Memory" Version="10.0.15" />
+  </ItemGroup>
+
+  <!--
+    IcarusExportBackground.exe: the same app host marked as a Windows (GUI) program, so the scheduled
+    task runs without a console window ever appearing over the game. It still loads IcarusExport.dll.
+    This is what `editbin /SUBSYSTEM:WINDOWS` does: one field in the PE optional header.
+  -->
+  <UsingTask TaskName="MakeBackgroundHost" TaskFactory="RoslynCodeTaskFactory" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll">
+    <ParameterGroup>
+      <Source ParameterType="System.String" Required="true" />
+      <Destination ParameterType="System.String" Required="true" />
+    </ParameterGroup>
+    <Task>
+      <Code Type="Fragment" Language="cs"><![CDATA[
+        var bytes = System.IO.File.ReadAllBytes(Source);
+        int pe = System.BitConverter.ToInt32(bytes, 0x3C);
+        if (bytes[pe] != 'P' || bytes[pe + 1] != 'E') { Log.LogError("Not a PE file: " + Source); return false; }
+        int subsystem = pe + 4 + 20 + 68; // PE signature, COFF header, then Subsystem in the optional header
+        if (bytes[subsystem] != 3) { Log.LogError("Expected a console app host: " + Source); return false; }
+        bytes[subsystem] = 2; // IMAGE_SUBSYSTEM_WINDOWS_GUI
+        System.IO.File.WriteAllBytes(Destination, bytes);
+      ]]></Code>
+    </Task>
+  </UsingTask>
+
+  <Target Name="BackgroundHostAfterBuild" AfterTargets="Build" Condition="Exists('$(OutDir)$(AssemblyName).exe')">
+    <MakeBackgroundHost Source="$(OutDir)$(AssemblyName).exe" Destination="$(OutDir)$(AssemblyName)Background.exe" />
+  </Target>
+
+  <Target Name="BackgroundHostAfterPublish" AfterTargets="Publish" Condition="Exists('$(PublishDir)$(AssemblyName).exe')">
+    <MakeBackgroundHost Source="$(PublishDir)$(AssemblyName).exe" Destination="$(PublishDir)$(AssemblyName)Background.exe" />
+  </Target>
+
+</Project>

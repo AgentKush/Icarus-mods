@@ -19,7 +19,10 @@ Performance_Optimizer/PAK_Build/
 # ...except player-run tools that ship with a mod
 !*/Restore_Kit_Research/*.bat
 /tools/icarus_watcher
-/tools
+/tools/*
+# ...except the game exporter (its own .gitignore keeps bin/obj/publish out)
+!/tools/IcarusExport/
+!/tools/IcarusExport/*.bat
 .claude/
 
 # Cleanup: backups + build staging
