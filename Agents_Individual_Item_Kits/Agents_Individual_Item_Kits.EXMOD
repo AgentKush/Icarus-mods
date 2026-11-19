@@ -2,8 +2,8 @@
   "name": "Agents Individual Item Kits",
   "author": "AgentKush",
   "fileName": "Agents_Individual_Item_Kits",
-  "version": "5.5.1",
-  "description": "v5.5.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
+  "version": "5.5.2",
+  "description": "v5.5.2: Restore_Kit_Research now also restores research for the 6 duplicate kits that were merged, and lists the 7 removed kits as retired instead of restored.",
   "week": "All",
   "Level2": "True",
   "Rows": [

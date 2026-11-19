@@ -35,7 +35,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 | Mod | Ver | Description |
 |-----|:---:|-------------|
 | [🧬 Agent's BioLab](Agents_BioLab) | `2.0.1` | All 11 Bio Lab Legendary weapons in the Workshop — includes Sandwyrm Chainsaw |
-| [📦 Agent's Individual Item Kits](Agents_Individual_Item_Kits) | `5.5.1` | 2,728 individual item kits with real game icons — 20 categorized tabs · armor sorted by slot · 5-row layout |
+| [📦 Agent's Individual Item Kits](Agents_Individual_Item_Kits) | `5.5.2` | 2,728 individual item kits with real game icons — 20 categorized tabs · armor sorted by slot · 5-row layout |
 | [♻️ Workshop Recyclers](Workshop_Recyclers) | `5.8.1` | 2 recycling machines + Incinerator · 5,312 recipes · Returns processed materials — every item in the game covered |
 | [🔧 Dev Tools Kit](Dev_Tools_Kit) | `1.1.6` | 11 hidden developer tools — Thor's Hammer (fly mode), Transform Tool, and more. All free! |
 | [👁️ Night Vision Goggles](NightVisionGoggles) | `2.2.1` | Unlocks hidden NV system — craft at Fabricator/Manufacturer/Machining Bench. No decay, durable, lightweight |

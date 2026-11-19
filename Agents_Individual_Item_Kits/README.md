@@ -2,7 +2,7 @@
 
 # Agents Individual Item Kits
 
-[![Version](https://img.shields.io/badge/v5.5.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v5.5.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -30,7 +30,7 @@ A comprehensive Workshop expansion featuring 2,728 individual item kits, each wi
 
 ## Get Back Kits You Already Researched
 
-Version 4.0 renamed every kit's research ID. If you researched kits on v1.0 to v3.1, the game still has that research saved under the old IDs, so those kits show as locked and ask for Ren again.
+Version 4.0 renamed every kit's research ID. If you researched kits on v1.0 to v3.1, the game still has that research saved under the old IDs, so those kits show as locked and ask for Ren again. Version 5.5 also merged 6 duplicate kits into the kit that gives the same item, and the tool moves their research to that kit too.
 
 The **Restore_Kit_Research** tool renames the old IDs in your Icarus profile to the current ones, so those kits are researched again at no cost. It only changes kit research entries.
 
@@ -44,6 +44,12 @@ The **Restore_Kit_Research** tool renames the old IDs in your Icarus profile to 
 - To see what it would change without changing anything, run `Restore_Kit_Research.bat -DryRun`.
 - Dedicated server or a custom save location: `Restore_Kit_Research.bat -PlayerDataPath "<PlayerData folder>"`.
 - Kits that were retired in earlier versions (because the item left the game or the kit was dev-only) cannot come back. The tool lists any it finds in your profile.
+
+## Good to Know
+
+- Kit research is saved to your account, not to a character, so it stays when a character dies or you make a new one.
+- There is no limit on how many kits you can research, and kits need no tech tree, talents or levels.
+- Kits cost only Ren: 5 to 300 to research, then about half that each time you buy one.
 
 ## Dedicated Servers
 
@@ -118,6 +124,7 @@ On a dedicated server it is the server, not your PC, that builds the items you o
 
 | Version | Changes |
 |---------|---------|
+| 5.5.2 | Restore_Kit_Research: research for the 6 duplicate kits v5.5 merged (Beer and Wine Bottle, two extra MXC Venom Arrows, second Platinum Sheath and Noxious Crust) now moves to the kit that gives the same item, so updating from v5.4 or older keeps it. The 7 kits removed in v5.4 (Electric Motor, Explosive Sniper Round, Slug Launcher, Building Upgrade Tool and three small signs) are now listed as retired instead of being reported as restored. Added a Good to Know section. No change to the kits themselves. |
 | 5.5.1 | New icon and banner, drawn from the mod's live data. No gameplay change. |
 | 5.5 | Icons, names, 22 new kits and 6 duplicates removed. Every kit icon now exists and matches its item: fixed 4 icons the game deleted, 9 leather placeholders and 19 wrong icons (seed, flag and Assault Rifle kits keep their own specific icons). Kits now use the game's real item names: branded workshop gear such as the Inaris and Shengong axes, bows and arrows no longer shows as just Axe Kit or Arrow Kit, the 11 kits called Seed Kit are named after their seed, and stack kits say how many they give (Wood x250). Added kits for the wall charging station, seed extractor, C0NT4CT device, both C0NT4CT upgrades and radio, HEAL device, biofuel pipe tool, Inaris powerbank, prototype power source, workshop repair kit, 9 workshop pets and livestock, the Sulfur Vesper trophy and orbital laser controls. Removed 6 kits that gave exactly the same item as another kit: the Beer and Wine Bottle kits (they gave a plain Glass Bottle), two extra MXC Venom Arrow kits, and second Platinum Sheath and Noxious Crust kits. 40 newer kits got the item tags every other kit already had. 2,728 individual item kits across 20 workshop categories. |
 | 5.4 | Updated for the November 2026 game update. Added 17 kits for the new items - 11 fish dishes, Poultice Bandage, Kiwi Bait, Fish Paste Lure, Sandhorn Horn, Glass Display Cabinet and the Rifle Auto-Turret. Removed 7 kits for items the game can no longer build: Electric Motor and Explosive Sniper Round (deleted by the update), plus the Slug Launcher, Building Upgrade Tool and three small signs, which have no item data in the game. Dedicated servers: the server needs this mod installed too, or kits vanish when they arrive - see the readme. 2,712 individual item kits across 20 workshop categories. |

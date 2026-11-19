@@ -1,6 +1,6 @@
 Agents_Individual_Item_Kits_P.pak
 ----------------------------------------------------------------------
-Mod Version: 5.5.1
+Mod Version: 5.5.2
 
 Author: AgentKush
 
@@ -10,6 +10,12 @@ Mod Type: EXMOD
 
 ## Description:
 2728 individual item kits with real game icons across 20 categorized workshop groups. Every player-usable game item available as a kit - fairly priced by complexity and rarity. Armor sorted by slot (head -> chest -> arms -> legs -> feet), 5-row grid layout, verified icons.
+
+Ver 5.5.2
+Restore_Kit_Research now moves research for the 6 duplicate kits v5.5 merged (Beer
+and Wine Bottle, two extra MXC Venom Arrows, the second Platinum Sheath and Noxious
+Crust) to the kit that gives the same item, and lists the 7 kits removed in v5.4 as
+retired instead of reporting them as restored. No change to the kits themselves.
 
 Ver 5.5.1
 New icon and banner, drawn from the mod's live data. No gameplay change.
