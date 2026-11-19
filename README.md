@@ -1,12 +1,12 @@
 <div align="center">
 
-<a href="https://agentkush.github.io/Icarus-mods/"><img src="https://github.com/AgentKush/Icarus-mods/raw/main/docs/og-image.png?v=3" alt="AgentKush's Icarus Mods — 54 free mods for Icarus: First Cohort" width="840"></a>
+<a href="https://agentkush.github.io/Icarus-mods/"><img src="https://github.com/AgentKush/Icarus-mods/raw/main/docs/og-image.png?v=4" alt="AgentKush's Icarus Mods — 54 free mods for Icarus: First Cohort" width="840"></a>
 
 # AgentKush's Icarus Mods
 
 [![Mods](https://img.shields.io/badge/54_Mods-Ready_to_Play-0d1117?style=for-the-badge&logo=steam&logoColor=white&labelColor=1a1e2e)]()
-[![Data Entries](https://img.shields.io/badge/41%2C939-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
-[![Recipes](https://img.shields.io/badge/19%2C235-Recipes-0d1117?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a1e2e)]()
+[![Data Entries](https://img.shields.io/badge/41%2C947-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
+[![Recipes](https://img.shields.io/badge/19%2C237-Recipes-0d1117?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a1e2e)]()
 [![Free](https://img.shields.io/badge/100%25-Free_to_Use-0d1117?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=1a1e2e)]()
 
 [![GitHub Release](https://img.shields.io/github/v/release/AgentKush/Icarus-mods?label=Latest%20Release&style=flat-square&color=E87B35)](https://github.com/AgentKush/Icarus-mods/releases)
