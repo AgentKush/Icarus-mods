@@ -1,8 +1,8 @@
 {
   "name": "Mining Laser Overclock",
   "author": "AgentKush",
-  "version": "1.0.1",
-  "description": "v1.0.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
+  "version": "1.0.2",
+  "description": "v1.0.2: Laser blueprint rebuilt from the 19 November 2026 game files, same 300s heat and 1s cooldown. The old June 2026 copy no longer matched the game's laser shot data.",
   "fileName": "Mining_Laser_Overclock",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Mining_Laser_Overclock.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Mining_Laser_Overclock/README.md",

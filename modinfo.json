@@ -629,7 +629,7 @@
     {
       "name": "Mining Laser Overclock",
       "author": "AgentKush",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "compatibility": "All",
       "description": "The first-ever mining-laser blueprint mod. The mining laser runs 300s before overheating (was 5s) and cools in 1s - sustained, uninterrupted deep mining. PAK mod - all players and server must install for multiplayer.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Mining_Laser_Overclock.png",

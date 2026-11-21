@@ -106,7 +106,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 | [🪶 Lightweight Hauling](Lightweight_Hauling) | `1.0.1` | 54 resources weigh 50% less — ores, ingots & raw materials for easier hauling |
 | [🐾 Creature Drop Enhancer](Creature_Drop_Enhancer) | `1.2.1` | 2× all butchery and skinning outputs across 77 recipes |
 | [⛏️ Faster Harvest Tools](Faster_Harvest_Tools) | `1.0.1` | 2× yield from every gathering tool — mining, felling, reaping & skinning (74 tools) |
-| [🔦 Mining Laser Overclock](Mining_Laser_Overclock) | `1.0.1` | 🔧 No overheating — 300s runtime (was 5s) + 1s cooldown for sustained deep mining. First mining-laser blueprint mod |
+| [🔦 Mining Laser Overclock](Mining_Laser_Overclock) | `1.0.2` | 🔧 No overheating — 300s runtime (was 5s) + 1s cooldown for sustained deep mining. First mining-laser blueprint mod |
 | [🐾 Taming & Tames Overhaul](Taming_Tames_Overhaul) | `1.1.1` | 3× taming · 2× breeding · double juvenile chance · easier upkeep · 3× tame-growth XP · all 29 tameables |
 | [🐺 War Beasts](War_Beasts) | `1.0.1` | Husbandry combat talents 3× — tamed creatures hit harder, survive longer & move faster. First taming-combat mod |
 | [🧬 Genetics & Breeding Overhaul](Genetics_Breeding_Overhaul) | `1.0.1` | 2× genetics talent rewards (mutation/twins/gestation/recovery) · rarer Wild · achievable Alpha bloodline |
