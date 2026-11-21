@@ -2,7 +2,7 @@
 
 # Extended Wire and Pipe Tool
 
-[![Version](https://img.shields.io/badge/v1.1.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.1.3-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/PAK%20%2B%20EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -40,14 +40,16 @@ The game ships a Road Kit that lays asphalt roads with a yellow centre line, usi
 | In hand | The game's Tier 3 kit model, the one the Machining Bench kit uses |
 | Road | The game's asphalt road (yellow centre line), 9.6m wide, surface at ground level, solid to walk on |
 | Piece length | Up to 8m between points (game 40m). Each piece stretches one 3m copy of the asphalt texture, so short pieces keep it sharp |
+| Placement | Starts in straight mode; hold **R** to switch to curved |
 
-Roads are not a released feature of the game, so try them on a new prospect first. Hold **R** to switch between curved and straight placement. Use straight when you join an existing road at an angle: a curved join can fold a 9.6m-wide road over itself.
+Roads are not a released feature of the game, so try them on a new prospect first. Straight mode keeps joins to an existing road from folding a 9.6m-wide road over itself. Hold **R** to switch to curved for bends, and turn over several short pieces.
 
 ## How It Works
 
 PAK + EXMOD mod. The PAK side patches `BP_ActionableBehaviour_CurvedSplinePlace`: every `SplineTypeMaxDistance` entry x10 except roads, which are capped at 8m, plus the tool trace and inspector range. The EXMOD adds the Road Kit's recipe and fixes its item rows, and the bundle carries its icon texture (`ITEM_Kit_Road_0`).
 
-Two more files are used only by roads:
+Three more files are used only by roads:
+- `BP_ActionableBehaviour_CurvedSplinePlace_Road` is a new child of the game's spline placement tool. It only changes the starting mode to straight, and the Road Kit's `RoadPlace` action uses it. Cables and pipes keep their curved default.
 - `SM_SplineRoad_Small_R` is the narrow cobblestone path the game currently draws roads with. The mod replaces it with the game's own `SM_SplineRoad` (the 9.6m asphalt road), lowered 65cm so its surface sits at ground level.
 - `BP_IcarusSplineMesh_NavModifier` is the road piece component. The mod gives it the game's BlockAll collision; it inherited the cables' "ignore players" collision before.
 
@@ -60,6 +62,10 @@ Install via JimK72's Icarus Mod Manager.
 All players AND the server must have this mod installed.
 
 ## Changelog
+
+### v1.1.3 (2026-11-21)
+- **The Road Kit starts in straight mode,** so joins to an existing road no longer swing wide and twist. Hold R to switch to curved for bends.
+- It uses a new road-only child of the game's spline placement tool (`BP_ActionableBehaviour_CurvedSplinePlace_Road`, set as the `RoadPlace` action's behaviour). The child only sets `ToolSplinePointType` to Linear and inherits everything else. Cables and pipes still start curved.
 
 ### v1.1.2 (2026-11-21)
 - **Road pieces capped at 8m** (was 400m; the game's value is 40m). Each piece between two points is one copy of the road mesh, which carries 3m of asphalt texture, so long pieces stretched it. At 8m it is stretched at most 2.7x. Shorter pieces also keep curved joins from swinging wide and twisting.

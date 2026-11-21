@@ -49,7 +49,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 | Mod | Ver | Description |
 |-----|:---:|-------------|
 | [🧱 Hidden Building Pieces](Hidden_Building_Pieces) | `4.6.1` | The game's 20 unreleased building pieces — frames, pillars and corner stairs, each crafted like its vanilla match |
-| [⚡ Extended Wire and Pipe Tool](Extended_Wire_and_Pipe_Tool) | `1.1.2` | 🔧 10× range on all cables and pipes — power/water/biofuel 60m, crude oil 100m · craftable Road Kit (wide asphalt roads) |
+| [⚡ Extended Wire and Pipe Tool](Extended_Wire_and_Pipe_Tool) | `1.1.3` | 🔧 10× range on all cables and pipes — power/water/biofuel 60m, crude oil 100m · craftable Road Kit (wide asphalt roads) |
 | [📡 Extended Deep Ore Scanner Range](Extended_Deep_Ore_Scanner_Range) | `1.0.1` | 🔧 10× deep ore scanner detection range — find deep exotic/epic deposits from 3km (was 300m) |
 | [📡 Extended Scanner Range](Extended_Scanner_Range) | `1.0.1` | 🔧 10× Cave Scanner (3km) + Fish Finder (1.5km) detection range |
 | [🗺️ Always Show Buildings on Map](Always_show_buildings_on_map) | `1.0.1` | Buildings always visible on map and minimap — no radar required |
