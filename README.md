@@ -1,12 +1,12 @@
 <div align="center">
 
-<a href="https://agentkush.github.io/Icarus-mods/"><img src="https://github.com/AgentKush/Icarus-mods/raw/main/docs/og-image.png?v=4" alt="AgentKush's Icarus Mods — 54 free mods for Icarus: First Cohort" width="840"></a>
+<a href="https://agentkush.github.io/Icarus-mods/"><img src="https://github.com/AgentKush/Icarus-mods/raw/main/docs/og-image.png?v=4" alt="AgentKush's Icarus Mods — 55 free mods for Icarus: First Cohort" width="840"></a>
 
 # AgentKush's Icarus Mods
 
-[![Mods](https://img.shields.io/badge/54_Mods-Ready_to_Play-0d1117?style=for-the-badge&logo=steam&logoColor=white&labelColor=1a1e2e)]()
-[![Data Entries](https://img.shields.io/badge/41%2C947-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
-[![Recipes](https://img.shields.io/badge/19%2C237-Recipes-0d1117?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a1e2e)]()
+[![Mods](https://img.shields.io/badge/55_Mods-Ready_to_Play-0d1117?style=for-the-badge&logo=steam&logoColor=white&labelColor=1a1e2e)]()
+[![Data Entries](https://img.shields.io/badge/41%2C952-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
+[![Recipes](https://img.shields.io/badge/19%2C238-Recipes-0d1117?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a1e2e)]()
 [![Free](https://img.shields.io/badge/100%25-Free_to_Use-0d1117?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=1a1e2e)]()
 
 [![GitHub Release](https://img.shields.io/github/v/release/AgentKush/Icarus-mods?label=Latest%20Release&style=flat-square&color=E87B35)](https://github.com/AgentKush/Icarus-mods/releases)
@@ -42,6 +42,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 | [☀️ Solar Panel Expansion](Solar_Panel_Expansion) | `1.2.1` | All solar panels and solar backpack in a dedicated Workshop tab with fair pricing |
 | [⛏️ Passive Ore Extractor Drills](Passive_Ore_Extractor_Drills) | `7.8.2` | 23 passive ore extractors — one per ore type · Workshop purchasable · Infinite extraction |
 | [💻 UDA Terminal Laptop](UDA_Terminal_Laptop) | `2.2.1` | 🔧 Reskins the Orbital Exchange Interface into a laptop · place indoors and on benches · free recipe |
+| [📍 Survey Markers](Survey_Markers) | `1.0` | A cheap, light Portable Beacon made by hand — 6 Stick, 10 Fiber, 4 Stone for 2 · 0.5 kg · stacks to 20 · name, icon, colour and compass range set as on the beacon |
 
 ## 🏗️ Building & Construction
 

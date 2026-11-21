@@ -649,6 +649,18 @@
       "files": {
         "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Easier_Corpse_Runs/Easier_Corpse_Runs.EXMODZ"
       }
+    },
+    {
+      "name": "Survey Markers",
+      "author": "AgentKush",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "A cheap Portable Beacon you make by hand: 6 Stick, 10 Fiber and 4 Stone make 2 Survey Markers, 0.5 kg each, stacking to 20. Set its name, icon, colour and compass range like a beacon. Data mod.",
+      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Survey_Markers.png",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Survey_Markers/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Survey_Markers/Survey_Markers.EXMODZ"
+      }
     }
   ]
 }

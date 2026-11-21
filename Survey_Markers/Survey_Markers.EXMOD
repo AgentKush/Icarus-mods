@@ -1,0 +1,197 @@
+{
+  "name": "Survey Markers",
+  "author": "AgentKush",
+  "version": "1.0",
+  "description": "v1.0: Initial release. Survey Marker: a cheap, light Portable Beacon made by hand from 6 Stick, 10 Fiber and 4 Stone (2 per craft, 0.5 kg, stacks to 20).",
+  "fileName": "Survey_Markers",
+  "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Survey_Markers.png",
+  "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Survey_Markers/README.md",
+  "week": "All",
+  "Level2": "True",
+  "Rows": [
+    {
+      "CurrentFile": "Traits-D_Deployable.json",
+      "File_Items": [
+        {
+          "Name": "Survey_Marker",
+          "Variants": [
+            {
+              "RowName": "Portable_Beacon",
+              "DataTableName": "D_DeployableSetup"
+            }
+          ],
+          "EffectedByWeather": false,
+          "bMustBeOutside": false
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Traits-D_Itemable.json",
+      "File_Items": [
+        {
+          "Name": "Item_Survey_Marker",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Survey_Marker-DisplayName\", \"Survey Marker\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/ITEM_Portable_Beacon.ITEM_Portable_Beacon",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Survey_Marker-Description\", \"A light map marker. Place it on level ground, under a roof or out in the open, then interact with it to set its name, icon, colour and compass range.\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Survey_Marker-FlavorText\", \"You were here. Now you can find it again.\")",
+          "Weight": 500,
+          "MaxStack": 20
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Items-D_ItemsStatic.json",
+      "File_Items": [
+        {
+          "Name": "Survey_Marker",
+          "Meshable": {
+            "RowName": "Mesh_Portable_Beacon"
+          },
+          "Itemable": {
+            "RowName": "Item_Survey_Marker"
+          },
+          "Interactable": {
+            "RowName": "Deployable"
+          },
+          "Focusable": {
+            "RowName": "Focusable_1H"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Actionable": {
+            "RowName": "Deployable"
+          },
+          "Usable": {
+            "RowName": "Place"
+          },
+          "Deployable": {
+            "RowName": "Survey_Marker"
+          },
+          "Durable": {
+            "RowName": "Deployable_5000"
+          },
+          "Decayable": {
+            "RowName": "Decay_10_Minutes"
+          },
+          "Weight": {
+            "RowName": "LightDeployable"
+          },
+          "Audio": {
+            "RowName": "MetalDeployable"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "FieldGuide.Deployable.Beacon"
+              }
+            ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "FieldGuide.Deployable.Beacon"
+              },
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Deployable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              }
+            ],
+            "ParentTags": []
+          }
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Items-D_ItemTemplate.json",
+      "File_Items": [
+        {
+          "Name": "Survey_Marker",
+          "ItemStaticData": {
+            "RowName": "Survey_Marker"
+          }
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Crafting-D_ProcessorRecipes.json",
+      "File_Items": [
+        {
+          "Name": "Survey_Marker",
+          "Requirement": {
+            "RowName": "None",
+            "DataTableName": "D_Talents"
+          },
+          "RequiredMillijoules": 1000,
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Stick",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 6
+            },
+            {
+              "Element": {
+                "RowName": "Fiber",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            },
+            {
+              "Element": {
+                "RowName": "Stone",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 4
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Survey_Marker",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 2,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Default"
+          }
+        }
+      ]
+    }
+  ]
+}
