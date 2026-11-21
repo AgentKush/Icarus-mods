@@ -1,6 +1,6 @@
 Extended_Wire_and_Pipe_Tool_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.1
+Mod Version: 1.1.1
 
 Author: AgentKush
 
@@ -13,6 +13,13 @@ Extends power cable and water/fuel pipe connection range by 10x. Power cables re
 Also makes the game's unfinished Road Kit craftable: it unlocks with the Water Pipe Tool and
 lays asphalt roads up to 400m.
 
+
+Ver 1.1.1
+Roads fixed. The game draws roads with an unfinished 1.9m cobblestone path mesh that players
+fall through. Roads now use the game's own 9.6m asphalt road mesh (SM_SplineRoad) in its place,
+lowered 65cm so the surface sits at ground level, and road pieces block players with the game's
+BlockAll collision. Cables and pipes are unchanged. Place road points every 10-20m: each stretch
+between two points is one road piece, so very long stretches stretch the asphalt texture.
 
 Ver 1.1
 Craftable Road Kit. The game's unfinished Kit_Road gets a recipe at the Machining Bench,

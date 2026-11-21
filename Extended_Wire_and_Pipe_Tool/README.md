@@ -2,7 +2,7 @@
 
 # Extended Wire and Pipe Tool
 
-[![Version](https://img.shields.io/badge/v1.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.1.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/PAK%20%2B%20EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -38,13 +38,18 @@ The game ships a Road Kit that lays asphalt roads with a yellow centre line, usi
 | Cost | 50 Copper Wire, 50 Gold Wire, 4 Platinum Sheath (the Water Pipe Tool's cost) |
 | Icon | A new asphalt-road icon drawn from the game's own road texture |
 | In hand | The game's Tier 3 kit model, the one the Machining Bench kit uses |
+| Road | The game's asphalt road (yellow centre line), 9.6m wide, surface at ground level, solid to walk on |
 | Range | 400m between road points (game 40m) |
 
-Roads are not a released feature of the game, so try them on a new prospect first.
+Roads are not a released feature of the game, so try them on a new prospect first. Place points every 10-20m for the best look: each stretch between two points is one road piece, so a very long stretch stretches the asphalt texture.
 
 ## How It Works
 
 PAK + EXMOD mod. The PAK side patches `BP_ActionableBehaviour_CurvedSplinePlace`: every `SplineTypeMaxDistance` entry x10, plus the tool trace and inspector range. The EXMOD adds the Road Kit's recipe and fixes its item rows, and the bundle carries its icon texture (`ITEM_Kit_Road_0`).
+
+Two more files are used only by roads:
+- `SM_SplineRoad_Small_R` is the narrow cobblestone path the game currently draws roads with. The mod replaces it with the game's own `SM_SplineRoad` (the 9.6m asphalt road), lowered 65cm so its surface sits at ground level.
+- `BP_IcarusSplineMesh_NavModifier` is the road piece component. The mod gives it the game's BlockAll collision; it inherited the cables' "ignore players" collision before.
 
 ## Installation
 
@@ -55,6 +60,10 @@ Install via JimK72's Icarus Mod Manager.
 All players AND the server must have this mod installed.
 
 ## Changelog
+
+### v1.1.1 (2026-11-21)
+- **Roads fixed.** The game draws roads with an unfinished 1.9m cobblestone path mesh that players fall through. Roads now use the game's own asphalt road mesh (`SM_SplineRoad`, 9.6m wide) in its place, lowered 65cm so the surface sits at ground level instead of 75cm up.
+- Road pieces now block players, using the game's BlockAll collision; before, they inherited the cables' "ignore players" collision. Cables and pipes are unchanged: they use a different component.
 
 ### v1.1 (2026-11-21)
 - **Craftable Road Kit.** The game's unfinished `Kit_Road` gets a recipe at the Machining Bench, Fabricator and Manufacturer (50 Copper Wire, 50 Gold Wire, 4 Platinum Sheath, the Water Pipe Tool's cost). The recipe unlocks with the Water Pipe Tool blueprint.
