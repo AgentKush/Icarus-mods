@@ -1,6 +1,6 @@
 Extended_Wire_and_Pipe_Tool_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.1.5
+Mod Version: 1.2
 
 Author: AgentKush
 
@@ -14,6 +14,16 @@ Also makes the game's unfinished Road Kit craftable: it unlocks with the Water P
 lays wide asphalt roads in pieces of up to 400m. It starts in straight mode; hold R for curved.
 Road pieces may twist where a straight piece joins a curved one.
 
+
+Ver 1.2
+Roads use the game's own road texture again, repeated instead of stretched. The game draws one
+3m road mesh per piece and stretches it over the whole piece. Each road piece is now drawn as
+copies of the game's road laid every 3m along it, so the asphalt, its cracks and the yellow line
+keep their real size on pieces of any length, including roads already placed. The road piece
+component (BP_IcarusSplineMesh_NavModifier) is rebuilt with this logic; the copies
+(BP_AK_RoadTile) have no collision, navigation or shadow, and the pieces keep their collision.
+The v1.1.4 and v1.1.5 road textures are removed. A 400m piece is about 130 copies, so very long
+road networks draw more.
 
 Ver 1.1.5
 Roads no longer look like plastic. v1.1.4 averaged the road texture flat, which also wiped out

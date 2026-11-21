@@ -1,8 +1,8 @@
 {
   "name": "Extended Wire and Pipe Tool",
   "author": "AgentKush",
-  "version": "1.1.5",
-  "description": "v1.1.5: Roads get the game's own asphalt grain back with a matte, weathered finish, and the Road Kit's description warns that pieces may twist where straight meets curved.",
+  "version": "1.2",
+  "description": "v1.2: Roads use the game's own texture again, drawn as copies laid every 3m along each piece so it repeats instead of stretching.",
   "fileName": "Extended_Wire_and_Pipe_Tool",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Extended_Wire_and_Pipe_Tool.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Wire_and_Pipe_Tool/README.md",
