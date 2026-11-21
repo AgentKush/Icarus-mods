@@ -376,14 +376,13 @@
     {
       "name": "Hardcore Rebalance Pack",
       "author": "AgentKush",
-      "version": "2.2.1",
+      "version": "2.2.2",
       "compatibility": "All",
       "description": "For survivors who think Icarus is too easy. Tiered creature scaling - Forest +75% HP/+40% Melee (23), Mid-Tier +125%/+60% (37), Hard Biome +200%/+90% (42), Boss/Alpha +300%/+120% (12). 21 alpha hunters that roam the wild and drop exotics. Horde waves ramp Level 30-75. Storms that damage players, harsher afflictions, slower mining and faster gear wear. 1364 changes across 17 data tables + 2 blueprint overrides.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hardcore_Rebalance_Pack.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hardcore_Rebalance_Pack/README.md",
       "files": {
-        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Hardcore_Rebalance_Pack/Hardcore_Rebalance_Pack.EXMODZ",
-        "pak": "https://github.com/AgentKush/Icarus-mods/raw/main/Hardcore_Rebalance_Pack/Hardcore_Rebalance_Pack_P.pak"
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Hardcore_Rebalance_Pack/Hardcore_Rebalance_Pack.EXMODZ"
       }
     },
     {

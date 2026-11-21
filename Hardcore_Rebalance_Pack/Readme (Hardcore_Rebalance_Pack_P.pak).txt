@@ -1,6 +1,6 @@
 Hardcore_Rebalance_Pack_P.pak
 ----------------------------------------------------------------------
-Mod Version: 2.2.1
+Mod Version: 2.2.2
 
 Author: AgentKush
 
@@ -111,6 +111,14 @@ Requires JimK72's Icarus Mod Manager: https://github.com/Jimk72/Icarus_Software
   3. Import via Mod Manager
 
 ## Changelog:
+  v2.2.2 - Creature AI blueprint (BP_IcarusNPCGOAPController) rebuilt from the 19 November 2026
+           game files with only this mod's 3 changes: sight 17000 (was 10000), lose-sight 180000
+           (was 135000), hearing 25500 (was 15000). The old copy was from February 2026 and undid
+           3 later game changes: creatures keep sight of you within 3.5 m of where they last saw
+           you, as in the base game, and 2 AI functions use the current size of the game's
+           creature-setup data. Leftover build files (pak_build copies, rebuild_pak.ps1,
+           patch_bp_floats.py) removed from the download. The Enraged override was checked and
+           is unchanged
   v2.2.1 - New icon and banner, drawn from the mod's live data. No gameplay change.
   v2.2 - Alpha hunters rebuilt for the Nov 2026 game: 9 v1.14 hunters now spawn (their spawn
          rows used fields the game does not have), every hunter drops exotics on kill, 16

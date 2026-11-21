@@ -2,7 +2,7 @@
 
 # Hardcore Rebalance Pack
 
-[![Version](https://img.shields.io/badge/v2.2.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v2.2.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/PAK%20%2B%20EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=unrealengine&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -125,6 +125,14 @@ Boss-tier versions of ordinary creatures that roam the world. Each one spawns as
 For the full hardcore experience and the hardest gameplay possible, install **Creature_Difficulty_Scaling (CDS) v2.2+** alongside this mod. CDS adds level-500 spawn zone scaling, per-player-level stat scaling rules, and tame/mount survival buffs so your pets can actually hold up against HRP's tougher creatures. Running HRP + CDS together delivers the most punishing Icarus experience possible — see the v1.18 changelog for overlap details.
 
 ## Changelog
+
+### v2.2.2 (2026-11-21)
+**Creature AI blueprint rebuilt for the 19 November 2026 game (build 26636089).**
+- `BP_IcarusNPCGOAPController` is now the game's current copy with only this mod's 3 perception changes put back: sight radius 17000 (game 10000), lose-sight radius 180000 (game 135000) and hearing range 25500 (game 15000).
+- The old copy was the February 2026 file, so it undid 3 later game changes for everyone running the mod: creatures now keep sight of you within 3.5 m of where they last saw you, as in the base game (the old copy had 0), and `RecalculateGOAPState` and `ShouldReactToPerceivedDamageNoise` use the current size of the game's creature-setup data (792 bytes, was 760).
+- Removed leftover build files from the download, which the Mod Manager was packing as junk: the `pak_build` copies of both blueprints, `rebuild_pak.ps1` and `tools/patch_bp_floats.py`.
+- The mod list no longer links a `Hardcore_Rebalance_Pack_P.pak` that has not existed since April 2026; the `.EXMODZ` carries both blueprints.
+- `BP_IcarusGOAPMotivation_Enraged` was checked against the game and is unchanged: it matches the current file apart from the mod's own two values.
 
 ### v2.2.1 (2026-11-08)
 - New icon and banner, drawn from the mod's live data. No gameplay change.

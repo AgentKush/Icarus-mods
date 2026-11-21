@@ -131,7 +131,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 
 | Mod | Ver | Description |
 |-----|:---:|-------------|
-| [💀 Hardcore Rebalance Pack](Hardcore_Rebalance_Pack) | `2.2.1` | 🔧 4-tier creature scaling, 21 alpha hunters that roam the wild and drop exotics, rebalanced horde waves, deadly weather, harsher survival |
+| [💀 Hardcore Rebalance Pack](Hardcore_Rebalance_Pack) | `2.2.2` | 🔧 4-tier creature scaling, 21 alpha hunters that roam the wild and drop exotics, rebalanced horde waves, deadly weather, harsher survival |
 | [🦁 Creature Difficulty Scaling](Creature_Difficulty_Scaling) | `2.4.1` | Full creature overhaul for level 500 cap · 161 spawn zones rescaled · 136 creatures buffed by tier |
 | [📈 Performance Optimizer](Performance_Optimizer) | `2.2.1` | 🔧 FPS boost via PAK engine overrides (foliage/shadows/fog/LOD) + data table changes |
 | [🌀 Absolute Chaos - Core](AbsoluteChaos_Core) | `0.2.3` | Total overhaul mod — early access core module |
