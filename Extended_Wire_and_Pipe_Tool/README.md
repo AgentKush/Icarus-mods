@@ -2,7 +2,7 @@
 
 # Extended Wire and Pipe Tool
 
-[![Version](https://img.shields.io/badge/v1.1.3-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.1.4-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/PAK%20%2B%20EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -23,7 +23,7 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 | Water Pipes | 6m | **60m** |
 | Biofuel Pipes | 6m | **60m** |
 | Crude Oil Pipes | 10m | **100m** |
-| Roads (Road Kit, below) | 40m | **8m per piece** (short on purpose, see below) |
+| Roads (Road Kit, below) | 40m | **400m** |
 | Tool Trace Distance | 30m | **300m** |
 | Inspector Range | 200m | **2000m** |
 
@@ -39,19 +39,21 @@ The game ships a Road Kit that lays asphalt roads with a yellow centre line, usi
 | Icon | A new asphalt-road icon drawn from the game's own road texture |
 | In hand | The game's Tier 3 kit model, the one the Machining Bench kit uses |
 | Road | The game's asphalt road (yellow centre line), 9.6m wide, surface at ground level, solid to walk on |
-| Piece length | Up to 8m between points (game 40m). Each piece stretches one 3m copy of the asphalt texture, so short pieces keep it sharp |
+| Piece length | Up to 400m between points (game 40m). Each piece is straight in straight mode, so place points closer on hills |
+| Texture | Stretch-proof: the game's asphalt cross-section (lanes, yellow line, verges) runs unchanged along the road, so pieces of any length look the same |
 | Placement | Starts in straight mode; hold **R** to switch to curved |
 
 Roads are not a released feature of the game, so try them on a new prospect first. Straight mode keeps joins to an existing road from folding a 9.6m-wide road over itself. Hold **R** to switch to curved for bends, and turn over several short pieces.
 
 ## How It Works
 
-PAK + EXMOD mod. The PAK side patches `BP_ActionableBehaviour_CurvedSplinePlace`: every `SplineTypeMaxDistance` entry x10 except roads, which are capped at 8m, plus the tool trace and inspector range. The EXMOD adds the Road Kit's recipe and fixes its item rows, and the bundle carries its icon texture (`ITEM_Kit_Road_0`).
+PAK + EXMOD mod. The PAK side patches `BP_ActionableBehaviour_CurvedSplinePlace`: every `SplineTypeMaxDistance` entry x10, plus the tool trace and inspector range. The EXMOD adds the Road Kit's recipe and fixes its item rows, and the bundle carries its icon texture (`ITEM_Kit_Road_0`).
 
-Three more files are used only by roads:
+These files are used only by roads:
 - `BP_ActionableBehaviour_CurvedSplinePlace_Road` is a new child of the game's spline placement tool. It only changes the starting mode to straight, and the Road Kit's `RoadPlace` action uses it. Cables and pipes keep their curved default.
 - `SM_SplineRoad_Small_R` is the narrow cobblestone path the game currently draws roads with. The mod replaces it with the game's own `SM_SplineRoad` (the 9.6m asphalt road), lowered 65cm so its surface sits at ground level.
 - `BP_IcarusSplineMesh_NavModifier` is the road piece component. The mod gives it the game's BlockAll collision; it inherited the cables' "ignore players" collision before.
+- `T_SplineRoad_Albedo`, `T_SplineRoad_Normal` and `T_SplineRoad_Roughness` are the road material's textures, rebuilt so every row is the same averaged cross-section of the game's road. Each road piece gets one copy of the texture along its length, so with no detail along the road, stretching leaves nothing to smear.
 
 ## Installation
 
@@ -62,6 +64,10 @@ Install via JimK72's Icarus Mod Manager.
 All players AND the server must have this mod installed.
 
 ## Changelog
+
+### v1.1.4 (2026-11-21)
+- **New road texture that doesn't stretch.** The game paints one 3m copy of its asphalt texture along each road piece, so long pieces smeared the cracks into streaks. The three road textures are now one averaged cross-section of the game's road (asphalt lanes, yellow centre line, dirt verges) repeated along the whole length, so a piece looks the same at any length. The surface is cleaner, without cracks.
+- **Road pieces back to 400m** (10x the game's 40m; they were 8m in v1.1.2 to limit the stretching). Each piece is straight in straight mode, so place points closer on hills.
 
 ### v1.1.3 (2026-11-21)
 - **The Road Kit starts in straight mode,** so joins to an existing road no longer swing wide and twist. Hold R to switch to curved for bends.

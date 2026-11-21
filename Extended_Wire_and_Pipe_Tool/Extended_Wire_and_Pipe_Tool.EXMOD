@@ -1,8 +1,8 @@
 {
   "name": "Extended Wire and Pipe Tool",
   "author": "AgentKush",
-  "version": "1.1.3",
-  "description": "v1.1.3: The Road Kit now starts in straight mode, so joins to an existing road no longer twist. Hold R to switch to curved for bends.",
+  "version": "1.1.4",
+  "description": "v1.1.4: New road texture that does not stretch, so road pieces can be 400m long again.",
   "fileName": "Extended_Wire_and_Pipe_Tool",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Extended_Wire_and_Pipe_Tool.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Extended_Wire_and_Pipe_Tool/README.md",
