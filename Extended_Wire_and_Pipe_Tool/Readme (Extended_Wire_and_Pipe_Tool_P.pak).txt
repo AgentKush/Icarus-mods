@@ -1,6 +1,6 @@
 Extended_Wire_and_Pipe_Tool_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.1.4
+Mod Version: 1.1.5
 
 Author: AgentKush
 
@@ -12,7 +12,17 @@ Mod Type: EXMOD + Blueprint Overrides
 Extends power cable and water/fuel pipe connection range by 10x. Power cables reach 60m, water pipes 60m, biofuel pipes 60m, crude oil pipes 100m. Also extends tool trace distance for aiming at distant connection points. PAK mod - modifies BP_ActionableBehaviour_CurvedSplinePlace Blueprint.
 Also makes the game's unfinished Road Kit craftable: it unlocks with the Water Pipe Tool and
 lays wide asphalt roads in pieces of up to 400m. It starts in straight mode; hold R for curved.
+Road pieces may twist where a straight piece joins a curved one.
 
+
+Ver 1.1.5
+Roads no longer look like plastic. v1.1.4 averaged the road texture flat, which also wiped out
+the asphalt's surface relief. The cross-section now comes from three of the game's own rows of
+asphalt, so it keeps the real grain in colour, relief and roughness (1.2x, softened by a pixel).
+It still doesn't stretch. Matte, weathered finish: roughness +0.09, asphalt a little lighter.
+The Road Kit's description now warns that road pieces may twist where a straight piece joins a
+curved one. The game points each join along the previous piece, and the longer that piece, the
+further a following curved piece runs on before it turns, so it can fold the road over itself.
 
 Ver 1.1.4
 New road texture that doesn't stretch. The game paints one 3m copy of its asphalt texture along
