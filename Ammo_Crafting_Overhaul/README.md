@@ -2,7 +2,7 @@
 
 # Ammo Crafting Overhaul
 
-[![Version](https://img.shields.io/badge/v1.2.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.2.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -38,6 +38,10 @@ All 4 weapon types × 6 ammo variants:
 - **Cold Steel** — Pistol/Rifle/AR/Shotgun
 - **Iron Wood** — Pistol/Rifle/AR/Shotgun
 
+### Mega Sniper Ammo (50x) — 2 recipes
+- **Explosive** and **Incendiary** 12.7mm rounds for the legendary Anti-materiel Rifle (Machining Bench/Fabricator)
+- The game has no item row for the explosive round, so the mod adds it (the same row Agent's Hidden Things uses)
+
 ### Ammo Conversion — 8 recipes
 Switch between ammo types at Machining Bench/Fabricator:
 - Pistol ↔ Rifle ↔ AR (20 pistol = 10 rifle = 10 AR)
@@ -54,6 +58,7 @@ Import `Ammo_Crafting_Overhaul.EXMODZ` via Icarus Mod Manager.
 
 ## Version History
 
+- **v1.2.2** - The 50x explosive 12.7mm round recipe works: adds the explosive sniper round's item row, which the game left out, so the recipe no longer makes a broken item.
 - **v1.2.1** - New icon and banner, drawn from the mod's live data. No gameplay change.
 - **v1.2** - Added 50x Sniper special-ammo batches (Explosive, Incendiary).
 - **v1.1** - Crash fix: Fixed 48 recipe outputs from D_ItemsStatic to D_ItemTemplate (prevents crash when opening crafting stations).

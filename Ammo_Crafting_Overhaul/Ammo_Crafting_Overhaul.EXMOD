@@ -1,8 +1,8 @@
 {
   "name": "Ammo Crafting Overhaul",
   "author": "AgentKush",
-  "version": "1.2.1",
-  "description": "v1.2.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
+  "version": "1.2.2",
+  "description": "v1.2.2: The 50x explosive 12.7mm round recipe works: adds the round's item row the game left out.",
   "fileName": "Ammo_Crafting_Overhaul",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Ammo_Crafting_Overhaul.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Ammo_Crafting_Overhaul/README.md",
@@ -2254,6 +2254,91 @@
           ],
           "Audio": {
             "RowName": "MachiningBench"
+          }
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Items-D_ItemsStatic.json",
+      "File_Items": [
+        {
+          "Name": "Ammo_Sniper_Round_Explosive",
+          "Meshable": {
+            "RowName": "Mesh_Ammo_Box"
+          },
+          "Itemable": {
+            "RowName": "Item_Sniper_Round_Explosive"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Ballistic": {
+            "RowName": "Sniper_Round_Explosive"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "AmmoType": {
+            "RowName": "Sniper_Round_Explosive"
+          },
+          "Audio": {
+            "RowName": "Default"
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Ammo.Bullet"
+              },
+              {
+                "TagName": "GameStateRecorder.DontRecord"
+              },
+              {
+                "TagName": "Item.Meta"
+              },
+              {
+                "TagName": "Item.Ammo.Sniper"
+              }
+            ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Ammo.Bullet"
+              },
+              {
+                "TagName": "GameStateRecorder.DontRecord"
+              },
+              {
+                "TagName": "Item.Meta"
+              },
+              {
+                "TagName": "Item.Ammo.Sniper"
+              },
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Ballistic"
+              }
+            ],
+            "ParentTags": []
+          },
+          "Metadata": {
+            "RequiredFeatureLevel": {
+              "RowName": "GreatHunts"
+            }
           }
         }
       ]

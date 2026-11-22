@@ -1,6 +1,6 @@
 Ammo_Crafting_Overhaul_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.2.1
+Mod Version: 1.2.2
 
 Author: AgentKush
 
@@ -12,6 +12,12 @@ Mod Type: EXMOD
 48 new ammo recipes. 50x batch crafting for all arrow and bullet types including special ammo. Plus 8 ammo conversion recipes.
 
 
+
+Ver 1.2.2
+The 50x explosive 12.7mm round recipe works. Its output, the explosive sniper round, had no item
+row in the game, so the recipe could only make a broken item. The mod now adds that row (the same
+one Agent's Hidden Things uses, modelled on the game's incendiary sniper round). The round is for
+the legendary Anti-materiel Rifle: 500 damage plus a 400-damage blast.
 
 Ver 1.2.1
 New icon and banner, drawn from the mod's live data. No gameplay change.
@@ -25,7 +31,8 @@ Ver 1.0
 Initial release, 50 recipes.
 
 ## Files Modified:
-  Crafting-D_ProcessorRecipes (48 entries)
+  Crafting-D_ProcessorRecipes (50 entries)
+  Items-D_ItemsStatic         (1 entries) - the explosive sniper round's item row
 
 ## Installation:
   1. Install JimK72's Icarus Mod Manager
