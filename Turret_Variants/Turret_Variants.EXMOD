@@ -1,8 +1,8 @@
 {
   "name": "Turret Variants",
   "author": "AgentKush",
-  "version": "3.7.3",
-  "description": "v3.7.3: The Sniper and Heavy Sniper turrets now load 12.7mm rounds and the Assault Rifle and Storm turrets load 5.56mm rounds; before, the snipers took no ammo and the AR turrets took only EDS.",
+  "version": "3.7.4",
+  "description": "v3.7.4: The Flamethrower turret works: it is now its own biofuel flamethrower (fill from a jerrycan or a pipe, needs power), and the game's own flamethrower turret is no longer replaced.",
   "fileName": "Turret_Variants",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Turret_Variants.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/README.md",
@@ -516,13 +516,6 @@
           "NavAreaClass": "Class'/Script/NavigationSystem.NavArea_Obstacle'"
         },
         {
-          "Name": "Basic_Turret_Flamethrower",
-          "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Defences/BP_Shotgun_Turret.BP_Shotgun_Turret_C",
-          "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Turret_T4/SM_DEP_Turret_Shotgun_Combined_v2.SM_DEP_Turret_Shotgun_Combined_v2",
-          "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
-          "NavAreaClass": "Class'/Script/NavigationSystem.NavArea_Obstacle'"
-        },
-        {
           "Name": "Basic_Turret_Rock",
           "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Defences/BP_Pistol_Turret.BP_Pistol_Turret_C",
           "PreviewStaticMesh": "/Game/ASS/DEP/DEP_Turret_T4/SM_DEP_Turret_Pistol_Combined_v2.SM_DEP_Turret_Pistol_Combined_v2",
@@ -658,17 +651,6 @@
           "Variants": [
             {
               "RowName": "Basic_Turret_Javelin",
-              "DataTableName": "D_DeployableSetup"
-            }
-          ],
-          "EffectedByWeather": false,
-          "bMustBeOutside": true
-        },
-        {
-          "Name": "Basic_Turret_Flamethrower",
-          "Variants": [
-            {
-              "RowName": "Basic_Turret_Flamethrower",
               "DataTableName": "D_DeployableSetup"
             }
           ],
@@ -1327,15 +1309,15 @@
           }
         },
         {
-          "Name": "Turret_Flamethrower",
+          "Name": "Turret_TV_Flamethrower",
           "Meshable": {
             "RowName": "Mesh_Turret_Flamethrower"
           },
           "Itemable": {
-            "RowName": "Item_Turret_Flamethrower"
+            "RowName": "Item_Turret_TV_Flamethrower"
           },
           "Interactable": {
-            "RowName": "Deployable"
+            "RowName": "Deployable_Portable_Biofuel_Tank"
           },
           "Focusable": {
             "RowName": "Focusable_1H"
@@ -1350,13 +1332,13 @@
             "RowName": "Place"
           },
           "Deployable": {
-            "RowName": "Basic_Turret_Flamethrower"
+            "RowName": "Turret_Flamethrower"
+          },
+          "Fillable": {
+            "RowName": "Flamethrower_Turret"
           },
           "Durable": {
             "RowName": "Turret_Repairable"
-          },
-          "Inventory": {
-            "RowName": "Inventory_Turret_Shotgun"
           },
           "Decayable": {
             "RowName": "Decay_10_Minutes"
@@ -1365,7 +1347,7 @@
             "RowName": "HeavyDeployable"
           },
           "Resource": {
-            "RowName": "Turret"
+            "RowName": "Flame_Turret"
           },
           "Audio": {
             "RowName": "Turret"
@@ -1373,10 +1355,21 @@
           "TurretData": {
             "RowName": "Basic_Flamethrower_Turret"
           },
+          "AdditionalStats": {
+            "(Value=\"BaseFireDamage_+\")": 20,
+            "(Value=\"BaseFlamethrowerFuelUse_+\")": 10,
+            "(Value=\"BaseFlamethrowerFlameDamageRadius_+\")": 50
+          },
           "Manual_Tags": {
             "GameplayTags": [
               {
                 "TagName": "FieldGuide.Defense"
+              },
+              {
+                "TagName": "HostileTurret.Pistol"
+              },
+              {
+                "TagName": "FieldGuide.Defense.Turret"
               }
             ]
           },
@@ -1386,6 +1379,12 @@
                 "TagName": "FieldGuide.Defense"
               },
               {
+                "TagName": "HostileTurret.Pistol"
+              },
+              {
+                "TagName": "FieldGuide.Defense.Turret"
+              },
+              {
                 "TagName": "Traits.Meshable"
               },
               {
@@ -1393,9 +1392,6 @@
               },
               {
                 "TagName": "Traits.Interactable"
-              },
-              {
-                "TagName": "Traits.Focusable"
               },
               {
                 "TagName": "Traits.Highlightable"
@@ -1410,13 +1406,18 @@
                 "TagName": "Traits.Deployable"
               },
               {
-                "TagName": "Traits.Durable"
+                "TagName": "Traits.Fillable"
               },
               {
-                "TagName": "Traits.Inventory"
+                "TagName": "Traits.Durable"
               }
             ],
             "ParentTags": []
+          },
+          "Metadata": {
+            "RequiredFeatureLevel": {
+              "RowName": "DangerousHorizons"
+            }
           }
         },
         {
@@ -2217,11 +2218,11 @@
           "Weight": 26000
         },
         {
-          "Name": "Item_Turret_Flamethrower",
-          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Flamethrower-DisplayName\", \"Automated Defense System: Flamethrower\")",
-          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Turret_Shotgun.T_ITEM_Turret_Shotgun",
-          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Flamethrower-Description\", \"40-shot stream, area denial. Range: 15m. Cooldown: 2s. Ammo: Biofuel.\")",
-          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_Flamethrower-FlavorText\", \"Kill it with fire.\")",
+          "Name": "Item_Turret_TV_Flamethrower",
+          "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_TV_Flamethrower-DisplayName\", \"Automated Defense System: Flamethrower\")",
+          "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Turret_Flamethrower.T_ITEM_Turret_Flamethrower",
+          "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_TV_Flamethrower-Description\", \"40-shot stream, area denial. Range: 15m. Cooldown: 2s. Burns biofuel: fill it from a jerrycan or a biofuel pipe. Needs power.\")",
+          "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Turret_TV_Flamethrower-FlavorText\", \"Kill it with fire.\")",
           "Weight": 32000
         },
         {
@@ -2330,9 +2331,14 @@
           }
         },
         {
-          "Name": "Turret_Flamethrower",
+          "Name": "Turret_TV_Flamethrower",
           "ItemStaticData": {
-            "RowName": "Turret_Flamethrower"
+            "RowName": "Turret_TV_Flamethrower"
+          },
+          "Metadata": {
+            "RequiredFeatureLevel": {
+              "RowName": "DangerousHorizons"
+            }
           }
         },
         {
@@ -2535,7 +2541,7 @@
         {
           "Name": "Turret_Flamethrower",
           "ExtraData": {
-            "RowName": "Item_Turret_Flamethrower",
+            "RowName": "Item_Turret_TV_Flamethrower",
             "DataTableName": "D_Itemable"
           },
           "TalentTree": {
@@ -3084,7 +3090,7 @@
           }
         },
         {
-          "Name": "Turret_Flamethrower",
+          "Name": "TV_Turret_Flamethrower",
           "Requirement": {
             "RowName": "Turret_Flamethrower"
           },
@@ -3128,7 +3134,7 @@
           "Outputs": [
             {
               "Element": {
-                "RowName": "Turret_Flamethrower",
+                "RowName": "Turret_TV_Flamethrower",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 1

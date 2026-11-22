@@ -183,9 +183,9 @@
     {
       "name": "Turret Variants",
       "author": "AgentKush",
-      "version": "3.7.3",
+      "version": "3.7.4",
       "compatibility": "All",
-      "description": "15 new automated turret variants with unique firing patterns: Crossbow, Bow, Sniper, Assault Rifle, SMG, Javelin, Flamethrower, Rock, Minigun, Rifle, Pistol, Shotblaster, Rapid Crossbow, Storm and Heavy Sniper turrets. Every turret accepts all standard, DLC and workshop ammo for its weapon type.",
+      "description": "15 new automated turret variants with unique firing patterns: Crossbow, Bow, Sniper, Assault Rifle, SMG, Javelin, Flamethrower, Rock, Minigun, Rifle, Pistol, Shotblaster, Rapid Crossbow, Storm and Heavy Sniper turrets. Every turret accepts all standard, DLC and workshop ammo for its weapon type, and the Flamethrower burns biofuel.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Turret_Variants.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/README.md",
       "files": {

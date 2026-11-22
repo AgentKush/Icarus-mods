@@ -1,6 +1,6 @@
 Turret_Variants_P.pak
 ----------------------------------------------------------------------
-Mod Version: 3.7.3
+Mod Version: 3.7.4
 
 Author: AgentKush
 
@@ -12,6 +12,18 @@ Mod Type: EXMOD
 Adds 15 new automated turret variants with unique characteristics. v3.0: LOS fix PAK + proper ammo type matching (arrows, bolts, javelins, stones, biofuel) + tighter targeting.
 
 
+
+Ver 3.7.4
+The Flamethrower turret works. It was built on the game's own flamethrower turret item (the
+Dangerous Horizons one) but turned it into a shotgun turret with no fuel, so it never fired
+(since Ver 3.0), and with this mod installed the game's own flamethrower turret was broken too.
+Turret Variants now has its own flamethrower, built on the game's working one: the real
+flamethrower model and flame, filled with biofuel from a jerrycan (hold it and use the turret)
+or through a biofuel pipe, and it needs power. It keeps this mod's stats (40-shot stream, 15m
+range) and its T4 Fabricator blueprint, and research you already did is kept. The game's own
+flamethrower turret is no longer touched. A Turret Variants flamethrower already placed or
+carried becomes the game's flamethrower on the next load, with the game's stats; craft a new
+one for this mod's.
 
 Ver 3.7.3
 The Sniper and Heavy Sniper turrets now load 12.7mm rounds, and the Assault Rifle and Storm
@@ -78,8 +90,8 @@ Initial 15-variant release.
 
 ## Files Modified:
   Deployables-D_Turret          (15 entries)
-  Deployables-D_DeployableSetup (15 entries)
-  Traits-D_Deployable           (15 entries)
+  Deployables-D_DeployableSetup (14 entries)
+  Traits-D_Deployable           (14 entries)
   Items-D_ItemsStatic           (15 entries)
   Traits-D_Itemable             (15 entries)
   Items-D_ItemTemplate          (15 entries)

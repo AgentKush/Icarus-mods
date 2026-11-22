@@ -2,7 +2,7 @@
 
 # Turret Variants
 
-[![Version](https://img.shields.io/badge/v3.7.3-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v3.7.4-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/PAK%20%2B%20EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=unrealengine&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -43,7 +43,7 @@ Each turret now accepts only thematically appropriate ammunition:
 | Sniper | Late | 12.7mm Rounds | TV_Sniper |
 | Heavy Sniper | Late | 12.7mm Rounds | TV_Sniper |
 | Shotblaster | Mid | 12-Gauge Shells | TV_Shotgun |
-| Flamethrower | Late | Biofuel | BioFuel |
+| Flamethrower | Late | Biofuel, from a jerrycan or a biofuel pipe (needs power) | Fuel tank |
 
 ## Installation
 
@@ -73,9 +73,10 @@ Copy `Turret_Variants_LOS_Fix_P.pak` to:
 - **Sniper** — Extreme range, pinpoint accuracy. Range: 100m. Ammo: 12.7mm Rounds
 - **Heavy Sniper** — Single shot, max range. Range: 150m. Ammo: 12.7mm Rounds
 - **Shotblaster** — 2-shot burst, massive spread. Range: 25m. Ammo: 12-Gauge Shells
-- **Flamethrower** — 40-shot stream, area denial. Range: 15m. Ammo: Biofuel
+- **Flamethrower** — 40-shot stream, area denial. Range: 15m. Fuel: Biofuel, filled from a jerrycan or a biofuel pipe; needs power
 
 ## Version History
+- **v3.7.4** — The Flamethrower turret works. It was built on the game's own flamethrower turret item (the Dangerous Horizons one) but turned it into a shotgun turret with no fuel, so it never fired (since v3.0), and with this mod installed the game's own flamethrower turret was broken too. Turret Variants now has its own flamethrower, built on the game's working one: the real flamethrower model and flame, filled with biofuel from a jerrycan (hold it and use the turret) or through a biofuel pipe, and it needs power. It keeps this mod's stats (40-shot stream, 15m range) and its T4 Fabricator blueprint, and research you already did is kept. The game's own flamethrower turret is no longer touched. A Turret Variants flamethrower already placed or carried becomes the game's flamethrower on the next load, with the game's stats; craft a new one for this mod's.
 - **v3.7.3** — The Sniper and Heavy Sniper turrets now load 12.7mm rounds, and the Assault Rifle and Storm turrets load 5.56mm rounds. All four used the game's rifle turret ammo slot, which only takes 7.62mm rounds and the universal EDS round, so the two snipers couldn't be loaded at all and the two AR turrets took only EDS. Each pair now has its own slot: the snipers take every 12.7mm round, including the explosive one that Agent's Hidden Things or Ammo Crafting Overhaul adds (the v3.7.2 note said it already loaded; it didn't), and the AR turrets take every 5.56mm round plus EDS. A turret holds one ammo type at a time, so take any EDS out of an Assault Rifle or Storm turret before loading 5.56mm. Turrets already placed pick up the new slots when the save loads, and nothing in them is lost. Known issue: the Flamethrower turret can't fire (it hasn't since v3.0, when its ammo became Biofuel with no way to fill it); v3.7.4 fixes it.
 - **v3.7.2** — The 15 turret blueprints no longer overlap other blueprints in the T4 Fabricator tech tree. A game update put the T4 Carpentry Bench and the Metal Grate Floor and Stair where 7 of them sat, so all 15 now sit together past the end of the game's own nodes, in the same two rows, with the same unlocks. The ammo lists were checked against the game too: each is an exact copy of the game's current list. v3.6 called `Scyther_Throwing_Spear` a DLC spear; it is the unreleased Marrowraith Javelin. It, the Marrowraith arrow and bolt and the explosive 12.7mm round load into these turrets once Agent's Hidden Things (or, for the round, Ammo Crafting Overhaul 1.2.2) adds them. The game's lists also name 6 other unreleased arrows and bolts, which do nothing until an item exists.
 - **v3.7.1** — New icon and banner, drawn from the mod's live data. No gameplay change.
@@ -94,8 +95,8 @@ Copy `Turret_Variants_LOS_Fix_P.pak` to:
 
 ## Data Tables Modified
 - D_Turret (15 entries)
-- D_DeployableSetup (15 entries)
-- D_Deployable (15 entries)
+- D_DeployableSetup (14 entries; the Flamethrower uses the game's own)
+- D_Deployable (14 entries)
 - D_ItemsStatic (15 entries)
 - D_Itemable (15 entries)
 - D_ItemTemplate (15 entries)

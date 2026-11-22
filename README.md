@@ -5,7 +5,7 @@
 # AgentKush's Icarus Mods
 
 [![Mods](https://img.shields.io/badge/56_Mods-Ready_to_Play-0d1117?style=for-the-badge&logo=steam&logoColor=white&labelColor=1a1e2e)]()
-[![Data Entries](https://img.shields.io/badge/42%2C383-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
+[![Data Entries](https://img.shields.io/badge/42%2C381-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
 [![Recipes](https://img.shields.io/badge/19%2C258-Recipes-0d1117?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a1e2e)]()
 [![Free](https://img.shields.io/badge/100%25-Free_to_Use-0d1117?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=1a1e2e)]()
 
@@ -78,7 +78,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 
 | Mod | Ver | Description |
 |-----|:---:|-------------|
-| [🎯 Turret Variants](Turret_Variants) | `3.7.3` | 🔧 15 automated turret variants · LOS fix (no wall-shooting) · Proper ammo matching |
+| [🎯 Turret Variants](Turret_Variants) | `3.7.4` | 🔧 15 automated turret variants · LOS fix (no wall-shooting) · Proper ammo matching |
 | [💣 Trap and Defense Expansion](Trap_Defense_Expansion) | `1.3.1` | 23 defense recipes · Unlocks 4 elemental landmines (Poison/Burn/Shock/Freeze) |
 | [🪃 Ammo Crafting Overhaul](Ammo_Crafting_Overhaul) | `1.2.3` | 50× batches of every craftable arrow and bolt, plus basic and special rounds · 8 ammo conversion recipes |
 | [🛡️ Armor Set Bonuses Enhanced](Armor_Set_Bonuses_Enhanced) | `2.0.1` | 3-piece partial bonuses for mix-and-match builds + boosted 5-piece bonuses across all 33 sets |
