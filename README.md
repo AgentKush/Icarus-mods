@@ -5,8 +5,8 @@
 # AgentKush's Icarus Mods
 
 [![Mods](https://img.shields.io/badge/56_Mods-Ready_to_Play-0d1117?style=for-the-badge&logo=steam&logoColor=white&labelColor=1a1e2e)]()
-[![Data Entries](https://img.shields.io/badge/42%2C381-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
-[![Recipes](https://img.shields.io/badge/19%2C258-Recipes-0d1117?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a1e2e)]()
+[![Data Entries](https://img.shields.io/badge/42%2C379-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
+[![Recipes](https://img.shields.io/badge/19%2C256-Recipes-0d1117?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a1e2e)]()
 [![Free](https://img.shields.io/badge/100%25-Free_to_Use-0d1117?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=1a1e2e)]()
 
 [![GitHub Release](https://img.shields.io/github/v/release/AgentKush/Icarus-mods?label=Latest%20Release&style=flat-square&color=E87B35)](https://github.com/AgentKush/Icarus-mods/releases)
@@ -37,7 +37,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 | [🧬 Agent's BioLab](Agents_BioLab) | `2.1` | All 11 legendary weapons in the Workshop — the 9 the Bio Lab sells, plus Frostbreaker and the unreleased Slugger |
 | [🗝️ Agent's Hidden Things](Agents_Hidden_Things) | `1.1` | 57 items the game never released, in one Workshop tab — Marrowraith, Thornet and Malformation gear, the MX-7 and more |
 | [📦 Agent's Individual Item Kits](Agents_Individual_Item_Kits) | `5.6` | 2,729 individual item kits with real game icons — 20 categorized tabs · armor sorted by slot · 5-row layout |
-| [♻️ Workshop Recyclers](Workshop_Recyclers) | `5.9` | 2 recycling machines + Incinerator · 5,314 recipes · Returns processed materials — every item in the game covered |
+| [♻️ Workshop Recyclers](Workshop_Recyclers) | `5.9.1` | 2 recycling machines + Incinerator · 5,312 recipes · Returns processed materials — every item in the game covered |
 | [🔧 Dev Tools Kit](Dev_Tools_Kit) | `1.1.6` | 11 hidden developer tools — Thor's Hammer (fly mode), Transform Tool, and more. All free! |
 | [👁️ Night Vision Goggles](NightVisionGoggles) | `2.2.1` | Unlocks hidden NV system — craft at Fabricator/Manufacturer/Machining Bench. No decay, durable, lightweight |
 | [☀️ Solar Panel Expansion](Solar_Panel_Expansion) | `1.2.1` | All solar panels and solar backpack in a dedicated Workshop tab with fair pricing |

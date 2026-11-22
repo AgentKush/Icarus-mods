@@ -1,8 +1,8 @@
 {
   "name": "Workshop Recyclers",
   "author": "AgentKush",
-  "version": "5.9",
-  "description": "v5.9: Updated for the 19 November 2026 game update. Added deconstruct and incinerate recipes for the new Advanced Armor Stand. 5,314 recipes.",
+  "version": "5.9.1",
+  "description": "v5.9.1: Duplication fix. 141 deconstruct recipes gave back more than the item cost, or the wrong materials; items the game makes several at a time now deconstruct in the smallest batch that comes out whole, for exactly that batch's cost. Also removed a recycle recipe that turned the free First Cohort Envirosuit into 25 Ren. 5,312 recipes.",
   "fileName": "Workshop_Recyclers",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Workshop_Recyclers.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Workshop_Recyclers/README.md",
@@ -14276,7 +14276,7 @@
                 "RowName": "Fiber",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 12,
+              "Count": 4,
               "DynamicProperties": [],
               "Alterations": []
             },
@@ -14285,7 +14285,7 @@
                 "RowName": "Wood",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 20,
+              "Count": 15,
               "DynamicProperties": [],
               "Alterations": []
             }
@@ -14322,7 +14322,7 @@
                 "RowName": "Fiber",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 12,
+              "Count": 4,
               "DynamicProperties": [],
               "Alterations": []
             },
@@ -14331,7 +14331,7 @@
                 "RowName": "Wood",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 20,
+              "Count": 15,
               "DynamicProperties": [],
               "Alterations": []
             }
@@ -14460,7 +14460,7 @@
                 "RowName": "Fiber",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 6,
+              "Count": 2,
               "DynamicProperties": [],
               "Alterations": []
             },
@@ -14469,7 +14469,7 @@
                 "RowName": "Wood",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 10,
+              "Count": 8,
               "DynamicProperties": [],
               "Alterations": []
             }
@@ -14506,7 +14506,7 @@
                 "RowName": "Fiber",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 12,
+              "Count": 4,
               "DynamicProperties": [],
               "Alterations": []
             },
@@ -14515,7 +14515,7 @@
                 "RowName": "Wood",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 20,
+              "Count": 15,
               "DynamicProperties": [],
               "Alterations": []
             }
@@ -15738,7 +15738,7 @@
                 "RowName": "Flint_Arrow",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -15793,7 +15793,7 @@
                 "RowName": "Steel_Arrow",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -16022,7 +16022,7 @@
                 "RowName": "Metal_Bolt",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -16068,7 +16068,7 @@
                 "RowName": "Copper_Bolt",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -16114,7 +16114,7 @@
                 "RowName": "Steel_Bolt",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -19082,7 +19082,7 @@
                 "RowName": "Aluminium_Arrow",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -19137,7 +19137,7 @@
                 "RowName": "Carbon_Arrow",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -20649,7 +20649,7 @@
                 "RowName": "Composite_Arrow",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -20887,7 +20887,7 @@
                 "RowName": "Stick",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 10
             }
           ],
           "Outputs": [
@@ -20924,7 +20924,7 @@
                 "RowName": "Wood_Refined",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -21998,7 +21998,7 @@
                 "RowName": "Ammo_Shell_Explosive",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -26546,7 +26546,7 @@
                 "RowName": "Titanium_Arrow",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -26738,7 +26738,7 @@
                 "RowName": "Leather",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 5,
+              "Count": 1,
               "DynamicProperties": [],
               "Alterations": []
             },
@@ -26747,7 +26747,7 @@
                 "RowName": "Fiber",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 15,
+              "Count": 3,
               "DynamicProperties": [],
               "Alterations": []
             }
@@ -28442,7 +28442,7 @@
                 "RowName": "Iron_Nail",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 10
             }
           ],
           "Outputs": [
@@ -28479,7 +28479,7 @@
                 "RowName": "Copper_Nail",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 10
             }
           ],
           "Outputs": [
@@ -28516,7 +28516,7 @@
                 "RowName": "Steel_Screw",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 100
             }
           ],
           "Outputs": [
@@ -28718,7 +28718,7 @@
                 "RowName": "Ammo_Rifle_Round_Explosive",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -28764,7 +28764,7 @@
                 "RowName": "Steel_Rebar",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 10
             }
           ],
           "Outputs": [
@@ -28801,7 +28801,7 @@
                 "RowName": "Platinum_Bolt",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -28847,7 +28847,7 @@
                 "RowName": "Titanium_Bolt",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -29256,10 +29256,10 @@
             },
             {
               "Element": {
-                "RowName": "Fiber",
+                "RowName": "Rope",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 100,
+              "Count": 6,
               "DynamicProperties": [],
               "Alterations": []
             }
@@ -29800,7 +29800,7 @@
                 "RowName": "Sandworm_Arrow",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 10
             }
           ],
           "Outputs": [
@@ -30102,7 +30102,7 @@
                 "RowName": "Ammo_Pistol_Round_Explosive",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -34415,7 +34415,7 @@
                 "RowName": "Caveworm_Arrow",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 10
             }
           ],
           "Outputs": [
@@ -38458,7 +38458,7 @@
                 "RowName": "Black_Wolf_Arrow",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 10
             }
           ],
           "Outputs": [
@@ -42521,7 +42521,7 @@
                 "RowName": "Clay_Brick",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -43540,7 +43540,7 @@
                 "RowName": "Stone_Throwing_Knife",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -43595,7 +43595,7 @@
                 "RowName": "Bone_Throwing_Knife",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -43650,7 +43650,7 @@
                 "RowName": "Metal_Throwing_Knife",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -43714,7 +43714,7 @@
                 "RowName": "Titanium_Throwing_Knife",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -43778,7 +43778,7 @@
                 "RowName": "Steel_Throwing_Knife",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -43842,7 +43842,7 @@
                 "RowName": "Platinum_Throwing_Knife",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -43897,7 +43897,7 @@
                 "RowName": "Sandworm_Throwing_Knife",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -43952,7 +43952,7 @@
                 "RowName": "Caveworm_Throwing_Knife",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -44016,7 +44016,7 @@
                 "RowName": "Black_Wolf_Throwing_Knife",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -44080,7 +44080,7 @@
                 "RowName": "Wood_Throwing_Spear",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -44126,7 +44126,7 @@
                 "RowName": "Bone_Throwing_Spear",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -44190,7 +44190,7 @@
                 "RowName": "Wood",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 5,
+              "Count": 1,
               "DynamicProperties": [],
               "Alterations": []
             },
@@ -44199,7 +44199,7 @@
                 "RowName": "Leather",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 5,
+              "Count": 1,
               "DynamicProperties": [],
               "Alterations": []
             },
@@ -44208,7 +44208,7 @@
                 "RowName": "Refined_Metal",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 20,
+              "Count": 4,
               "DynamicProperties": [],
               "Alterations": []
             }
@@ -44245,7 +44245,7 @@
                 "RowName": "Wood",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 5,
+              "Count": 1,
               "DynamicProperties": [],
               "Alterations": []
             },
@@ -44254,7 +44254,7 @@
                 "RowName": "Epoxy",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 5,
+              "Count": 1,
               "DynamicProperties": [],
               "Alterations": []
             },
@@ -44263,7 +44263,7 @@
                 "RowName": "Steel_Ingot",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 20,
+              "Count": 4,
               "DynamicProperties": [],
               "Alterations": []
             }
@@ -44291,7 +44291,7 @@
                 "RowName": "Carbon_Throwing_Spear",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -44346,7 +44346,7 @@
                 "RowName": "Platinum_Throwing_Spear",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -44401,7 +44401,7 @@
                 "RowName": "Titanium_Throwing_Spear",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -44456,7 +44456,7 @@
                 "RowName": "Composite_Throwing_Spear",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -44511,7 +44511,7 @@
                 "RowName": "Sandworm_Throwing_Spear",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -44566,7 +44566,7 @@
                 "RowName": "Caveworm_Throwing_Spear",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -48429,7 +48429,7 @@
                 "RowName": "Gold_Wire",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -48466,7 +48466,7 @@
                 "RowName": "Copper_Wire",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -51897,7 +51897,7 @@
                 "RowName": "Ammo_Casing",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -53078,7 +53078,7 @@
                 "RowName": "Paints",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 3
             }
           ],
           "Outputs": [
@@ -53087,7 +53087,7 @@
                 "RowName": "GreenTea",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 5,
+              "Count": 1,
               "DynamicProperties": [],
               "Alterations": []
             },
@@ -53096,7 +53096,7 @@
                 "RowName": "Charcoal",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 5,
+              "Count": 1,
               "DynamicProperties": [],
               "Alterations": []
             }
@@ -53308,7 +53308,7 @@
                 "RowName": "Platinum_Shealth",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 4
             }
           ],
           "Outputs": [
@@ -53702,7 +53702,7 @@
                 "RowName": "Obsidian_Bolt",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -53748,7 +53748,7 @@
                 "RowName": "Obsidian_Arrow",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -53803,7 +53803,7 @@
                 "RowName": "Ammo_Pistol_Round_Obsidian",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -53849,7 +53849,7 @@
                 "RowName": "Ammo_Rifle_Round_Obsidian",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -53895,7 +53895,7 @@
                 "RowName": "Obsidian_Throwing_Knife",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -53968,7 +53968,7 @@
                 "RowName": "Wood_Refined",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 20,
+              "Count": 4,
               "DynamicProperties": [],
               "Alterations": []
             },
@@ -53977,7 +53977,7 @@
                 "RowName": "Leather",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 5,
+              "Count": 1,
               "DynamicProperties": [],
               "Alterations": []
             },
@@ -53986,7 +53986,7 @@
                 "RowName": "Shaped_Obsidian",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 20,
+              "Count": 4,
               "DynamicProperties": [],
               "Alterations": []
             }
@@ -54215,7 +54215,7 @@
                 "RowName": "Cold_Steel_Ingot",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 5,
+              "Count": 1,
               "DynamicProperties": [],
               "Alterations": []
             },
@@ -54224,7 +54224,7 @@
                 "RowName": "Wood_Refined",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 5,
+              "Count": 1,
               "DynamicProperties": [],
               "Alterations": []
             },
@@ -54233,7 +54233,7 @@
                 "RowName": "Steel_Screw",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 10,
+              "Count": 2,
               "DynamicProperties": [],
               "Alterations": []
             },
@@ -54242,7 +54242,7 @@
                 "RowName": "Fur",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 5,
+              "Count": 1,
               "DynamicProperties": [],
               "Alterations": []
             }
@@ -54343,7 +54343,7 @@
                 "RowName": "Cold_Steel_Ingot",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 5,
+              "Count": 1,
               "DynamicProperties": [],
               "Alterations": []
             },
@@ -54352,7 +54352,7 @@
                 "RowName": "Wood_Refined",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 20,
+              "Count": 4,
               "DynamicProperties": [],
               "Alterations": []
             },
@@ -54361,7 +54361,7 @@
                 "RowName": "Steel_Screw",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 10,
+              "Count": 2,
               "DynamicProperties": [],
               "Alterations": []
             },
@@ -54370,7 +54370,7 @@
                 "RowName": "Fur",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 5,
+              "Count": 1,
               "DynamicProperties": [],
               "Alterations": []
             }
@@ -54526,7 +54526,7 @@
                 "RowName": "Cold_Steel_Arrow",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -54590,7 +54590,7 @@
                 "RowName": "Cold_Steel_Bolt",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -54654,7 +54654,7 @@
                 "RowName": "Ammo_Pistol_Round_Cold_Steel",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -54700,7 +54700,7 @@
                 "RowName": "Ammo_Rifle_Round_Cold_Steel",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -54992,7 +54992,7 @@
                 "RowName": "Iron_Wood_Throwing_Knife",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -55138,7 +55138,7 @@
                 "RowName": "Iron_Wood_Throwing_Spear",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -55284,7 +55284,7 @@
                 "RowName": "Iron_Wood_Bolt",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -55348,7 +55348,7 @@
                 "RowName": "Iron_Wood_Arrow",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -55485,7 +55485,7 @@
                 "RowName": "Ammo_Pistol_Round_Iron_Wood",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -55531,7 +55531,7 @@
                 "RowName": "Ammo_Rifle_Round_Iron_Wood",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -55635,15 +55635,6 @@
               "Count": 1,
               "DynamicProperties": [],
               "Alterations": []
-            },
-            {
-              "Element": {
-                "RowName": "Ruby_Shaped",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
             }
           ],
           "Audio": {
@@ -55676,15 +55667,6 @@
             {
               "Element": {
                 "RowName": "Raw_Iron_Wood",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1,
-              "DynamicProperties": [],
-              "Alterations": []
-            },
-            {
-              "Element": {
-                "RowName": "Lithium_Refined",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 1,
@@ -56886,7 +56868,7 @@
                 "RowName": "Scoria_Brick",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -60751,7 +60733,7 @@
                 "RowName": "Ammo_Shell_ColdSteel",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -60797,7 +60779,7 @@
                 "RowName": "Ammo_Shell_Obsidian",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -60843,7 +60825,7 @@
                 "RowName": "Ammo_Shell_Ironwood",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -60963,7 +60945,7 @@
                 "RowName": "Sandworm_Tendon",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 2
             }
           ],
           "Outputs": [
@@ -61000,7 +60982,7 @@
                 "RowName": "Black_Wolf_Tooth",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 3
             }
           ],
           "Outputs": [
@@ -61037,7 +61019,7 @@
                 "RowName": "Black_Fur",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 2
             }
           ],
           "Outputs": [
@@ -61074,7 +61056,7 @@
                 "RowName": "Scorpion_Carapace",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 3
             }
           ],
           "Outputs": [
@@ -61083,7 +61065,7 @@
                 "RowName": "Biomass",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 25,
+              "Count": 5,
               "DynamicProperties": [],
               "Alterations": []
             }
@@ -61111,7 +61093,7 @@
                 "RowName": "Venom_Sac",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 2
             }
           ],
           "Outputs": [
@@ -61148,7 +61130,7 @@
                 "RowName": "Frozen_Wool",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 3
             }
           ],
           "Outputs": [
@@ -61185,7 +61167,7 @@
                 "RowName": "Ice_Armor_Fragment",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 2
             }
           ],
           "Outputs": [
@@ -63022,7 +63004,7 @@
                 "RowName": "IceMammoth_Throwing_Spear",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -66713,7 +66695,7 @@
                 "RowName": "Crushed_Limestone",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 2
             }
           ],
           "Outputs": [
@@ -73142,7 +73124,7 @@
                 "RowName": "Grilled_Chicken",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 2
             }
           ],
           "Outputs": [
@@ -73188,7 +73170,7 @@
                 "RowName": "Fried_Chicken",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 4
             }
           ],
           "Outputs": [
@@ -79969,7 +79951,7 @@
                 "RowName": "Slug_Slime",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 2
             }
           ],
           "Outputs": [
@@ -80006,7 +79988,7 @@
                 "RowName": "Rock_Golem_Fragment",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 3
             }
           ],
           "Outputs": [
@@ -80043,7 +80025,7 @@
                 "RowName": "Rock_Golem_Core",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 2
             }
           ],
           "Outputs": [
@@ -80080,7 +80062,7 @@
                 "RowName": "Ape_Hide",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 3
             }
           ],
           "Outputs": [
@@ -80117,7 +80099,7 @@
                 "RowName": "Ape_Bicep",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 2
             }
           ],
           "Outputs": [
@@ -80154,7 +80136,7 @@
                 "RowName": "Lava_Hunter_Horn",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 3
             }
           ],
           "Outputs": [
@@ -80191,7 +80173,7 @@
                 "RowName": "Lava_Hunter_Magma",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 2
             }
           ],
           "Outputs": [
@@ -81908,7 +81890,7 @@
                 "RowName": "Ammo_Crude",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -81954,7 +81936,7 @@
                 "RowName": "Trail_Beacon",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -84104,7 +84086,7 @@
                 "RowName": "Shotgun_Casing",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -84461,7 +84443,7 @@
                 "RowName": "Strawberry_Candy",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 2
             }
           ],
           "Outputs": [
@@ -84507,7 +84489,7 @@
                 "RowName": "Watermelon_Lollypop",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 2
             }
           ],
           "Outputs": [
@@ -85035,7 +85017,7 @@
           "Outputs": [
             {
               "Element": {
-                "RowName": "Scoria",
+                "RowName": "Clay",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
@@ -85136,7 +85118,7 @@
           "Outputs": [
             {
               "Element": {
-                "RowName": "Obsidian",
+                "RowName": "Scoria",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
@@ -85237,7 +85219,7 @@
           "Outputs": [
             {
               "Element": {
-                "RowName": "Clay",
+                "RowName": "Obsidian",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 4,
@@ -85982,7 +85964,7 @@
                 "RowName": "Cheese",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -86239,7 +86221,7 @@
                 "RowName": "Butter",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 2
             }
           ],
           "Outputs": [
@@ -86368,7 +86350,7 @@
                 "RowName": "Cheese_Pizza",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 8
             }
           ],
           "Outputs": [
@@ -86423,7 +86405,7 @@
                 "RowName": "Pavlova",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 2
             }
           ],
           "Outputs": [
@@ -86487,7 +86469,7 @@
                 "RowName": "Bacon_Sandwich",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 3
             }
           ],
           "Outputs": [
@@ -87476,7 +87458,7 @@
                 "RowName": "Ammo_EDS",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -89913,7 +89895,7 @@
                 "RowName": "Ammo_AssaultRifle_Round",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 2
             }
           ],
           "Outputs": [
@@ -90005,7 +89987,7 @@
                 "RowName": "Ammo_AssaultRifle_Round_Explosive",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -90097,7 +90079,7 @@
                 "RowName": "Ammo_AssaultRifle_Round_Obsidian",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -90143,7 +90125,7 @@
                 "RowName": "Ammo_AssaultRifle_Round_Cold_Steel",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -90189,7 +90171,7 @@
                 "RowName": "Ammo_AssaultRifle_Round_Iron_Wood",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -94949,7 +94931,7 @@
                 "RowName": "Lithium_Throwing_Knife",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -95104,7 +95086,7 @@
                 "RowName": "Lithium_Throwing_Spear",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 3
             }
           ],
           "Outputs": [
@@ -102041,7 +102023,7 @@
                 "RowName": "Ammo_Pistol_Round_Uranium",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -102087,7 +102069,7 @@
                 "RowName": "Ammo_Pistol_Round_Lithium",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -102133,7 +102115,7 @@
                 "RowName": "Ammo_Shell_Uranium",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -102179,7 +102161,7 @@
                 "RowName": "Ammo_Shell_Lithium",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -102225,7 +102207,7 @@
                 "RowName": "Ammo_Rifle_Round_Uranium",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -102271,7 +102253,7 @@
                 "RowName": "Ammo_Rifle_Round_Lithium",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -102317,7 +102299,7 @@
                 "RowName": "Ammo_AssaultRifle_Round_Uranium",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -102363,7 +102345,7 @@
                 "RowName": "Ammo_AssaultRifle_Round_Lithium",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -104336,7 +104318,7 @@
                 "RowName": "Aluminium_Screw",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 10
             }
           ],
           "Outputs": [
@@ -104373,7 +104355,7 @@
                 "RowName": "Lithium_Bolt",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -104428,7 +104410,7 @@
                 "RowName": "Uranium_Bolt",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -104483,7 +104465,7 @@
                 "RowName": "Lithium_Arrow",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -104538,7 +104520,7 @@
                 "RowName": "Uranium_Arrow",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 5
             }
           ],
           "Outputs": [
@@ -104794,7 +104776,7 @@
                 "RowName": "Raw_Bacon",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 30
             }
           ],
           "Outputs": [
@@ -104831,7 +104813,14 @@
                 "RowName": "Raw_Chicken",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 4
+            },
+            {
+              "Element": {
+                "RowName": "Stringy_Meat",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
             }
           ],
           "Outputs": [
@@ -104868,7 +104857,7 @@
                 "RowName": "Soft_Meat",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 25
             }
           ],
           "Outputs": [
@@ -104905,7 +104894,7 @@
                 "RowName": "Gamey_Meat",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 25
             }
           ],
           "Outputs": [
@@ -104942,7 +104931,7 @@
                 "RowName": "Giant_Steak",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 25
             }
           ],
           "Outputs": [
@@ -108647,10 +108636,10 @@
             },
             {
               "Element": {
-                "RowName": "Sandwyrm_Egg",
+                "RowName": "Sandwyrm_Wing",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 5,
+              "Count": 10,
               "DynamicProperties": [],
               "Alterations": []
             }
@@ -109529,7 +109518,7 @@
                 "RowName": "Plant_Extract",
                 "DataTableName": "D_ItemTemplate"
               },
-              "Count": 100,
+              "Count": 10,
               "DynamicProperties": [],
               "Alterations": []
             }
@@ -109655,7 +109644,7 @@
             },
             {
               "Element": {
-                "RowName": "Sandwyrm_Egg",
+                "RowName": "Sandwyrm_Wing",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 3,
@@ -109695,7 +109684,7 @@
                 "RowName": "Sandwyrm_Egg",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 2
             }
           ],
           "Outputs": [
@@ -109959,15 +109948,6 @@
             {
               "Element": {
                 "RowName": "Tree_Sap",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 10,
-              "DynamicProperties": [],
-              "Alterations": []
-            },
-            {
-              "Element": {
-                "RowName": "Refined_Metal",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 10,
@@ -111080,43 +111060,6 @@
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 5,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "ExoticProcessor"
-          }
-        },
-        {
-          "Name": "Deconstruct_Bacon_Sandwhich",
-          "RequiredMillijoules": 5000,
-          "RecipeSets": [
-            {
-              "RowName": "Biofuel_Recycler",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Organic_Recycler",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Bacon_Sandwich",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 1
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Organic_Resin",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 1,
               "DynamicProperties": [],
               "Alterations": []
             }
@@ -115576,7 +115519,7 @@
                 "RowName": "Platinum_Shealth",
                 "DataTableName": "D_ItemsStatic"
               },
-              "Count": 1
+              "Count": 4
             }
           ],
           "Outputs": [
@@ -117411,43 +117354,6 @@
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 8,
-              "DynamicProperties": [],
-              "Alterations": []
-            }
-          ],
-          "Audio": {
-            "RowName": "ExoticProcessor"
-          }
-        },
-        {
-          "Name": "Recycle_Meta_Deluxe_Envirosuit",
-          "RequiredMillijoules": 1000,
-          "RecipeSets": [
-            {
-              "RowName": "Biofuel_Recycler",
-              "DataTableName": "D_RecipeSets"
-            },
-            {
-              "RowName": "Organic_Recycler",
-              "DataTableName": "D_RecipeSets"
-            }
-          ],
-          "Inputs": [
-            {
-              "Element": {
-                "RowName": "Envirosuit_Deluxe",
-                "DataTableName": "D_ItemsStatic"
-              },
-              "Count": 1
-            }
-          ],
-          "Outputs": [
-            {
-              "Element": {
-                "RowName": "Ren",
-                "DataTableName": "D_ItemTemplate"
-              },
-              "Count": 25,
               "DynamicProperties": [],
               "Alterations": []
             }
