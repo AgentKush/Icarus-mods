@@ -22,6 +22,8 @@ copies of the game's road laid every 3m along it, so the asphalt, its cracks and
 keep their real size on pieces of any length, including roads already placed. The road piece
 component (BP_IcarusSplineMesh_NavModifier) is rebuilt with this logic; the copies
 (BP_AK_RoadTile) have no collision, navigation or shadow, and the pieces keep their collision.
+Removing a piece removes its copies, and the cable, pipe and road tools' hover highlight is
+drawn on the copies.
 The v1.1.4 and v1.1.5 road textures are removed. A 400m piece is about 130 copies, so very long
 road networks draw more.
 

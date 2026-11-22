@@ -52,7 +52,7 @@ PAK + EXMOD mod. The PAK side patches `BP_ActionableBehaviour_CurvedSplinePlace`
 These files are used only by roads:
 - `BP_ActionableBehaviour_CurvedSplinePlace_Road` is a new child of the game's spline placement tool. It only changes the starting mode to straight, and the Road Kit's `RoadPlace` action uses it. Cables and pipes keep their curved default.
 - `SM_SplineRoad_Small_R` is the narrow cobblestone path the game currently draws roads with. The mod replaces it with the game's own `SM_SplineRoad` (the 9.6m asphalt road), lowered 65cm so its surface sits at ground level.
-- `BP_IcarusSplineMesh_NavModifier` is the road piece component, rebuilt with new logic. It keeps the game's own start-up behaviour and settings, and has the game's BlockAll collision, so players stand on roads (it inherited the cables' "ignore players" collision before). The game draws one 3m road mesh per piece and stretches it over the whole piece. This component instead lays copies of the road mesh every 3m along its piece, so the game's texture repeats instead of stretching. It does this whenever a piece is placed, loaded or changed, and removes the copies with the piece. The piece keeps its collision, navigation and shadow and stops drawing its stretched mesh. The placement preview is the game's own.
+- `BP_IcarusSplineMesh_NavModifier` is the road piece component, rebuilt with new logic. It keeps the game's own start-up behaviour and settings, and has the game's BlockAll collision, so players stand on roads (it inherited the cables' "ignore players" collision before). The game draws one 3m road mesh per piece and stretches it over the whole piece. This component instead lays copies of the road mesh every 3m along its piece, so the game's texture repeats instead of stretching. It does this whenever a piece is placed, loaded or changed, and removes the copies with the piece. The piece itself is hidden while its copies are drawn: it keeps its collision, navigation and shadow, and the cable, pipe and road tools' hover highlight is drawn on the copies. The placement preview is the game's own.
 - `BP_AK_RoadTile` (new, in `BP/Mods/AgentKush/Roads`) is one of those copies: a plain road mesh with no collision, navigation or shadow.
 
 ## Installation
@@ -65,9 +65,9 @@ All players AND the server must have this mod installed.
 
 ## Changelog
 
-### v1.2 (2026-11-21)
+### v1.2 (2026-11-22)
 - **Roads use the game's own texture again, repeated instead of stretched.** The game draws one 3m road mesh per piece and stretches it over the whole piece, so long pieces smeared the texture. Each road piece is now drawn as copies of the game's road laid every 3m along it, so the asphalt, its cracks and the yellow line keep their real size on a piece of any length. Roads you have already placed get it too.
-- The road piece component (`BP_IcarusSplineMesh_NavModifier`) is rebuilt with this new logic, and the copies are a new component (`BP_AK_RoadTile`) with no collision, navigation or shadow. The pieces keep their collision, so you still walk on them, and the placement preview is unchanged.
+- The road piece component (`BP_IcarusSplineMesh_NavModifier`) is rebuilt with this new logic, and the copies are a new component (`BP_AK_RoadTile`) with no collision, navigation or shadow. The pieces keep their collision, so you still walk on them, and the placement preview is unchanged. Removing a piece removes its copies, and the cable, pipe and road tools' hover highlight is drawn on the copies.
 - The v1.1.4 and v1.1.5 road textures are removed: roads use the game's `T_SplineRoad` textures again.
 - Long roads draw more: a 400m piece is about 130 copies. At lower view-distance settings the game hides road pieces 100-200m away, and the copies follow that setting.
 
