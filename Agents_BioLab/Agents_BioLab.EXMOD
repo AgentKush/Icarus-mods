@@ -1,14 +1,123 @@
 {
   "name": "Agent's BioLab",
   "author": "AgentKush",
-  "version": "2.0.1",
-  "description": "v2.0.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
+  "version": "2.1",
+  "description": "v2.1: The Slugger works: adds the item row the game left out, so it has its icon and fires slime from a 30 L water tank.",
   "fileName": "Agents_BioLab",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Agents_BioLab.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_BioLab/README.md",
   "week": "All",
   "Level2": "True",
   "Rows": [
+    {
+      "CurrentFile": "Items-D_ItemsStatic.json",
+      "File_Items": [
+        {
+          "Name": "LegendaryWeapon_SlugLauncher",
+          "Meshable": {
+            "RowName": "Mesh_LegendaryWeapon_SlugLauncher"
+          },
+          "Itemable": {
+            "RowName": "Item_LegendaryWeapon_SlugLauncher"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Focusable": {
+            "RowName": "Focusable_LegendaryWeapon_SlugLauncher"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Actionable": {
+            "RowName": "SlugLauncher"
+          },
+          "Usable": {
+            "RowName": "Repair"
+          },
+          "Fillable": {
+            "RowName": "Fillable_Water_30L"
+          },
+          "Durable": {
+            "RowName": "LegendaryWeapon_SlugLauncher"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "LegendaryItem"
+          },
+          "FirearmData": {
+            "RowName": "SlugLauncher"
+          },
+          "AdditionalStats": {
+            "(Value=\"BaseFirearmFillablePerShot_+\")": 1000
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta"
+              },
+              {
+                "TagName": "Item.Weapon.Launcher"
+              },
+              {
+                "TagName": "Item.Fillable.Water.NoAlteration"
+              },
+              {
+                "TagName": "Item.Fillable.Water.NoDrink"
+              }
+            ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta"
+              },
+              {
+                "TagName": "Item.Weapon.Launcher"
+              },
+              {
+                "TagName": "Item.Fillable.Water.NoAlteration"
+              },
+              {
+                "TagName": "Item.Fillable.Water.NoDrink"
+              },
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Fillable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              }
+            ],
+            "ParentTags": []
+          },
+          "Metadata": {
+            "RequiredFeatureLevel": {
+              "RowName": "GreatHunts"
+            }
+          }
+        }
+      ]
+    },
     {
       "CurrentFile": "MetaWorkshop-D_WorkshopItems.json",
       "File_Items": [

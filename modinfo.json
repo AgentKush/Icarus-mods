@@ -3,9 +3,9 @@
     {
       "name": "Agent's BioLab",
       "author": "AgentKush",
-      "version": "2.0.1",
+      "version": "2.1",
       "compatibility": "All",
-      "description": "All 11 legendary Bio Lab weapons in the Workshop - includes Sandwyrm Chainsaw",
+      "description": "All 11 legendary weapons in the Workshop - the 9 the Bio Lab sells, plus Frostbreaker and the unreleased Slugger",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Agents_BioLab.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_BioLab/README.md",
       "files": {
