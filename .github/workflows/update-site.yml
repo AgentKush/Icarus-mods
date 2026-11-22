@@ -42,7 +42,8 @@ jobs:
       # build.py turns every */Banner.png into docs/banners/<folder>.webp, so the
       # site serves its own banners instead of GitHub's rate-limited raw links
       - name: Install Pillow
-        run: python -m pip install --disable-pip-version-check --quiet --only-binary=:all: "pillow==13.0.0"
+        run: |
+          python -m pip install --disable-pip-version-check --quiet --only-binary=:all: "pillow==13.0.0"
 
       - name: Rebuild site
         run: python docs/build.py
