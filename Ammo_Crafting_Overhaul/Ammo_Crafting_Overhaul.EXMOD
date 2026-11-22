@@ -1,8 +1,8 @@
 {
   "name": "Ammo Crafting Overhaul",
   "author": "AgentKush",
-  "version": "1.2.2",
-  "description": "v1.2.2: The 50x explosive 12.7mm round recipe works: adds the round's item row the game left out.",
+  "version": "1.2.3",
+  "description": "v1.2.3: 50x batches for every craftable arrow and bolt: 9 more arrow types and all 10 bolts (69 recipes in all).",
   "fileName": "Ammo_Crafting_Overhaul",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Ammo_Crafting_Overhaul.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Ammo_Crafting_Overhaul/README.md",
@@ -568,6 +568,948 @@
             {
               "Element": {
                 "RowName": "Iron_Wood_Arrow",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Mega_Fire_Arrow",
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Stone_Arrow",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 50
+            },
+            {
+              "Element": {
+                "RowName": "Gunpowder",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 100
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Fire_Arrow",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Default"
+          },
+          "RequiredMillijoules": 12500
+        },
+        {
+          "Name": "Mega_Flare_Arrow",
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Stone_Arrow",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 50
+            },
+            {
+              "Element": {
+                "RowName": "Sulfur",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 100
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Flare_Arrow",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Default"
+          },
+          "RequiredMillijoules": 12500
+        },
+        {
+          "Name": "Mega_Poison_Arrow",
+          "RecipeSets": [
+            {
+              "RowName": "Character",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Crafting_Bench",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Stone_Arrow",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 50
+            },
+            {
+              "Element": {
+                "RowName": "Poison_Paste",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 100
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Poison_Arrow",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "Default"
+          },
+          "RequiredMillijoules": 12500
+        },
+        {
+          "Name": "Mega_Caveworm_Arrow",
+          "Requirement": {
+            "RowName": "Caveworm_Arrow"
+          },
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Stick",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 25
+            },
+            {
+              "Element": {
+                "RowName": "Leather",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 25
+            },
+            {
+              "Element": {
+                "RowName": "Caveworm_Scale",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            },
+            {
+              "Element": {
+                "RowName": "Poison_Sack",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 25
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Caveworm_Arrow",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Mega_Black_Wolf_Arrow",
+          "Requirement": {
+            "RowName": "Black_Wolf_Arrow"
+          },
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Wood",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 5
+            },
+            {
+              "Element": {
+                "RowName": "Metal_Ore",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 5
+            },
+            {
+              "Element": {
+                "RowName": "Black_Wolf_Tooth",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Black_Wolf_Arrow",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Mega_Drill_Arrow",
+          "Requirement": {
+            "RowName": "Drill_Arrow"
+          },
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Wood",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 50
+            },
+            {
+              "Element": {
+                "RowName": "Steel_Screw",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 50
+            },
+            {
+              "Element": {
+                "RowName": "Aluminium",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 50
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Drill_Arrow",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Mega_Sandworm_Arrow",
+          "Requirement": {
+            "RowName": "Sandworm_Arrow"
+          },
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Stick",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 5
+            },
+            {
+              "Element": {
+                "RowName": "Leather",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 5
+            },
+            {
+              "Element": {
+                "RowName": "Sandworm_Scale",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Sandworm_Arrow",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Mega_Lithium_Arrow",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Carbon_Fiber",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            },
+            {
+              "Element": {
+                "RowName": "Aluminium_Screw",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 20
+            },
+            {
+              "Element": {
+                "RowName": "Lithium_Refined",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Lithium_Arrow",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Mega_Uranium_Arrow",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Carbon_Fiber",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            },
+            {
+              "Element": {
+                "RowName": "Aluminium_Screw",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 20
+            },
+            {
+              "Element": {
+                "RowName": "Uranium_Inert",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Uranium_Arrow",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Mega_Copper_Bolt",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Wood",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            },
+            {
+              "Element": {
+                "RowName": "Refined_Copper",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Copper_Bolt",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Mega_Metal_Bolt",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Wood",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            },
+            {
+              "Element": {
+                "RowName": "Refined_Metal",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 20
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Metal_Bolt",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Mega_Steel_Bolt",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Wood",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            },
+            {
+              "Element": {
+                "RowName": "Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Bolt",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Mega_Obsidian_Bolt",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Wood_Refined",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 50
+            },
+            {
+              "Element": {
+                "RowName": "Shaped_Obsidian",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Obsidian_Bolt",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Mega_Cold_Steel_Bolt",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Cold_Steel_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            },
+            {
+              "Element": {
+                "RowName": "Wood_Refined",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 50
+            },
+            {
+              "Element": {
+                "RowName": "Steel_Screw",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 50
+            },
+            {
+              "Element": {
+                "RowName": "Fur",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 50
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Cold_Steel_Bolt",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Mega_Platinum_Bolt",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench_T3",
+              "DataTableName": "D_RecipeSets"
+            },
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Epoxy",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 30
+            },
+            {
+              "Element": {
+                "RowName": "Platinum_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Platinum_Bolt",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Mega_Titanium_Bolt",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Screw",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 40
+            },
+            {
+              "Element": {
+                "RowName": "Titanium_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            },
+            {
+              "Element": {
+                "RowName": "Carbon_Fiber",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Titanium_Bolt",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Mega_Iron_Wood_Bolt",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Steel_Screw",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 40
+            },
+            {
+              "Element": {
+                "RowName": "Titanium_Ingot",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            },
+            {
+              "Element": {
+                "RowName": "Carbon_Fiber",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            },
+            {
+              "Element": {
+                "RowName": "Refined_Iron_Wood",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Iron_Wood_Bolt",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Mega_Lithium_Bolt",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Lithium_Refined",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            },
+            {
+              "Element": {
+                "RowName": "Carbon_Fiber",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            },
+            {
+              "Element": {
+                "RowName": "Aluminium_Screw",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 40
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Lithium_Bolt",
+                "DataTableName": "D_ItemTemplate"
+              },
+              "Count": 50,
+              "DynamicProperties": [],
+              "Alterations": []
+            }
+          ],
+          "Audio": {
+            "RowName": "AnvilBench"
+          },
+          "RequiredMillijoules": 2500
+        },
+        {
+          "Name": "Mega_Uranium_Bolt",
+          "RecipeSets": [
+            {
+              "RowName": "Anvil_Bench_T4",
+              "DataTableName": "D_RecipeSets"
+            }
+          ],
+          "Inputs": [
+            {
+              "Element": {
+                "RowName": "Uranium_Inert",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            },
+            {
+              "Element": {
+                "RowName": "Carbon_Fiber",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 10
+            },
+            {
+              "Element": {
+                "RowName": "Aluminium_Screw",
+                "DataTableName": "D_ItemsStatic"
+              },
+              "Count": 40
+            }
+          ],
+          "Outputs": [
+            {
+              "Element": {
+                "RowName": "Uranium_Bolt",
                 "DataTableName": "D_ItemTemplate"
               },
               "Count": 50,

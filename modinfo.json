@@ -208,9 +208,9 @@
     {
       "name": "Ammo Crafting Overhaul",
       "author": "AgentKush",
-      "version": "1.2.2",
+      "version": "1.2.3",
       "compatibility": "All",
-      "description": "50 new ammo recipes. 50x batch crafting for all arrow and bullet types including special ammo. Plus 8 ammo conversion recipes.",
+      "description": "69 new ammo recipes: 50x batches of every craftable arrow (20 types) and bolt (10 types), 7 basic bullet and casing batches and 24 special-round batches, plus 8 ammo conversion recipes.",
       "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Ammo_Crafting_Overhaul.png",
       "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Ammo_Crafting_Overhaul/README.md",
       "files": {
