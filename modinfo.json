@@ -13,6 +13,18 @@
       }
     },
     {
+      "name": "Agent's Hidden Things",
+      "author": "AgentKush",
+      "version": "1.0",
+      "compatibility": "All",
+      "description": "57 items the game never released, in one Workshop tab",
+      "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Agents_Hidden_Things.png",
+      "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Hidden_Things/README.md",
+      "files": {
+        "exmodz": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Hidden_Things/Agents_Hidden_Things.EXMODZ"
+      }
+    },
+    {
       "name": "Agents Individual Item Kits",
       "author": "AgentKush",
       "version": "5.6",
