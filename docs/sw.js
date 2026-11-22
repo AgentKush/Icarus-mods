@@ -122,5 +122,6 @@ self.addEventListener('fetch', (event) => {
                 )
         );
     }
-    // Anything else (mod banners and icons on github.com): the browser's default handling
+    // Anything else (GitHub's banner copies the page falls back to, icons on github.com):
+    // the browser's default handling. The banners themselves are site files (banners/*.webp).
 });

@@ -97,7 +97,26 @@ let activeSort='category';
 let downloadCounts={}; // populated by fetchDownloads
 
 // --- CARD BANNER ART ---
-function cardBanner(m){const i=m&&m.banner?`<img loading="lazy" src="${m.banner}" alt="" width="768" height="256">`:`<span class="mod-banner-ph">${(CATEGORY_ICONS[m.category]||'')}</span>`;return `<div class="mod-banner">${i}</div>`;}
+// Banners are served from this site (docs/banners/<folder>.webp, made by build.py).
+// If one fails, try GitHub's own copy once, then show the category icon.
+const BANNER_FALLBACK='https://raw.githubusercontent.com/AgentKush/Icarus-mods/main/';
+function cardBanner(m){const i=m&&m.banner?bannerImg(m):bannerPlaceholder(m);return `<div class="mod-banner">${i}</div>`;}
+function bannerPlaceholder(m){return `<span class="mod-banner-ph" aria-hidden="true">${(CATEGORY_ICONS[m&&m.category]||'')}</span>`;}
+function bannerImg(m){return `<img loading="lazy" decoding="async" src="${m.banner}" data-banner-folder="${m.folder}" data-fallback="${BANNER_FALLBACK}${m.folder}/Banner.png" alt="" width="768" height="256" onerror="bannerFailed(this)">`;}
+function bannerFailed(img){
+    const next=img.getAttribute('data-fallback');
+    if(next){img.removeAttribute('data-fallback');img.src=next;return;}
+    img.onerror=null;
+    const box=img.parentElement;
+    if(!box)return;
+    if(box.classList.contains('modal-banner')){box.remove();return;}
+    const m=MODS.find(x=>x.folder===img.getAttribute('data-banner-folder'));
+    const ph=document.createElement('span');
+    ph.className='mod-banner-ph';
+    ph.setAttribute('aria-hidden','true');
+    ph.textContent=CATEGORY_ICONS[m&&m.category]||'';
+    img.replaceWith(ph);
+}
 
 // --- FEATURED ---
 function renderFeatured(){
@@ -105,7 +124,7 @@ function renderFeatured(){
     const f=MODS.filter(m=>FEATURED_MODS.includes(m.folder));
     if(!f.length)return;
     let h='<div class="featured-header"><span class="featured-star">⭐</span><h2>Popular Mods</h2><span class="featured-star">⭐</span></div><div class="featured-grid">';
-    f.forEach(m=>{h+=`<div class="featured-card reveal"><div class="featured-badge">Popular</div>${cardBanner(m)}<div class="mod-name">${m.name}</div><div class="mod-desc">${m.description}</div><div class="mod-actions"><a href="${m.download}" class="download-btn">Download</a><a href="${m.readme}">README</a></div></div>`});
+    f.forEach(m=>{h+=`<div class="featured-card reveal">${cardBanner(m)}<div class="featured-badge">Popular</div><div class="mod-name">${m.name}</div><div class="mod-desc">${m.description}</div><div class="mod-actions"><a href="${m.download}" class="download-btn">Download</a><a href="${m.readme}">README</a></div></div>`});
     h+='</div>';s.innerHTML=h;
 }
 
@@ -547,7 +566,7 @@ function openModal(folder) {
     const dl = downloadCounts[folder] || 0;
 
     body.innerHTML = `
-        ${mod.banner ? `<div class="modal-banner"><img loading="lazy" src="${mod.banner}" alt="" width="768" height="256"></div>` : ''}
+        ${mod.banner ? `<div class="modal-banner">${bannerImg(mod)}</div>` : ''}
         <div class="modal-title">${mod.name}</div>
         <span class="modal-version">v${mod.version}</span>
         <div class="modal-category">${CATEGORY_ICONS[mod.category] || ''} ${mod.category}</div>

@@ -6,9 +6,43 @@ import os
 import re
 import glob
 
+try:
+    from PIL import Image  # makes the site's banner copies; the Update Site workflow installs it
+except ImportError:
+    Image = None
+
 REPO = "AgentKush/Icarus-mods"
 BASE = f"https://github.com/{REPO}"
 RAW = f"{BASE}/raw/main"
+BANNER_DIR = os.path.join("docs", "banners")  # generated, git-ignored, deployed with the site
+BANNER_WEBP = {"quality": 85, "method": 6}
+
+
+def site_banner(folder):
+    """Make docs/banners/<folder>.webp from <folder>/Banner.png and return its URL on the site.
+
+    The cards used to load every Banner.png from GitHub's raw links: about 13 MB a visit,
+    each behind a redirect, and GitHub rate-limits those links, so banners came up blank.
+    Returns "" when the mod has no banner."""
+    src = os.path.join(folder, "Banner.png")
+    if not os.path.exists(src):
+        return ""
+    dst = os.path.join(BANNER_DIR, f"{folder}.webp")
+    if Image is None:
+        if os.environ.get("GITHUB_ACTIONS"):
+            raise SystemExit("ERROR: Pillow is not installed, so the site banners can't be made")
+        print(f"  (no Pillow: {dst} not made; the page falls back to GitHub's copy)")
+    elif not os.path.exists(dst) or os.path.getmtime(dst) < os.path.getmtime(src):
+        os.makedirs(BANNER_DIR, exist_ok=True)
+        try:
+            with Image.open(src) as im:
+                im.save(dst, "WEBP", **BANNER_WEBP)
+        except (OSError, ValueError) as e:
+            # One bad banner must not block the site: the card falls back to GitHub's copy
+            if os.path.exists(dst):
+                os.remove(dst)
+            print(f"::warning file={src}::banner not converted: {e}")
+    return f"banners/{folder}.webp"
 
 
 def main():
@@ -71,8 +105,15 @@ def main():
             "readme": f"{BASE}/tree/main/{folder}",
             "download": f"{RAW}/{folder}/{file_name}.EXMODZ",
             "release": f"{BASE}/releases/tag/{folder}-v{version}",
-            "banner": f"{RAW}/{folder}/Banner.png" if os.path.exists(os.path.join(folder, "Banner.png")) else ""
+            "banner": site_banner(folder)
         })
+
+    # Drop banner copies of mods that no longer have one (only matters for local builds)
+    if os.path.isdir(BANNER_DIR):
+        keep = {f"{m['folder']}.webp" for m in mods if m["banner"]}
+        for name in os.listdir(BANNER_DIR):
+            if name not in keep:
+                os.remove(os.path.join(BANNER_DIR, name))
 
     # Update categories.json if new mods were found
     if new_categories:

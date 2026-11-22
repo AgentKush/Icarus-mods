@@ -15,6 +15,8 @@ desktop.ini
 
 # Build artifacts
 Performance_Optimizer/PAK_Build/
+# Site banner copies: docs/build.py makes them from */Banner.png on every site build
+docs/banners/
 *.bat
 # ...except player-run tools that ship with a mod
 !*/Restore_Kit_Research/*.bat
