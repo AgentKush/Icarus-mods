@@ -1,6 +1,6 @@
 Turret_Variants_P.pak
 ----------------------------------------------------------------------
-Mod Version: 3.7.1
+Mod Version: 3.7.2
 
 Author: AgentKush
 
@@ -12,6 +12,18 @@ Mod Type: EXMOD
 Adds 15 new automated turret variants with unique characteristics. v3.0: LOS fix PAK + proper ammo type matching (arrows, bolts, javelins, stones, biofuel) + tighter targeting.
 
 
+
+Ver 3.7.2
+The 15 turret blueprints no longer overlap other blueprints in the T4 Fabricator tech tree. A game
+update added the T4 Carpentry Bench and the Metal Grate Floor and Stair where 7 of them sat, so
+they now sit together past the end of the game's own nodes, in the same two rows. Their unlocks
+and requirements are unchanged.
+Ammo lists checked against the game: every turret's list is an exact copy of the game's current
+list for its weapon type. Ver 3.6 called the Scyther (Marrowraith) javelin a DLC spear; it is an
+item the game never released. That javelin, the Marrowraith arrow and bolt and the explosive
+12.7mm round load into these turrets once Agent's Hidden Things (or, for the round, Ammo Crafting
+Overhaul 1.2.2) adds them. The game's lists also name 6 other unreleased arrows and bolts; they
+stay listed, as in the game, and do nothing until an item exists.
 
 Ver 3.7.1
 New icon and banner, drawn from the mod's live data. No gameplay change.

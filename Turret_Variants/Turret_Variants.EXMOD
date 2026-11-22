@@ -1,8 +1,8 @@
 {
   "name": "Turret Variants",
   "author": "AgentKush",
-  "version": "3.7.1",
-  "description": "v3.7.1: New icon and banner, drawn from the mod's live data. No gameplay change.",
+  "version": "3.7.2",
+  "description": "v3.7.2: Turret blueprints moved to a clear spot in the T4 Fabricator tree; a game update had put new nodes on top of 7 of them.",
   "fileName": "Turret_Variants",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Turret_Variants.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/README.md",
@@ -2398,7 +2398,7 @@
             "RowName": "Blueprint_T4_Fabricator"
           },
           "Position": {
-            "X": 16300,
+            "X": 18500,
             "Y": 850
           },
           "Size": {
@@ -2422,7 +2422,7 @@
             "RowName": "Blueprint_T4_Fabricator"
           },
           "Position": {
-            "X": 16600,
+            "X": 18800,
             "Y": 850
           },
           "Size": {
@@ -2446,7 +2446,7 @@
             "RowName": "Blueprint_T4_Fabricator"
           },
           "Position": {
-            "X": 16900,
+            "X": 19100,
             "Y": 850
           },
           "Size": {
@@ -2470,7 +2470,7 @@
             "RowName": "Blueprint_T4_Fabricator"
           },
           "Position": {
-            "X": 17200,
+            "X": 19400,
             "Y": 850
           },
           "Size": {
@@ -2494,7 +2494,7 @@
             "RowName": "Blueprint_T4_Fabricator"
           },
           "Position": {
-            "X": 17500,
+            "X": 19700,
             "Y": 850
           },
           "Size": {
@@ -2518,7 +2518,7 @@
             "RowName": "Blueprint_T4_Fabricator"
           },
           "Position": {
-            "X": 17800,
+            "X": 20000,
             "Y": 850
           },
           "Size": {
@@ -2542,7 +2542,7 @@
             "RowName": "Blueprint_T4_Fabricator"
           },
           "Position": {
-            "X": 18100,
+            "X": 20300,
             "Y": 850
           },
           "Size": {
@@ -2566,7 +2566,7 @@
             "RowName": "Blueprint_T4_Fabricator"
           },
           "Position": {
-            "X": 18400,
+            "X": 20600,
             "Y": 850
           },
           "Size": {
@@ -2590,7 +2590,7 @@
             "RowName": "Blueprint_T4_Fabricator"
           },
           "Position": {
-            "X": 16300,
+            "X": 18500,
             "Y": 1150
           },
           "Size": {
@@ -2614,7 +2614,7 @@
             "RowName": "Blueprint_T4_Fabricator"
           },
           "Position": {
-            "X": 16600,
+            "X": 18800,
             "Y": 1150
           },
           "Size": {
@@ -2638,7 +2638,7 @@
             "RowName": "Blueprint_T4_Fabricator"
           },
           "Position": {
-            "X": 16900,
+            "X": 19100,
             "Y": 1150
           },
           "Size": {
@@ -2662,7 +2662,7 @@
             "RowName": "Blueprint_T4_Fabricator"
           },
           "Position": {
-            "X": 17200,
+            "X": 19400,
             "Y": 1150
           },
           "Size": {
@@ -2686,7 +2686,7 @@
             "RowName": "Blueprint_T4_Fabricator"
           },
           "Position": {
-            "X": 17500,
+            "X": 19700,
             "Y": 1150
           },
           "Size": {
@@ -2710,7 +2710,7 @@
             "RowName": "Blueprint_T4_Fabricator"
           },
           "Position": {
-            "X": 17800,
+            "X": 20000,
             "Y": 1150
           },
           "Size": {
@@ -2734,7 +2734,7 @@
             "RowName": "Blueprint_T4_Fabricator"
           },
           "Position": {
-            "X": 18100,
+            "X": 20300,
             "Y": 1150
           },
           "Size": {
