@@ -78,7 +78,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 
 | Mod | Ver | Description |
 |-----|:---:|-------------|
-| [🎯 Turret Variants](Turret_Variants) | `3.7.2` | 🔧 15 automated turret variants · LOS fix (no wall-shooting) · Proper ammo matching |
+| [🎯 Turret Variants](Turret_Variants) | `3.7.3` | 🔧 15 automated turret variants · LOS fix (no wall-shooting) · Proper ammo matching |
 | [💣 Trap and Defense Expansion](Trap_Defense_Expansion) | `1.3.1` | 23 defense recipes · Unlocks 4 elemental landmines (Poison/Burn/Shock/Freeze) |
 | [🪃 Ammo Crafting Overhaul](Ammo_Crafting_Overhaul) | `1.2.2` | 50× batch crafting for all arrow and bullet types · 8 ammo conversion recipes |
 | [🛡️ Armor Set Bonuses Enhanced](Armor_Set_Bonuses_Enhanced) | `2.0.1` | 3-piece partial bonuses for mix-and-match builds + boosted 5-piece bonuses across all 33 sets |

@@ -1,8 +1,8 @@
 {
   "name": "Turret Variants",
   "author": "AgentKush",
-  "version": "3.7.2",
-  "description": "v3.7.2: Turret blueprints moved to a clear spot in the T4 Fabricator tree; a game update had put new nodes on top of 7 of them.",
+  "version": "3.7.3",
+  "description": "v3.7.3: The Sniper and Heavy Sniper turrets now load 12.7mm rounds and the Assault Rifle and Storm turrets load 5.56mm rounds; before, the snipers took no ammo and the AR turrets took only EDS.",
   "fileName": "Turret_Variants",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Turret_Variants.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Turret_Variants/README.md",
@@ -984,7 +984,7 @@
             "RowName": "Turret_Repairable"
           },
           "Inventory": {
-            "RowName": "Inventory_Turret_Rifle"
+            "RowName": "Inventory_Turret_TV_Sniper"
           },
           "Decayable": {
             "RowName": "Decay_10_Minutes"
@@ -1077,7 +1077,7 @@
             "RowName": "Turret_Repairable"
           },
           "Inventory": {
-            "RowName": "Inventory_Turret_Rifle"
+            "RowName": "Inventory_Turret_TV_AssaultRifle"
           },
           "Decayable": {
             "RowName": "Decay_10_Minutes"
@@ -2007,7 +2007,7 @@
             "RowName": "Turret_Repairable"
           },
           "Inventory": {
-            "RowName": "Inventory_Turret_Rifle"
+            "RowName": "Inventory_Turret_TV_AssaultRifle"
           },
           "Decayable": {
             "RowName": "Decay_10_Minutes"
@@ -2100,7 +2100,7 @@
             "RowName": "Turret_Repairable"
           },
           "Inventory": {
-            "RowName": "Inventory_Turret_Rifle"
+            "RowName": "Inventory_Turret_TV_Sniper"
           },
           "Decayable": {
             "RowName": "Decay_10_Minutes"
@@ -4159,6 +4159,40 @@
             ],
             "AutoDescription": " ANY( Item.Resource.Stone )"
           }
+        },
+        {
+          "Name": "TV_AssaultRifle_Ammo",
+          "Query": {
+            "TagDictionary": [
+              {
+                "TagName": "Item.Ammo.AssaultRifle"
+              },
+              {
+                "TagName": "Item.Ammo.Rifle"
+              },
+              {
+                "TagName": "Item.Ammo.Pistol"
+              },
+              {
+                "TagName": "Item.Ammo.Shotgun"
+              }
+            ],
+            "QueryTokenStream": [
+              0,
+              1,
+              4,
+              2,
+              1,
+              1,
+              0,
+              2,
+              3,
+              1,
+              2,
+              3
+            ],
+            "AutoDescription": " ANY(  ANY( Item.Ammo.AssaultRifle ),  ALL( Item.Ammo.Rifle, Item.Ammo.Pistol, Item.Ammo.Shotgun ) )"
+          }
         }
       ]
     },
@@ -4188,6 +4222,24 @@
           "Inventories": [
             {
               "RowName": "Inventory_Turret_TV_Rock",
+              "DataTableName": "D_InventoryInfo"
+            }
+          ]
+        },
+        {
+          "Name": "Inventory_Turret_TV_Sniper",
+          "Inventories": [
+            {
+              "RowName": "Inventory_Turret_TV_Sniper",
+              "DataTableName": "D_InventoryInfo"
+            }
+          ]
+        },
+        {
+          "Name": "Inventory_Turret_TV_AssaultRifle",
+          "Inventories": [
+            {
+              "RowName": "Inventory_Turret_TV_AssaultRifle",
               "DataTableName": "D_InventoryInfo"
             }
           ]
@@ -4224,6 +4276,26 @@
           },
           "SlotTemplate": {
             "RowName": "TV_Rock_Ammo"
+          },
+          "StartingSlots": 4
+        },
+        {
+          "Name": "Inventory_Turret_TV_Sniper",
+          "InventoryID": {
+            "Value": "General"
+          },
+          "SlotTemplate": {
+            "RowName": "Any_Sniper_Ammo"
+          },
+          "StartingSlots": 4
+        },
+        {
+          "Name": "Inventory_Turret_TV_AssaultRifle",
+          "InventoryID": {
+            "Value": "General"
+          },
+          "SlotTemplate": {
+            "RowName": "TV_AssaultRifle_Ammo"
           },
           "StartingSlots": 4
         }

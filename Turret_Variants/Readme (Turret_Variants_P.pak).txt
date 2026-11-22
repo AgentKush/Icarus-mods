@@ -1,6 +1,6 @@
 Turret_Variants_P.pak
 ----------------------------------------------------------------------
-Mod Version: 3.7.2
+Mod Version: 3.7.3
 
 Author: AgentKush
 
@@ -12,6 +12,19 @@ Mod Type: EXMOD
 Adds 15 new automated turret variants with unique characteristics. v3.0: LOS fix PAK + proper ammo type matching (arrows, bolts, javelins, stones, biofuel) + tighter targeting.
 
 
+
+Ver 3.7.3
+The Sniper and Heavy Sniper turrets now load 12.7mm rounds, and the Assault Rifle and Storm
+turrets load 5.56mm rounds. All four used the game's rifle turret ammo slot, which only takes
+7.62mm rounds and the universal EDS round, so the two snipers couldn't be loaded at all and the two
+AR turrets took only EDS. Each pair now has its own slot: the snipers take every 12.7mm round,
+including the explosive one that Agent's Hidden Things or Ammo Crafting Overhaul adds (the Ver
+3.7.2 note said it already loaded; it didn't), and the AR turrets take every 5.56mm round plus EDS.
+A turret holds one ammo type at a time, so take any EDS out of an Assault Rifle or Storm turret
+before loading 5.56mm. Turrets already placed pick up the new slots when the save loads, and
+nothing in them is lost.
+Known issue: the Flamethrower turret can't fire (it hasn't since Ver 3.0, when its ammo became
+Biofuel with no way to fill it). Ver 3.7.4 fixes it.
 
 Ver 3.7.2
 The 15 turret blueprints no longer overlap other blueprints in the T4 Fabricator tech tree. A game
@@ -74,9 +87,9 @@ Initial 15-variant release.
   Crafting-D_ProcessorRecipes   (15 entries)
   Traits-D_Durable              (1 entries)
   Tools-D_ValidAmmoTypes        (9 entries)
-  Tags-D_TagQueries             (2 entries)
-  Traits-D_Inventory            (3 entries)
-  Inventory-D_InventoryInfo     (3 entries)
+  Tags-D_TagQueries             (3 entries)
+  Traits-D_Inventory            (5 entries)
+  Inventory-D_InventoryInfo     (5 entries)
 
 ## Installation:
   1. Install JimK72's Icarus Mod Manager

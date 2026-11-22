@@ -2,7 +2,7 @@
 
 # Turret Variants
 
-[![Version](https://img.shields.io/badge/v3.7.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v3.7.3-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/PAK%20%2B%20EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=unrealengine&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -76,6 +76,7 @@ Copy `Turret_Variants_LOS_Fix_P.pak` to:
 - **Flamethrower** — 40-shot stream, area denial. Range: 15m. Ammo: Biofuel
 
 ## Version History
+- **v3.7.3** — The Sniper and Heavy Sniper turrets now load 12.7mm rounds, and the Assault Rifle and Storm turrets load 5.56mm rounds. All four used the game's rifle turret ammo slot, which only takes 7.62mm rounds and the universal EDS round, so the two snipers couldn't be loaded at all and the two AR turrets took only EDS. Each pair now has its own slot: the snipers take every 12.7mm round, including the explosive one that Agent's Hidden Things or Ammo Crafting Overhaul adds (the v3.7.2 note said it already loaded; it didn't), and the AR turrets take every 5.56mm round plus EDS. A turret holds one ammo type at a time, so take any EDS out of an Assault Rifle or Storm turret before loading 5.56mm. Turrets already placed pick up the new slots when the save loads, and nothing in them is lost. Known issue: the Flamethrower turret can't fire (it hasn't since v3.0, when its ammo became Biofuel with no way to fill it); v3.7.4 fixes it.
 - **v3.7.2** — The 15 turret blueprints no longer overlap other blueprints in the T4 Fabricator tech tree. A game update put the T4 Carpentry Bench and the Metal Grate Floor and Stair where 7 of them sat, so all 15 now sit together past the end of the game's own nodes, in the same two rows, with the same unlocks. The ammo lists were checked against the game too: each is an exact copy of the game's current list. v3.6 called `Scyther_Throwing_Spear` a DLC spear; it is the unreleased Marrowraith Javelin. It, the Marrowraith arrow and bolt and the explosive 12.7mm round load into these turrets once Agent's Hidden Things (or, for the round, Ammo Crafting Overhaul 1.2.2) adds them. The game's lists also name 6 other unreleased arrows and bolts, which do nothing until an item exists.
 - **v3.7.1** — New icon and banner, drawn from the mod's live data. No gameplay change.
 - **v3.7** — Arc-projectile turret balance pass (contributed by **asconley**): trimmed the Crossbow (55→50m), Bow (60→55m), Javelin (70→65m) and Rapid Crossbow (45→40m) ranges so the gravity-affected shots drop onto the target instead of sailing past, and boosted the Javelin's launch force so spears reach their listed range.
@@ -102,8 +103,8 @@ Copy `Turret_Variants_LOS_Fix_P.pak` to:
 - D_ProcessorRecipes (15 entries)
 - D_Durable (1 entry)
 - D_ValidAmmoTypes (9 self-contained `TV_` ammo categories)
-- D_TagQueries (2 entries — thrown-spear + stone slot filters)
-- D_Inventory / D_InventoryInfo (3 entries — custom turret ammo slots)
+- D_TagQueries (3 entries — thrown-spear, stone and 5.56mm slot filters)
+- D_Inventory / D_InventoryInfo (5 entries — custom turret ammo slots)
 
 ## Files
 - `Turret_Variants.EXMOD` — Data table modifications
