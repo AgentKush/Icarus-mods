@@ -1,6 +1,6 @@
 Hardcore_Rebalance_Pack_P.pak
 ----------------------------------------------------------------------
-Mod Version: 2.2.2
+Mod Version: 2.2.3
 
 Author: AgentKush
 
@@ -38,6 +38,7 @@ Requires JimK72's Icarus Mod Manager: https://github.com/Jimk72/Icarus_Software
   Experience-D_ExperienceEvents (162 entries) - XP rewards
   Horde-D_HordeWave        (21 entries) - Horde wave compositions
   Items-D_ItemRewards        (8 entries) - Bigger boss loot
+  Items-D_ItemsStatic        (1 entries) - The Slugger's item row, for the Slug boss drop
   Modifiers-D_AfflictionChance (22 entries) - Affliction chances/durations
   Prospects-D_ProspectList (197 entries) - Difficulty tiers per map
   Stats-D_ProspectStats     (27 entries) - Difficulty stat modifiers
@@ -111,6 +112,10 @@ Requires JimK72's Icarus Mod Manager: https://github.com/Jimk72/Icarus_Software
   3. Import via Mod Manager
 
 ## Changelog:
+  v2.2.3 - The Hammerhead Slug boss's 4% Slugger drop works without Agent's BioLab. The Slugger
+           is a legendary the game never finished: it had no item row, so the drop gave a broken
+           item with a missing icon. The mod now adds the same row as Agent's BioLab 2.1, built
+           from the game's own Slugger parts: it fires slime from a 30 L water tank, 1 L a shot
   v2.2.2 - Creature AI blueprint (BP_IcarusNPCGOAPController) rebuilt from the 19 November 2026
            game files with only this mod's 3 changes: sight 17000 (was 10000), lose-sight 180000
            (was 135000), hearing 25500 (was 15000). The old copy was from February 2026 and undid

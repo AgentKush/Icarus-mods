@@ -1,8 +1,8 @@
 {
   "name": "Hardcore Rebalance Pack",
   "author": "AgentKush",
-  "version": "2.2.2",
-  "description": "v2.2.2: Creature AI blueprint rebuilt from the 19 November 2026 game files, keeping the boosted sight and hearing. The old copy undid 3 later game changes.",
+  "version": "2.2.3",
+  "description": "v2.2.3: The Hammerhead Slug boss's 4% Slugger drop now works without Agent's BioLab: adds the item row the game left out.",
   "fileName": "Hardcore_Rebalance_Pack",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Hardcore_Rebalance_Pack.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Hardcore_Rebalance_Pack/README.md",
@@ -60801,6 +60801,115 @@
             "(Value=\"BaseFireDamageResistance_%\")": -100,
             "(Value=\"BaseMaximumHealth_+%\")": 200,
             "(Value=\"BaseMeleeDamage_+%\")": 90
+          }
+        }
+      ]
+    },
+    {
+      "CurrentFile": "Items-D_ItemsStatic.json",
+      "File_Items": [
+        {
+          "Name": "LegendaryWeapon_SlugLauncher",
+          "Meshable": {
+            "RowName": "Mesh_LegendaryWeapon_SlugLauncher"
+          },
+          "Itemable": {
+            "RowName": "Item_LegendaryWeapon_SlugLauncher"
+          },
+          "Interactable": {
+            "RowName": "Item"
+          },
+          "Focusable": {
+            "RowName": "Focusable_LegendaryWeapon_SlugLauncher"
+          },
+          "Highlightable": {
+            "RowName": "Generic"
+          },
+          "Actionable": {
+            "RowName": "SlugLauncher"
+          },
+          "Usable": {
+            "RowName": "Repair"
+          },
+          "Fillable": {
+            "RowName": "Fillable_Water_30L"
+          },
+          "Durable": {
+            "RowName": "LegendaryWeapon_SlugLauncher"
+          },
+          "Decayable": {
+            "RowName": "Decay_General"
+          },
+          "Audio": {
+            "RowName": "LegendaryItem"
+          },
+          "FirearmData": {
+            "RowName": "SlugLauncher"
+          },
+          "AdditionalStats": {
+            "(Value=\"BaseFirearmFillablePerShot_+\")": 1000
+          },
+          "Manual_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta"
+              },
+              {
+                "TagName": "Item.Weapon.Launcher"
+              },
+              {
+                "TagName": "Item.Fillable.Water.NoAlteration"
+              },
+              {
+                "TagName": "Item.Fillable.Water.NoDrink"
+              }
+            ]
+          },
+          "Generated_Tags": {
+            "GameplayTags": [
+              {
+                "TagName": "Item.Meta"
+              },
+              {
+                "TagName": "Item.Weapon.Launcher"
+              },
+              {
+                "TagName": "Item.Fillable.Water.NoAlteration"
+              },
+              {
+                "TagName": "Item.Fillable.Water.NoDrink"
+              },
+              {
+                "TagName": "Traits.Meshable"
+              },
+              {
+                "TagName": "Traits.Itemable"
+              },
+              {
+                "TagName": "Traits.Interactable"
+              },
+              {
+                "TagName": "Traits.Highlightable"
+              },
+              {
+                "TagName": "Traits.Actionable"
+              },
+              {
+                "TagName": "Traits.Usable"
+              },
+              {
+                "TagName": "Traits.Fillable"
+              },
+              {
+                "TagName": "Traits.Durable"
+              }
+            ],
+            "ParentTags": []
+          },
+          "Metadata": {
+            "RequiredFeatureLevel": {
+              "RowName": "GreatHunts"
+            }
           }
         }
       ]

@@ -5,7 +5,7 @@
 # AgentKush's Icarus Mods
 
 [![Mods](https://img.shields.io/badge/56_Mods-Ready_to_Play-0d1117?style=for-the-badge&logo=steam&logoColor=white&labelColor=1a1e2e)]()
-[![Data Entries](https://img.shields.io/badge/42%2C357-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
+[![Data Entries](https://img.shields.io/badge/42%2C358-Data_Entries_Modified-0d1117?style=for-the-badge&logo=databricks&logoColor=white&labelColor=1a1e2e)]()
 [![Recipes](https://img.shields.io/badge/19%2C239-Recipes-0d1117?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a1e2e)]()
 [![Free](https://img.shields.io/badge/100%25-Free_to_Use-0d1117?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=1a1e2e)]()
 
@@ -133,7 +133,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 
 | Mod | Ver | Description |
 |-----|:---:|-------------|
-| [💀 Hardcore Rebalance Pack](Hardcore_Rebalance_Pack) | `2.2.2` | 🔧 4-tier creature scaling, 21 alpha hunters that roam the wild and drop exotics, rebalanced horde waves, deadly weather, harsher survival |
+| [💀 Hardcore Rebalance Pack](Hardcore_Rebalance_Pack) | `2.2.3` | 🔧 4-tier creature scaling, 21 alpha hunters that roam the wild and drop exotics, rebalanced horde waves, deadly weather, harsher survival |
 | [🦁 Creature Difficulty Scaling](Creature_Difficulty_Scaling) | `2.4.1` | Full creature overhaul for level 500 cap · 161 spawn zones rescaled · 136 creatures buffed by tier |
 | [📈 Performance Optimizer](Performance_Optimizer) | `2.2.1` | 🔧 FPS boost via PAK engine overrides (foliage/shadows/fog/LOD) + data table changes |
 | [🌀 Absolute Chaos - Core](AbsoluteChaos_Core) | `0.2.3` | Total overhaul mod — early access core module |

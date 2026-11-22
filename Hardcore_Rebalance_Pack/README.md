@@ -2,7 +2,7 @@
 
 # Hardcore Rebalance Pack
 
-[![Version](https://img.shields.io/badge/v2.2.2-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v2.2.3-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/PAK%20%2B%20EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=unrealengine&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -41,6 +41,7 @@ Transforms Icarus into a brutal survival experience. Every difficulty tier is re
 | D_HordeWave | 21 | Horde event wave compositions |
 | D_EpicCreatures | 21 | Custom alpha hunters - boss-tier roaming predators that drop exotics |
 | D_ItemRewards | 8 | Bigger boss loot (Alpha Wolf, Scorpion, Hammerhead Slug, Ice Mammoth, Rock Golem, Great Ape, Sandworm) and a richer exotic-creature drop |
+| D_ItemsStatic | 1 | The Slugger's item row, so the Hammerhead Slug boss's 4% Slugger drop is a working legendary |
 
 ### 21 Alpha Hunters
 
@@ -125,6 +126,9 @@ Boss-tier versions of ordinary creatures that roam the world. Each one spawns as
 For the full hardcore experience and the hardest gameplay possible, install **Creature_Difficulty_Scaling (CDS) v2.2+** alongside this mod. CDS adds level-500 spawn zone scaling, per-player-level stat scaling rules, and tame/mount survival buffs so your pets can actually hold up against HRP's tougher creatures. Running HRP + CDS together delivers the most punishing Icarus experience possible — see the v1.18 changelog for overlap details.
 
 ## Changelog
+
+### v2.2.3 (2026-11-22)
+- **The Hammerhead Slug boss's 4% Slugger drop works without Agent's BioLab.** The Slugger is a Great Hunts legendary the game never finished. It has its icon, gun, water tank, firing logic and slime projectile, but no item row, so the drop gave a broken item with a missing icon. The mod now adds the same `LegendaryWeapon_SlugLauncher` row as Agent's BioLab 2.1, built from the game's own Slugger parts. It fires slime from a 30 L water tank at 1 L a shot. With both mods installed, both send the identical row.
 
 ### v2.2.2 (2026-11-21)
 **Creature AI blueprint rebuilt for the 19 November 2026 game (build 26636089).**
