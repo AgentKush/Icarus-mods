@@ -35,7 +35,7 @@ A comprehensive mod collection for **[Icarus: First Cohort](https://store.steamp
 | Mod | Ver | Description |
 |-----|:---:|-------------|
 | [🧬 Agent's BioLab](Agents_BioLab) | `2.1` | All 11 legendary weapons in the Workshop — the 9 the Bio Lab sells, plus Frostbreaker and the unreleased Slugger |
-| [🗝️ Agent's Hidden Things](Agents_Hidden_Things) | `1.0` | 57 items the game never released, in one Workshop tab — Marrowraith, Thornet and Malformation gear, the MX-7 and more |
+| [🗝️ Agent's Hidden Things](Agents_Hidden_Things) | `1.1` | 57 items the game never released, in one Workshop tab — Marrowraith, Thornet and Malformation gear, the MX-7 and more |
 | [📦 Agent's Individual Item Kits](Agents_Individual_Item_Kits) | `5.6` | 2,729 individual item kits with real game icons — 20 categorized tabs · armor sorted by slot · 5-row layout |
 | [♻️ Workshop Recyclers](Workshop_Recyclers) | `5.9` | 2 recycling machines + Incinerator · 5,314 recipes · Returns processed materials — every item in the game covered |
 | [🔧 Dev Tools Kit](Dev_Tools_Kit) | `1.1.6` | 11 hidden developer tools — Thor's Hammer (fly mode), Transform Tool, and more. All free! |

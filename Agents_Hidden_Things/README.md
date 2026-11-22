@@ -2,7 +2,7 @@
 
 # Agent's Hidden Things
 
-[![Version](https://img.shields.io/badge/v1.0-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
+[![Version](https://img.shields.io/badge/v1.1-Version-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=github&logoColor=white)]()
 [![Author](https://img.shields.io/badge/AgentKush-Author-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=steam&logoColor=white)]()
 [![Type](https://img.shields.io/badge/EXMOD-Type-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=databricks&logoColor=white)]()
 [![Compatibility](https://img.shields.io/badge/All%20DLCs-Compatibility-0d1117?style=for-the-badge&labelColor=1a1e2e&logo=opensourceinitiative&logoColor=white)]()
@@ -20,7 +20,7 @@ Requires **[JimK72's Icarus Mod Manager](https://github.com/Jimk72/Icarus_Softwa
 Icarus has weapons, tools and gear in its files that players can never get: their models, icons and logic ship with the game, but no recipe, shop or reward hands them out, and most are missing the item row that turns them into a usable item. Agent's Hidden Things adds those missing rows and puts every item that works into one Workshop tab, **Agent's Hidden Things**.
 
 - **Direct (17 items):** gear the game made for the Workshop is bought and replicated like any Workshop item, at the game's own prices where the game set one.
-- **Kit (40 items):** everything else comes as a kit, like Agents Individual Item Kits. Buy it in the Workshop, take it down with you and use it to get the item. The Workshop shows no stats for a kit, so each kit's description says what its item does. Each kit costs what Item Kits charges for the item's closest released twin.
+- **Kit (40 items):** everything else comes as a kit, like Agents Individual Item Kits. Buy it in the Workshop, take it down with you and use it to get the item. The kit's tooltip shows its item's stats, and its description says what the item does. Each kit costs what Item Kits charges for the item's closest released twin.
 
 Every value comes from the game's own data. Where the game never set one, the item copies its closest released twin, and the notes below say so.
 
@@ -209,6 +209,7 @@ Besides the new item rows, the mod fixes the unreleased rows these items use. No
 
 | Version | Changes |
 |---------|---------|
+| 1.1 | Kits now show their item's stats in the Workshop tooltip, like the direct items: weapons, ammo, tools, backpacks, modules, saddles, attachments and trophies. The kit carries the item's stat rows only for the tooltip; a kit still can't be equipped, fired or swung. |
 | 1.0 | Initial release: 57 unreleased items in one Workshop tab, with the item rows and fixes they were missing. |
 ---
 

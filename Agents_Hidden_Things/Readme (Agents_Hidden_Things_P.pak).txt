@@ -1,6 +1,6 @@
 Agents_Hidden_Things_P.pak
 ----------------------------------------------------------------------
-Mod Version: 1.0
+Mod Version: 1.1
 
 Author: AgentKush
 
@@ -15,6 +15,12 @@ Tri-Barrel launchers, CHAC guns, Radiation and EMP grenades, Camo and Synthetic 
 genetic injectors, Shengong and Xigo workshop tools and more. Workshop gear is bought
 directly; everything else comes as a kit you open after landing.
 
+
+Ver 1.1
+Kits now show their item's stats in the Workshop tooltip, like the direct items: weapons, ammo,
+tools, backpacks, modules, saddles, attachments and trophies. The kit carries the item's stat rows
+only for the tooltip; a kit still can't be equipped, fired or swung. The two injectors and the
+creature parts keep the plain description.
 
 Ver 1.0
 Initial release. 57 unreleased items (17 bought directly, 40 as kits), with the item rows

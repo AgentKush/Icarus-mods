@@ -1,8 +1,8 @@
 {
   "name": "Agent's Hidden Things",
   "author": "AgentKush",
-  "version": "1.0",
-  "description": "v1.0: Initial release. 57 unreleased items in one Workshop tab.",
+  "version": "1.1",
+  "description": "v1.1: Kits now show their item's real stats in the Workshop tooltip, like the direct items.",
   "fileName": "Agents_Hidden_Things",
   "imageURL": "https://github.com/AgentKush/Icarus-mods/raw/main/icons/Agents_Hidden_Things.png",
   "readmeURL": "https://github.com/AgentKush/Icarus-mods/raw/main/Agents_Hidden_Things/README.md",
@@ -4160,6 +4160,12 @@
           "Audio": {
             "RowName": "Default"
           },
+          "FirearmData": {
+            "RowName": "T4_Launcher"
+          },
+          "AdditionalStats": {
+            "(Value=\"ProjectilePayloadDeployOnImpact_?\")": 1
+          },
           "Manual_Tags": {
             "GameplayTags": [
               {
@@ -4219,6 +4225,12 @@
           },
           "Audio": {
             "RowName": "Default"
+          },
+          "ToolDamage": {
+            "RowName": "Scyther_Spear"
+          },
+          "AdditionalStats": {
+            "(Value=\"BaseSpearCriticalDamage_+%\")": 25
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -4280,6 +4292,15 @@
           "Audio": {
             "RowName": "Default"
           },
+          "Ballistic": {
+            "RowName": "Scyther_Spear"
+          },
+          "RangedWeaponData": {
+            "RowName": "Throwing_Spear"
+          },
+          "AdditionalStats": {
+            "(Value=\"BaseCriticalDamage_+%\")": 25
+          },
           "Manual_Tags": {
             "GameplayTags": [
               {
@@ -4339,6 +4360,12 @@
           },
           "Audio": {
             "RowName": "Default"
+          },
+          "ToolDamage": {
+            "RowName": "Scyther_Pickaxe"
+          },
+          "AdditionalStats": {
+            "(Value=\"BaseArmorDamageModifier_+%\")": 500
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -4400,6 +4427,12 @@
           "Audio": {
             "RowName": "Default"
           },
+          "Ballistic": {
+            "RowName": "Scyther_Arrow"
+          },
+          "AdditionalStats": {
+            "(Value=\"BaseCriticalDamage_+%\")": 20
+          },
           "Manual_Tags": {
             "GameplayTags": [
               {
@@ -4459,6 +4492,9 @@
           },
           "Audio": {
             "RowName": "Default"
+          },
+          "Ballistic": {
+            "RowName": "Scyther_Bolt"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -4580,6 +4616,9 @@
           "Audio": {
             "RowName": "Default"
           },
+          "AdditionalStats": {
+            "(Value=\"BaseComfortLevel_+\")": 8
+          },
           "Manual_Tags": {
             "GameplayTags": [
               {
@@ -4639,6 +4678,9 @@
           },
           "Audio": {
             "RowName": "Default"
+          },
+          "AdditionalStats": {
+            "(Value=\"BaseComfortLevel_+\")": 9
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -4820,6 +4862,9 @@
           "Audio": {
             "RowName": "Default"
           },
+          "Equippable": {
+            "RowName": "Module_Scyther"
+          },
           "Manual_Tags": {
             "GameplayTags": [
               {
@@ -4879,6 +4924,9 @@
           },
           "Audio": {
             "RowName": "Default"
+          },
+          "Attachments": {
+            "RowName": "Scyther_Attachment"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -4940,6 +4988,12 @@
           "Audio": {
             "RowName": "Default"
           },
+          "Ballistic": {
+            "RowName": "Hornet_Knife"
+          },
+          "RangedWeaponData": {
+            "RowName": "Knife"
+          },
           "Manual_Tags": {
             "GameplayTags": [
               {
@@ -4999,6 +5053,9 @@
           },
           "Audio": {
             "RowName": "Default"
+          },
+          "FirearmData": {
+            "RowName": "Hornet_Pistol"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -5060,6 +5117,12 @@
           "Audio": {
             "RowName": "Default"
           },
+          "Equippable": {
+            "RowName": "Hornet_Backpack"
+          },
+          "Armour": {
+            "RowName": "Hornet_Backpack"
+          },
           "Manual_Tags": {
             "GameplayTags": [
               {
@@ -5119,6 +5182,9 @@
           },
           "Audio": {
             "RowName": "Default"
+          },
+          "Equippable": {
+            "RowName": "Module_Hornet"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -5180,6 +5246,9 @@
           "Audio": {
             "RowName": "Default"
           },
+          "Attachments": {
+            "RowName": "Hornet_Attachment"
+          },
           "Manual_Tags": {
             "GameplayTags": [
               {
@@ -5239,6 +5308,9 @@
           },
           "Audio": {
             "RowName": "Default"
+          },
+          "AdditionalStats": {
+            "(Value=\"BaseComfortLevel_+\")": 8
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -5420,6 +5492,9 @@
           "Audio": {
             "RowName": "Default"
           },
+          "FirearmData": {
+            "RowName": "Plant_Boss_Bow"
+          },
           "Manual_Tags": {
             "GameplayTags": [
               {
@@ -5479,6 +5554,12 @@
           },
           "Audio": {
             "RowName": "Default"
+          },
+          "ToolDamage": {
+            "RowName": "Cat_Boss_Gauntlets"
+          },
+          "Armour": {
+            "RowName": "Cat_Boss_Gauntlets"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -5600,6 +5681,9 @@
           "Audio": {
             "RowName": "Default"
           },
+          "Equippable": {
+            "RowName": "Module_Cat_Boss"
+          },
           "Manual_Tags": {
             "GameplayTags": [
               {
@@ -5659,6 +5743,13 @@
           },
           "Audio": {
             "RowName": "Default"
+          },
+          "FirearmData": {
+            "RowName": "Radboss_Crossbow"
+          },
+          "AdditionalStats": {
+            "(Value=\"BaseAttacksCauseSlow_%\")": 25,
+            "(Value=\"BaseHardenedPointPenetration_%\")": 100
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -5720,6 +5811,15 @@
           "Audio": {
             "RowName": "Default"
           },
+          "RangedWeaponData": {
+            "RowName": "Throwing_Spear"
+          },
+          "AdditionalStats": {
+            "(Value=\"BaseFishingTime_+%\")": 20,
+            "(Value=\"BaseChanceToCatchUniqueFish_+%\")": 20,
+            "(Value=\"BaseAnimalThreatModifier_+%\")": -15,
+            "(Value=\"BaseFishingCaptureZoneSize_+%\")": 20
+          },
           "Manual_Tags": {
             "GameplayTags": [
               {
@@ -5780,6 +5880,9 @@
           "Audio": {
             "RowName": "Default"
           },
+          "Equippable": {
+            "RowName": "Module_RadBoss"
+          },
           "Manual_Tags": {
             "GameplayTags": [
               {
@@ -5839,6 +5942,9 @@
           },
           "Audio": {
             "RowName": "Default"
+          },
+          "Equippable": {
+            "RowName": "Saddle_Radiation"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -5960,6 +6066,9 @@
           "Audio": {
             "RowName": "Default"
           },
+          "AdditionalStats": {
+            "(Value=\"BaseComfortLevel_+\")": 6
+          },
           "Manual_Tags": {
             "GameplayTags": [
               {
@@ -6019,6 +6128,9 @@
           },
           "Audio": {
             "RowName": "Default"
+          },
+          "Equippable": {
+            "RowName": "Saddle_Mammoth_Heavy"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -6080,6 +6192,16 @@
           "Audio": {
             "RowName": "Default"
           },
+          "Ballistic": {
+            "RowName": "Radiation_Grenade"
+          },
+          "RangedWeaponData": {
+            "RowName": "Grenade"
+          },
+          "AdditionalStats": {
+            "(Value=\"BaseExplosiveDamage_+\")": 750,
+            "(Value=\"BaseExplosiveDamageRadius_+\")": 1250
+          },
           "Manual_Tags": {
             "GameplayTags": [
               {
@@ -6139,6 +6261,12 @@
           },
           "Audio": {
             "RowName": "Default"
+          },
+          "Ballistic": {
+            "RowName": "EMP_Grenade"
+          },
+          "RangedWeaponData": {
+            "RowName": "Grenade"
           },
           "Manual_Tags": {
             "GameplayTags": [
@@ -6200,6 +6328,12 @@
           "Audio": {
             "RowName": "Default"
           },
+          "Equippable": {
+            "RowName": "T4_Backpack"
+          },
+          "Armour": {
+            "RowName": "T4_Backpack"
+          },
           "Manual_Tags": {
             "GameplayTags": [
               {
@@ -6259,6 +6393,12 @@
           },
           "Audio": {
             "RowName": "Default"
+          },
+          "Equippable": {
+            "RowName": "T5_Backpack"
+          },
+          "Armour": {
+            "RowName": "T5_Backpack"
           },
           "Manual_Tags": {
             "GameplayTags": [
